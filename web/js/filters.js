@@ -4,7 +4,7 @@ const FIELDS = {
   q: "q", region: "f-region", district: "f-district", dev: "f-dev", kind: "f-kind", status: "f-status",
   pmin: "f-pmin", pmax: "f-pmax", budget: "f-budget", year: "f-year",
   deal: "f-deal", priced: "f-priced", tax: "f-tax", inView: "f-view", sort: "sort",
-  info: "f-info", source: "f-source", hideSold: "f-hidesold", precise: "f-precise",
+  info: "f-info", source: "f-source", hideSold: "f-hidesold", precise: "f-precise", grade: "f-grade", clean: "f-clean",
 };
 
 function fillSelect(el, values, allLabel, counts) {
@@ -59,14 +59,14 @@ export function readFilters() {
     q: v("q").toLowerCase(), region: v("region"), district: v("district"), dev: v("dev"), kind: v("kind"),
     status: v("status"), pmin: n("pmin"), pmax: n("pmax"), budget: n("budget"), year: n("year"),
     deal: c("deal"), priced: c("priced"), tax: c("tax"), inView: c("inView"), sort: v("sort"),
-    info: n("info"), source: v("source"), hideSold: c("hideSold"), precise: c("precise"),
+    info: n("info"), source: v("source"), hideSold: c("hideSold"), precise: c("precise"), grade: v("grade"), clean: c("clean"),
   };
 }
 
 export function activeFilterCount(f) {
-  return ["region", "district", "dev", "kind", "status", "source"].filter((k) => f[k]).length
+  return ["region", "district", "dev", "kind", "status", "source", "grade"].filter((k) => f[k]).length
     + ["pmin", "pmax", "budget", "year", "info"].filter((k) => f[k] != null).length
-    + ["deal", "priced", "tax", "inView", "hideSold", "precise"].filter((k) => f[k]).length;
+    + ["deal", "priced", "tax", "inView", "hideSold", "precise", "clean"].filter((k) => f[k]).length;
 }
 
 export function resetFilters() {
@@ -107,6 +107,8 @@ export function applyFilters(projects, f, bounds) {
     if (f.source && !(p.sources || []).some((s) => s.name === f.source)) return false;
     if (f.hideSold && p.sold_out) return false;
     if (f.precise && (p.geo_precision === "district" || p.geo_precision === "city")) return false;
+    if (f.grade && !(p.developer_rep && p.developer_rep.grade <= f.grade)) return false;
+    if (f.clean && (p.developer_rep?.flags || []).some((x) => /bankruptcy|criminal|lawsuit|negative news/.test(x))) return false;
     if (f.inView && bounds && !bounds.contains([p.lng, p.lat])) return false;
     return true;
   });
@@ -121,6 +123,7 @@ const SORTS = {
   soon: (a, b) => nullsLast(a.completion, b.completion, (x, y) => x.localeCompare(y)),
   pop: (a, b) => nullsLast(a.popularity, b.popularity, (x, y) => y - x),
   name: (a, b) => a.title.localeCompare(b.title),
+  rep: (a, b) => nullsLast(a.developer_rep?.score, b.developer_rep?.score, (x, y) => y - x),
   info: (a, b) => nullsLast(a.info_score, b.info_score, (x, y) => y - x),
 };
 

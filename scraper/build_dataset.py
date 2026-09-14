@@ -16,8 +16,10 @@ from pathlib import Path
 from urllib.parse import urlparse
 
 from geo_admin import locate, mentioned_place, normalize_town, province_hint
+from geo_audit import location_consensus
 from geocode import geocode, geocode_display
 from price_audit import implied_observation, observation, reconcile
+from reputation import load_research, public_research, score_developer
 
 ROOT = Path(__file__).resolve().parent.parent
 KP = ROOT / "web" / "data" / "karucapatoxic.json"
@@ -191,6 +193,42 @@ def construction_stage(p: dict, today: date | None = None) -> None:
     p["stage"], p["stage_estimated"] = stage, estimated
 
 
+def load_stage_verifications() -> dict:
+    out = {}
+    for f in sorted((ROOT / "scraper").glob("stage_verified_*.json")):
+        for v in json.loads(f.read_text(encoding="utf-8")):
+            if isinstance(v, dict) and v.get("id"):
+                out[v["id"]] = v
+    return out
+
+
+def _iso(value: str | None, end: bool) -> str | None:
+    if not isinstance(value, str) or not re.match(r"\d{4}", value):
+        return None
+    if re.fullmatch(r"\d{4}", value):
+        return f"{value}-12-31" if end else f"{value}-01-01"
+    if re.fullmatch(r"\d{4}-\d{2}", value):
+        return f"{value}-28" if end else f"{value}-01"
+    return value[:10]
+
+
+def apply_stage_verification(p: dict, checks: dict) -> None:
+    """Override the inferred construction stage with a manual check (scraper/stage_verified_*.json)."""
+    v = next((checks[i] for i in [p["id"], *p.get("merged_ids", [])] if i in checks), None)
+    if not v or v.get("stage") in (None, "unknown"):
+        return
+    if v["stage"] == "not a project":
+        p["not_a_project"] = True
+        return
+    p["stage"], p["stage_estimated"] = v["stage"], v.get("confidence") == "low"
+    p["start"] = _iso(v.get("start"), end=False) or p.get("start")
+    if _iso(v.get("completion"), end=True):
+        p["completion"] = _iso(v.get("completion"), end=True)
+        p["completion_year"] = int(p["completion"][:4])
+    p["status"] = {"finished": "completed", "not started": "planned"}.get(v["stage"], "under construction")
+    p["stage_check"] = {k: v.get(k) for k in ("confidence", "evidence_url", "evidence", "imagery", "notes") if v.get(k)}
+
+
 def status_of(completion: str | None) -> str:
     if not completion:
         return "unknown"
@@ -237,6 +275,7 @@ def from_karucapatoxic(p: dict, rate: float) -> dict:
             for x in p.get("prices_by_rooms") or []
         ],
         "geo_precision": "exact",
+        "geo_obs": [{"source": "karucapatoxic.am", "lat": p["lat"], "lng": p["lng"], "address": p.get("address")}] if p.get("lat") is not None else [],
         "price_obs": [o for o in (
             observation("karucapatoxic.am", **({"usd": num(p.get("price_m2_min"))} if lo_usd == num(p.get("price_m2_min")) else {"amd": num(p.get("price_m2_min"))}),
                         raw=f"{p.get('price_m2_min')} {cur or ''}/m²") if num(p.get("price_m2_min")) else None,
@@ -292,6 +331,41 @@ def apply_manual_merges(projects: list[dict]) -> tuple[list[dict], int]:
         drop = {id(m) for m in members if m is not base}
         projects = [p for p in projects if id(p) not in drop]
     return projects, merged
+
+
+def apply_location_verifications(projects: list[dict]) -> tuple[list[dict], list[str]]:
+    """Apply manual location checks (scraper/geo_verified_*.json); drop projects with no reliable location."""
+    checks = {}
+    for f in sorted((ROOT / "scraper").glob("geo_verified_*.json")):
+        for v in json.loads(f.read_text(encoding="utf-8")):
+            if isinstance(v, dict) and v.get("id"):
+                checks[v["id"]] = v
+    kept, unlocated = [], []
+    for p in projects:
+        v = next((checks[i] for i in [p["id"], *p.get("merged_ids", [])] if i in checks), None)
+        if not v:
+            kept.append(p)
+            continue
+        verdict = v.get("verdict")
+        lat, lng = v.get("lat"), v.get("lng")
+        valid = isinstance(lat, (int, float)) and isinstance(lng, (int, float)) and 38.8 <= lat <= 41.4 and 43.3 <= lng <= 46.7
+        if v.get("address") and verdict in ("moved", "unlocatable", "correct"):
+            p["address"] = v["address"]
+        if verdict == "correct":
+            p["location_note"] = "location verified on source page"
+            if p.get("geo_precision") in ("district", "city"):
+                p["geo_precision"] = "address"
+        elif valid:
+            moved = round(haversine_m(p, {"lat": lat, "lng": lng}))
+            p["lat"], p["lng"] = lat, lng
+            p["geo_precision"] = v.get("precision") or "address"
+            p["location_note"] = f"location corrected ({moved} m){': ' + v['evidence'] if v.get('evidence') else ''}"
+        else:
+            unlocated.append(p["title"])
+            continue
+        p["location_check"] = {k: v.get(k) for k in ("verdict", "evidence_url", "evidence", "notes") if v.get(k)}
+        kept.append(p)
+    return kept, unlocated
 
 
 def fix_inconsistent_locations(projects: list[dict]) -> None:
@@ -410,6 +484,8 @@ def from_extra(p: dict, idx: int, rate: float) -> dict:
         "amd_m2_min": round(amd) if amd else None, "amd_m2_max": round(amd) if amd else None,
         "usd_from": None, "amd_from": None, "min_area_m2": None,
         "prices_by_rooms": rooms_from_extra(p.get("apartments"), rate),
+        "geo_obs": [{"source": SOURCE_NAMES.get(p.get("source"), p.get("source")), "lat": p["lat"], "lng": p["lng"], "address": p.get("address")}]
+        if isinstance(p.get("lat"), (int, float)) and isinstance(p.get("lng"), (int, float)) else [],
         "price_obs": [o for o in [
             observation(SOURCE_NAMES.get(p.get("source"), p.get("source")), usd=p.get("price_min_usd_m2"), amd=p.get("price_min_amd_m2"), raw=p.get("price_currency_raw") or None),
             *(implied_observation(SOURCE_NAMES.get(p.get("source"), p.get("source")), r.get("price_from"), r.get("area_min"), r.get("currency"),
@@ -518,6 +594,7 @@ def is_duplicate(a: dict, b: dict) -> bool:
 def merge_into(base: dict, other: dict) -> None:
     base["sources"].extend(other["sources"])
     base["price_obs"] = (base.get("price_obs") or []) + (other.get("price_obs") or [])
+    base["geo_obs"] = (base.get("geo_obs") or []) + (other.get("geo_obs") or [])
     other_desc = other.get("description")
     if other_desc and (not base.get("description") or GENERIC_DESC.match(base["description"])) and not base.get("description_site"):
         base["description_site"] = other_desc
@@ -596,6 +673,22 @@ def sanity_check_numbers(p: dict) -> None:
     if floors and max(floors) > 80:
         notes.append(f"floors '{p['floors']}' implausible — dropped")
         p["floors"] = None
+
+
+def add_reputation(projects: list[dict]) -> None:
+    """Attach developer reputation (score, grade, court/news summary) to every project of a named developer."""
+    research = load_research()
+    groups = defaultdict(list)
+    for p in projects:
+        groups[p["developer_group"]].append(p)
+    for name, members in groups.items():
+        if name == "Unknown developer" or name.endswith("(developer n/a)"):
+            continue
+        r = research.get(name)
+        rep = score_developer(members, r)
+        rep["research"] = public_research(r)
+        for p in members:
+            p["developer_rep"] = rep
 
 
 def add_benchmarks(projects: list[dict]) -> None:
@@ -744,7 +837,14 @@ def main() -> int:
             projects.append(cand)
             added += 1
     projects, manual_merged = apply_manual_merges(projects)
+    for p in projects:
+        c = location_consensus(p.get("geo_obs") or [])
+        if c and len(p.get("geo_obs") or []) >= 2:
+            p["lat"], p["lng"] = c["lat"], c["lng"]
+            p["geo_precision"] = "exact"
+            p["geo_spread_m"], p["geo_support"], p["geo_outliers"] = c["spread_m"], c["support"], c["outliers"]
     fix_inconsistent_locations(projects)
+    projects, unlocated = apply_location_verifications(projects)
     for p in projects:
         fallback = next((normalize_town(t) for t in (p.get("district"), p.get("region")) if normalize_town(t)), None)
         province, area = locate(p["lat"], p["lng"], fallback)
@@ -753,6 +853,7 @@ def main() -> int:
             p["region"], p["district"] = province, area or province
             if p["district"] and ARMENIAN.search(p["district"]):
                 p["district"] = latin_name(p["district"])
+    stage_checks = load_stage_verifications()
     for p in projects:
         p["title"] = p.get("title") or p.get("title_ru") or p.get("title_am") or p.get("address") or "Untitled project"
         latinize_names(p)
@@ -769,9 +870,11 @@ def main() -> int:
         p["status"] = status_of(p.get("completion")) if p.get("completion") else (hint or "unknown")
         p["completion_year"] = int(p["completion"][:4]) if p.get("completion") else None
         construction_stage(p)
+        apply_stage_verification(p, stage_checks)
         if re.search(r"company-name|example\.|yourmail|email@", p.get("email") or "", re.I):
             p["email"] = None
         p["social"] = {k: v.strip() for k, v in (p.get("social") or {}).items() if isinstance(v, str) and v.strip()}
+    projects = [p for p in projects if not p.get("not_a_project")]
     sites = json.loads(ENRICH.read_text(encoding="utf-8")) if ENRICH.exists() else {}
     devs = load_developers()
     for p in projects:
@@ -790,9 +893,10 @@ def main() -> int:
             apply_price_verification(p, v, rate)
         sanity_check_numbers(p)
     add_benchmarks(projects)
+    add_reputation(projects)
     meta = {
         "generated": date.today().isoformat(), "amd_per_usd": round(rate, 2), "rate_time": rate_time,
-        "count": len(projects), "extra_added": added, "extra_merged": merged, "extra_skipped": skipped, "geocoded": geocoded, "manual_merged": manual_merged,
+        "count": len(projects), "extra_added": added, "extra_merged": merged, "extra_skipped": skipped, "geocoded": geocoded, "manual_merged": manual_merged, "unlocated": unlocated,
         "sources": sorted({s["name"] for p in projects for s in p["sources"] if s.get("name")}),
     }
     OUT.write_text(json.dumps({"meta": meta, "projects": projects}, ensure_ascii=False), encoding="utf-8")

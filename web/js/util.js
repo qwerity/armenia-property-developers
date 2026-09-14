@@ -42,7 +42,7 @@ export function quarter(iso) {
   return `Q${Math.floor(d.getUTCMonth() / 3) + 1} ${d.getUTCFullYear()}`;
 }
 
-const STAGE_LABEL = { finished: "Finished", "in progress": "In progress", "just started": "Just started", "not started": "Not yet started", unknown: "Stage unknown" };
+const STAGE_LABEL = { finished: "Finished", "in progress": "In progress", "just started": "Just started", "not started": "Not yet started", stalled: "Stalled / frozen", unknown: "Stage unknown" };
 
 /** Human label for a construction stage; appends "(est.)" when inferred from the completion date alone. */
 export function stageLabel(p) {

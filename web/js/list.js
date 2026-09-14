@@ -9,13 +9,21 @@ function dealBadge(p) {
   return `<span class="badge ${cls}" title="Starting $/m² vs. median of ${p.bench_n} projects in ${esc(where)}">${sign}${Math.abs(p.discount_pct)}% vs ${esc(where)}</span>`;
 }
 
+/** Developer reputation grade chip (A–E); "?" suffix when based on limited research data. */
+export function gradeBadge(p) {
+  const r = p.developer_rep;
+  if (!r) return "";
+  const warn = (r.flags || []).some((x) => /bankruptcy|criminal|lawsuit|negative news/.test(x));
+  return ` <span class="grade grade-${esc(r.grade)}" title="Developer rating ${r.score}/100${r.data === "limited" ? " (limited data)" : ""}${r.flags?.length ? " — " + esc(r.flags.join("; ")) : ""}">${esc(r.grade)}${r.data === "limited" ? "?" : ""}${warn ? " ⚠" : ""}</span>`;
+}
+
 function itemHtml(p, selectedId) {
   const img = p.images?.[0];
   return `<li class="item${p.id === selectedId ? " selected" : ""}" data-id="${esc(p.id)}" role="option" tabindex="0" aria-selected="${p.id === selectedId}">
     <div class="thumb" style="--c:${p.color}">${img ? `<img loading="lazy" referrerpolicy="no-referrer" src="${esc(img)}" data-pid="${esc(p.id)}" data-try="0" alt="">` : ""}</div>
     <div class="body">
       <div class="title">${esc(p.title)}${p.sold_out ? ' <span class="badge high">sold out</span>' : ""}</div>
-      <div class="sub"><span class="dot" style="background:${p.color}"></span>${esc(p.developer_group)}</div>
+      <div class="sub"><span class="dot" style="background:${p.color}"></span>${esc(p.developer_group)}${gradeBadge(p)}</div>
       <div class="sub muted">${esc([p.district, p.region].filter(Boolean).filter((v, i, a) => a.indexOf(v) === i).join(", "))} · <span class="stage stage-${esc((p.stage || "unknown").replace(" ", "-"))}">${esc(stageLabel(p))}</span>${p.stage !== "finished" && p.completion ? ` · ${esc(quarter(p.completion))}` : ""}</div>
       <div class="prices">
         <strong${p.price_confidence === "low" ? ' class="uncertain" title="Sources disagree on this price"' : ""}>${money(p.usd_m2_min, p.amd_m2_min, "/m²")}${p.price_confidence === "low" ? "?" : ""}</strong>

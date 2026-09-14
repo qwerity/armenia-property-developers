@@ -2464,5 +2464,27 @@
 "lng": 44.4427915,
 "type": "town",
 "display": "Masis, Masis community, Ararat Province, Armenia"
+},
+"ул. Гарегина Овсепяна, 46/7": null,
+"ул. Гарегина Овсепяна, 46/7, Armenia": null,
+"ул. Гарегина Овсепяна,, Armenia": null,
+"ул. Гарегина Овсепяна, Armenia": null,
+"Garegin Hovsepyan St 50/2, Armenia": {
+"lat": 40.1768798,
+"lng": 44.5388184,
+"type": "road",
+"display": "Garegin Hovsepyan Street, Norq Marash, Yerevan, 0047, Armenia"
+},
+"Garegin Hovsepyan St 24/4, Armenia": {
+"lat": 40.1768798,
+"lng": 44.5388184,
+"type": "road",
+"display": "Garegin Hovsepyan Street, Norq Marash, Yerevan, 0047, Armenia"
+},
+"Garegin Hovsepyan St 24/9, Armenia": {
+"lat": 40.1768798,
+"lng": 44.5388184,
+"type": "road",
+"display": "Garegin Hovsepyan Street, Norq Marash, Yerevan, 0047, Armenia"
 }
 }

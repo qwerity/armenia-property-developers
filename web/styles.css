@@ -181,3 +181,16 @@ body.has-right .maplibregl-ctrl-bottom-right { margin-right: var(--right-w); }
 .stage-in-progress { color: #1d5fa8; }
 .stage-just-started { color: #8a5a00; }
 .stage-not-started { color: var(--high); }
+.stage-stalled { color: #7a1f5c; font-weight: 600; }
+.grade { display: inline-block; margin-left: 6px; padding: 0 6px; border-radius: 5px; font-size: 11px; font-weight: 700; line-height: 17px; }
+.grade-A { background: #dff3e6; color: #0f6b3f; }
+.grade-B { background: #e6f0fb; color: #1d5fa8; }
+.grade-C { background: #f5efd9; color: #7a5b00; }
+.grade-D { background: #fbe7da; color: #a24a12; }
+.grade-E { background: #f8dcdc; color: #9b1c1c; }
+.repbar { display: grid; grid-template-columns: 110px 1fr 44px; gap: 8px; align-items: center; font-size: 12.5px; margin: 3px 0; }
+.repbar i { display: block; height: 7px; background: #ece8df; border-radius: 4px; overflow: hidden; }
+.repbar b { display: block; height: 100%; background: #6d8a3a; }
+.repbar em { font-style: normal; color: var(--muted); text-align: right; }
+ul.cases { margin: 4px 0 8px; padding-left: 18px; font-size: 12.5px; }
+ul.cases li { margin: 2px 0; }

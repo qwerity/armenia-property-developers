@@ -63,7 +63,28 @@ def list_buildings() -> list[dict]:
     return arr
 
 
+def marker_from_embed(url: str | None) -> tuple[float | None, float | None]:
+    """Marker position from a Google Maps embed's base64 `!2z` DMS label (e.g. 40°14'52.6"N 44°30'56.8"E)."""
+    import base64
+    m = re.search(r"!2z([A-Za-z0-9+/_-]+=*)", url or "")
+    if not m:
+        return None, None
+    try:
+        label = base64.b64decode(m.group(1) + "=" * (-len(m.group(1)) % 4), altchars=b"-_").decode("utf-8", "replace")
+    except ValueError:
+        return None, None
+    dms = re.findall(r"(\d+)°(\d+)'([\d.]+)\"([NSEW])", label)
+    if len(dms) != 2:
+        return None, None
+    vals = {}
+    for deg, mins, sec, hemi in dms:
+        v = int(deg) + int(mins) / 60 + float(sec) / 3600
+        vals["lat" if hemi in "NS" else "lng"] = -v if hemi in "SW" else v
+    return vals.get("lat"), vals.get("lng")
+
+
 def coords_from_embed(url: str | None) -> tuple[float | None, float | None]:
+    """Viewport centre of a Google Maps embed (offset from the marker; use marker_from_embed first)."""
     if not url:
         return None, None
     lng = re.search(r"!2d(-?\d+\.\d+)", url)
@@ -107,9 +128,12 @@ def normalize(base: dict, extra: dict) -> dict:
     d, ld = extra["detail"], extra["ld"]
     about = ld.get("about", {})
     geo = about.get("geo") or {}
-    lat, lng = geo.get("latitude"), geo.get("longitude")
+    embed = d.get("googleMap") or base.get("googleMap")
+    lat, lng = marker_from_embed(embed)
     if lat is None:
-        lat, lng = coords_from_embed(d.get("googleMap") or base.get("googleMap"))
+        lat, lng = geo.get("latitude"), geo.get("longitude")
+    if lat is None:
+        lat, lng = coords_from_embed(embed)
     addr = about.get("address", {})
     provider = ld.get("provider", {})
     price = d.get("price") or base.get("price") or {}

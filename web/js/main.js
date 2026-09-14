@@ -75,7 +75,7 @@ function bindControls() {
   $(FILTER_IDS.q).addEventListener("input", debounce(onChange, 120));
   $(FILTER_IDS.region).addEventListener("change", () => { refreshDistricts(app.projects); update({ fit: true }); });
   for (const k of ["district", "dev"]) $(FILTER_IDS[k]).addEventListener("change", () => update({ fit: true }));
-  for (const k of ["kind", "status", "year", "deal", "priced", "tax", "inView", "sort", "info", "source", "hideSold", "precise"]) $(FILTER_IDS[k]).addEventListener("change", onChange);
+  for (const k of ["kind", "status", "year", "deal", "priced", "tax", "inView", "sort", "info", "source", "hideSold", "precise", "grade", "clean"]) $(FILTER_IDS[k]).addEventListener("change", onChange);
   for (const k of ["pmin", "pmax", "budget"]) $(FILTER_IDS[k]).addEventListener("input", debounce(onChange, 250));
   $("reset").addEventListener("click", () => { resetFilters(); refreshDistricts(app.projects); update({ fit: true }); });
 

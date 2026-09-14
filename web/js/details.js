@@ -108,6 +108,27 @@ function priceCheck(p) {
   </section>`;
 }
 
+
+function reputation(p) {
+  const r = p.developer_rep;
+  if (!r) return "";
+  const c = r.components || {};
+  const res = r.research || {};
+  const court = res.court || {};
+  const bar = (label, val, max) => `<div class="repbar"><span>${label}</span><i><b style="width:${Math.round((val / max) * 100)}%"></b></i><em>${val}/${max}</em></div>`;
+  return `<section><h3>Developer reputation <span class="grade grade-${esc(r.grade)}">${esc(r.grade)} · ${r.score}/100</span></h3>
+    ${r.data === "limited" ? `<p class="small muted">Limited research data — score relies mostly on listing data.</p>` : ""}
+    ${r.flags?.length ? `<p class="small uncertain">⚠ ${r.flags.map(esc).join(" · ")}</p>` : ""}
+    ${bar("Track record", c.track_record, 30)}${bar("Delivery", c.delivery, 20)}${bar("Legal record", c.legal, 30)}${bar("Validation", c.validation, 10)}${bar("Transparency", c.transparency, 10)}
+    ${res.legal_entities?.length ? `<div class="kv"><span>Legal entity</span><b>${res.legal_entities.map((e) => esc([e.name_hy, e.name_en].filter(Boolean).join(" / ") + (e.tax_id ? ` (ՀՎՀՀ ${e.tax_id})` : ""))).join("<br>")}</b></div>` : ""}
+    ${res.founded_year ? row("Founded", esc(res.founded_year)) : ""}
+    ${court.total != null ? `<div class="kv"><span>Court cases (datalex)</span><b>${court.total} total · ${court.respondent ?? 0} as defendant (${court.respondent_by_individuals ?? 0} by individuals) · ${court.claimant ?? 0} as claimant${court.bankruptcy_as_debtor ? ` · <span class="uncertain">${court.bankruptcy_as_debtor} bankruptcy</span>` : ""}${court.criminal ? ` · <span class="uncertain">${court.criminal} criminal</span>` : ""} · ${court.since_2021 ?? 0} since 2021</b></div>` : ""}
+    ${res.notable_cases?.length ? `<ul class="cases">${res.notable_cases.map((k) => `<li><a href="https://datalex.am/?app=AppCaseSearch" target="_blank" rel="noopener">${esc(k.case_number)}</a> <span class="muted small">${esc(k.tab || "")} ${esc(k.filed || "")}</span> — ${esc(k.why || "")}</li>`).join("")}</ul>` : ""}
+    ${res.news_issues?.length ? `<p class="small"><b>Reported issues:</b></p><ul class="cases">${res.news_issues.map((n) => `<li><a href="${esc(safeUrl(n.url))}" target="_blank" rel="noopener">${esc(n.title || n.url)}</a> <span class="muted small">${esc(n.date || "")}</span>${n.summary ? ` — ${esc(n.summary)}` : ""}</li>`).join("")}</ul>` : ""}
+    ${res.positives?.length ? `<p class="small"><b>Positives:</b> ${res.positives.map((n) => `<a href="${esc(safeUrl(n.url))}" target="_blank" rel="noopener">${esc(n.title)}</a>`).join(" · ")}</p>` : ""}
+  </section>`;
+}
+
 const PRECISION = { exact: "", address: "geocoded from address", street: "approximate (street level)", district: "approximate (district centre)", city: "approximate (city centre)" };
 
 /**
@@ -148,7 +169,10 @@ export function renderDetails(el, p, openLightbox, onDeveloper) {
         ${row("Start of construction", esc(p.start))}
         ${row("Address (hy)", esc(p.address_am))}
         ${row("Coordinates", `${p.lat.toFixed(5)}, ${p.lng.toFixed(5)}${PRECISION[p.geo_precision] ? ` <span class="muted small">(${PRECISION[p.geo_precision]})</span>` : ""}`)}
+        ${row("Stage check", p.stage_check ? `${esc(p.stage_check.evidence || "")}${p.stage_check.imagery ? `<br><span class="muted small">Satellite: ${esc(p.stage_check.imagery)}</span>` : ""}${p.stage_check.evidence_url ? ` <a href="${esc(safeUrl(p.stage_check.evidence_url))}" target="_blank" rel="noopener">source</a>` : ""}` : "")}
+        ${row("Location check", p.location_note ? `${esc(p.location_note)}${p.location_check?.evidence_url ? ` <a href="${esc(safeUrl(p.location_check.evidence_url))}" target="_blank" rel="noopener">source</a>` : ""}` : "")}
       </section>
+      ${reputation(p)}
       ${priceCheck(p)}
       ${roomTable(p.prices_by_rooms)}
       ${floorTable(p.prices_by_floor)}

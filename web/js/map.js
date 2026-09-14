@@ -1,5 +1,6 @@
 import * as maplibregl from "../vendor/maplibre-gl/maplibre-gl.mjs";
 import { esc, money, compactMoney, quarter, stageLabel } from "./util.js";
+import { gradeBadge } from "./list.js";
 
 const ARMENIA_BOUNDS = [[43.3, 38.8], [46.7, 41.35]];
 const ESRI = "https://server.arcgisonline.com/ArcGIS/rest/services";
@@ -48,7 +49,7 @@ function popupHtml(p) {
     ${img ? `<img referrerpolicy="no-referrer" src="${esc(img)}" alt="" onerror="this.remove()">` : ""}
     <div class="pop-body">
       <div class="pop-title">${esc(p.title)}</div>
-      <div class="pop-dev"><span class="dot" style="background:${p.color}"></span>${esc(p.developer_group)}</div>
+      <div class="pop-dev"><span class="dot" style="background:${p.color}"></span>${esc(p.developer_group)}${gradeBadge(p)}</div>
       <div class="muted">${esc([p.district, p.region].filter(Boolean).join(", "))}</div>
       <div class="pop-grid">
         <span>Price</span><b>${money(p.usd_m2_min, p.amd_m2_min, "/m²")}</b>

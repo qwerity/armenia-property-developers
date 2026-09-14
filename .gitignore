@@ -7,3 +7,7 @@ scraper/.dev_batch_*.json
 __pycache__/
 .DS_Store
 scraper/.price_verify_*.json
+scraper/.cache_datalex/
+scraper/.loc_verify_*.json
+scraper/.stage_verify_*.json
+scraper/.rep_devs_*.json
