@@ -47,6 +47,7 @@ export function createMap(container, { onSelect, onMove }) {
     state.libs = { Map, InfoWindow, ...marker };
     state.map = new Map(host2d, {
       mapId: mapId(),
+      mapTypeId: "roadmap",
       renderingType: google.maps.RenderingType.VECTOR,
       center: { lat: 40.07, lng: 45.0 },
       zoom: container.offsetWidth > 900 ? 8 : 7,
@@ -153,8 +154,7 @@ export function createMap(container, { onSelect, onMove }) {
       if (!p) return;
       if (state.markers.get(id)) setPin(state.markers.get(id), p, true);
       if (fly) {
-        // tilt so the vector map's 3D buildings are visible around the project
-        state.map.moveCamera({ center: { lat: p.lat, lng: p.lng }, zoom: Math.max(state.map.getZoom() || 0, 18), tilt: 55, heading: state.map.getHeading() || 0 });
+        state.map.moveCamera({ center: { lat: p.lat, lng: p.lng }, zoom: Math.max(state.map.getZoom() || 0, 17), tilt: state.map.getTilt() || 0, heading: state.map.getHeading() || 0 });
         const panel = document.getElementById("right");
         if (panel && !panel.hidden && panel.offsetWidth < container.offsetWidth) state.map.panBy(panel.offsetWidth / 2, 0);
         if (state.map3d && !container.querySelector(".gmap3d").hidden) {
@@ -172,6 +172,21 @@ export function createMap(container, { onSelect, onMove }) {
     bounds() {
       const b = state.map?.getBounds();
       return b ? { contains: ([lng, lat]) => b.contains({ lat, lng }) } : null;
+    },
+    /**
+     * View mode: "2d" flat street map, "3d" tilted street map with extruded buildings (vector roadmap),
+     * "photo" photorealistic 3D (Map3DElement, satellite/hybrid only).
+     */
+    async setView(mode) {
+      await ready;
+      if (mode !== "photo") {
+        await this.set3d(false);
+        state.map.setMapTypeId("roadmap");
+        const zoom = mode === "3d" ? Math.max(state.map.getZoom() || 0, 17) : state.map.getZoom();
+        state.map.moveCamera({ tilt: mode === "3d" ? 60 : 0, heading: mode === "3d" ? state.map.getHeading() || 0 : 0, zoom });
+        return;
+      }
+      await this.set3d(true);
     },
     /** Toggle photorealistic 3D (Map3DElement), carrying over the camera centre. */
     async set3d(on) {

@@ -126,8 +126,8 @@ function bindControls() {
     const b = e.target.closest("button[data-mode]");
     if (!b) return;
     $("viewmode").querySelectorAll("button").forEach((x) => x.classList.toggle("on", x === b));
-    await app.mapApi.set3d(b.dataset.mode === "3d");
-    $("ctrl3d").hidden = b.dataset.mode !== "3d";
+    await app.mapApi.setView(b.dataset.mode);
+    $("ctrl3d").hidden = b.dataset.mode !== "photo";
   });
   $("ctrl3d").addEventListener("click", (e) => {
     const b = e.target.closest("button[data-cam]");
