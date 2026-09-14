@@ -1603,5 +1603,866 @@
 "lng": 44.5530517,
 "type": "railway",
 "display": "Kanaker, Zakaria Sarkavag street 5th lane, Qanaqer-Zeytun, Yerevan, 0091, Armenia"
+},
+"Ավան վարչական շրջան Ավան-Առինջ 1-ին միկրոշրջան": null,
+"Ք․ Երևան, Արաբկիր, Աղբյուր Սերոբ 18": null,
+"Ք․ Երևան, Ավան, Աճարյան 2/1": null,
+"Ք․ Երևան, Դավթաշեն, Ս․ Գևորգյան 4": null,
+"Ք. Երևան, Մալաթիա-Սեբաստիա, Ք. Քըրքորյան 23/15": null,
+"Ք․ Երևան, Քանաքեռ- Զեյթուն, Դ․ Անհաղթ 8/13": null,
+"Կոտայք, Դավթաշեն- Նաիրի համայնք": null,
+"Դավթաշեն, Kotayk, Armenia": {
+"lat": 40.2229435,
+"lng": 44.4779375,
+"type": "cemetery",
+"display": "Davtashen Cemetry, Davtashen, Yerevan, Nairi community, Kotayk Province, Armenia"
+},
+"Նաիրի, Kotayk, Armenia": {
+"lat": 40.5285157,
+"lng": 44.724507,
+"type": "tourism",
+"display": "Nairi, 19, Isahakyan street, Tsakhkadzor, Border Tsakhkadzor, Tsaghkadzor community, Kotayk Province, 2310, Armenia"
+},
+"Ք. Երևան, Դավթաշեն 3-րդ թաղամաս": null,
+"Ք․ Երևան, Աջափնյակ, Հալաբյան 75/1": null,
+"Կոտայք, ք․ Ծաղկաձոր": null,
+"Կոտայք, ք. Նոր Հաճն, Զ. Անդրանիկի 8/3": null,
+"Կոտայք, Զովունի, 1-ին փողոց": {
+"lat": 40.2300532,
+"lng": 44.5100567,
+"type": "road",
+"display": "Zovuni 1st street, Zovuni, Nairi community, Kotayk Province, 0024, Armenia"
+},
+"Կոտայքի մարզ,համայնք Նաիրի, գյուղ Զովունի 36-րդ փողոց, 2-րդ նրբանցք, 26 շինություն": null,
+"ՀՀ, Սյունիքի մարզ, ք. Գորիս, Գր. Տաթևացու փ. 7/1": null,
+"Մարզ Արագածոտն, համայնք Թալին, քաղաք Թալին, Ռ. Լևոնյան փողոց 93,91, 89, 87": null,
+"Երևան,Արշակունյաց 1նրբ, 36 շ.": null,
+"ք. Երևան, Քանաքեռ Զեյթուն Դավիթ Անհաղթի փողոց թիվ 14/10": null,
+"ք․ Երևան Թումանյան 2 անցուղի 5/9 հասցե": null,
+"ք. Երևան, Կենտրոն, Արգիշտիի փողոց թիվ 11/15": null,
+"Մարզ Արմավիր, համայնք Վաղարշապատ Էջմիածին ք. Կարճիկյան փողոց 2": null,
+"Երևան, Արաբկիր,ՎԱՂԱՐՇՅԱՆ Փ., 8": null,
+"ք. Երևան, Շիրազի 2 հասցեում՝ Աջափնյակ վարչական շրջանում": null,
+"Արագածոտն, Ապարան, ԲԱՂՐԱՄՅԱՆ Փ., 18": null,
+"ՀՀ, Արմավիրի մարզ, Վաղարշապատ համայնք, ք. Էջմիածին, Սուրբ Մ. Մաշտոց 1/2": null,
+"Ծաղկաձոր ք․, Գլխավոր մարզահամալիր, թաղամաս 81, մասնաշենք 3": null,
+"ԱՐՄԱՎԻՐ, ՎԱՂԱՐՇԱՊԱՏ, Շահումյան փ., 75/4-6": null,
+"ք. Երևան, Արղության փ. 10/15": null,
+"ք. Երևան, Նոր Նորքի 2-րդ զանգվածում՝ Բագրևանդի արահետ 60 հասցեում՝ Մոլդովական և Բագրևանդ փողոցների միջնամասում": null,
+"Մարզ Կոտայք, համայնք Աբովյան գյուղ Առինջ Պ. Սևակի թաղամասի 4-րդ փողոց 2/1": null,
+"ք. Երևան, Րաֆֆու 28": null,
+"Գ.Պռոշյան, Գ.Չաուշի խճուղի 140-142": null,
+"Երևան, Քանաքեռ-Զեյթուն, Կ. Ուլնեցու փողոց 56/14": null,
+"Երևան, Աջափնյակ, Հալաբյան 20/16": {
+"lat": 40.1945874,
+"lng": 44.4788115,
+"type": "road",
+"display": "Halabyan Street, Ajapnyak, Yerevan, 0038, Armenia"
+},
+"Երևան, Կ. Ուլնեցու 45/1": null,
+"Sahmanadrutyan Square 28/5, Kotayk, Armenia": null,
+"Hrazdan, Kotayk, Armenia": {
+"lat": 40.5196871,
+"lng": 44.7500706,
+"type": "town",
+"display": "Hrazdan, Hrazdan community, Kotayk Province, Armenia"
+},
+"next to Stepanavan Dendropark, Lori, Armenia": null,
+"adjacent to Stepanavan Dendropark, Lori, Armenia": null,
+"Ptghni village, Kotayk, Armenia": {
+"lat": 40.2629149,
+"lng": 44.5864636,
+"type": "village",
+"display": "Ptghni, Abovyan community, Kotayk Province, Armenia"
+},
+"Azatamartikneri district, Kotayk, Armenia": null,
+"11th St 47, Kotayk, Armenia": {
+"lat": 40.2937495,
+"lng": 44.6016415,
+"type": "building",
+"display": "47, Arzni 11th street, Arzni, Arzni community, Kotayk Province, 2212, Armenia"
+},
+"Yeghvard, Kotayk, Armenia": {
+"lat": 40.3214049,
+"lng": 44.4813889,
+"type": "town",
+"display": "Yeghvard, Nairi community, Kotayk Province, 2401, Armenia"
+},
+"Next to Abovyan city stadium, Kotayk, Armenia": null,
+"Abovyan, Kotayk, Armenia": {
+"lat": 40.2714761,
+"lng": 44.6333951,
+"type": "town",
+"display": "Abovyan, Abovyan community, Kotayk Province, Armenia"
+},
+"27 Zovuni 30th St, Kotayk, Armenia": null,
+"2nd lane, Kotayk, Armenia": {
+"lat": 40.1848303,
+"lng": 44.5797744,
+"type": "road",
+"display": "Jrvezh 6th street 2nd lane, Jrvej, Jrvezh community, Kotayk Province, 0076, Armenia"
+},
+"Yeghegnadzor (2.54 ha former industrial plot), Vayots Dzor, Armenia": null,
+"Sevan Peninsula, Gegharkunik, Armenia": {
+"lat": 40.5655757,
+"lng": 45.007635,
+"type": "state_district",
+"display": "Sevan peninsula, Gegharkunik Province, Armenia"
+},
+"Sevan National Park, Gegharkunik, Armenia": {
+"lat": 40.3894182,
+"lng": 45.32939,
+"type": "nature_reserve",
+"display": "Sevan National Park, Gegharkunik Province, Armenia"
+},
+"Davtashen 3rd district, Yerevan, Armenia": null,
+"Sahmanadrutyan Square 28/5, Hrazdan, Armenia": null,
+"Sahmanadrutyan Square, Hrazdan, Armenia": null,
+"Leningradyan St 29/17, Yerevan, Armenia": {
+"lat": 40.187866,
+"lng": 44.4698424,
+"type": "building",
+"display": "29/17, Kirk Kerkorian street, Ajapnyak, Yerevan, 0099, Armenia"
+},
+"G. Hovsepyan St 38/11, Yerevan, Armenia": null,
+"G. Hovsepyan St, Yerevan, Armenia": {
+"lat": 40.1505227,
+"lng": 44.4795585,
+"type": "road",
+"display": "Hayk Hovsepyan street, 3th residential area, Shengavit, Yerevan, 0039, Armenia"
+},
+"off Ashtarak highway, Yerevan, Armenia": null,
+"adjacent to Stepanavan Dendropark, Stepanavan, Armenia": null,
+"Goght village, Goght, Armenia": null,
+"Arinj, Arinj, Armenia": {
+"lat": 40.2392393,
+"lng": 44.5879403,
+"type": "highway",
+"display": "Arinj, Artashat-Sevan highway, Arinj, Abovyan community, Kotayk Province, 2213, Armenia"
+},
+"Sayat-Nova village, Sayat-Nova, Armenia": null,
+"Davtashen 2nd district 22/2, Yerevan, Armenia": null,
+"Davtashen 2nd district, Yerevan, Armenia": null,
+"Bagrevand St 84, Yerevan, Armenia": {
+"lat": 40.2003604,
+"lng": 44.5781223,
+"type": "building",
+"display": "84, Bagrevand street, Bagrevand, Nor Nork, Nor Norq, Yerevan, 0044, Armenia"
+},
+"Verin Antarayin, Yerevan, Armenia": {
+"lat": 40.1946945,
+"lng": 44.5138541,
+"type": "road",
+"display": "Verin Antarayin street, Kentron, Yerevan, 0009, Armenia"
+},
+"Davtashen 10th St, Yerevan, Armenia": null,
+"Tigran Mets Ave, Yerevan, Armenia": {
+"lat": 40.161068,
+"lng": 44.5122413,
+"type": "road",
+"display": "Tigran Mets avenue, Erebuni, Yerevan, 0013, Armenia"
+},
+"33rd (Firdus) district, Yerevan, Armenia": null,
+"Between Aram St and Buzand St, Yerevan, Armenia": null,
+"Near intersection of Amiryan St and Saryan St, Yerevan, Armenia": null,
+"1/1 Fuchik St (corner of Abelyan St), Yerevan, Armenia": null,
+"38/1 Yakov Zarubyan St, Yerevan, Armenia": null,
+"38 Yakov Zarubyan St, Yerevan, Armenia": null,
+"1/10 Ghapantsyan St, Yerevan, Armenia": null,
+"Next to Davtashen Bridge, Yerevan, Armenia": null,
+"Cascade, Yerevan, Armenia": {
+"lat": 40.1914625,
+"lng": 44.5155866,
+"type": "tourism",
+"display": "Cascade, Sarmen street, Kentron, Yerevan, 0009, Armenia"
+},
+"Hovhannes Tumanyan St, Kasakh, Armenia": null,
+"Azatamartikneri district, Yeghvard, Armenia": null,
+"35 Moskovyan St (corner of Spendiaryan St), Yerevan, Armenia": null,
+"Vahan Teryan 3rd St, Kasakh, Armenia": null,
+"5 Tsaghkunyats Square, Tsaghkadzor, Armenia": null,
+"Avan-Arinj, Yerevan, Armenia": {
+"lat": 40.2335116,
+"lng": 44.5593748,
+"type": "shop",
+"display": "BMW MOTORS ARMENIA, 1/1, Mesrop Mashtots street, Avan, Arinj, Abovyan community, Kotayk Province, 2210, Armenia"
+},
+"128 Zoravar Sarkavagi St (Z. Sarkavagi 128), Yerevan, Armenia": null,
+"«Slavonakan» Residence, Yerevan, Armenia": null,
+"«Davtashen Town» Residential District Samvel Gevorgyan 106/21, Yerevan, Armenia": null,
+"«Davtashen Town» Residential District Samvel Gevorgyan, Yerevan, Armenia": null,
+"Sasna Tsrer St, Yerevan, Armenia": {
+"lat": 40.2152928,
+"lng": 44.4882624,
+"type": "road",
+"display": "Sasna Tsrer street, Davtashen, Yerevan, 0058, Armenia"
+},
+"Duryan district, Arinj, Armenia": {
+"lat": 40.2133883,
+"lng": 44.590267,
+"type": "neighbourhood",
+"display": "Petros Duryan district, Arinj, Abovyan community, Kotayk Province, Armenia"
+},
+"Near Central Bank / Yerevan City Hall, Yerevan, Armenia": null,
+"Plot N7620, Yerevan, Armenia": null,
+"Plot N, Yerevan, Armenia": null,
+"Next to Abovyan city stadium, Abovyan, Armenia": null,
+"4/1 L. Azgaldyan St, Yerevan, Armenia": {
+"lat": 40.1964361,
+"lng": 44.5097666,
+"type": "road",
+"display": "Leonid Azgaldyan street, Kentron, Yerevan, 0019, Armenia"
+},
+"27 Zovuni 30th St, Zovuni, Armenia": null,
+"Davtashen 6th district, Yerevan, Armenia": null,
+"Hadrut District, Abovyan, Armenia": null,
+"Proshyan community, Proshyan, Armenia": {
+"lat": 40.2470348,
+"lng": 44.4248255,
+"type": "highway",
+"display": "Proshyan, Yerevan-Gyumri Highway, Proshyan, Nairi community, Kotayk Province, 2413, Armenia"
+},
+"Aghbyur Serob Street 52/12 (Verin Antarayin Street, Yerevan, Armenia": null,
+"33rd district, Yerevan, Armenia": {
+"lat": 40.1865922,
+"lng": 44.5946914,
+"type": "quarter",
+"display": "Jrvej district, Nor Norq, Yerevan, 0089, Armenia"
+},
+"Monument area, Yerevan, Armenia": null,
+"Aghveran, Aghveran, Armenia": {
+"lat": 40.4891615,
+"lng": 44.5968258,
+"type": "neighbourhood",
+"display": "Aghveran, Charentsavan community, Kotayk Province, Armenia"
+},
+"Leningradyan Street 23/7 (between Leningradyan and Monte Melkonyan streets, Yerevan, Armenia": null,
+"G. Hovsepyan Street 48/3, Yerevan, Armenia": null,
+"G. Hovsepyan Street, Yerevan, Armenia": {
+"lat": 40.1505227,
+"lng": 44.4795585,
+"type": "road",
+"display": "Hayk Hovsepyan street, 3th residential area, Shengavit, Yerevan, 0039, Armenia"
+},
+"Between Griboyedov, Yerevan, Armenia": null,
+"Khachatur Kecharetsi Street 4, Tsaghkadzor, Armenia": null,
+"Khachatur Kecharetsi Street, Tsaghkadzor, Armenia": null,
+"Sevan Peninsula, Sevan, Armenia": {
+"lat": 40.5624379,
+"lng": 45.0173731,
+"type": "office",
+"display": "Summer residence of Prime Minister of Armenia, Dzknorsner street, Sevan, Sevan community, Gegharkunik Province, 1505, Armenia"
+},
+"Sayat-Nova Street 69, Dilijan, Armenia": {
+"lat": 40.7528117,
+"lng": 44.8784938,
+"type": "tourism",
+"display": "Diligence, 69, Sayat-Nova Street, Sayat-Nova, Dilijan, Dilijan community, Tavush Province, 3906, Armenia"
+},
+"Tsaghkunk 2nd Street, Balahovit, Armenia": null,
+"Marshal Babajanyan 4th Street, Arinj, Armenia": {
+"lat": 40.2398674,
+"lng": 44.5820534,
+"type": "road",
+"display": "Marshal Babajanyan 4th street, Marshal Babajanyan district, Arinj, Abovyan community, Kotayk Province, 2213, Armenia"
+},
+"Ashtarak highway, Yerevan, Armenia": {
+"lat": 40.2143098,
+"lng": 44.473795,
+"type": "road",
+"display": "Ashtarak highway, Davtashen, Yerevan, 0048, Armenia"
+},
+"Near Ashtarak highway, Yerevan suburbs, Armenia": null,
+"South-eastern section of Vahakni district, Yerevan, Armenia": null,
+"V. Teryan 1st Street 9, Arinj, Armenia": null,
+"V. Teryan 1st Street, Arinj, Armenia": {
+"lat": 40.2186514,
+"lng": 44.589047,
+"type": "road",
+"display": "Vahan Teryan district 1st street, Avan, Arinj, Abovyan community, Kotayk Province, 0044, Armenia"
+},
+"Ք․ Երևան, Yerevan, Armenia": {
+"lat": 40.1986469,
+"lng": 44.5701798,
+"type": "construction",
+"display": "School No 139 Aft. K. Demirchyan, Nor Nork, Nor Norq, Yerevan, Armenia"
+},
+"Ք. Երևան, Yerevan, Armenia": {
+"lat": 40.1986469,
+"lng": 44.5701798,
+"type": "construction",
+"display": "School No 139 Aft. K. Demirchyan, Nor Nork, Nor Norq, Yerevan, Armenia"
+},
+"Կոտայք, Tsaghkadzor, Armenia": null,
+"Կոտայք, Nor Hachn, Armenia": {
+"lat": 40.3025991,
+"lng": 44.5833501,
+"type": "office",
+"display": "Team Telecom Armenia, 18, Charents street, Nor Hachin, Nor Hachn community, Kotayk Province, 2412, Armenia"
+},
+"Կոտայքի մարզ, Zovuni, Armenia": {
+"lat": 40.24623,
+"lng": 44.5058343,
+"type": "industrial",
+"display": "Գազպրոմ Արմենիա, Zovuni, Nairi community, Kotayk Province, Armenia"
+},
+"Մարզ Արագածոտն, Talin, Armenia": {
+"lat": 40.3844854,
+"lng": 43.8771208,
+"type": "office",
+"display": "Team Telecom Armenia, 1, Stepan Shahumyan Street, Talin, Talin community, Aragatsotn Province, 0501, Armenia"
+},
+"Երևան, Yerevan, Armenia": {
+"lat": 40.1553328,
+"lng": 44.507897,
+"type": "railway",
+"display": "Yerevan, Tigran Mets Avenue 3rd lane, Erebuni, Yerevan, 0013, Armenia"
+},
+"ք. Երևան, Yerevan, Armenia": {
+"lat": 40.1986469,
+"lng": 44.5701798,
+"type": "construction",
+"display": "School No 139 Aft. K. Demirchyan, Nor Nork, Nor Norq, Yerevan, Armenia"
+},
+"Մարզ Արմավիր, Vagharshapat, Armenia": {
+"lat": 40.1633821,
+"lng": 44.2941201,
+"type": "office",
+"display": "Team Telecom Armenia, 4, Mesrop Mashtots street, Lisavan, Vagharshapat, Vagharshapat community, Armavir Province, 1101, Armenia"
+},
+"Ծաղկաձոր ք․, Tsaghkadzor, Armenia": null,
+"ԱՐՄԱՎԻՐ, Vagharshapat, Armenia": {
+"lat": 40.179074,
+"lng": 44.3013578,
+"type": "road",
+"display": "Yerevan-Armavir highway, Lisavan, Vagharshapat, Vagharshapat community, Armavir Province, 1108, Armenia"
+},
+"Մարզ Կոտայք, Arinj, Armenia": {
+"lat": 40.2335116,
+"lng": 44.5593748,
+"type": "shop",
+"display": "BMW MOTORS ARMENIA, 1/1, Mesrop Mashtots street, Avan, Arinj, Abovyan community, Kotayk Province, 2210, Armenia"
+},
+"Գ.Պռոշյան, Proshyan, Armenia": {
+"lat": 40.2153716,
+"lng": 44.4098807,
+"type": "planning",
+"display": "Academic Town, Yerevan, Nairi community, Kotayk Province, Armenia"
+},
+"Armenia, Vedi, Armenia": {
+"lat": 39.9149752,
+"lng": 44.7261033,
+"type": "building",
+"display": "Գազպրոմ Արմենիա, Պուշկինի փողոց 1-ին նրբ., Vedi, Vedi community, Ararat Province, 0601, Armenia"
+},
+"Armenia, Ashtarak, Armenia": {
+"lat": 40.2967905,
+"lng": 44.360961,
+"type": "shop",
+"display": "Team Telecom Armenia, 2, Sisakyan street, Ashtarak, Ashtarak community, Aragatsotn Province, 0201, Armenia"
+},
+"Kotayk Province, Dzoraghbyur, Armenia": {
+"lat": 40.2231606,
+"lng": 44.6343079,
+"type": "canal",
+"display": "Kotayk Channel, Dzoraghbyur, Jrvezh community, Kotayk Province, 2224, Armenia"
+},
+"Kotayk Region, Zovuni, Armenia": null,
+"Yerevan city, Yerevan, Armenia": {
+"lat": 40.1847423,
+"lng": 44.5178773,
+"type": "shop",
+"display": "Yerevan City, Sayat-Nova Avenue, Kentron, Yerevan, 0018, Armenia"
+},
+"Kotayk region, Dzoraghbyur, Armenia": null,
+"Dilijan city, Dilijan, Armenia": {
+"lat": 40.7408837,
+"lng": 44.8713837,
+"type": "office",
+"display": "Team Telecom Armenia, 53/4, Myasnikyan street, City Center, Dilijan, Dilijan community, Tavush Province, 3901, Armenia"
+},
+"Kotayk region, Kanakeravan, Armenia": null,
+"Kotayk region, Zovuni, Armenia": null,
+"Region Kotayk, Mrgashen, Armenia": null,
+"Kotayk Province, Arinj, Armenia": {
+"lat": 40.2335116,
+"lng": 44.5593748,
+"type": "shop",
+"display": "BMW MOTORS ARMENIA, 1/1, Mesrop Mashtots street, Avan, Arinj, Abovyan community, Kotayk Province, 2210, Armenia"
+},
+"8 and 8/3 Yerevanyan Highway, Kanakeravan, Armenia": null,
+"«Slavonakan» Residence, Armenia": null,
+"Jrvezh community, 17th street, house 6/1, Jrvezh, Armenia": null,
+"Jrvezh community, 17th street, house, Jrvezh, Armenia": null,
+"Jrvezh community, Jrvezh, Armenia": {
+"lat": 40.1872734,
+"lng": 44.5994378,
+"type": "amenity",
+"display": "\"Armenia\", Ivan Tevosyan street, Nor Norq, Jrvej, Jrvezh community, Kotayk Province, 2227, Armenia"
+},
+"Jrvezh 17, Bagrevand Residence 2nd Building, Jrvezh, Armenia": null,
+"Jrvezh 17, Jrvezh, Armenia": {
+"lat": 40.1843887,
+"lng": 44.5785209,
+"type": "building",
+"display": "17, Jrvezh 6th street 2nd lane, Jrvej, Jrvezh community, Kotayk Province, 0076, Armenia"
+},
+"Jrvezh 17, Bagrevand Residence 3rd Building, Jrvezh, Armenia": null,
+"Jrvezh 17, Bagrevand Residence, Jrvezh, Armenia": null,
+"Zovuni 30rd street, 33/1, Zovuni, Armenia": null,
+"Zovuni 30rd street,, Zovuni, Armenia": null,
+"Zovuni 30rd street, Zovuni, Armenia": null,
+"c. Dilijan, Maxim Gorky 29/44, Dilijan, Armenia": null,
+"c. Dilijan, Maxim Gorky, Dilijan, Armenia": null,
+"c. Dilijan, Dilijan, Armenia": {
+"lat": 40.7157747,
+"lng": 44.8563685,
+"type": "leisure",
+"display": "Sanatorium of Military Unit 18120, Highway T-10-23, Golovino, Dilijan, Dilijan community, Tavush Province, 3904, Armenia"
+},
+"95 G. Chaush Highway, Armenia": null,
+"G. Chaush Highway, Armenia": null,
+"V. Arinj, Abovyan district 7str., 30, Arinj, Armenia": null,
+"V. Arinj, Abovyan district 7str.,, Arinj, Armenia": null,
+"V. Arinj, Arinj, Armenia": {
+"lat": 40.2435308,
+"lng": 44.5862386,
+"type": "highway",
+"display": "Verin Ptghni/Getargel, Marshal Babajanyan backstreet, Arinj, Abovyan community, Kotayk Province, 2213, Armenia"
+},
+"Village of Arinj, District A, 7th Street, Plot 11, Arinj, Armenia": null,
+"Village of Arinj, District A, 7th Street, Plot, Arinj, Armenia": null,
+"Village of Arinj, Arinj, Armenia": null,
+"Manuk Abeghyan 5, Armenia": {
+"lat": 40.1788932,
+"lng": 44.5258288,
+"type": "road",
+"display": "Manuk Abeghyan street, Kentron, Yerevan, 0025, Armenia"
+},
+"Avan-Arinj, Paruyr Sevak District, 17th Street, Building 23-29, Arinj, Armenia": null,
+"Avan-Arinj, Paruyr Sevak District, 17th Street, Building, Arinj, Armenia": null,
+"Avan-Arinj, Arinj, Armenia": {
+"lat": 40.2335116,
+"lng": 44.5593748,
+"type": "shop",
+"display": "BMW MOTORS ARMENIA, 1/1, Mesrop Mashtots street, Avan, Arinj, Abovyan community, Kotayk Province, 2210, Armenia"
+},
+"Zovuni 27, Zovuni, Armenia": {
+"lat": 40.2459431,
+"lng": 44.4987746,
+"type": "building",
+"display": "27, Zovuni 15th street, Zovuni, Nairi community, Kotayk Province, 2406, Armenia"
+},
+"Qanaqeravan, Yerevan, Armenia": null,
+"Avan-Arinj, Nut House, Arinj, Armenia": null,
+"Dilijan Housing Complex, Dilijan, Armenia": null,
+"Zovuni 36, Rich Garden, Zovuni, Armenia": null,
+"Zovuni 36, Zovuni, Armenia": {
+"lat": 40.2438796,
+"lng": 44.4981143,
+"type": "building",
+"display": "36, Zovuni 14th street, Zovuni, Nairi community, Kotayk Province, 0024, Armenia"
+},
+"Avan-Arinj, Solar City, Arinj, Armenia": null,
+"Paruyr Sevak 9, Armenia": {
+"lat": 40.2268811,
+"lng": 44.576501,
+"type": "building",
+"display": "9, Paruyr Sevak district 2nd street, Paruyr Sevak district, Arinj, Abovyan community, Kotayk Province, 2210, Armenia"
+},
+"Griboyedov 58, Orient Stone, Armenia": null,
+"Griboyedov 58, Armenia": {
+"lat": 40.2128632,
+"lng": 44.5149675,
+"type": "building",
+"display": "58, Griboyedov street, Arabkir, Yerevan, 0051, Armenia"
+},
+"Papazyan, Itarco, Armenia": null,
+"Papazyan, Armenia": {
+"lat": 40.1996567,
+"lng": 44.5053846,
+"type": "road",
+"display": "Vahram Papazyan street, Arabkir, Yerevan, 0012, Armenia"
+},
+"2nd Block 46/1, Itarco, Armenia": null,
+"Block 46/1, Itarco, Armenia": null,
+"2nd Block 46/1, Armenia": {
+"lat": 40.2234159,
+"lng": 44.4941144,
+"type": "building",
+"display": "46/1, Davidashen 2nd block, Davtashen, Yerevan, 0054, Armenia"
+},
+"G. Hovsepyan St 38/11, Nork, Armenia": null,
+"G. Hovsepyan St 38/11, Armenia": null,
+"G. Hovsepyan St, Armenia": {
+"lat": 40.808954,
+"lng": 43.8492577,
+"type": "road",
+"display": "Hovsepyan street, Gyumri, Border Gyumri-Akhuryan, Shirak Province, 3115, Armenia"
+},
+"Zovuni, 30th St, 2nd lane 25 (next to Greenville, T. Petrosyan), Zovuni, Armenia": null,
+"Zovuni, Zovuni, Armenia": {
+"lat": 40.2356987,
+"lng": 44.5103429,
+"type": "highway",
+"display": "Zovuni (centre), Yeghvard highway, Zovuni, Nairi community, Kotayk Province, 0024, Armenia"
+},
+"near North-South highway, Armenia": null,
+"near North-South highway, next to Mia Town, Armenia": null,
+"Sayat-Nova village, Masis community, Masis, Armenia": {
+"lat": 40.0746438,
+"lng": 44.3994665,
+"type": "village",
+"display": "Sayat Nova, Masis community, Ararat Province, Armenia"
+},
+"Babajanyan St 111/1 / B2 district 29/5, Armenia": null,
+"Babajanyan St 111/1 / B2 district, Armenia": null,
+"former Yerevan velodrome site, Armenia": null,
+"Verin Antarayin, above Cascade, Armenia": null,
+"Verin Antarayin, Armenia": {
+"lat": 40.1959206,
+"lng": 44.512235,
+"type": "road",
+"display": "Verin Antarayin street, Kentron, Yerevan, 0019, Armenia"
+},
+"Verin Antarayin, above Cascade (Otevan series), Armenia": null,
+"Kanakeravan village 2, Nor Hachn community, Kotayk, Yerevan, Armenia": null,
+"Kanakeravan village 2, Yerevan, Armenia": null,
+"Kanakeravan village, Yerevan, Armenia": null,
+"Between Aram St and Buzand St, near Republic Square, Yerevan, Armenia": null,
+"Between Aram St and Buzand St, Armenia": null,
+"Near intersection of Amiryan St and Saryan St, Armenia": null,
+"Fuchik St (corner of Abelyan St), Yerevan, Armenia": null,
+"1/1 Fuchik St (corner of Abelyan St), Armenia": null,
+"Yakov Zarubyan St, Yerevan, Armenia": null,
+"38/1 Yakov Zarubyan St, Armenia": null,
+"38 Yakov Zarubyan St, Armenia": null,
+"1/10 Ghapantsyan St, Armenia": {
+"lat": 40.2956006,
+"lng": 44.3591926,
+"type": "road",
+"display": "Grigor Ghapantsyan street, Ashtarak, Ashtarak community, Aragatsotn Province, 0201, Armenia"
+},
+"14 Manuk Abeghyan St, Yerevan, Armenia": {
+"lat": 40.1788932,
+"lng": 44.5258288,
+"type": "road",
+"display": "Manuk Abeghyan street, Kentron, Yerevan, 0025, Armenia"
+},
+"17 Manuk Abeghyan St, Yerevan, Armenia": {
+"lat": 40.1788932,
+"lng": 44.5258288,
+"type": "road",
+"display": "Manuk Abeghyan street, Kentron, Yerevan, 0025, Armenia"
+},
+"19/1 Manuk Abeghyan St, Yerevan, Armenia": {
+"lat": 40.1788932,
+"lng": 44.5258288,
+"type": "road",
+"display": "Manuk Abeghyan street, Kentron, Yerevan, 0025, Armenia"
+},
+"Moskovyan St (corner of Spendiaryan St), Yerevan, Armenia": null,
+"35 Moskovyan St (corner of Spendiaryan St), Armenia": null,
+"Avan-Arinj, Khachatur Abovyan district, 7th St, plot 12, Yerevan, Arinj, Armenia": null,
+"Avan-Arinj, Khachatur Abovyan district, 10th St, plot 5, Yerevan, Arinj, Armenia": null,
+"Avan-Arinj, Khachatur Abovyan district, 2nd St, plot 29, Yerevan, Arinj, Armenia": null,
+"Avan, Duryan 1/10, Yerevan, Armenia": null,
+"Avan, Duryan, Yerevan, Armenia": null,
+"Duryan House Residential Complex, Avan, Duryan 1/10, Yerevan, Armenia": null,
+"Duryan House Residential Complex, Avan, Duryan, Yerevan, Armenia": null,
+"Duryan House Residential Complex, Yerevan, Armenia": null,
+"Bagrevand 49, Jrvezh (Kotayk), Jrvezh, Armenia": {
+"lat": 40.2032722,
+"lng": 44.5824178,
+"type": "building",
+"display": "49, Bagrevand 42nd street, Bagrevand, Yerevan, Jrvezh community, Kotayk Province, 0044, Armenia"
+},
+"Duryan district, Avan-Arinj, Arinj, Armenia": {
+"lat": 40.2136818,
+"lng": 44.5890253,
+"type": "road",
+"display": "Petros Duryan district 12th street, Petros Duryan district, Avan, Arinj, Abovyan community, Kotayk Province, 0044, Armenia"
+},
+"Plot N7620, left side of Cascade residential complex, Yerevan, Armenia": null,
+"Plot N7620, Armenia": null,
+"Plot N, Armenia": null,
+"Arinj, M. Mkrtchyan St / Artashat highway, Abovyan community, Armenia": null,
+"Maxim Gorky Street 29/44, Dilijan, Dilijan, Armenia": null,
+"Maxim Gorky Street 29/44, Dilijan, Armenia": null,
+"Maxim Gorky Street, Dilijan, Armenia": null,
+"Alma-Ata Street 1/4, Armenia": null,
+"Alma-Ata Street, Armenia": null,
+"Aghbyur Serob Street 52/12 (Verin Antarayin Street, near RIO Mall), Armenia": null,
+"Aghbyur Serob Street 52/12 (Verin Antarayin Street, Armenia": null,
+"Etchmiadzin (Echmiadzin) Street 11/4, Vagharshapat, Armenia": null,
+"Etchmiadzin (Echmiadzin) Street, Vagharshapat, Armenia": {
+"lat": 40.1633821,
+"lng": 44.2941201,
+"type": "office",
+"display": "Team Telecom Armenia, 4, Mesrop Mashtots street, Lisavan, Vagharshapat, Vagharshapat community, Armavir Province, 1101, Armenia"
+},
+"Monument area, continuation of Northern Ray 1, Armenia": null,
+"Monument area, continuation of Northern Ray, Armenia": null,
+"Monument area, Armenia": null,
+"Barekamutyun district, Armenia": null,
+"Dzorap Street 70/3 and 70/2, Armenia": null,
+"Dzorap Street 70/3 and, Armenia": null,
+"Between Griboyedov, Mamikonyants and Tigranyan streets (sales office Mamikonyants 38/3), Armenia": null,
+"Between Griboyedov, Armenia": null,
+"Vazgen Sargsyan Street 26/1 (address from public sources; not stated on site), Armenia": null,
+"Yerevan (exact site address not published; developer office Adonts Street 8), Armenia": null,
+"Tsitsernakaberd Highway (next to Sports and Concert Complex), Armenia": null,
+"Kanakeravan, Yerevan, Armenia": {
+"lat": 40.2365586,
+"lng": 44.5337449,
+"type": "road",
+"display": "Yerevan-Kanakeravan highway, Arabkir, Yerevan, Nor Hachn community, Kotayk Province, 0091, Armenia"
+},
+"Davtashen-Zovuni borderline, Zovuni, Armenia": null,
+"Acharyan 43/20, Avan, Yerevan, Yerevan, Armenia": {
+"lat": 40.2166732,
+"lng": 44.5700845,
+"type": "road",
+"display": "Hrachya Acharyan street 1st lane, Avan, Yerevan, 0022, Armenia"
+},
+"Գևորգ Չաուշ 95 Դ մանսաշենք, Proshyan, Kotayk": null,
+"Գևորգ Չաուշ 95 Դ մանսաշենք, Proshyan, Kotayk, Armenia": null,
+"Գևորգ Չաուշ 95 Դ մանսաշենք, Armenia": null,
+"Jrvej 49 4, Jrvezh, Kotayk, Jrvezh, Armenia": {
+"lat": 40.1892702,
+"lng": 44.6072275,
+"type": "village",
+"display": "Jrvej, Jrvezh community, Kotayk Province, 2227, Armenia"
+},
+"Tsaghkunyats square 5 Մասնաշենք I, Tsakhkadzor, Kotayk": null,
+"Tsaghkunyats square 5 Մասնաշենք I, Tsakhkadzor, Kotayk, Tsaghkadzor, Armenia": null,
+"Tsaghkunyats square 5 Մասնաշենք I, Tsaghkadzor, Armenia": null,
+"Acharyan 39/23, Avan, Yerevan, Yerevan, Armenia": {
+"lat": 40.2248706,
+"lng": 44.5623654,
+"type": "road",
+"display": "Hrachya Acharyan street 2nd lane, Avan, Yerevan, 0040, Armenia"
+},
+"Mher Mkrtchyan district 1st street 30-32 7Ա մասնաշենք, Arinj, Kotayk": null,
+"Mher Mkrtchyan district 1st street 30-32 7Ա մասնաշենք, Arinj, Kotayk, Arinj, Armenia": null,
+"Mher Mkrtchyan district 1st street 30-32 7Ա մասնաշենք, Arinj, Armenia": null,
+"Mher Mkrtchyan district 1st street 30-32 6Ա,5Դ մասնաշենքեր, Arinj, Kotayk": null,
+"Mher Mkrtchyan district 1st street 30-32 6Ա,5Դ մասնաշենքեր, Arinj, Kotayk, Arinj, Armenia": null,
+"Mher Mkrtchyan district 1st street 30-32 6Ա, Arinj, Armenia": null,
+"Mher Mkrtchyan district 1st street 30-32, Arinj, Armenia": {
+"lat": 40.2241556,
+"lng": 44.5937708,
+"type": "road",
+"display": "Mher Mkrtchyan district 1st street, Mher Mkrtchyan district, Arinj, Abovyan community, Kotayk Province, 2210, Armenia"
+},
+"Mher Mkrtchyan district 1st street 30-32 5Գ մասնաշենք, Arinj, Kotayk": null,
+"Mher Mkrtchyan district 1st street 30-32 5Գ մասնաշենք, Arinj, Kotayk, Arinj, Armenia": null,
+"Mher Mkrtchyan district 1st street 30-32 5Գ մասնաշենք, Arinj, Armenia": null,
+"Arinj Village, Hovagimyan 2nd Lane, 2/1, Arinj, Kotayk, Arinj, Armenia": null,
+"Arinj Village, Arinj, Armenia": null,
+"Arinj village, Abovyan district, 7th Street 30 1, Arinj, Kotayk, Arinj, Armenia": null,
+"Arinj village, Arinj, Armenia": null,
+"Arinj village, K. Hovagimyan Street, 32/2 2, Arinj, Kotayk, Arinj, Armenia": null,
+"Mher Mkrtchyan district 1st street 32/2 5Բ;4Բ մասնաշենքեր, Arinj, Kotayk": null,
+"Mher Mkrtchyan district 1st street 32/2 5Բ;4Բ մասնաշենքեր, Arinj, Kotayk, Arinj, Armenia": null,
+"Mher Mkrtchyan district 1st street 32/2 5Բ;4Բ մասնաշենքեր, Arinj, Armenia": null,
+"Mher Mkrtchyan district 1st street 32/2 3Գ մասնաշենք, Arinj, Kotayk": null,
+"Mher Mkrtchyan district 1st street 32/2 3Գ մասնաշենք, Arinj, Kotayk, Arinj, Armenia": null,
+"Mher Mkrtchyan district 1st street 32/2 3Գ մասնաշենք, Arinj, Armenia": null,
+"Գևորգ Չաուշ 95 Ե մասնաշենք, Proshyan, Kotayk": null,
+"Գևորգ Չաուշ 95 Ե մասնաշենք, Proshyan, Kotayk, Armenia": null,
+"Գևորգ Չաուշ 95 Ե մասնաշենք, Armenia": null,
+"Գևորգ Չաուշ 95 Զ մասնաշենք, Proshyan, Kotayk": null,
+"Գևորգ Չաուշ 95 Զ մասնաշենք, Proshyan, Kotayk, Armenia": null,
+"Գևորգ Չաուշ 95 Զ մասնաշենք, Armenia": null,
+"Teryan district, 15st street 2/2 2է, 2Ը մասնաշենքերի, Arinj, Kotayk": null,
+"Teryan district, 15st street 2/2 2է, 2Ը մասնաշենքերի, Arinj, Kotayk, Arinj, Armenia": null,
+"Teryan district, Arinj, Armenia": {
+"lat": 40.2182227,
+"lng": 44.5938974,
+"type": "neighbourhood",
+"display": "Vahan Teryan district, Arinj, Abovyan community, Kotayk Province, Armenia"
+},
+"Orjonikidze 83/1 1, Dilijan, Tavush, Dilijan, Armenia": null,
+"Orjonikidze 83/1 1, Dilijan, Armenia": null,
+"Orjonikidze 83/1, Dilijan, Armenia": {
+"lat": 40.7449064,
+"lng": 44.8800874,
+"type": "road",
+"display": "Orjonikidze Street, Takhta, Dilijan, Dilijan community, Tavush Province, 3906, Armenia"
+},
+"Babajanyan district, 1st street 18/1 2Շ մասնաշենք, Arinj, Kotayk": null,
+"Babajanyan district, 1st street 18/1 2Շ մասնաշենք, Arinj, Kotayk, Arinj, Armenia": null,
+"Babajanyan district, Arinj, Armenia": {
+"lat": 40.240269,
+"lng": 44.5829549,
+"type": "neighbourhood",
+"display": "Marshal Babajanyan district, Arinj, Abovyan community, Kotayk Province, Armenia"
+},
+"Jrvej 49 3, Jrvezh, Kotayk, Jrvezh, Armenia": {
+"lat": 40.1892702,
+"lng": 44.6072275,
+"type": "village",
+"display": "Jrvej, Jrvezh community, Kotayk Province, 2227, Armenia"
+},
+"Jrvej 49 1, Jrvezh, Kotayk, Jrvezh, Armenia": {
+"lat": 40.1892702,
+"lng": 44.6072275,
+"type": "village",
+"display": "Jrvej, Jrvezh community, Kotayk Province, 2227, Armenia"
+},
+"Babajanyan district, 1st street 18/1 2Ի ԵՎ 2Ժ մասնաշենքեր, Arinj, Kotayk": null,
+"Babajanyan district, 1st street 18/1 2Ի ԵՎ 2Ժ մասնաշենքեր, Arinj, Kotayk, Arinj, Armenia": null,
+"Mher Mkrtchyan district 1st street 32 4Ա ԵՎ 5Ա մասնաշենքեր, Arinj, Kotayk": null,
+"Mher Mkrtchyan district 1st street 32 4Ա ԵՎ 5Ա մասնաշենքեր, Arinj, Kotayk, Arinj, Armenia": null,
+"Mher Mkrtchyan district 1st street 32 4Ա ԵՎ 5Ա մասնաշենքեր, Arinj, Armenia": null,
+"Kotayk region community Jrvej Village Dzoraxbyur Greenland district, land 3, Jrvezh, Kotayk, Jrvezh, Armenia": null,
+"Kotayk region community Jrvej Village Dzoraxbyur Greenland district, Jrvezh, Armenia": null,
+"Jrvezh, Armenia": {
+"lat": 40.1882447,
+"lng": 44.5964724,
+"type": "highway",
+"display": "Jrvezh, Ivan Tevosyan street, Nor Norq, Yerevan, 0089, Armenia"
+},
+"Kotayk region community Jrvej Village Dzoraxbyur Greenland district, land 7, Jrvezh, Kotayk, Jrvezh, Armenia": null,
+"Kotayk region community Jrvej Village Dzoraxbyur Greenland district, land 6, Jrvezh, Kotayk, Jrvezh, Armenia": null,
+"Kotayk region community Jrvej Village Dzoraxbyur Greenland district, land 2, Jrvezh, Kotayk, Jrvezh, Armenia": null,
+"Kotayk region community Jrvej Village Dzoraxbyur Greenland district, land 4, Jrvezh, Kotayk, Jrvezh, Armenia": null,
+"Tsaghkunyats square 5 Մասնաշենք 2, Tsakhkadzor, Kotayk": null,
+"Tsaghkunyats square 5 Մասնաշենք 2, Tsakhkadzor, Kotayk, Tsaghkadzor, Armenia": null,
+"Tsaghkunyats square 5 Մասնաշենք 2, Tsaghkadzor, Armenia": null,
+"Tsaghkunyats square 5 Մասնաշենք, Tsaghkadzor, Armenia": null,
+"Tsaghkunyats square 5 Մասնաշենք 4, Tsakhkadzor, Kotayk": null,
+"Tsaghkunyats square 5 Մասնաշենք 4, Tsakhkadzor, Kotayk, Tsaghkadzor, Armenia": null,
+"Tsaghkunyats square 5 Մասնաշենք 4, Tsaghkadzor, Armenia": null,
+"Tsaghkunyats square 5 Մասնաշենք 3, Tsakhkadzor, Kotayk": null,
+"Tsaghkunyats square 5 Մասնաշենք 3, Tsakhkadzor, Kotayk, Tsaghkadzor, Armenia": null,
+"Tsaghkunyats square 5 Մասնաշենք 3, Tsaghkadzor, Armenia": null,
+"5 Tsaghkunyats Square Մասնաշենք 5, Tsakhkadzor, Kotayk": null,
+"5 Tsaghkunyats Square Մասնաշենք 5, Tsakhkadzor, Kotayk, Tsaghkadzor, Armenia": null,
+"Tsaghkunyats Square Մասնաշենք 5, Tsakhkadzor, Kotayk, Tsaghkadzor, Armenia": null,
+"5 Tsaghkunyats Square Մասնաշենք 5, Tsaghkadzor, Armenia": null,
+"5 Tsaghkunyats Square Մասնաշենք, Tsaghkadzor, Armenia": null,
+"Shamakhyan Street 1/2, Dilijan, Tavush, Dilijan, Armenia": {
+"lat": 40.7501883,
+"lng": 44.8422351,
+"type": "road",
+"display": "Shamakhyan Street, New Shamakhyan, Dilijan, Dilijan community, Tavush Province, 3905, Armenia"
+},
+"Shamakhyan 1/2 2-րդ, Dilijan, Tavush": null,
+"Shamakhyan 1/2 2-րդ, Dilijan, Tavush, Dilijan, Armenia": null,
+"Shamakhyan 1/2 2-րդ, Dilijan, Armenia": null,
+"Shamakhyan 1/2, Dilijan, Armenia": {
+"lat": 40.7558485,
+"lng": 44.8374894,
+"type": "neighbourhood",
+"display": "Shamakhyan, Dilijan, Dilijan community, Tavush Province, Armenia"
+},
+"Acharyan 37/22, Avan, Yerevan, Yerevan, Armenia": {
+"lat": 40.2166732,
+"lng": 44.5700845,
+"type": "road",
+"display": "Hrachya Acharyan street 1st lane, Avan, Yerevan, 0022, Armenia"
+},
+"Region Kotayk, community Djrvezh, 38-th st. 21 6րդ մսն․, Jrvezh, Kotayk": null,
+"Region Kotayk, community Djrvezh, 38-th st. 21 6րդ մսն․, Jrvezh, Kotayk, Jrvezh, Armenia": null,
+"Region Kotayk, Jrvezh, Armenia": null,
+"Region Kotayk, community Djrvezh, 38-th st. 21 5րդ մսն․, Jrvezh, Kotayk": null,
+"Region Kotayk, community Djrvezh, 38-th st. 21 5րդ մսն․, Jrvezh, Kotayk, Jrvezh, Armenia": null,
+"Region Kotayk, community Djrvezh, 49-th st. 60 4րդ մսն․, Jrvezh, Kotayk": null,
+"Region Kotayk, community Djrvezh, 49-th st. 60 4րդ մսն․, Jrvezh, Kotayk, Jrvezh, Armenia": null,
+"Region Kotayk, community Djrvezh, 49-th st. 60 3րդ մսն․, Jrvezh, Kotayk": null,
+"Region Kotayk, community Djrvezh, 49-th st. 60 3րդ մսն․, Jrvezh, Kotayk, Jrvezh, Armenia": null,
+"Region Kotayk, community Djrvezh, 49-th st. 60 2 մսն․, Jrvezh, Kotayk": null,
+"Region Kotayk, community Djrvezh, 49-th st. 60 2 մսն․, Jrvezh, Kotayk, Jrvezh, Armenia": null,
+"Region Kotayk, community Djrvezh, 49-th st. 60 1 մսն․, Jrvezh, Kotayk": null,
+"Region Kotayk, community Djrvezh, 49-th st. 60 1 մսն․, Jrvezh, Kotayk, Jrvezh, Armenia": null,
+"B district, 1st Street 7, Arinj, Kotayk, Arinj, Armenia": null,
+"B district, Arinj, Armenia": {
+"lat": 40.2101264,
+"lng": 44.5863654,
+"type": "building",
+"display": "4/7 B, Petros Duryan district 15th street, Petros Duryan district, Avan, Arinj, Abovyan community, Kotayk Province, 0044, Armenia"
+},
+"Ք․ Երևան, Ավան Առինջ, Պարույր Սևակի 20-րդ փ.": null,
+"Ք․ Երևան, Ավան Առինջ, Պարույր Սևակի 20-րդ փ., Arinj, Armenia": null,
+"Ք․ Երևան, Arinj, Armenia": null,
+"Կոտայք, Առինջ, Պարույր Սևակի 17-րդ փող.": null,
+"Կոտայք, Առինջ, Պարույր Սևակի 17-րդ փող., Arinj, Armenia": null,
+"Կոտայք, Arinj, Armenia": {
+"lat": 40.2095951,
+"lng": 44.6058955,
+"type": "canal",
+"display": "Kotayk Channel, Dzoraghbyur, Jrvezh community, Kotayk Province, Armenia"
+},
+"Կոտայք, Զովունի 6-րդ փողոց": {
+"lat": 40.2353985,
+"lng": 44.5002598,
+"type": "road",
+"display": "Zovuni 6th street, Zovuni, Nairi community, Kotayk Province, 0024, Armenia"
+},
+"Երևան,Արշակունյաց 1նրբ, 36 շ., Armenia": null,
+"Երևան, Armenia": {
+"lat": 40.1777112,
+"lng": 44.5126233,
+"type": "city",
+"display": "Yerevan, Armenia"
+},
+"ք․ Երևան Թումանյան 2 անցուղի 5/9 հասցե, Armenia": null,
+"ք. Երևան, Արղության փ. 10/15, Armenia": null,
+"ք. Երևան, Արղության փ., Armenia": null,
+"ք. Երևան, Armenia": {
+"lat": 40.1986469,
+"lng": 44.5701798,
+"type": "construction",
+"display": "School No 139 Aft. K. Demirchyan, Nor Nork, Nor Norq, Yerevan, Armenia"
+},
+"ք. Երևան, Րաֆֆու 28, Armenia": null,
+"ք. Երևան, Րաֆֆու, Armenia": null,
+"Երևան, Կ. Ուլնեցու 45/1, Armenia": null,
+"Երևան, Կ. Ուլնեցու, Armenia": null,
+"Kotayk region, Jrvezh community, Dzoraghbyur, Lchapi St., 1/3, Jrvezh, Armenia": null,
+"Kotayk region, Jrvezh community, Dzoraghbyur, Lchapi St.,, Jrvezh, Armenia": null,
+"Kotayk region, Jrvezh, Armenia": null,
+"Kotayk region, Yerevan, Armenia": null,
+"RA, Yerevan, Nazarbekyan st. 41/1, Armenia": null,
+"RA, Yerevan, Nazarbekyan st., Armenia": null,
+"Yerevan, Nork gardens, str. 180, Armenia": null,
+"Yerevan, Nork gardens, str., Armenia": null,
+"RA, Yerevan, N.Gogol st. 24/23, Armenia": null,
+"RA, Yerevan, N.Gogol st., Armenia": null,
+"RA, Yerevan, H. Abelyan st. 2/1, Armenia": null,
+"RA, Yerevan, H. Abelyan st., Armenia": null,
+"RA, Yerevan, Gyuryan st. 11/5, Armenia": null,
+"RA, Yerevan, Gyuryan st., Armenia": null,
+"Kotayk region, Nor Hachn community, Kanakeravan village, Yerevan, Armenia": null,
+"Kotayk Province, Abovyan, Arinj village, B district 4th street, 2nd alley 6/1, Armenia": null,
+"Kotayk Province, Abovyan, Arinj village, B district 4th street, 2nd alley, Armenia": null,
+"Kotayk Province, Armenia": {
+"lat": 40.370707,
+"lng": 44.6884739,
+"type": "state",
+"display": "Kotayk Province, Armenia"
+},
+"8 and 8/3 Yerevanyan Highway, Yerevan, Armenia": null,
+"Kotayk Province, Abovyan, Arinj village, B district 5th street, 17, Armenia": null,
+"Kotayk Province, Abovyan, Arinj village, B district 5th street,, Armenia": null,
+"66 Barbusse str., Armenia": null,
+"Barbusse str., Armenia": null,
+"136/11 Verin Antarayin str., Armenia": null,
+"Verin Antarayin str., Armenia": null,
+"N. Tigranyan St., Dead End 1, Building 1, Yerevan, Armenia": null,
+"N. Tigranyan St., Dead End 1, Building, Yerevan, Armenia": null,
+"N. Tigranyan St., Yerevan, Armenia": {
+"lat": 40.2021741,
+"lng": 44.5230396,
+"type": "road",
+"display": "Armen Tigranyan street, Qanaqer-Zeytun, Yerevan, 0037, Armenia"
+},
+"Masis, Armenia": {
+"lat": 40.0617279,
+"lng": 44.4427915,
+"type": "town",
+"display": "Masis, Masis community, Ararat Province, Armenia"
 }
 }

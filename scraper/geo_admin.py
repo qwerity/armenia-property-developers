@@ -75,6 +75,46 @@ YEREVAN_DISTRICT_WORDS = re.compile(r"avan|davtashen|arabkir|kentron|ajapnyak|no
                                     r"արաբկիր|ավան|կենտրոն|դավթաշեն|աջափնյակ|նորք|զեյթուն|մալաթիա|центр|арабкир|норк|зейтун", re.I)
 
 
+PROVINCE_NAMES = {
+    "Yerevan": r"yerevan|երևան|ереван", "Kotayk": r"kotayk|կոտայք|котайк", "Ararat": r"ararat province|ararat region|արարատի մարզ|араратск",
+    "Armavir": r"armavir|արմավիր|армавир", "Aragatsotn": r"aragatsotn|արագածոտն|арагацотн", "Tavush": r"tavush|տավուշ|тавуш",
+    "Lori": r"\blori\b|լոռի|лори", "Shirak": r"shirak|շիրակ|ширак", "Syunik": r"syunik|սյունիք|сюник",
+    "Vayots Dzor": r"vayots|վայոց|вайоц", "Gegharkunik": r"gegharkunik|գեղարքունիք|гегаркуник",
+}
+
+
+def province_hint(text: str) -> str | None:
+    """Province explicitly named in free text (excluding Yerevan, which appears in many suburban addresses)."""
+    found = [name for name, pat in PROVINCE_NAMES.items() if name != "Yerevan" and re.search(pat, text or "", re.I)]
+    return found[0] if len(found) == 1 else None
+
+
+DISTRICT_PATTERNS = {
+    "Arabkir": r"arabkir|արաբկիր|арабкир", "Kentron": r"kentron|կենտրոն|кентрон", "Ajapnyak": r"ajapnyak|աջափնյակ|аджапняк",
+    "Avan": r"\bavan\b|ավան|аван", "Davtashen": r"davtashen|դավթաշեն|давташен", "Erebuni": r"erebuni|էրեբունի|эребуни",
+    "Kanaker-Zeytun": r"kanaker|zeytun|zeytoun|qanaqer|քանաքեռ|զեյթուն|канакер|зейтун", "Malatia-Sebastia": r"malat|մալաթիա|малатия",
+    "Nor Nork": r"nor[\s-]?nor[kq]|նոր նորք|нор[\s-]норк", "Nork-Marash": r"nor[kq][\s-]marash|նորք[\s-]մարաշ|норк[\s-]мараш",
+    "Nubarashen": r"nubarashen|նուբարաշեն|нубарашен", "Shengavit": r"shengavit|շենգավիթ|шенгавит",
+}
+TOWN_PATTERNS = {
+    "Arinj": r"arinj|առինջ|аринж", "Abovyan": r"\babovyan\b(?!\s+(st|street|district|փ))|աբովյան քաղաք", "Tsaghkadzor": r"tsa[gk]h?kadzor|ծաղկաձոր|цахкадзор",
+    "Dilijan": r"dilijan|դիլիջան|дилижан", "Jrvezh": r"jrvezh|djrvezh|ջրվեժ|джрвеж", "Zovuni": r"zovuni|զովունի|зовуни",
+    "Masis": r"\bmasis\b|մասիս|масис", "Vagharshapat": r"echmiadzin|etchmiadzin|vagharshapat|էջմիածին|вагаршапат",
+}
+
+
+def mentioned_place(text: str) -> tuple[str | None, str | None]:
+    """(province, district/town) explicitly named in an address string, when unambiguous."""
+    t = text or ""
+    towns = [n for n, pat in TOWN_PATTERNS.items() if re.search(pat, t, re.I)]
+    if len(towns) == 1:
+        return None, towns[0]
+    districts = [n for n, pat in DISTRICT_PATTERNS.items() if re.search(pat, t, re.I)]
+    if len(districts) == 1 and not towns:
+        return "Yerevan", districts[0]
+    return None, None
+
+
 def normalize_town(name: str | None) -> str | None:
     """Canonical town name from free-text source values; None for province names or Yerevan districts."""
     if not name:

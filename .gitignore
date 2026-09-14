@@ -6,3 +6,4 @@ scraper/.dev_batch_*.json
 *.log
 __pycache__/
 .DS_Store
+scraper/.price_verify_*.json

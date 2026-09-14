@@ -512,7 +512,7 @@ def red_record(d: dict) -> dict:
     cur_map = {1: "AMD", 2: "USD", 3: "EUR", 4: "RUB"}
     units = [(x.get("rooms"), x.get("area"), x.get("price"),
               "USD" if x.get("currency_id") == 1 and (x.get("price") or 0) < 1000000 else cur_map.get(x.get("currency_id"), ""))
-             for x in products]
+             for x in products if str(x.get("status") or "").lower() not in {"sold", "reserved", "booked", "sold_out"}]
     per_m2 = defaultdict(list)
     for _, area, price, cur in units:
         if area and price:

@@ -1,5 +1,5 @@
 import * as maplibregl from "../vendor/maplibre-gl/maplibre-gl.mjs";
-import { esc, money, compactMoney, quarter } from "./util.js";
+import { esc, money, compactMoney, quarter, stageLabel } from "./util.js";
 
 const ARMENIA_BOUNDS = [[43.3, 38.8], [46.7, 41.35]];
 const ESRI = "https://server.arcgisonline.com/ArcGIS/rest/services";
@@ -45,7 +45,7 @@ function toGeoJSON(projects) {
 function popupHtml(p) {
   const img = p.images?.[0];
   return `<div class="pop">
-    ${img ? `<img src="${esc(img)}" alt="">` : ""}
+    ${img ? `<img referrerpolicy="no-referrer" src="${esc(img)}" alt="" onerror="this.remove()">` : ""}
     <div class="pop-body">
       <div class="pop-title">${esc(p.title)}</div>
       <div class="pop-dev"><span class="dot" style="background:${p.color}"></span>${esc(p.developer_group)}</div>
@@ -53,7 +53,8 @@ function popupHtml(p) {
       <div class="pop-grid">
         <span>Price</span><b>${money(p.usd_m2_min, p.amd_m2_min, "/m²")}</b>
         <span>From</span><b>${compactMoney(p.usd_from, p.amd_from)}</b>
-        <span>Completion</span><b>${esc(p.status === "completed" ? `Ready (${quarter(p.completion)})` : quarter(p.completion))}</b>
+        <span>Stage</span><b>${esc(stageLabel(p))}</b>
+        <span>Completion</span><b>${esc(quarter(p.completion))}</b>
         <span>Floors</span><b>${esc(p.floors || "—")}</b>
       </div>
       ${p.discount_pct != null ? `<div class="pop-deal ${p.discount_pct > 0 ? "good" : "high"}">${p.discount_pct > 0 ? "−" : "+"}${Math.abs(p.discount_pct)}% vs local median</div>` : ""}

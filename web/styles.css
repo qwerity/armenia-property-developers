@@ -174,3 +174,10 @@ body.has-right .maplibregl-ctrl-bottom-right { margin-right: var(--right-w); }
 .completeness .bar { height: 6px; background: #e4e0d6; border-radius: 3px; overflow: hidden; margin: 4px 0; }
 .completeness .bar i { display: block; height: 100%; background: #6d8a3a; }
 .sourcesdesc { border-left: 3px solid var(--line); padding-left: 10px; }
+.uncertain { color: var(--high); }
+.ptable tr.muted td { color: var(--muted); }
+.stage { font-weight: 500; }
+.stage-finished { color: var(--good); }
+.stage-in-progress { color: #1d5fa8; }
+.stage-just-started { color: #8a5a00; }
+.stage-not-started { color: var(--high); }

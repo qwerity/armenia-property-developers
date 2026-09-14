@@ -18523,7 +18523,7 @@
   "lng": 44.498801,
   "price_min_usd_m2": null,
   "price_min_amd_m2": 1602552,
-  "price_currency_raw": "from 1,602,552 AMD/m² (computed from 12 listed units of 116)",
+  "price_currency_raw": "from 1,602,552 AMD/m² (computed from 8 listed units of 116)",
   "completion": "2029-12",
   "status": "planned",
   "floors": "16",
@@ -18558,9 +18558,9 @@
   "apartments": [
    {
     "rooms": "2",
-    "area_min": 41,
+    "area_min": 59,
     "area_max": 77,
-    "price_from": 92450000,
+    "price_from": 113620000,
     "currency": "AMD"
    },
    {
@@ -18584,8 +18584,8 @@
   "lat": 40.298274,
   "lng": 44.581264,
   "price_min_usd_m2": null,
-  "price_min_amd_m2": 327059,
-  "price_currency_raw": "from 327,059 AMD/m² (computed from 12 listed units of 313)",
+  "price_min_amd_m2": 445970,
+  "price_currency_raw": "from 445,970 AMD/m² (computed from 8 listed units of 313)",
   "completion": "2026-10",
   "status": "under construction",
   "floors": "12",
@@ -18625,7 +18625,7 @@
     "rooms": "3",
     "area_min": 55,
     "area_max": 69,
-    "price_from": 22240000,
+    "price_from": 25200000,
     "currency": "AMD"
    }
   ]
@@ -18642,8 +18642,8 @@
   "lat": 40.192738,
   "lng": 44.512205,
   "price_min_usd_m2": null,
-  "price_min_amd_m2": 1021549,
-  "price_currency_raw": "from 1,021,549 AMD/m² (computed from 12 listed units of 134)",
+  "price_min_amd_m2": 1056338,
+  "price_currency_raw": "from 1,056,338 AMD/m² (computed from 1 listed units of 134)",
   "completion": "2029-12",
   "status": "planned",
   "floors": "14",
@@ -18673,16 +18673,9 @@
   "apartments": [
    {
     "rooms": "2",
-    "area_min": 63,
+    "area_min": 71,
     "area_max": 71,
-    "price_from": 68330000,
-    "currency": "AMD"
-   },
-   {
-    "rooms": "3",
-    "area_min": 132,
-    "area_max": 135,
-    "price_from": 158320000,
+    "price_from": 75000000,
     "currency": "AMD"
    }
   ]
@@ -18761,8 +18754,8 @@
   "lat": 40.156598,
   "lng": 44.437199,
   "price_min_usd_m2": null,
-  "price_min_amd_m2": 432603,
-  "price_currency_raw": "from 432,603 AMD/m² (computed from 12 listed units of 1040)",
+  "price_min_amd_m2": 466438,
+  "price_currency_raw": "from 466,438 AMD/m² (computed from 5 listed units of 1040)",
   "completion": "2030",
   "status": "planned",
   "floors": "14",
@@ -18797,9 +18790,9 @@
   "apartments": [
    {
     "rooms": "2",
-    "area_min": 47,
+    "area_min": 49,
     "area_max": 73,
-    "price_from": 20900000,
+    "price_from": 27180000,
     "currency": "AMD"
    }
   ]
@@ -18816,8 +18809,8 @@
   "lat": 40.176426,
   "lng": 44.53432,
   "price_min_usd_m2": null,
-  "price_min_amd_m2": 433469,
-  "price_currency_raw": "from 433,469 AMD/m² (computed from 12 listed units of 210)",
+  "price_min_amd_m2": 542871,
+  "price_currency_raw": "from 542,871 AMD/m² (computed from 7 listed units of 210)",
   "completion": "2028",
   "status": "under construction",
   "floors": "9",
@@ -18852,16 +18845,16 @@
   "apartments": [
    {
     "rooms": "2",
-    "area_min": 48,
+    "area_min": 62,
     "area_max": 69,
-    "price_from": 21240000,
+    "price_from": 39560000,
     "currency": "AMD"
    },
    {
     "rooms": "3",
-    "area_min": 88,
+    "area_min": 101,
     "area_max": 101,
-    "price_from": 48080000,
+    "price_from": 54830000,
     "currency": "AMD"
    }
   ]
@@ -18878,8 +18871,8 @@
   "lat": 40.538436,
   "lng": 44.724826,
   "price_min_usd_m2": null,
-  "price_min_amd_m2": 685185,
-  "price_currency_raw": "from 685,185 AMD/m² (computed from 12 listed units of 288)",
+  "price_min_amd_m2": 1233243,
+  "price_currency_raw": "from 1,233,243 AMD/m² (computed from 1 listed units of 288)",
   "completion": "2026-12",
   "status": "under construction",
   "floors": "10",
@@ -18904,15 +18897,8 @@
    {
     "rooms": "1",
     "area_min": 37,
-    "area_max": 41,
-    "price_from": 37000000,
-    "currency": "AMD"
-   },
-   {
-    "rooms": "2",
-    "area_min": 39,
-    "area_max": 81,
-    "price_from": 38000000,
+    "area_max": 37,
+    "price_from": 45630000,
     "currency": "AMD"
    }
   ]
@@ -18929,8 +18915,8 @@
   "lat": 40.170804,
   "lng": 44.503055,
   "price_min_usd_m2": null,
-  "price_min_amd_m2": 685602,
-  "price_currency_raw": "from 685,602 AMD/m² (computed from 12 listed units of 106)",
+  "price_min_amd_m2": null,
+  "price_currency_raw": "",
   "completion": "I 2029",
   "status": "under construction",
   "floors": "15",
@@ -18962,22 +18948,7 @@
   ],
   "videos": [],
   "description": "Apartments 38-256 m², 1-5 rooms. Developer «AM Construction» LLC Designer: Narek Sargsyan Construction Company: OST-SHIN LLC. Start of construction: 2024 December End of construction: the first quarter of 2029 This exclusive project, designed by Narek Sargsyan Architectural Studio, offers high-end apartments with perfect comfort and stunning views. Location: The residential building is being constructed in the Kentron administrative district at Argishti 11/15. Distances from Yerevan Municipality and 2800th Anniversary Park is 590 m., from Republic Square: 1.2 km. Enjoy unparalleled, open, and harmonious views right from your apartment windows. The building's location allows you to take in…",
-  "apartments": [
-   {
-    "rooms": "2",
-    "area_min": 58,
-    "area_max": 82,
-    "price_from": 50950000,
-    "currency": "AMD"
-   },
-   {
-    "rooms": "3",
-    "area_min": 97,
-    "area_max": 216,
-    "price_from": 93950000,
-    "currency": "AMD"
-   }
-  ]
+  "apartments": []
  },
  {
   "source": "redgroup.am",
@@ -18991,8 +18962,8 @@
   "lat": 40.157581,
   "lng": 44.504309,
   "price_min_usd_m2": null,
-  "price_min_amd_m2": 540833,
-  "price_currency_raw": "from 540,833 AMD/m² (computed from 12 listed units of 360)",
+  "price_min_amd_m2": null,
+  "price_currency_raw": "",
   "completion": null,
   "status": "under construction",
   "floors": "14",
@@ -19013,29 +18984,7 @@
   ],
   "videos": [],
   "description": "Apartments 55-108 m², 2-4 rooms. Developer: \"Paytamshak\" CJSC Designer: \"Chartshin Project and Design\" LLC Builder: \"D&S CONSTRUCTION\" LLC Start of construction: 12.12.23 \"ARSHAKUNYATS RESIDENTIAL COMPLEX\" is being built on an area of ​​9665 square meters, of which only 3800 square meters will be residential, and the remaining 5865 square meters are allocated to the children's playground, green areas, and paths. Additionally, for those with a passion for sports, a versatile field accommodating both football and basketball is set to be constructed. \"ARSHAKUNYATS RESIDENTIAL COMPLEX\" consists of 3 buildings, each with 2 entrances, 12 residential, 2 commercial, and 2 underground floors. In…",
-  "apartments": [
-   {
-    "rooms": "2",
-    "area_min": 56,
-    "area_max": 68,
-    "price_from": 32950000,
-    "currency": "AMD"
-   },
-   {
-    "rooms": "3",
-    "area_min": 88,
-    "area_max": 94,
-    "price_from": 52390000,
-    "currency": "AMD"
-   },
-   {
-    "rooms": "4",
-    "area_min": 96,
-    "area_max": 96,
-    "price_from": 51920000,
-    "currency": "AMD"
-   }
-  ]
+  "apartments": []
  },
  {
   "source": "redgroup.am",
@@ -19049,8 +18998,8 @@
   "lat": 40.195867,
   "lng": 44.554161,
   "price_min_usd_m2": null,
-  "price_min_amd_m2": 427253,
-  "price_currency_raw": "from 427,253 AMD/m² (computed from 12 listed units of 122)",
+  "price_min_amd_m2": 530008,
+  "price_currency_raw": "from 530,008 AMD/m² (computed from 2 listed units of 122)",
   "completion": "2026-07",
   "status": "completed",
   "floors": "20",
@@ -19073,17 +19022,10 @@
   "description": "Apartments 43-132 m², 2-3 rooms. The Income Tax Refund Act will govern all purchases. Developer: \"Omega Plus\" LLC Builder: \"Midis Construction\" LLC Partner banks: Artsakh Bank Start of construction: 01.12.2021 Completion of construction: 09․07․2026 «The View» is a 20-story residential building located in Yerevan’s Nor Nork 1st district, at 108/2 Lvovyan Street. The elevated position of the building, combined with modern architectural solutions, creates an exceptional living environment that harmonizes comfort and refined taste. From the heights of Nor Nork, the panoramic view of Yerevan’s center, as well as Mount Ararat and Mount Aragats, provides a unique daily visual experience, which…",
   "apartments": [
    {
-    "rooms": "2",
-    "area_min": 43,
-    "area_max": 55,
-    "price_from": 19728000,
-    "currency": "AMD"
-   },
-   {
     "rooms": "3",
-    "area_min": 88,
+    "area_min": 132,
     "area_max": 132,
-    "price_from": 38880000,
+    "price_from": 69961026,
     "currency": "AMD"
    }
   ]
@@ -19100,8 +19042,8 @@
   "lat": 40.217489,
   "lng": 44.588966,
   "price_min_usd_m2": null,
-  "price_min_amd_m2": 460857,
-  "price_currency_raw": "from 460,857 AMD/m² (computed from 12 listed units of 270)",
+  "price_min_amd_m2": null,
+  "price_currency_raw": "",
   "completion": "2026-07",
   "status": "completed",
   "floors": "16",
@@ -19133,22 +19075,7 @@
   ],
   "videos": [],
   "description": "Apartments 24-103 m², 1-3 rooms. The law on income tax refund applies. Developer \"EDNO Group\" LLC Designer \"Carpet Design\" LLC Start of construction: June 2024 End of construction: July 2026 Duryan House residential complex consists of five buildings, three of which have already been commissioned. We now present to you the fourth building of the “DURYAN HOUSE” residential complex , which is the continuation of the previously completed three buildings. DURYAN HOUSE residential complex is located in the Avan administrative district, at Duryan 1st Dead End, 10 – one of the highest areas of Avan. Thanks to its elevated location, the apartments offer open and beautiful views of the city, Mount…",
-  "apartments": [
-   {
-    "rooms": "1",
-    "area_min": 24,
-    "area_max": 26,
-    "price_from": 11380000,
-    "currency": "AMD"
-   },
-   {
-    "rooms": "2",
-    "area_min": 31,
-    "area_max": 36,
-    "price_from": 15000000,
-    "currency": "AMD"
-   }
-  ]
+  "apartments": []
  },
  {
   "source": "redgroup.am",
@@ -19162,8 +19089,8 @@
   "lat": 40.197101,
   "lng": 44.578095,
   "price_min_usd_m2": null,
-  "price_min_amd_m2": 505846,
-  "price_currency_raw": "from 505,846 AMD/m² (computed from 12 listed units of 61)",
+  "price_min_amd_m2": null,
+  "price_currency_raw": "",
   "completion": null,
   "status": "under construction",
   "floors": "",
@@ -19184,22 +19111,7 @@
   ],
   "videos": [],
   "description": "Apartments 130-165 m², 4-5 rooms. Developer: \"Advanced Development\" LLC Designer: \"Toskan\" LLC There is an opinion that social life in private house neighborhoods is limited: children don't have enough space to play, and adults lack places to socialize and spend time with their peers. But, if a residential neighborhood is designed not just for living, but for creating a lifestyle—everything changes. This is exactly what \"Garunavan 4\" is about. \"Garunavan 4\" is designed with love and care for all family members. The residential neighborhood is a continuation of the already established \"Garunavan\" community, and is being built in the 2nd Massiv of Nor Nork, in the Bagrevand district. Here,…",
-  "apartments": [
-   {
-    "rooms": "4",
-    "area_min": 130,
-    "area_max": 130,
-    "price_from": 65760000,
-    "currency": "AMD"
-   },
-   {
-    "rooms": "5",
-    "area_min": 165,
-    "area_max": 165,
-    "price_from": 88000000,
-    "currency": "AMD"
-   }
-  ]
+  "apartments": []
  },
  {
   "source": "redgroup.am",
@@ -19214,7 +19126,7 @@
   "lng": 44.470522,
   "price_min_usd_m2": null,
   "price_min_amd_m2": 432990,
-  "price_currency_raw": "from 432,990 AMD/m² (computed from 12 listed units of 23)",
+  "price_currency_raw": "from 432,990 AMD/m² (computed from 5 listed units of 23)",
   "completion": "2026-12",
   "status": "under construction",
   "floors": "",
@@ -19268,8 +19180,8 @@
   "lat": 40.229956,
   "lng": 44.50451,
   "price_min_usd_m2": null,
-  "price_min_amd_m2": 409500,
-  "price_currency_raw": "from 409,500 AMD/m² (computed from 12 listed units of 134)",
+  "price_min_amd_m2": null,
+  "price_currency_raw": "",
   "completion": "2027-12",
   "status": "under construction",
   "floors": "17",
@@ -19301,22 +19213,7 @@
   ],
   "videos": [],
   "description": "Apartments 43-96 m², 2-3 rooms. The law on income tax refund applies. Developer \"JUST Developer\" LLC Designer \"Nararch\" LLC Start of construction: April 2025 End of construction: December 2027 «Olympus Davtashen» residential building is being constructed in one of Yerevan’s fastest-developing districts – the Zvouni border area of Davtashen – where urban convenience meets the tranquility of the natural environment. By purchasing an apartment here, buyers can also benefit from the Income Tax Refund Law, which is an advantageous solution for all those planning to acquire property through mortgage financing. The building is located just 400 meters from the main communications, ensuring easy…",
-  "apartments": [
-   {
-    "rooms": "2",
-    "area_min": 43,
-    "area_max": 60,
-    "price_from": 20360000,
-    "currency": "AMD"
-   },
-   {
-    "rooms": "3",
-    "area_min": 62,
-    "area_max": 79,
-    "price_from": 27070000,
-    "currency": "AMD"
-   }
-  ]
+  "apartments": []
  },
  {
   "source": "redgroup.am",
@@ -19330,8 +19227,8 @@
   "lat": 40.217489,
   "lng": 44.588966,
   "price_min_usd_m2": null,
-  "price_min_amd_m2": 455882,
-  "price_currency_raw": "from 455,882 AMD/m² (computed from 12 listed units of 134)",
+  "price_min_amd_m2": 592625,
+  "price_currency_raw": "from 592,625 AMD/m² (computed from 1 listed units of 134)",
   "completion": "2027-05",
   "status": "under construction",
   "floors": "16",
@@ -19365,17 +19262,10 @@
   "description": "Apartments 34-80 m², 2-3 rooms. The law on income tax refund applies. Developer \"EDNO Group\" LLC Designer \"Carpet Design\" LLC Start of construction: May 2025 End of construction: May 2027 Three of the five buildings of the «Duryan House» residential complex have already been put into operation. The complex is designed to include: a well-maintained landscaped courtyard, a combined basketball and football field, a tennis court, a gym, a children’s playground, a fountain, outdoor, underground, and above-ground parking spaces, a market. Currently, the construction works of the fourth and fifth buildings are actively continuing. The distance from the building to main communications is only 200…",
   "apartments": [
    {
-    "rooms": "2",
-    "area_min": 34,
-    "area_max": 42,
-    "price_from": 15500000,
-    "currency": "AMD"
-   },
-   {
     "rooms": "3",
-    "area_min": 58,
+    "area_min": 80,
     "area_max": 80,
-    "price_from": 27830000,
+    "price_from": 47410000,
     "currency": "AMD"
    }
   ]
@@ -19392,8 +19282,8 @@
   "lat": 40.205598,
   "lng": 44.591463,
   "price_min_usd_m2": null,
-  "price_min_amd_m2": 480469,
-  "price_currency_raw": "from 480,469 AMD/m² (computed from 12 listed units of 87)",
+  "price_min_amd_m2": 599765,
+  "price_currency_raw": "from 599,765 AMD/m² (computed from 1 listed units of 87)",
   "completion": null,
   "status": "under construction",
   "floors": "5",
@@ -19425,17 +19315,10 @@
   "description": "Apartments 44-88 m², 2-4 rooms. The Income Tax Refund Act will govern all purchases. Developer: \"SMART CITY DEVELOPER\" LLC Partner bank: AMERIABANK The Smart City 3 project is the exciting continuation of the successful #SmartCity1 and #SmartCity2 districts! Located right next to #SmartCity2 atBaghrevand 49, the #SmartCity3 closed family district is designed to meet all the demands of modern living, seamlessly blending cutting-edge technology with the natural environment. Conveniently located near: Smart City 1 Smart City 2 Engineering City Ministry of Defense of the Republic of Armenia Mega Mall shopping center Spanning a 5868 square meter plot, Smart City 3 includes 2400 square meters…",
   "apartments": [
    {
-    "rooms": "2",
-    "area_min": 45,
-    "area_max": 60,
-    "price_from": 23430000,
-    "currency": "AMD"
-   },
-   {
     "rooms": "3",
-    "area_min": 64,
-    "area_max": 87,
-    "price_from": 30750000,
+    "area_min": 85,
+    "area_max": 85,
+    "price_from": 50980000,
     "currency": "AMD"
    }
   ]
@@ -19452,8 +19335,8 @@
   "lat": 40.225053,
   "lng": 44.549961,
   "price_min_usd_m2": null,
-  "price_min_amd_m2": 373125,
-  "price_currency_raw": "from 373,125 AMD/m² (computed from 12 listed units of 159)",
+  "price_min_amd_m2": 491712,
+  "price_currency_raw": "from 491,712 AMD/m² (computed from 1 listed units of 159)",
   "completion": null,
   "status": "under construction",
   "floors": "14",
@@ -19487,24 +19370,10 @@
   "description": "Apartments 49-127 m², 2-4 rooms. Developer: \"Gevorg Darbinyan\" Partner bank: Fast Bank For Dream Residence is located at Yerevan, Avan H. Acharyan Street 57/12 📍 “For Dream” residential complex is a harmonious combination of comfort, practicality and proximity to nature. The total area of the building is 4271 square meters, of which 1312 square meters are allocated for residential premises, and the rest of the area is transformed into lush green zones. The residential complex “Acharyan” is 🔑159 carefully designed apartments located on 13 residential floors, complemented by 1 commercial level and 2 underground parking tiers. Two high quality elevators provide seamless access to each floor.…",
   "apartments": [
    {
-    "rooms": "2",
-    "area_min": 50,
-    "area_max": 88,
-    "price_from": 19270000,
-    "currency": "AMD"
-   },
-   {
     "rooms": "3",
-    "area_min": 75,
+    "area_min": 111,
     "area_max": 111,
-    "price_from": 31870000,
-    "currency": "AMD"
-   },
-   {
-    "rooms": "4",
-    "area_min": 126,
-    "area_max": 126,
-    "price_from": 53810000,
+    "price_from": 54580000,
     "currency": "AMD"
    }
   ]
@@ -19521,8 +19390,8 @@
   "lat": 40.175382,
   "lng": 44.536774,
   "price_min_usd_m2": null,
-  "price_min_amd_m2": 480877,
-  "price_currency_raw": "from 480,877 AMD/m² (computed from 12 listed units of 79)",
+  "price_min_amd_m2": 670000,
+  "price_currency_raw": "from 670,000 AMD/m² (computed from 3 listed units of 79)",
   "completion": null,
   "status": "under construction",
   "floors": "5",
@@ -19557,23 +19426,16 @@
   "apartments": [
    {
     "rooms": "2",
-    "area_min": 57,
+    "area_min": 63,
     "area_max": 64,
-    "price_from": 27410000,
+    "price_from": 52640000,
     "currency": "AMD"
    },
    {
     "rooms": "3",
     "area_min": 94,
     "area_max": 94,
-    "price_from": 60710000,
-    "currency": "AMD"
-   },
-   {
-    "rooms": "4",
-    "area_min": 136,
-    "area_max": 137,
-    "price_from": 82470000,
+    "price_from": 62980000,
     "currency": "AMD"
    }
   ]
@@ -19590,8 +19452,8 @@
   "lat": 40.180716,
   "lng": 44.48417,
   "price_min_usd_m2": null,
-  "price_min_amd_m2": 968100,
-  "price_currency_raw": "from 968,100 AMD/m² (computed from 12 listed units of 75)",
+  "price_min_amd_m2": null,
+  "price_currency_raw": "",
   "completion": "2026-08",
   "status": "completed",
   "floors": "11",
@@ -19626,8 +19488,8 @@
   "lat": 40.215466,
   "lng": 44.460309,
   "price_min_usd_m2": null,
-  "price_min_amd_m2": 386494,
-  "price_currency_raw": "from 386,494 AMD/m² (computed from 12 listed units of 1022)",
+  "price_min_amd_m2": 632035,
+  "price_currency_raw": "from 632,035 AMD/m² (computed from 1 listed units of 1022)",
   "completion": "2025-12",
   "status": "completed",
   "floors": "17",
@@ -19650,20 +19512,6 @@
   "description": "Apartments 45-367 m², 2-5 rooms. THE LAW OF INCOME TAX REFUND IS BEING USED. Main partner: Unibank The developer of the complex is \"Lorida Group\" LLC Construction completion date 12/2025 Shushi Palace Multifunctional Residential Complex multifunctional family residential complex in Ajapnyak Shushi Palace is a premium complex with 8 high-rise buildings. Th project stands with a total 8000 square meters of green area at 44/13 Nazarbekyan, Ajapnyak. The buildings consist of 15 residential, 2 commercial and 2 underground parking floors. You will be served with the following facilities at the complex: Playground Cycling and running track (around 400m) Stadium Gazebos Alley and fountains…",
   "apartments": [
    {
-    "rooms": "2",
-    "area_min": 58,
-    "area_max": 70,
-    "price_from": 24960000,
-    "currency": "AMD"
-   },
-   {
-    "rooms": "3",
-    "area_min": 77,
-    "area_max": 82,
-    "price_from": 29760000,
-    "currency": "AMD"
-   },
-   {
     "rooms": "4",
     "area_min": 113,
     "area_max": 113,
@@ -19684,8 +19532,8 @@
   "lat": 40.196188,
   "lng": 44.395004,
   "price_min_usd_m2": null,
-  "price_min_amd_m2": 368041,
-  "price_currency_raw": "from 368,041 AMD/m² (computed from 12 listed units of 92)",
+  "price_min_amd_m2": 378351,
+  "price_currency_raw": "from 378,351 AMD/m² (computed from 9 listed units of 92)",
   "completion": "2027-12",
   "status": "planned",
   "floors": "",
@@ -19722,7 +19570,7 @@
     "rooms": "3",
     "area_min": 97,
     "area_max": 97,
-    "price_from": 35700000,
+    "price_from": 36700000,
     "currency": "AMD"
    }
   ]
@@ -19739,8 +19587,8 @@
   "lat": 40.220022,
   "lng": 44.57863,
   "price_min_usd_m2": null,
-  "price_min_amd_m2": 513333,
-  "price_currency_raw": "from 513,333 AMD/m² (computed from 12 listed units of 30)",
+  "price_min_amd_m2": 631486,
+  "price_currency_raw": "from 631,486 AMD/m² (computed from 1 listed units of 30)",
   "completion": "2027-08",
   "status": "under construction",
   "floors": "7",
@@ -19768,17 +19616,10 @@
   "description": "Apartments 36-79 m², 2-3 rooms. Developer \"Narekaci House\" LLC Designer \"Carpet Design\" LLC Start of construction: 08․2025 End of construction: 08․2027 The residential building \"Babajanyan 72\" is being constructed at the address Marshal Babajanyan 72/2. The building is located in the busiest area of Avan, adjacent to \"Gold's Gym,\" close to all communication routes and infrastructure. The school, kindergarten, supermarket, and bus stop are within walking distance from the building. \"Babajanyan 72\" is a residential building consisting of 30 apartments, with 7 above-ground floors and 1 underground parking floor. It includes apartments with areas ranging from 35 to 74 sqm, with 2-4 rooms, and…",
   "apartments": [
    {
-    "rooms": "2",
-    "area_min": 36,
-    "area_max": 45,
-    "price_from": 23040000,
-    "currency": "AMD"
-   },
-   {
     "rooms": "3",
-    "area_min": 38,
+    "area_min": 74,
     "area_max": 74,
-    "price_from": 19900000,
+    "price_from": 46730000,
     "currency": "AMD"
    }
   ]
@@ -19795,8 +19636,8 @@
   "lat": 40.223587,
   "lng": 44.470465,
   "price_min_usd_m2": null,
-  "price_min_amd_m2": 383217,
-  "price_currency_raw": "from 383,217 AMD/m² (computed from 11 listed units of 11)",
+  "price_min_amd_m2": null,
+  "price_currency_raw": "",
   "completion": "2025-02",
   "status": "completed",
   "floors": "",
@@ -19828,15 +19669,7 @@
   ],
   "videos": [],
   "description": "Apartments 143-143 m², 5-5 rooms. The Income Tax Refund Act will govern all purchases. Start of construction: 15.03.23 End of construction: 15.02.25 Developer \"Villa Town House\" LLC Designer \"Profenergy Group\" LLC Builder \"Lox Building\" LLC \"Davtashen Town 2\" is a special project known for its exceptional geographical location and environment. It is situated near to \"Davtashen Town 1\" Family District, in the newly built Melkumov private house district of Davtashen, offering a convenient spot near the north-south highway. It is only 1.1km away from the Garage Master mall and adjacent to the Hayfilm movie studio, forming part of the future academic city's cultural cluster. \"Davtashen Town\"…",
-  "apartments": [
-   {
-    "rooms": "5",
-    "area_min": 143,
-    "area_max": 143,
-    "price_from": 54800000,
-    "currency": "AMD"
-   }
-  ]
+  "apartments": []
  },
  {
   "source": "redgroup.am",
@@ -19850,8 +19683,8 @@
   "lat": 40.195634,
   "lng": 44.580901,
   "price_min_usd_m2": null,
-  "price_min_amd_m2": 387611,
-  "price_currency_raw": "from 387,611 AMD/m² (computed from 12 listed units of 104)",
+  "price_min_amd_m2": null,
+  "price_currency_raw": "",
   "completion": "2025-12",
   "status": "completed",
   "floors": "4",
@@ -19872,22 +19705,7 @@
   ],
   "videos": [],
   "description": "Apartments 47-113 m², 2-4 rooms. Partner bank: \"Converse Bank\" CJSC Developer: \"Just Developer\" LLC Designer: \"Reform\" LLC Construction completion: 12/2025 C-create, U-unique, L-living, T-tendency We are creating a new trend of unique living... Introducing \"CULT\" - the residential complex that represents the perfect blend of modern solutions and classic British architecture. Located at Bagrevand 82/4 in the 2nd district of Nor Nork, this unique living space is set to create a new trend in the world of housing. At \"CULT,\" we believe in creating something truly exceptional, which is why our motto is \"C-create, U-unique, L-living, T-tendency.\" Our goal is to offer residents an unmatched…",
-  "apartments": [
-   {
-    "rooms": "2",
-    "area_min": 47,
-    "area_max": 71,
-    "price_from": 19500000,
-    "currency": "AMD"
-   },
-   {
-    "rooms": "3",
-    "area_min": 75,
-    "area_max": 113,
-    "price_from": 30400000,
-    "currency": "AMD"
-   }
-  ]
+  "apartments": []
  },
  {
   "source": "redgroup.am",
@@ -19901,8 +19719,8 @@
   "lat": 40.1984,
   "lng": 44.577791,
   "price_min_usd_m2": null,
-  "price_min_amd_m2": 408333,
-  "price_currency_raw": "from 408,333 AMD/m² (computed from 12 listed units of 128)",
+  "price_min_amd_m2": null,
+  "price_currency_raw": "",
   "completion": null,
   "status": "under construction",
   "floors": "4",
@@ -19923,29 +19741,7 @@
   ],
   "videos": [],
   "description": "Apartments 48-122 m², 2-4 rooms. Developer: “TM Megaholding” LLC Construction Company: \"Malkhasyan SHIN\" LLC “SUNLAND BAGREVAND” residential complex in Nor Nork Following the great wave of success and interest from our customers for our SunLand quarter in Avan, we present to you the brand new “SUNLAND BAGREVAND” project. “SUNLAND BAGREVAND” is a premium project that is being built in the 2nd Nor-Nork district at Bagrevand trail 60, in the center of Moldavakan and Bagrevand streets. The project stands in the immediate vicinity of the “Garunavan 3” family neighborhood. You will find newly built buildings, complexes, and family quarters in this part of the city. The main advantage of the…",
-  "apartments": [
-   {
-    "rooms": "2",
-    "area_min": 48,
-    "area_max": 57,
-    "price_from": 19885000,
-    "currency": "AMD"
-   },
-   {
-    "rooms": "3",
-    "area_min": 70,
-    "area_max": 96,
-    "price_from": 31000000,
-    "currency": "AMD"
-   },
-   {
-    "rooms": "4",
-    "area_min": 120,
-    "area_max": 122,
-    "price_from": 49000000,
-    "currency": "AMD"
-   }
-  ]
+  "apartments": []
  },
  {
   "source": "redgroup.am",
@@ -19959,8 +19755,8 @@
   "lat": 40.180716,
   "lng": 44.48417,
   "price_min_usd_m2": null,
-  "price_min_amd_m2": 1612828,
-  "price_currency_raw": "from 1,612,828 AMD/m² (computed from 12 listed units of 34)",
+  "price_min_amd_m2": 1751667,
+  "price_currency_raw": "from 1,751,667 AMD/m² (computed from 6 listed units of 34)",
   "completion": "2026-08",
   "status": "completed",
   "floors": "14",
@@ -19995,9 +19791,9 @@
   "apartments": [
    {
     "rooms": "1",
-    "area_min": 29,
+    "area_min": 46,
     "area_max": 57,
-    "price_from": 46772000,
+    "price_from": 80680000,
     "currency": "AMD"
    }
   ]
@@ -20014,8 +19810,8 @@
   "lat": 40.22696,
   "lng": 44.59338,
   "price_min_usd_m2": null,
-  "price_min_amd_m2": 392951,
-  "price_currency_raw": "from 392,951 AMD/m² (computed from 12 listed units of 108)",
+  "price_min_amd_m2": 473000,
+  "price_currency_raw": "from 473,000 AMD/m² (computed from 1 listed units of 108)",
   "completion": null,
   "status": "under construction",
   "floors": "6",
@@ -20038,17 +19834,10 @@
   "description": "Apartments 37-110 m², 2-3 rooms. All purchases will be subject to the regulations of the Income Tax Refund Act. Developer: \"Avan Residence\" CJSC Builder: \"Malkhasyan Shin\" LLC The “Avan Residence” residential project consists of two residential buildings being constructed in the Mher Mkrtchyan district. The total land area of the project is 4,003 sq.m, of which only 1,488 sq.m is designated for construction, while the remaining area will be allocated to landscaped green zones. A children’s playground and leisure gazebos will also be built within the service area. The “Avan Residence” complex includes 1 underground parking level and 6 residential floors, with a total of 108 apartments. Each…",
   "apartments": [
    {
-    "rooms": "2",
-    "area_min": 43,
-    "area_max": 63,
-    "price_from": 17580000,
-    "currency": "AMD"
-   },
-   {
     "rooms": "3",
-    "area_min": 87,
+    "area_min": 110,
     "area_max": 110,
-    "price_from": 35590000,
+    "price_from": 52030000,
     "currency": "AMD"
    }
   ]
@@ -20065,8 +19854,8 @@
   "lat": null,
   "lng": null,
   "price_min_usd_m2": null,
-  "price_min_amd_m2": 709016,
-  "price_currency_raw": "from 709,016 AMD/m² (computed from 12 listed units of 54)",
+  "price_min_amd_m2": null,
+  "price_currency_raw": "",
   "completion": "2026",
   "status": "under construction",
   "floors": "10",
@@ -20087,29 +19876,7 @@
   ],
   "videos": [],
   "description": "Apartments 44-118 m², 2-4 rooms. Developer: “Slavonic Residence” LLC Designer: “PROENERGY GROUP” LLC Contractor: “HOVSEPYAN-90 SHIN” LLC Construction Start: January 2024 Construction Completion: First half of 2026 Slavonakan Residence is a modern architectural marvel situated on Hovsep Emin Street in the Arabkir community. This stylish building boasts thirteen floors in total, with three below ground and ten above ground. Among these floors, nine are designated for residential use, while one serves a public purpose. Each residential floor is meticulously designed to accommodate six apartments with 2-4 rooms, varying in size from 44.3 to 117.9 square meters, resulting in a total of 54…",
-  "apartments": [
-   {
-    "rooms": "2",
-    "area_min": 44,
-    "area_max": 61,
-    "price_from": 33780000,
-    "currency": "AMD"
-   },
-   {
-    "rooms": "3",
-    "area_min": 69,
-    "area_max": 69,
-    "price_from": 51520000,
-    "currency": "AMD"
-   },
-   {
-    "rooms": "4",
-    "area_min": 118,
-    "area_max": 118,
-    "price_from": 83680000,
-    "currency": "AMD"
-   }
-  ]
+  "apartments": []
  },
  {
   "source": "redgroup.am",
@@ -20123,8 +19890,8 @@
   "lat": null,
   "lng": null,
   "price_min_usd_m2": null,
-  "price_min_amd_m2": 380556,
-  "price_currency_raw": "from 380,556 AMD/m² (computed from 12 listed units of 17)",
+  "price_min_amd_m2": 441558,
+  "price_currency_raw": "from 441,558 AMD/m² (computed from 2 listed units of 17)",
   "completion": "2025-02",
   "status": "completed",
   "floors": "",
@@ -20147,13 +19914,6 @@
   "description": "Apartments 144-176 m², 4-5 rooms. Start of construction: 15.03.23 End of construction: 15.02.25 Developer \"Villa Town House\" LLC Designer \"Profenergy Group\" LLC Builder \"Lox Building\" LLC \"Davtashen Town\" is a special project known for its exceptional geographical location and environment. It is situated in the newly built Melkumov private house district of Davtashen, offering a convenient spot near the north-south highway. It is only 1km away from the Garage Master mall and adjacent to the Hayfilm movie studio, forming part of the future academic city's cultural cluster. \"Davtashen Town\" follows closed family neighborhood standards and occupies a spacious 3500 square meters of land. Out…",
   "apartments": [
    {
-    "rooms": "4",
-    "area_min": 144,
-    "area_max": 144,
-    "price_from": 54800000,
-    "currency": "AMD"
-   },
-   {
     "rooms": "5",
     "area_min": 154,
     "area_max": 176,
@@ -20174,8 +19934,8 @@
   "lat": 40.168703,
   "lng": 44.496538,
   "price_min_usd_m2": null,
-  "price_min_amd_m2": 444603,
-  "price_currency_raw": "from 444,603 AMD/m² (computed from 12 listed units of 80)",
+  "price_min_amd_m2": 747857,
+  "price_currency_raw": "from 747,857 AMD/m² (computed from 2 listed units of 80)",
   "completion": "2026-12",
   "status": "under construction",
   "floors": "4",
@@ -20198,24 +19958,10 @@
   "description": "Apartments 43-254 m², 2-5 rooms. Developer: \"Renovation Project Management Company\" LLC Construction start: 06/2023 Expected date of completion: 12/2026 Partner bank: \"Converse Bank\" CJSC Exclusive right of sale: \"RED INVEST GROUP\" LLC Sales office: Buzand 107, 7th floor Sales manager: Garik Grigoryan Located in the center of Yerevan, at 235/3 Noragyugh district, the gated residential complex “Gardena” is a new living environment designed for those who appreciate urban lifestyle — right in the city center, yet away from the noise and busy streets. Yerevan Municipality, the “Metropol” Hotel, and Victory Bridge are all within walking distance. The “Gardena” residential complex is being…",
   "apartments": [
    {
-    "rooms": "2",
-    "area_min": 50,
-    "area_max": 63,
-    "price_from": 27120000,
-    "currency": "AMD"
-   },
-   {
     "rooms": "3",
-    "area_min": 80,
-    "area_max": 110,
-    "price_from": 41710000,
-    "currency": "AMD"
-   },
-   {
-    "rooms": "4",
-    "area_min": 118,
-    "area_max": 122,
-    "price_from": 97060000,
+    "area_min": 84,
+    "area_max": 87,
+    "price_from": 62820000,
     "currency": "AMD"
    }
   ]
@@ -20232,8 +19978,8 @@
   "lat": 40.22335,
   "lng": 44.442749,
   "price_min_usd_m2": null,
-  "price_min_amd_m2": 345810,
-  "price_currency_raw": "from 345,810 AMD/m² (computed from 12 listed units of 23)",
+  "price_min_amd_m2": 448864,
+  "price_currency_raw": "from 448,864 AMD/m² (computed from 2 listed units of 23)",
   "completion": null,
   "status": "under construction",
   "floors": "",
@@ -20258,8 +20004,8 @@
    {
     "rooms": "4",
     "area_min": 176,
-    "area_max": 180,
-    "price_from": 61900000,
+    "area_max": 176,
+    "price_from": 79000000,
     "currency": "AMD"
    }
   ]
@@ -20276,8 +20022,8 @@
   "lat": 40.201864,
   "lng": 44.509749,
   "price_min_usd_m2": null,
-  "price_min_amd_m2": 651190,
-  "price_currency_raw": "from 651,190 AMD/m² (computed from 12 listed units of 49)",
+  "price_min_amd_m2": 1002469,
+  "price_currency_raw": "from 1,002,469 AMD/m² (computed from 3 listed units of 49)",
   "completion": "2025-12",
   "status": "completed",
   "floors": "8",
@@ -20300,17 +20046,10 @@
   "description": "Apartments 40-113 m², 2-4 rooms. Developer: LLC “S. S. Brothers” Partner banks: Ardshinbank. Completion of construction 12/2025. 21 street is a residential building located at Arabkir 21, in one of the greenest and cleanest districts of Yerevan. The building is located right on the border of the administrative districts of Arabkir and Kentron. The geographical location is ideal for those who are looking for an apartment near the center but avoid the hustle and bustle. The distance from Arabkir 21 to Rio Mall is 400 m, the center is only 2 minutes away. “21 street” has 8 ground and 2 underground floors, 7 of which are residential, 1 floor is for public usage, and 2 underground floors are…",
   "apartments": [
    {
-    "rooms": "2",
-    "area_min": 40,
-    "area_max": 52,
-    "price_from": 27350000,
-    "currency": "AMD"
-   },
-   {
     "rooms": "3",
     "area_min": 76,
     "area_max": 81,
-    "price_from": 62400000,
+    "price_from": 76250000,
     "currency": "AMD"
    },
    {
@@ -20334,8 +20073,8 @@
   "lat": 40.204273,
   "lng": 44.592162,
   "price_min_usd_m2": null,
-  "price_min_amd_m2": 451538,
-  "price_currency_raw": "from 451,538 AMD/m² (computed from 12 listed units of 160)",
+  "price_min_amd_m2": null,
+  "price_currency_raw": "",
   "completion": null,
   "status": "under construction",
   "floors": "5",
@@ -20356,22 +20095,7 @@
   ],
   "videos": [],
   "description": "Apartments 46-166 m², 2-5 rooms. The Income Tax Refund Act will govern all purchases. Developer: \"SMART CITY DEVELOPER\" LLC Builder: \"GLOBAL REAL ESTATE\" LLC The development of Smart Cities is an obvious growing trend all over the world. Technological advances affect almost all areas of our lives. You may not notice, but technological solutions are evolving every second, and they are happening in different corners of the world. Many of you have dream to have or are one of the few to already have their apartment in \"Smart City\" (hereinafter referred to as \"Smart City 1\"). Thus, we are announcing the launch of first of its kind brand new innovation district in RA. You can guess why we are…",
-  "apartments": [
-   {
-    "rooms": "2",
-    "area_min": 46,
-    "area_max": 46,
-    "price_from": 32000000,
-    "currency": "AMD"
-   },
-   {
-    "rooms": "3",
-    "area_min": 74,
-    "area_max": 86,
-    "price_from": 35220000,
-    "currency": "AMD"
-   }
-  ]
+  "apartments": []
  },
  {
   "source": "redgroup.am",
@@ -20385,8 +20109,8 @@
   "lat": 40.193304,
   "lng": 44.482578,
   "price_min_usd_m2": null,
-  "price_min_amd_m2": 680851,
-  "price_currency_raw": "from 680,851 AMD/m² (computed from 12 listed units of 52)",
+  "price_min_amd_m2": null,
+  "price_currency_raw": "",
   "completion": "2023-09",
   "status": "completed",
   "floors": "7",
@@ -20407,22 +20131,7 @@
   ],
   "videos": [],
   "description": "Apartments 43-155 m², 2-4 rooms. Developer: \"KIEVIAN RESIDENCE\" LLC Designer: \"Arbak and Sons\" LLC The exclusive right to sell: RED Invest Group Project Management: 1SQ The expected completion date: 09/2023 How do you want your dream residence to be? Ideal location, high construction standards, as well as investment for the future. Right? Then hurry up and get the apartment of your dreams in the comfortable environment of \"Kievyan Residence.\" At Kievyan, we believe comfort is ensured by not only giving premium living conditions, but also providing a highly developed infrastructure and keeping all communication channels easily accessible. Shall we discover \"Kievyan Residence\" together? It…",
-  "apartments": [
-   {
-    "rooms": "2",
-    "area_min": 43,
-    "area_max": 59,
-    "price_from": 32000000,
-    "currency": "AMD"
-   },
-   {
-    "rooms": "3",
-    "area_min": 64,
-    "area_max": 64,
-    "price_from": 64590000,
-    "currency": "AMD"
-   }
-  ]
+  "apartments": []
  },
  {
   "source": "redgroup.am",
@@ -20436,8 +20145,8 @@
   "lat": 40.220564,
   "lng": 44.484205,
   "price_min_usd_m2": null,
-  "price_min_amd_m2": 425739,
-  "price_currency_raw": "from 425,739 AMD/m² (computed from 11 listed units of 177)",
+  "price_min_amd_m2": null,
+  "price_currency_raw": "",
   "completion": "2024-05",
   "status": "completed",
   "floors": "22",
@@ -20458,29 +20167,7 @@
   ],
   "videos": [],
   "description": "Apartments 43-223 m², 1-4 rooms. Developer: \"HAEKSHIN\" LLC Completion of construction: 05/2024 Partner Bank “Evocabank” Dear customers, we are delighted to present Bridgeview - perhaps the most multifunctional under-construction residential complex in Yerevan. The name finds its roots in the fact that almost all floors of the complex offer you the scenic view of the Davtashen Bridge and Mount Ararat on one side, and on the opposite side you will find the awe-inspiring Mount Aragats. The construction of the complex has already begun, and the completion is expected to be in the first half of 2024. The complex was designed by \"NAREK SARGSYAN ARCHITECTURAL WORKSHOP\", one of the most famous and…",
-  "apartments": [
-   {
-    "rooms": "2",
-    "area_min": 66,
-    "area_max": 89,
-    "price_from": 29760000,
-    "currency": "AMD"
-   },
-   {
-    "rooms": "3",
-    "area_min": 92,
-    "area_max": 115,
-    "price_from": 48960000,
-    "currency": "AMD"
-   },
-   {
-    "rooms": "4",
-    "area_min": 102,
-    "area_max": 102,
-    "price_from": 61440000,
-    "currency": "AMD"
-   }
-  ]
+  "apartments": []
  },
  {
   "source": "redgroup.am",
@@ -20493,9 +20180,9 @@
   "address": "Duryan House Residential Complex, Avan, Duryan 1/10",
   "lat": 40.217489,
   "lng": 44.588966,
-  "price_min_usd_m2": 773,
+  "price_min_usd_m2": null,
   "price_min_amd_m2": null,
-  "price_currency_raw": "from 773 USD/m² (computed from 12 listed units of 97)",
+  "price_currency_raw": "",
   "completion": "2025-07",
   "status": "completed",
   "floors": "7",
@@ -20516,22 +20203,7 @@
   ],
   "videos": [],
   "description": "Apartments 34-142 m², 2-4 rooms. The law on income tax refund applies. Developer \"EDNO Group\" LLC Start of construction: June 2023 End of construction: 07․2025 Exclusive right for sale “RED Invest Group” LLC Sales offiice: Buzand 107, 7th floor Sales manager: Varos Abnusyan Phone: (+374)98-908-908 WhatsApp: (+374)98-908-908 If you are in search of a modern yet affordable living space in the Avan administrative district, then we are pleased to announce that we have the perfect solution for you. Our new project, situated at Duryan 1st /10, offers a unique living experience that you won't find anywhere else in the district! Welcome to DURYAN HOUSE, a stunning residential area located in the…",
-  "apartments": [
-   {
-    "rooms": "2",
-    "area_min": 51,
-    "area_max": 51,
-    "price_from": 44000,
-    "currency": "USD"
-   },
-   {
-    "rooms": "3",
-    "area_min": 62,
-    "area_max": 78,
-    "price_from": 51000,
-    "currency": "USD"
-   }
-  ]
+  "apartments": []
  },
  {
   "source": "redgroup.am",
@@ -20544,9 +20216,9 @@
   "address": "Moldovakan New Residential Building in Nor Nork 2nd District  ​​​​​​​Moldovakan 39/37",
   "lat": 40.202366,
   "lng": 44.577937,
-  "price_min_usd_m2": 640,
-  "price_min_amd_m2": 462857,
-  "price_currency_raw": "from 462,857 AMD/m² (computed from 4 listed units of 28); from 640 USD/m² (computed from 2 listed units of 28)",
+  "price_min_usd_m2": null,
+  "price_min_amd_m2": null,
+  "price_currency_raw": "",
   "completion": "2023-12",
   "status": "completed",
   "floors": "4",
@@ -20567,43 +20239,7 @@
   ],
   "videos": [],
   "description": "Apartments 52-150 m², 2-4 rooms. Tax Refund Act will govern the purchase. Developer: \"Just Developer\" LLC Design company: \"Reform\" LLC Start of construction: 03/2022 Completion of construction: 12/2023 Dear customers, we are delighted to announce a new premium-class residential building. This small yet comfortable residential building with beautiful modern architecture is located in Bagrevand, at 39/37 Moldovakan Street, 2nd block of Nor Nork. The complex is being skilfully built in the immediate vicinity of \"Engineering City\". The residential building consists of only 4 residential floors. There are only 28 apartments in the building. You will find one underground parking floor and…",
-  "apartments": [
-   {
-    "rooms": "2",
-    "area_min": 59,
-    "area_max": 59,
-    "price_from": 36500000,
-    "currency": "AMD"
-   },
-   {
-    "rooms": "2",
-    "area_min": 52,
-    "area_max": 57,
-    "price_from": 44000,
-    "currency": "USD"
-   },
-   {
-    "rooms": "3",
-    "area_min": 61,
-    "area_max": 84,
-    "price_from": 31200000,
-    "currency": "AMD"
-   },
-   {
-    "rooms": "3",
-    "area_min": 65,
-    "area_max": 107,
-    "price_from": null,
-    "currency": "USD"
-   },
-   {
-    "rooms": "4",
-    "area_min": 150,
-    "area_max": 150,
-    "price_from": 96000,
-    "currency": "USD"
-   }
-  ]
+  "apartments": []
  },
  {
   "source": "redgroup.am",
@@ -20617,8 +20253,8 @@
   "lat": 40.187821,
   "lng": 44.469813,
   "price_min_usd_m2": null,
-  "price_min_amd_m2": 377138,
-  "price_currency_raw": "from 377,138 AMD/m² (computed from 12 listed units of 205)",
+  "price_min_amd_m2": null,
+  "price_currency_raw": "",
   "completion": "2026-06",
   "status": "completed",
   "floors": "16",
@@ -20639,29 +20275,7 @@
   ],
   "videos": [],
   "description": "Apartments 37-327 m², 2-5 rooms. Start of the construction -10/2021. End date: 06/2026 Developer: “Grig Development\" LLC The construction program is managed by the company “ 1SQ ” \"Level 16\" - a new multi-apartment residential complex is being built in one of the fastest growing districts of Yerevan - between Leningradyan and Monte Melkonyan streets of the Achapnyak district (address: Leningradyan 29/17). The complex will consist of 14 and 16 floors 2 buildings with a total of 196 apartments. The complex also provides three underground floors parking area, the ground floor -commercial premises. The complex offers a beautiful view of Yerevan and Mount Ararat, so the roofs of the buildings…",
-  "apartments": [
-   {
-    "rooms": "2",
-    "area_min": 55,
-    "area_max": 55,
-    "price_from": 20763600,
-    "currency": "AMD"
-   },
-   {
-    "rooms": "3",
-    "area_min": 84,
-    "area_max": 123,
-    "price_from": 36643500,
-    "currency": "AMD"
-   },
-   {
-    "rooms": "4",
-    "area_min": 130,
-    "area_max": 130,
-    "price_from": 49028000,
-    "currency": "AMD"
-   }
-  ]
+  "apartments": []
  },
  {
   "source": "redgroup.am",
@@ -20675,8 +20289,8 @@
   "lat": 40.174194,
   "lng": 44.535167,
   "price_min_usd_m2": null,
-  "price_min_amd_m2": 487313,
-  "price_currency_raw": "from 487,313 AMD/m² (computed from 12 listed units of 68)",
+  "price_min_amd_m2": null,
+  "price_currency_raw": "",
   "completion": "2026-11",
   "status": "under construction",
   "floors": "5",
@@ -20708,29 +20322,7 @@
   ],
   "videos": [],
   "description": "Apartments 48-203 m², 1-5 rooms. Developer: \"Tida 23\" LLC Partner bank: AMERIABANK Construction start: January 2024 Construction completion: scheduled for November 2026 Welcome to The Hill, an oasis of sophistication and tranquility perched amidst the scenic landscape of Nork Marash, G. Hovsepyan 64/7, Yerevan. Set against the backdrop of the iconic Mount Ararat, The Hill offers an unparalleled living experience, where every detail has been meticulously crafted to redefine luxury living in Armenia. Spanning a sprawling expanse of 3500 square meters, The Hill commands attention with its elegant architecture and verdant surroundings. Of this, 1200 square meters are dedicated to the…",
-  "apartments": [
-   {
-    "rooms": "2",
-    "area_min": 59,
-    "area_max": 67,
-    "price_from": 29400000,
-    "currency": "AMD"
-   },
-   {
-    "rooms": "3",
-    "area_min": 87,
-    "area_max": 87,
-    "price_from": 43950000,
-    "currency": "AMD"
-   },
-   {
-    "rooms": "5",
-    "area_min": 117,
-    "area_max": 117,
-    "price_from": 65400000,
-    "currency": "AMD"
-   }
-  ]
+  "apartments": []
  },
  {
   "source": "redgroup.am",
@@ -20743,9 +20335,9 @@
   "address": "West Town Residential district, Ajapnyak, S. Lukashin st. 3, 3/67",
   "lat": 40.19627,
   "lng": 44.446761,
-  "price_min_usd_m2": 690,
-  "price_min_amd_m2": 387854,
-  "price_currency_raw": "from 690 USD/m² (computed from 4 listed units of 10); from 387,854 AMD/m² (computed from 6 listed units of 10)",
+  "price_min_usd_m2": null,
+  "price_min_amd_m2": null,
+  "price_currency_raw": "",
   "completion": "2022-08",
   "status": "completed",
   "floors": "",
@@ -20766,22 +20358,7 @@
   ],
   "videos": [],
   "description": "Apartments 130-195 m², 4-6 rooms. The law on income tax refund applies Start of the construction 09/2021. End date: 08/2022 Developer: “My Home realty” CJSC Construction company: “T-construction” CJSC Chief architects of the project - Tigran Panyan, Nane Babakhanyan West town is a stylish and cozy, closed quarter. The quarter is being built on a plot of 2232 square meters in Achapnyak, next to the North-South highway. There are 10 townhouses in the quarter. The buildings occupy 923 sq.m of the total area, or only 42%. Townhouses will be handed over to buyers with quality exterior doors and windows, separated rooms, plastered and leveled floors. Available 4 and 6 room townhouses with an…",
-  "apartments": [
-   {
-    "rooms": "4",
-    "area_min": 130,
-    "area_max": 130,
-    "price_from": 50421000,
-    "currency": "AMD"
-   },
-   {
-    "rooms": "6",
-    "area_min": 181,
-    "area_max": 195,
-    "price_from": 124900,
-    "currency": "USD"
-   }
-  ]
+  "apartments": []
  },
  {
   "source": "redgroup.am",
@@ -20794,9 +20371,9 @@
   "address": "Hanrapetutyan st. 61",
   "lat": 40.177601,
   "lng": 44.517505,
-  "price_min_usd_m2": 2167,
+  "price_min_usd_m2": null,
   "price_min_amd_m2": null,
-  "price_currency_raw": "from 2,167 USD/m² (computed from 12 listed units of 34)",
+  "price_currency_raw": "",
   "completion": "2022-04",
   "status": "completed",
   "floors": "6",
@@ -20817,22 +20394,7 @@
   ],
   "videos": [],
   "description": "Apartments 41-57 m², 2-3 rooms. Start of the construction 06/21. End date: 04/2022 Developer: \"L Zara” LLC CONSTRUCTION COMPANY “MOSS GROUP \" 36 apartments in the heart of the city. Dear customers, you have a unique opportunity to buy an apartment in one of the most favorite places in Yerevan-vernissage (the crossroad of Aram and Hanrapetutyan streets) a 6 floors building being built next to the Republic Square. The first three floors of the building are already built and are being used as public area, and the start of construction of the 4th to the 6th floors was given on 01/06/2021 and will be completed in just 9 months-01/04/2022 . There are only 36 apartments with an area of 41.6 sq.…",
-  "apartments": [
-   {
-    "rooms": "2",
-    "area_min": 43,
-    "area_max": 54,
-    "price_from": 95000,
-    "currency": "USD"
-   },
-   {
-    "rooms": "3",
-    "area_min": 41,
-    "area_max": 54,
-    "price_from": 104000,
-    "currency": "USD"
-   }
-  ]
+  "apartments": []
  },
  {
   "source": "redgroup.am",
@@ -20845,9 +20407,9 @@
   "address": "Erebuni community: Davit Bek 1/25",
   "lat": 40.151449,
   "lng": 44.523896,
-  "price_min_usd_m2": 824,
+  "price_min_usd_m2": null,
   "price_min_amd_m2": null,
-  "price_currency_raw": "from 824 USD/m² (computed from 12 listed units of 23)",
+  "price_currency_raw": "",
   "completion": "2021-11",
   "status": "completed",
   "floors": "4",
@@ -20868,29 +20430,7 @@
   ],
   "videos": [],
   "description": "Apartments 54-105 m², 2-4 rooms. The law on income tax refund applies Start of the construction 11/2020 completion 11/2021 Developeru055d «Ecology Construction» LLC Construction Companyu055d «D & S Construction » Dear customers, Red Invest Group and Ecology Construction present the project of a new unique residential building in Erebuni community. The construction of the residential building is at the address David Beck 1/25, near the Hollywood Quarter. The building is being built next to the municipality of Erebuni, Lake Vardavar and the park. The building will be delivered with a beautiful marble facing, a high-quality elevator will be installed, it will have 2 underground and 4 ground…",
-  "apartments": [
-   {
-    "rooms": "2",
-    "area_min": 54,
-    "area_max": 66,
-    "price_from": 44500,
-    "currency": "USD"
-   },
-   {
-    "rooms": "3",
-    "area_min": 92,
-    "area_max": 92,
-    "price_from": 79500,
-    "currency": "USD"
-   },
-   {
-    "rooms": "4",
-    "area_min": 92,
-    "area_max": 103,
-    "price_from": 79000,
-    "currency": "USD"
-   }
-  ]
+  "apartments": []
  },
  {
   "source": "redgroup.am",
@@ -20904,8 +20444,8 @@
   "lat": 40.203486,
   "lng": 44.589348,
   "price_min_usd_m2": null,
-  "price_min_amd_m2": 467033,
-  "price_currency_raw": "from 467,033 AMD/m² (computed from 2 listed units of 81)",
+  "price_min_amd_m2": null,
+  "price_currency_raw": "",
   "completion": "2022-05",
   "status": "completed",
   "floors": "4",
@@ -20926,36 +20466,7 @@
   ],
   "videos": [],
   "description": "Apartments 43-182 m², 2-4 rooms. The law on income tax refund applies. Start of the construction 05/2020. End date: 05/2022. Developer: “Global Real Estate” LLC Construction company: “Global Real Estate” LLC Designing organization: \" Canon Area” LLC The chief architect of the project: Suren Gavaryan / Tribeca Studio/ The Bank-partner “Ameriabank” CJSC Smart city is a stylish and convenient multifunctional, closed quarter. The quarter is being built on 12,537 sq.m. of land in Jrvezh, just 9.1 km away from Republic Square, 2.2 km from Megamall Armenia, 620 m from Engineering city. On three sides there are roads of community significance, which are joined by four main entrances and exits of…",
-  "apartments": [
-   {
-    "rooms": "2",
-    "area_min": 56,
-    "area_max": 56,
-    "price_from": null,
-    "currency": "USD"
-   },
-   {
-    "rooms": "3",
-    "area_min": 55,
-    "area_max": 90,
-    "price_from": null,
-    "currency": "USD"
-   },
-   {
-    "rooms": "4",
-    "area_min": 182,
-    "area_max": 182,
-    "price_from": 85000000,
-    "currency": "AMD"
-   },
-   {
-    "rooms": "4",
-    "area_min": 182,
-    "area_max": 182,
-    "price_from": null,
-    "currency": "USD"
-   }
-  ]
+  "apartments": []
  },
  {
   "source": "redgroup.am",
@@ -20969,8 +20480,8 @@
   "lat": 40.197825,
   "lng": 44.57738,
   "price_min_usd_m2": null,
-  "price_min_amd_m2": 411392,
-  "price_currency_raw": "from 411,392 AMD/m² (computed from 12 listed units of 64)",
+  "price_min_amd_m2": null,
+  "price_currency_raw": "",
   "completion": "2022-06",
   "status": "completed",
   "floors": "4",
@@ -20991,29 +20502,7 @@
   ],
   "videos": [],
   "description": "Apartments 58-119 m², 2-4 rooms. The the construction 06/2020 completion 06/2022 Developer: “Advanced development\", OOO The author of the project “Toscan” LLC Dear residents and buyers, the construction of Garaunavan 3 has started. Thanks to the hard work of our entire team, the construction of Garaunavan-2 has been completed, and hundrands of people are getting ready to start their new life in new houses. Our team of architects has been working on the design of Garunavan 3 for several months, and here is the result. Garunavan 3 is located in the 2nd district of Nor Nork, in the neighborhood of Garunavan 2. Four buildings with one underground and four ground floors with beautiful and…",
-  "apartments": [
-   {
-    "rooms": "2",
-    "area_min": 58,
-    "area_max": 79,
-    "price_from": 28700000,
-    "currency": "AMD"
-   },
-   {
-    "rooms": "3",
-    "area_min": 83,
-    "area_max": 93,
-    "price_from": 40700000,
-    "currency": "AMD"
-   },
-   {
-    "rooms": "4",
-    "area_min": 93,
-    "area_max": 118,
-    "price_from": 45000000,
-    "currency": "AMD"
-   }
-  ]
+  "apartments": []
  },
  {
   "source": "redgroup.am",
@@ -21026,9 +20515,9 @@
   "address": "Residental Building in Davtashen 22/2",
   "lat": 40.226486,
   "lng": 44.49718,
-  "price_min_usd_m2": 786,
+  "price_min_usd_m2": null,
   "price_min_amd_m2": null,
-  "price_currency_raw": "from 786 USD/m² (computed from 12 listed units of 55)",
+  "price_currency_raw": "",
   "completion": "2021-12",
   "status": "completed",
   "floors": "12",
@@ -21049,29 +20538,7 @@
   ],
   "videos": [],
   "description": "Apartments 36-100 m², 2-4 rooms. The law on income tax refund applied Start of construction 07/2020. End date: 12/2021. Developer New Home LLC Dear customers, we present a new project of Red Invest Group LLC and New Home LLC in the Davitashen 2nd quarter 12 floor high-quality and comfortable residential building, which is planned to be built on a plot of 5900 sq. m. The building will have an underground and open parking area, a green and comfortable area for a playground. The location of the building is very convenient: within 5 minutes walking you will find all the necessary public facilities and transport stops. Hurry up to book an apartment. There are 55 apartments in the building 2, 3…",
-  "apartments": [
-   {
-    "rooms": "2",
-    "area_min": 36,
-    "area_max": 36,
-    "price_from": 30000,
-    "currency": "USD"
-   },
-   {
-    "rooms": "3",
-    "area_min": 63,
-    "area_max": 76,
-    "price_from": 49500,
-    "currency": "USD"
-   },
-   {
-    "rooms": "4",
-    "area_min": 100,
-    "area_max": 100,
-    "price_from": 85000,
-    "currency": "USD"
-   }
-  ]
+  "apartments": []
  },
  {
   "source": "redgroup.am",
@@ -21086,7 +20553,7 @@
   "lng": 44.588764,
   "price_min_usd_m2": null,
   "price_min_amd_m2": null,
-  "price_currency_raw": "from 86 USD/m² (computed from 12 listed units of 60)",
+  "price_currency_raw": "",
   "completion": "2021-05",
   "status": "completed",
   "floors": "4",
@@ -21108,29 +20575,7 @@
   ],
   "videos": [],
   "description": "Apartments 45-1108 m², 2-4 rooms. The law on income tax refund act applies Start of construction of the project 11/2019. End date: 05/2021. The Builder - “TM Mega holding” LLC CONSTRUCTION COMPANY - “Malkhasyan Shin\" LLC Exclusive right to sell “Red Invest Group LLC” The booking stage is open from 27/09/2019 Tel: + 374 98 908 910/ Office Cozy, high-quality family residential Area in Avan. We present you a new and comfortable family residential quarter in Avan: Sunland. The quarter is being built in one of the most convenient and youth communities in Yerevan- Avan, just 600 meters from the Yerevan city supermarket, on a fully fenced plot of 6000 sq. m. 6 buildings with 4 floors are being…",
-  "apartments": [
-   {
-    "rooms": "2",
-    "area_min": 50,
-    "area_max": 51,
-    "price_from": 41500,
-    "currency": "USD"
-   },
-   {
-    "rooms": "3",
-    "area_min": 74,
-    "area_max": 83,
-    "price_from": 62000,
-    "currency": "USD"
-   },
-   {
-    "rooms": "4",
-    "area_min": 120,
-    "area_max": 1108,
-    "price_from": 95000,
-    "currency": "USD"
-   }
-  ]
+  "apartments": []
  },
  {
   "source": "redgroup.am",

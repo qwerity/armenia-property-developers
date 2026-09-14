@@ -35,6 +35,10 @@ export function initFilterOptions(projects, developers) {
   const sources = new Map();
   for (const p of projects) for (const s of p.sources || []) if (s.name) sources.set(s.name, (sources.get(s.name) || 0) + 1);
   fillSelect($(FIELDS.source), [...sources.keys()].sort(), "All sources", sources);
+  const stages = countBy(projects, "stage");
+  for (const opt of $(FIELDS.status).options) {
+    if (opt.value) opt.textContent = `${opt.textContent.replace(/ \(\d+\)$/, "")} (${stages.get(opt.value) || 0})`;
+  }
   const years = [...new Set(projects.map((p) => p.completion_year).filter(Boolean))].sort();
   fillSelect($(FIELDS.year), years.map(String), "Any");
 }
@@ -91,7 +95,7 @@ export function applyFilters(projects, f, bounds) {
     if (f.district && p.district !== f.district) return false;
     if (f.dev && p.developer_group !== f.dev) return false;
     if (f.kind && p.kind !== f.kind) return false;
-    if (f.status && p.status !== f.status) return false;
+    if (f.status && p.stage !== f.status) return false;
     if (f.pmin != null && !(p.usd_m2_min >= f.pmin)) return false;
     if (f.pmax != null && !(p.usd_m2_min != null && p.usd_m2_min <= f.pmax)) return false;
     if (f.budget != null && !(p.usd_from != null && p.usd_from <= f.budget)) return false;

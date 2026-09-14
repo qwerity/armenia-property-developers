@@ -42,6 +42,13 @@ export function quarter(iso) {
   return `Q${Math.floor(d.getUTCMonth() / 3) + 1} ${d.getUTCFullYear()}`;
 }
 
+const STAGE_LABEL = { finished: "Finished", "in progress": "In progress", "just started": "Just started", "not started": "Not yet started", unknown: "Stage unknown" };
+
+/** Human label for a construction stage; appends "(est.)" when inferred from the completion date alone. */
+export function stageLabel(p) {
+  return `${STAGE_LABEL[p.stage] || "Stage unknown"}${p.stage_estimated ? " (est.)" : ""}`;
+}
+
 export function debounce(fn, ms = 150) {
   let t;
   return (...a) => { clearTimeout(t); t = setTimeout(() => fn(...a), ms); };

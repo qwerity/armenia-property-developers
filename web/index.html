@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="no-referrer">
   <title>Armenia New Builds Map</title>
   <link rel="stylesheet" href="vendor/maplibre-gl/maplibre-gl.css">
   <link rel="stylesheet" href="styles.css">
@@ -26,10 +27,12 @@
           <label>District<select id="f-district"><option value="">All districts</option></select></label>
           <label class="span2">Developer<select id="f-dev"><option value="">All developers</option></select></label>
           <label>Type<select id="f-kind"><option value="">Any</option></select></label>
-          <label>Status<select id="f-status">
-            <option value="">Any</option>
-            <option value="under construction">Under construction</option>
-            <option value="completed">Completed (still selling)</option>
+          <label>Construction stage<select id="f-status">
+            <option value="">Any stage</option>
+            <option value="finished">Finished</option>
+            <option value="in progress">In progress</option>
+            <option value="just started">Just started</option>
+            <option value="not started">Not yet started</option>
             <option value="unknown">Unknown</option>
           </select></label>
           <label>$/m² from<input id="f-pmin" type="number" min="0" step="50" placeholder="min"></label>
@@ -95,7 +98,7 @@
   <div id="lightbox" class="lightbox" hidden>
     <button class="close" aria-label="Close image">×</button>
     <button class="nav prev" aria-label="Previous image">‹</button>
-    <img alt="">
+    <img alt="" referrerpolicy="no-referrer">
     <button class="nav next" aria-label="Next image">›</button>
   </div>
 

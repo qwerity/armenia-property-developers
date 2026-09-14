@@ -1,4 +1,4 @@
-import { esc, safeUrl, money, compactMoney, quarter, state } from "./util.js";
+import { esc, safeUrl, money, compactMoney, quarter, state, stageLabel } from "./util.js";
 import { dealBadge } from "./list.js";
 
 const DAYS = ["Mo", "Tu", "We", "Th", "Fr", "Sa", "Su"];
@@ -27,8 +27,8 @@ function hoursText(wh) {
 
 function gallery(images) {
   if (!images?.length) return `<div class="hero empty">No images available</div>`;
-  return `<div class="hero"><img src="${esc(images[0])}" data-idx="0" alt=""></div>
-    ${images.length > 1 ? `<div class="thumbs">${images.slice(1).map((src, i) => `<img loading="lazy" src="${esc(src)}" data-idx="${i + 1}" alt="">`).join("")}</div>` : ""}`;
+  return `<div class="hero"><img referrerpolicy="no-referrer" src="${esc(images[0])}" data-idx="0" alt=""></div>
+    ${images.length > 1 ? `<div class="thumbs">${images.slice(1).map((src, i) => `<img loading="lazy" referrerpolicy="no-referrer" src="${esc(src)}" data-idx="${i + 1}" alt="">`).join("")}</div>` : ""}`;
 }
 
 function videos(list) {
@@ -79,6 +79,35 @@ function completeness(p) {
   </div>`;
 }
 
+const CONFIDENCE = {
+  verified: ["good", "Verified on source page"],
+  high: ["good", "Confirmed by multiple sources"],
+  medium: ["ok", "Single source / minor disagreement"],
+  low: ["high", "Sources disagree — treat with caution"],
+  rejected: ["high", "Source figures implausible"],
+};
+
+function confidenceBadge(p) {
+  const c = CONFIDENCE[p.price_confidence];
+  return c ? `<span class="badge ${c[0]}" title="${esc(c[1])}">price: ${esc(p.price_confidence)}</span>` : "";
+}
+
+function priceCheck(p) {
+  const obs = p.price_obs || [];
+  if (!obs.length && !p.price_verification) return "";
+  const v = p.price_verification;
+  return `<section><h3>Price check ${confidenceBadge(p)}</h3>
+    ${v ? `<p class="small">Manual re-check: <b>${esc(v.verdict)}</b>${v.evidence_text ? ` — “${esc(v.evidence_text)}”` : ""}${v.evidence_url ? ` <a href="${esc(safeUrl(v.evidence_url))}" target="_blank" rel="noopener">source</a>` : ""}${v.notes ? `<br><span class="muted">${esc(v.notes)}</span>` : ""}</p>` : ""}
+    ${obs.length ? `<table class="ptable"><tr><th>Source</th><th>Figure</th><th>$/m²</th><th></th></tr>
+      ${obs.map((o) => `<tr class="${o.used ? "" : "muted"}" title="${esc((o.flags || []).join("; "))}">
+        <td>${esc(o.source)}${o.kind === "implied" ? ' <span class="small">(apt ÷ area)</span>' : ""}</td>
+        <td class="small">${esc(o.raw || [o.usd && `$${Math.round(o.usd)}`, o.amd && `֏${Math.round(o.amd).toLocaleString("en-US")}`].filter(Boolean).join(" / "))}</td>
+        <td>${o.usd_m2 ? `$${o.usd_m2.toLocaleString("en-US")}` : "—"}</td>
+        <td>${o.used ? "✓" : (o.flags?.length ? "⚠" : "")}</td></tr>`).join("")}
+    </table>` : ""}
+  </section>`;
+}
+
 const PRECISION = { exact: "", address: "geocoded from address", street: "approximate (street level)", district: "approximate (district centre)", city: "approximate (city centre)" };
 
 /**
@@ -105,7 +134,7 @@ export function renderDetails(el, p, openLightbox, onDeveloper) {
       <div class="stats">
         <div><span>Price / m²</span><b>${money(p.usd_m2_min, p.amd_m2_min)}${p.usd_m2_max && p.usd_m2_max !== p.usd_m2_min ? ` – ${money(p.usd_m2_max, p.amd_m2_max)}` : ""}</b></div>
         <div><span>Apartments from</span><b>${compactMoney(p.usd_from, p.amd_from)}</b>${p.min_area_m2 ? `<small>${p.min_area_m2} m²</small>` : ""}</div>
-        <div><span>Completion</span><b>${esc(p.completion ? quarter(p.completion) : (p.completion_text || "—"))}</b><small>${esc(p.sold_out ? "sold out" : p.status)}</small></div>
+        <div><span>Completion</span><b>${esc(p.completion ? quarter(p.completion) : (p.completion_text || "—"))}</b><small>${esc(stageLabel(p))}${p.progress_pct != null && p.stage !== "finished" ? ` · ~${p.progress_pct}% of build time` : ""}${p.sold_out ? " · sold out" : ""}</small></div>
       </div>
       ${p.discount_pct != null ? `<div class="bench">${dealBadge(p)} <span class="muted small">local median ${money(p.bench_usd_m2, p.bench_usd_m2 * state.rate, "/m²")} across ${p.bench_n} projects</span></div>` : ""}
 
@@ -120,6 +149,7 @@ export function renderDetails(el, p, openLightbox, onDeveloper) {
         ${row("Address (hy)", esc(p.address_am))}
         ${row("Coordinates", `${p.lat.toFixed(5)}, ${p.lng.toFixed(5)}${PRECISION[p.geo_precision] ? ` <span class="muted small">(${PRECISION[p.geo_precision]})</span>` : ""}`)}
       </section>
+      ${priceCheck(p)}
       ${roomTable(p.prices_by_rooms)}
       ${floorTable(p.prices_by_floor)}
 
