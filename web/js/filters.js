@@ -85,7 +85,7 @@ export function setDeveloperFilter(name) {
  * Filter projects. Price filters are always in USD per m² (converted at build time).
  * @param {object[]} projects
  * @param {ReturnType<typeof readFilters>} f
- * @param {import('../vendor/maplibre-gl/maplibre-gl.mjs').LngLatBounds|null} bounds
+ * @param {{contains:(lngLat:[number, number])=>boolean}|null} bounds map viewport
  */
 export function applyFilters(projects, f, bounds) {
   const terms = f.q.split(/\s+/).filter(Boolean);

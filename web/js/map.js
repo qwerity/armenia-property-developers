@@ -1,47 +1,9 @@
-import * as maplibregl from "../vendor/maplibre-gl/maplibre-gl.mjs";
+import { MarkerClusterer } from "https://cdn.jsdelivr.net/npm/@googlemaps/markerclusterer@2.6.2/+esm";
+import { loadGoogleMaps, mapId } from "./google.js";
 import { esc, money, compactMoney, quarter, stageLabel } from "./util.js";
 import { gradeBadge } from "./list.js";
 
-const ARMENIA_BOUNDS = [[43.3, 38.8], [46.7, 41.35]];
-const ESRI = "https://server.arcgisonline.com/ArcGIS/rest/services";
-
-const BASEMAPS = {
-  streets: ["carto-voyager"],
-  satellite: ["esri-imagery"],
-  hybrid: ["esri-imagery", "esri-transport", "esri-labels"],
-};
-
-function rasterStyle() {
-  const raster = (tiles, attribution, extra = {}) => ({ type: "raster", tiles, tileSize: 256, attribution, maxzoom: 19, ...extra });
-  return {
-    version: 8,
-    sources: {
-      "carto-voyager": raster(
-        ["a", "b", "c", "d"].map((s) => `https://${s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}@2x.png`),
-        '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> © <a href="https://carto.com/attributions">CARTO</a>',
-        { tileSize: 512, maxzoom: 20 },
-      ),
-      "esri-imagery": raster([`${ESRI}/World_Imagery/MapServer/tile/{z}/{y}/{x}`], "Imagery © Esri, Maxar, Earthstar Geographics"),
-      "esri-transport": raster([`${ESRI}/Reference/World_Transportation/MapServer/tile/{z}/{y}/{x}`], "© Esri"),
-      "esri-labels": raster([`${ESRI}/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}`], "© Esri"),
-    },
-    layers: ["carto-voyager", "esri-imagery", "esri-transport", "esri-labels"].map((id) => ({
-      id, type: "raster", source: id, layout: { visibility: BASEMAPS.hybrid.includes(id) ? "visible" : "none" },
-    })),
-  };
-}
-
-function toGeoJSON(projects) {
-  return {
-    type: "FeatureCollection",
-    features: projects.map((p, i) => ({
-      type: "Feature",
-      id: i,
-      geometry: { type: "Point", coordinates: [p.lng, p.lat] },
-      properties: { pid: p.id, color: p.color, deal: p.discount_pct ?? -999, approx: p.geo_precision === "district" || p.geo_precision === "city" },
-    })),
-  };
-}
+const CLUSTER_BELOW_ZOOM = 13;
 
 function popupHtml(p) {
   const img = p.images?.[0];
@@ -63,116 +25,221 @@ function popupHtml(p) {
   </div>`;
 }
 
+const approx = (p) => p.geo_precision === "district" || p.geo_precision === "city";
+
 /**
- * Create the map with project pins.
+ * Google Maps view: 2D vector map (tilt/rotate, Street View, map types, POIs) plus photorealistic 3D mode.
  * @param {HTMLElement} container
  * @param {{onSelect:(id:string)=>void, onMove:()=>void}} handlers
  */
 export function createMap(container, { onSelect, onMove }) {
-  const map = new maplibregl.Map({
-    container,
-    style: rasterStyle(),
-    bounds: ARMENIA_BOUNDS,
-    maxBounds: [[40.5, 37.0], [49.5, 43.0]],
-    attributionControl: { compact: true },
-  });
-  map.addControl(new maplibregl.NavigationControl({ visualizePitch: false }), "top-right");
-  map.addControl(new maplibregl.ScaleControl({ unit: "metric" }), "bottom-right");
-  map.addControl(new maplibregl.GeolocateControl({ trackUserLocation: false }), "top-right");
+  const state = { map: null, map3d: null, libs: {}, markers: new Map(), clusterer: null, info: null, projects: [], selectedId: null, placeMarker: null, placeLine: null, t3d: 0 };
+  const host2d = document.createElement("div");
+  const host3d = document.createElement("div");
+  host2d.className = "gmap";
+  host3d.className = "gmap3d";
+  host3d.hidden = true;
+  container.append(host2d, host3d);
 
-  let byId = new Map();
-  let projectsByIndex = [];
-  const popup = new maplibregl.Popup({ closeButton: false, closeOnClick: false, offset: 12, maxWidth: "300px" });
-  const ready = new Promise((resolve) => map.on("load", resolve));
+  const ready = (async () => {
+    await loadGoogleMaps();
+    const [{ Map, InfoWindow }, marker] = await Promise.all([google.maps.importLibrary("maps"), google.maps.importLibrary("marker")]);
+    state.libs = { Map, InfoWindow, ...marker };
+    state.map = new Map(host2d, {
+      mapId: mapId(),
+      renderingType: google.maps.RenderingType.VECTOR,
+      center: { lat: 40.07, lng: 45.0 },
+      zoom: container.offsetWidth > 900 ? 8 : 7,
+      restriction: { latLngBounds: { north: 43.0, south: 37.0, west: 40.5, east: 49.5 }, strictBounds: false },
+      zoomControlOptions: { position: google.maps.ControlPosition.LEFT_TOP },
+      cameraControlOptions: { position: google.maps.ControlPosition.LEFT_TOP },
+      streetViewControlOptions: { position: google.maps.ControlPosition.LEFT_TOP },
+      fullscreenControlOptions: { position: google.maps.ControlPosition.LEFT_TOP },
+      rotateControlOptions: { position: google.maps.ControlPosition.LEFT_TOP },
+      mapTypeControl: true,
+      mapTypeControlOptions: { style: google.maps.MapTypeControlStyle.HORIZONTAL_BAR, position: google.maps.ControlPosition.TOP_CENTER,
+        mapTypeIds: ["roadmap", "satellite", "hybrid", "terrain"] },
+      streetViewControl: true,
+      fullscreenControl: true,
+      cameraControl: true,
+      scaleControl: true,
+      rotateControl: true,
+      headingInteractionEnabled: true,
+      tiltInteractionEnabled: true,
+      clickableIcons: true,
+      gestureHandling: "greedy",
+    });
+    const spacer = document.createElement("div");
+    spacer.style.cssText = "height:52px;width:120px;pointer-events:none";
+    state.map.controls[google.maps.ControlPosition.TOP_LEFT].push(spacer); // room for the app's menu + 2D/3D toggle
+    state.info = new InfoWindow({ headerDisabled: true, disableAutoPan: true, maxWidth: 300 });
+    state.clusterer = new MarkerClusterer({ map: state.map, markers: [], algorithmOptions: { maxZoom: CLUSTER_BELOW_ZOOM - 1, radius: 60 } });
+    state.map.addListener("idle", onMove);
+  })();
 
-  ready.then(() => {
-    map.addSource("projects", { type: "geojson", data: toGeoJSON([]) });
-    map.addLayer({
-      id: "pins-halo", type: "circle", source: "projects",
-      paint: {
-        "circle-radius": ["interpolate", ["linear"], ["zoom"], 7, 7, 12, 11, 16, 16],
-        "circle-color": "#ffffff",
-        "circle-opacity": ["case", ["boolean", ["feature-state", "selected"], false], 1, ["boolean", ["feature-state", "hover"], false], 0.9, 0.85],
-        "circle-stroke-width": ["case", ["boolean", ["feature-state", "selected"], false], 4, 0],
-        "circle-stroke-color": "#111827",
-      },
+  function pinFor(p, selected = false) {
+    const pin = new state.libs.PinElement({
+      background: p.color, borderColor: selected ? "#111827" : "rgba(0,0,0,.35)", glyphColor: "#ffffff", scale: selected ? 1.35 : 0.95,
     });
-    map.addLayer({
-      id: "pins", type: "circle", source: "projects",
-      paint: {
-        "circle-radius": ["interpolate", ["linear"], ["zoom"], 7, 5, 12, 8.5, 16, 13],
-        "circle-color": ["get", "color"],
-        "circle-opacity": ["case", ["get", "approx"], 0.45, 1],
-        "circle-stroke-color": ["get", "color"],
-        "circle-stroke-width": ["case", ["get", "approx"], 2, 0],
-      },
-    });
+    if (approx(p)) pin.style.opacity = "0.55";
+    return pin;
+  }
 
-    let hoverId = null;
-    map.on("mousemove", "pins", (e) => {
-      const f = e.features?.[0];
-      if (!f) return;
-      map.getCanvas().style.cursor = "pointer";
-      if (hoverId !== null && hoverId !== f.id) map.setFeatureState({ source: "projects", id: hoverId }, { hover: false });
-      hoverId = f.id;
-      map.setFeatureState({ source: "projects", id: hoverId }, { hover: true });
-      const p = byId.get(f.properties.pid);
-      if (p) popup.setLngLat([p.lng, p.lat]).setHTML(popupHtml(p)).addTo(map);
-    });
-    map.on("mouseleave", "pins", () => {
-      map.getCanvas().style.cursor = "";
-      if (hoverId !== null) map.setFeatureState({ source: "projects", id: hoverId }, { hover: false });
-      hoverId = null;
-      popup.remove();
-    });
-    map.on("click", "pins", (e) => {
-      const f = e.features?.[0];
-      if (f) onSelect(f.properties.pid);
-    });
-    map.on("moveend", onMove);
-  });
+  function buildMarker(p) {
+    const m = new state.libs.AdvancedMarkerElement({ position: { lat: p.lat, lng: p.lng }, title: p.title, content: pinFor(p), gmpClickable: true });
+    m.addEventListener("gmp-click", () => onSelect(p.id));
+    const hover = (el) => {
+      el.addEventListener("mouseenter", () => { state.info.setContent(popupHtml(p)); state.info.open({ map: state.map, anchor: m, shouldFocus: false }); });
+      el.addEventListener("mouseleave", () => state.info.close());
+    };
+    hover(m.content);
+    m._hover = hover;
+    return m;
+  }
 
-  let selectedIdx = null;
-  let setToken = 0;
+  function setPin(m, p, selected) {
+    m.content = pinFor(p, selected);
+    m._hover(m.content);
+    m.zIndex = selected ? 1000 : null;
+  }
+
+  async function sync3d() {
+    if (!state.map3d || container.querySelector(".gmap3d").hidden) return;
+    const [maps3d, { PinElement }] = await Promise.all([google.maps.importLibrary("maps3d"), google.maps.importLibrary("marker")]);
+    const Marker = maps3d.Marker3DInteractiveElement || maps3d.MarkerInteractiveElement;
+    state.map3d.querySelectorAll(".proj3d").forEach((el) => el.remove());
+    const c = state.map3d.center;
+    const deg = Math.min(0.5, Math.max(0.02, ((state.map3d.range || 3000) / 111000) * 1.5));
+    const near = state.projects
+      .filter((p) => !c || (Math.abs(p.lat - c.lat) < deg && Math.abs(p.lng - c.lng) < deg * 1.3))
+      .sort((a, b) => (a.id === state.selectedId ? -1 : b.id === state.selectedId ? 1 : 0))
+      .slice(0, 250);
+    for (const p of near) {
+      const selected = p.id === state.selectedId;
+      const opts = { position: { lat: p.lat, lng: p.lng, altitude: 90 }, altitudeMode: "RELATIVE_TO_GROUND", title: p.title,
+        drawsWhenOccluded: true, sizePreserved: true, zIndex: selected ? 1000 : 1 };
+      if (Marker === maps3d.Marker3DInteractiveElement) Object.assign(opts, { extruded: true, label: selected ? p.title : undefined });
+      const m = new Marker(opts);
+      m.append(new PinElement({ background: p.color, borderColor: selected ? "#111827" : "#ffffff", glyphColor: "#fff", scale: selected ? 1.4 : 1 }));
+      m.classList.add("proj3d");
+      m.addEventListener("gmp-click", () => onSelect(p.id));
+      state.map3d.append(m);
+    }
+  }
+
   return {
-    map,
+    get map() { return state.map; },
     ready,
-    /** Replace the rendered pins with this project subset. */
-    async setProjects(projects) {
-      const token = ++setToken;
+    /** Replace rendered markers with this project subset. */
+    setProjects(projects) {
+      state.pending = this._setProjects(projects);
+      return state.pending;
+    },
+    async _setProjects(projects) {
       await ready;
-      if (token !== setToken) return;
-      projectsByIndex = projects;
-      byId = new Map(projects.map((p) => [p.id, p]));
-      map.getSource("projects").setData(toGeoJSON(projects));
-      selectedIdx = null;
+      state.projects = projects;
+      for (const p of projects) if (!state.markers.has(p.id)) state.markers.set(p.id, buildMarker(p));
+      state.clusterer.clearMarkers(true);
+      state.clusterer.addMarkers(projects.map((p) => state.markers.get(p.id)), false);
+      sync3d();
     },
     async select(id, { fly = true } = {}) {
       await ready;
-      if (selectedIdx !== null) map.setFeatureState({ source: "projects", id: selectedIdx }, { selected: false });
-      const idx = projectsByIndex.findIndex((p) => p.id === id);
-      selectedIdx = idx >= 0 ? idx : null;
-      if (selectedIdx === null) return;
-      map.setFeatureState({ source: "projects", id: selectedIdx }, { selected: true });
-      const p = projectsByIndex[idx];
-      const panel = document.getElementById("right");
-      const right = panel && !panel.hidden && panel.offsetWidth < container.offsetWidth ? panel.offsetWidth : 0;
-      if (fly) map.flyTo({ center: [p.lng, p.lat], zoom: Math.max(map.getZoom(), 16), speed: 1.6, padding: { right, left: 0, top: 0, bottom: 0 }, essential: true });
-    },
-    async setBasemap(name) {
-      await ready;
-      const visible = BASEMAPS[name] || BASEMAPS.hybrid;
-      for (const id of ["carto-voyager", "esri-imagery", "esri-transport", "esri-labels"]) {
-        map.setLayoutProperty(id, "visibility", visible.includes(id) ? "visible" : "none");
+      await state.pending;
+      const prevP = state.projects.find((x) => x.id === state.selectedId);
+      if (prevP && state.markers.get(prevP.id)) setPin(state.markers.get(prevP.id), prevP, false);
+      state.selectedId = id;
+      const p = state.projects.find((x) => x.id === id);
+      if (!p) return;
+      if (state.markers.get(id)) setPin(state.markers.get(id), p, true);
+      if (fly) {
+        // tilt so the vector map's 3D buildings are visible around the project
+        state.map.moveCamera({ center: { lat: p.lat, lng: p.lng }, zoom: Math.max(state.map.getZoom() || 0, 18), tilt: 55, heading: state.map.getHeading() || 0 });
+        const panel = document.getElementById("right");
+        if (panel && !panel.hidden && panel.offsetWidth < container.offsetWidth) state.map.panBy(panel.offsetWidth / 2, 0);
+        if (state.map3d && !container.querySelector(".gmap3d").hidden) {
+          state.map3d.flyCameraTo({ endCamera: { center: { lat: p.lat, lng: p.lng, altitude: 0 }, range: 650, tilt: 65, heading: state.map3d.heading || 0 }, durationMillis: 2200 });
+        }
       }
+      sync3d();
     },
     fitTo(projects) {
-      if (!projects.length) return;
-      const b = new maplibregl.LngLatBounds();
-      projects.forEach((p) => b.extend([p.lng, p.lat]));
-      map.fitBounds(b, { padding: 60, maxZoom: 15, duration: 800 });
+      if (!projects.length || !state.map) return;
+      const b = new google.maps.LatLngBounds();
+      projects.forEach((p) => b.extend({ lat: p.lat, lng: p.lng }));
+      state.map.fitBounds(b, 60);
     },
-    bounds: () => map.getBounds(),
-    closePopup: () => popup.remove(),
+    bounds() {
+      const b = state.map?.getBounds();
+      return b ? { contains: ([lng, lat]) => b.contains({ lat, lng }) } : null;
+    },
+    /** Toggle photorealistic 3D (Map3DElement), carrying over the camera centre. */
+    async set3d(on) {
+      await ready;
+      if (on) {
+        const { Map3DElement } = await google.maps.importLibrary("maps3d");
+        const sel = state.projects.find((x) => x.id === state.selectedId);
+        const mc = state.map.getCenter();
+        const c = sel ? { lat: () => sel.lat, lng: () => sel.lng } : mc;
+        const range = Math.min(60000, Math.max(400, 591657550 / 2 ** (state.map.getZoom() || 14)));
+        if (!state.map3d) {
+          state.map3d = new Map3DElement({ center: { lat: c.lat(), lng: c.lng(), altitude: 0 }, range, tilt: 62, heading: state.map.getHeading() || 0, mode: "HYBRID", gestureHandling: "GREEDY", defaultUIHidden: true });
+          host3d.append(state.map3d);
+          state.map3d.addEventListener("gmp-steadychange", (e) => { if (e.isSteady) sync3d(); });
+        } else {
+          state.map3d.center = { lat: c.lat(), lng: c.lng(), altitude: 0 };
+          state.map3d.range = range;
+        }
+        host2d.hidden = true;
+        host3d.hidden = false;
+        await sync3d();
+      } else {
+        if (state.map3d?.center) state.map.setCenter({ lat: state.map3d.center.lat, lng: state.map3d.center.lng });
+        host3d.hidden = true;
+        host2d.hidden = false;
+      }
+    },
+    /** Show a Google-validated place pin, with a dashed line to the project pin. */
+    async showPlace(place, project) {
+      await ready;
+      this.clearPlace();
+      if (!place?.location) return;
+      const pin = new state.libs.PinElement({ background: "#1a73e8", borderColor: "#0b3d91", glyphColor: "#fff", glyphText: "G", scale: 1.1 });
+      state.placeMarker = new state.libs.AdvancedMarkerElement({ map: state.map, position: place.location, title: `Google: ${place.name || ""}`, content: pin, zIndex: 999 });
+      if (project) {
+        state.placeLine = new google.maps.Polyline({
+          map: state.map, path: [{ lat: project.lat, lng: project.lng }, place.location], strokeOpacity: 0,
+          icons: [{ icon: { path: "M 0,-1 0,1", strokeOpacity: 1, scale: 3, strokeColor: "#1a73e8" }, offset: "0", repeat: "12px" }],
+        });
+      }
+    },
+    focusPlace(place) {
+      if (!place || !state.map) return;
+      if (place.viewport) state.map.fitBounds(place.viewport);
+      else if (place.location) state.map.moveCamera({ center: place.location, zoom: 18 });
+    },
+    clearPlace() {
+      if (state.placeMarker) state.placeMarker.map = null;
+      state.placeLine?.setMap(null);
+      state.placeMarker = state.placeLine = null;
+    },
+    /** Camera controls for the 3D view (default 3D UI is hidden so controls can live top-left). */
+    camera3d(action) {
+      const m = state.map3d;
+      if (!m) return;
+      const clampTilt = (t) => Math.max(0, Math.min(80, t));
+      const ops = {
+        "zoom-in": () => { m.range = Math.max(150, m.range * 0.6); },
+        "zoom-out": () => { m.range = Math.min(200000, m.range * 1.6); },
+        "rotate-left": () => { m.heading = ((m.heading || 0) - 30 + 360) % 360; },
+        "rotate-right": () => { m.heading = ((m.heading || 0) + 30) % 360; },
+        "tilt-up": () => { m.tilt = clampTilt((m.tilt || 0) + 10); },
+        "tilt-down": () => { m.tilt = clampTilt((m.tilt || 0) - 10); },
+        north: () => { m.heading = 0; },
+        orbit: () => m.flyCameraAround({ camera: { center: m.center, range: m.range, tilt: m.tilt, heading: m.heading }, durationMillis: 12000, repeatCount: 1 }),
+      };
+      ops[action]?.();
+    },
+    closePopup: () => state.info?.close(),
   };
 }

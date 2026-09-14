@@ -7,6 +7,8 @@ import {
   activeFilterCount, resetFilters, setDeveloperFilter, FILTER_IDS,
 } from "./filters.js";
 import { esc, debounce, state } from "./util.js";
+import { createSearch } from "./search.js";
+import { validateLocation } from "./placecheck.js";
 
 const $ = (id) => document.getElementById(id);
 const app = { projects: [], developers: [], visible: [], selectedId: null, mapApi: null };
@@ -35,6 +37,7 @@ function select(id, { fly = true } = {}) {
   $("right").hidden = false;
   document.body.classList.add("has-right");
   renderDetails($("details"), p, openLightbox, (dev) => { setDeveloperFilter(dev); update({ fit: true }); });
+  checkPlace(p);
   app.mapApi.select(id, { fly });
   $("list").querySelectorAll(".item.selected").forEach((el) => { el.classList.remove("selected"); el.setAttribute("aria-selected", "false"); });
   const li = $("list").querySelector(`.item[data-id="${CSS.escape(id)}"]`);
@@ -43,7 +46,39 @@ function select(id, { fly = true } = {}) {
   if (matchMedia("(max-width: 900px)").matches) document.body.classList.remove("left-open");
 }
 
+/** Validate the selected project's address with Google and show the precise place (pin + Places UI Kit card). */
+async function checkPlace(p) {
+  const box = $("details").querySelector("#gplace");
+  if (!box) return;
+  box.innerHTML = `<p class="muted small">Checking address with Google…</p>`;
+  try {
+    await app.mapApi.ready;
+    const best = await validateLocation(p);
+    if (app.selectedId !== p.id) return;
+    if (!best) {
+      box.innerHTML = `<p class="muted small">Google found no matching place for this address.</p>`;
+      app.mapApi.clearPlace();
+      return;
+    }
+    const verdict = best.distance_m <= 150 ? ["good", "matches our pin"] : best.distance_m <= 600 ? ["ok", "close to our pin"] : ["high", "differs from our pin"];
+    box.innerHTML = `
+      <div class="kv"><span>Google match</span><b>${esc(best.name ? `${best.name} — ` : "")}${esc(best.address || "")}</b></div>
+      <div class="kv"><span>Precision</span><b>${esc(best.precision)} <span class="muted small">(${esc(best.source === "place" ? "Places API" : "Geocoder")})</span></b></div>
+      <div class="kv"><span>Distance</span><b><span class="badge ${verdict[0]}">${best.distance_m} m · ${verdict[1]}</span></b></div>
+      <div class="row"><button class="chip" id="gplace-go">Show precise place on map</button>
+      <a class="chip" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=${best.location.lat},${best.location.lng}${best.placeId ? `&query_place_id=${encodeURIComponent(best.placeId)}` : ""}">Open in Google Maps</a></div>
+      ${best.source === "place" && best.placeId ? `<gmp-place-details-compact orientation="horizontal"><gmp-place-details-place-request place="${esc(best.placeId)}"></gmp-place-details-place-request><gmp-place-standard-content></gmp-place-standard-content></gmp-place-details-compact>` : ""}`;
+    app.mapApi.showPlace(best, p);
+    box.querySelector("#gplace-go").onclick = () => app.mapApi.focusPlace(best);
+    if (box.querySelector("gmp-place-details-compact")) await google.maps.importLibrary("places");
+  } catch (err) {
+    console.warn(err);
+    box.innerHTML = `<p class="muted small">Google address check unavailable: ${esc(err.message)}</p>`;
+  }
+}
+
 function closeDetails() {
+  app.mapApi.clearPlace();
   app.selectedId = null;
   $("right").hidden = true;
   document.body.classList.remove("has-right");
@@ -87,11 +122,16 @@ function bindControls() {
     update({ pinsOnly: true });
     if (app.selectedId) select(app.selectedId, { fly: false });
   });
-  $("basemap").addEventListener("click", (e) => {
-    const b = e.target.closest("button[data-style]");
+  $("viewmode").addEventListener("click", async (e) => {
+    const b = e.target.closest("button[data-mode]");
     if (!b) return;
-    app.mapApi.setBasemap(b.dataset.style);
-    $("basemap").querySelectorAll("button").forEach((x) => x.classList.toggle("on", x === b));
+    $("viewmode").querySelectorAll("button").forEach((x) => x.classList.toggle("on", x === b));
+    await app.mapApi.set3d(b.dataset.mode === "3d");
+    $("ctrl3d").hidden = b.dataset.mode !== "3d";
+  });
+  $("ctrl3d").addEventListener("click", (e) => {
+    const b = e.target.closest("button[data-cam]");
+    if (b) app.mapApi.camera3d(b.dataset.cam);
   });
   $("legend-list").addEventListener("click", (e) => {
     const li = e.target.closest("li[data-dev]");
@@ -107,7 +147,7 @@ function bindControls() {
   $("toggle-left").addEventListener("click", () => {
     const mobile = matchMedia("(max-width: 900px)").matches;
     document.body.classList.toggle(mobile ? "left-open" : "left-collapsed");
-    setTimeout(() => app.mapApi.map.resize(), 220);
+    setTimeout(() => app.mapApi.map && google.maps.event.trigger(app.mapApi.map, "resize"), 220);
   });
   document.addEventListener("keydown", (e) => {
     if (e.key === "Escape" && !e.defaultPrevented && $("lightbox").hidden && !$("right").hidden) closeDetails();
@@ -134,6 +174,12 @@ async function main() {
     $("meta-line").textContent = `${projects.length} projects · ${developers.length} developers · data ${meta.generated} · 1 USD = ${meta.amd_per_usd} AMD`;
     initFilterOptions(projects, developers);
     bindControls();
+    app.mapApi.ready.then(() => createSearch($("q"), {
+      projects: () => app.projects,
+      onProject: (id) => select(id),
+      onPlace: (place) => { app.mapApi.showPlace(place); app.mapApi.focusPlace(place); },
+      bias: () => app.mapApi.map?.getBounds() || null,
+    })).catch((err) => { $("meta-line").textContent = err.message; });
     update();
     const m = location.hash.match(/p=([^&]+)/);
     if (m) select(decodeURIComponent(m[1]));

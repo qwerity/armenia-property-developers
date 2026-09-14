@@ -11,3 +11,5 @@ scraper/.cache_datalex/
 scraper/.loc_verify_*.json
 scraper/.stage_verify_*.json
 scraper/.rep_devs_*.json
+.env
+web/config.js

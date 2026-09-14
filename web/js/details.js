@@ -172,6 +172,7 @@ export function renderDetails(el, p, openLightbox, onDeveloper) {
         ${row("Stage check", p.stage_check ? `${esc(p.stage_check.evidence || "")}${p.stage_check.imagery ? `<br><span class="muted small">Satellite: ${esc(p.stage_check.imagery)}</span>` : ""}${p.stage_check.evidence_url ? ` <a href="${esc(safeUrl(p.stage_check.evidence_url))}" target="_blank" rel="noopener">source</a>` : ""}` : "")}
         ${row("Location check", p.location_note ? `${esc(p.location_note)}${p.location_check?.evidence_url ? ` <a href="${esc(safeUrl(p.location_check.evidence_url))}" target="_blank" rel="noopener">source</a>` : ""}` : "")}
       </section>
+      <section><h3>Google address check</h3><div id="gplace"></div></section>
       ${reputation(p)}
       ${priceCheck(p)}
       ${roomTable(p.prices_by_rooms)}
