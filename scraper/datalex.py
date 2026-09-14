@@ -71,6 +71,27 @@ def _post(org: str, role: str, tab: str, page: int, rows: int = 100) -> dict:
     return data
 
 
+def case_url(case_id: str | int | None) -> str | None:
+    """Direct link that opens a case's details dialog on datalex.am."""
+    return f"https://datalex.am/?app=AppCaseSearch&case_id={case_id}" if case_id else None
+
+
+def case_index() -> dict:
+    """case_number -> {"case_id","tab"} from every cached datalex search response (no network)."""
+    index = {}
+    for f in CACHE_DIR.glob("*.json"):
+        tab = f.name.split("_", 1)[0]
+        tab = "payment_order" if tab == "payment" else tab
+        try:
+            rows = (json.loads(f.read_text(encoding="utf-8")).get("result") or {}).get("data") or []
+        except ValueError:
+            continue
+        for row in rows:
+            if row.get("case_number") and row.get("case_id"):
+                index.setdefault(row["case_number"], {"case_id": row["case_id"], "tab": tab})
+    return index
+
+
 def normalize_org(name: str) -> str:
     """Upper-case organisation name without quotes, legal-form suffixes or punctuation (Armenian/Latin/Cyrillic)."""
     n = (name or "").replace("&lt;", "<").replace("&gt;", ">")

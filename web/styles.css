@@ -212,3 +212,4 @@ gmp-place-details-compact { margin-top: 8px; width: 100%; color-scheme: light; }
 .ctrl3d button { width: 40px; height: 36px; border: 0; background: #fff; font-size: 17px; cursor: pointer; color: #444; }
 .ctrl3d button + button { border-top: 1px solid #eee; }
 .ctrl3d button:hover { background: #f1f3f4; }
+a.src { font-size: 11px; font-weight: 500; padding: 0 5px; border: 1px solid var(--line); border-radius: 4px; margin-left: 4px; }

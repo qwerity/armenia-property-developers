@@ -5,6 +5,9 @@ Inputs: projects of one developer group (from build_dataset) + optional research
 """
 import json
 import math
+from urllib.parse import quote_plus
+
+from datalex import case_index, case_url
 from datetime import date
 from pathlib import Path
 
@@ -101,17 +104,48 @@ def score_developer(projects: list[dict], research: dict | None, today: date | N
     }
 
 
+_CASES: dict | None = None
+
+
+def _case_link(case_number: str | None, found_url: str | None = None) -> str | None:
+    global _CASES
+    if found_url:
+        return found_url
+    if _CASES is None:
+        _CASES = case_index()
+    hit = _CASES.get(case_number or "")
+    return case_url(hit["case_id"]) if hit else None
+
+
+def _verify_links(developer: str, entities: list[dict]) -> list[dict]:
+    """Links a user can open to check the record themselves."""
+    names = [e.get("name_hy") for e in entities if e.get("name_hy")] or [developer]
+    plain = names[0].replace("«", "").replace("»", "")
+    return [
+        {"title": "Datalex court case search", "url": "https://datalex.am/?app=AppCaseSearch", "note": f"search party: {plain}"},
+        {"title": "News search (Google)", "url": f"https://www.google.com/search?q={quote_plus(f'\"{developer}\" կառուցապատող OR застройщик OR developer')}&tbm=nws"},
+        {"title": "Buyer complaints search (Google)", "url": f"https://www.google.com/search?q={quote_plus(f'\"{plain}\" դատարան OR բողոք OR жалоба OR суд')}"},
+    ]
+
+
 def public_research(r: dict | None) -> dict | None:
-    """Subset of a research record shown in the UI."""
+    """Subset of a research record shown in the UI, with source links for every claim."""
     if not r:
         return None
     court = r.get("court") or {}
+    entities = r.get("legal_entities") or []
     return {
         "role": r.get("role"), "confidence": r.get("confidence"), "founded_year": r.get("founded_year"),
-        "legal_entities": [{k: e.get(k) for k in ("name_hy", "name_en", "tax_id", "form", "registered_year")} for e in r.get("legal_entities") or []][:4],
+        "legal_entities": [
+            {**{k: e.get(k) for k in ("name_hy", "name_en", "tax_id", "form", "registered_year", "source_url")},
+             "registry_url": f"https://karg.am/company/{e['tax_id']}?lang=hy" if e.get("tax_id") else None}
+            for e in entities
+        ][:4],
+        "searched_names": (r.get("searched_names") or [])[:6],
         "court": {k: court.get(k) for k in ("total", "respondent", "claimant", "respondent_by_individuals", "bankruptcy_as_debtor",
                                             "criminal", "administrative", "payment_order", "since_2021")},
-        "notable_cases": (court.get("notable") or [])[:5],
+        "notable_cases": [{**c, "url": _case_link(c.get("case_number"), c.get("url"))} for c in (court.get("notable") or [])[:5]],
+        "verify_links": _verify_links(r.get("developer") or "", entities),
         "news_issues": (r.get("news_issues") or [])[:5],
         "positives": (r.get("positives") or [])[:3],
         "notes": r.get("notes"),
