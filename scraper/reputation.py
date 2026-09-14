@@ -16,8 +16,19 @@ VALIDATING_SOURCES = {"myhome.am", "acba.am", "evoca.am", "redgroup.am", "redinv
 GRADES = [(80, "A"), (65, "B"), (50, "C"), (35, "D"), (0, "E")]
 
 
+CONFIDENCE_RANK = {"high": 3, "medium": 2, "low": 1}
+
+
+def research_key(name: str | None) -> str:
+    """Loose key for matching developer names across batches (case, punctuation, legal forms, '(…)' notes)."""
+    import re
+    n = re.sub(r"\([^)]*\)", " ", (name or "").lower())
+    n = re.sub(r"\b(llc|cjsc|ojsc|ltd|group|grup|construction|development|developer|company|residence|residential complex|ооо|ооо)\b", " ", n)
+    return re.sub(r"[^a-z0-9ա-ֆа-я]+", "", n)
+
+
 def load_research() -> dict:
-    """Research records keyed by developer display name."""
+    """Research records keyed by developer display name and by loose name key (best confidence wins)."""
     out = {}
     for f in sorted(ROOT.glob("developer_reputation_*.json")):
         try:
@@ -25,9 +36,24 @@ def load_research() -> dict:
         except ValueError:
             continue
         for r in rows if isinstance(rows, list) else []:
-            if isinstance(r, dict) and r.get("developer"):
-                out[r["developer"]] = r
+            if not (isinstance(r, dict) and r.get("developer")):
+                continue
+            for key in {r["developer"], research_key(r["developer"])}:
+                if key and CONFIDENCE_RANK.get(r.get("confidence"), 0) >= CONFIDENCE_RANK.get((out.get(key) or {}).get("confidence"), -1):
+                    out[key] = r
     return out
+
+
+def find_research(research: dict, group: str, projects: list[dict]) -> dict | None:
+    """Research for a developer group: exact name, then loose match on the group or any developer name variant."""
+    if group in research:
+        return research[group]
+    names = [group, *{p.get("developer") for p in projects if p.get("developer")}, *{p.get("developer_am") for p in projects if p.get("developer_am")}]
+    for n in names:
+        k = research_key(n)
+        if len(k) >= 4 and k in research:
+            return research[k]
+    return None
 
 
 def _overdue(p: dict, today: date) -> bool:

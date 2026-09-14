@@ -19,7 +19,7 @@ from geo_admin import locate, mentioned_place, normalize_town, province_hint
 from geo_audit import location_consensus
 from geocode import geocode, geocode_display
 from price_audit import implied_observation, observation, reconcile
-from reputation import load_research, public_research, score_developer
+from reputation import find_research, load_research, public_research, score_developer
 
 ROOT = Path(__file__).resolve().parent.parent
 KP = ROOT / "web" / "data" / "karucapatoxic.json"
@@ -684,7 +684,7 @@ def add_reputation(projects: list[dict]) -> None:
     for name, members in groups.items():
         if name == "Unknown developer" or name.endswith("(developer n/a)"):
             continue
-        r = research.get(name)
+        r = find_research(research, name, members)
         rep = score_developer(members, r)
         rep["research"] = public_research(r)
         for p in members:
