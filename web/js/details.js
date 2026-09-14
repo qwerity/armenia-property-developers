@@ -143,67 +143,107 @@ const PRECISION = { exact: "", address: "geocoded from address", street: "approx
 export function renderDetails(el, p, openLightbox, onDeveloper) {
   const phones = (p.phones || []).map((t) => `<a href="tel:${esc(t.replace(/[^\d+]/g, ""))}">${esc(t)}</a>`).join("<br>");
   const place = [p.address, p.district, p.region].filter(Boolean).filter((v, i, a) => a.indexOf(v) === i).join(", ");
+  const sections = [["overview", "Overview"], ["prices", "Prices"], ["developer", "Developer"], ["location", "Location"], ["contacts", "Contacts"]];
   el.innerHTML = `
     ${gallery(p.images)}
     <div class="dpad">
-      <h2>${esc(p.title)}</h2>
-      ${p.title_am && p.title_am !== p.title ? `<div class="muted small">${esc(p.title_am)}</div>` : ""}
-      <button class="devline link" data-dev="${esc(p.developer_group)}"><span class="dot" style="background:${p.color}"></span>${!p.developer_inferred ? esc(p.developer_group)
-        : p.developer_group.endsWith("(developer n/a)") ? "Developer not listed"
-        : `${esc(p.developer_group)} <span class="muted small">&nbsp;(inferred from contacts)</span>`}</button>
-      <div class="muted">${esc(place)}</div>
+      <header class="dhead">
+        <h2>${esc(p.title)}</h2>
+        ${p.title_am && p.title_am !== p.title ? `<div class="muted small" lang="hy">${esc(p.title_am)}</div>` : ""}
+        <button class="devline link" data-dev="${esc(p.developer_group)}" title="Show only this developer's projects"><span class="dot" style="background:${p.color}"></span>${!p.developer_inferred ? esc(p.developer_group)
+          : p.developer_group.endsWith("(developer n/a)") ? "Developer not listed"
+          : `${esc(p.developer_group)} <span class="muted small">&nbsp;(inferred from contacts)</span>`}${p.developer_rep ? ` <span class="grade grade-${esc(p.developer_rep.grade)}">${esc(p.developer_rep.grade)}</span>` : ""}</button>
+        <div class="muted place">${esc(place)}</div>
+      </header>
 
-      ${completeness(p)}
       <div class="stats">
-        <div><span>Price / m²</span><b>${money(p.usd_m2_min, p.amd_m2_min)}${p.usd_m2_max && p.usd_m2_max !== p.usd_m2_min ? ` – ${money(p.usd_m2_max, p.amd_m2_max)}` : ""}</b></div>
-        <div><span>Apartments from</span><b>${compactMoney(p.usd_from, p.amd_from)}</b>${p.min_area_m2 ? `<small>${p.min_area_m2} m²</small>` : ""}</div>
-        <div><span>Completion</span><b>${esc(p.completion ? quarter(p.completion) : (p.completion_text || "—"))}</b><small>${esc(stageLabel(p))}${p.progress_pct != null && p.stage !== "finished" ? ` · ~${p.progress_pct}% of build time` : ""}${p.sold_out ? " · sold out" : ""}</small></div>
+        <div><span>Price per m²</span><b class="num">${money(p.usd_m2_min, p.amd_m2_min)}${p.usd_m2_max && p.usd_m2_max !== p.usd_m2_min ? `–${money(p.usd_m2_max, p.amd_m2_max)}` : ""}</b></div>
+        <div><span>Apartments from</span><b class="num">${compactMoney(p.usd_from, p.amd_from)}</b>${p.min_area_m2 ? `<small>${p.min_area_m2} m²</small>` : ""}</div>
+        <div><span>Ready</span><b>${esc(p.completion ? quarter(p.completion) : (p.completion_text || "—"))}</b><small class="stage stage-${esc((p.stage || "unknown").replace(" ", "-"))}">${esc(stageLabel(p))}${p.sold_out ? " · sold out" : ""}</small></div>
       </div>
-      ${p.discount_pct != null ? `<div class="bench">${dealBadge(p)} <span class="muted small">local median ${money(p.bench_usd_m2, p.bench_usd_m2 * state.rate, "/m²")} across ${p.bench_n} projects</span></div>` : ""}
+      ${p.discount_pct != null ? `<div class="bench">${dealBadge(p)} <span class="muted small">Local median ${money(p.bench_usd_m2, p.bench_usd_m2 * state.rate, "/m²")} from ${p.bench_n} projects</span></div>` : ""}
 
-      <section>
-        <h3>Details</h3>
-        ${row("Type", esc(p.kind))}
-        ${row("Floors", esc(p.floors))}
-        ${row("Income-tax refund", p.income_tax_refund ? "Eligible" : "")}
+      <nav class="dnav" aria-label="Sections">${sections.map(([id, label]) => `<button type="button" data-sec="sec-${id}">${label}</button>`).join("")}</nav>
+
+      <div id="sec-overview" class="dsec">
+        ${p.description || p.description_site || p.developer_about ? `<section><h3>About</h3>
+          ${p.description_site ? `<p class="sourcesdesc">${esc(p.description_site)}</p>` : ""}
+          ${p.description ? `<p>${esc(p.description)}</p>` : ""}
+          ${p.developer_about ? `<p class="muted">${esc(p.developer_about)}</p>` : ""}
+        </section>` : ""}
+        <section>
+          <h3>Details</h3>
+          ${row("Type", esc(p.kind))}
+          ${row("Floors", esc(p.floors))}
+          ${row("Construction started", esc(p.start))}
+          ${row("Build progress", p.progress_pct != null && p.stage !== "finished" ? `about ${p.progress_pct}% of planned build time` : "")}
+          ${row("Stage check", p.stage_check ? `${esc(p.stage_check.evidence || "")}${p.stage_check.imagery ? `<br><span class="muted small">Satellite: ${esc(p.stage_check.imagery)}</span>` : ""}${p.stage_check.evidence_url ? ` <a class="src" href="${esc(safeUrl(p.stage_check.evidence_url))}" target="_blank" rel="noopener">source</a>` : ""}` : "")}
+          ${row("Income-tax refund", p.income_tax_refund ? "Eligible" : "")}
+        </section>
+        ${completeness(p)}
+        ${videos(p.videos)}
+      </div>
+
+      <div id="sec-prices" class="dsec">
+        ${roomTable(p.prices_by_rooms)}
+        ${floorTable(p.prices_by_floor)}
+        ${priceCheck(p)}
         ${row("Price updated", esc(p.price_updated))}
         ${row("Original currency", esc(p.currency_raw))}
-        ${row("Start of construction", esc(p.start))}
-        ${row("Address (hy)", esc(p.address_am))}
-        ${row("Coordinates", `${p.lat.toFixed(5)}, ${p.lng.toFixed(5)}${PRECISION[p.geo_precision] ? ` <span class="muted small">(${PRECISION[p.geo_precision]})</span>` : ""}`)}
-        ${row("Stage check", p.stage_check ? `${esc(p.stage_check.evidence || "")}${p.stage_check.imagery ? `<br><span class="muted small">Satellite: ${esc(p.stage_check.imagery)}</span>` : ""}${p.stage_check.evidence_url ? ` <a href="${esc(safeUrl(p.stage_check.evidence_url))}" target="_blank" rel="noopener">source</a>` : ""}` : "")}
-        ${row("Location check", p.location_note ? `${esc(p.location_note)}${p.location_check?.evidence_url ? ` <a href="${esc(safeUrl(p.location_check.evidence_url))}" target="_blank" rel="noopener">source</a>` : ""}` : "")}
-      </section>
-      <section><h3>Google address check</h3><div id="gplace"></div></section>
-      ${reputation(p)}
-      ${priceCheck(p)}
-      ${roomTable(p.prices_by_rooms)}
-      ${floorTable(p.prices_by_floor)}
+      </div>
 
-      ${p.description || p.description_site || p.developer_about ? `<section><h3>About</h3>
-        ${p.description_site ? `<p class="sourcesdesc">${esc(p.description_site)}</p>` : ""}
-        ${p.description ? `<p>${esc(p.description)}</p>` : ""}
-        ${p.developer_about ? `<p class="muted">${esc(p.developer_about)}</p>` : ""}
-      </section>` : ""}
+      <div id="sec-developer" class="dsec">${reputation(p) || `<section><h3>Developer reputation</h3><p class="muted small">No developer research for this project.</p></section>`}</div>
 
-      <section>
-        <h3>Contacts${p.contacts_via_developer ? ' <span class="small">(developer office)</span>' : ""}</h3>
-        ${row("Phone", phones)}
-        ${row("Email", p.email ? `<a href="mailto:${esc(p.email)}">${esc(p.email)}</a>` : "")}
-        ${row("Sales office", esc(p.sales_address))}
-        ${row("Hours", hoursText(p.working_hours))}
-      </section>
+      <div id="sec-location" class="dsec">
+        <section><h3>Location</h3>
+          ${row("Address", esc(place))}
+          ${row("Address in Armenian", esc(p.address_am))}
+          ${row("Coordinates", `${p.lat.toFixed(5)}, ${p.lng.toFixed(5)}${PRECISION[p.geo_precision] ? ` <span class="muted small">(${PRECISION[p.geo_precision]})</span>` : ""}`)}
+          ${row("Location check", p.location_note ? `${esc(p.location_note)}${p.location_check?.evidence_url ? ` <a class="src" href="${esc(safeUrl(p.location_check.evidence_url))}" target="_blank" rel="noopener">source</a>` : ""}` : "")}
+        </section>
+        <section><h3>Google address check</h3><div id="gplace"></div></section>
+      </div>
 
-      ${videos(p.videos)}
-      <section><h3>Links</h3><div class="chips">${links(p)}</div></section>
+      <div id="sec-contacts" class="dsec">
+        <section>
+          <h3>Contacts${p.contacts_via_developer ? ' <span class="small muted">developer office</span>' : ""}</h3>
+          ${row("Phone", phones)}
+          ${row("Email", p.email ? `<a href="mailto:${esc(p.email)}">${esc(p.email)}</a>` : "")}
+          ${row("Sales office", esc(p.sales_address))}
+          ${row("Hours", hoursText(p.working_hours))}
+          ${!phones && !p.email ? `<p class="muted small">No contacts published. Try the links below.</p>` : ""}
+        </section>
+        <section><h3>Links</h3><div class="chips">${links(p)}</div></section>
+      </div>
     </div>`;
 
+  const panel = el.closest(".sidebar") || el;
+  el.querySelectorAll(".dnav button").forEach((b) => b.addEventListener("click", () => {
+    const target = el.querySelector(`#${b.dataset.sec}`);
+    const nav = el.querySelector(".dnav");
+    el.dataset.navLock = String(Date.now() + 900);
+    el.querySelectorAll(".dnav button").forEach((x) => x.classList.toggle("on", x === b));
+    panel.scrollTo({ top: target.offsetTop - nav.offsetHeight - 8, behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth" });
+  }));
   el.querySelectorAll("img[data-idx]").forEach((img) => {
     img.addEventListener("click", () => openLightbox(p.images, Number(img.dataset.idx)));
     img.addEventListener("error", () => img.remove(), { once: true });
   });
   el.querySelector(".devline")?.addEventListener("click", (e) => onDeveloper(e.currentTarget.dataset.dev));
-  el.scrollTop = 0;
+  panel.scrollTop = 0;
+  observeSections(el, panel);
+}
+
+/** Highlight the section tab for whatever part of the panel is in view. */
+function observeSections(el, panel) {
+  const tabs = new Map([...el.querySelectorAll(".dnav button")].map((b) => [b.dataset.sec, b]));
+  const io = new IntersectionObserver((entries) => {
+    if (Number(el.dataset.navLock || 0) > Date.now()) return; // a tab click is scrolling; keep its highlight
+    for (const e of entries) {
+      if (e.isIntersecting) tabs.forEach((b, id) => b.classList.toggle("on", id === e.target.id));
+    }
+  }, { root: panel, rootMargin: "-30% 0px -60% 0px" });
+  el.querySelectorAll(".dsec").forEach((sec) => io.observe(sec));
 }
 
 /** Wire the full-screen image viewer; returns an open(images, idx) function. */

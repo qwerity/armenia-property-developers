@@ -97,32 +97,46 @@ export function refreshFacets(projects, f, bounds) {
   }
 }
 
-/** Highlight changed filters and give each a one-click clear (×) button. */
-export function markChangedFilters(f, onClear) {
+function filterLabel(el) {
+  const label = el.closest("label");
+  const text = [...label.childNodes].filter((n) => n.nodeType === Node.TEXT_NODE).map((n) => n.textContent).join(" ").trim();
+  if (el.type === "checkbox") return text;
+  const shown = el.tagName === "SELECT" ? el.selectedOptions[0]?.textContent.replace(/\s*\(\d+\)$/, "") : el.value;
+  return `${text}: ${shown}`;
+}
+
+function clearField(el) {
+  if (el.type === "checkbox") el.checked = false; else el.value = "";
+}
+
+/**
+ * Highlight changed filters and list them as removable chips.
+ * @param {ReturnType<typeof readFilters>} f
+ * @param {(key:string)=>void} onClear called after a filter was cleared
+ * @param {HTMLElement} [chipsEl] container for active-filter chips
+ */
+export function markChangedFilters(f, onClear, chipsEl) {
+  const chips = [];
   for (const [key, id] of Object.entries(FIELDS)) {
     if (key === "q" || key === "sort") continue;
     const el = $(id);
     const label = el.closest("label");
     const active = el.type === "checkbox" ? el.checked : el.value.trim() !== "";
     label.classList.toggle("changed", active);
-    let btn = label.querySelector(".fclear");
-    if (active && !btn) {
-      btn = document.createElement("button");
-      btn.type = "button";
-      btn.className = "fclear";
-      btn.title = "Clear this filter";
-      btn.textContent = "×";
-      btn.addEventListener("click", (e) => {
-        e.preventDefault();
-        e.stopPropagation();
-        if (el.type === "checkbox") el.checked = false; else el.value = "";
-        onClear(key);
-      });
-      label.prepend(btn);
-    } else if (!active && btn) {
-      btn.remove();
-    }
+    if (active) chips.push({ key, text: filterLabel(el) });
   }
+  if (!chipsEl) return;
+  chipsEl.hidden = !chips.length;
+  chipsEl.replaceChildren(...chips.map(({ key, text }) => {
+    const chip = document.createElement("button");
+    chip.type = "button";
+    chip.className = "fchip";
+    chip.title = "Remove filter";
+    chip.innerHTML = `<span></span><i aria-hidden="true">×</i>`;
+    chip.firstChild.textContent = text;
+    chip.addEventListener("click", () => { clearField($(FIELDS[key])); onClear(key); });
+    return chip;
+  }));
 }
 
 export function readFilters() {

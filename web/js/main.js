@@ -101,9 +101,11 @@ function update({ fit = false, pinsOnly = false } = {}) {
   const n = activeFilterCount(f);
   $("active-filters").hidden = n === 0;
   $("active-filters").textContent = n;
-  $("count").textContent = `${app.visible.length} of ${app.projects.length} projects`;
+  $("count").textContent = `${app.visible.length} ${app.visible.length === 1 ? "project" : "projects"}`;
+  $("count").title = `${app.visible.length} of ${app.projects.length} projects match`;
+  $("reset").hidden = activeFilterCount(f) === 0 && !f.q;
   refreshFacets(app.projects, f, f.inView ? app.mapApi.bounds() : null);
-  markChangedFilters(f, () => update({ fit: true }));
+  markChangedFilters(f, () => update({ fit: true }), $("active-chips"));
   legend();
 }
 
@@ -147,7 +149,7 @@ function bindControls() {
   });
   $("legend-toggle").addEventListener("click", () => {
     const collapsed = $("legend").classList.toggle("collapsed");
-    $("legend-toggle").textContent = collapsed ? "show" : "hide";
+    $("legend-toggle").setAttribute("aria-expanded", String(!collapsed));
   });
   $("close-right").addEventListener("click", closeDetails);
   $("toggle-left").addEventListener("click", () => {
@@ -165,10 +167,6 @@ let openLightbox = () => {};
 
 async function main() {
   openLightbox = createLightbox($("lightbox"));
-  if (matchMedia("(max-width: 900px)").matches) {
-    $("legend").classList.add("collapsed");
-    $("legend-toggle").textContent = "show";
-  }
   app.mapApi = createMap($("map"), {
     onSelect: (id) => select(id, { fly: false }),
     onMove: () => { if (readFilters().inView) update({ pinsOnly: true }); },
