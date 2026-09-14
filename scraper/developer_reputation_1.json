@@ -1326,7 +1326,31 @@
    "ՆՅՈՒ ԷՅՋ ՔՈՆՍԹՐԱՔԹ",
    "ՆՅՈՒ ԷՅՋ ՀԱՈՒՍԻՆԳ"
   ],
-  "court": null,
+  "court": {
+   "total": 2,
+   "respondent": 1,
+   "claimant": 1,
+   "respondent_by_individuals": 1,
+   "bankruptcy_as_debtor": 0,
+   "criminal": 0,
+   "administrative": 1,
+   "payment_order": 0,
+   "since_2021": 2,
+   "notable": [
+    {
+     "case_number": "ԵԴ2/6644/02/24",
+     "tab": "civil",
+     "filed": "2024-08-15",
+     "why": "individual Լիլիթ Մանուկյան Աշոտի v. company: apartment/ownership, invalidation — Վերը շարադրվածի հիման վրա և ղեկավարվելով ՀՀ քաղ. օր-ի 14, 132, 201, 23 հոդվածների , ՀՀ Ընտանեկան օրե"
+    },
+    {
+     "case_number": "ՎԴ/9004/05/23",
+     "tab": "administrative",
+     "filed": "2023",
+     "why": "company v. Երևան համայնք (administrative): invalidation — 27.06.2023թ. <<Երևան քաղաքի ավագանու 2022 թվականի դեկտեմբերի 27-ի թիվ 687-Ն որոշման մեջ լր"
+    }
+   ]
+  },
   "news_issues": [],
   "positives": [
    {
@@ -1341,7 +1365,7 @@
    }
   ],
   "confidence": "high",
-  "notes": "myhome.am building pages name the builder «Նյու Էյջ Քոնսթրաքշն ՍՊԸ» (office Argishti 7/13, 7/10 Yerevan); other listings say \"НЬЮ ЭЙДЖ КОНСТРАКШН\" ООО. e-register: «ՆՅՈՒ ԷՅՋ ՔՈՆՍԹՐԱՔՇՆ» ՍՊԸ reg 03-04-2019, registered address Tbilisyan hwy 1, Gyumri (consistent with completed Gyumri project). Two sister entities at the same Gyumri address registered Oct 2024: «ՆՅՈՒ ԷՅՋ ՔՈՆՍԹՐԱՔԹ» ՍՊԸ (05564169) and «ՆՅՈՒ ԷՅՋ ՀԱՈՒՍԻՆԳ» ՍՊԸ (05564134) - likely project SPVs; search them too. Unrelated namesakes: «ՆՅՈՒ ԷՅՋ» ՍՊԸ 00146604, «ՆՅՈՒ ԷՅՋ» ՀՄՏ (condominium at Argishti 7/10). Bond issuance means financial statements are public via CBA/AMX. [News check limited: WebSearch quota exhausted mid-task; relied on Bing News RSS, azatutyun.am search and site pages - absence of issues is weak evidence.] | Court: Court search pending/not run."
+  "notes": "myhome.am building pages name the builder «Նյու Էյջ Քոնսթրաքշն ՍՊԸ» (office Argishti 7/13, 7/10 Yerevan); other listings say \"НЬЮ ЭЙДЖ КОНСТРАКШН\" ООО. e-register: «ՆՅՈՒ ԷՅՋ ՔՈՆՍԹՐԱՔՇՆ» ՍՊԸ reg 03-04-2019, registered address Tbilisyan hwy 1, Gyumri (consistent with completed Gyumri project). Two sister entities at the same Gyumri address registered Oct 2024: «ՆՅՈՒ ԷՅՋ ՔՈՆՍԹՐԱՔԹ» ՍՊԸ (05564169) and «ՆՅՈՒ ԷՅՋ ՀԱՈՒՍԻՆԳ» ՍՊԸ (05564134) - likely project SPVs; search them too. Unrelated namesakes: «ՆՅՈՒ ԷՅՋ» ՍՊԸ 00146604, «ՆՅՈՒ ԷՅՋ» ՀՄՏ (condominium at Argishti 7/10). Bond issuance means financial statements are public via CBA/AMX. [News check limited: WebSearch quota exhausted mid-task; relied on Bing News RSS, azatutyun.am search and site pages - absence of issues is weak evidence.] | Court: Matched party names: ԷԴԳԱՐ ԹԱԴԵՒՈՍՅԱՆ ԼԵՒԻ ՆՅՈՒ ԷՅՋ ՔՈՆՍԹՐԱՔՇՆ ԿԱԴԱՍՏՐԻ ԿՈՄԻՏԵ ԱՄ (1); ՍՈԼԻԴ ՓՐՈՋԵՔԹՍ ԱՐՏՔՈՄՓԱՆԻ ԳԱՍ ՇԵՆՔԵՐԻ ՈՒ ԿԱՌՈՒՅՑՆԵՐԻ ՏԵԽՆԻԿԱ (1). Individual-claimant respondent case types: apartment/ownership 1, invalidation 1."
  },
  {
   "developer": "National Group",
@@ -1361,7 +1385,18 @@
    "ՆԱՑԻՈՆԱԼ ԳՐՈՒՊ",
    "ՆԵՅՇՆԼ ԳՐՈՒՊ"
   ],
-  "court": null,
+  "court": {
+   "total": 0,
+   "respondent": 0,
+   "claimant": 0,
+   "respondent_by_individuals": 0,
+   "bankruptcy_as_debtor": 0,
+   "criminal": 0,
+   "administrative": 0,
+   "payment_order": 0,
+   "since_2021": 0,
+   "notable": []
+  },
   "news_issues": [],
   "positives": [
    {
@@ -1371,7 +1406,7 @@
    }
   ],
   "confidence": "high",
-  "notes": "nationalgroup.am shows 'ՆԱՑԻՈՆԱԼ ԳՐՈՒՊ ՍՊԸ'. e-register: «ՆԱՑԻՈՆԱԼ ԳՐՈՒՊ» ՍՊԸ reg 29-08-2018, address G. Nzhdeh 23/6 - matches construction.am company page (since 2018, 23/6 Garegin Nzhdeh St.). No negative news found (web search budget exhausted mid-task; only site/registry checks and limited news-site search done). [News check limited: WebSearch quota exhausted mid-task; relied on Bing News RSS, azatutyun.am search and site pages - absence of issues is weak evidence.] | Court: Court search pending/not run."
+  "notes": "nationalgroup.am shows 'ՆԱՑԻՈՆԱԼ ԳՐՈՒՊ ՍՊԸ'. e-register: «ՆԱՑԻՈՆԱԼ ԳՐՈՒՊ» ՍՊԸ reg 29-08-2018, address G. Nzhdeh 23/6 - matches construction.am company page (since 2018, 23/6 Garegin Nzhdeh St.). No negative news found (web search budget exhausted mid-task; only site/registry checks and limited news-site search done). [News check limited: WebSearch quota exhausted mid-task; relied on Bing News RSS, azatutyun.am search and site pages - absence of issues is weak evidence.]"
  },
  {
   "developer": "Aygedzor Construction Company",
@@ -1390,7 +1425,43 @@
   "searched_names": [
    "ԱՅԳԵՁՈՐ"
   ],
-  "court": null,
+  "court": {
+   "total": 4,
+   "respondent": 3,
+   "claimant": 1,
+   "respondent_by_individuals": 3,
+   "bankruptcy_as_debtor": 0,
+   "criminal": 0,
+   "administrative": 1,
+   "payment_order": 0,
+   "since_2021": 4,
+   "notable": [
+    {
+     "case_number": "ԵԴ2/5544/02/25",
+     "tab": "civil",
+     "filed": "2025-05-29",
+     "why": "individual Գագիկ Մարդոյան Միշայի v. company: money recovery — Ղեկավարվելով ՀՀ քաղաքացիական դատավարության օրենսգրքի 3, 120, 121 հոդվածներով՝1. Պատասխանող «ԱՅԳԵՁՈՐ»"
+    },
+    {
+     "case_number": "ԵԴ2/1564/02/25",
+     "tab": "civil",
+     "filed": "2025-02-19",
+     "why": "individual Արթուր Ամրոյան Վլադիմիրի v. company: money recovery — &nbsp;&nbsp;&nbsp;&nbsp;Պատասխանողից բռնագանձել 13.09.2022 թվականին կնքված «Կառուցվող շենքից անշարժ "
+    },
+    {
+     "case_number": "ԵԴ2/9527/02/24",
+     "tab": "civil",
+     "filed": "2024-11-11",
+     "why": "individual Անդրանիկ Ադամյան Խաչիկի, Սուսաննա Ավագյան Գուրգենի, Տաթևիկ Մուրադյան Մարտունի, Խորեն Ադամյան Խաչիկի v. company: money recovery — Գումարի բռնագանձման պահանջի մասին"
+    },
+    {
+     "case_number": "ՎԴ/9004/05/23",
+     "tab": "administrative",
+     "filed": "2023",
+     "why": "company v. Երևան համայնք (administrative): invalidation — 27.06.2023թ. <<Երևան քաղաքի ավագանու 2022 թվականի դեկտեմբերի 27-ի թիվ 687-Ն որոշման մեջ լր"
+    }
+   ]
+  },
   "news_issues": [],
   "positives": [
    {
@@ -1400,7 +1471,7 @@
    }
   ],
   "confidence": "high",
-  "notes": "construction.am: \"Aygedzor\" LLC, TIN 00815501, 35/3 Acharyan St.; aygedzor.am footer shows the same address and '«Այգեձոր» ՍՊԸ'. e-register confirms reg 26-04-1996, address Acharyan 35/3. CAUTION for court search: 'ԱՅԳԵՁՈՐ' is also a Yerevan street/district and a village, and there are namesakes (dissolved «ԱՅԳԵՁՈՐ» Ա/Կ 02202038, «ԱՅԳԵՁՈՐ» ՀՄՏ 00257165) - filter by tax ID 00815501. [News check limited: WebSearch quota exhausted mid-task; relied on Bing News RSS, azatutyun.am search and site pages - absence of issues is weak evidence.] | Court: Court search pending/not run."
+  "notes": "construction.am: \"Aygedzor\" LLC, TIN 00815501, 35/3 Acharyan St.; aygedzor.am footer shows the same address and '«Այգեձոր» ՍՊԸ'. e-register confirms reg 26-04-1996, address Acharyan 35/3. CAUTION for court search: 'ԱՅԳԵՁՈՐ' is also a Yerevan street/district and a village, and there are namesakes (dissolved «ԱՅԳԵՁՈՐ» Ա/Կ 02202038, «ԱՅԳԵՁՈՐ» ՀՄՏ 00257165) - filter by tax ID 00815501. [News check limited: WebSearch quota exhausted mid-task; relied on Bing News RSS, azatutyun.am search and site pages - absence of issues is weak evidence.] | Court: Excluded 41 fuzzy-matched cases of differently named parties (ԱՅԳԵՁՈՐ 95 ԼՏԸ; ԱՅԳԵՁՈՐ Ի ՏՆՕՐԵՆ ԱՐՄԵՆ ՈՐՍԿԱՆՅԱՆ; ԱՅԳԵՁՈՐ Ի ՏՆՕՐԵՆ ՄԱՆՎԵԼ ՏԻԳՐԱՆՅԱՆ; ԱՅԳԵՁՈՐ ՀԱՄԱՏԻՐՈՒԹՅՈՒՆ). Matched party names: ԱՅԳԵՁՈՐ (3); ՍՈԼԻԴ ՓՐՈՋԵՔԹՍ ԱՐՏՔՈՄՓԱՆԻ ԳԱՍ ՇԵՆՔԵՐԻ ՈՒ ԿԱՌՈՒՅՑՆԵՐԻ ՏԵԽՆԻԿԱ (1). Individual-claimant respondent case types: money recovery 3."
  },
  {
   "developer": "Building Capital",
@@ -2852,11 +2923,47 @@
    "ԷԿՕՇԻՆ ԳՐՈՒՊ",
    "ԷԿՈ ՇԻՆ"
   ],
-  "court": null,
+  "court": {
+   "total": 4,
+   "respondent": 3,
+   "claimant": 1,
+   "respondent_by_individuals": 0,
+   "bankruptcy_as_debtor": 1,
+   "criminal": 0,
+   "administrative": 1,
+   "payment_order": 0,
+   "since_2021": 2,
+   "notable": [
+    {
+     "case_number": "ՍնԴ/0378/04/20",
+     "tab": "bankruptcy",
+     "filed": "2020",
+     "why": "bankruptcy case against the company (claimant: ՀՀ Պետական եկամուտների կոմիտե)"
+    },
+    {
+     "case_number": "ԵԴ/21098/02/22",
+     "tab": "civil",
+     "filed": "2022-04-28",
+     "why": "Երևան համայնք v. company (civil): money recovery — գումարի բռնագանձման պ/մ"
+    },
+    {
+     "case_number": "ԵՇԴ/5092/02/17",
+     "tab": "civil",
+     "filed": "2017-12-21",
+     "why": "Երևան համայնք v. company (civil): contract termination, apartment/ownership — Սեփականության իրավունքը դադարեցնելու և որպես հետևանք սեփականության իրավունքի պետական գրանցումը վերաց"
+    },
+    {
+     "case_number": "ՎԴ/12327/05/21",
+     "tab": "administrative",
+     "filed": "2021",
+     "why": "company v. ՀՀ կադաստրի կոմիտե (administrative): apartment/ownership — ՀՀ, ք.Երևան, Արաբկիր, Օրբելի եղբայրների փողոց 67/2 շենք, 210, 212, 220 տնտեսական շինությու"
+    }
+   ]
+  },
   "news_issues": [],
   "positives": [],
   "confidence": "high",
-  "notes": "construction.am: \"Ecoshin Group\" LLC, TIN 01274214, head Vardan Manukyan, 67/2 Orbeli Brothers St; same TIN in Ministry of Finance large/medium entity list («ԷԿՈՇԻՆ ԳՐՈՒՊ»). Spyur founding year 2017. Also developer of Greenwood Residence (same email/website). No news found. | Court: Court search pending/not run."
+  "notes": "construction.am: \"Ecoshin Group\" LLC, TIN 01274214, head Vardan Manukyan, 67/2 Orbeli Brothers St; same TIN in Ministry of Finance large/medium entity list («ԷԿՈՇԻՆ ԳՐՈՒՊ»). Spyur founding year 2017. Also developer of Greenwood Residence (same email/website). No news found. | Court: Matched party names: ԷԿՈՇԻՆ ԳՐՈՒՊ (3); ԷԿՈ ՇԻՆ (1)."
  },
  {
   "developer": "Monument Hills",
@@ -2877,7 +2984,18 @@
    "ՄՈՆՈՒՄԵՆՏ ՀԻԼՍ",
    "ՄՈՆՈՒՄԵՆԹ ՀԻԼԶ"
   ],
-  "court": null,
+  "court": {
+   "total": 0,
+   "respondent": 0,
+   "claimant": 0,
+   "respondent_by_individuals": 0,
+   "bankruptcy_as_debtor": 0,
+   "criminal": 0,
+   "administrative": 0,
+   "payment_order": 0,
+   "since_2021": 0,
+   "notable": []
+  },
   "news_issues": [],
   "positives": [
    {
@@ -2887,7 +3005,7 @@
    }
   ],
   "confidence": "medium",
-  "notes": "Armenian site footer: '© «ՄՈՆՈՒՄԵՆՏ ՀԻԼԶ» ՍՊԸ 2022'; project at Davit Anhaght 6 (Kanaker-Zeytun), spyur lists it as residential complex brand. The English footer instead shows '\"Go Web\" LLC' (likely template/web developer artefact). Tax ID not found; no news found. | Court: Court search pending/not run."
+  "notes": "Armenian site footer: '© «ՄՈՆՈՒՄԵՆՏ ՀԻԼԶ» ՍՊԸ 2022'; project at Davit Anhaght 6 (Kanaker-Zeytun), spyur lists it as residential complex brand. The English footer instead shows '\"Go Web\" LLC' (likely template/web developer artefact). Tax ID not found; no news found."
  },
  {
   "developer": "Greenwood Residence",
@@ -2907,11 +3025,47 @@
    "ԷԿՈՇԻՆ ԳՐՈՒՊ",
    "ԳՐԻՆՎՈՒԴ ՌԵԶԻԴԵՆՍ"
   ],
-  "court": null,
+  "court": {
+   "total": 4,
+   "respondent": 3,
+   "claimant": 1,
+   "respondent_by_individuals": 1,
+   "bankruptcy_as_debtor": 0,
+   "criminal": 0,
+   "administrative": 1,
+   "payment_order": 0,
+   "since_2021": 3,
+   "notable": [
+    {
+     "case_number": "ԵԴ2/1042/02/25",
+     "tab": "civil",
+     "filed": "2025-02-05",
+     "why": "individual Աննա Պապյան Վոլոդյայի v. company: apartment/ownership, money recovery — Պատասխանող «ԳՐԻՆՎՈՒԴ ՌԵԶԻԴԵՆՍ» ՍՊԸ-ից հօգուտ Հայցվորի բռնագանձել 5,538,000 ՀՀ դրամ գումար։, Սկսած 06"
+    },
+    {
+     "case_number": "ԵԴ/21098/02/22",
+     "tab": "civil",
+     "filed": "2022-04-28",
+     "why": "Երևան համայնք v. company (civil): money recovery — գումարի բռնագանձման պ/մ"
+    },
+    {
+     "case_number": "ԵՇԴ/5092/02/17",
+     "tab": "civil",
+     "filed": "2017-12-21",
+     "why": "Երևան համայնք v. company (civil): contract termination, apartment/ownership — Սեփականության իրավունքը դադարեցնելու և որպես հետևանք սեփականության իրավունքի պետական գրանցումը վերաց"
+    },
+    {
+     "case_number": "ՎԴ/12327/05/21",
+     "tab": "administrative",
+     "filed": "2021",
+     "why": "company v. ՀՀ կադաստրի կոմիտե (administrative): apartment/ownership — ՀՀ, ք.Երևան, Արաբկիր, Օրբելի եղբայրների փողոց 67/2 շենք, 210, 212, 220 տնտեսական շինությու"
+    }
+   ]
+  },
   "news_issues": [],
   "positives": [],
   "confidence": "medium",
-  "notes": "Greenwood Residence is a project brand; input website ecoshingroup.am and email info@ecoshingroup.am (phone 011 611100 matches Ecoshin's 055 611100 pattern) point to Ecoshin Group LLC (TIN 01274214). A project-specific SPV was not found. Duplicate of 'Ecoshin Group' entity. | Court: Court search pending/not run."
+  "notes": "Greenwood Residence is a project brand; input website ecoshingroup.am and email info@ecoshingroup.am (phone 011 611100 matches Ecoshin's 055 611100 pattern) point to Ecoshin Group LLC (TIN 01274214). A project-specific SPV was not found. Duplicate of 'Ecoshin Group' entity. | Court: Matched party names: ԷԿՈՇԻՆ ԳՐՈՒՊ (3); ԳՐԻՆՎՈՒԴ ՌԵԶԻԴԵՆՍ (1). Individual-claimant respondent case types: apartment/ownership 1, money recovery 1."
  },
  {
   "developer": "IVY Garden  (PJKT Development)",
@@ -2932,11 +3086,22 @@
    "ՓԻ ՋԵՅ ՔԵՅ ԹԻ ԴԵՎԵԼՈՓՄԵՆԹ",
    "ԻՎԻ ԳԱՐԴԵՆ"
   ],
-  "court": null,
+  "court": {
+   "total": 0,
+   "respondent": 0,
+   "claimant": 0,
+   "respondent_by_individuals": 0,
+   "bankruptcy_as_debtor": 0,
+   "criminal": 0,
+   "administrative": 0,
+   "payment_order": 0,
+   "since_2021": 0,
+   "notable": []
+  },
   "news_issues": [],
   "positives": [],
   "confidence": "high",
-  "notes": "Public reservation offer PDF on ivygarden.am names the offeror/seller as «Այվի Գարդեն» ՍՊԸ (account at Ameriabank); site footer '© IVY GARDEN LLC'; 'Property developer: PJKT Development' is a brand/sponsor whose Armenian registration was not found. Project at Armenakyan 108/7. No news found. karg.am: «ԱՅՎԻ ԳԱՐԴԵՆ» ՍՊԸ, TIN 00523564, reg. 18.12.2023, legal address Armenakyan 108/7 (matches project address). | Court: Court search pending/not run."
+  "notes": "Public reservation offer PDF on ivygarden.am names the offeror/seller as «Այվի Գարդեն» ՍՊԸ (account at Ameriabank); site footer '© IVY GARDEN LLC'; 'Property developer: PJKT Development' is a brand/sponsor whose Armenian registration was not found. Project at Armenakyan 108/7. No news found. karg.am: «ԱՅՎԻ ԳԱՐԴԵՆ» ՍՊԸ, TIN 00523564, reg. 18.12.2023, legal address Armenakyan 108/7 (matches project address)."
  },
  {
   "developer": "Renco ArmEstate (Nuovo Velodromo)",
@@ -2965,7 +3130,49 @@
    "ՌԵՆԿՈ ԱՐՄԵՍՏԵՅՏ",
    "ՌԵՆԿՈ"
   ],
-  "court": null,
+  "court": {
+   "total": 25,
+   "respondent": 8,
+   "claimant": 17,
+   "respondent_by_individuals": 7,
+   "bankruptcy_as_debtor": 0,
+   "criminal": 0,
+   "administrative": 8,
+   "payment_order": 3,
+   "since_2021": 0,
+   "notable": [
+    {
+     "case_number": "ԵԴ/20291/02/18",
+     "tab": "civil",
+     "filed": "2018-09-19",
+     "why": "individual Մարգարիտ Շիմշիրյան Պողոսի v. company: invalidation — Առոչինչ գործարքի անվավերության հետևանքներ կիրառելու պահանջի մասին"
+    },
+    {
+     "case_number": "ԵԿԴ/5582/02/15",
+     "tab": "civil",
+     "filed": "2015-12-14",
+     "why": "individual Մարգարիտա Շիմշիրյան Պողոսի v. company: invalidation — Գործարքը անվավեր ճանաչելու և անվավերության հետևանքներ կիրառելու պ/մ"
+    },
+    {
+     "case_number": "ԵԿԴ/1029/02/15",
+     "tab": "civil",
+     "filed": "2015-03-17",
+     "why": "individual Պետիկ Գուլգուլյան Հմայակի v. company: money recovery — Աշխատանքում վերականգնելու և հարկադիր պարապուրդում գտնվելու ժամանակահատվածում աշխատավարձի բռնագանձման"
+    },
+    {
+     "case_number": "ԵԿԴ/2829/02/12",
+     "tab": "civil",
+     "filed": "2012-12-11",
+     "why": "individual Պավլիկ Քեմենեչջյան Նշանի v. company: damages — Կերակրողին կորցնելու հետևանքով պատճառված վնասի փոխհատուցման պ/մ"
+    },
+    {
+     "case_number": "ԵԿԴ/1724/02/12",
+     "tab": "civil",
+     "filed": "2012-07-31",
+     "why": "individual Արման Սահակյան Հովիկի v. company: invalidation, money recovery — հրամանն անվավեր ճանաչելու, աշխատանքում վերականգնելու և հարկադիր պարապուրդի ամբողջ ժամանակահատվածի հա"
+    }
+   ]
+  },
   "news_issues": [],
   "positives": [
    {
@@ -2980,7 +3187,7 @@
    }
   ],
   "confidence": "high",
-  "notes": "Spyur: «ՌԵՆԿՈ ԱՐՄԷՍՏԵՅՏ» ՍՊԸ, director Paolo Paffumi, Vazgen Sargsyan 10, founded 2001, partners RENCO S.p.A./RENCO Group; phone 010 590799 and armestate@renco.it match input. TIN 02560091 from Ministry of Finance large/medium entity list; RENCO S.p.A. branch TIN 02546651. Sales via City Nest (citynest.am lists Milano Firenze Towers, G. Lusavorich 4, completion Dec 2028). | Court: Court search pending/not run."
+  "notes": "Spyur: «ՌԵՆԿՈ ԱՐՄԷՍՏԵՅՏ» ՍՊԸ, director Paolo Paffumi, Vazgen Sargsyan 10, founded 2001, partners RENCO S.p.A./RENCO Group; phone 010 590799 and armestate@renco.it match input. TIN 02560091 from Ministry of Finance large/medium entity list; RENCO S.p.A. branch TIN 02546651. Sales via City Nest (citynest.am lists Milano Firenze Towers, G. Lusavorich 4, completion Dec 2028). | Court: Matched party names: ՌԵՆԿՈ ԱՐՄԷՍՏԵՅՏ (23); ՌԵՆԿՈ ԱՐՄԷՍՏԵՅՏ ՊԻԱՑՑԱ ԳՐԱՆԴԵ (1); ՌԵՆԿՈ ԱՐՄԷՍՏԵՅՏ ԱՐԹՈՒՐ ԱԼԱՎԵՐԴՅԱՆ ՎԻԼՎԻԼԻ ՄԱՐԻԱ ԱԼԱՎԵՐԴՅԱՆ Ն (1). Individual-claimant respondent case types: invalidation 3, money recovery 3, damages 1, other 1."
  },
  {
   "developer": "Deka (Deka 10 )",
@@ -3009,11 +3216,22 @@
    "ԴԵԿԱ ԲԻԼԴ",
    "ԴԵԿԱ ՏԱՍԸ"
   ],
-  "court": null,
+  "court": {
+   "total": 0,
+   "respondent": 0,
+   "claimant": 0,
+   "respondent_by_individuals": 0,
+   "bankruptcy_as_debtor": 0,
+   "criminal": 0,
+   "administrative": 0,
+   "payment_order": 0,
+   "since_2021": 0,
+   "notable": []
+  },
   "news_issues": [],
   "positives": [],
   "confidence": "high",
-  "notes": "deka.am footer '© 2021-2026 \"Deka 10\" LLC', construction licence ՔՊԼ N 18197, Davtashen 2nd district 45; spyur: «ԴԵԿԱ 10» ՇԻՆԱՐԱՐԱԿԱՆ ԿԱԶՄԱԿԵՐՊՈՒԹՅՈՒՆ ՍՊԸ (keyword alias «ԴԵԿԱ»). Byurakan Resort not started. Name 'Deka' collides with unrelated entities (e.g. «ԴԵԿԱ» welding materials factory) - match on '10' or tax ID. No news found. karg.am: «ԴԵԿԱ 10» ՍՊԸ TIN 00244843 (reg. 22.10.2021) and «ԴԵԿԱ ԲԻԼԴ» ՍՊԸ TIN 08283061 (reg. 05.08.2024) share legal address Davtashen 1st district 30 - related entity. | Court: Court search pending/not run."
+  "notes": "deka.am footer '© 2021-2026 \"Deka 10\" LLC', construction licence ՔՊԼ N 18197, Davtashen 2nd district 45; spyur: «ԴԵԿԱ 10» ՇԻՆԱՐԱՐԱԿԱՆ ԿԱԶՄԱԿԵՐՊՈՒԹՅՈՒՆ ՍՊԸ (keyword alias «ԴԵԿԱ»). Byurakan Resort not started. Name 'Deka' collides with unrelated entities (e.g. «ԴԵԿԱ» welding materials factory) - match on '10' or tax ID. No news found. karg.am: «ԴԵԿԱ 10» ՍՊԸ TIN 00244843 (reg. 22.10.2021) and «ԴԵԿԱ ԲԻԼԴ» ՍՊԸ TIN 08283061 (reg. 05.08.2024) share legal address Davtashen 1st district 30 - related entity."
  },
  {
   "developer": "Amikson Sapphire  (sales: RED Invest Group)",
@@ -3034,11 +3252,35 @@
    "ԱՄԻԿՍՈՆ",
    "ԱՄԻՔՍՈՆ ՍԱՊՖԻՐ"
   ],
-  "court": null,
+  "court": {
+   "total": 2,
+   "respondent": 1,
+   "claimant": 1,
+   "respondent_by_individuals": 0,
+   "bankruptcy_as_debtor": 0,
+   "criminal": 0,
+   "administrative": 1,
+   "payment_order": 0,
+   "since_2021": 2,
+   "notable": [
+    {
+     "case_number": "ԵԴ2/1796/02/24",
+     "tab": "civil",
+     "filed": "2024-03-13",
+     "why": "ՄԵԴԻԱՄԵԴ v. company (civil): other — Հայցվորի պահանջը Ելնելով վերոգրյալից և ղեկավարվելով ՀՀ քաղաքացիական դատավարության օրենսգրքի 125-րդ հ"
+    },
+    {
+     "case_number": "ՎԴ/7091/05/23",
+     "tab": "administrative",
+     "filed": "2023",
+     "why": "company v. ՀՀ ՊԵԿ (administrative): invalidation — 13.07.2023թ. թիվ 3220038 արձանագրությունն անվավեր ճանաչելու պ/մ"
+    }
+   ]
+  },
   "news_issues": [],
   "positives": [],
   "confidence": "high",
-  "notes": "RED Invest project page (Sapphire multifunctional complex, A. Harutyunyan 1, Nor Hachn; 'train with Juventus' academy tie-in): developer «Ամիկսոն Սապֆիր» ՍՊԸ, builder «Ազուրիտ» ՍՊԸ, partner bank Unibank; Building 2 started 06/2023 due end-Oct 2026, Building 1 starts 11/2026 due 05/2029 (long timeline - monitor). Exclusive sales «ՌԷԴ Ինվեսթ Գրուպ» ՍՊԸ (\"Red Group\" LLC, TIN 03316198). Tax ID not found; no news found. karg.am: «ԱՄԻԿՍՈՆ ՍԱՊՖԻՐ» ՍՊԸ TIN 01260357, reg. 23.01.2014 (Malatia-Sebastia). RED Invest Group's own entity «ՌԷԴ ԻՆՎԵՍԹ ԳՐՈՒՊ» ՍՊԸ TIN 01274206. | Court: Court search pending/not run."
+  "notes": "RED Invest project page (Sapphire multifunctional complex, A. Harutyunyan 1, Nor Hachn; 'train with Juventus' academy tie-in): developer «Ամիկսոն Սապֆիր» ՍՊԸ, builder «Ազուրիտ» ՍՊԸ, partner bank Unibank; Building 2 started 06/2023 due end-Oct 2026, Building 1 starts 11/2026 due 05/2029 (long timeline - monitor). Exclusive sales «ՌԷԴ Ինվեսթ Գրուպ» ՍՊԸ (\"Red Group\" LLC, TIN 03316198). Tax ID not found; no news found. karg.am: «ԱՄԻԿՍՈՆ ՍԱՊՖԻՐ» ՍՊԸ TIN 01260357, reg. 23.01.2014 (Malatia-Sebastia). RED Invest Group's own entity «ՌԷԴ ԻՆՎԵՍԹ ԳՐՈՒՊ» ՍՊԸ TIN 01274206. | Court: Excluded 6 fuzzy-matched cases of differently named parties (ԱՄԻԿՍՈՆ ԲԻԶՆԵՍ; ԱՄԻԿՍՈՆ ԲԻԶՆԵՍ ՌՈԲԵՐՏ ՄՈՒՐԱԴՅԱՆ ՍՈՍԻ ԱՇՏ)."
  },
  {
   "developer": "Modern Construction (sales: RED Invest Group)",
@@ -3059,11 +3301,22 @@
    "ՄՈԴԵՌՆ ՔԸՆՍԹՐԱՔՇՆ",
    "ՄՈԴԵՌՆ ՔՈՆՍԹՐԱՔՇՆ"
   ],
-  "court": null,
+  "court": {
+   "total": 0,
+   "respondent": 0,
+   "claimant": 0,
+   "respondent_by_individuals": 0,
+   "bankruptcy_as_debtor": 0,
+   "criminal": 0,
+   "administrative": 0,
+   "payment_order": 0,
+   "since_2021": 0,
+   "notable": []
+  },
   "news_issues": [],
   "positives": [],
   "confidence": "medium",
-  "notes": "RED Invest project page for Novotel investment property (Saralanj 1st St. 5, Tsaghkadzor; completion 12/2026): 'Project manager and developer «Մոդերն Քընսթրաքշն» ՍՊԸ', designer «Ա41 Պրոջեկտ» ՍՊԸ. karg.am: single exact match «ՄՈԴԵՐՆ ՔԸՆՍԹՐԱՔՇՆ» ՍՊԸ, TIN 00214038, reg. 06.12.2019, Mamikonyants St. 42 (Arabkir). Possibly related to 'Modern Structure' listed by Hetq among Tsaghkadzor permit holders (unconfirmed). No news found. | Court: Court search pending/not run."
+  "notes": "RED Invest project page for Novotel investment property (Saralanj 1st St. 5, Tsaghkadzor; completion 12/2026): 'Project manager and developer «Մոդերն Քընսթրաքշն» ՍՊԸ', designer «Ա41 Պրոջեկտ» ՍՊԸ. karg.am: single exact match «ՄՈԴԵՐՆ ՔԸՆՍԹՐԱՔՇՆ» ՍՊԸ, TIN 00214038, reg. 06.12.2019, Mamikonyants St. 42 (Arabkir). Possibly related to 'Modern Structure' listed by Hetq among Tsaghkadzor permit holders (unconfirmed). No news found."
  },
  {
   "developer": "House Construction  (sales: RED Invest Group)",
@@ -3084,11 +3337,22 @@
    "ՀԱՈՒՍ ՔԸՆՍԹՐԱՔՇՆ",
    "ՀԱՈՒՍ ԿՈՆՍՏՐՈՒԿՑԻԱ"
   ],
-  "court": null,
+  "court": {
+   "total": 0,
+   "respondent": 0,
+   "claimant": 0,
+   "respondent_by_individuals": 0,
+   "bankruptcy_as_debtor": 0,
+   "criminal": 0,
+   "administrative": 0,
+   "payment_order": 0,
+   "since_2021": 0,
+   "notable": []
+  },
   "news_issues": [],
   "positives": [],
   "confidence": "high",
-  "notes": "RED Invest North Yard page (Yeghvard, Kotayk): developer «Հաուս Քոնսթրաքշն» ՍՊԸ, architect «Թի Էֆ + Արքիթեքթս» ՍՊԸ, builder «Arm Construct» ՍՊԸ (see ARM Construct, TIN 02688892 - possibly related), partner bank Ameriabank; construction 2025 to Dec 2026. karg.am: «ՀԱՈՒՍ ՔՈՆՍԹՐԱՔՇՆ» ՍՊԸ TIN 01332633, reg. 16.01.2023 (Ajapnyak, Vahagni district). no news found. | Court: Court search pending/not run."
+  "notes": "RED Invest North Yard page (Yeghvard, Kotayk): developer «Հաուս Քոնսթրաքշն» ՍՊԸ, architect «Թի Էֆ + Արքիթեքթս» ՍՊԸ, builder «Arm Construct» ՍՊԸ (see ARM Construct, TIN 02688892 - possibly related), partner bank Ameriabank; construction 2025 to Dec 2026. karg.am: «ՀԱՈՒՍ ՔՈՆՍԹՐԱՔՇՆ» ՍՊԸ TIN 01332633, reg. 16.01.2023 (Ajapnyak, Vahagni district). no news found."
  },
  {
   "developer": "Life House  (sales: RED Invest Group)",
@@ -3107,11 +3371,22 @@
   "searched_names": [
    "ԼԱՅՖ ՀԱՈՒՍ"
   ],
-  "court": null,
+  "court": {
+   "total": 0,
+   "respondent": 0,
+   "claimant": 0,
+   "respondent_by_individuals": 0,
+   "bankruptcy_as_debtor": 0,
+   "criminal": 0,
+   "administrative": 0,
+   "payment_order": 0,
+   "since_2021": 0,
+   "notable": []
+  },
   "news_issues": [],
   "positives": [],
   "confidence": "medium",
-  "notes": "RED Invest Life House page (private houses, Merdzavan village, Armavir): developer Լայֆ Հաուս ՍՊԸ, designer «ՊՐՈՖԷՆԵՐՋԻ ԳՐՈՒՊ» ՍՊԸ, partner bank Armeconombank; construction planned Sep 2026 - Dec 2027. karg.am: single match «ԼԱՅՖ ՀԱՈՒՍ» ՍՊԸ TIN 01088235, reg. 27.10.2025 (Nor Nork, Badal Muradyan 1) - very new company. No news found. | Court: Court search pending/not run."
+  "notes": "RED Invest Life House page (private houses, Merdzavan village, Armavir): developer Լայֆ Հաուս ՍՊԸ, designer «ՊՐՈՖԷՆԵՐՋԻ ԳՐՈՒՊ» ՍՊԸ, partner bank Armeconombank; construction planned Sep 2026 - Dec 2027. karg.am: single match «ԼԱՅՖ ՀԱՈՒՍ» ՍՊԸ TIN 01088235, reg. 27.10.2025 (Nor Nork, Badal Muradyan 1) - very new company. No news found."
  },
  {
   "developer": "Slavonic Residence (sales: RED Invest Group)",
@@ -3131,11 +3406,29 @@
    "ՍԼԱՎՈՆԱԿԱՆ ՌԵԶԻԴԵՆՍ",
    "ՍԼԱՎՈՆԻԿ ՌԵԶԻԴԵՆՍ"
   ],
-  "court": null,
+  "court": {
+   "total": 1,
+   "respondent": 1,
+   "claimant": 0,
+   "respondent_by_individuals": 1,
+   "bankruptcy_as_debtor": 0,
+   "criminal": 0,
+   "administrative": 0,
+   "payment_order": 0,
+   "since_2021": 1,
+   "notable": [
+    {
+     "case_number": "ԵԴ2/8733/02/24",
+     "tab": "civil",
+     "filed": "2024-10-18",
+     "why": "individual Կառլեն Ղազարյան Պատվականի v. company: contract termination, damages — վնաս պատճառելը կանխել, այն է պարտավորեցնել «Սլավոնական ռեզիդնես» ՍՊ ընկերությանը դադարեցնել ՀՀ, Երևա"
+    }
+   ]
+  },
   "news_issues": [],
   "positives": [],
   "confidence": "high",
-  "notes": "RED Invest page ('Slavonakan' Residence, Hovsep Emin 128-130): developer «Սլավոնական Ռեզիդենս» ՍՊԸ, designer «ՊՐՈՖԷՆԵՐՋԻ ԳՐՈՒՊ» ՍՊԸ, contractor «ՀՈՎՍԵՓՅԱՆ-90 ՇԻՆ» ՍՊԸ; started Jan 2024, completion due 1H 2026 (still listed in progress in input - possible delay). karg.am: «ՍԼԱՎՈՆԱԿԱՆ ՌԵԶԻԴԵՆՍ» ՍՊԸ TIN 08250022, reg. 10.03.2023, legal address H. Emin 128 (matches project). no news found. | Court: Court search pending/not run."
+  "notes": "RED Invest page ('Slavonakan' Residence, Hovsep Emin 128-130): developer «Սլավոնական Ռեզիդենս» ՍՊԸ, designer «ՊՐՈՖԷՆԵՐՋԻ ԳՐՈՒՊ» ՍՊԸ, contractor «ՀՈՎՍԵՓՅԱՆ-90 ՇԻՆ» ՍՊԸ; started Jan 2024, completion due 1H 2026 (still listed in progress in input - possible delay). karg.am: «ՍԼԱՎՈՆԱԿԱՆ ՌԵԶԻԴԵՆՍ» ՍՊԸ TIN 08250022, reg. 10.03.2023, legal address H. Emin 128 (matches project). no news found. | Court: Individual-claimant respondent case types: contract termination 1, damages 1."
  },
  {
   "developer": "My Home realty (sales: RED Invest Group)",
@@ -3156,11 +3449,29 @@
    "ՄԱՅ ՀՈՈՒՄ ՌԻԵԼԹԻ",
    "ՄԱՅ ՀՈՄ ՌԻԼԹԻ"
   ],
-  "court": null,
+  "court": {
+   "total": 1,
+   "respondent": 0,
+   "claimant": 1,
+   "respondent_by_individuals": 0,
+   "bankruptcy_as_debtor": 0,
+   "criminal": 0,
+   "administrative": 1,
+   "payment_order": 0,
+   "since_2021": 1,
+   "notable": [
+    {
+     "case_number": "ՎԴ/8971/05/24",
+     "tab": "administrative",
+     "filed": "2024",
+     "why": "company v. ՀՀ ՊԵԿ (administrative): invalidation — Թիվ 3225865 արձանագրությունն անվավեր ճանաչելու պ/մ"
+    }
+   ]
+  },
   "news_issues": [],
   "positives": [],
   "confidence": "high",
-  "notes": "RED Invest West Town residential district page: developer «Մայ Հոմ Ռիելթի» ՓԲԸ; construction 09/2021-08/2022 (completed). Armenian page names builder «Մալխասյան Շին» ՍՊԸ while the English page says 'T-construction' CJSC; partner banks Evocabank (hy) / ID Bank (en). karg.am: «ՄԱՅ ՀՈՄ ՌԻԵԼԹԻ» ՓԲԸ TIN 02285089, reg. 16.03.2020, status 'Չգործող' (inactive) - project completed 2022, company since inactive. no news found. | Court: Court search pending/not run."
+  "notes": "RED Invest West Town residential district page: developer «Մայ Հոմ Ռիելթի» ՓԲԸ; construction 09/2021-08/2022 (completed). Armenian page names builder «Մալխասյան Շին» ՍՊԸ while the English page says 'T-construction' CJSC; partner banks Evocabank (hy) / ID Bank (en). karg.am: «ՄԱՅ ՀՈՄ ՌԻԵԼԹԻ» ՓԲԸ TIN 02285089, reg. 16.03.2020, status 'Չգործող' (inactive) - project completed 2022, company since inactive. no news found."
  },
  {
   "developer": "Step Construction",
@@ -3181,11 +3492,29 @@
    "ՍԹԵՓ ՔՈՆՍԹՐԱՔՇՆ",
    "ՍՏԵՓ ԴԵՎԵԼՈՓՄԵՆԹ"
   ],
-  "court": null,
+  "court": {
+   "total": 1,
+   "respondent": 0,
+   "claimant": 1,
+   "respondent_by_individuals": 0,
+   "bankruptcy_as_debtor": 0,
+   "criminal": 0,
+   "administrative": 0,
+   "payment_order": 0,
+   "since_2021": 1,
+   "notable": [
+    {
+     "case_number": "ԵԴ2/9192/02/24",
+     "tab": "civil",
+     "filed": "2024-10-31",
+     "why": "company v. Անժելիկա Հակոբյան Կիմ (civil): money recovery — Ելնելով վերոգրյալից, նկատի ունենալով, որ Պատասխանողը հրաժարվում է Պայմանագրով աշխատանքների"
+    }
+   ]
+  },
   "news_issues": [],
   "positives": [],
   "confidence": "medium",
-  "notes": "Spyur: «ՍՏԵՓ ՔՈՆՍԹՐԱՔՇՆ» ՇԻՆԱՐԱՐԱԿԱՆ ԸՆԿԵՐՈՒԹՅՈՒՆ (alias «ՍՏԵՓ ԴԵՎԵԼՈՓՄԵՆԹ»), Gevorg Chaush 11/5, site/phone match input; on construction.am since 2022. Small design-build firm (townhouses in Bagrevand/Duryan, private houses in Mush district); appears as a source for Deka projects (possibly contractor). karg.am: «ՍՏԵՓ ՔՈՆՍԹՐԱՔՇՆ» ՍՊԸ TIN 01366728, reg. 25.08.2025 (Leningradyan St., Ajapnyak) - registration date is later than the brand's activity since 2022, so it may be a re-registered/successor entity; an older inactive «ՍՏԵՓ ԲԱՅ ՍՏԵՓ ԿՈՆՍԹՐԱՔՇՆ» (00521345) also exists. Medium match; no news found. | Court: Court search pending/not run."
+  "notes": "Spyur: «ՍՏԵՓ ՔՈՆՍԹՐԱՔՇՆ» ՇԻՆԱՐԱՐԱԿԱՆ ԸՆԿԵՐՈՒԹՅՈՒՆ (alias «ՍՏԵՓ ԴԵՎԵԼՈՓՄԵՆԹ»), Gevorg Chaush 11/5, site/phone match input; on construction.am since 2022. Small design-build firm (townhouses in Bagrevand/Duryan, private houses in Mush district); appears as a source for Deka projects (possibly contractor). karg.am: «ՍՏԵՓ ՔՈՆՍԹՐԱՔՇՆ» ՍՊԸ TIN 01366728, reg. 25.08.2025 (Leningradyan St., Ajapnyak) - registration date is later than the brand's activity since 2022, so it may be a re-registered/successor entity; an older inactive «ՍՏԵՓ ԲԱՅ ՍՏԵՓ ԿՈՆՍԹՐԱՔՇՆ» (00521345) also exists. Medium match; no news found."
  },
  {
   "developer": "ARM Construct",
@@ -3214,7 +3543,25 @@
    "ԱՐՄ ՔՈՆՍԹՐԱՔԹ",
    "ԱՐՄ ՔՈՆՍԹՐԱՔՇՆ"
   ],
-  "court": null,
+  "court": {
+   "total": 1,
+   "respondent": 1,
+   "claimant": 0,
+   "respondent_by_individuals": 1,
+   "bankruptcy_as_debtor": 0,
+   "criminal": 0,
+   "administrative": 0,
+   "payment_order": 0,
+   "since_2021": 1,
+   "notable": [
+    {
+     "case_number": "ԵԴ/42597/02/22",
+     "tab": "civil",
+     "filed": "2022-08-17",
+     "why": "individual Վարդանուշ Մարկոսյան Սենեկերիմի v. company: apartment/ownership — սեփականության իրավունքի խախտումը վերացնելու՝ կառուցված պատը ապամոնտաժելուն պարտավորեցնելու պահանջի մ"
+    }
+   ]
+  },
   "news_issues": [],
   "positives": [
    {
@@ -3224,7 +3571,7 @@
    }
   ],
   "confidence": "high",
-  "notes": "construction.am: \"Arm Construct\" LLC, TIN 02688892, Slavik Chiloyan 17 (site says company created 2019; construction.am 'since 2018'). Spyur: «ԱՐՄ ԿՈՆՍՏՐԱԿՏ» ԿԱՌՈՒՑԱՊԱՏՈՂ ԸՆԿԵՐՈՒԹՅՈՒՆ, director Aram Avagyan, keyword alias «ԱՐՄ ՔՈՆՍԹՐԱՔԹ» - karg.am confirms registered spelling «ԱՐՄ ԿՈՆՍՏՐԱԿՏ» ՍՊԸ, TIN 02688892, reg. 11.12.2018 (legal address Hyusisayin Ave 5). Unrelated look-alikes: «ԱՐՄ - ԿՈՆՍՏՐԱԿՏ» (00245039), «ԱՐՄ ՔՈՆՍԹՐԱՔԹ» (04466927, Artimet). No news found. | Court: Court search pending/not run."
+  "notes": "construction.am: \"Arm Construct\" LLC, TIN 02688892, Slavik Chiloyan 17 (site says company created 2019; construction.am 'since 2018'). Spyur: «ԱՐՄ ԿՈՆՍՏՐԱԿՏ» ԿԱՌՈՒՑԱՊԱՏՈՂ ԸՆԿԵՐՈՒԹՅՈՒՆ, director Aram Avagyan, keyword alias «ԱՐՄ ՔՈՆՍԹՐԱՔԹ» - karg.am confirms registered spelling «ԱՐՄ ԿՈՆՍՏՐԱԿՏ» ՍՊԸ, TIN 02688892, reg. 11.12.2018 (legal address Hyusisayin Ave 5). Unrelated look-alikes: «ԱՐՄ - ԿՈՆՍՏՐԱԿՏ» (00245039), «ԱՐՄ ՔՈՆՍԹՐԱՔԹ» (04466927, Artimet). No news found. | Court: Excluded 1 fuzzy-matched cases of differently named parties (ԱՐՄ ԿՈՆՍՏՐԱԿՏ 1). Individual-claimant respondent case types: apartment/ownership 1."
  },
  {
   "developer": "Kechi Hangstyan Tun  (Park Royal Tsaghkadzor)",
@@ -3244,7 +3591,49 @@
    "ԿԵՉԻ ՀԱՆԳՍՏՅԱՆ ՏՈՒՆ",
    "ՔԵՉԻ ՀԱՆԳՍՏՅԱՆ ՏՈՒՆ"
   ],
-  "court": null,
+  "court": {
+   "total": 5,
+   "respondent": 5,
+   "claimant": 0,
+   "respondent_by_individuals": 1,
+   "bankruptcy_as_debtor": 0,
+   "criminal": 0,
+   "administrative": 0,
+   "payment_order": 2,
+   "since_2021": 1,
+   "notable": [
+    {
+     "case_number": "ԿԴ/1365/02/26",
+     "tab": "civil",
+     "filed": "2026-08-19",
+     "why": "individual ԱՌՈՂՋԱՐԱՆ ՌԻՊԱ v. company: damages, money recovery — Հիմք ընդունելով վերոգրյալը՝ ԴատարանինԽ Ն Դ Ր Ո Ւ Մ ԵՄ1. Պատասխանող «ԿԵՉԻ ՀԱՆԳՍՏՅԱՆ ՏՈՒՆ» ՍՊԸ-ից հօգո"
+    },
+    {
+     "case_number": "ԿԴ/1214/02/20",
+     "tab": "civil",
+     "filed": "2020-05-11",
+     "why": "<Գազպրոմ Արմենիա> ՓԲԸ v. company (civil): money recovery — Գումարի բռնագանձման պահանջի մասին"
+    },
+    {
+     "case_number": "ԿԴ/0951/03/18",
+     "tab": "payment_order",
+     "filed": "2018-06-28",
+     "why": "Վեոլիա Ջուր ՓԲԸ v. company (payment_order): other — 96160"
+    },
+    {
+     "case_number": "ԿԴ/2582/02/17",
+     "tab": "civil",
+     "filed": "2017-12-05",
+     "why": "<Աշտարակկաթ>ՓԲԸ v. company (civil): money recovery — գումարի բռնագանձման պահանջի մասին"
+    },
+    {
+     "case_number": "ԿԴ/1771/03/15",
+     "tab": "payment_order",
+     "filed": "2015-11-12",
+     "why": "Հայջրմուղկոյուղի ՓԲԸ v. company (payment_order): other — 243 884"
+    }
+   ]
+  },
   "news_issues": [],
   "positives": [
    {
@@ -3254,7 +3643,7 @@
    }
   ],
   "confidence": "high",
-  "notes": "Display name is a transliteration of «Կեչի հանգստյան տուն». e-register: «ԿԵՉԻ ՀԱՆԳՍՏՅԱՆ ՏՈՒՆ» ՍՊԸ reg 08-11-2005, address Kh. Kecharetsu St., Tsaghkadzor - matches project address Khachatur Kecharetsi 4, Tsaghkadzor (site of the former Kechi rest house). Registered spelling uses Կ (ԿԵՉԻ), not Ք. Unrelated/unconfirmed: «ՊԱՐԿ ՌՈՅԱԼ» ՓԲԸ (00521851, Yerevan, reg 2023) - not linked by evidence. [News check limited: WebSearch quota exhausted mid-task; relied on Bing News RSS, azatutyun.am search and site pages - absence of issues is weak evidence.] | Court: Court search pending/not run."
+  "notes": "Display name is a transliteration of «Կեչի հանգստյան տուն». e-register: «ԿԵՉԻ ՀԱՆԳՍՏՅԱՆ ՏՈՒՆ» ՍՊԸ reg 08-11-2005, address Kh. Kecharetsu St., Tsaghkadzor - matches project address Khachatur Kecharetsi 4, Tsaghkadzor (site of the former Kechi rest house). Registered spelling uses Կ (ԿԵՉԻ), not Ք. Unrelated/unconfirmed: «ՊԱՐԿ ՌՈՅԱԼ» ՓԲԸ (00521851, Yerevan, reg 2023) - not linked by evidence. [News check limited: WebSearch quota exhausted mid-task; relied on Bing News RSS, azatutyun.am search and site pages - absence of issues is weak evidence.] | Court: Individual-claimant respondent case types: damages 1, money recovery 1."
  },
  {
   "developer": "Noy Residence",
@@ -3273,11 +3662,22 @@
   "searched_names": [
    "ՆՈՅ ՌԵԶԻԴԵՆՍ"
   ],
-  "court": null,
+  "court": {
+   "total": 0,
+   "respondent": 0,
+   "claimant": 0,
+   "respondent_by_individuals": 0,
+   "bankruptcy_as_debtor": 0,
+   "criminal": 0,
+   "administrative": 0,
+   "payment_order": 0,
+   "since_2021": 0,
+   "notable": []
+  },
   "news_issues": [],
   "positives": [],
   "confidence": "high",
-  "notes": "Only e-register match: «ՆՈՅ ՌԵԶԻԴԵՆՍ» ՍՊԸ reg 14-03-2023 (email noyresidence2023@gmail.com matches year), address Leningradyan 23/1 - Leningradyan St. is the former name of Kirk Kerkorian St., and myhome.am builder address is 'Լենինգրադյան 23/23' = project address. Neighbouring project Kristal Bilding (Kirk Kerkorian 23/15, «ԱՄ ՔԸՆՍԹՐԱՔԹ» ՍՊԸ) is nearby; no link established. [News check limited: WebSearch quota exhausted mid-task; relied on Bing News RSS, azatutyun.am search and site pages - absence of issues is weak evidence.] | Court: Court search pending/not run."
+  "notes": "Only e-register match: «ՆՈՅ ՌԵԶԻԴԵՆՍ» ՍՊԸ reg 14-03-2023 (email noyresidence2023@gmail.com matches year), address Leningradyan 23/1 - Leningradyan St. is the former name of Kirk Kerkorian St., and myhome.am builder address is 'Լենինգրադյան 23/23' = project address. Neighbouring project Kristal Bilding (Kirk Kerkorian 23/15, «ԱՄ ՔԸՆՍԹՐԱՔԹ» ՍՊԸ) is nearby; no link established. [News check limited: WebSearch quota exhausted mid-task; relied on Bing News RSS, azatutyun.am search and site pages - absence of issues is weak evidence.]"
  },
  {
   "developer": "New Masis",
@@ -3288,11 +3688,22 @@
    "ՆՅՈՒ ՄԱՍԻՍ",
    "ՆՈՐ ՄԱՍԻՍ"
   ],
-  "court": null,
+  "court": {
+   "total": 0,
+   "respondent": 0,
+   "claimant": 0,
+   "respondent_by_individuals": 0,
+   "bankruptcy_as_debtor": 0,
+   "criminal": 0,
+   "administrative": 0,
+   "payment_order": 0,
+   "since_2021": 0,
+   "notable": []
+  },
   "news_issues": [],
   "positives": [],
   "confidence": "low",
-  "notes": "myhome.am brand 'Նոր Մասիս / New Masis', builder address Masis, M. Heratsi 20 (project site), phone +374 41 320-320. No e-register company named ՆՅՈՒ ՄԱՍԻՍ / ՆՈՐ ՄԱՍԻՍ found - brand likely built by a differently named LLC. Phone pattern (41 320-320) is near-identical to BEST MASIS (41 320-220), suggesting the same group; BEST MASIS links to arcsisrealty.com («ԱՐՔՍԻՍ» ՍՊԸ, Masis, 04463559). [News check limited: WebSearch quota exhausted mid-task; relied on Bing News RSS, azatutyun.am search and site pages - absence of issues is weak evidence.] | Court: Court search pending/not run."
+  "notes": "myhome.am brand 'Նոր Մասիս / New Masis', builder address Masis, M. Heratsi 20 (project site), phone +374 41 320-320. No e-register company named ՆՅՈՒ ՄԱՍԻՍ / ՆՈՐ ՄԱՍԻՍ found - brand likely built by a differently named LLC. Phone pattern (41 320-320) is near-identical to BEST MASIS (41 320-220), suggesting the same group; BEST MASIS links to arcsisrealty.com («ԱՐՔՍԻՍ» ՍՊԸ, Masis, 04463559). [News check limited: WebSearch quota exhausted mid-task; relied on Bing News RSS, azatutyun.am search and site pages - absence of issues is weak evidence.]"
  },
  {
   "developer": "Avan Project",

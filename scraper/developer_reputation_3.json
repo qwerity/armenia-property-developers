@@ -402,7 +402,9 @@
    }
   ],
   "founded_year": null,
-  "searched_names": [],
+  "searched_names": [
+   "Սմարթ 2.0"
+  ],
   "court": {
    "total": 0,
    "respondent": 0,
@@ -493,7 +495,38 @@
    "administrative": 2,
    "payment_order": 5,
    "since_2021": 14,
-   "notable": []
+   "notable": [
+    {
+     "case_number": "ԵԴ2/3753/02/26",
+     "tab": "civil",
+     "filed": "2026-04-06",
+     "why": "One of 8 near-identical money claims (0.34-0.64M AMD each) filed by individuals against «ԷԼԻՏ ԳՐՈՒՊ» ՓԲԸ on 2-6 Apr 2026"
+    },
+    {
+     "case_number": "ԵԴ2/0054/02/25",
+     "tab": "civil",
+     "filed": "2025-01-07",
+     "why": "Individual's money-recovery claim against Elite Group CJSC"
+    },
+    {
+     "case_number": "ԵԴ/12545/02/18",
+     "tab": "civil",
+     "filed": "2018-06-21",
+     "why": "Individuals demand state registration of rights arising from a contract (apartment ownership) against Elite Group and director Armen Mkoyan"
+    },
+    {
+     "case_number": "ԵԿԴ/0458/02/12",
+     "tab": "civil",
+     "filed": "2012-02-28",
+     "why": "Buyer sought termination of preliminary apartment sale contract, refund and damages"
+    },
+    {
+     "case_number": "ԵՔԴ/0712/02/08",
+     "tab": "civil",
+     "filed": "2008-07-09",
+     "why": "Displaced residents challenged compensation contract with Yerevan mayor and Elite Group (redevelopment expropriation)"
+    }
+   ]
   },
   "news_issues": [
    {
@@ -1262,18 +1295,41 @@
    }
   ],
   "founded_year": null,
-  "searched_names": [],
+  "searched_names": [
+   "Ըդվանսդ Դիվելըփմենթ",
+   "Ըդվասդ Դիվելըփմենթ",
+   "Էդվանսդ Դեվելոփմենթ"
+  ],
   "court": {
-   "total": 0,
-   "respondent": 0,
-   "claimant": 0,
-   "respondent_by_individuals": 0,
+   "total": 4,
+   "respondent": 3,
+   "claimant": 1,
+   "respondent_by_individuals": 2,
    "bankruptcy_as_debtor": 0,
    "criminal": 0,
-   "administrative": 0,
+   "administrative": 2,
    "payment_order": 0,
-   "since_2021": 0,
-   "notable": []
+   "since_2021": 2,
+   "notable": [
+    {
+     "case_number": "ԵԴ2/12217/02/25",
+     "tab": "civil",
+     "filed": "2025-11-13",
+     "why": "Individuals' money-recovery claim against Advanced Development LLC"
+    },
+    {
+     "case_number": "ԵԴ2/8027/02/25",
+     "tab": "civil",
+     "filed": "2025-08-04",
+     "why": "Individual's claim against Advanced Development LLC"
+    },
+    {
+     "case_number": "ՎԴ/1489/05/10",
+     "tab": "administrative",
+     "filed": "",
+     "why": "Tax authority sought 55.3M AMD from the company (2010)"
+    }
+   ]
   },
   "news_issues": [],
   "positives": [
@@ -1289,7 +1345,7 @@
    }
   ],
   "confidence": "high",
-  "notes": "redgroup.am Armenian project pages (Garunavan 2 and 3) state Կառուցապատող «Ըդվանսդ Դիվելըփմենթ» ՍՊԸ (Garunavan 2 page misspells it «Ըդվասդ»); architect «Թոսքան» ՍՊԸ. Same name in capitals in IDBank partner list. Director reported as Armen Khodabakhshyan (garunavan.am, via search snippet). Spyur listing /companies/advanced-development/34278 exists in search index but page now returns error. Tax ID not found. Sales agent RED Invest Group (redinvest.am / redgroup.am, Buzand 107) is a brokerage, not the developer. News searches were limited (few queries; no issues found) before the WebSearch quota ran out."
+  "notes": "redgroup.am Armenian project pages (Garunavan 2 and 3) state Կառուցապատող «Ըդվանսդ Դիվելըփմենթ» ՍՊԸ (Garunavan 2 page misspells it «Ըդվասդ»); architect «Թոսքան» ՍՊԸ. Same name in capitals in IDBank partner list. Director reported as Armen Khodabakhshyan (garunavan.am, via search snippet). Spyur listing /companies/advanced-development/34278 exists in search index but page now returns error. Tax ID not found. Sales agent RED Invest Group (redinvest.am / redgroup.am, Buzand 107) is a brokerage, not the developer. News searches were limited (few queries; no issues found) before the WebSearch quota ran out. Suits by individuals as claimant vs company: 2 (claim keywords: money recovery 2, contract termination/invalidity 1)."
  },
  {
   "developer": "Project EVN (construction management)",
@@ -1892,20 +1948,40 @@
   ],
   "founded_year": 2019,
   "searched_names": [
+   "Գրին Փրոփերթի Դիվելոփմենթ",
    "Գրին Փրոփերթի Դեվելոփմենթ",
-   "Գրին Պրոպերտի Դեվելոպմենթ"
+   "Գրին Պրոպերտի Դիվելոպմենթ"
   ],
   "court": {
-   "total": 0,
-   "respondent": 0,
-   "claimant": 0,
+   "total": 3,
+   "respondent": 2,
+   "claimant": 1,
    "respondent_by_individuals": 0,
    "bankruptcy_as_debtor": 0,
    "criminal": 0,
-   "administrative": 0,
+   "administrative": 1,
    "payment_order": 0,
-   "since_2021": 0,
-   "notable": []
+   "since_2021": 2,
+   "notable": [
+    {
+     "case_number": "ԵԴ/3225/02/23",
+     "tab": "civil",
+     "filed": "2023-01-26",
+     "why": "Institute of Fine Organic Chemistry (NAS RA) sued to restore the situation before the rights violation (neighbouring construction at Azatutyan 26/1)"
+    },
+    {
+     "case_number": "ԵԴ/7783/02/23",
+     "tab": "civil",
+     "filed": "2023-02-27",
+     "why": "Same institute demands cessation of rights-violating actions"
+    },
+    {
+     "case_number": "ՎԴ/14343/05/24",
+     "tab": "administrative",
+     "filed": "",
+     "why": "Company contests a 2024 order of the Health and Labour Inspectorate"
+    }
+   ]
   },
   "news_issues": [
    {
@@ -2117,7 +2193,10 @@
    }
   ],
   "founded_year": null,
-  "searched_names": [],
+  "searched_names": [
+   "Ռոյալ Հիլզ",
+   "Ռոյալ Հիլս"
+  ],
   "court": {
    "total": 0,
    "respondent": 0,
@@ -2707,7 +2786,10 @@
    }
   ],
   "founded_year": null,
-  "searched_names": [],
+  "searched_names": [
+   "Արգավանդ Թաուերս",
+   "Արգավանդ Տաուերս"
+  ],
   "court": {
    "total": 0,
    "respondent": 0,
@@ -2745,7 +2827,10 @@
    }
   ],
   "founded_year": null,
-  "searched_names": [],
+  "searched_names": [
+   "Օմեգա Պլյուս",
+   "Օմեգա Պլյուս Շին"
+  ],
   "court": {
    "total": 0,
    "respondent": 0,
@@ -2805,7 +2890,7 @@
    }
   ],
   "confidence": "low",
-  "notes": "redgroup.am page lists Կառուցապատող՝ «Գևորգ Դարբինյան» with no legal form - developer appears to be a private person (possibly a sole proprietor ԱՁ or the permit holder), so the actual LLC, if any, is unidentified. For datalex search by person name; common name - many namesakes. Partner bank «Ֆասթ Բանկ» ՓԲԸ. Sales agent RED Invest Group (redinvest.am / redgroup.am, Buzand 107) is a brokerage, not the developer. News searches were limited (few queries; no issues found) before the WebSearch quota ran out."
+  "notes": "redgroup.am page lists Կառուցապատող՝ «Գևորգ Դարբինյան» with no legal form - developer appears to be a private person (possibly a sole proprietor ԱՁ or the permit holder), so the actual LLC, if any, is unidentified. For datalex search by person name; common name - many namesakes. Partner bank «Ֆասթ Բանկ» ՓԲԸ. Sales agent RED Invest Group (redinvest.am / redgroup.am, Buzand 107) is a brokerage, not the developer. News searches were limited (few queries; no issues found) before the WebSearch quota ran out. Developer appears to be a private person/sole proprietor; datalex organisation search not applicable, no search run."
  },
  {
   "developer": "Villa Town House  (sales: RED Invest Group)",
@@ -2829,7 +2914,11 @@
    }
   ],
   "founded_year": null,
-  "searched_names": [],
+  "searched_names": [
+   "Գլորիա Ինվեստ",
+   "Վիլլա Թաուն Հաուս",
+   "Վիլլա Տաուն Հաուս"
+  ],
   "court": {
    "total": 0,
    "respondent": 0,
@@ -2867,7 +2956,10 @@
    }
   ],
   "founded_year": null,
-  "searched_names": [],
+  "searched_names": [
+   "Ս.Ս. Եղբայրներ",
+   "Էս Էս Բրադերս"
+  ],
   "court": {
    "total": 0,
    "respondent": 0,
@@ -2905,7 +2997,11 @@
    }
   ],
   "founded_year": null,
-  "searched_names": [],
+  "searched_names": [
+   "Էկոլոջի Քոնսթրաքշն",
+   "Էկոլոջի Քոնստրաքշն",
+   "Էկոլոջի Կոնստրուկցիա"
+  ],
   "court": {
    "total": 0,
    "respondent": 0,
@@ -3222,23 +3318,57 @@
    }
   ],
   "founded_year": null,
-  "searched_names": [],
+  "searched_names": [
+   "Էրեբունի-Արմանի",
+   "Արմանի-Էրեբունի"
+  ],
   "court": {
-   "total": 0,
-   "respondent": 0,
+   "total": 10,
+   "respondent": 10,
    "claimant": 0,
-   "respondent_by_individuals": 0,
-   "bankruptcy_as_debtor": 0,
+   "respondent_by_individuals": 1,
+   "bankruptcy_as_debtor": 1,
    "criminal": 0,
    "administrative": 0,
    "payment_order": 0,
-   "since_2021": 0,
-   "notable": []
+   "since_2021": 9,
+   "notable": [
+    {
+     "case_number": "ԵԴ2/1524/02/24",
+     "tab": "civil",
+     "filed": "2024-03-05",
+     "why": "Contractor «ՕՍՏ ԳՐՈՒՊ» ՍՊԸ claims 152.4M AMD from the developer"
+    },
+    {
+     "case_number": "ՍնԴ/0130/04/24",
+     "tab": "bankruptcy",
+     "filed": "",
+     "why": "Supplier «Ֆելիքս-Սաներ» ՍՊԸ petitioned for bankruptcy of Erebuni-Armani LLC (2024)"
+    },
+    {
+     "case_number": "ԵԴ2/4667/02/25",
+     "tab": "civil",
+     "filed": "2025-05-02",
+     "why": "OST Group seeks recognition of rights over the whole 19-storey building at Erebuni St 2/1, 2/2"
+    },
+    {
+     "case_number": "ԵԴ2/6719/02/26",
+     "tab": "civil",
+     "filed": "2026-06-09",
+     "why": "OST Group seeks ownership of individual apartments in the building (several 2026 suits) - risk for buyers of those units"
+    },
+    {
+     "case_number": "ԵԴ2/4390/02/26",
+     "tab": "civil",
+     "filed": "2026-04-21",
+     "why": "Individual claims 7.45M AMD from the developer"
+    }
+   ]
   },
   "news_issues": [],
   "positives": [],
   "confidence": "high",
-  "notes": "myhome.am (Ameriabank platform) building 110 lists Կառուցապատող ԷՐԵԲՈՒՆԻ-ԱՐՄԱՆԻ ՍՊԸ, address Yerevan, Erebuni, Erebunu 5; phones +374 77 311000, +374 55 510055. Project Erebuni 2/2 bldg A (161 flats, completion 09/2026, income-tax refund eligible). Likely the same developer as 'Armani - Erebuni' multifunctional complex at Erebuni 2/1 (karucapatoxic.am/en/110) in the local dataset. Tax ID not found. News search not performed for this developer: the session's WebSearch quota was exhausted, so news_issues/positives are empty by lack of coverage, not confirmed clean."
+  "notes": "myhome.am (Ameriabank platform) building 110 lists Կառուցապատող ԷՐԵԲՈՒՆԻ-ԱՐՄԱՆԻ ՍՊԸ, address Yerevan, Erebuni, Erebunu 5; phones +374 77 311000, +374 55 510055. Project Erebuni 2/2 bldg A (161 flats, completion 09/2026, income-tax refund eligible). Likely the same developer as 'Armani - Erebuni' multifunctional complex at Erebuni 2/1 (karucapatoxic.am/en/110) in the local dataset. Tax ID not found. News search not performed for this developer: the session's WebSearch quota was exhausted, so news_issues/positives are empty by lack of coverage, not confirmed clean. Serious contractor dispute: the general contractor claims unpaid works and title to the building/apartments; plus a 2024 bankruptcy petition. Suits by individuals as claimant vs company: 1 (claim keywords: money recovery 1)."
  },
  {
   "developer": "HATIS PARK REZIDENCE",
@@ -3254,7 +3384,9 @@
    }
   ],
   "founded_year": null,
-  "searched_names": [],
+  "searched_names": [
+   "Հատիս Պարկ Ռեզիդենս"
+  ],
   "court": {
    "total": 0,
    "respondent": 0,
@@ -3286,7 +3418,11 @@
    }
   ],
   "founded_year": null,
-  "searched_names": [],
+  "searched_names": [
+   "Հաուս Քոնսթրաքշն",
+   "Հաուս Կոնստրուկցիա",
+   "Հաուզ Քոնսթրաքշն"
+  ],
   "court": {
    "total": 0,
    "respondent": 0,
@@ -3324,7 +3460,10 @@
    }
   ],
   "founded_year": null,
-  "searched_names": [],
+  "searched_names": [
+   "Սթրոնգ Բիլդինգս",
+   "Ստրոնգ Բիլդինգս"
+  ],
   "court": {
    "total": 0,
    "respondent": 0,
@@ -3356,7 +3495,9 @@
    }
   ],
   "founded_year": null,
-  "searched_names": [],
+  "searched_names": [
+   "Քեյվմեն Ռեզիդենս"
+  ],
   "court": {
    "total": 0,
    "respondent": 0,
@@ -3396,18 +3537,29 @@
    }
   ],
   "founded_year": null,
-  "searched_names": [],
+  "searched_names": [
+   "Ջի Թի Բի Անհաղթ",
+   "ԳԹԲ Անհաղթ",
+   "Ջի Թի Բի Հոլդինգս"
+  ],
   "court": {
-   "total": 0,
+   "total": 1,
    "respondent": 0,
-   "claimant": 0,
+   "claimant": 1,
    "respondent_by_individuals": 0,
    "bankruptcy_as_debtor": 0,
    "criminal": 0,
    "administrative": 0,
    "payment_order": 0,
-   "since_2021": 0,
-   "notable": []
+   "since_2021": 1,
+   "notable": [
+    {
+     "case_number": "ԵԴ2/5100/02/25",
+     "tab": "civil",
+     "filed": "2025-05-16",
+     "why": "Parent GTB Holdings sued Zhoghovurd newspaper (retraction/defamation)"
+    }
+   ]
   },
   "news_issues": [],
   "positives": [
@@ -3434,23 +3586,38 @@
    }
   ],
   "founded_year": null,
-  "searched_names": [],
+  "searched_names": [
+   "Տաճատ-62"
+  ],
   "court": {
-   "total": 0,
-   "respondent": 0,
+   "total": 3,
+   "respondent": 3,
    "claimant": 0,
-   "respondent_by_individuals": 0,
+   "respondent_by_individuals": 2,
    "bankruptcy_as_debtor": 0,
    "criminal": 0,
    "administrative": 0,
    "payment_order": 0,
-   "since_2021": 0,
-   "notable": []
+   "since_2021": 2,
+   "notable": [
+    {
+     "case_number": "ԵԴ2/9175/02/24",
+     "tab": "civil",
+     "filed": "2024-10-30",
+     "why": "Buyers demand registration of completion of construction of the multi-apartment building"
+    },
+    {
+     "case_number": "ԵԴ2/3433/02/26",
+     "tab": "civil",
+     "filed": "2026-03-27",
+     "why": "Buyers seek court recognition of ownership of real estate in the building"
+    }
+   ]
   },
   "news_issues": [],
   "positives": [],
   "confidence": "high",
-  "notes": "myhome.am builder block names ՏԱՃԱՏ-62 ՍՊԸ, registered/office address Yerevan, Arabkir, Mamikonyants 45/1, project Edvard Mirzoyan 5 (Kentron). Small single-project developer; no news or tax ID found (web search budget exhausted before a dedicated news search)."
+  "notes": "myhome.am builder block names ՏԱՃԱՏ-62 ՍՊԸ, registered/office address Yerevan, Arabkir, Mamikonyants 45/1, project Edvard Mirzoyan 5 (Kentron). Small single-project developer; no news or tax ID found (web search budget exhausted before a dedicated news search). Suits by individuals as claimant vs company: 2 (claim keywords: apartment/ownership 2, money recovery 2)."
  },
  {
   "developer": "MIDIS CONSTRUCTION",
@@ -3937,7 +4104,7 @@
    }
   ],
   "confidence": "high",
-  "notes": "Legal name from ACBA list; Hetq says Basis Group LLC founded 2019, 100% owned by Gegham Barseghyan, owns the Raffi 28 plot. Brand spelled ԲԱԶԻՍ on Facebook/myrealty, ԲԱՍԻՍ on ACBA - registry spelling could be either. Website basisgroup.am; office Raffi 31. Court outcome of the residents' suit not verified (search budget exhausted); coordinator's datalex check should cover it. Input record stage says finished but ACBA shows under construction."
+  "notes": "Legal name from ACBA list; Hetq says Basis Group LLC founded 2019, 100% owned by Gegham Barseghyan, owns the Raffi 28 plot. Brand spelled ԲԱԶԻՍ on Facebook/myrealty, ԲԱՍԻՍ on ACBA - registry spelling could be either. Website basisgroup.am; office Raffi 31. Court outcome of the residents' suit not verified (search budget exhausted); coordinator's datalex check should cover it. Input record stage says finished but ACBA shows under construction. No datalex cases under «ԲԱՍԻՍ ԳՐՈՒՊ»; the 2021 neighbours' administrative suit against the Raffi 28 building permit (reported by Hetq) is probably filed against Yerevan municipality with the company as third party, so it is not indexed under the company name."
  },
  {
   "developer": "ASSTROY",
@@ -3953,7 +4120,10 @@
    }
   ],
   "founded_year": null,
-  "searched_names": [],
+  "searched_names": [
+   "Ասստրոյ",
+   "Աս Ստրոյ"
+  ],
   "court": {
    "total": 0,
    "respondent": 0,
@@ -4032,7 +4202,9 @@
    }
   ],
   "founded_year": null,
-  "searched_names": [],
+  "searched_names": [
+   "Ամուր 21"
+  ],
   "court": {
    "total": 0,
    "respondent": 0,
@@ -4130,18 +4302,46 @@
    }
   ],
   "founded_year": 1992,
-  "searched_names": [],
+  "searched_names": [
+   "Հորիզոն-95",
+   "Հորիզոն Ինվեստ"
+  ],
   "court": {
-   "total": 0,
-   "respondent": 0,
-   "claimant": 0,
-   "respondent_by_individuals": 0,
+   "total": 83,
+   "respondent": 17,
+   "claimant": 66,
+   "respondent_by_individuals": 5,
    "bankruptcy_as_debtor": 0,
    "criminal": 0,
-   "administrative": 0,
+   "administrative": 55,
    "payment_order": 0,
-   "since_2021": 0,
-   "notable": []
+   "since_2021": 9,
+   "notable": [
+    {
+     "case_number": "ԵԴ2/10348/02/24",
+     "tab": "civil",
+     "filed": "2024-12-03",
+     "why": "Former employee claims penalty (follow-up to 2020 wrongful-dismissal suits)"
+    },
+    {
+     "case_number": "ԵԴ/13380/02/21",
+     "tab": "civil",
+     "filed": "2021-04-07",
+     "why": "Employees contest dismissal orders"
+    },
+    {
+     "case_number": "ԵԿԴ/3675/02/17",
+     "tab": "civil",
+     "filed": "2017-09-19",
+     "why": "MLL Industries claimed money from Horizon-95"
+    },
+    {
+     "case_number": "ՍնԴ/0524/04/24",
+     "tab": "bankruptcy",
+     "filed": "",
+     "why": "Horizon-95 as creditor petitioned for bankruptcy of Inzhener Liga CJSC (also 2017)"
+    }
+   ]
   },
   "news_issues": [],
   "positives": [
@@ -4162,7 +4362,7 @@
    }
   ],
   "confidence": "high",
-  "notes": "Evocabank lists the project as 'Horizon Invest CJSC' with 'Builder: Horizon-95 LLC' (office Buzand 99 apt 28, site F. Werfel 40/2) - so Horizon Invest CJSC is the likely developer SPV and Horizon-95 the contractor/parent. Tax ID 00801721 from MinFin lists (2023 and an earlier List.pdf) matched by exact name «ՀՈՐԻԶՈՆ-95»; legal form ՍՊԸ per spyur 'Co.Ltd'/Evoca 'LLC'. Founding year 1992 per spyur/Defanse (construction.am says 1997). Horizon Invest tax ID not found. No negative news found, but news search was not possible (web-search budget exhausted)."
+  "notes": "Evocabank lists the project as 'Horizon Invest CJSC' with 'Builder: Horizon-95 LLC' (office Buzand 99 apt 28, site F. Werfel 40/2) - so Horizon Invest CJSC is the likely developer SPV and Horizon-95 the contractor/parent. Tax ID 00801721 from MinFin lists (2023 and an earlier List.pdf) matched by exact name «ՀՈՐԻԶՈՆ-95»; legal form ՍՊԸ per spyur 'Co.Ltd'/Evoca 'LLC'. Founding year 1992 per spyur/Defanse (construction.am says 1997). Horizon Invest tax ID not found. No negative news found, but news search was not possible (web-search budget exhausted). Large long-established contractor: 66 of 83 cases as claimant (debt collection, bankruptcy petitions against debtors); no buyer suits found. Suits by individuals as claimant vs company: 5 (claim keywords: money recovery 5, contract termination/invalidity 3)."
  },
  {
   "developer": "Tesaran Project",
@@ -4178,7 +4378,10 @@
    }
   ],
   "founded_year": null,
-  "searched_names": [],
+  "searched_names": [
+   "Տեսարան Փրոջեքթ",
+   "Տեսարան Պրոեկտ"
+  ],
   "court": {
    "total": 0,
    "respondent": 0,
@@ -4216,7 +4419,10 @@
    }
   ],
   "founded_year": null,
-  "searched_names": [],
+  "searched_names": [
+   "Վիլլա Թաուն Հաուս",
+   "Վիլլա Տաուն Հաուս"
+  ],
   "court": {
    "total": 0,
    "respondent": 0,
