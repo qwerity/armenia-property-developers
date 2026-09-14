@@ -213,3 +213,11 @@ gmp-place-details-compact { margin-top: 8px; width: 100%; color-scheme: light; }
 .ctrl3d button + button { border-top: 1px solid #eee; }
 .ctrl3d button:hover { background: #f1f3f4; }
 a.src { font-size: 11px; font-weight: 500; padding: 0 5px; border: 1px solid var(--line); border-radius: 4px; margin-left: 4px; }
+.grid2 label, .checks label { position: relative; }
+label.changed { color: var(--accent); }
+.grid2 label.changed select, .grid2 label.changed input { border-color: var(--accent); box-shadow: 0 0 0 2px rgba(180,68,31,.12); background: #fff8f4; }
+.checks label.changed { font-weight: 600; }
+.fclear { position: absolute; top: -2px; right: 0; width: 16px; height: 16px; line-height: 14px; padding: 0; border: 0; border-radius: 50%; background: var(--accent); color: #fff; font-size: 12px; cursor: pointer; }
+.checks .fclear { position: static; order: 3; margin-left: auto; }
+.fcount { color: var(--muted); font-weight: 400; font-size: 11.5px; }
+.checks input:disabled + * , .checks label:has(input:disabled) { opacity: .45; }

@@ -3,7 +3,7 @@ import { createMap } from "./map.js";
 import { renderList, scrollToItem } from "./list.js";
 import { renderDetails, createLightbox } from "./details.js";
 import {
-  initFilterOptions, refreshDistricts, readFilters, applyFilters, sortProjects,
+  initFilterOptions, refreshFacets, markChangedFilters, readFilters, applyFilters, sortProjects,
   activeFilterCount, resetFilters, setDeveloperFilter, FILTER_IDS,
 } from "./filters.js";
 import { esc, debounce, state } from "./util.js";
@@ -102,17 +102,23 @@ function update({ fit = false, pinsOnly = false } = {}) {
   $("active-filters").hidden = n === 0;
   $("active-filters").textContent = n;
   $("count").textContent = `${app.visible.length} of ${app.projects.length} projects`;
+  refreshFacets(app.projects, f, f.inView ? app.mapApi.bounds() : null);
+  markChangedFilters(f, () => update({ fit: true }));
   legend();
 }
 
 function bindControls() {
   const onChange = () => update();
   $(FILTER_IDS.q).addEventListener("input", debounce(onChange, 120));
-  $(FILTER_IDS.region).addEventListener("change", () => { refreshDistricts(app.projects); update({ fit: true }); });
+  $(FILTER_IDS.region).addEventListener("change", () => {
+    const f = readFilters();
+    if (f.district && !app.projects.some((p) => p.region === f.region && p.district === f.district)) $(FILTER_IDS.district).value = "";
+    update({ fit: true });
+  });
   for (const k of ["district", "dev"]) $(FILTER_IDS[k]).addEventListener("change", () => update({ fit: true }));
   for (const k of ["kind", "status", "year", "deal", "priced", "tax", "inView", "sort", "info", "source", "hideSold", "precise", "grade", "clean"]) $(FILTER_IDS[k]).addEventListener("change", onChange);
   for (const k of ["pmin", "pmax", "budget"]) $(FILTER_IDS[k]).addEventListener("input", debounce(onChange, 250));
-  $("reset").addEventListener("click", () => { resetFilters(); refreshDistricts(app.projects); update({ fit: true }); });
+  $("reset").addEventListener("click", () => { resetFilters(); update({ fit: true }); });
 
   $("currency").addEventListener("click", (e) => {
     const b = e.target.closest("button[data-cur]");

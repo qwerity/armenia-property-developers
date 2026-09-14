@@ -7,48 +7,122 @@ const FIELDS = {
   info: "f-info", source: "f-source", hideSold: "f-hidesold", precise: "f-precise", grade: "f-grade", clean: "f-clean",
 };
 
-function fillSelect(el, values, allLabel, counts) {
-  const current = el.value;
-  el.innerHTML = "";
-  el.append(new Option(allLabel, ""));
-  for (const v of values) el.append(new Option(counts ? `${v} (${counts.get(v)})` : v, v));
-  el.value = values.includes(current) ? current : "";
-}
+const universe = { values: {}, devOrder: [] };
 
-function countBy(items, key) {
-  const m = new Map();
-  for (const p of items) if (p[key]) m.set(p[key], (m.get(p[key]) || 0) + 1);
-  return m;
-}
+const SELECT_FACETS = {
+  region: { all: "All regions", values: (p) => [p.region] },
+  district: { all: "All districts", values: (p) => [p.district] },
+  dev: { all: "All developers", values: (p) => [p.developer_group] },
+  kind: { all: "Any", values: (p) => [p.kind] },
+  source: { all: "All sources", values: (p) => (p.sources || []).map((x) => x.name) },
+};
+const STATIC_FACETS = {
+  status: { match: (p, v) => p.stage === v },
+  year: { match: (p, v) => p.completion_year != null && p.completion_year <= Number(v), dynamicValues: true },
+  info: { match: (p, v) => p.info_score >= Number(v) },
+  grade: { match: (p, v) => p.developer_rep && p.developer_rep.grade <= v },
+};
+const CHECK_FACETS = ["deal", "priced", "tax", "inView", "hideSold", "precise", "clean"];
+const EMPTY = { region: "", district: "", dev: "", kind: "", status: "", source: "", grade: "", year: null, info: null, pmin: null, pmax: null, budget: null };
 
-/** Populate filter dropdowns from the dataset. */
+/** Remember every possible option value (dataset order) so facets can be rebuilt with live counts. */
 export function initFilterOptions(projects, developers) {
-  const regions = countBy(projects, "region");
-  fillSelect($(FIELDS.region), [...regions.keys()].sort(), "All regions", regions);
-  refreshDistricts(projects);
-  const devSel = $(FIELDS.dev);
-  devSel.innerHTML = "";
-  devSel.append(new Option("All developers", ""));
-  for (const d of developers) devSel.append(new Option(`${d.name} (${d.count})`, d.name));
-  const kinds = countBy(projects, "kind");
-  fillSelect($(FIELDS.kind), [...kinds.keys()].sort(), "Any", kinds);
-  const sources = new Map();
-  for (const p of projects) for (const s of p.sources || []) if (s.name) sources.set(s.name, (sources.get(s.name) || 0) + 1);
-  fillSelect($(FIELDS.source), [...sources.keys()].sort(), "All sources", sources);
-  const stages = countBy(projects, "stage");
-  for (const opt of $(FIELDS.status).options) {
-    if (opt.value) opt.textContent = `${opt.textContent.replace(/ \(\d+\)$/, "")} (${stages.get(opt.value) || 0})`;
+  for (const [key, facet] of Object.entries(SELECT_FACETS)) {
+    const set = new Set();
+    for (const p of projects) for (const v of facet.values(p)) if (v) set.add(v);
+    universe.values[key] = key === "dev" ? developers.map((d) => d.name).filter((n) => set.has(n)) : [...set].sort((a, b) => a.localeCompare(b));
   }
   const years = [...new Set(projects.map((p) => p.completion_year).filter(Boolean))].sort();
-  fillSelect($(FIELDS.year), years.map(String), "Any");
+  const yearSel = $(FIELDS.year);
+  yearSel.innerHTML = "";
+  yearSel.append(new Option("Any", ""));
+  for (const y of years) yearSel.append(new Option(String(y), String(y)));
+  for (const key of CHECK_FACETS) {
+    const label = $(FIELDS[key]).closest("label");
+    if (!label.querySelector(".fcount")) label.insertAdjacentHTML("beforeend", ` <span class="fcount"></span>`);
+  }
 }
 
-/** Rebuild the district list so it only offers districts inside the chosen region. */
-export function refreshDistricts(projects) {
-  const region = $(FIELDS.region).value;
-  const pool = region ? projects.filter((p) => p.region === region) : projects;
-  const districts = countBy(pool, "district");
-  fillSelect($(FIELDS.district), [...districts.keys()].sort(), "All districts", districts);
+function withoutFacet(f, key) {
+  const g = { ...f };
+  g[key] = key in EMPTY ? EMPTY[key] : false;
+  return g;
+}
+
+function rebuildSelect(key, counts) {
+  const el = $(FIELDS[key]);
+  const current = el.value;
+  el.innerHTML = "";
+  el.append(new Option(SELECT_FACETS[key].all, ""));
+  for (const v of universe.values[key]) {
+    const n = counts.get(v) || 0;
+    if (!n && v !== current) continue;
+    el.append(new Option(`${v} (${n})`, v));
+  }
+  el.value = current;
+}
+
+/**
+ * Faceted counts: every option shows how many projects would match if it were chosen together with
+ * all OTHER active filters; options that would yield nothing are hidden (the current choice is kept).
+ * @param {object[]} projects all projects
+ * @param {ReturnType<typeof readFilters>} f current filters
+ * @param {{contains:Function}|null} bounds viewport (for "only in map view")
+ */
+export function refreshFacets(projects, f, bounds) {
+  for (const [key, facet] of Object.entries(SELECT_FACETS)) {
+    const pool = applyFilters(projects, withoutFacet(f, key), bounds);
+    const counts = new Map();
+    for (const p of pool) for (const v of new Set(facet.values(p))) if (v) counts.set(v, (counts.get(v) || 0) + 1);
+    rebuildSelect(key, counts);
+  }
+  for (const [key, facet] of Object.entries(STATIC_FACETS)) {
+    const pool = applyFilters(projects, withoutFacet(f, key), bounds);
+    for (const opt of $(FIELDS[key]).options) {
+      if (!opt.dataset.label) opt.dataset.label = opt.textContent;
+      if (!opt.value) {
+        opt.textContent = `${opt.dataset.label} (${pool.length})`;
+        continue;
+      }
+      const n = pool.filter((p) => facet.match(p, opt.value)).length;
+      opt.textContent = `${opt.dataset.label} (${n})`;
+      opt.hidden = n === 0 && opt.value !== $(FIELDS[key]).value;
+    }
+  }
+  for (const key of CHECK_FACETS) {
+    const n = applyFilters(projects, { ...withoutFacet(f, key), [key]: true }, bounds).length;
+    const box = $(FIELDS[key]);
+    box.closest("label").querySelector(".fcount").textContent = `(${n})`;
+    box.disabled = n === 0 && !box.checked;
+  }
+}
+
+/** Highlight changed filters and give each a one-click clear (×) button. */
+export function markChangedFilters(f, onClear) {
+  for (const [key, id] of Object.entries(FIELDS)) {
+    if (key === "q" || key === "sort") continue;
+    const el = $(id);
+    const label = el.closest("label");
+    const active = el.type === "checkbox" ? el.checked : el.value.trim() !== "";
+    label.classList.toggle("changed", active);
+    let btn = label.querySelector(".fclear");
+    if (active && !btn) {
+      btn = document.createElement("button");
+      btn.type = "button";
+      btn.className = "fclear";
+      btn.title = "Clear this filter";
+      btn.textContent = "×";
+      btn.addEventListener("click", (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        if (el.type === "checkbox") el.checked = false; else el.value = "";
+        onClear(key);
+      });
+      label.prepend(btn);
+    } else if (!active && btn) {
+      btn.remove();
+    }
+  }
 }
 
 export function readFilters() {
