@@ -268,6 +268,32 @@ def in_province(hit: dict, province: str) -> bool:
     return locate(hit["lat"], hit["lng"])[0] == province or f"{province} Province" in (hit.get("display") or "")
 
 
+def apply_manual_merges(projects: list[dict]) -> tuple[list[dict], int]:
+    """Merge records listed together in scraper/merge_overrides.json (curated same-project groups, keyed by source URL)."""
+    f = ROOT / "scraper" / "merge_overrides.json"
+    if not f.exists():
+        return projects, 0
+    merged = 0
+    for group in json.loads(f.read_text(encoding="utf-8")):
+        urls = set(group.get("urls") or [])
+        members = [p for p in projects if urls & {s.get("url") for s in p["sources"]}]
+        if len(members) < 2:
+            continue
+        base = max(members, key=lambda p: (p.get("source") == "karucapatoxic", len(p["sources"]), len(p.get("price_obs") or [])))
+        for other in members:
+            if other is not base:
+                base.setdefault("merged_ids", []).append(other["id"])
+                if " · " in base["title"] and " · " not in other["title"]:
+                    base["title"] = other["title"]
+                if base.get("geo_precision") != "exact" and other.get("geo_precision") == "exact":
+                    base["lat"], base["lng"], base["geo_precision"] = other["lat"], other["lng"], "exact"
+                merge_into(base, other)
+                merged += 1
+        drop = {id(m) for m in members if m is not base}
+        projects = [p for p in projects if id(p) not in drop]
+    return projects, merged
+
+
 def fix_inconsistent_locations(projects: list[dict]) -> None:
     """
     Re-geocode projects whose coordinates contradict the district/town named in their address,
@@ -529,7 +555,7 @@ def apply_price_verification(p: dict, v: dict, rate: float) -> None:
     p["price_verification"] = {k: v.get(k) for k in ("verdict", "evidence_url", "evidence_text", "notes") if v.get(k)}
     if v.get("sold_out") is True:
         p["sold_out"] = True
-    if verdict == "corrected":
+    if verdict in ("corrected", "confirmed") and (num(v.get("usd_m2")) or num(v.get("amd_m2"))):
         usd, amd = num(v.get("usd_m2")), num(v.get("amd_m2"))
         if usd or amd:
             usd = usd or amd / rate
@@ -544,7 +570,7 @@ def apply_price_verification(p: dict, v: dict, rate: float) -> None:
             p["usd_from"], p["amd_from"] = (round(total), round(total * rate)) if shown_usd else (round(total / rate), round(total))
             p["min_area_m2"] = area or p.get("min_area_m2")
     elif verdict == "confirmed":
-        p["price_confidence"] = "verified"
+        p["price_confidence"] = "verified"  # confirmed without restating a figure
     elif verdict == "unverifiable" and p.get("price_confidence") in ("low", "rejected"):
         p["usd_m2_min"] = p["amd_m2_min"] = p["usd_m2_max"] = p["amd_m2_max"] = None
         p["price_confidence"] = "none"
@@ -717,6 +743,7 @@ def main() -> int:
         else:
             projects.append(cand)
             added += 1
+    projects, manual_merged = apply_manual_merges(projects)
     fix_inconsistent_locations(projects)
     for p in projects:
         fallback = next((normalize_town(t) for t in (p.get("district"), p.get("region")) if normalize_town(t)), None)
@@ -753,7 +780,9 @@ def main() -> int:
         score_completeness(p)
     verified = load_price_verifications()
     for p in projects:
-        v = verified.get(p["id"])
+        found = [verified[i] for i in [p["id"], *p.get("merged_ids", [])] if i in verified]
+        rank = {"corrected": 0, "confirmed": 1, "unverifiable": 2}
+        v = min(found, key=lambda x: rank.get(x.get("verdict"), 3)) if found else None
         if v:
             drop_wrong_merges(p, v)
         reconcile(p, rate)
@@ -763,7 +792,7 @@ def main() -> int:
     add_benchmarks(projects)
     meta = {
         "generated": date.today().isoformat(), "amd_per_usd": round(rate, 2), "rate_time": rate_time,
-        "count": len(projects), "extra_added": added, "extra_merged": merged, "extra_skipped": skipped, "geocoded": geocoded,
+        "count": len(projects), "extra_added": added, "extra_merged": merged, "extra_skipped": skipped, "geocoded": geocoded, "manual_merged": manual_merged,
         "sources": sorted({s["name"] for p in projects for s in p["sources"] if s.get("name")}),
     }
     OUT.write_text(json.dumps({"meta": meta, "projects": projects}, ensure_ascii=False), encoding="utf-8")
