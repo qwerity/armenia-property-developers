@@ -10,6 +10,7 @@ const SELECT_ZOOM_PHOTO = 18;
 /** Approximate Google Maps zoom level for a 3D camera range (metres), and the inverse. */
 const zoomFromRange = (range) => Math.log2(591657550 / Math.max(range, 1));
 const rangeFromZoom = (zoom) => 591657550 / 2 ** zoom;
+const DEFAULT_GROUND_M = 1000; // Yerevan plateau; used only when no project elevation is known
 
 function popupHtml(p) {
   const img = p.images?.[0];
@@ -85,6 +86,27 @@ export function createMap(container, { onSelect, onMove, onZoom = () => {} }) {
     state.map.addListener("zoom_changed", () => onZoom(state.map.getZoom()));
     onZoom(state.map.getZoom());
   })();
+
+  /** Ground elevation near a point: 3D camera centres are absolute altitudes, so they must sit on the terrain. */
+  function groundAt(lat, lng) {
+    let best = null;
+    let bestD = Infinity;
+    for (const p of state.projects) {
+      if (p.elevation_m == null) continue;
+      const d = (p.lat - lat) ** 2 + (p.lng - lng) ** 2;
+      if (d < bestD) { bestD = d; best = p.elevation_m; }
+    }
+    return best ?? DEFAULT_GROUND_M;
+  }
+
+  function stopOrbit() {
+    if (!state.orbiting) return;
+    state.orbiting = false;
+    state.map3d?.stopCameraAnimation();
+    const btn = document.querySelector('[data-cam="orbit"]');
+    btn?.classList.remove("on");
+    btn?.setAttribute("aria-pressed", "false");
+  }
 
   function pinFor(p, selected = false) {
     const pin = new state.libs.PinElement({
@@ -168,7 +190,8 @@ export function createMap(container, { onSelect, onMove, onZoom = () => {} }) {
         const panel = document.getElementById("right");
         if (panel && !panel.hidden && panel.offsetWidth < container.offsetWidth) state.map.panBy(panel.offsetWidth / 2, 0);
         if (state.map3d && !container.querySelector(".gmap3d").hidden) {
-          state.map3d.flyCameraTo({ endCamera: { center: { lat: p.lat, lng: p.lng, altitude: 0 }, range: rangeFromZoom(SELECT_ZOOM_PHOTO), tilt: 65, heading: state.map3d.heading || 0 }, durationMillis: 2200 });
+          stopOrbit();
+          state.map3d.flyCameraTo({ endCamera: { center: { lat: p.lat, lng: p.lng, altitude: p.elevation_m ?? groundAt(p.lat, p.lng) }, range: rangeFromZoom(SELECT_ZOOM_PHOTO), tilt: 65, heading: state.map3d.heading || 0 }, durationMillis: 2200 });
           onZoom(SELECT_ZOOM_PHOTO);
         }
       }
@@ -209,13 +232,18 @@ export function createMap(container, { onSelect, onMove, onZoom = () => {} }) {
         const c = sel ? { lat: () => sel.lat, lng: () => sel.lng } : mc;
         const range = Math.min(60000, Math.max(400, 591657550 / 2 ** (state.map.getZoom() || 14)));
         if (!state.map3d) {
-          state.map3d = new Map3DElement({ center: { lat: c.lat(), lng: c.lng(), altitude: 0 }, range, tilt: 62, heading: state.map.getHeading() || 0, mode: "HYBRID", gestureHandling: "GREEDY", defaultUIHidden: true });
+          state.map3d = new Map3DElement({ center: { lat: c.lat(), lng: c.lng(), altitude: groundAt(c.lat(), c.lng()) }, range, tilt: 62, heading: state.map.getHeading() || 0, mode: "HYBRID", gestureHandling: "GREEDY", defaultUIHidden: true });
           host3d.append(state.map3d);
           state.map3d.addEventListener("gmp-steadychange", (e) => { if (e.isSteady) sync3d(); });
           state.map3d.addEventListener("gmp-rangechange", () => onZoom(zoomFromRange(state.map3d.range)));
-          state.map3d.addEventListener("gmp-animationend", () => onZoom(zoomFromRange(state.map3d.range)));
+          state.map3d.addEventListener("gmp-animationend", () => {
+            onZoom(zoomFromRange(state.map3d.range));
+            if (state.orbiting) { state.orbiting = false; document.querySelector('[data-cam="orbit"]')?.classList.remove("on"); }
+          });
+          // any direct interaction with the 3D map cancels a running orbit
+          for (const type of ["pointerdown", "wheel", "keydown", "touchstart"]) state.map3d.addEventListener(type, stopOrbit, { passive: true });
         } else {
-          state.map3d.center = { lat: c.lat(), lng: c.lng(), altitude: 0 };
+          state.map3d.center = { lat: c.lat(), lng: c.lng(), altitude: groundAt(c.lat(), c.lng()) };
           state.map3d.range = range;
         }
         host2d.hidden = true;
@@ -224,6 +252,7 @@ export function createMap(container, { onSelect, onMove, onZoom = () => {} }) {
         await sync3d();
       } else {
         if (state.map3d?.center) state.map.setCenter({ lat: state.map3d.center.lat, lng: state.map3d.center.lng });
+        stopOrbit();
         host3d.hidden = true;
         host2d.hidden = false;
         onZoom(state.map.getZoom());
@@ -257,6 +286,7 @@ export function createMap(container, { onSelect, onMove, onZoom = () => {} }) {
     camera3d(action) {
       const m = state.map3d;
       if (!m) return;
+      if (action !== "orbit") stopOrbit();
       const clampTilt = (t) => Math.max(0, Math.min(80, t));
       const ops = {
         "zoom-in": () => { m.range = Math.max(150, m.range * 0.6); },
@@ -266,7 +296,14 @@ export function createMap(container, { onSelect, onMove, onZoom = () => {} }) {
         "tilt-up": () => { m.tilt = clampTilt((m.tilt || 0) + 10); },
         "tilt-down": () => { m.tilt = clampTilt((m.tilt || 0) - 10); },
         north: () => { m.heading = 0; },
-        orbit: () => m.flyCameraAround({ camera: { center: m.center, range: m.range, tilt: m.tilt, heading: m.heading }, durationMillis: 12000, repeatCount: 1 }),
+        orbit: () => {
+          if (state.orbiting) { stopOrbit(); return; }
+          state.orbiting = true;
+          const btn = document.querySelector('[data-cam="orbit"]');
+          btn?.classList.add("on");
+          btn?.setAttribute("aria-pressed", "true");
+          m.flyCameraAround({ camera: { center: m.center, range: m.range, tilt: m.tilt, heading: m.heading }, durationMillis: 12000, repeatCount: 1 });
+        },
       };
       ops[action]?.();
     },

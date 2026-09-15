@@ -16,6 +16,7 @@ from pathlib import Path
 from urllib.parse import urlparse
 
 from geo_admin import locate, mentioned_place, normalize_town, province_hint
+from elevation import add_elevations
 from geo_audit import location_consensus
 from geocode import geocode, geocode_display
 from price_audit import implied_observation, observation, reconcile
@@ -894,6 +895,7 @@ def main() -> int:
         sanity_check_numbers(p)
     add_benchmarks(projects)
     add_reputation(projects)
+    add_elevations(projects)
     meta = {
         "generated": date.today().isoformat(), "amd_per_usd": round(rate, 2), "rate_time": rate_time,
         "count": len(projects), "extra_added": added, "extra_merged": merged, "extra_skipped": skipped, "geocoded": geocoded, "manual_merged": manual_merged, "unlocated": unlocated,
