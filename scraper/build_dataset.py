@@ -196,7 +196,7 @@ def construction_stage(p: dict, today: date | None = None) -> None:
 
 def load_stage_verifications() -> dict:
     out = {}
-    for f in sorted((ROOT / "scraper").glob("stage_verified_*.json")):
+    for f in sorted((ROOT / "scraper").glob("stage_verified_*.json"), key=lambda x: x.stat().st_mtime):
         for v in json.loads(f.read_text(encoding="utf-8")):
             if isinstance(v, dict) and v.get("id"):
                 out[v["id"]] = v
@@ -216,7 +216,14 @@ def _iso(value: str | None, end: bool) -> str | None:
 def apply_stage_verification(p: dict, checks: dict) -> None:
     """Override the inferred construction stage with a manual check (scraper/stage_verified_*.json)."""
     v = next((checks[i] for i in [p["id"], *p.get("merged_ids", [])] if i in checks), None)
-    if not v or v.get("stage") in (None, "unknown"):
+    if not v:
+        return
+    if isinstance(v.get("floors"), (str, int)) and str(v["floors"]).strip():
+        p["floors"] = str(v["floors"]).strip()
+    if _iso(v.get("completion"), end=True):
+        p["completion"] = _iso(v.get("completion"), end=True)
+        p["completion_year"] = int(p["completion"][:4])
+    if v.get("stage") in (None, "unknown"):
         return
     if v["stage"] == "not a project":
         p["not_a_project"] = True
@@ -337,7 +344,7 @@ def apply_manual_merges(projects: list[dict]) -> tuple[list[dict], int]:
 def apply_location_verifications(projects: list[dict]) -> tuple[list[dict], list[str]]:
     """Apply manual location checks (scraper/geo_verified_*.json); drop projects with no reliable location."""
     checks = {}
-    for f in sorted((ROOT / "scraper").glob("geo_verified_*.json")):
+    for f in sorted((ROOT / "scraper").glob("geo_verified_*.json"), key=lambda x: x.stat().st_mtime):
         for v in json.loads(f.read_text(encoding="utf-8")):
             if isinstance(v, dict) and v.get("id"):
                 checks[v["id"]] = v
@@ -611,10 +618,10 @@ def merge_into(base: dict, other: dict) -> None:
 def load_price_verifications() -> dict:
     """Manual re-checks of flagged prices (scraper/price_verified_*.json), keyed by project id and title."""
     out = {}
-    for f in sorted((ROOT / "scraper").glob("price_verified_*.json")):
+    for f in sorted((ROOT / "scraper").glob("price_verified_*.json"), key=lambda x: x.stat().st_mtime):
         for v in json.loads(f.read_text(encoding="utf-8")):
             if isinstance(v, dict) and v.get("id"):
-                out[v["id"]] = v
+                out[v["id"]] = {**v, "_mtime": f.stat().st_mtime}
     return out
 
 
@@ -886,7 +893,8 @@ def main() -> int:
     for p in projects:
         found = [verified[i] for i in [p["id"], *p.get("merged_ids", [])] if i in verified]
         rank = {"corrected": 0, "confirmed": 1, "unverifiable": 2}
-        v = min(found, key=lambda x: rank.get(x.get("verdict"), 3)) if found else None
+        # newest check wins; within the same check file prefer corrected > confirmed > unverifiable
+        v = max(found, key=lambda x: (x.get("_mtime", 0), -rank.get(x.get("verdict"), 3))) if found else None
         if v:
             drop_wrong_merges(p, v)
         reconcile(p, rate)
