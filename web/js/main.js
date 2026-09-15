@@ -185,6 +185,9 @@ async function main() {
       onPlace: (place) => { app.mapApi.showPlace(place); app.mapApi.focusPlace(place); },
       bias: () => app.mapApi.map?.getBounds() || null,
     })).catch((err) => { $("meta-line").textContent = err.message; });
+    app.mapApi.ready.catch((err) => {
+      $("meta-line").textContent = `Google Maps did not load: ${err.message}. Open the app at http://localhost:5190 and check the API key's allowed websites.`;
+    });
     update();
     const m = location.hash.match(/p=([^&]+)/);
     if (m) select(decodeURIComponent(m[1]));
