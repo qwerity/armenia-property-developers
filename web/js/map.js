@@ -4,6 +4,11 @@ import { esc, money, compactMoney, quarter, stageLabel } from "./util.js";
 import { gradeBadge } from "./list.js";
 
 const CLUSTER_BELOW_ZOOM = 13;
+const SELECT_ZOOM = 15;
+const SELECT_ZOOM_3D = 17;
+const SELECT_RANGE_PHOTO = 1800;
+/** Approximate Google Maps zoom level for a 3D camera range (metres). */
+const zoomFromRange = (range) => Math.log2(591657550 / Math.max(range, 1));
 
 function popupHtml(p) {
   const img = p.images?.[0];
@@ -30,9 +35,9 @@ const approx = (p) => p.geo_precision === "district" || p.geo_precision === "cit
 /**
  * Google Maps view: 2D vector map (tilt/rotate, Street View, map types, POIs) plus photorealistic 3D mode.
  * @param {HTMLElement} container
- * @param {{onSelect:(id:string)=>void, onMove:()=>void}} handlers
+ * @param {{onSelect:(id:string)=>void, onMove:()=>void, onZoom?:(zoom:number)=>void}} handlers
  */
-export function createMap(container, { onSelect, onMove }) {
+export function createMap(container, { onSelect, onMove, onZoom = () => {} }) {
   const state = { map: null, map3d: null, libs: {}, markers: new Map(), clusterer: null, info: null, projects: [], selectedId: null, placeMarker: null, placeLine: null, t3d: 0 };
   const host2d = document.createElement("div");
   const host3d = document.createElement("div");
@@ -76,6 +81,8 @@ export function createMap(container, { onSelect, onMove }) {
     state.info = new InfoWindow({ headerDisabled: true, disableAutoPan: true, maxWidth: 300 });
     state.clusterer = new MarkerClusterer({ map: state.map, markers: [], algorithmOptions: { maxZoom: CLUSTER_BELOW_ZOOM - 1, radius: 60 } });
     state.map.addListener("idle", onMove);
+    state.map.addListener("zoom_changed", () => onZoom(state.map.getZoom()));
+    onZoom(state.map.getZoom());
   })();
 
   function pinFor(p, selected = false) {
@@ -154,11 +161,13 @@ export function createMap(container, { onSelect, onMove }) {
       if (!p) return;
       if (state.markers.get(id)) setPin(state.markers.get(id), p, true);
       if (fly) {
-        state.map.moveCamera({ center: { lat: p.lat, lng: p.lng }, zoom: Math.max(state.map.getZoom() || 0, 17), tilt: state.map.getTilt() || 0, heading: state.map.getHeading() || 0 });
+        // street-context zoom; the tilted 3D-buildings view needs a closer camera for buildings to extrude
+        const tilted = (state.map.getTilt() || 0) > 0;
+        state.map.moveCamera({ center: { lat: p.lat, lng: p.lng }, zoom: tilted ? SELECT_ZOOM_3D : SELECT_ZOOM, tilt: state.map.getTilt() || 0, heading: state.map.getHeading() || 0 });
         const panel = document.getElementById("right");
         if (panel && !panel.hidden && panel.offsetWidth < container.offsetWidth) state.map.panBy(panel.offsetWidth / 2, 0);
         if (state.map3d && !container.querySelector(".gmap3d").hidden) {
-          state.map3d.flyCameraTo({ endCamera: { center: { lat: p.lat, lng: p.lng, altitude: 0 }, range: 650, tilt: 65, heading: state.map3d.heading || 0 }, durationMillis: 2200 });
+          state.map3d.flyCameraTo({ endCamera: { center: { lat: p.lat, lng: p.lng, altitude: 0 }, range: SELECT_RANGE_PHOTO, tilt: 65, heading: state.map3d.heading || 0 }, durationMillis: 2200 });
         }
       }
       sync3d();
@@ -201,17 +210,20 @@ export function createMap(container, { onSelect, onMove }) {
           state.map3d = new Map3DElement({ center: { lat: c.lat(), lng: c.lng(), altitude: 0 }, range, tilt: 62, heading: state.map.getHeading() || 0, mode: "HYBRID", gestureHandling: "GREEDY", defaultUIHidden: true });
           host3d.append(state.map3d);
           state.map3d.addEventListener("gmp-steadychange", (e) => { if (e.isSteady) sync3d(); });
+          state.map3d.addEventListener("gmp-rangechange", () => onZoom(zoomFromRange(state.map3d.range)));
         } else {
           state.map3d.center = { lat: c.lat(), lng: c.lng(), altitude: 0 };
           state.map3d.range = range;
         }
         host2d.hidden = true;
         host3d.hidden = false;
+        onZoom(zoomFromRange(state.map3d.range));
         await sync3d();
       } else {
         if (state.map3d?.center) state.map.setCenter({ lat: state.map3d.center.lat, lng: state.map3d.center.lng });
         host3d.hidden = true;
         host2d.hidden = false;
+        onZoom(state.map.getZoom());
       }
     },
     /** Show a Google-validated place pin, with a dashed line to the project pin. */

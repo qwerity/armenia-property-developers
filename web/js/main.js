@@ -170,6 +170,7 @@ async function main() {
   app.mapApi = createMap($("map"), {
     onSelect: (id) => select(id, { fly: false }),
     onMove: () => { if (readFilters().inView) update({ pinsOnly: true }); },
+    onZoom: (z) => { $("zoomlvl").textContent = `Zoom ${Number.isFinite(z) ? Math.round(z * 10) / 10 : "—"}`; },
   });
   try {
     const { meta, projects, developers } = await loadData();
