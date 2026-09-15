@@ -1,0 +1,145 @@
+{
+ "Tesaranshin (Tesaran Residence)": {
+  "drop_all": true,
+  "notes_append": "COURT: datalex hits ('Տեսարան' condominium association, «Տեսարան ԷյԷմ» ՍՊԸ) are unrelated and were excluded; no cases for the developer itself."
+ },
+ "Noy Luxury Apartment": {
+  "drop_all": true,
+  "notes_append": "COURT: only hits were «Նոյ» ԲԲԸ / «ՆՈՅ» ՍՊԸ cases from 2008-2012 (unrelated older companies) - excluded."
+ },
+ "Goght urban valley": {
+  "drop_all": true,
+  "notes_append": "COURT: single hit «ԳՈՂԹ» ՍՊԸ (2010 ArmenTel debt) is not demonstrably the same entity - excluded."
+ },
+ "SILUET INVEST": {
+  "drop_all": true,
+  "notes_append": "COURT: hits were «Սիլուետ Դիզայն» ՍՊԸ (unrelated) - excluded."
+ },
+ "Aygedzor": {
+  "keep_party_regex": "Այգեձոր ՍՊԸ|^ԱՅԳԵՁՈՐ$",
+  "notes_append": "COURT: excluded same-name hits (Aygedzor condominium, Aygedzor village/Berd community, Aygedzor-Utik, Aygedzor 95). Kept «Այգեձոր» ՍՊԸ cases incl. 3 buyer suits 2024-2025 (e.g. ԵԴ2/1564/02/25 recovery under a 2022 off-plan purchase contract)."
+ },
+ "Armani - Erebuni": {
+  "keep_party_regex": "ԷՐԵԲՈՒՆԻ.?ԱՐՄԱՆԻ|Էրեբունի.?Արմանի",
+  "confidence": "medium",
+  "legal_entities": [
+   {
+    "name_hy": "«Էրեբունի-Արմանի» ՍՊԸ",
+    "name_en": "Erebuni-Armani LLC",
+    "tax_id": null,
+    "form": "ՍՊԸ",
+    "registered_year": null,
+    "source_url": "https://datalex.am/?app=AppCaseSearch"
+   }
+  ],
+  "role": "developer",
+  "notes_append": "COURT: datalex shows «Էրեբունի-Արմանի» ՍՊԸ with cases referencing Erebuni St 2/2 (neighbouring the project address), so this is very likely the project company. Excluded unrelated 'Արմանի' hits (Murmel-Armani, Armani Mara, persons with patronymic Armani). Serious: bankruptcy petition ՍնԴ/0130/04/24 by «Ֆելիքս-Սաներ» ՍՊԸ (2024), plus 7 claims 2024-2026 by «ՕՍՏ ԳՐՈՒՊ»/«ՕՍՏ-ՇԻՆ» (likely contractor payment disputes) and a 2026 individual money-recovery suit."
+ },
+ "Paytamshak (sales: RED Invest Group)": {
+  "drop_party_regex": "ՏԱՎԻԽ|Տ\\.Ա\\.Վ",
+  "notes_append": "COURT: excluded Gyumri «Փայտամշակ ՏԱՎԻԽ» ՍՊԸ. Contractor «Դ ԵՎ Ս ՔՈՆՍԹՐԱՔՇՆ» faces 2025 suit by an individual (ԵԴ2/10560/02/25) to invalidate a transaction by its director."
+ },
+ "Verelq 777": {
+  "drop_all": true,
+  "notes_append": "COURT: no datalex cases under «Վերելք 777»; all hits for the generic 'Վերելք' belonged to other companies («Աջափնյակի վերելք» ՍՊԸ 2008-2013, cooperatives) and were excluded.",
+  "confidence": "medium"
+ },
+ "Lorida Group (Shushi Palace)": {
+  "notes_append": "COURT: 10 of 13 respondent cases (2026) are filed by Samvel Simonyan, described as a participant (shareholder) of Lorida Group, over 2020-2025 financial statements - an internal shareholder dispute, not buyer claims; the classifier counts him as an individual. Remaining: 2 individual suits 2026 and one contract-performance claim by Simonyan.",
+  "court": {
+   "respondent_by_individuals": 3
+  }
+ },
+ "Akva-Len Shin": {
+  "notes_append": "COURT: 3 bankruptcy petitions against the company (ԵՄԴ/0102/04/15 Yerevan community, ԵՄԴ/0088/04/17 Araratbank, ՍնԴ/3467/04/25 individual Karen Manukyan, 2025). ~20 cases 2018-2019 where Akva-Len Shin sued individuals to declare apartment sale contracts sham (e.g. ԵԴ/21216/02/18, reached Court of Cassation 2024). 2024-2026: ~11 individual suits for money recovery / contract termination / invalidation of obligations. High-risk profile."
+ },
+ "Tigran Mets Group (Shinas )": {
+  "notes_append": "COURT: 133 civil suits by individuals against «Շինաս» ՍՊԸ filed 2025-2026 (mostly mid-2026, template claims - apparently Tigran Mets residents/buyers, consistent with the Jan 2026 residents' lawsuit news). All hits are for TIN-era company (reg 2020)."
+ },
+ "Ember": {
+  "notes_append": "COURT: 16 suits by individuals against «Արկադա Քոնսթրաքշն» ՍՊԸ 2021-2026, mostly penalty (տուժանք) / money recovery under off-plan purchase contracts (e.g. ԵԴ2/7448/02/26 ~14.6M AMD) - indicates repeated delivery delays. Arcada also co-signed the 2023 developers' administrative appeal against Yerevan council decision 687-N."
+ },
+ "Zover Estates": {
+  "notes_append": "COURT: 15 buyer suits 2025-2026 against «Մագնոլիա Կոմֆորտ» ՍՊԸ (Zard project company), mostly contractual penalties/money recovery and compelling main contract signing - indicates delays. «Զովեր Քնսթրաքշն» appears only as claimant in public-procurement disputes."
+ },
+ "RENSHIN urban investments": {
+  "notes_append": "COURT: Renshin itself - few buyer suits (ԵԴ2/6307/02/24 compel performance of a 2022 off-plan contract; ԵԴ/28490/02/21). Subsidiary WTC Yerevan CJSC (2024+) filed ~25 expropriation suits 2025-2026 against owners ('overriding public interest' seizure) and faces ~6 counter-suits over compensation - reputational/social risk. 2015 administrative case by residents against Government/Mayor decision in favour of Renshin (ՎԴ/2519/05/15)."
+ },
+ "Capital Build": {
+  "notes_append": "COURT: «Կապիտալ Բիլդ» ՍՊԸ itself: only 2 individual money-recovery suits (Albina Malishenko, 2022-2023). Most hits belong to project company «Գասպարյան և Որդիներ» ՓԲԸ: utility/tax payment orders 2009-2015 and 2 bankruptcy petitions in 2012 by «ԱՏ Գրեյն» ՍՊԸ (ԵԱՔԴ/0038/04/12, ԵԱՔԴ/0048/04/12) - old. 'Փիրումյան Շին' and 'Էլիսոն' returned nothing."
+ },
+ "ARSHAKUNYATS RESIDENCE": {
+  "notes_append": "Duplicate of Capital Build (same entity, same court results)."
+ },
+ "Arare": {
+  "notes_append": "COURT: bankruptcy petition ՍնԴ/1103/04/20 against «Արարէ» ՍՊԸ by contractor «Ինովաթիվ Բիլդինգ Քոնսեփթս» (2020, after Arare sued it over a 2018 contract); bankruptcy petition ՍնԴ/2813/04/25 by State Revenue Committee against «Ֆ Ֆլագման» ՍՊԸ (spelling differs slightly from «Ֆլագման» - verify). «Նոյ Ինվեստ Գրուպ»: 3 individual money-recovery suits 2022-2024 and a 17M AMD payment order 2025."
+ },
+ "Kechark": {
+  "notes_append": "COURT: all hits are the Hrazdan «Կեչառք» ԲԲԸ (old enterprise): unpaid-wages suits (2009-2021), shareholder disputes 2008-2010, bankruptcy petitions ԿԴ1/0041/04/10 and ԿԴ/0019/04/17 (Hrazdan municipality). Whether the current developer is the same entity is unconfirmed."
+ },
+ "Venni Group": {
+  "notes_append": "COURT: «Վենի Գրուպ» ՍՊԸ only in a lease-deposit dispute with «Մայնդբոքս ԷյԷմ» (2023-2026). «Մեծն Էրիկ» ՍՊԸ (construction.am-named developer of Antarayin): old 2009 bankruptcy petition by liquidating Shirakinvestbank, procurement disputes with the Urban Development Committee 2022/2025."
+ },
+ "V&B Construction": {
+  "notes_append": "COURT: bankruptcy petition ՍնԴ/2394/04/23 against «Վի Ընդ Բի Քոնսթրաքշն» ՍՊԸ by individual Ararat Vardanyan (2023) - confirms registered name «Վի Ընդ Բի Քոնսթրաքշն».",
+  "legal_entities": [
+   {
+    "name_hy": "«Վի Ընդ Բի Քոնսթրաքշն» ՍՊԸ",
+    "name_en": "V and B Construction LLC",
+    "tax_id": null,
+    "form": "ՍՊԸ",
+    "registered_year": null,
+    "source_url": "https://datalex.am/?app=AppCaseSearch"
+   }
+  ]
+ },
+ "Renovation Project Management Company (sales: RED Invest Group)": {
+  "confidence": "medium",
+  "legal_entities": [
+   {
+    "name_hy": "«Ռենովեյշն Փրոջեքթ Մենեջմենթ Քամփնի» ՍՊԸ",
+    "name_en": "Renovation Project Management Company LLC",
+    "tax_id": null,
+    "form": "ՍՊԸ",
+    "registered_year": null,
+    "source_url": "https://datalex.am/?app=AppCaseSearch"
+   },
+   {
+    "name_hy": "«ՌԷԴ Ինվեսթ Գրուպ» ՍՊԸ",
+    "name_en": "RED Invest Group LLC (sales agent)",
+    "tax_id": null,
+    "form": "ՍՊԸ",
+    "registered_year": null,
+    "source_url": "https://redinvest.am"
+   }
+  ],
+  "notes_append": "Registered spelling confirmed from datalex: «ՌԵՆՈՎԵՅՇՆ ՓՐՈՋԵՔԹ ՄԵՆԵՋՄԵՆԹ ՔԱՄՓՆԻ» ՍՊԸ (co-claimant in developers' 2023 appeal ՎԴ/8283/05/23). No other cases."
+ },
+ "MAGAS  (EE)": {
+  "notes_append": "COURT: «ՄԱԳԱՍ» ՍՊԸ - 5 individual suits 2024-2026 (penalty/money recovery, one group claim ~7.2M AMD) plus «Նոր Զովք» ՍՊԸ seeking to void a 2025 contract; entity link to the Evoca-listed developer is by name only."
+ },
+ "SAF CAPITAL  (Energy Efficent)": {
+  "notes_append": "COURT: 5 individual suits 2024-2026 against «ՍԱՖ ԿԱՊԻՏԱԼ» ՍՊԸ (money recovery ~8-10M AMD each, performance of contract obligations) - buyer-type claims for a small developer."
+ },
+ "Address": {
+  "notes_append": "COURT: «ԱԴԴՐԵՍՍ» ՍՊԸ - 5 individual money-recovery suits 2022-2025 (3 by the same buyer in 2025, 6.4M AMD), supplier suit, Veolia payment order; admin case to lift cadastre restriction at Davit Anhaght 17."
+ },
+ "Spitak Tnak": {
+  "notes_append": "COURT: mostly commercial/insurer/utility claims 2009-2021; as claimant in 3 bankruptcy petitions vs «Կապիտալ Գելլա» (2013-2015); 2022/2024 challenges to labour-inspectorate acts. Only one individual case (2017, lifting arrest on an apartment). Clean for its size."
+ },
+ "Elitar Shin": {
+  "notes_append": "COURT: 3 commercial money-recovery suits 2021-2023 (suppliers/standards body); no buyer suits."
+ },
+ "GTB Holdings": {
+  "notes_append": "COURT: GTB Tower (ex «Յունիոն-Սերվիս») challenged Ministry of Culture over monument status of Komitas 53 market building (2023-2024); GTB Holdings sued 'Zhoghovurd' newspaper (2025, defamation-type) and GTB Development + an individual sued journalist Mesrop Manukyan and news sites (2026)."
+ },
+ "HAEKSHIN Construction (ANPP Construction)": {
+  "notes_append": "COURT: mainly claimant in commercial/government disputes; 2026 suit by «ԴԱՎ ԿԱՊԻՏԱԼ ՍՏՐՈՅ» against it. No buyer suits."
+ },
+ "Bars Real Estate Agency": {
+  "notes_append": "COURT: generic «Բարս» ՍՊԸ hits (tiny payment orders 2012-2013, 2023 tax appeal) - not verified as the same agency."
+ },
+ "Property Development Company": {
+  "notes_append": "COURT: 5 cases 2013-2017 (MLL Industries contract disputes, condominium, one individual). Nothing since 2021."
+ }
+}

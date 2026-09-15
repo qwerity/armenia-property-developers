@@ -1,0 +1,704 @@
+[
+ {
+  "developer": "Capital Build",
+  "role": "developer",
+  "legal_entities": [
+   {
+    "name_hy": "«Կապիտալ Բիլդ» ՍՊԸ",
+    "name_en": "Capital Build LLC",
+    "tax_id": null,
+    "form": "ՍՊԸ",
+    "registered_year": 2018,
+    "source_url": "https://ar-go.am/project/arshakunyac-residence"
+   },
+   {
+    "name_hy": "«Փիրումյան Շին» ՓԲԸ",
+    "name_en": "Pirumyan Shin CJSC (Blue Sky Residence project company)",
+    "tax_id": null,
+    "form": "ՓԲԸ",
+    "registered_year": null,
+    "source_url": "https://ar-go.am/project/blue-sky-residence"
+   },
+   {
+    "name_hy": "«Գասպարյան և Որդիներ» ՓԲԸ",
+    "name_en": "Gasparyan and Sons CJSC (Avenue 22 project company)",
+    "tax_id": null,
+    "form": "ՓԲԸ",
+    "registered_year": null,
+    "source_url": "https://ar-go.am/project/avenue-22-bnakeli-hamalir"
+   }
+  ],
+  "founded_year": 2018,
+  "datalex_names": [
+   "Կապիտալ Բիլդ",
+   "Փիրումյան Շին",
+   "Գասպարյան և Որդիներ",
+   "Էլիսոն"
+  ],
+  "tax_id_for_search": null,
+  "news_issues": [],
+  "positives": [
+   {
+    "title": "Spyur profile: founded 2018, 16-50 employees, director Arman Gundakchyan",
+    "url": "https://www.spyur.am/en/companies/capital-build-real-estate-development-company/46488/",
+    "summary": "Established developer with ~16 listed projects (10 finished) in Yerevan and Tsaghkadzor; founders per company site Eduard Gasparyan, Artur Kerobyan, Vahan Avagyan."
+   },
+   {
+    "title": "Bank-financed projects: Ameriabank (Arshakunyats), Evocabank (Blue Sky), Unibank (Avenue 22)",
+    "url": "https://ar-go.am/project/arshakunyac-residence",
+    "summary": "Arshakunyats Residence: 20,201 m2 plot, 3 blocks, 2025-2030; Blue Sky: 18 floors/266 flats, 2024-2027; Avenue 22 (Dro 22): 4 blocks, 2022-2027. Contractor on all three «Շին Վեկտոր» ՍՊԸ."
+   }
+  ],
+  "confidence": "medium",
+  "notes": "Main brand entity «ԿԱՊԻՏԱԼ ԲԻԼԴ» ՍՊԸ (ar-go.am, staff.am); Spyur: founded 2018, 16-50 staff, director Arman Gundakchyan, Hr. Kochari 16/6. Projects use separate project companies: «ՓԻՐՈՒՄՅԱՆ ՇԻՆ» ՓԲԸ (Blue Sky, Pirumyanner 7/6) and «ԳԱՍՊԱՐՅԱՆ ԵՎ ՈՐԴԻՆԵՐ» ՓԲԸ (Avenue 22; name matches co-founder Eduard Gasparyan). Capital Build also acts as contractor for «ՄԱԳՆՈԼԻԱ ԿՈՄՖՈՐՏ» ՍՊԸ (Zvover Ekvo, ar-go.am). Contact email elisonltd20@gmail.com hints at a related entity possibly 'Էլիսոն' (unverified). Do not confuse with «Բիլդինգ Կապիտալ» ՍՊԸ. Only 5 Armenian/Russian web searches done before search budget ran out; no negative news found in them."
+ },
+ {
+  "developer": "Art Company (ArtCompany )",
+  "role": "developer",
+  "legal_entities": [
+   {
+    "name_hy": "«Արտքոմփանի» ՍՊԸ",
+    "name_en": "ArtCompany LLC",
+    "tax_id": "00117212",
+    "form": "ՍՊԸ",
+    "registered_year": 2012,
+    "source_url": "https://ar-go.am/project/antar-bnakeli-hamalir"
+   },
+   {
+    "name_hy": "«ԱԿՆ ՔՈՆՍԹՐԱՔՇՆ» ՍՊԸ",
+    "name_en": "AKN Construction LLC",
+    "tax_id": null,
+    "form": "ՍՊԸ",
+    "registered_year": null,
+    "source_url": "https://artco.am/"
+   }
+  ],
+  "founded_year": 2012,
+  "datalex_names": [
+   "Արտքոմփանի",
+   "Արտ Քոմփանի",
+   "ԱԿՆ Քոնսթրաքշն"
+  ],
+  "tax_id_for_search": "00117212",
+  "news_issues": [],
+  "positives": [
+   {
+    "title": "Listed among large/medium entities (audit-obligated) by RA Ministry of Finance",
+    "url": "https://www.minfin.am/website/images/website/List.pdf",
+    "summary": "«ԱՐՏՔՈՄՓԱՆԻ» ՀՎՀՀ 00117212 in MinFin list of large/medium organizations; company site publishes audited 2024 financial statements."
+   },
+   {
+    "title": "Company site: founded 2012, founders Hirant Kirkor Kurtyan and Vahe Petrosyan, 5 completed projects",
+    "url": "https://artco.am/",
+    "summary": "Monolithic residential projects in Yerevan (Koghbatsi, Mamikonyants, Ulnetsi, Ani district) plus Dilijan/Sose hotels; office Proshyan 2/1."
+   },
+   {
+    "title": "Antar residential complex (Aghbyur Serob 44-48) financed by Ardshinbank",
+    "url": "https://ar-go.am/project/antar-bnakeli-hamalir",
+    "summary": "Developer «ԱՐՏՔՈՄՓԱՆԻ» ՍՊԸ, contractor «ՄԼԼ ԻՆԴԱՍԹՐԻԱԼ» ՍՊԸ, bank Ardshinbank."
+   }
+  ],
+  "confidence": "medium",
+  "notes": "Legal name/year from artco.am 'About' ('Արտքոմփանի' ՍՊԸ founded 2012). Tax ID 00117212 from MinFin list match on name «ԱՐՏՔՈՄՓԱՆԻ» (name match only, not cross-checked with address). A search-engine summary claimed 06955896 but it was not found in any page - ignore. «ԱԿՆ ՔՈՆՍԹՐԱՔՇՆ» ՍՊԸ appears in artco.am documents (acceptance act) - likely contractor/related entity. No negative news found."
+ },
+ {
+  "developer": "Nut Construction",
+  "role": "developer",
+  "legal_entities": [
+   {
+    "name_hy": "«Նաթ Քոնսթրաքշն» ՍՊԸ",
+    "name_en": "Nut Construction LLC",
+    "tax_id": null,
+    "form": "ՍՊԸ",
+    "registered_year": null,
+    "source_url": "https://www.spyur.am/en/companies/nut-construction/48681/"
+   }
+  ],
+  "founded_year": 2021,
+  "datalex_names": [
+   "Նաթ Քոնսթրաքշն",
+   "Նաթ Կոնստրուկցիա"
+  ],
+  "tax_id_for_search": null,
+  "news_issues": [],
+  "positives": [
+   {
+    "title": "Completed townhouse projects in Avan-Arinj (Nut House, White Nut, Red Nut)",
+    "url": "https://townhouse.am/en.html",
+    "summary": "Townhouse/mansion developer active since 2021; all 4 listed projects finished."
+   }
+  ],
+  "confidence": "medium",
+  "notes": "Spyur lists 'NUT CONSTRUCTION' LLC, office Armenakyan 2 (Synergy BC), Yerevan. Armenian spelling «Նաթ Քոնսթրաքշն» from townhouse.am. Founded year 2021 per company marketing ('since 2021'), not registry. No tax ID or negative news found."
+ },
+ {
+  "developer": "Venni Group",
+  "role": "unknown",
+  "legal_entities": [
+   {
+    "name_hy": "«Վեննի Գրուպ» ՍՊԸ (unverified)",
+    "name_en": "Venni Group LLC",
+    "tax_id": null,
+    "form": "ՍՊԸ",
+    "registered_year": null,
+    "source_url": "https://karucapatoxic.am/en/90"
+   },
+   {
+    "name_hy": "«Մեծն Էրիկ» շինարարական կազմակերպություն (Brawerk)",
+    "name_en": "Metsn Erik Construction Organization (Brawerk)",
+    "tax_id": null,
+    "form": "",
+    "registered_year": null,
+    "source_url": "https://www.construction.am/apartments-in-new-developments/arabkir-riga-house/"
+   }
+  ],
+  "founded_year": null,
+  "datalex_names": [
+   "Վեննի Գրուպ",
+   "Վենի Գրուպ",
+   "Մեծն Էրիկ"
+  ],
+  "tax_id_for_search": null,
+  "news_issues": [],
+  "positives": [],
+  "confidence": "low",
+  "notes": "Armenian name not found; 'Վեննի Գրուպ' is a transliteration. karucapatoxic.am/novostroiki-yerevan attribute Antarayin (Riga 126/8), Mamikonyants 45/1 (sold out, 14 floors) and Khaghagh Doni 2/2 to Venni Group, but construction.am lists Antarayin Residential Complex developer as 'Brawerk (Metsn Erik Construction Organization)' - Venni may be the sales/marketing brand. Spyur 'VENI GROUP' (director Nikolay Khachaturov, Pushkin 42) is likely a different company. vennigroup.am did not respond. No news found."
+ },
+ {
+  "developer": "Ar Go",
+  "role": "sales agent",
+  "legal_entities": [
+   {
+    "name_hy": "«Ար-Գո Ռիելթի» (անշարժ գույքի գործակալություն)",
+    "name_en": "AR-GO Realty (ARGO Real Estate)",
+    "tax_id": null,
+    "form": "",
+    "registered_year": 2009,
+    "source_url": "https://www.spyur.am/en/companies/ar-go-realty-real-estate-agency/26089"
+   }
+  ],
+  "founded_year": 2009,
+  "datalex_names": [
+   "Ար-Գո Ռիելթի",
+   "Արգո Ռիելթի",
+   "Ար Գո"
+  ],
+  "tax_id_for_search": null,
+  "news_issues": [],
+  "positives": [
+   {
+    "title": "Established real-estate agency (since 2009) selling many Yerevan new builds",
+    "url": "https://www.spyur.am/en/companies/ar-go-realty-real-estate-agency/26089",
+    "summary": "Founder Araik H. Gojabashyan; Komitas 19/1; same phone +374 55 200707 as the listing. Seller of DRSOOM housing estate and dozens of projects on ar-go.am."
+   }
+  ],
+  "confidence": "medium",
+  "notes": "'Ar Go' is not a developer: ar-go.am is ARGO Real Estate, a sales agency. The three projects (Aghbyur Serob 18, Atlantik Plaza at S. Gevorgyan 4 Davtashen, Kechi Haus Tsaghkadzor) are all sold; their pages do not name the developer - actual developer LLCs unidentified. Legal form of the agency not shown on Spyur. WebSearch budget exhausted at this point, so no news search was possible for this and later developers beyond direct site/directory fetches."
+ },
+ {
+  "developer": "EcoPanel Group",
+  "role": "developer",
+  "legal_entities": [
+   {
+    "name_hy": "«ԷկոՊանել Գրուպ» ՍՊԸ",
+    "name_en": "EcoPanel Group LLC",
+    "tax_id": null,
+    "form": "ՍՊԸ",
+    "registered_year": 2008,
+    "source_url": "https://www.construction.am/arm/companies/ecopanel-group-llc/"
+   }
+  ],
+  "founded_year": 2008,
+  "datalex_names": [
+   "ԷկոՊանել Գրուպ",
+   "Էկո Պանել Գրուպ",
+   "Էկոպանել Գրուպ"
+  ],
+  "tax_id_for_search": null,
+  "news_issues": [],
+  "positives": [
+   {
+    "title": "Completed Sirogh Srter district (Dzoraghbyur, 2017) and Bagrevand complex (Nor Nork, 2018)",
+    "url": "https://www.construction.am/apartments-in-new-developments/sirogh-srter-residential-district/",
+    "summary": "construction.am profile: founded 2008, Tevosyan 16/7 Yerevan; civil/commercial, modular/prefab construction and general contracting."
+   }
+  ],
+  "confidence": "low",
+  "notes": "Armenian brand spelling 'ԷկոՊանել Գրուպ' from construction.am; ՍՊԸ form inferred from the construction.am URL slug 'ecopanel-group-llc' (not registry-verified). Listing contact email is @redinvest.am, i.e. RED Invest Group handles sales. Not found on Spyur. No news search possible (search budget exhausted)."
+ },
+ {
+  "developer": "Muar Group",
+  "role": "developer",
+  "legal_entities": [
+   {
+    "name_hy": "«Մուար Գրուպ» ՍՊԸ (unverified transliteration)",
+    "name_en": "Muar Group",
+    "tax_id": null,
+    "form": "",
+    "registered_year": null,
+    "source_url": "https://muargroup.am/"
+   }
+  ],
+  "founded_year": null,
+  "datalex_names": [
+   "Մուար Գրուպ",
+   "Մուառ Գրուպ"
+  ],
+  "tax_id_for_search": null,
+  "news_issues": [],
+  "positives": [],
+  "confidence": "low",
+  "notes": "Small regional builder in Getapnya/Ararat (one finished private house, one 4-storey 40-unit building starting Aug 2026). muargroup.am is a JS SPA with no legal details in static HTML; not found on Spyur ('muar' search empty). Contact is a gmail address. Armenian name is a transliteration only. No news search possible (search budget exhausted)."
+ },
+ {
+  "developer": "Total Shin  (Leningradyan Residence)",
+  "role": "developer",
+  "legal_entities": [
+   {
+    "name_hy": "«Տոտալ Շին» ՍՊԸ",
+    "name_en": "Total Shin LLC",
+    "tax_id": null,
+    "form": "ՍՊԸ",
+    "registered_year": 2023,
+    "source_url": "https://leningradyan.am/about-us/"
+   },
+   {
+    "name_hy": "«Նաշ Գրուպ» ՍՊԸ",
+    "name_en": "Nash Group LLC",
+    "tax_id": null,
+    "form": "ՍՊԸ",
+    "registered_year": null,
+    "source_url": "https://leningradyan.am/"
+   }
+  ],
+  "founded_year": 2023,
+  "datalex_names": [
+   "Տոտալ Շին",
+   "Նաշ Գրուպ"
+  ],
+  "tax_id_for_search": null,
+  "news_issues": [],
+  "positives": [],
+  "confidence": "high",
+  "notes": "leningradyan.am/about-us: «Տոտալ Շին» ՍՊԸ founded 16.12.2023; footer '@2024 TOTAL SHIN LLC'. Leningradyan 19/12 (Noy district), sales office Tpagrichneri 8. Young company with a single in-progress project. The same site lists completed/ongoing buildings at Manuk Abeghyan 14, 17 and 19/1 under «Նաշ Գրուպ» ՍՊԸ (apparently affiliated group company, relationship not stated). Not found on Spyur. No news search possible (search budget exhausted)."
+ },
+ {
+  "developer": "Jacobs Shen LLC",
+  "role": "developer",
+  "legal_entities": [
+   {
+    "name_hy": "«Ջակոբս Շեն» ՍՊԸ",
+    "name_en": "Jacobs Shen LLC",
+    "tax_id": null,
+    "form": "ՍՊԸ",
+    "registered_year": null,
+    "source_url": "https://www.spyur.am/am/companies/sophene-club-house/59149"
+   }
+  ],
+  "founded_year": null,
+  "datalex_names": [
+   "Ջակոբս Շեն",
+   "Ջեյքոբս Շեն",
+   "Ջակոբս Շին"
+  ],
+  "tax_id_for_search": null,
+  "news_issues": [],
+  "positives": [
+   {
+    "title": "Sophene Club House: named partners (contractor Spitak Tnak LLC, engineering Consel LLC)",
+    "url": "https://sophene.am/",
+    "summary": "Premium club house at Aghbyur Serob 26, Arabkir; developer Jacobs Shen LLC, director Seyran Hakobyan (Spyur)."
+   }
+  ],
+  "confidence": "high",
+  "notes": "Spyur (Armenian) gives «ՋԱԿՈԲՍ ՇԵՆ» ՍՊԸ, director Սեյրան Հակոբյան. Single-project SPV for Sophene Club House. Contractor «Սպիտակ Տնակ» ՍՊԸ (Spitak Tnak LLC). sophene.am footer mentions 'Callegaribuilders'. No news search possible (search budget exhausted)."
+ },
+ {
+  "developer": "Capital Plus",
+  "role": "developer",
+  "legal_entities": [
+   {
+    "name_hy": "«Կապիտալ Պլյուս» ՍՊԸ",
+    "name_en": "Capital Plus LLC",
+    "tax_id": null,
+    "form": "ՍՊԸ",
+    "registered_year": 2020,
+    "source_url": "https://www.spyur.am/am/companies/liberty-one-residential-complex/57052"
+   }
+  ],
+  "founded_year": 2020,
+  "datalex_names": [
+   "Կապիտալ Պլյուս",
+   "Կապիտալ Պլուս"
+  ],
+  "tax_id_for_search": null,
+  "news_issues": [],
+  "positives": [],
+  "confidence": "high",
+  "notes": "Spyur: «ԼԻԲԵՐԹԻ ՈՒԱՆ» residential complex («ԿԱՊԻՏԱԼ ՊԼՅՈՒՍ» ՍՊԸ), Azatutyan Ave 1/43, Arabkir. construction.am: Capital Plus LLC since 2020, contact Tigran Gyurjyan. Single in-progress project (Liberty One). Year 2020 from construction.am ('Since 2020'), not registry. No news search possible (search budget exhausted)."
+ },
+ {
+  "developer": "Baghramyan Building",
+  "role": "developer",
+  "legal_entities": [
+   {
+    "name_hy": "«Բաղրամյան Բիլդինգ» ՍՊԸ",
+    "name_en": "Baghramyan Building LLC",
+    "tax_id": null,
+    "form": "ՍՊԸ",
+    "registered_year": null,
+    "source_url": "https://www.spyur.am/am/companies/baghramyan-building/57870"
+   }
+  ],
+  "founded_year": null,
+  "datalex_names": [
+   "Բաղրամյան Բիլդինգ"
+  ],
+  "tax_id_for_search": null,
+  "news_issues": [],
+  "positives": [],
+  "confidence": "high",
+  "notes": "Spyur: «ԲԱՂՐԱՄՅԱՆ ԲԻԼԴԻՆԳ» ՍՊԸ, office Ler Kamsar 30/3; building under construction at Marshal Baghramyan Ave 37 (Baghramyan Residence, just started). Project SPV; no founding year or owners found. Do not confuse with «ԲԱՂՐԱՄՅԱՆՇԻՆ» ՍՊԸ (contractor on Gahe) or «ԲԱՂՐԱՄՅԱՆ» (MinFin list). No news search possible (search budget exhausted)."
+ },
+ {
+  "developer": "Nest House",
+  "role": "developer",
+  "legal_entities": [
+   {
+    "name_hy": "«Նեսթ Հաուս»",
+    "name_en": "Nest House",
+    "tax_id": null,
+    "form": "",
+    "registered_year": 2021,
+    "source_url": "https://www.construction.am/companies/nest-house/"
+   }
+  ],
+  "founded_year": 2021,
+  "datalex_names": [
+   "Նեսթ Հաուս",
+   "Նեստ Հաուս"
+  ],
+  "tax_id_for_search": null,
+  "news_issues": [],
+  "positives": [
+   {
+    "title": "Completed Nest House individual-housing project in Mrgashen (Mar-Sep 2022)",
+    "url": "https://www.construction.am/apartments-in-new-developments/nest-house/",
+    "summary": "2,500 m2 individual housing, completed 2022."
+   }
+  ],
+  "confidence": "low",
+  "notes": "construction.am: Nest House, since 2021, Avan 4th Duryan district 4, Yerevan; one completed project. Legal form and Armenian registered name not found (not on Spyur); Armenian spelling Նեսթ Հաուս from construction.am (arm). Contact via gmail. No news search possible (search budget exhausted)."
+ },
+ {
+  "developer": "Armat Realty / SaGa-Shin (Americana Armenia)",
+  "role": "developer",
+  "legal_entities": [
+   {
+    "name_hy": "«Սագա Շին» ՍՊԸ",
+    "name_en": "SaGa-Shin LLC",
+    "tax_id": null,
+    "form": "ՍՊԸ",
+    "registered_year": null,
+    "source_url": "https://www.spyur.am/am/companies/saga-shin/57923"
+   },
+   {
+    "name_hy": "«Արմատ Ռիելթի»",
+    "name_en": "Armat Realty (ARMAT LLC)",
+    "tax_id": null,
+    "form": "",
+    "registered_year": null,
+    "source_url": "https://www.spyur.am/am/companies/armat-realty/53124"
+   }
+  ],
+  "founded_year": null,
+  "datalex_names": [
+   "Սագա Շին",
+   "Սագա-Շին",
+   "Արմատ Ռիելթի",
+   "Արմատ"
+  ],
+  "tax_id_for_search": null,
+  "news_issues": [],
+  "positives": [],
+  "confidence": "medium",
+  "notes": "Americana Armenia gated community, Proshyan village (Nairi community, Kotayk; Spyur address G. Chaushi 140). Builder SaGa-Shin LLC (director Khachatur Galstyan per project listing; Spyur 'SAGA SHIN' - info being verified, form not shown); developer/investor Tigran Sahakyan (NY); broker Armat Realty / ARMAT LLC (agent Galust Avagyan, Shinararneri 28/2, Ajapnyak) - sales agent role. ՍՊԸ form for SaGa-Shin from project description ('SaGa-Shin LLC'). No news search possible (search budget exhausted)."
+ },
+ {
+  "developer": "Amikson Sapphire (sales: RED Invest Group)",
+  "role": "developer",
+  "legal_entities": [
+   {
+    "name_hy": "«Ամիկսոն Սապֆիր» ՍՊԸ",
+    "name_en": "Amikson Sapphire LLC",
+    "tax_id": null,
+    "form": "ՍՊԸ",
+    "registered_year": null,
+    "source_url": "https://redgroup.am/projects/bnakarankarucapatoxic-bosco-welltown"
+   },
+   {
+    "name_hy": "«ՌԷԴ Ինվեսթ Գրուպ» ՍՊԸ",
+    "name_en": "RED Invest Group LLC",
+    "tax_id": null,
+    "form": "ՍՊԸ",
+    "registered_year": null,
+    "source_url": "https://redgroup.am/projects/bnakarankarucapatoxic-bosco-welltown"
+   }
+  ],
+  "founded_year": null,
+  "datalex_names": [
+   "Ամիկսոն Սապֆիր",
+   "Ամիքսոն Սափֆայր",
+   "ՌԷԴ Ինվեսթ Գրուպ"
+  ],
+  "tax_id_for_search": null,
+  "news_issues": [],
+  "positives": [],
+  "confidence": "high",
+  "notes": "redgroup.am Bosco Welltown page: 'Կառուցապատող՝ «Ամիկսոն Սապֆիր» ՍՊԸ', designer «Ռեֆորմ» ՍՊԸ, construction start Sept 2026, planned completion Sept 2028; exclusive sales right «ՌԷԴ Ինվեսթ Գրուպ» ՍՊԸ (sales agent, second entity). Project in Nor Hachn (Kotayk); the same group markets 'Sapfir multifunctional complex' in Nor Hachn. Very early-stage (off-plan) project. Not found on Spyur. No news search possible (search budget exhausted)."
+ },
+ {
+  "developer": "Renovation Project Management Company (sales: RED Invest Group)",
+  "role": "developer",
+  "legal_entities": [
+   {
+    "name_hy": "«Ռենովացիա Փրոջեքթ Մենեջմենթ Քամփնի» (unverified transliteration)",
+    "name_en": "Renovation Project Management Company",
+    "tax_id": null,
+    "form": "",
+    "registered_year": null,
+    "source_url": "https://www.redinvest.am/en/developers/bnakarankarucapatoxic-Noragyugh"
+   },
+   {
+    "name_hy": "«ՌԷԴ Ինվեսթ Գրուպ» ՍՊԸ",
+    "name_en": "RED Invest Group LLC",
+    "tax_id": null,
+    "form": "ՍՊԸ",
+    "registered_year": null,
+    "source_url": "https://redgroup.am/projects/bnakarankarucapatoxic-bosco-welltown"
+   }
+  ],
+  "founded_year": null,
+  "datalex_names": [
+   "Ռենովացիա Փրոջեքթ Մենեջմենթ Քամփնի",
+   "Ռենովեյշն Փրոջեքթ Մենեջմենթ Քամփնի",
+   "Ռենովացիա"
+  ],
+  "tax_id_for_search": null,
+  "news_issues": [],
+  "positives": [],
+  "confidence": "low",
+  "notes": "Gardena gated residential district, Noragyugh 235/3 (6,500 m2 plot), completion 2026-12; developer name only in English from the redinvest.am listing (page is client-rendered; redgroup.am project page now redirects to home, possibly delisted). Armenian registered name not found - transliterations only; could be registered as 'Ռենովացիա' or 'Ռենովեյշն'. Sales via RED Invest Group. Noragyugh redevelopment areas are often subject to displacement/eminent-domain disputes - not verified for this project. No news search possible (search budget exhausted)."
+ },
+ {
+  "developer": "Property Development Company",
+  "role": "developer",
+  "legal_entities": [
+   {
+    "name_hy": "«Փրոփերթի Դիվելոփմենթ Քամփնի» ՓԲԸ",
+    "name_en": "Property Development Company CJSC",
+    "tax_id": null,
+    "form": "ՓԲԸ",
+    "registered_year": 2007,
+    "source_url": "https://uploads.strikinglycdn.com/files/834a1a00-f3f4-4ddf-aefe-136b47186de1/FS_Prodeco_2016_Arm.pdf?id=240720"
+   }
+  ],
+  "founded_year": 2007,
+  "datalex_names": [
+   "Փրոփերթի Դիվելոփմենթ Քամփնի",
+   "Փրոփերթի Դիվելոպմենթ Քամփնի"
+  ],
+  "tax_id_for_search": null,
+  "news_issues": [
+   {
+    "date": "2026-02-17",
+    "title": "Ultimate owner (as of 2016) Ruben Vardanyan sentenced in Baku to 20 years",
+    "url": "https://en.wikipedia.org/wiki/Ruben_Vardanyan_(businessman)",
+    "summary": "Per the company's audited 2016 FS, sole shareholder was Ameria Group (CY) Ltd, ultimately controlled by the RKVF family foundation of Ruben Vardanyan. Vardanyan was detained by Azerbaijan in Sept 2023 and sentenced 17 Feb 2026 (widely considered politically motivated). Not a construction/buyer issue; current ownership not re-verified."
+   }
+  ],
+  "positives": [
+   {
+    "title": "Project manager on Wings of Tatev ropeway, UWC Dilijan school and Ameriabank branches",
+    "url": "https://www.prodeco.am/projects",
+    "summary": "Established 10.12.2007; publishes audited financial statements (2013-2016); director Artashes Kazakhetsyan (Spyur), Deghatan 6, Yerevan. Launched 'Kamar' multifunctional business complex."
+   }
+  ],
+  "confidence": "high",
+  "notes": "Legal name/form/founding date from audited FS 2016 (PDF linked on prodeco.am). Mainly project-management/consulting firm; Kamar project status unknown and site footer stale (©2007-2021). Tax ID not in the PDFs grep (not found). Do not confuse with 'Green Property Development' CJSC (Azatutyun complex)."
+ },
+ {
+  "developer": "ARSHAKUNYATS RESIDENCE",
+  "role": "developer",
+  "legal_entities": [
+   {
+    "name_hy": "«Կապիտալ Բիլդ» ՍՊԸ",
+    "name_en": "Capital Build LLC",
+    "tax_id": null,
+    "form": "ՍՊԸ",
+    "registered_year": 2018,
+    "source_url": "https://ar-go.am/project/arshakunyac-residence"
+   }
+  ],
+  "founded_year": 2018,
+  "datalex_names": [
+   "Կապիտալ Բիլդ"
+  ],
+  "tax_id_for_search": null,
+  "news_issues": [],
+  "positives": [
+   {
+    "title": "Financing bank Ameriabank; contractor «Շինվեկտոր» ՍՊԸ",
+    "url": "https://ar-go.am/project/arshakunyac-residence",
+    "summary": "Arshakunyats Residence (Sevan St 12 / Arshakunyats Ave, Kentron): 20,201 m2 plot, 8,161 m2 green area, 3 blocks, construction 2025-2030."
+   }
+  ],
+  "confidence": "high",
+  "notes": "Not a separate developer: this is a Capital Build project listed on myhome.am under the project name (contact capital.build.sales@gmail.com, +374 12 610109, website capitalbuild.am). ar-go.am names the developer «ԿԱՊԻՏԱԼ ԲԻԼԴ» ՍՊԸ. Should be merged with 'Capital Build'. Long 5-year build horizon (to 2030)."
+ },
+ {
+  "developer": "Goght urban valley",
+  "role": "developer",
+  "legal_entities": [
+   {
+    "name_hy": "«Գողթ Ուրբան Վելլի»",
+    "name_en": "Goght Urban Valley",
+    "tax_id": null,
+    "form": "",
+    "registered_year": null,
+    "source_url": "https://www.spyur.am/am/companies/goght-urban-valley/53200"
+   }
+  ],
+  "founded_year": null,
+  "datalex_names": [
+   "Գողթ Ուրբան Վելլի",
+   "Գողթ Ուրբան Վալի",
+   "Գողթ"
+  ],
+  "tax_id_for_search": null,
+  "news_issues": [],
+  "positives": [],
+  "confidence": "medium",
+  "notes": "Spyur: «ԳՈՂԹ ՈՒՐԲԱՆ ՎԵԼԼԻ» (keyword variant «ԳՈՂԹ ՈՒՐԲԱՆ ՎԱԼԻ»), director Movses Dzavaryan, +374 33 753377; legal form not shown. Large mixed-use 'urban valley' in Goght village (Garni area, Kotayk) with hotel, amphitheater, schools, residential blocks; site since 2023. Ambitious multi-phase project, in progress; no completion data verified. No news search possible (search budget exhausted)."
+ },
+ {
+  "developer": "Gahe",
+  "role": "developer",
+  "legal_entities": [
+   {
+    "name_hy": "«ԳԱՀԷ» ՍՊԸ",
+    "name_en": "Gahe LLC",
+    "tax_id": null,
+    "form": "ՍՊԸ",
+    "registered_year": null,
+    "source_url": "https://ar-go.am/project/gahe"
+   }
+  ],
+  "founded_year": null,
+  "datalex_names": [
+   "Գահէ",
+   "Գահե"
+  ],
+  "tax_id_for_search": null,
+  "news_issues": [],
+  "positives": [
+   {
+    "title": "Completion act (ավարտական ակտ) signed for GAHE residential complex",
+    "url": "https://ar-go.am/project/gahe",
+    "summary": "Babajanyan St, Avan, Yerevan; contractor «ԲԱՂՐԱՄՅԱՆՇԻՆ» ՍՊԸ, bank Fast Bank; 2,200 m2 plot; sold out; ar-go.am banner announces completion act signed."
+   }
+  ],
+  "confidence": "high",
+  "notes": "Single-project SPV named after the project. Sold via ARGO Real Estate (ar-go.am). Not found on Spyur. No news search possible (search budget exhausted)."
+ },
+ {
+  "developer": "Am Konstrakshn",
+  "role": "developer",
+  "legal_entities": [
+   {
+    "name_hy": "«ԱՄ ՔՈՆՍԹՐԱՔՇՆ» ՍՊԸ",
+    "name_en": "AM Construction LLC",
+    "tax_id": null,
+    "form": "ՍՊԸ",
+    "registered_year": null,
+    "source_url": "https://www.acba.am/hy/individuals/loans/mortgage/constructors#10505"
+   }
+  ],
+  "founded_year": null,
+  "datalex_names": [
+   "Ամ Քոնսթրաքշն",
+   "ԱՄ Քոնսթրաքշն",
+   "Էյ Էմ Քոնսթրաքշն"
+  ],
+  "tax_id_for_search": null,
+  "news_issues": [],
+  "positives": [
+   {
+    "title": "ACBA Bank mortgage partner project: Argishti Suites & Residence",
+    "url": "https://www.acba.am/hy/individuals/loans/mortgage/constructors#10505",
+    "summary": "Argishti St 11/15, Kentron, Yerevan; listed by Acba Bank as developer-partner for mortgages (updated 2026-05)."
+   }
+  ],
+  "confidence": "medium",
+  "notes": "Acba lists 'Կառուցապատող - «ԱՄ ՔՈՆՍԹՐԱՔՇՆ» ՍՊԸ', contacts sevak.okhanyan@gmail.com and armen.hakobyan79@mail.ru. Not to be assumed identical to «ԱՄ ՔԸՆՍԹՐԱՔԹ» ՍՊԸ (developer of Crystal Building, K. Kirkoryan 23/15, per ar-go.am) - different spelling, relationship unverified. Just-started project. No news search possible (search budget exhausted)."
+ },
+ {
+  "developer": "Avenue Group",
+  "role": "developer",
+  "legal_entities": [
+   {
+    "name_hy": "«Ավենյու Գրուպ» ՍՊԸ",
+    "name_en": "Avenue Group LLC",
+    "tax_id": null,
+    "form": "ՍՊԸ",
+    "registered_year": null,
+    "source_url": "https://www.evoca.am/hy/construction-companies"
+   }
+  ],
+  "founded_year": null,
+  "datalex_names": [
+   "Ավենյու Գրուպ",
+   "Էվենյու Գրուպ"
+  ],
+  "tax_id_for_search": null,
+  "news_issues": [],
+  "positives": [
+   {
+    "title": "Evocabank partner developer list",
+    "url": "https://www.evoca.am/en/construction-companies",
+    "summary": "Project at Zovuni 30th St 33/1, Nairi village, Kotayk; phones +374 98 778177 / 748177."
+   }
+  ],
+  "confidence": "medium",
+  "notes": "Evocabank (hy): '«Ավենյու Գրուպ» ՍՊԸ, Կառուցապատող՝ Ավենյու Գրուպ ՍՊԸ'. Project name/status not stated. Not on Spyur ('avenue group' search only returns Avenue Consulting Group, unrelated). Do not confuse with Capital Build's 'Avenue 22' project (developer «Գասպարյան և Որդիներ» ՓԲԸ). No news search possible (search budget exhausted)."
+ },
+ {
+  "developer": "MAGAS  (EE)",
+  "role": "developer",
+  "legal_entities": [
+   {
+    "name_hy": "«Մագաս» ՍՊԸ (ԷԱ)",
+    "name_en": "MAGAS LLC (EE)",
+    "tax_id": null,
+    "form": "ՍՊԸ",
+    "registered_year": null,
+    "source_url": "https://www.evoca.am/hy/construction-companies"
+   }
+  ],
+  "founded_year": null,
+  "datalex_names": [
+   "Մագաս"
+  ],
+  "tax_id_for_search": null,
+  "news_issues": [],
+  "positives": [
+   {
+    "title": "Evocabank partner developer list",
+    "url": "https://www.evoca.am/en/construction-companies",
+    "summary": "Address Gyurjyan St 11/5, Yerevan; phones +374 77 541215, +374 96 541212, +374 10 224345."
+   }
+  ],
+  "confidence": "low",
+  "notes": "Evocabank lists 'Մագաս ՍՊԸ (ԷԱ)' / 'MAGAS LLC (EE)' with no project details; meaning of the (ԷԱ/EE) suffix unclear. Spyur only has «ՄԱԳԱՍ ԻՆՎԵՍՏ» ՓԲԸ (Hyundai dealer in Arinj, director Armen Harutyunyan) - probably unrelated, not matched. No news search possible (search budget exhausted)."
+ }
+]

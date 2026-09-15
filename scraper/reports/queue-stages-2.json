@@ -1,0 +1,53 @@
+[
+ {
+  "id": "evocaam-1136",
+  "title": "ASSTROY",
+  "developer": "ASSTROY",
+  "address": "Armenia, Ararat region, Vedi, Artsakha str. 1",
+  "district": "Vedi",
+  "region": "Ararat",
+  "lat": 39.9149752,
+  "lng": 44.7261033,
+  "status_raw": "unknown",
+  "completion": null,
+  "floors": null,
+  "reason": "unknown stage",
+  "sources": [
+   "https://www.evoca.am/en/construction-companies#1-asstroy"
+  ]
+ },
+ {
+  "id": "evocaam-1155",
+  "title": "Konstro LLC",
+  "developer": "Konstro",
+  "address": "Mrgashen village, 1st street, 2nd lane 3, Nor Hachn community, Kotayk",
+  "district": "Mrgashen",
+  "region": "Kotayk",
+  "lat": 40.28472,
+  "lng": 44.544044,
+  "status_raw": "unknown",
+  "completion": null,
+  "floors": null,
+  "reason": "unknown stage",
+  "sources": [
+   "https://www.evoca.am/en/construction-companies#20-konstro-llc"
+  ]
+ },
+ {
+  "id": "evocaam-1167",
+  "title": "SHIN SERVICE GROUP LLC",
+  "developer": "SHIN SERVICE GROUP",
+  "address": "Kotayk Province, Abovyan, Arinj village, B district 4th street, 2nd alley 6/1",
+  "district": "Arinj",
+  "region": "Kotayk",
+  "lat": 40.370707,
+  "lng": 44.6884739,
+  "status_raw": "unknown",
+  "completion": null,
+  "floors": null,
+  "reason": "unknown stage",
+  "sources": [
+   "https://www.evoca.am/en/construction-companies#32-shin-service-group-llc"
+  ]
+ }
+]

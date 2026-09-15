@@ -1,0 +1,48 @@
+[
+ {
+  "id": "kp-202",
+  "title": "Arare Abovyan",
+  "address": "Hadrut District, 1st Street, 1st Lane, 2/1",
+  "lat": 40.28711,
+  "lng": 44.638696,
+  "district": "Abovyan",
+  "region": "Kotayk",
+  "geo_precision": "exact",
+  "why": [
+   "sources disagree by 356 m"
+  ],
+  "sources": [
+   "https://karucapatoxic.am/en/202",
+   "https://dignisi.am/en/projects/arare-abovyan-349",
+   "https://myhome.am/en/building/281"
+  ]
+ },
+ {
+  "id": "kp-135",
+  "title": "Monte Residential Complex",
+  "address": "23/18 Kirk Kerkorian Street",
+  "lat": 40.18922605555556,
+  "lng": 44.471822481481475,
+  "district": "Malatia-Sebastia",
+  "region": "Yerevan",
+  "geo_precision": "exact",
+  "why": [
+   "sources disagree by 424 m"
+  ],
+  "sources": [
+   "https://karucapatoxic.am/en/135",
+   "https://dignisi.am/en/projects/monte-residential-complex-257",
+   "https://navasardshinarar.am/en/monte-residential-complex",
+   "https://monteresidence.am/en",
+   "https://myhome.am/en/building/192",
+   "https://myhome.am/en/building/191",
+   "https://myhome.am/en/building/190",
+   "https://myhome.am/en/building/189",
+   "https://myhome.am/en/building/188",
+   "https://novostroiki-yerevan.com/en/p/kirk-kerkorian-street-23-18-2/",
+   "https://novostroiki-yerevan.com/en/p/kirk-kerkorian-street-23-18-3/",
+   "https://novostroiki-yerevan.com/en/p/kirk-kerkorian-street-23-18/",
+   "https://novostroiki-yerevan.com/en/p/monte-residential-complex/"
+  ]
+ }
+]

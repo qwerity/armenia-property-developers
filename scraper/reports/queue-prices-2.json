@@ -1,0 +1,543 @@
+[
+ {
+  "id": "kp-135",
+  "title": "Monte Residential Complex",
+  "developer": "Navasard Shinarar",
+  "district": "Malatia-Sebastia",
+  "current_usd_m2": 1569,
+  "current_amd_m2": 570000,
+  "usd_from": 107893,
+  "reasons": [
+   "source conflict"
+  ],
+  "observations": [
+   {
+    "source": "karucapatoxic.am",
+    "kind": "m2",
+    "usd": null,
+    "amd": 550000.0,
+    "raw": "550000 AMD/m²",
+    "usd_m2": 1514
+   },
+   {
+    "source": "karucapatoxic.am",
+    "kind": "implied",
+    "usd": null,
+    "amd": 653333.3333333334,
+    "raw": "apartment 39200000 AMD / 60 m²",
+    "usd_m2": 1798
+   },
+   {
+    "source": "dignisi.am",
+    "kind": "m2",
+    "usd": null,
+    "amd": 560000.0,
+    "raw": "from 560,000 ֏/m²",
+    "usd_m2": 1541
+   },
+   {
+    "source": "myhome.am",
+    "kind": "m2",
+    "usd": null,
+    "amd": 580000.0,
+    "raw": "from 580,000 AMD/m²; apartment from 49,358,000 AMD",
+    "usd_m2": 1596
+   },
+   {
+    "source": "myhome.am",
+    "kind": "implied",
+    "usd": null,
+    "amd": 760000.0,
+    "raw": "1-room apartment from 53,162,000.0 AMD / 69.95 m²",
+    "usd_m2": 2092
+   },
+   {
+    "source": "myhome.am",
+    "kind": "implied",
+    "usd": null,
+    "amd": 759996.9544693163,
+    "raw": "2-room apartment from 49,909,000.0 AMD / 65.67 m²",
+    "usd_m2": 2092
+   },
+   {
+    "source": "myhome.am",
+    "kind": "implied",
+    "usd": null,
+    "amd": 580000.0,
+    "raw": "3-room apartment from 49,358,000.0 AMD / 85.1 m²",
+    "usd_m2": 1596
+   },
+   {
+    "source": "myhome.am",
+    "kind": "implied",
+    "usd": null,
+    "amd": 590001.7939364947,
+    "raw": "4-room apartment from 98,666,000.0 AMD / 167.23 m²",
+    "usd_m2": 1624
+   },
+   {
+    "source": "myhome.am",
+    "kind": "m2",
+    "usd": null,
+    "amd": 570000.0,
+    "raw": "from 570,000 AMD/m²; apartment from 52,129,000 AMD",
+    "usd_m2": 1569
+   },
+   {
+    "source": "myhome.am",
+    "kind": "implied",
+    "usd": null,
+    "amd": 770000.0,
+    "raw": "2-room apartment from 52,129,000.0 AMD / 67.7 m²",
+    "usd_m2": 2119
+   },
+   {
+    "source": "myhome.am",
+    "kind": "implied",
+    "usd": null,
+    "amd": 614847.0464135021,
+    "raw": "3-room apartment from 69,945,000.0 AMD / 113.76 m²",
+    "usd_m2": 1692
+   },
+   {
+    "source": "myhome.am",
+    "kind": "m2",
+    "usd": null,
+    "amd": 600000.0,
+    "raw": "from 600,000 AMD/m²; apartment from 51,115,000 AMD",
+    "usd_m2": 1651
+   },
+   {
+    "source": "myhome.am",
+    "kind": "implied",
+    "usd": null,
+    "amd": 730005.7126535276,
+    "raw": "2-room apartment from 51,115,000.0 AMD / 70.02 m²",
+    "usd_m2": 2009
+   },
+   {
+    "source": "myhome.am",
+    "kind": "implied",
+    "usd": null,
+    "amd": 717082.1039780242,
+    "raw": "3-room apartment from 70,482,000.0 AMD / 98.29 m²",
+    "usd_m2": 1974
+   },
+   {
+    "source": "myhome.am",
+    "kind": "implied",
+    "usd": null,
+    "amd": 600000.0,
+    "raw": "4-room apartment from 80,556,000.0 AMD / 134.26 m²",
+    "usd_m2": 1651
+   },
+   {
+    "source": "myhome.am",
+    "kind": "m2",
+    "usd": null,
+    "amd": 570000.0,
+    "raw": "from 570,000 AMD/m²; apartment from 48,866,000 AMD",
+    "usd_m2": 1569
+   },
+   {
+    "source": "myhome.am",
+    "kind": "implied",
+    "usd": null,
+    "amd": 729997.0122497759,
+    "raw": "2-room apartment from 48,866,000.0 AMD / 66.94 m²",
+    "usd_m2": 2009
+   },
+   {
+    "source": "myhome.am",
+    "kind": "implied",
+    "usd": null,
+    "amd": 729996.1144929414,
+    "raw": "3-room apartment from 56,363,000.0 AMD / 77.21 m²",
+    "usd_m2": 2009
+   },
+   {
+    "source": "myhome.am",
+    "kind": "implied",
+    "usd": null,
+    "amd": 572955.6313993174,
+    "raw": "4-room apartment from 83,938,000.0 AMD / 146.5 m²",
+    "usd_m2": 1577
+   },
+   {
+    "source": "myhome.am",
+    "kind": "m2",
+    "usd": null,
+    "amd": 770000.0,
+    "raw": "from 770,000 AMD/m²; apartment from 43,821,000 AMD",
+    "usd_m2": 2119
+   },
+   {
+    "source": "myhome.am",
+    "kind": "implied",
+    "usd": null,
+    "amd": 770005.2714812863,
+    "raw": "2-room apartment from 43,821,000.0 AMD / 56.91 m²",
+    "usd_m2": 2119
+   },
+   {
+    "source": "novostroiki-yerevan.com",
+    "kind": "m2",
+    "usd": 1551.0,
+    "amd": null,
+    "raw": "$1 551/m²; from $115 829",
+    "usd_m2": 1551
+   },
+   {
+    "source": "novostroiki-yerevan.com",
+    "kind": "m2",
+    "usd": 1578.0,
+    "amd": null,
+    "raw": "$1 578/m²; from $103 627",
+    "usd_m2": 1578
+   },
+   {
+    "source": "novostroiki-yerevan.com",
+    "kind": "m2",
+    "usd": 1605.0,
+    "amd": null,
+    "raw": "$1 605/m²; from $112 382",
+    "usd_m2": 1605
+   },
+   {
+    "source": "novostroiki-yerevan.com",
+    "kind": "m2",
+    "usd": 1777.0,
+    "amd": null,
+    "raw": "$1 777/m²; from $106 620",
+    "usd_m2": 1777
+   }
+  ],
+  "source_urls": [
+   "https://karucapatoxic.am/en/135",
+   "https://dignisi.am/en/projects/monte-residential-complex-257",
+   "https://navasardshinarar.am/en/monte-residential-complex",
+   "https://monteresidence.am/en",
+   "https://myhome.am/en/building/192",
+   "https://myhome.am/en/building/191",
+   "https://myhome.am/en/building/190",
+   "https://myhome.am/en/building/189",
+   "https://myhome.am/en/building/188",
+   "https://novostroiki-yerevan.com/en/p/kirk-kerkorian-street-23-18-2/",
+   "https://novostroiki-yerevan.com/en/p/kirk-kerkorian-street-23-18-3/",
+   "https://novostroiki-yerevan.com/en/p/kirk-kerkorian-street-23-18/",
+   "https://novostroiki-yerevan.com/en/p/monte-residential-complex/"
+  ]
+ },
+ {
+  "id": "geoln-151",
+  "title": "Истейт Инвестмент энд Дивелопмент · УЛ. АРГИШТИ 48/8",
+  "developer": "Истейт Инвестмент энд Дивелопмент",
+  "district": "Kentron",
+  "current_usd_m2": 1600,
+  "current_amd_m2": 581000,
+  "usd_from": null,
+  "reasons": [
+   "38.8% vs local median"
+  ],
+  "observations": [
+   {
+    "source": "geoln.com",
+    "kind": "m2",
+    "usd": 1600.0,
+    "amd": null,
+    "raw": "Стоимость квадратного метра жилья в АРГИШТИ 48/8 составляет 1600$",
+    "usd_m2": 1600
+   }
+  ],
+  "source_urls": [
+   "https://geoln.com/ru/armenia/yerevan/argishti",
+   "https://1-sq.am/services/arghishti-48-8/"
+  ]
+ },
+ {
+  "id": "redinvestam-539",
+  "title": "Sapphire",
+  "developer": "Amikson Sapphire  (sales: RED Invest Group)",
+  "district": "Nor Hachn",
+  "current_usd_m2": 900,
+  "current_amd_m2": 327058,
+  "usd_from": 37625,
+  "reasons": [
+   "source conflict",
+   "low confidence"
+  ],
+  "observations": [
+   {
+    "source": "redinvest.am",
+    "kind": "m2",
+    "usd": null,
+    "amd": 327058.0,
+    "raw": "from 327,058 AMD/m2 (computed from listed units)",
+    "usd_m2": 900
+   },
+   {
+    "source": "redinvest.am",
+    "kind": "implied",
+    "usd": null,
+    "amd": 471379.3103448276,
+    "raw": "1-room apartment from 13,670,000 AMD / 29 m²",
+    "usd_m2": 1297
+   },
+   {
+    "source": "redinvest.am",
+    "kind": "implied",
+    "usd": null,
+    "amd": 463902.43902439025,
+    "raw": "2-room apartment from 19,020,000 AMD / 41 m²",
+    "usd_m2": 1277
+   },
+   {
+    "source": "redinvest.am",
+    "kind": "implied",
+    "usd": null,
+    "amd": 404363.63636363635,
+    "raw": "3-room apartment from 22,240,000 AMD / 55 m²",
+    "usd_m2": 1113
+   },
+   {
+    "source": "redgroup.am",
+    "kind": "m2",
+    "usd": null,
+    "amd": 445970.0,
+    "raw": "from 445,970 AMD/m² (computed from 8 listed units of 313)",
+    "usd_m2": 1227
+   },
+   {
+    "source": "redgroup.am",
+    "kind": "implied",
+    "usd": null,
+    "amd": 471379.3103448276,
+    "raw": "1-room apartment from 13,670,000 AMD / 29 m²",
+    "usd_m2": 1297
+   },
+   {
+    "source": "redgroup.am",
+    "kind": "implied",
+    "usd": null,
+    "amd": 463902.43902439025,
+    "raw": "2-room apartment from 19,020,000 AMD / 41 m²",
+    "usd_m2": 1277
+   },
+   {
+    "source": "redgroup.am",
+    "kind": "implied",
+    "usd": null,
+    "amd": 458181.8181818182,
+    "raw": "3-room apartment from 25,200,000 AMD / 55 m²",
+    "usd_m2": 1261
+   }
+  ],
+  "source_urls": [
+   "https://www.redinvest.am/en/developers/bnakarankarucapatoxic-sapfir",
+   "https://redgroup.am/projects/bnakarankarucapatoxic-sapfir"
+  ]
+ },
+ {
+  "id": "redinvestam-547",
+  "title": "The View Residential Building",
+  "developer": "Omega Plus (sales: RED Invest Group)",
+  "district": "Nor Nork",
+  "current_usd_m2": 1176,
+  "current_amd_m2": 427252,
+  "usd_from": 54299,
+  "reasons": [
+   "source conflict",
+   "low confidence"
+  ],
+  "observations": [
+   {
+    "source": "redinvest.am",
+    "kind": "m2",
+    "usd": null,
+    "amd": 427252.0,
+    "raw": "from 427,252 AMD/m2 (computed from listed units)",
+    "usd_m2": 1176
+   },
+   {
+    "source": "redinvest.am",
+    "kind": "implied",
+    "usd": null,
+    "amd": 458790.6976744186,
+    "raw": "2-room apartment from 19,728,000 AMD / 43 m²",
+    "usd_m2": 1263
+   },
+   {
+    "source": "redinvest.am",
+    "kind": "implied",
+    "usd": null,
+    "amd": 441818.1818181818,
+    "raw": "3-room apartment from 38,880,000 AMD / 88 m²",
+    "usd_m2": 1216
+   },
+   {
+    "source": "redgroup.am",
+    "kind": "m2",
+    "usd": null,
+    "amd": 530008.0,
+    "raw": "from 530,008 AMD/m² (computed from 2 listed units of 122)",
+    "usd_m2": 1459
+   },
+   {
+    "source": "redgroup.am",
+    "kind": "implied",
+    "usd": null,
+    "amd": 530007.7727272727,
+    "raw": "3-room apartment from 69,961,026 AMD / 132 m²",
+    "usd_m2": 1459
+   }
+  ],
+  "source_urls": [
+   "https://www.redinvest.am/en/developers/bnakarankarucapatoxic-theview",
+   "https://redgroup.am/projects/bnakarankarucapatoxic-theview"
+  ]
+ },
+ {
+  "id": "redinvestam-558",
+  "title": "Babajanyan 72 Residential Building",
+  "developer": "Narekaci House (sales: RED Invest Group)",
+  "district": "Avan",
+  "current_usd_m2": 1413,
+  "current_amd_m2": 513333,
+  "usd_from": 54772,
+  "reasons": [
+   "source conflict",
+   "low confidence"
+  ],
+  "observations": [
+   {
+    "source": "redinvest.am",
+    "kind": "m2",
+    "usd": null,
+    "amd": 513333.0,
+    "raw": "from 513,333 AMD/m2 (computed from listed units)",
+    "usd_m2": 1413
+   },
+   {
+    "source": "redinvest.am",
+    "kind": "implied",
+    "usd": null,
+    "amd": 640000.0,
+    "raw": "2-room apartment from 23,040,000 AMD / 36 m²",
+    "usd_m2": 1762
+   },
+   {
+    "source": "redinvest.am",
+    "kind": "implied",
+    "usd": null,
+    "amd": 523684.2105263158,
+    "raw": "3-room apartment from 19,900,000 AMD / 38 m²",
+    "usd_m2": 1441
+   },
+   {
+    "source": "redgroup.am",
+    "kind": "m2",
+    "usd": null,
+    "amd": 631486.0,
+    "raw": "from 631,486 AMD/m² (computed from 1 listed units of 30)",
+    "usd_m2": 1738
+   },
+   {
+    "source": "redgroup.am",
+    "kind": "implied",
+    "usd": null,
+    "amd": 631486.4864864865,
+    "raw": "3-room apartment from 46,730,000 AMD / 74 m²",
+    "usd_m2": 1738
+   }
+  ],
+  "source_urls": [
+   "https://www.redinvest.am/en/developers/bnakaran-karucapatoxic-babajanyan72",
+   "https://redgroup.am/projects/bnakaran-karucapatoxic-babajanyan72"
+  ]
+ },
+ {
+  "id": "redinvestam-567",
+  "title": "UNIT 23 Residential District",
+  "developer": "TM Mega Holding  (sales: RED Invest Group)",
+  "district": "Ajapnyak",
+  "current_usd_m2": 952,
+  "current_amd_m2": 345810,
+  "usd_from": 170372,
+  "reasons": [
+   "source conflict",
+   "low confidence",
+   "35.5% vs local median"
+  ],
+  "observations": [
+   {
+    "source": "redinvest.am",
+    "kind": "m2",
+    "usd": null,
+    "amd": 345810.0,
+    "raw": "from 345,810 AMD/m2 (computed from listed units)",
+    "usd_m2": 952
+   },
+   {
+    "source": "redinvest.am",
+    "kind": "implied",
+    "usd": null,
+    "amd": 351704.54545454547,
+    "raw": "4-room apartment from 61,900,000 AMD / 176 m²",
+    "usd_m2": 968
+   },
+   {
+    "source": "redgroup.am",
+    "kind": "m2",
+    "usd": null,
+    "amd": 448864.0,
+    "raw": "from 448,864 AMD/m² (computed from 2 listed units of 23)",
+    "usd_m2": 1235
+   },
+   {
+    "source": "redgroup.am",
+    "kind": "implied",
+    "usd": null,
+    "amd": 448863.63636363635,
+    "raw": "4-room apartment from 79,000,000 AMD / 176 m²",
+    "usd_m2": 1235
+   }
+  ],
+  "source_urls": [
+   "https://www.redinvest.am/en/developers/bnakarankarucapatoxic-unit23",
+   "https://redgroup.am/projects/bnakarankarucapatoxic-unit23"
+  ]
+ },
+ {
+  "id": "myhomeam-776",
+  "title": "New Arinj Residence · Armen Gulakyan Street 85",
+  "developer": "New Arinj Residence",
+  "district": "Arabkir",
+  "current_usd_m2": 2752,
+  "current_amd_m2": 1000000,
+  "usd_from": 191840,
+  "reasons": [
+   "-38.8% vs local median"
+  ],
+  "observations": [
+   {
+    "source": "myhome.am",
+    "kind": "m2",
+    "usd": null,
+    "amd": 1000000.0,
+    "raw": "from 1,000,000 AMD/m²; apartment from 69,700,000 AMD",
+    "usd_m2": 2752
+   },
+   {
+    "source": "myhome.am",
+    "kind": "implied",
+    "usd": null,
+    "amd": 1000000.0,
+    "raw": "2-room apartment from 69,700,000.0 AMD / 69.7 m²",
+    "usd_m2": 2752
+   }
+  ],
+  "source_urls": [
+   "https://myhome.am/en/building/342"
+  ]
+ }
+]

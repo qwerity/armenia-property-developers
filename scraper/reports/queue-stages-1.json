@@ -1,0 +1,54 @@
+[
+ {
+  "id": "citynestam-662",
+  "title": "Etchmiadzin 11/4 Business Center",
+  "developer": "City Nest Property Management (sales agent)",
+  "address": "Etchmiadzin (Echmiadzin) Street 11/4",
+  "district": "Vagharshapat (Etchmiadzin)",
+  "region": "Armavir",
+  "lat": 40.1633821,
+  "lng": 44.2941201,
+  "status_raw": "unknown",
+  "completion": null,
+  "floors": "18",
+  "reason": "unknown stage",
+  "sources": [
+   "https://citynest.am/en",
+   "https://www.mikshin.am/projects#business-park"
+  ]
+ },
+ {
+  "id": "evocaam-1141",
+  "title": "Avenue Group LLC",
+  "developer": "Avenue Group",
+  "address": "Zovuni 30th St 33/1, Zovuni village, Nairi community, Kotayk",
+  "district": "Zovuni",
+  "region": "Kotayk",
+  "lat": 40.23858,
+  "lng": 44.496734,
+  "status_raw": "unknown",
+  "completion": null,
+  "floors": null,
+  "reason": "unknown stage",
+  "sources": [
+   "https://www.evoca.am/en/construction-companies#6-avenue-group-llc"
+  ]
+ },
+ {
+  "id": "evocaam-1162",
+  "title": "HORIZON INVEST CJSC",
+  "developer": "Horizon-95",
+  "address": "F. Verfel 40/2",
+  "district": "Shirak (other)",
+  "region": "Shirak",
+  "lat": 40.8253552,
+  "lng": 43.8208729,
+  "status_raw": "unknown",
+  "completion": null,
+  "floors": null,
+  "reason": "unknown stage",
+  "sources": [
+   "https://www.evoca.am/en/construction-companies#27-horizon-invest-cjsc"
+  ]
+ }
+]

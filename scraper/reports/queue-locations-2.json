@@ -1,0 +1,38 @@
+[
+ {
+  "id": "kp-214",
+  "title": "Nazarbekyan",
+  "address": "Nazarbekyan 19/23",
+  "lat": 40.2139525,
+  "lng": 44.4588646,
+  "district": "Ajapnyak",
+  "region": "Yerevan",
+  "geo_precision": "exact",
+  "why": [
+   "sources disagree by 327 m"
+  ],
+  "sources": [
+   "https://karucapatoxic.am/en/214",
+   "https://comfortbuild.am/en/nazarbekyan",
+   "https://novostroiki-yerevan.com/en/p/nazarbekyan/"
+  ]
+ },
+ {
+  "id": "kp-112",
+  "title": "Novel Residential Complex",
+  "address": "Norashen 2",
+  "lat": 40.211194444444445,
+  "lng": 44.465944444444446,
+  "district": "Ajapnyak",
+  "region": "Yerevan",
+  "geo_precision": "exact",
+  "why": [
+   "sources disagree by 382 m"
+  ],
+  "sources": [
+   "https://karucapatoxic.am/en/112",
+   "https://arannashin.com/en/novel-2/",
+   "https://novostroiki-yerevan.com/en/p/novel-residential-complex/"
+  ]
+ }
+]

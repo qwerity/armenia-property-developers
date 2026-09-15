@@ -1,0 +1,359 @@
+[
+ {
+  "id": "kp-123",
+  "title": "Pullman Residences Yerevan",
+  "developer": "TechnoTun",
+  "district": "Nork-Marash",
+  "current_usd_m2": 4740,
+  "current_amd_m2": 1722000,
+  "usd_from": null,
+  "reasons": [
+   "-210.3% vs local median"
+  ],
+  "observations": [
+   {
+    "source": "ac-box.com",
+    "kind": "m2",
+    "usd": 4740.0,
+    "amd": null,
+    "raw": "от $4 740 до $5 790 / м²",
+    "usd_m2": 4740
+   }
+  ],
+  "source_urls": [
+   "https://karucapatoxic.am/en/123",
+   "https://ac-box.com/novostroyki/pullman-residences",
+   "https://www.construction.am/apartments-in-new-developments/norakaruyc-bnakaran-norqi-ayginer-pullman-residences-yerevan/",
+   "https://www.pullmanyerevan.com/",
+   "https://www.evoca.am/en/construction-companies#17-pullman-living-and-residences"
+  ]
+ },
+ {
+  "id": "dignisi-213",
+  "title": "New Dalma Premium Residential Complex",
+  "developer": "ML Mining",
+  "district": "Kentron",
+  "current_usd_m2": 1632,
+  "current_amd_m2": 593000,
+  "usd_from": null,
+  "reasons": [
+   "37.6% vs local median"
+  ],
+  "observations": [
+   {
+    "source": "dignisi.am",
+    "kind": "m2",
+    "usd": null,
+    "amd": 650000.0,
+    "raw": "from 650,000 ֏/m²",
+    "usd_m2": 1789
+   },
+   {
+    "source": "novostroiki-yerevan.com",
+    "kind": "m2",
+    "usd": 1632.0,
+    "amd": null,
+    "raw": "$1 632/m²; from $48 960",
+    "usd_m2": 1632
+   }
+  ],
+  "source_urls": [
+   "https://dignisi.am/en/projects/new-dalma-premium-residential-complex-378",
+   "https://charagayt.am/?app=AppProject&page=building&project_id=16",
+   "https://novostroiki-yerevan.com/en/p/nor-dalma-premium-complex/"
+  ]
+ },
+ {
+  "id": "redinvestam-543",
+  "title": "Heaven Heights",
+  "developer": "BULDOZER GROUP  (sales: RED Invest Group)",
+  "district": "Nork-Marash",
+  "current_usd_m2": 1193,
+  "current_amd_m2": 433469,
+  "usd_from": 58460,
+  "reasons": [
+   "source conflict",
+   "low confidence"
+  ],
+  "observations": [
+   {
+    "source": "redinvest.am",
+    "kind": "m2",
+    "usd": null,
+    "amd": 433469.0,
+    "raw": "from 433,469 AMD/m2 (computed from listed units)",
+    "usd_m2": 1193
+   },
+   {
+    "source": "redinvest.am",
+    "kind": "implied",
+    "usd": null,
+    "amd": 442500.0,
+    "raw": "2-room apartment from 21,240,000 AMD / 48 m²",
+    "usd_m2": 1218
+   },
+   {
+    "source": "redinvest.am",
+    "kind": "implied",
+    "usd": null,
+    "amd": 546363.6363636364,
+    "raw": "3-room apartment from 48,080,000 AMD / 88 m²",
+    "usd_m2": 1504
+   },
+   {
+    "source": "redgroup.am",
+    "kind": "m2",
+    "usd": null,
+    "amd": 542871.0,
+    "raw": "from 542,871 AMD/m² (computed from 7 listed units of 210)",
+    "usd_m2": 1494
+   },
+   {
+    "source": "redgroup.am",
+    "kind": "implied",
+    "usd": null,
+    "amd": 638064.5161290322,
+    "raw": "2-room apartment from 39,560,000 AMD / 62 m²",
+    "usd_m2": 1756
+   },
+   {
+    "source": "redgroup.am",
+    "kind": "implied",
+    "usd": null,
+    "amd": 542871.2871287129,
+    "raw": "3-room apartment from 54,830,000 AMD / 101 m²",
+    "usd_m2": 1494
+   }
+  ],
+  "source_urls": [
+   "https://www.redinvest.am/en/developers/bnakarankarucapatoxic-heaven-heights",
+   "https://redgroup.am/projects/bnakarankarucapatoxic-heaven-heights"
+  ]
+ },
+ {
+  "id": "redinvestam-553",
+  "title": "For Dream Residence",
+  "developer": "Gevorg Darbinyan (sales: RED Invest Group)",
+  "district": "Avan",
+  "current_usd_m2": 1027,
+  "current_amd_m2": 373125,
+  "usd_from": 53038,
+  "reasons": [
+   "source conflict",
+   "low confidence"
+  ],
+  "observations": [
+   {
+    "source": "redinvest.am",
+    "kind": "m2",
+    "usd": null,
+    "amd": 373125.0,
+    "raw": "from 373,125 AMD/m2 (computed from listed units)",
+    "usd_m2": 1027
+   },
+   {
+    "source": "redinvest.am",
+    "kind": "implied",
+    "usd": null,
+    "amd": 385400.0,
+    "raw": "2-room apartment from 19,270,000 AMD / 50 m²",
+    "usd_m2": 1061
+   },
+   {
+    "source": "redinvest.am",
+    "kind": "implied",
+    "usd": null,
+    "amd": 424933.3333333333,
+    "raw": "3-room apartment from 31,870,000 AMD / 75 m²",
+    "usd_m2": 1170
+   },
+   {
+    "source": "redinvest.am",
+    "kind": "implied",
+    "usd": null,
+    "amd": 427063.49206349207,
+    "raw": "4-room apartment from 53,810,000 AMD / 126 m²",
+    "usd_m2": 1175
+   },
+   {
+    "source": "redgroup.am",
+    "kind": "m2",
+    "usd": null,
+    "amd": 491712.0,
+    "raw": "from 491,712 AMD/m² (computed from 1 listed units of 159)",
+    "usd_m2": 1353
+   },
+   {
+    "source": "redgroup.am",
+    "kind": "implied",
+    "usd": null,
+    "amd": 491711.7117117117,
+    "raw": "3-room apartment from 54,580,000 AMD / 111 m²",
+    "usd_m2": 1353
+   }
+  ],
+  "source_urls": [
+   "https://www.redinvest.am/en/developers/bnakaran-karucapatoxic-fordream",
+   "https://redgroup.am/projects/bnakaran-karucapatoxic-fordream"
+  ]
+ },
+ {
+  "id": "redinvestam-559",
+  "title": "Davtashen Town 2 Family District",
+  "developer": "Villa Town House  (sales: RED Invest Group)",
+  "district": "Kotayk (other)",
+  "current_usd_m2": 1055,
+  "current_amd_m2": 383216,
+  "usd_from": 150830,
+  "reasons": [
+   "source conflict"
+  ],
+  "observations": [
+   {
+    "source": "redinvest.am",
+    "kind": "m2",
+    "usd": null,
+    "amd": 383216.0,
+    "raw": "from 383,216 AMD/m2 (computed from listed units)",
+    "usd_m2": 1055
+   },
+   {
+    "source": "redinvest.am",
+    "kind": "implied",
+    "usd": null,
+    "amd": 383216.7832167832,
+    "raw": "5-room apartment from 54,800,000 AMD / 143 m²",
+    "usd_m2": 1055
+   },
+   {
+    "source": "ar-go.am",
+    "kind": "m2",
+    "usd": null,
+    "amd": 600000.0,
+    "raw": "Սկսած \n 600,000 դրամ 1ք/մ համար",
+    "usd_m2": 1651
+   },
+   {
+    "source": "ar-go.am",
+    "kind": "implied",
+    "usd": null,
+    "amd": 700000.0,
+    "raw": "2-room apartment from 34,622,000.0 AMD / 49.46 m²",
+    "usd_m2": 1927
+   },
+   {
+    "source": "ar-go.am",
+    "kind": "implied",
+    "usd": null,
+    "amd": 600000.0,
+    "raw": "4+-room apartment from 107,664,000.0 AMD / 179.44 m²",
+    "usd_m2": 1651
+   }
+  ],
+  "source_urls": [
+   "https://www.redinvest.am/en/developers/bnakaran-karucapatoxic-davtashentown2",
+   "https://ar-go.am/project/davithashen-nairi",
+   "https://redgroup.am/projects/bnakaran-karucapatoxic-davtashentown2"
+  ]
+ },
+ {
+  "id": "redinvestam-568",
+  "title": "21 Street Residential Building",
+  "developer": "S. S. Brothers  (sales: RED Invest Group)",
+  "district": "Arabkir",
+  "current_usd_m2": 1792,
+  "current_amd_m2": 651190,
+  "usd_from": 75277,
+  "reasons": [
+   "source conflict",
+   "low confidence"
+  ],
+  "observations": [
+   {
+    "source": "redinvest.am",
+    "kind": "m2",
+    "usd": null,
+    "amd": 651190.0,
+    "raw": "from 651,190 AMD/m2 (computed from listed units)",
+    "usd_m2": 1792
+   },
+   {
+    "source": "redinvest.am",
+    "kind": "implied",
+    "usd": null,
+    "amd": 683750.0,
+    "raw": "2-room apartment from 27,350,000 AMD / 40 m²",
+    "usd_m2": 1882
+   },
+   {
+    "source": "redinvest.am",
+    "kind": "implied",
+    "usd": null,
+    "amd": 821052.6315789474,
+    "raw": "3-room apartment from 62,400,000 AMD / 76 m²",
+    "usd_m2": 2260
+   },
+   {
+    "source": "redinvest.am",
+    "kind": "implied",
+    "usd": null,
+    "amd": 1005752.2123893806,
+    "raw": "4-room apartment from 113,650,000 AMD / 113 m²",
+    "usd_m2": 2768
+   },
+   {
+    "source": "redgroup.am",
+    "kind": "m2",
+    "usd": null,
+    "amd": 1002469.0,
+    "raw": "from 1,002,469 AMD/m² (computed from 3 listed units of 49)",
+    "usd_m2": 2759
+   },
+   {
+    "source": "redgroup.am",
+    "kind": "implied",
+    "usd": null,
+    "amd": 1003289.4736842106,
+    "raw": "3-room apartment from 76,250,000 AMD / 76 m²",
+    "usd_m2": 2761
+   },
+   {
+    "source": "redgroup.am",
+    "kind": "implied",
+    "usd": null,
+    "amd": 1005752.2123893806,
+    "raw": "4-room apartment from 113,650,000 AMD / 113 m²",
+    "usd_m2": 2768
+   }
+  ],
+  "source_urls": [
+   "https://www.redinvest.am/en/developers/bnakarankarucapatoxic-21street",
+   "https://redgroup.am/projects/bnakarankarucapatoxic-21street"
+  ]
+ },
+ {
+  "id": "novostroikiyerevancom-895",
+  "title": "NARMARK · 30th Street 2nd Lane 13/2",
+  "developer": "NARMARK",
+  "district": "Kentron",
+  "current_usd_m2": 1578,
+  "current_amd_m2": 573000,
+  "usd_from": null,
+  "reasons": [
+   "39.7% vs local median"
+  ],
+  "observations": [
+   {
+    "source": "novostroiki-yerevan.com",
+    "kind": "m2",
+    "usd": 1578.0,
+    "amd": null,
+    "raw": "$1 578/m²; from $78 900",
+    "usd_m2": 1578
+   }
+  ],
+  "source_urls": [
+   "https://novostroiki-yerevan.com/en/p/30th-street-2nd-lane-13-2/"
+  ]
+ }
+]

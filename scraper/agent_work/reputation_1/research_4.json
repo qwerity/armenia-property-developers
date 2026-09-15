@@ -1,0 +1,615 @@
+[
+ {
+  "developer": "Истейт Инвестмент энд Дивелопмент",
+  "role": "developer",
+  "legal_entities": [
+   {
+    "name_hy": "«Իսթեյթ Ինվեսթմենթ ընդ Դիվելոփմենթ» ՍՊԸ",
+    "name_en": "Estate Investment & Development LLC",
+    "tax_id": "00178909",
+    "form": "ՍՊԸ",
+    "registered_year": 2018,
+    "source_url": "https://karg.am/company/00178909"
+   }
+  ],
+  "founded_year": 2018,
+  "datalex_names": [
+   "ԻՍԹԵՅԹ ԻՆՎԵՍԹՄԵՆԹ ԸՆԴ ԴԻՎԵԼՈՓՄԵՆԹ",
+   "ԷՍԹԵՅԹ ԻՆՎԵՍԹՄԵՆԹ ԸՆԴ ԴԵՎԵԼՈՓՄԵՆԹ"
+  ],
+  "datalex_tax_id": "00178909",
+  "news_issues": [],
+  "positives": [
+   {
+    "title": "Converse Bank mortgage partner page for Estate Investment and Development",
+    "url": "https://conversebank.am/hy/estateinvest/",
+    "summary": "Converse Bank offers mortgages for apartments by this developer (office Anastas Mikoyan 2/3); buyer down-payments go to a special developer account."
+   }
+  ],
+  "confidence": "high",
+  "notes": "Spyur lists «ԻՍԹԵՅԹ ԻՆՎԵՍԹՄԵՆԹ ԸՆԴ ԴԻՎԵԼՈՓՄԵՆԹ» ՍՊԸ (director Gohar Saghoyan); karg.am (e-register data) gives TIN 00178909, reg. 03.04.2018, legal address Davtashen, A. Mikoyan 2/3 - same address as Converse Bank partner page. Brand is 1SQ / 1SQ Estate Development (1-sq.am, 1sq.info; 'since 2018'). Related: «1SQ ԱՐԳՈ» ՍՊԸ (Ashtarakyan Towers with ARGO). Projects: Kievyan Residance (Barbyus 66), Argishti 48/8. karg.am showed 0 enforcement cases."
+ },
+ {
+  "developer": "Quadra Construction",
+  "role": "developer",
+  "legal_entities": [
+   {
+    "name_hy": "«Կվադրա Քոնսթրաքշն» ՍՊԸ",
+    "name_en": "Quadra Construction LLC",
+    "tax_id": "01275113",
+    "form": "ՍՊԸ",
+    "registered_year": 2017,
+    "source_url": "https://karg.am/company/01275113"
+   },
+   {
+    "name_hy": "«Դի Կվադրա Քոնսթրաքշն» ՍՊԸ",
+    "name_en": "DI Quadra Construction LLC",
+    "tax_id": "02691725",
+    "form": "ՍՊԸ",
+    "registered_year": 2019,
+    "source_url": "https://karg.am/company/02691725"
+   }
+  ],
+  "founded_year": 2017,
+  "datalex_names": [
+   "ԿՎԱԴՐԱ ՔՈՆՍԹՐԱՔՇՆ",
+   "ԴԻ ԿՎԱԴՐԱ ՔՈՆՍԹՐԱՔՇՆ",
+   "ՔՎԱԴՐԱ ՔՈՆՍԹՐԱՔՇՆ"
+  ],
+  "datalex_tax_id": "01275113",
+  "news_issues": [
+   {
+    "date": "2023-03-18",
+    "title": "Թիվ ՍնԴ/3572/04/22 սնանկության գործով պարտապան «Կվադրա Քոնսթրաքշն» ՍՊԸ-ի պարտատերերի պահանջների նախնական ցուցակի մասին",
+    "url": "https://personal-legal-old.azdarar.am/announcments/cat/352/01260903/",
+    "summary": "Official bankruptcy notice (case ՍնԴ/3572/04/22, opened 2022): preliminary creditor list published by bankruptcy manager Garik Mkrtchyan. Creditors include Armbusinessbank (secured ~EUR 1.64M plus USD 1M claim), the State Revenue Committee (~63M AMD) and ~45 private individuals with claims of tens of millions of AMD each (pattern typical of apartment buyers)."
+   }
+  ],
+  "positives": [],
+  "confidence": "medium",
+  "notes": "construction.am/Spyur: Quadra Construction, since 2017, office Verin Antarayin 123/3. karg.am: «ԿՎԱԴՐԱ ՔՈՆՍԹՐԱՔՇՆ» ՍՊԸ TIN 01275113, reg. 29.03.2017, legal address V. Antarayin 123/3 - matches; status now INACTIVE. The bankruptcy notice names «Կվադրա Քոնսթրաքշն» ՍՊԸ without TIN, so link to 01275113 is by exact name + inactive status (strong but not documented). A separate active «ԴԻ ԿՎԱԴՐԱ ՔՈՆՍԹՐԱՔՇՆ» ՍՊԸ (TIN 02691725, 2019, Malatia-Sebastia, finishing works; karg shows 7 enforcement cases) may be a related/successor company - unverified. Projects: Acharyan 37/34 (Avan), Verin Antarayin 122/1, G. Nzhdeh 23/3 (2020)."
+ },
+ {
+  "developer": "NARMARK",
+  "role": "developer",
+  "legal_entities": [
+   {
+    "name_hy": "«Նարմարկ» ՍՊԸ",
+    "name_en": "Narmark LLC",
+    "tax_id": "08424333",
+    "form": "ՍՊԸ",
+    "registered_year": 2021,
+    "source_url": "https://karg.am/company/08424333"
+   }
+  ],
+  "founded_year": 2021,
+  "datalex_names": [
+   "ՆԱՐՄԱՐԿ"
+  ],
+  "datalex_tax_id": "08424333",
+  "news_issues": [],
+  "positives": [],
+  "confidence": "medium",
+  "notes": "narmarkshin.am: 'Նարմարկ - շինարարական ընկերություն', registered in Vardenis area (Gegharkunik), director Andranik (Ando) Tadevosyan. karg.am: only one registered «ՆԱՐՄԱՐԿ» ՍՊԸ, TIN 08424333, reg. 11.03.2021, legal address Verin Getashen, Gegharkunik (near Vardenis) - consistent. Name is unique in the register. Website is largely a template; no news found."
+ },
+ {
+  "developer": "Just Developer (sales: RED Invest Group)",
+  "role": "developer",
+  "legal_entities": [
+   {
+    "name_hy": "«Ջասթ Դիվելոփեր» ՍՊԸ",
+    "name_en": "Just Developer LLC",
+    "tax_id": "01278825",
+    "form": "ՍՊԸ",
+    "registered_year": 2017,
+    "source_url": "https://karg.am/company/01278825"
+   }
+  ],
+  "founded_year": 2017,
+  "datalex_names": [
+   "ՋԱՍԹ ԴԻՎԵԼՈՓԵՐ",
+   "ՋԱՍԹ ԴԵՎԵԼՈՓԵՐ"
+  ],
+  "datalex_tax_id": "01278825",
+  "news_issues": [],
+  "positives": [
+   {
+    "title": "CULT Residential Complex (RED Group listing)",
+    "url": "https://redgroup.am/projects/bnakarankarucapatoxic-cult",
+    "summary": "Developer \"Just Developer\" LLC, designer \"Reform\" LLC, partner bank Converse Bank; Bagrevand 82/4, Nor Nork 2nd district, completion 12/2025."
+   },
+   {
+    "title": "Moldovakan 39/37 residential building (RED Group listing)",
+    "url": "https://redgroup.am/projects/bnakarankarucapatoxic-moldovakan",
+    "summary": "28-apartment premium building, construction 03/2022-12/2023, developer \"Just Developer\" LLC."
+   }
+  ],
+  "confidence": "medium",
+  "notes": "RED Group/RED Invest listings name the developer '\"Just Developer\" LLC' (RED Invest is only the sales agent). karg.am register search returns exactly one matching entity: «ՋԱՍԹ ԴԻՎԵԼՈՓԵՐ» ՍՊԸ, TIN 01278825, reg. 13.11.2017, legal address Ajapnyak, Shirazi 40. No address cross-check with the projects was possible, but the name is unique in the register. No negative news found (web-search budget was exhausted mid-task, so news coverage is limited)."
+ },
+ {
+  "developer": "Hamedil Construction Group",
+  "role": "developer",
+  "legal_entities": [
+   {
+    "name_hy": "«Համեդիլ Կոնստրաքշն Գրուպ» ՍՊԸ",
+    "name_en": "Hamedil Construction Group LLC",
+    "tax_id": "00532934",
+    "form": "ՍՊԸ",
+    "registered_year": null,
+    "source_url": "https://karg.am/company/00532934"
+   }
+  ],
+  "founded_year": null,
+  "datalex_names": [
+   "ՀԱՄԵԴԻԼ ԿՈՆՍՏՐԱՔՇՆ ԳՐՈՒՊ",
+   "ՀԱՄԵԴԻԼ ՔՈՆՍԹՐԱՔՇՆ ԳՐՈՒՊ",
+   "ՀԱՄԵԴԻԼ"
+  ],
+  "datalex_tax_id": "00532934",
+  "news_issues": [],
+  "positives": [],
+  "confidence": "high",
+  "notes": "karg.am: «ՀԱՄԵԴԻԼ ԿՈՆՍՏՐԱՔՇՆ ԳՐՈՒՊ» ՍՊԸ, TIN 00532934, legal address Erebuni, Nor Aresh 11th st. 72; the only 'Hamedil' entity in the register. karg shows registration date 07.01.2025, but the TIN series suggests an older company (date may reflect re-registration) - so registered_year left null. hamedil.am claims 15 years of experience / 120+ completed projects, but its portfolio section is placeholder text, so these claims are unverified. Current projects: Talin Queen and Talin Multihouse (Talin, Aragatsotn)."
+ },
+ {
+  "developer": "Armenia Garden",
+  "role": "developer",
+  "legal_entities": [
+   {
+    "name_hy": "«Դաբլ Վի Քոնսթրաքթ» ՍՊԸ",
+    "name_en": "Double V Construct LLC",
+    "tax_id": "04213135",
+    "form": "ՍՊԸ",
+    "registered_year": null,
+    "source_url": "https://karg.am/company/04213135"
+   }
+  ],
+  "founded_year": null,
+  "datalex_names": [
+   "ԴԱԲԼ ՎԻ ՔՈՆՍԹՐԱՔԹ",
+   "ԱՐՄԵՆԻԱ ԳԱՐԴԵՆ"
+  ],
+  "datalex_tax_id": "04213135",
+  "news_issues": [],
+  "positives": [],
+  "confidence": "medium",
+  "notes": "'Armenia Garden' is a project brand in Akunk (block 275, Kotayk). The contact email doublevconstruct@gmail.com and links on armeniagarden.am point to doublevconstruct.am ('Double V - Construct LLC', same phone +374 95 001005). karg.am: «ԴԱԲԼ ՎԻ ՔՈՆՍԹՐԱՔԹ» ՍՊԸ, TIN 04213135, legal address Zar, Kotayk (next to Akunk), NACE F41.10 development; karg reg. date 06.09.2001 (probably the original registration). The exact Armenian spelling of the website's 'Double V - Construct' was not confirmed beyond the register match. Separate inactive «ԱՐՄԵՆԻԱՆ ԳԱՐԴԵՆ» ՍՊԸ (03558297, Abovyan, 2021) exists - probably unrelated. Double V lists buildings 1, 2A, 2B, 3A in Akunk with completion dates 2026-2029."
+ },
+ {
+  "developer": "New House",
+  "role": "developer",
+  "legal_entities": [
+   {
+    "name_hy": "«Նյու Հաուս» ՓԲԸ",
+    "name_en": "New House CJSC",
+    "tax_id": "09427109",
+    "form": "ՓԲԸ",
+    "registered_year": 2019,
+    "source_url": "https://karg.am/company/09427109"
+   },
+   {
+    "name_hy": "«Նյու Հաուս» համատիրություն",
+    "name_en": "New House condominium",
+    "tax_id": "09432476",
+    "form": "համատիրություն",
+    "registered_year": 2025,
+    "source_url": "https://karg.am/company/09432476"
+   }
+  ],
+  "founded_year": 2019,
+  "datalex_names": [
+   "ՆՅՈՒ ՀԱՈՒՍ"
+  ],
+  "datalex_tax_id": "09427109",
+  "news_issues": [],
+  "positives": [],
+  "confidence": "medium",
+  "notes": "The New House projects (myhome.am) are at Shahumyan 7, buildings 1 and 2, Kapan (Syunik). karg.am lists two Kapan entities named «ՆՅՈՒ ՀԱՈՒՍ»: a CJSC (ՓԲԸ), TIN 09427109, reg. 09.07.2019, Shahumyan 5A/15 - the likely developer; and a condominium (համատիրություն), TIN 09432476, reg. 2025, at exactly 'Shahumyan 7, 2nd building' - most likely the residents' owners' association of the finished building, not the developer. Note: the ՓԲԸ form is inferred from karg.am. Contact person email tevanyan-ani@mail.ru."
+ },
+ {
+  "developer": "SHIN SERVICE GROUP",
+  "role": "developer",
+  "legal_entities": [
+   {
+    "name_hy": "«Շին Սերվիս Գրուպ» ՍՊԸ",
+    "name_en": "Shin Service Group LLC",
+    "tax_id": "02887683",
+    "form": "ՍՊԸ",
+    "registered_year": 2023,
+    "source_url": "https://karg.am/company/02887683"
+   }
+  ],
+  "founded_year": 2023,
+  "datalex_names": [
+   "ՇԻՆ ՍԵՐՎԻՍ ԳՐՈՒՊ"
+  ],
+  "datalex_tax_id": "02887683",
+  "news_issues": [],
+  "positives": [
+   {
+    "title": "Evocabank developer-partner list",
+    "url": "https://www.evoca.am/hy/construction-companies",
+    "summary": "Listed as developer «ՇԻՆ ՍԵՐՎԻՍ ԳՐՈՒՊ» ՍՊԸ for two Arinj (Kotayk) residential projects financed through Evocabank mortgages."
+   }
+  ],
+  "confidence": "high",
+  "notes": "Evocabank's Armenian partner page gives the exact name «ՇԻՆ ՍԵՐՎԻՍ ԳՐՈՒՊ» ՍՊԸ (projects in Arinj, B district 4th st. 2nd lane 6/1 and 5th st. 17). karg.am: the only entity with this name, TIN 02887683, reg. 30.03.2023, legal address Kentron, Vardanants 18/1 apt 26, NACE F41.20.1 (construction of residential buildings)."
+ },
+ {
+  "developer": "Ey Pi Tauer",
+  "role": "developer",
+  "legal_entities": [
+   {
+    "name_hy": "«Էյ Փի Թաուեր» ՍՊԸ",
+    "name_en": "AP Tower LLC",
+    "tax_id": "00221075",
+    "form": "ՍՊԸ",
+    "registered_year": 2020,
+    "source_url": "https://karg.am/company/00221075"
+   }
+  ],
+  "founded_year": 2020,
+  "datalex_names": [
+   "ԷՅ ՓԻ ԹԱՈՒԵՐ"
+  ],
+  "datalex_tax_id": "00221075",
+  "news_issues": [],
+  "positives": [
+   {
+    "title": "Panorama Hills (ARGO Realty)",
+    "url": "https://ar-go.am/project/panorama-hills",
+    "summary": "Panorama Hills residential complex at K. Ulnetsi 32/22 marketed by ARGO; listed as finished."
+   }
+  ],
+  "confidence": "high",
+  "notes": "ar-go.am names the developer 'Էյ Փի Թաուեր' (AP Tower, also listed on developers.am). karg.am: «ԷՅ ՓԻ ԹԱՈՒԵՐ» ՍՊԸ, TIN 00221075, reg. 21.05.2020, legal address Kanaker-Zeytun, K. Ulnetsi 32/22 - the exact Panorama Hills project address. ARGO (+374 55 200707) is the sales agent."
+ },
+ {
+  "developer": "Magnolia Komfort",
+  "role": "developer",
+  "legal_entities": [
+   {
+    "name_hy": "«Մագնոլիա Կոմֆորտ» ՍՊԸ",
+    "name_en": "Magnolia Comfort LLC",
+    "tax_id": "02670983",
+    "form": "ՍՊԸ",
+    "registered_year": 2017,
+    "source_url": "https://karg.am/company/02670983"
+   },
+   {
+    "name_hy": "«Մագնոլիա Կոմֆորտ 2» ՓԲԸ",
+    "name_en": "Magnolia Comfort 2 CJSC",
+    "tax_id": "02820208",
+    "form": "ՓԲԸ",
+    "registered_year": 2020,
+    "source_url": "https://karg.am/company/02820208"
+   }
+  ],
+  "founded_year": 2017,
+  "datalex_names": [
+   "ՄԱԳՆՈԼԻԱ ԿՈՄՖՈՐՏ",
+   "ՄԱԳՆՈԼԻԱ ԿՈՄՖՈՐՏ 2"
+  ],
+  "datalex_tax_id": "02670983",
+  "news_issues": [],
+  "positives": [
+   {
+    "title": "Zover Construction (Zover Estates)",
+    "url": "https://www.zover.am/",
+    "summary": "Brand behind Magnolia Comfort projects; says it was founded in 2021, has three completed and sold-out communities, and is pre-selling its largest project, Zard (Kanakeravan)."
+   },
+   {
+    "title": "Զովունիում բնակելի թաղամաս կկառուցվի (Hetq, 2021-03-17)",
+    "url": "https://hetq.am/hy/article/128682",
+    "summary": "The government approved Magnolia-Komfort LLC's investment program for a residential district in Zovuni (Yeghvard community): 3.3 ha of community land sold directly at cadastral value (150.5M AMD); planned 18 eight-storey residential buildings, about 11.9bn AMD of investment, completion within 5 years."
+   },
+   {
+    "title": "Zover Estates (Magnolia Komfort) company page",
+    "url": "https://www.construction.am/arm/companies/zover-estates/",
+    "summary": "construction.am company page linking the Zover Estates brand to Magnolia Komfort."
+   },
+   {
+    "title": "Zard By Zover Estates on myhome.am (developer Magnolia Comfort LLC)",
+    "url": "https://myhome.am/en/building/334",
+    "summary": "Multi-building complex in Kanakeravan, Kotayk, completion planned 2029-06."
+   }
+  ],
+  "confidence": "high",
+  "notes": "ar-go.am lists 'Մագնոլիա Կոմֆորտ' as developer of Zover Eko; myhome.am lists 'Magnolia Comfort LLC' for the Zard By Zover Estates buildings (brand Zover, zover.am). karg.am: «ՄԱԳՆՈԼԻԱ ԿՈՄՖՈՐՏ» ՍՊԸ, TIN 02670983, reg. 13.12.2017, Kentron, Northern Ave 1, 2/3, NACE F41.20.1; karg shows 1 enforcement case (no details). A sister entity «ՄԱԳՆՈԼԻԱ ԿՈՄՖՈՐՏ 2» (TIN 02820208, 2020, Nork-Marash, Mashtots 54; ՓԲԸ per karg) may hold other projects. Zovuni land was obtained by direct sale from the community (not an auction) under a government-approved investment program; no disputes about it were found."
+ },
+ {
+  "developer": "Oktagon Sparoghakan Kooperativ",
+  "role": "developer",
+  "legal_entities": [
+   {
+    "name_hy": "«Օկտագոն» սպառողական կոոպերատիվ",
+    "name_en": "Oktagon consumer cooperative",
+    "tax_id": "00161108",
+    "form": "սպառողական կոոպերատիվ",
+    "registered_year": 2016,
+    "source_url": "https://karg.am/company/00161108"
+   }
+  ],
+  "founded_year": 2016,
+  "datalex_names": [
+   "ՕԿՏԱԳՈՆ"
+  ],
+  "datalex_tax_id": "00161108",
+  "news_issues": [],
+  "positives": [],
+  "confidence": "medium",
+  "notes": "ACBA's developer list gives the name as 'Օկտագոն Սպառողական Կոոպերատիվ' (project Old Central Plaza, Tumanyan 2nd lane 5/9, Kentron). karg.am: «ՕԿՏԱԳՈՆ», legal form consumer cooperative (Սպառողական կոպերատիվ), TIN 00161108, reg. 14.12.2016, Arabkir, active - the only cooperative with this name. There is also an older inactive «ՕԿՏԱԳՈՆ» ՍՊԸ (TIN 01558059, 2006), which may explain the 'oktagon_llc' email. The court database may store the name with the form attached (e.g. ՕԿՏԱԳՈՆ ՍՊԱՌՈՂԱԿԱՆ ԿՈՊԵՐԱՏԻՎ)."
+ },
+ {
+  "developer": "Eritsuk",
+  "role": "developer",
+  "legal_entities": [
+   {
+    "name_hy": "«Երիցուկ» ՍՊԸ",
+    "name_en": "Eritsuk LLC",
+    "tax_id": "05200418",
+    "form": "ՍՊԸ",
+    "registered_year": 1996,
+    "source_url": "https://karg.am/company/05200418"
+   }
+  ],
+  "founded_year": 1996,
+  "datalex_names": [
+   "ԵՐԻՑՈՒԿ"
+  ],
+  "datalex_tax_id": "05200418",
+  "news_issues": [],
+  "positives": [],
+  "confidence": "high",
+  "notes": "ACBA lists the 'Eritsuk' project at Aparan, Baghramyan 18 (Aragatsotn). karg.am: «ԵՐԻՑՈՒԿ» ՍՊԸ, TIN 05200418, reg. 10.10.1996, legal address Aparan, Baghramyan 18 - an exact address match. The input website capitalpark.am was not confirmed as related. The name 'Eritsuk' is common (other entities: 03501587 Abovyan, etc.), so court searches by name alone will return unrelated parties - use the TIN."
+ },
+ {
+  "developer": "Tm Mega Holding",
+  "role": "developer",
+  "legal_entities": [
+   {
+    "name_hy": "«Տմ Մեգա Հոլդինգ» ՍՊԸ",
+    "name_en": "TM Mega Holding LLC",
+    "tax_id": "01293001",
+    "form": "ՍՊԸ",
+    "registered_year": 2019,
+    "source_url": "https://karg.am/company/01293001"
+   }
+  ],
+  "founded_year": 2019,
+  "datalex_names": [
+   "ՏՄ ՄԵԳԱ ՀՈԼԴԻՆԳ",
+   "ԹԻ ԷՄ ՄԵԳԱ ՀՈԼԴԻՆԳ"
+  ],
+  "datalex_tax_id": "01293001",
+  "news_issues": [],
+  "positives": [],
+  "confidence": "high",
+  "notes": "ACBA lists 'Տմ Մեգա Հոլդինգ' as developer of Sanlend Bagrevand (Bagrevand path 60, Nor Nork 2nd district); the contact is a RED Invest sales agent (varos.abnusyan@redinvest.am), so RED is the sales agent. karg.am: «ՏՄ ՄԵԳԱ ՀՈԼԴԻՆԳ» ՍՊԸ, TIN 01293001, reg. 14.06.2019, Ajapnyak, Silikyan district 5th st. 52/1 - the only match in the register."
+ },
+ {
+  "developer": "Lakshri Apartament",
+  "role": "developer",
+  "legal_entities": [
+   {
+    "name_hy": "«Լաքշրի Ապարտամենտ» ՍՊԸ",
+    "name_en": "Luxury Apartment LLC",
+    "tax_id": "00929603",
+    "form": "ՍՊԸ",
+    "registered_year": 2020,
+    "source_url": "https://karg.am/company/00929603"
+   }
+  ],
+  "founded_year": 2020,
+  "datalex_names": [
+   "ԼԱՔՇՐԻ ԱՊԱՐՏԱՄԵՆՏ"
+  ],
+  "datalex_tax_id": "00929603",
+  "news_issues": [],
+  "positives": [],
+  "confidence": "high",
+  "notes": "ACBA lists the 'Lakshri Apartament' project at K. Ulnetsi 56/14, Kanaker-Zeytun. karg.am: «ԼԱՔՇՐԻ ԱՊԱՐՏԱՄԵՆՏ» ՍՊԸ, TIN 00929603, reg. 01.02.2020, legal address Kanaker-Zeytun, Davit Anhaght 14/12 (same district) - the only match. Contact email garik-grigoryan@bk.ru."
+ },
+ {
+  "developer": "GM DEVELOPMENT",
+  "role": "developer",
+  "legal_entities": [
+   {
+    "name_hy": "«Ջի Էմ Դիվելըփմենթ» ՍՊԸ",
+    "name_en": "GM Development LLC",
+    "tax_id": "02885352",
+    "form": "ՍՊԸ",
+    "registered_year": 2023,
+    "source_url": "https://karg.am/company/02885352"
+   }
+  ],
+  "founded_year": 2023,
+  "datalex_names": [
+   "ՋԻ ԷՄ ԴԻՎԵԼԸՓՄԵՆԹ",
+   "ՋԻ ԷՄ ԴԵՎԵԼՈՓՄԵՆԹ"
+  ],
+  "datalex_tax_id": "02885352",
+  "news_issues": [],
+  "positives": [
+   {
+    "title": "Evocabank developer-partner list (PARK VIEW)",
+    "url": "https://www.evoca.am/hy/construction-companies",
+    "summary": "PARK VIEW project, Arabkir, G. Ghapantsyan 4/9; developer «ՋԻ ԷՄ ԴԻՎԵԼԸՓՄԵՆԹ» ՍՊԸ, Evocabank mortgage partner."
+   }
+  ],
+  "confidence": "high",
+  "notes": "Evocabank's Armenian page gives the exact spelling «ՋԻ ԷՄ ԴԻՎԵԼԸՓՄԵՆԹ» ՍՊԸ (note the unusual ԴԻՎԵԼԸՓՄԵՆԹ). karg.am: TIN 02885352, reg. 24.02.2023, Kentron, Sayat-Nova 19, NACE F41.20.1. Do not confuse with «ՋԻ ԷՄ ԴԵՎԵԼՈՓԵՐ» ՍՊԸ (TIN 02651458, brand APEX GM Developer) or «ՋԻ ԷՄ ԻՆՎԵՍՏ» ՍՊԸ (00222163); ownership links between them were not checked."
+ },
+ {
+  "developer": "RIVER SIDE",
+  "role": "developer",
+  "legal_entities": [
+   {
+    "name_hy": "«Րիվեր Սայդ» ՍՊԸ",
+    "name_en": "River Side LLC",
+    "tax_id": "07627382",
+    "form": "ՍՊԸ",
+    "registered_year": 2022,
+    "source_url": "https://karg.am/company/07627382"
+   }
+  ],
+  "founded_year": 2022,
+  "datalex_names": [
+   "ՐԻՎԵՐ ՍԱՅԴ",
+   "ՌԻՎԵՐ ՍԱՅԴ"
+  ],
+  "datalex_tax_id": "07627382",
+  "news_issues": [],
+  "positives": [
+   {
+    "title": "Evocabank developer-partner list (RIVER SIDE)",
+    "url": "https://www.evoca.am/hy/construction-companies",
+    "summary": "«ՐԻՎԵՐ ՍԱՅԴ» ՍՊԸ residential project in Dilijan, Sayat-Nova st. 67/1 and 69, financed with Evocabank's own resources."
+   }
+  ],
+  "confidence": "high",
+  "notes": "Evocabank's Armenian page spells it «ՐԻՎԵՐ ՍԱՅԴ» ՍՊԸ, project in Dilijan at Sayat-Nova 67/1 and 69. karg.am: «ՐԻՎԵՐ ՍԱՅԴ» ՍՊԸ, TIN 07627382, reg. 10.11.2022, legal address Dilijan, Sayat-Nova 69 - exact match. An unrelated inactive «ՌԻՎԵՌ ՍԱՅԴ» ՍՊԸ (00220192, Yerevan) exists. Note the unusual ՐԻՎԵՐ spelling (with Ր) when searching court records."
+ },
+ {
+  "developer": "BULDOZER GROUP",
+  "role": "developer",
+  "legal_entities": [
+   {
+    "name_hy": "«Բուլդոզեր Գրուպ» ՍՊԸ",
+    "name_en": "Buldozer Group LLC",
+    "tax_id": "06950197",
+    "form": "ՍՊԸ",
+    "registered_year": 2015,
+    "source_url": "https://karg.am/company/06950197"
+   }
+  ],
+  "founded_year": 2015,
+  "datalex_names": [
+   "ԲՈՒԼԴՈԶԵՐ ԳՐՈՒՊ"
+  ],
+  "datalex_tax_id": "06950197",
+  "news_issues": [],
+  "positives": [
+   {
+    "title": "Evocabank developer-partner list (High Park)",
+    "url": "https://www.evoca.am/hy/construction-companies",
+    "summary": "«ԲՈՒԼԴՈԶԵՐ ԳՐՈՒՊ» ՍՊԸ listed as developer of High Park, G. Hovsepyan 58/15, Yerevan."
+   },
+   {
+    "title": "Heaven Heights (RED Group listing)",
+    "url": "https://redgroup.am/projects/bnakarankarucapatoxic-heaven-heights",
+    "summary": "9-floor, 210-unit complex at G. Hovsepyan 58/15, Nork-Marash, under construction (completion 2028), developer BULDOZER GROUP LLC."
+   }
+  ],
+  "confidence": "high",
+  "notes": "Evocabank's Armenian page spells it «ԲՈՒԼԴՈԶԵՐ ԳՐՈՒՊ» ՍՊԸ. karg.am: the only entity with this name, TIN 06950197, reg. 20.04.2015, legal address Tashir (Lori), Jahukyan 10; the projects are in Yerevan (G. Hovsepyan 58/15). Same site is marketed as 'High Park' (Evoca) and 'Heaven Heights' (RED Group). Note: the separate 'High Park Yerevan' townhouse project at Acharyan 37/44 is probably a different project."
+ },
+ {
+  "developer": "Vagarsh & vordiner Concern (EE 19/5)",
+  "role": "developer",
+  "legal_entities": [
+   {
+    "name_hy": "«Վաղարշ և որդիներ կոնցեռն» ՍՊԸ",
+    "name_en": "Vagharsh and Sons Concern LLC",
+    "tax_id": "01547921",
+    "form": "ՍՊԸ",
+    "registered_year": 2007,
+    "source_url": "https://karg.am/company/01547921"
+   }
+  ],
+  "founded_year": 2007,
+  "datalex_names": [
+   "ՎԱՂԱՐՇ ԵՎ ՈՐԴԻՆԵՐ ԿՈՆՑԵՌՆ",
+   "ՎԱՂԱՐՇ ԵՎ ՈՐԴԻՆԵՐ"
+  ],
+  "datalex_tax_id": "01547921",
+  "news_issues": [
+   {
+    "date": "2023-02-08",
+    "title": "Տեսչական մարմինը «Վաղարշ և Որդիներ կոնցեռն» ընկերության աշխատանքները դադարեցնելու որոշում է կայացրել",
+    "url": "https://hraparak.am/am/post/2c6baa97ca8838d4142f85b4cb648558",
+    "summary": "The Urban Development, Technical and Fire Safety Inspectorate ordered a full halt of the company's operations at M. Khorenatsi 24 (the 'Gold Market' building) after a fire-safety inspection found many violations. This concerns the company's commercial premises, not its residential projects."
+   },
+   {
+    "date": "2024-02-08",
+    "title": "«Ոսկու աշխարհ»-ի սեփականատեր Վաղարշը դատարանի դռներն է ընկել․ որոշվել է դադարեցնել ընկերության աշխատանքները. «Ժողովուրդ»",
+    "url": "https://168.am/2024/02/08/1993913.html",
+    "summary": "The company sued the Inspectorate to challenge the 2023 order halting its operations."
+   },
+   {
+    "date": "2026-08-24",
+    "title": "«Վաղարշ և Որդիներ» ընկերությանը պատճառվել է 67.255.500 դրամի գույքային վնաս․ գործի Նախաքննությունն ավարտվել է",
+    "url": "https://www.1in.am/2742045.html",
+    "summary": "The Investigative Committee finished its pre-trial investigation of a breach-of-trust case in which the company was the VICTIM (damage of 67.3M AMD, by a gold-trading tenant and director who was also acting deputy director of «Վաղարշ և Որդիներ»)."
+   },
+   {
+    "date": "2026-07-30",
+    "title": "Ոսկու շուկայի Վաղարշը դատի է տվել ԿԳՄՍՆ–ին. «Ժողովուրդ»",
+    "url": "https://armenia.news-pravda.com/world/2026/07/30/60667.html",
+    "summary": "The company (owned by Vagharsh Abrahamyan, owner of the 'Voskui Ashkharh' gold market) sued the Ministry of Education, Science, Culture and Sport in the Administrative Court for about USD 200k (a 25% state refund of film-production costs). The company is the plaintiff; this is not a construction or buyer dispute."
+   }
+  ],
+  "positives": [
+   {
+    "title": "Ministry of Finance 2023 list of public-interest / large and medium organizations",
+    "url": "https://minfin.am/website/images/website/2023_list%20(1).pdf",
+    "summary": "«ՎԱՂԱՐՇ ԵՎ ՈՐԴԻՆԵՐ ԿՈՆՑԵՌՆ» (TIN 01547921) is classified as a large or medium organization."
+   },
+   {
+    "title": "Environment Ministry public hearing notice: multifunctional residential complex at Nork st. 19",
+    "url": "https://env.am/announcement/public-reviews/shmag-ngh-jrveg-t2-leamsh-19",
+    "summary": "Environmental-impact public review of the company's multifunctional residential complex project at Nork 19 (matches the Evoca-listed Nork 19/3-19/7)."
+   }
+  ],
+  "confidence": "high",
+  "notes": "Evocabank lists 'Վաղարշ և Որդիներ Կոնցեռն ՍՊԸ (ԷԱ 19/5)', Nork-Marash, Nork district 19/3-19/7. The MinFin 2023 list gives «ՎԱՂԱՐՇ ԵՎ ՈՐԴԻՆԵՐ ԿՈՆՑԵՌՆ», TIN 01547921; karg.am shows reg. 13.07.2007, Kentron, M. Khorenatsi 24, director/founder Vagharsh Abrahamyan, NACE L68.20 (renting real estate). '(ԷԱ 19/5)' is Evoca's building/lot label. Owner is the well-known 'Voskui shukayi Vagharsh'. All news found concerns the Gold Market business, not the housing projects; no buyer complaints were found."
+ },
+ {
+  "developer": "Jet Set",
+  "role": "developer",
+  "legal_entities": [
+   {
+    "name_hy": "«Ջեթ Սեթ» ՍՊԸ",
+    "name_en": "Jet Set LLC",
+    "tax_id": "00253766",
+    "form": "ՍՊԸ",
+    "registered_year": 2007,
+    "source_url": "https://karg.am/company/00253766"
+   }
+  ],
+  "founded_year": 2007,
+  "datalex_names": [
+   "ՋԵԹ ՍԵԹ",
+   "ՋԵՏ ՍԵՏ"
+  ],
+  "datalex_tax_id": "00253766",
+  "news_issues": [],
+  "positives": [],
+  "confidence": "medium",
+  "notes": "Evocabank lists 'Ջեթ Սեթ ՍՊԸ' with a project at H. Abelyan st. 2/1, Yerevan. karg.am: the only active entity with this spelling is «ՋԵԹ ՍԵԹ» ՍՊԸ, TIN 00253766, reg. 11.07.2007, legal address Kentron, Dzorapi 70/3 (no address match with the project). karg shows 1 enforcement case. Inactive look-alikes: ՋԵՏ-ՍԵՏ (00895908), ՋԵԹ ՍԵԹ ԹՐԵՎԼ, ՋԵՏ ՍԵՏ ԿՈՄՊԱՆԻ, ՋԵՏ ՍԵՏ ԳՐՈՒՊ."
+ },
+ {
+  "developer": "Eliz",
+  "role": "developer",
+  "legal_entities": [
+   {
+    "name_hy": "«Էլիզ» ՍՊԸ",
+    "name_en": "Eliz LLC",
+    "tax_id": "06946587",
+    "form": "ՍՊԸ",
+    "registered_year": 2012,
+    "source_url": "https://karg.am/company/06946587"
+   }
+  ],
+  "founded_year": 2012,
+  "datalex_names": [
+   "ԷԼԻԶ"
+  ],
+  "datalex_tax_id": "06946587",
+  "news_issues": [],
+  "positives": [],
+  "confidence": "low",
+  "notes": "Byblos Bank Armenia lists 'Էլիզ ՍՊԸ' for a 10-apartment, 4-storey building at Verin Antarayin 136/11 (phone +374 55 386500); the input website is a 1SQ (1sq.info) listing, so 1SQ/Estate Investment & Development may be the project manager or sales agent. karg.am has two «ԷԼԻԶ» ՍՊԸ entities: 06946587 (active, reg. 2012, Nork-Marash, Nalbandyan 49/5 - chosen because it is active and in Yerevan) and 02800237 (inactive, Charentsavan); also «ԷԼԻԶ ՇԻՆ» ՍՊԸ (01086711, reg. 2025, Nor Nork). There is no address match, so the TIN is a best guess."
+ }
+]

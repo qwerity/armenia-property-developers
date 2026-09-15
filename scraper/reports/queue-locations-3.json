@@ -1,0 +1,19 @@
+[
+ {
+  "id": "kp-40",
+  "title": "Qanaqer Residential Complex",
+  "address": "Melik Melikyan 2/1",
+  "lat": 40.227555555555554,
+  "lng": 44.54738888888889,
+  "district": "Kanaker-Zeytun",
+  "region": "Yerevan",
+  "geo_precision": "exact",
+  "why": [
+   "sources disagree by 384 m"
+  ],
+  "sources": [
+   "https://karucapatoxic.am/en/40",
+   "https://novostroiki-yerevan.com/en/p/qanaqer-residential-complex/"
+  ]
+ }
+]

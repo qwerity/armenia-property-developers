@@ -1,0 +1,766 @@
+[
+ {
+  "developer": "ML Mining",
+  "role": "developer",
+  "legal_entities": [
+   {
+    "name_hy": "«ՄԼ ՄԱՅՆԻՆԳ» ՍՊԸ",
+    "name_en": "ML Mining LLC",
+    "tax_id": "02569362",
+    "form": "ՍՊԸ",
+    "registered_year": 2003,
+    "source_url": "https://karg.am/company/02569362?lang=hy"
+   },
+   {
+    "name_hy": "«ՄԼ ՄԱՅՆԻՆԳ ԳՐՈՒՊ» ՍՊԸ",
+    "name_en": "ML Mining Group LLC",
+    "tax_id": "00229937",
+    "form": "ՍՊԸ",
+    "registered_year": 2020,
+    "source_url": "https://karg.am/company/00229937?lang=hy"
+   },
+   {
+    "name_hy": "«ՄԼ ՄԱՅՆԻՆԳ ՔՈՆՍԹՐԱՔՇՆ» ՍՊԸ",
+    "name_en": "ML Mining Construction LLC",
+    "tax_id": "00229929",
+    "form": "ՍՊԸ",
+    "registered_year": 2020,
+    "source_url": "https://karg.am/company/00229929?lang=hy"
+   },
+   {
+    "name_hy": "«ՄԼ ՄԱՅՆԻՆԳ ԿՈՆՑԵՌՆ» ՍՊԸ",
+    "name_en": "ML Mining Concern LLC",
+    "tax_id": "00229902",
+    "form": "ՍՊԸ",
+    "registered_year": 2020,
+    "source_url": "https://karg.am/company/00229902?lang=hy"
+   }
+  ],
+  "founded_year": 2008,
+  "datalex_names": [
+   "ՄԼ ՄԱՅՆԻՆԳ",
+   "ՄԼ - ՄԱՅՆԻՆԳ",
+   "ՄԼ ՄԱՅՆԻՆԳ ՔՈՆՍԹՐԱՔՇՆ"
+  ],
+  "datalex_tax_id": "02569362",
+  "news_issues": [
+   {
+    "date": "2023-06-16",
+    "title": "«ՄԼ ՄԱՅՆԻՆԳ» ընկերության և սեփականատիրոջ մասին սուտ և կեղծ լուրեր են տարածվում. ընկերության հայտարարությունը",
+    "url": "https://www.araratnews.am/show/85128",
+    "summary": "oragir.news (15 Jun 2023) reported ML Mining and its owner were in bankruptcy proceedings; the company publicly denied it, stating owner David Hamlet Sukiasyan (since 2010) faces no bankruptcy, finances stable, and threatened legal action. No evidence found that bankruptcy proceeded."
+   }
+  ],
+  "positives": [
+   {
+    "title": "Government public-servant housing programme at Adonts 19/8 (Charagayt)",
+    "url": "https://www.arlis.am/hy/acts/165209",
+    "summary": "Government decision sets sale procedure for apartments in the multi-apartment complex ML Mining builds at Adonts 19/8 for public servants (Spyur also cites a second one at Melik Melikyan 2/1)."
+   },
+   {
+    "title": "Large taxpayer: TOP-1000 #202",
+    "url": "https://karg.am/company/02569362?lang=hy",
+    "summary": "Registered in the Large Taxpayers inspectorate; ~1.77 bn AMD taxes paid; also a major concrete/aggregate producer."
+   },
+   {
+    "title": "Ardshinbank mortgage partner page",
+    "url": "https://ardshinbank.am/for_you/ML%20mining",
+    "summary": "Ardshinbank lists ML Mining as a partner developer."
+   },
+   {
+    "title": "«ML Mining» реализует совместно с государством три крупных градостроительных проекта",
+    "url": "https://tech.news.am/rus/news/3958/ml-mining-realizuet-sovmestno-s-gosudarstvom-tri-krupniykh-gradostroitelniykh-proekta.html",
+    "summary": "Three large urban projects with the state (New Yerevan block, Avan Towers ~1,000 apartments each)."
+   }
+  ],
+  "confidence": "high",
+  "notes": "Registered spelling is ՄԼ ՄԱՅՆԻՆԳ (not «Էմ Էլ Մայնինգ» as in names.json) — Spyur page and karg.am register data match address Adonts 21/3 and director Eduard Margaryan. Brand also operates Abovyan City House (Spyur lists ML Mining as its developer). Sibling LLCs ՄԼ ՄԱՅՆԻՆԳ ԳՐՈՒՊ/ՔՈՆՍԹՐԱՔՇՆ/ԿՈՆՑԵՌՆ registered 2020 at Tbilisyan hwy 3/19 (same office); an inactive «ՄԼ - ՄԱՅՆԻՆԳ» (00126521) also exists. Karg.am 'registration date' may reflect latest re-registration; websites say founded 2008."
+ },
+ {
+  "developer": "Metrum Invest",
+  "role": "developer",
+  "legal_entities": [
+   {
+    "name_hy": "«ՄԵՏՐՈՒՄ ԻՆՎԵՍՏ» ՍՊԸ",
+    "name_en": "Metrum Invest LLC",
+    "tax_id": "02850523",
+    "form": "ՍՊԸ",
+    "registered_year": 2021,
+    "source_url": "https://karg.am/company/02850523?lang=hy"
+   },
+   {
+    "name_hy": "«ՄԵՏՐՈՒՄ ԻՆՎԵՍՏ ԳՐՈՒՊ» ՍՊԸ",
+    "name_en": "Metrum Invest Group LLC",
+    "tax_id": "02886243",
+    "form": "ՍՊԸ",
+    "registered_year": 2023,
+    "source_url": "https://karg.am/company/02886243?lang=hy"
+   },
+   {
+    "name_hy": "«ՄԵՏՐՈՒՄ ԻՆՎԵՍՏ ԳԱՐԴԵՆ» ՍՊԸ",
+    "name_en": "Metrum Invest Garden LLC",
+    "tax_id": "02954622",
+    "form": "ՍՊԸ",
+    "registered_year": null,
+    "source_url": "https://karg.am/company/02954622?lang=hy"
+   },
+   {
+    "name_hy": "«ՄԵՏՐՈՒՄ ԻՆՎԵՍՏ ՄԱՐԱՇ» ՍՊԸ",
+    "name_en": "Metrum Invest Marash LLC",
+    "tax_id": "00550702",
+    "form": "ՍՊԸ",
+    "registered_year": null,
+    "source_url": "https://karg.am/company/00550702?lang=hy"
+   }
+  ],
+  "founded_year": null,
+  "datalex_names": [
+   "ՄԵՏՐՈՒՄ ԻՆՎԵՍՏ",
+   "ՄԵՏՐՈՒՄ ԻՆՎԵՍՏ ԳՐՈՒՊ",
+   "ՄԵՏՐՈՒՄ"
+  ],
+  "datalex_tax_id": "02850523",
+  "news_issues": [],
+  "positives": [
+   {
+    "title": "Metrum Invest and PROFAL signed a memorandum of understanding",
+    "url": "https://armenpress.am/eng/news/1124190",
+    "summary": "MoU with Profal for the Tsaghkadzor aparthotel project."
+   },
+   {
+    "title": "«Մետրում Ինվեստ»-ը և «Նորք Դեվելոփմենթս»-ը ստորագրեցին համագործակցության հուշագիր",
+    "url": "https://www.1in.am/3729417.html",
+    "summary": "Cooperation memorandum with Nork Developments."
+   },
+   {
+    "title": "Metrum Invest Announces Launch of Eden Park",
+    "url": "https://www.einpresswire.com/article/780653611/metrum-invest-announces-launch-of-eden-park-a-green-residential-community-near-yerevan",
+    "summary": "Jan 2025: 120,000 m2 low-rise district in Arindj; company cites completed Antara Inn and Renet."
+   }
+  ],
+  "confidence": "medium",
+  "notes": "Brand led by director Arman Melkonyan (Spyur: «ՄԵՏՐՈՒՄ ԻՆՎԵՍՏ» կառուցապատող ընկերություն, Verin Antarayin 136/3). Uses project-specific LLCs; all six karg.am hits for ՄԵՏՐՈՒՄ are Metrum Invest variants at Antarayin 136/2-3 or G. Hovsepyan 52/4 (matches project addresses Antarayin 136/2). Also ՄԵՏՐՈՒՄ ԻՆՎԵՍՏ ՌՈՒԲԻՆՅԱՆՑ (08261731, Davtashen) and inactive ՄԵՏՐՈՒՄ ԻՆՎԵՍՏ ՊԱՐԿ (02904283). Which LLC is the primary contracting party per project unverified (site is JS-rendered). Karg.am reg dates for Garden/Marash show 2026 (likely re-registration dates). No negative news found."
+ },
+ {
+  "developer": "Bedeck Construction",
+  "role": "developer",
+  "legal_entities": [
+   {
+    "name_hy": "«ԲԻԴԵՔ» ՍՊԸ",
+    "name_en": "Bedeck LLC",
+    "tax_id": "00450801",
+    "form": "ՍՊԸ",
+    "registered_year": 2009,
+    "source_url": "https://karg.am/company/00450801?lang=hy"
+   }
+  ],
+  "founded_year": 2009,
+  "datalex_names": [
+   "ԲԻԴԵՔ",
+   "ԲԵԴԵՔ",
+   "ԲԻԴԵՔ ՇԻՆԱՐԱՐԱԿԱՆ ԸՆԿԵՐՈՒԹՅՈՒՆ"
+  ],
+  "datalex_tax_id": "00450801",
+  "news_issues": [],
+  "positives": [
+   {
+    "title": "Yerevan skate park (first in Armenia)",
+    "url": "https://www.bedeck.am/",
+    "summary": "Bedeck built Armenia's first skate park, opened 15 Nov 2021; also built new infectious-disease wing of Vanadzor Medical Center (commissioned Sept 2025)."
+   }
+  ],
+  "confidence": "high",
+  "notes": "Brand spelled «Բիդեք» in Armenian on bedeck.am and Spyur («ԲԻԴԵՔ» շինարարական ընկերություն ՍՊԸ, director Garnik Avetisyan). karg.am ԲԻԴԵՔ 00450801 registered 16.04.2009 matches '2009' founding. ԲԻԴԵՔ ԷՐԵԲՈՒՆԻ (00533652) is a condominium (համատիրություն) for the Erebuni 15/3 building, not a developer. No negative news found."
+ },
+ {
+  "developer": "Solar City",
+  "role": "developer",
+  "legal_entities": [
+   {
+    "name_hy": "«ՍՈԼԱՐ ՍԻԹԻ» ՓԲԸ",
+    "name_en": "Solar City CJSC",
+    "tax_id": "02281905",
+    "form": "ՓԲԸ",
+    "registered_year": 2019,
+    "source_url": "https://karg.am/company/02281905?lang=hy"
+   },
+   {
+    "name_hy": "«ՍՈԼԱՐ ՍԻՏԻ» ՍՊԸ",
+    "name_en": "Solar Siti LLC",
+    "tax_id": "02291562",
+    "form": "ՍՊԸ",
+    "registered_year": null,
+    "source_url": "https://karg.am/company/02291562?lang=hy"
+   }
+  ],
+  "founded_year": 2016,
+  "datalex_names": [
+   "ՍՈԼԱՐ ՍԻԹԻ",
+   "ՍՈԼԱՐ ՍԻՏԻ"
+  ],
+  "datalex_tax_id": "02281905",
+  "news_issues": [],
+  "positives": [
+   {
+    "title": "Solar City CJSC — member of the Union of Developers",
+    "url": "https://www.developers.am/en/members/?strapiId=41",
+    "summary": "Listed as a member on developers.am."
+   },
+   {
+    "title": "Energy-efficient portfolio (HATIS, Solar City Arinj townhouses, Nansen)",
+    "url": "https://www.construction.am/companies/solar-city/",
+    "summary": "Energy-saving townhouse community in Arinj and several completed apartment complexes; publishes an audit report on its site."
+   }
+  ],
+  "confidence": "high",
+  "notes": "Spyur: «ՍՈԼԱՐ ՍԻԹԻ» ՓԲԸ, director Harutyun Petrosyan, Tsitsernakaberd hwy 1/2 — same address as karg.am 02281905 (reg. date 2019 per karg, likely re-registration; brand founded 2016-2017). Sister «ՍՈԼԱՐ ՍԻՏԻ» ՍՊԸ at the same address; «ՍՈԼԱՐ ՍԻԹԻ ՍԵՐՎԻՍ» (03549331, Arinj) is likely the community's service company. No negative news found."
+ },
+ {
+  "developer": "Sahakyanshin",
+  "role": "developer",
+  "legal_entities": [
+   {
+    "name_hy": "«ՍԱՀԱԿՅԱՆՇԻՆ» ՓԲԸ",
+    "name_en": "Sahakyanshin CJSC",
+    "tax_id": "02224769",
+    "form": "ՓԲԸ",
+    "registered_year": 1999,
+    "source_url": "https://www.construction.am/arm/companies/sahakyanshin/"
+   },
+   {
+    "name_hy": "«ՍԱՀԱԿՅԱՆՇԻՆ ՓԻ-ԷՄ-ԴԻ-ՍԻ» ՍՊԸ",
+    "name_en": "Sahakyanshin PMDC LLC",
+    "tax_id": "00912825",
+    "form": "ՍՊԸ",
+    "registered_year": 2018,
+    "source_url": "https://karg.am/company/00912825?lang=hy"
+   }
+  ],
+  "founded_year": 1990,
+  "datalex_names": [
+   "ՍԱՀԱԿՅԱՆՇԻՆ",
+   "ՍԱՀԱԿՅԱՆՍՇԻՆ",
+   "ՇԻՆԱՐԱՐ-90"
+  ],
+  "datalex_tax_id": "02224769",
+  "news_issues": [
+   {
+    "date": "2024-07-25",
+    "title": "Վարկավորում «Սահակյանշին» ՓԲԸ-ին՝ առանց ստուգումների․ Հաշվեքննիչ պալատը խախտումներ է արձանագրել",
+    "url": "https://factor.am/795723.html",
+    "summary": "Audit Chamber: Ministry of Finance lent 1.6 bn AMD for the Vedi dam project without solvency audit, collateral or loan application; only 211 m AMD of work done at the time; company faced penalties >EUR 2.9 m and unclear finances."
+   },
+   {
+    "date": "2025-03-14",
+    "title": "«Սահակյանշին»-ը 5 ամիս է՝ չի վճարում աշխատակիցների աշխատավարձերը",
+    "url": "https://oragir.news/hy/material/2025/3/14/148640",
+    "summary": "Reported 5 months of unpaid wages; mentions criminal cases over financial mismanagement in state construction works; owner Suren Sahakyan (99%)."
+   },
+   {
+    "date": "2015-06-05",
+    "title": "«Սահակյանշին»-ը հաշվի չի նստում ո´չ Ֆինանսների նախարարության, ո´չ էլ իր աշխատակիցների հետ",
+    "url": "https://armlur.am/283883/",
+    "summary": "Customs-declaration fines; recurring employee complaints of unpaid wages (2012, 2014)."
+   },
+   {
+    "date": "",
+    "title": "«Սահակյանշին» ՓԲԸ աշխատակիցներն արդեն 4 ամիս է, ինչ աշխատավարձ չեն ստանում",
+    "url": "https://www.1in.am/97999.html",
+    "summary": "Earlier report of 4 months of unpaid salaries."
+   }
+  ],
+  "positives": [
+   {
+    "title": "Major state/IFI contractor since 1990",
+    "url": "https://www.construction.am/arm/companies/sahakyanshin/",
+    "summary": "Large general contractor (roads, dams, power grids) working with the RA government, World Bank, AFD, EDB; developer of New Shengavit, Panorama Dalma, Avan Wings."
+   }
+  ],
+  "confidence": "high",
+  "notes": "construction.am explicitly gives «Սահակյանշին» ՓԲԸ, ՀՎՀՀ 02224769, director Suren Sahakyan, Araratyan 117/1 (matches karg.am). Founded 1990 as «ՇԻՆԱՐԱՐ-90», later renamed. Primarily a general contractor that also develops housing. Serious financial-distress signals (Vedi dam loan audit, repeated wage arrears); no bankruptcy filing found."
+ },
+ {
+  "developer": "SMART CITY DEVELOPER",
+  "role": "developer",
+  "legal_entities": [
+   {
+    "name_hy": "«ՍՄԱՐԹ ՍԻԹԻ ԴԻՎԵԼՈՓԵՐ» ՍՊԸ",
+    "name_en": "Smart City Developer LLC",
+    "tax_id": "03561154",
+    "form": "ՍՊԸ",
+    "registered_year": 2022,
+    "source_url": "https://karg.am/company/03561154?lang=hy"
+   }
+  ],
+  "founded_year": null,
+  "datalex_names": [
+   "ՍՄԱՐԹ ՍԻԹԻ ԴԻՎԵԼՈՓԵՐ",
+   "ՍՄԱՐԹ ՍԻԹԻ"
+  ],
+  "datalex_tax_id": "03561154",
+  "news_issues": [],
+  "positives": [
+   {
+    "title": "Ameriabank/myhome.am partner listing",
+    "url": "https://myhome.am/en/building/112",
+    "summary": "Listed as developer «ՍՄԱՐԹ ՍԻԹԻ ԴԻՎԵԼՈՓԵՐ» ՍՊԸ for six completed Jrvezh buildings (49th st. 60, 38th st. 21)."
+   }
+  ],
+  "confidence": "high",
+  "notes": "myhome.am names «ՍՄԱՐԹ ՍԻԹԻ ԴԻՎԵԼՈՓԵՐ» ՍՊԸ; karg.am 03561154 registered at Jrvezh 49th st. 38 (same street as projects). Related Smart City brand (smart-city.am, Smart City 1/2 in Jrvezh/Bagrevand); other karg hits «ՍՄԱՐԹ ՍԻԹԻ» ՍՊԸ 00492214 (Nairi, Kotayk) and «ՍՄԱՐԹ ՍԻԹԻ ԳՐՈՒՓ» 00241097 (Arabkir) — link unverified. No news found (web search budget exhausted mid-run; news coverage for this and later entries limited to direct site checks)."
+ },
+ {
+  "developer": "Eryak Kapital",
+  "role": "developer",
+  "legal_entities": [
+   {
+    "name_hy": "«ԵՌՅԱԿ ԿԱՊԻՏԱԼ» ՍՊԸ",
+    "name_en": "Eryak Kapital LLC",
+    "tax_id": "04443201",
+    "form": "ՍՊԸ",
+    "registered_year": 2022,
+    "source_url": "https://karg.am/company/04443201?lang=hy"
+   }
+  ],
+  "founded_year": null,
+  "datalex_names": [
+   "ԵՌՅԱԿ ԿԱՊԻՏԱԼ"
+  ],
+  "datalex_tax_id": "04443201",
+  "news_issues": [],
+  "positives": [],
+  "confidence": "high",
+  "notes": "Only karg.am match for ԵՌՅԱԿ ԿԱՊԻՏԱԼ; registered in Vagharshapat (Mashtots 110/61), consistent with Ararat Park complex at Karjikyan 1, Vagharshapat. Unibank partner-developer listing mentioned in local data. No news found."
+ },
+ {
+  "developer": "River Side  (Riverview Dilijan)",
+  "role": "developer",
+  "legal_entities": [
+   {
+    "name_hy": "«ՐԻՎԵՐ ՍԱՅԴ» ՍՊԸ",
+    "name_en": "River Side LLC",
+    "tax_id": "07627382",
+    "form": "ՍՊԸ",
+    "registered_year": 2022,
+    "source_url": "https://karg.am/company/07627382?lang=hy"
+   }
+  ],
+  "founded_year": null,
+  "datalex_names": [
+   "ՐԻՎԵՐ ՍԱՅԴ",
+   "ՌԻՎԵՐ ՍԱՅԴ"
+  ],
+  "datalex_tax_id": "07627382",
+  "news_issues": [],
+  "positives": [],
+  "confidence": "high",
+  "notes": "Registered spelling uses Ր (ՐԻՎԵՐ ՍԱՅԴ); legal address Dilijan, Sayat-Nova 69 = project address of Riverview Dilijan. An unrelated inactive «ՌԻՎԵՌ ՍԱՅԴ» (00220192, Yerevan) exists — do not confuse. No news found."
+ },
+ {
+  "developer": "Renshin  (Artlife)",
+  "role": "developer",
+  "legal_entities": [
+   {
+    "name_hy": "«ՌԵՆՇԻՆ» ՍՊԸ",
+    "name_en": "Renshin LLC",
+    "tax_id": "02564558",
+    "form": "ՍՊԸ",
+    "registered_year": 2002,
+    "source_url": "https://karg.am/company/02564558?lang=hy"
+   },
+   {
+    "name_hy": "«ԱՐՏԼԱՅՖ ՌԵԶԻԴԵՆՍԻՍ» ՍՊԸ",
+    "name_en": "Artlife Residences LLC",
+    "tax_id": "02893299",
+    "form": "ՍՊԸ",
+    "registered_year": 2023,
+    "source_url": "https://karg.am/company/02893299?lang=hy"
+   },
+   {
+    "name_hy": "«ԱՐՏԼԱՅՖ ՓՐՈՓԵՐԹԻ ՄԵՆԵՋՄԵՆԹ» ՍՊԸ",
+    "name_en": "Artlife Property Management LLC",
+    "tax_id": "02866392",
+    "form": "ՍՊԸ",
+    "registered_year": 2022,
+    "source_url": "https://karg.am/company/02866392?lang=hy"
+   }
+  ],
+  "founded_year": null,
+  "datalex_names": [
+   "ՌԵՆՇԻՆ",
+   "ԱՐՏԼԱՅՖ ՌԵԶԻԴԵՆՍԻՍ",
+   "ԱՐՏԼԱՅՖ"
+  ],
+  "datalex_tax_id": "02564558",
+  "news_issues": [],
+  "positives": [
+   {
+    "title": "Artlife Kempinski Residences",
+    "url": "https://artlife.am/",
+    "summary": "Completed premium complex at Teryan 107, branded/serviced with Kempinski."
+   }
+  ],
+  "confidence": "high",
+  "notes": "Single karg.am ՌԵՆՇԻՆ hit (02564558) shares legal address P. Buzand 91 with «ԱՐՏԼԱՅՖ ՌԵԶԻԴԵՆՍԻՍ» and «ԱՐՏԼԱՅՖ ՓՐՈՓԵՐԹԻ ՄԵՆԵՋՄԵՆԹ», tying the group together. Inactive «ԱՐՏԼԱՅՖ» (00919643) unrelated. No news found."
+ },
+ {
+  "developer": "Norq",
+  "role": "developer",
+  "legal_entities": [],
+  "founded_year": null,
+  "datalex_names": [
+   "ՆՈՐՔ ԲՆԱԿԵԼԻ ՀԱՄԱԼԻՐ",
+   "ՆՈՐՔ"
+  ],
+  "datalex_tax_id": null,
+  "news_issues": [],
+  "positives": [
+   {
+    "title": "myhome.am (Ameriabank) listing",
+    "url": "https://myhome.am/hy/building/315",
+    "summary": "Ameriabank partner platform lists buildings at Sero Khanzadyan 131/9, 131/10, 5/5; developer shown only as 'Նորք բնակելի համալիր'."
+   }
+  ],
+  "confidence": "low",
+  "notes": "Legal entity not identified: myhome.am and karucapatoxic show only the brand 'Նորք բնակելի համալիր' (Nork-Marash, Sero Khanzadyan/Norki st. 131/10; phones +37493510008, +37411650088). karg.am search for ՆՈՐՔ ԲՆԱԿԵԼԻ ՀԱՄԱԼԻՐ / ՆՈՐՔ ՌԵԶԻԴԵՆՍ gave no matching developer (only inactive ՆՈՐՔ ՌԵԶԻԴԵՆՍ 00866162 on Moldovakan st., unlikely). hsbc.am page no longer resolves. Datalex search by brand name will be noisy."
+ },
+ {
+  "developer": "Luyser Pby",
+  "role": "developer",
+  "legal_entities": [
+   {
+    "name_hy": "«ԼՈՒՅՍԵՐ» ՓԲԸ",
+    "name_en": "Luyser CJSC",
+    "tax_id": "01291675",
+    "form": "ՓԲԸ",
+    "registered_year": 2019,
+    "source_url": "https://karg.am/company/01291675?lang=hy"
+   },
+   {
+    "name_hy": "«ԼՈՒՅՍԵՐԻ ՔԱՂԱՔ» ՓԲԸ",
+    "name_en": "Luyseri Kaghak CJSC",
+    "tax_id": "01383914",
+    "form": "ՓԲԸ",
+    "registered_year": null,
+    "source_url": "https://karg.am/company/01383914?lang=hy"
+   }
+  ],
+  "founded_year": null,
+  "datalex_names": [
+   "ԼՈՒՅՍԵՐ",
+   "ԼՈՒՅՍԵՐԻ ՔԱՂԱՔ"
+  ],
+  "datalex_tax_id": "01291675",
+  "news_issues": [],
+  "positives": [
+   {
+    "title": "Member of Armenian Association of Developers",
+    "url": "https://www.developers.am/en/members/",
+    "summary": "Luyser CJSC listed among developers.am members (per earlier dataset collection); also Byblos Bank Armenia partner."
+   }
+  ],
+  "confidence": "medium",
+  "notes": "Input variant «Լույսեր ՓԲԸ». karg.am: «ԼՈՒՅՍԵՐ» ՓԲԸ 01291675 (NACE F41.10 development, Ajapnyak Leningradyan 31) and «ԼՈՒՅՍԵՐԻ ՔԱՂԱՔ» ՓԲԸ 01383914 registered at Kirk Kerkorian (ex-Leningradyan) 23/7 bldg 3 — the Luyser complex address. Which one sells apartments unverified; common name ԼՈՒՅՍԵՐ causes many unrelated datalex hits — filter by tax ID. Karg reg. dates may be re-registration dates."
+ },
+ {
+  "developer": "AGShin",
+  "role": "developer",
+  "legal_entities": [
+   {
+    "name_hy": "«ԱԳՇԻՆ» ՍՊԸ",
+    "name_en": "AGShin LLC",
+    "tax_id": "01318376",
+    "form": "ՍՊԸ",
+    "registered_year": 2022,
+    "source_url": "https://www.construction.am/arm/companies/agshin-llc/"
+   }
+  ],
+  "founded_year": null,
+  "datalex_names": [
+   "ԱԳՇԻՆ"
+  ],
+  "datalex_tax_id": "01318376",
+  "news_issues": [],
+  "positives": [],
+  "confidence": "high",
+  "notes": "construction.am: «ԱԳՇին» ՍՊԸ, ՀՎՀՀ 01318376; karg.am legal address Yu. Fuchik 27/38 = Araks 1 project address. No news found."
+ },
+ {
+  "developer": "Teryan 5",
+  "role": "developer",
+  "legal_entities": [
+   {
+    "name_hy": "«ՏԵՐՅԱՆ 5» ՍՊԸ",
+    "name_en": "Teryan 5 LLC",
+    "tax_id": "02245671",
+    "form": "ՍՊԸ",
+    "registered_year": 2009,
+    "source_url": "https://karg.am/company/02245671?lang=hy"
+   },
+   {
+    "name_hy": "«ՏԵՐՅԱՆ 5 ՄԵՆԵՋՄԵՆԹ» ՍՊԸ",
+    "name_en": "Teryan 5 Management LLC",
+    "tax_id": "02896419",
+    "form": "ՍՊԸ",
+    "registered_year": null,
+    "source_url": "https://karg.am/company/02896419?lang=hy"
+   }
+  ],
+  "founded_year": 2009,
+  "datalex_names": [
+   "ՏԵՐՅԱՆ 5",
+   "ԹԵՐՅԱՆ 5"
+  ],
+  "datalex_tax_id": "02245671",
+  "news_issues": [],
+  "positives": [],
+  "confidence": "high",
+  "notes": "Website footer '© TERYAN 5 LLC'. karg.am «ՏԵՐՅԱՆ 5» ՍՊԸ (NACE F41.20 construction, reg. 2009); «ՏԵՐՅԱՆ 5 ՄԵՆԵՋՄԵՆԹ» at Teryan 5 is likely the building management company. Registered spelling uses Տ, not Թ. No news found."
+ },
+ {
+  "developer": "Azbuka Development RA",
+  "role": "developer",
+  "legal_entities": [
+   {
+    "name_hy": "«ԱԶԲՈՒԿԱ ԴԻՎԵԼՈՓՄԵՆԹ ՌԱ» ՍՊԸ",
+    "name_en": "Azbuka Development RA LLC",
+    "tax_id": "08254513",
+    "form": "ՍՊԸ",
+    "registered_year": 2023,
+    "source_url": "https://karg.am/company/08254513?lang=hy"
+   }
+  ],
+  "founded_year": null,
+  "datalex_names": [
+   "ԱԶԲՈՒԿԱ ԴԻՎԵԼՈՓՄԵՆԹ ՌԱ",
+   "ԱԶԲՈՒԿԱ ԴԻՎԵԼՈՓՄԵՆԹ"
+  ],
+  "datalex_tax_id": "08254513",
+  "news_issues": [],
+  "positives": [],
+  "confidence": "high",
+  "notes": "Exact karg.am match; builds Monterosso (G. Hovsepyan 52/5, Nork-Marash). Email domain azbuka.am suggests link to the Russian developer Azbuka (Азбука Жилья) group — unverified. Other ԱԶԲՈՒԿԱ entities are inactive and unrelated. No news found."
+ },
+ {
+  "developer": "Felicity Nor Nork",
+  "role": "developer",
+  "legal_entities": [
+   {
+    "name_hy": "«ԼԱՎ-ՍԱՐ» ՍՊԸ",
+    "name_en": "Lav-Sar LLC",
+    "tax_id": "02588839",
+    "form": "ՍՊԸ",
+    "registered_year": 2008,
+    "source_url": "https://www.construction.am/arm/companies/lav-sar-ltd/"
+   },
+   {
+    "name_hy": "«ՖԵԼԻՍԻԹԻ» ՍՊԸ (inactive)",
+    "name_en": "Felicity LLC",
+    "tax_id": "00224366",
+    "form": "ՍՊԸ",
+    "registered_year": null,
+    "source_url": "https://karg.am/company/00224366?lang=hy"
+   }
+  ],
+  "founded_year": 2008,
+  "datalex_names": [
+   "ԼԱՎ-ՍԱՐ",
+   "ԼԱՎ - ՍԱՐ",
+   "ՖԵԼԻՍԻԹԻ"
+  ],
+  "datalex_tax_id": "02588839",
+  "news_issues": [],
+  "positives": [
+   {
+    "title": "Felicity Davtashen (completed blocks)",
+    "url": "https://www.construction.am/apartments-in-new-developments/felicity-davtashen-3rd-block/",
+    "summary": "Lav-Sar built the multi-block Felicity complex in Davtashen (Mikoyan 25/27) before launching Felicity Nor Nork (Davit Bek 5/5)."
+   }
+  ],
+  "confidence": "high",
+  "notes": "construction.am lists Lav-Sar (founded 2008, Davtashen 3rd district 31/1, phone 010-371371) as developer of Felicity; phones +37410371371/3 and email lavsar2019@gmail.com match the input. karg.am «ԼԱՎ-ՍԱՐ» 02588839 (reg. 01.04.2008, NACE F41.20) at same address; registered spelling has hyphen (karg shows 'ԼԱՎ - ՍԱՐ'). Inactive «ՖԵԼԻՍԻԹԻ» ՍՊԸ at Mikoyan 25 was probably the Davtashen project vehicle. No news found."
+ },
+ {
+  "developer": "Malkhasyanshin",
+  "role": "developer",
+  "legal_entities": [
+   {
+    "name_hy": "«ՄԱԼԽԱՍՅԱՆՇԻՆ» ՍՊԸ",
+    "name_en": "Malkhasyanshin LLC",
+    "tax_id": "01263123",
+    "form": "ՍՊԸ",
+    "registered_year": 2014,
+    "source_url": "https://www.construction.am/arm/companies/malkhasyanshin/"
+   }
+  ],
+  "founded_year": 2014,
+  "datalex_names": [
+   "ՄԱԼԽԱՍՅԱՆՇԻՆ"
+  ],
+  "datalex_tax_id": "01263123",
+  "news_issues": [],
+  "positives": [],
+  "confidence": "high",
+  "notes": "construction.am gives «Մալխասյանշին» ՍՊԸ, ՀՎՀՀ 01263123 (founded 2014); unique karg.am match. Project Melkumov 46 (Smart Plaza). No news found."
+ },
+ {
+  "developer": "Anur",
+  "role": "developer",
+  "legal_entities": [
+   {
+    "name_hy": "«ԱՆՈՒՐ» ՍՊԸ",
+    "name_en": "Anur LLC",
+    "tax_id": "01532211",
+    "form": "ՍՊԸ",
+    "registered_year": 1999,
+    "source_url": "https://karg.am/company/01532211?lang=hy"
+   }
+  ],
+  "founded_year": 1999,
+  "datalex_names": [
+   "ԱՆՈՒՐ"
+  ],
+  "datalex_tax_id": "01532211",
+  "news_issues": [],
+  "positives": [],
+  "confidence": "medium",
+  "notes": "construction.am: Anur, founded 1999, office Leo st. 1 (project 'Anur · Leo 1'), email anuranurltd. karg.am «ԱՆՈՒՐ» ՍՊԸ 01532211 registered 03.03.1999 (Sayat-Nova 15) — founding year matches; tax ID not shown on construction.am so link is inferred. Short common name → many datalex false positives (ԱՆՈՒՐՋ etc.); filter by tax ID. No news found."
+ },
+ {
+  "developer": "As Concern",
+  "role": "developer",
+  "legal_entities": [
+   {
+    "name_hy": "«ԱՍ ԿՈՆՑԵՌՆ» ՍՊԸ",
+    "name_en": "AS Concern LLC",
+    "tax_id": "00234017",
+    "form": "ՍՊԸ",
+    "registered_year": 2021,
+    "source_url": "https://karg.am/company/00234017?lang=hy"
+   }
+  ],
+  "founded_year": 2021,
+  "datalex_names": [
+   "ԱՍ ԿՈՆՑԵՌՆ",
+   "ԷՅ ԷՍ ԿՈՆՑԵՌՆ"
+  ],
+  "datalex_tax_id": "00234017",
+  "news_issues": [],
+  "positives": [],
+  "confidence": "high",
+  "notes": "construction.am: founded 2021, Azatutyan ave. 1/18 — identical to karg.am «ԱՍ ԿՈՆՑԵՌՆ» 00234017 legal address and reg. year. Project Ulnetsi 45/5 (Zeytun Plaza). No news found."
+ },
+ {
+  "developer": "Double V Construct (Armenia Garden)",
+  "role": "developer",
+  "legal_entities": [
+   {
+    "name_hy": "«ԴԱԲԼ ՎԻ ՔՈՆՍԹՐԱՔԹ» ՍՊԸ",
+    "name_en": "Double V Construct LLC",
+    "tax_id": "04213135",
+    "form": "ՍՊԸ",
+    "registered_year": null,
+    "source_url": "https://karg.am/company/04213135?lang=hy"
+   }
+  ],
+  "founded_year": null,
+  "datalex_names": [
+   "ԴԱԲԼ ՎԻ ՔՈՆՍԹՐԱՔԹ",
+   "ԴԱԲԼ ՎԻ ԿՈՆՍՏՐՈՒԿՏ"
+  ],
+  "datalex_tax_id": "04213135",
+  "news_issues": [],
+  "positives": [],
+  "confidence": "high",
+  "notes": "Website title 'Double V — Construct LLC'; karg.am «ԴԱԲԼ ՎԻ ՔՈՆՍԹՐԱՔԹ» 04213135 registered at Kotayk, Zar/Akunk community block 275 plots 1-5 — the Armenia Garden site (Akunk block 275, near Abovyan). Karg shows reg. date 2001, which looks like a re-used/old registry record; treat year as unreliable. Buildings due 2026-2029 (sold via Ameriabank/myhome). No news found."
+ },
+ {
+  "developer": "Arm construct",
+  "role": "developer",
+  "legal_entities": [
+   {
+    "name_hy": "«ԱՐՄ ԿՈՆՍՏՐԱԿՏ» ՍՊԸ",
+    "name_en": "Arm Construct LLC",
+    "tax_id": "02688892",
+    "form": "ՍՊԸ",
+    "registered_year": 2018,
+    "source_url": "https://www.construction.am/arm/companies/arm-construct/"
+   },
+   {
+    "name_hy": "«ԱՐՄ ԿՈՆՍՏՐԱԿՏ 1» ՍՊԸ",
+    "name_en": "Arm Construct 1 LLC",
+    "tax_id": "01273185",
+    "form": "ՍՊԸ",
+    "registered_year": 2016,
+    "source_url": "https://karg.am/company/01273185?lang=hy"
+   }
+  ],
+  "founded_year": 2018,
+  "datalex_names": [
+   "ԱՐՄ ԿՈՆՍՏՐԱԿՏ",
+   "ԱՐՄ ԿՈՆՍՏՐԱԿՏ 1",
+   "ԱՐՄ ՔՈՆՍԹՐԱՔԹ"
+  ],
+  "datalex_tax_id": "02688892",
+  "news_issues": [],
+  "positives": [
+   {
+    "title": "Portfolio: Arabkir 25/17 delivered, several active projects",
+    "url": "https://armconstruct.am/",
+    "summary": "First project Arabkir 25 st. bldg 17 delivered ahead of schedule; active Five Towers (G. Chaush 95), Atlantis Yerevan/Prime, Komitas 60, Zoravar Andranik, Davit Bek 290."
+   }
+  ],
+  "confidence": "medium",
+  "notes": "construction.am: «Արմ Կոնստրակտ» ՍՊԸ, founded 2018, ՀՎՀՀ beginning 026… → karg.am 02688892 (reg. 11.12.2018). Earlier dataset also mentions 'Arm Construct 1 LLC' → «ԱՐՄ ԿՈՆՍՏՐԱԿՏ 1» 01273185 (Shengavit). karg hits «ԱՐՄ - ԿՈՆՍՏՐԱԿՏ» 00245039 (Arabkir 25/17) and «ԱՐՄ ԿՈՆՍՏՐԱԿՏ» 08312863 (Komitas 60/3) are condominiums (համատիրություն) of its buildings, not the developer; «ԱՐՄ ՔՈՆՍԹՐԱՔԹ» 04466927 (Artimet) unrelated. Which LLC contracts Five Towers unverified. No news found."
+ },
+ {
+  "developer": "D․a․g․ Kynstrakshn Apy",
+  "role": "developer",
+  "legal_entities": [
+   {
+    "name_hy": "«Դ.Ա.Գ. ՔԸՆՍԹՐԱՔՇՆ» ՍՊԸ",
+    "name_en": "D.A.G. Construction LLC",
+    "tax_id": "01032371",
+    "form": "ՍՊԸ",
+    "registered_year": 2021,
+    "source_url": "https://karg.am/company/01032371?lang=hy"
+   }
+  ],
+  "founded_year": null,
+  "datalex_names": [
+   "Դ.Ա.Գ. ՔԸՆՍԹՐԱՔՇՆ",
+   "ԴԱԳ ՔԸՆՍԹՐԱՔՇՆ",
+   "Դ.Ա.Գ ՔԸՆՍԹՐԱՔՇՆ"
+  ],
+  "datalex_tax_id": "01032371",
+  "news_issues": [],
+  "positives": [],
+  "confidence": "high",
+  "notes": "ar-go.am project page: developer «Դ․Ա․Գ․ ՔԸՆՍԹՐԱՔՇՆ» (form printed as 'ԱՊԸ', a typo for ՍՊԸ), contractor «ՆԱՎԱՍԱՐԴ ՇԻՆ» ՍՊԸ, escrow/bank Fast Bank, construction 31.01.2025–31.01.2029, Shen Tanik (Avan-Arinj, P. Sevak district 17th st.). karg.am «Դ.Ա.Գ. ՔԸՆՍԹՐԱՔՇՆ» 01032371, NACE F41.20. Datalex may store dots differently (Armenian '․' vs '.'), try without dots. No news found."
+ },
+ {
+  "developer": "Solid Projects",
+  "role": "developer",
+  "legal_entities": [
+   {
+    "name_hy": "«ՍՈԼԻԴ ՓՐՈՋԵՔԹՍ» ՍՊԸ (inactive)",
+    "name_en": "Solid Projects LLC",
+    "tax_id": "02882791",
+    "form": "ՍՊԸ",
+    "registered_year": null,
+    "source_url": "https://karg.am/company/02882791?lang=hy"
+   }
+  ],
+  "founded_year": null,
+  "datalex_names": [
+   "ՍՈԼԻԴ ՓՐՈՋԵՔԹՍ",
+   "ՍՈԼԻԴ ՓՐՈՋԵԿՏՍ",
+   "ՍՈԼԻԴ ՓՐՈՋԵՔԹ"
+  ],
+  "datalex_tax_id": "02882791",
+  "news_issues": [],
+  "positives": [],
+  "confidence": "low",
+  "notes": "construction.am (Solid Projects, Ler Kamsar 30/3, 011-701122, info@solidproject.am; website offline) gives no tax ID. Only name match on karg.am is «ՍՈԼԻԴ ՓՐՈՋԵՔԹՍ» 02882791, status inactive, address Antarayin 120/14 — address differs, so link is unconfirmed. Possibly the project (Dream Family Townhouses, G-1 district Ajapnyak, completed 2024) was run through a differently named LLC. No news found."
+ }
+]

@@ -1,0 +1,299 @@
+[
+ {
+  "developer": "RUTSOG INVEST",
+  "name_variants": [
+   "RUTSOG INVEST"
+  ],
+  "projects": 1,
+  "stages": {
+   "in progress": 1
+  },
+  "website": "https://parajanov.am/",
+  "sample_projects": [
+   "Parajanov Club House"
+  ],
+  "reason": "low-confidence research"
+ },
+ {
+  "developer": "Venni Group",
+  "name_variants": [
+   "Venni Group"
+  ],
+  "projects": 3,
+  "stages": {
+   "finished": 3
+  },
+  "website": "http://www.vennigroup.am",
+  "sample_projects": [
+   "Antarayin Residential Complex",
+   "Venni Group",
+   "Hahah Doni, 2/2"
+  ],
+  "reason": "low-confidence research"
+ },
+ {
+  "developer": "ASR Construction Company",
+  "name_variants": [
+   "ASR Construction Company"
+  ],
+  "projects": 1,
+  "stages": {
+   "in progress": 1
+  },
+  "website": "https://www.construction.am/companies/asr-construction-company/",
+  "sample_projects": [
+   "ASR Construction Company · Acharyan 43/20"
+  ],
+  "reason": "low-confidence research"
+ },
+ {
+  "developer": "Bars Real Estate Agency",
+  "name_variants": [
+   "Bars Real Estate Agency"
+  ],
+  "projects": 3,
+  "stages": {
+   "finished": 3
+  },
+  "website": "https://www.construction.am/companies/bars-real-estate-agency/",
+  "sample_projects": [
+   "Bars Real Estate Agency · Nor Silikyan District",
+   "Bars Real Estate Agency · Antarayin",
+   "Bars Real Estate Agency · Eco House"
+  ],
+  "reason": "low-confidence research"
+ },
+ {
+  "developer": "Club House Yerevan",
+  "name_variants": [
+   "Club House Yerevan"
+  ],
+  "projects": 1,
+  "stages": {
+   "in progress": 1
+  },
+  "website": null,
+  "sample_projects": [
+   "Club House Yerevan"
+  ],
+  "reason": "low-confidence research"
+ },
+ {
+  "developer": "Solid Projects",
+  "name_variants": [
+   "Solid Projects"
+  ],
+  "projects": 1,
+  "stages": {
+   "finished": 1
+  },
+  "website": "https://www.construction.am/companies/solid-projects/",
+  "sample_projects": [
+   "Solid Projects · G-1 Dist. Dream Family Townhouses"
+  ],
+  "reason": "low-confidence research"
+ },
+ {
+  "developer": "Nest House",
+  "name_variants": [
+   "Nest House"
+  ],
+  "projects": 1,
+  "stages": {
+   "finished": 1
+  },
+  "website": "https://www.construction.am/companies/nest-house/",
+  "sample_projects": [
+   "Nest House · Nest House"
+  ],
+  "reason": "low-confidence research"
+ },
+ {
+  "developer": "Kanach Tagh",
+  "name_variants": [
+   "Kanach Tagh"
+  ],
+  "projects": 1,
+  "stages": {
+   "finished": 1
+  },
+  "website": "https://www.construction.am/companies/kanach-tagh/",
+  "sample_projects": [
+   "Kanach Tagh · Acharyan 37/27"
+  ],
+  "reason": "low-confidence research"
+ },
+ {
+  "developer": "Dream House",
+  "name_variants": [
+   "Dream House"
+  ],
+  "projects": 1,
+  "stages": {
+   "finished": 1
+  },
+  "website": "https://www.construction.am/companies/dream-house/",
+  "sample_projects": [
+   "Dream House · David Bek"
+  ],
+  "reason": "low-confidence research"
+ },
+ {
+  "developer": "Parklife Eco Residency",
+  "name_variants": [
+   "Parklife Eco Residency"
+  ],
+  "projects": 1,
+  "stages": {
+   "in progress": 1
+  },
+  "website": "https://parklife.am/",
+  "sample_projects": [
+   "Parklife Eco Residency"
+  ],
+  "reason": "low-confidence research"
+ },
+ {
+  "developer": "House Construction  (LA Yeghvard)",
+  "name_variants": [
+   "House Construction  (LA Yeghvard)"
+  ],
+  "projects": 1,
+  "stages": {
+   "in progress": 1
+  },
+  "website": "https://layeghvard.am/",
+  "sample_projects": [
+   "Los Angeles Yeghvard Townhouses"
+  ],
+  "reason": "low-confidence research"
+ },
+ {
+  "developer": "City Nest Property Management (sales agent)",
+  "name_variants": [
+   "City Nest Property Management (sales agent)"
+  ],
+  "projects": 6,
+  "stages": {
+   "just started": 1,
+   "finished": 3,
+   "in progress": 1,
+   "unknown": 1
+  },
+  "website": "https://citynest.am/en",
+  "sample_projects": [
+   "Milano Firenze Towers",
+   "Only One Residential Complex",
+   "Mountain Village Dilijan",
+   "TM Tower",
+   "Nor Etch Residential",
+   "Etchmiadzin 11/4 Business Center"
+  ],
+  "reason": "low-confidence research"
+ },
+ {
+  "developer": "Mashtots Residence",
+  "name_variants": [
+   "Mashtots Residence"
+  ],
+  "projects": 1,
+  "stages": {
+   "in progress": 1
+  },
+  "website": null,
+  "sample_projects": [
+   "Mashtots  26"
+  ],
+  "reason": "low-confidence research"
+ },
+ {
+  "developer": "Elite Build",
+  "name_variants": [
+   "Elite Build"
+  ],
+  "projects": 1,
+  "stages": {
+   "in progress": 1
+  },
+  "website": null,
+  "sample_projects": [
+   "Elite Build · Mkhitar Heratsi Street 9/10"
+  ],
+  "reason": "low-confidence research"
+ },
+ {
+  "developer": "BEST MASIS",
+  "name_variants": [
+   "BEST MASIS"
+  ],
+  "projects": 1,
+  "stages": {
+   "in progress": 1
+  },
+  "website": "https://arcsisrealty.com/",
+  "sample_projects": [
+   "BEST MASIS · Azatamartikner Street 41"
+  ],
+  "reason": "low-confidence research"
+ },
+ {
+  "developer": "CAVEMAN RESIDENCE",
+  "name_variants": [
+   "CAVEMAN RESIDENCE"
+  ],
+  "projects": 1,
+  "stages": {
+   "in progress": 1
+  },
+  "website": null,
+  "sample_projects": [
+   "CAVEMAN RESIDENCE · Orjonikidze 83/1 1"
+  ],
+  "reason": "low-confidence research"
+ },
+ {
+  "developer": "Micro-district 318",
+  "name_variants": [
+   "Micro-district 318"
+  ],
+  "projects": 1,
+  "stages": {
+   "in progress": 1
+  },
+  "website": null,
+  "sample_projects": [
+   "Micro-district 318 · Telman Manukyan Street 318"
+  ],
+  "reason": "low-confidence research"
+ },
+ {
+  "developer": "Dream Ston",
+  "name_variants": [
+   "Dream Ston"
+  ],
+  "projects": 1,
+  "stages": {
+   "finished": 1
+  },
+  "website": null,
+  "sample_projects": [
+   "Drim Ston Rezidens"
+  ],
+  "reason": "low-confidence research"
+ },
+ {
+  "developer": "MAGAS  (EE)",
+  "name_variants": [
+   "MAGAS  (EE)"
+  ],
+  "projects": 1,
+  "stages": {
+   "finished": 1
+  },
+  "website": null,
+  "sample_projects": [
+   "MAGAS LLC (EE)"
+  ],
+  "reason": "low-confidence research"
+ }
+]

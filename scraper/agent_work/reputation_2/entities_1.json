@@ -1,0 +1,733 @@
+[
+ {
+  "developer": "Archicon",
+  "role": "developer",
+  "legal_entities": [
+   {
+    "name_hy": "«Արշիքոն» ՍՊԸ",
+    "name_en": "Archicon LLC",
+    "tax_id": "00091549",
+    "form": "ՍՊԸ",
+    "registered_year": 2005,
+    "source_url": "https://karg.am/company/00091549"
+   }
+  ],
+  "founded_year": 2005,
+  "datalex_names": [
+   "Արշիքոն",
+   "Արխիկոն"
+  ],
+  "tax_id_for_search": "00091549",
+  "news_issues": [],
+  "positives": [
+   {
+    "title": "Archicon portfolio: 30+ completed/ongoing projects since 2015",
+    "url": "https://www.archicon.am/portfolio",
+    "summary": "Self-reported portfolio of residential buildings in Arabkir/Kentron (Zarubyan 38, Verin Antarayin 174/2, Arabkir 39th St 25-27, etc.), full design-build delivery."
+   }
+  ],
+  "confidence": "high",
+  "notes": "TIN 00091549 on website footer/Terms ('Legal entity number') and construction.am (TIN). Registry mirror karg.am (source e-register): «ԱՐՇԻՔՈՆ» ՍՊԸ, registered 08.09.2005, legal address Sose 28, Arabkir (matches its Sose project); brand says 'active since 2015'. Contact Arlen Shaverdi. Same phone/email also used on the Akva-Len Shin Charents 76/5 listing (Archicon as designer/contractor). No negative news found."
+ },
+ {
+  "developer": "Elitar Shin",
+  "role": "developer",
+  "legal_entities": [
+   {
+    "name_hy": "«Էլիտար Շին» ՍՊԸ",
+    "name_en": "Elitar Shin LLC",
+    "tax_id": "02673158",
+    "form": "ՍՊԸ",
+    "registered_year": 2018,
+    "source_url": "https://karg.am/company/02673158"
+   },
+   {
+    "name_hy": "«Էլիտար Շին Գրուպ» ՍՊԸ",
+    "name_en": "Elitar Shin Group LLC",
+    "tax_id": "01207703",
+    "form": "ՍՊԸ",
+    "registered_year": null,
+    "source_url": "https://karg.am/company/01207703"
+   }
+  ],
+  "founded_year": 2018,
+  "datalex_names": [
+   "Էլիտար Շին",
+   "Էլիտար Շին Գրուպ"
+  ],
+  "tax_id_for_search": "02673158",
+  "news_issues": [
+   {
+    "date": "2021-01-21",
+    "title": "SRC notice: administrative proceeding to collect unpaid tax obligations of «ԷԼԻՏԱՐ ՇԻՆ» ՍՊԸ (ՀՎՀՀ 02673158)",
+    "url": "https://personal-legal-old.azdarar.am/announcments/org/457/00804864/",
+    "summary": "State Revenue Committee electronic notice on azdarar.am about enforcement of unpaid taxes; routine tax-collection notice, amount not shown."
+   }
+  ],
+  "positives": [
+   {
+    "title": "Listed as Unibank partner developer ('apartment from developer' program)",
+    "url": "https://www.unibank.am/hy/service/const/",
+    "summary": "Appears in Unibank's list of construction partners (search result match; mortgage partnership)."
+   },
+   {
+    "title": "Bagrevand Residence (Jrvezh) commissioned; Bagrevand Residence 2 under construction",
+    "url": "https://karucapatoxic.am/en/190",
+    "summary": "Company founded 2018, also runs a concrete mortar center in Jrvezh; exclusive sales via D.G.A. Realty."
+   }
+  ],
+  "confidence": "high",
+  "notes": "myhome.am names developer 'ԷԼԻՏԱՐ ՇԻՆ ՍՊԸ' (Jrvezh 17th st). karg.am registry mirror: «ԷԼԻՏԱՐ ՇԻՆ» TIN 02673158, reg 15.02.2018, Jrvezh 17th st 8, construction NACE. Related (same street) «ԷԼԻՏԱՐ ՇԻՆ ԳՐՈՒՊ» TIN 01207703 (karg shows reg date 1996, doubtful) — relation unverified. Input contacts belong to sales agent D.G.A. Realty."
+ },
+ {
+  "developer": "MGE Construction",
+  "role": "developer",
+  "legal_entities": [
+   {
+    "name_hy": "«Էմ Ջի Ի Քոնսթրաքշն» ՍՊԸ",
+    "name_en": "MGE Construction LLC",
+    "tax_id": null,
+    "form": "ՍՊԸ",
+    "registered_year": null,
+    "source_url": "https://www.spyur.am/en/companies/mge-construction/52191/"
+   }
+  ],
+  "founded_year": null,
+  "datalex_names": [
+   "Էմ Ջի Ի Քոնսթրաքշն",
+   "ՄԳԷ Քոնսթրաքշն",
+   "Էմ Ջի Է Քոնսթրաքշն"
+  ],
+  "tax_id_for_search": null,
+  "news_issues": [],
+  "positives": [
+   {
+    "title": "Mia Town (195 apts) and Mia Residence (210 apts) under construction",
+    "url": "https://mge.am/projects.php?id=1&lang=en",
+    "summary": "Mid-size portfolio near Isakov Ave; Spyur lists company as residential developer (added 2023)."
+   }
+  ],
+  "confidence": "medium",
+  "notes": "Spyur: 'MGE CONSTRUCTION' LLC, Mashtots Ave 54, Yerevan; site footer '© 2026 MGE Construction LLC'. Armenian spelling 'ԷՄ ՋԻ Ի ՔՈՆՍԹՐԱՔՇՆ ՍՊԸ' from bizratings.online listing title (search result only, page not fetchable). TIN not found. No negative news found."
+ },
+ {
+  "developer": "Bars Real Estate Agency",
+  "role": "sales agent",
+  "legal_entities": [
+   {
+    "name_hy": "«Բարս» անշարժ գույքի ընկերություն ՍՊԸ",
+    "name_en": "BARS Real Estate Company LLC",
+    "tax_id": null,
+    "form": "ՍՊԸ",
+    "registered_year": 1996,
+    "source_url": "https://www.yell.am/bars-llc-bars-real-estate-agency-10857"
+   },
+   {
+    "name_hy": "«Կոմֆորտ Բիլդ» ՍՊԸ",
+    "name_en": "Comfort Build LLC",
+    "tax_id": "01033691",
+    "form": "ՍՊԸ",
+    "registered_year": 2022,
+    "source_url": "https://karg.am/company/01033691"
+   }
+  ],
+  "founded_year": 1996,
+  "datalex_names": [
+   "Բարս անշարժ գույքի ընկերություն",
+   "Բարս",
+   "Կոմֆորտ Բիլդ"
+  ],
+  "tax_id_for_search": null,
+  "news_issues": [],
+  "positives": [
+   {
+    "title": "Real estate agency operating since 1996",
+    "url": "https://www.construction.am/companies/bars-real-estate-agency/",
+    "summary": "Long-standing Yerevan brokerage (Baghramyan Ave); listed three finished projects it markets."
+   }
+  ],
+  "confidence": "low",
+  "notes": "Bars is a brokerage (sales agent), not the builder. Nor Silikyan district is marketed on comfortbuild.am — registry mirror karg.am has «ԿՈՄՖՈՐՏ ԲԻԼԴ» ՍՊԸ TIN 01033691 (reg 09.02.2022, Nor Nork) as likely developer (name match only). Dream House (Antarayin) is linked to 1-sq.am, Eco House (Nor Nork) developer unknown. Bars' own TIN not found (karg fuzzy search failed)."
+ },
+ {
+  "developer": "Tigran Mets Group (Shinas )",
+  "role": "developer",
+  "legal_entities": [
+   {
+    "name_hy": "«Շինաս» ՍՊԸ",
+    "name_en": "Shinas LLC",
+    "tax_id": "01299874",
+    "form": "ՍՊԸ",
+    "registered_year": 2020,
+    "source_url": "https://karg.am/company/01299874"
+   },
+   {
+    "name_hy": "«Թի Էմ Թաուեր» (brand/entity for TM Tower)",
+    "name_en": "TM Tower",
+    "tax_id": null,
+    "form": "",
+    "registered_year": null,
+    "source_url": "https://myhome.am/en/building/181"
+   }
+  ],
+  "founded_year": 2020,
+  "datalex_names": [
+   "Շինաս",
+   "Թի Էմ Թաուեր",
+   "Տիգրան Մեծ Գրուպ"
+  ],
+  "tax_id_for_search": "01299874",
+  "news_issues": [
+   {
+    "date": "2026-09-04",
+    "title": "Competition and Consumer Protection Commission fined «Շինաս» ՍՊԸ AMD 15,272,000 over Tigran Mets building",
+    "url": "https://factor.am/1058035.html",
+    "summary": "Commission found consumer-rights violations at Kirk Kerkorian 27/7: SCHUCO windows not installed, promised road access to Monte Melkonyan St not provided, no 24/7 security/concierge, unlawful clauses in handover acts; ordered compensation to apartment owners. Also https://a1plus.am/hy/article/506582 and https://www.aravot.am/2026/09/04/1578027/."
+   },
+   {
+    "date": "2026-01-31",
+    "title": "Tigran Mets residents sue developer, claiming millions of AMD",
+    "url": "https://tert.am/am/news/2026/01/31/tigran-mec-building/4258795",
+    "summary": "Tert.am report (title via search result) that residents of the complex filed court claims against the developer."
+   },
+   {
+    "date": "2025",
+    "title": "Hetq: 'Where are the green yard, pool and road? Developer failed its promises'",
+    "url": "https://hetq.am/hy/article/174736",
+    "summary": "400-apartment complex promised for Dec 2023 not commissioned; permit deadline (Jul 2024) passed; defects (falling tiles, burst pipes, cracks); no completion act applied for. Sole owner Tigran Robert Nazaryan; his other firm «Շինպլյուս» ՍՊԸ (asphalt/road works) was placed on the public-procurement blacklist on 30.10.2024."
+   }
+  ],
+  "positives": [
+   {
+    "title": "Ameriabank partner bank for Tigran Mets complex",
+    "url": "https://tigranmetsresidence.am/",
+    "summary": "Project site lists Ameriabank CJSC as partner mortgage bank."
+   }
+  ],
+  "confidence": "high",
+  "notes": "myhome.am: developer 'Շինաս ՍՊԸ' for Kirk Kerkorian 27/7 (Tigran Mets). karg.am: «ՇԻՆԱՍ» TIN 01299874, reg 11.02.2020, Ashtaraki khchughi 47/18, 15 compulsory enforcement (DAHK) proceedings listed. TM Tower (Tsitsernakaberd 11/1A) listed on myhome.am under developer 'Թի Էմ Թաուեր' (tmr.am, same sales phones) — entity not found in registry mirror. SERIOUS: consumer-protection fine, residents' lawsuits, delayed/unaccepted building. Owner-related: Shinplyus on procurement blacklist."
+ },
+ {
+  "developer": "HAEKSHIN Construction (ANPP Construction)",
+  "role": "developer",
+  "legal_entities": [
+   {
+    "name_hy": "«ՀԱԷԿ-ի շինարարություն» ՓԲԸ",
+    "name_en": "ANPP Construction CJSC (HAEKSHIN)",
+    "tax_id": "04412536",
+    "form": "ՓԲԸ",
+    "registered_year": 1999,
+    "source_url": "https://www.construction.am/companies/haek-i-shinararutyun-cjsc/"
+   }
+  ],
+  "founded_year": 1969,
+  "datalex_names": [
+   "ՀԱԷԿ-ի շինարարություն",
+   "ՀԱԷԿ-Ի ՇԻՆԱՐԱՐՈՒԹՅՈՒՆ",
+   "Հայկական ատոմային էլեկտրակայանի շինարարություն"
+  ],
+  "tax_id_for_search": "04412536",
+  "news_issues": [],
+  "positives": [
+   {
+    "title": "Historic builder of Armenian NPP (since 1969); completed Bridgeview 22-storey, 158-apartment complex",
+    "url": "https://www.redinvest.am/en/developers/bnakarankarucapatoxic-bridgeview",
+    "summary": "Large established contractor/developer; also general contractor for G. Nzhdeh 15/1 (client Vishka LLC)."
+   }
+  ],
+  "confidence": "high",
+  "notes": "construction.am: '\"ANPP Construction\" CJSC, TIN 04412536', director Ashot Vardanyan, Sharur 36/2. karg.am: «ՀԱԷԿ-Ի ՇԻՆԱՐԱՐՈՒԹՅՈՒՆ» ՓԲԸ, reg 13.12.1999, legal address Metsamor; karg AI summary mentions 4 court cases (not reviewed). For Nzhdeh 15/1 it is contractor, developer is Vishka LLC. News search limited (web-search quota exhausted mid-run)."
+ },
+ {
+  "developer": "Ember",
+  "role": "developer",
+  "legal_entities": [
+   {
+    "name_hy": "«Արկադա Քոնսթրաքշն» ՍՊԸ",
+    "name_en": "Arcada Construction LLC",
+    "tax_id": "01523821",
+    "form": "ՍՊԸ",
+    "registered_year": 1999,
+    "source_url": "https://karg.am/company/01523821"
+   }
+  ],
+  "founded_year": 1999,
+  "datalex_names": [
+   "Արկադա Քոնսթրաքշն",
+   "Էմբեր",
+   "Արկադա"
+  ],
+  "tax_id_for_search": "01523821",
+  "news_issues": [],
+  "positives": [
+   {
+    "title": "Arcada Construction: long-running Yerevan builder (registered 1999)",
+    "url": "https://www.arcada.am/",
+    "summary": "Ember (Monte Melkonyan 24, 320 apartments in 2 buildings) marketed via arcada.am; company site references prior sold apartments from Arcada Construction LLC."
+   }
+  ],
+  "confidence": "medium",
+  "notes": "'Ember' is a project brand; myhome.am lists developer as 'Էմբեր' with sales@arcada.am / arcada.am contacts. arcada.am text names «Արկադա Քոնսթրաքշն» ՍՊԸ (office Davtashen 2nd block 17/14). karg.am: «ԱՐԿԱԴԱ ՔՈՆՍԹՐԱՔՇՆ» TIN 01523821, reg 27.09.1999, Griboyedov 17 Arabkir; 2 DAHK enforcement proceedings shown. No registered 'Էմբեր' LLC found — a project SPV may exist."
+ },
+ {
+  "developer": "RUTSOG INVEST",
+  "role": "unknown",
+  "legal_entities": [
+   {
+    "name_hy": "«Ռուցոգ-Ինվեստ» ՍՊԸ",
+    "name_en": "Rutsog-Invest LLC",
+    "tax_id": "01005709",
+    "form": "ՍՊԸ",
+    "registered_year": 2006,
+    "source_url": "https://karg.am/company/01005709"
+   },
+   {
+    "name_hy": "",
+    "name_en": "RID LLC (developer per construction.am)",
+    "tax_id": null,
+    "form": "ՍՊԸ",
+    "registered_year": null,
+    "source_url": "https://www.construction.am/apartments-in-new-developments/norakaruyc-bnakaran-kentronum-parajanov-club-house/"
+   },
+   {
+    "name_hy": "",
+    "name_en": "RIK LLC (main contractor per construction.am)",
+    "tax_id": null,
+    "form": "ՍՊԸ",
+    "registered_year": null,
+    "source_url": "https://www.construction.am/apartments-in-new-developments/norakaruyc-bnakaran-kentronum-parajanov-club-house/"
+   }
+  ],
+  "founded_year": null,
+  "datalex_names": [
+   "Ռուցոգ-Ինվեստ",
+   "Ռուցոգ Ինվեստ",
+   "Ռ Ի Դ",
+   "Ռ Ի Կ"
+  ],
+  "tax_id_for_search": null,
+  "news_issues": [],
+  "positives": [],
+  "confidence": "low",
+  "notes": "construction.am project card for Parajanov Club House (Paronyan 15/5): Developer 'RID LLC', Designer 'Rutsog Invest', Main Contractor 'RIK LLC', construction Dec 2022-Dec 2026. The only registry match karg.am «ՌՈՒՑՈԳ-ԻՆՎԵՍՏ» ՍՊԸ TIN 01005709 (reg 2006, Mamikonyants 6) is marked INACTIVE — likely not the current entity; RID/RIK Armenian names not found. Russian phone on site suggests Russian-Armenian investors. No news found (news-site searches only)."
+ },
+ {
+  "developer": "Librate Construction Company",
+  "role": "developer",
+  "legal_entities": [
+   {
+    "name_hy": "«Լիբրեյթ» ՍՊԸ",
+    "name_en": "Librate LLC",
+    "tax_id": "00040337",
+    "form": "ՍՊԸ",
+    "registered_year": 1997,
+    "source_url": "https://karg.am/company/00040337"
+   }
+  ],
+  "founded_year": 1997,
+  "datalex_names": [
+   "Լիբրեյթ",
+   "Լիբրեյթ Կոնստրուկցիա"
+  ],
+  "tax_id_for_search": "00040337",
+  "news_issues": [],
+  "positives": [
+   {
+    "title": "Completed Nairi Zaryan 140 residential building (2023)",
+    "url": "https://www.construction.am/apartments-in-new-developments/arabkir-nairi-zaryan-140/",
+    "summary": "Company active since 1997 per construction.am."
+   }
+  ],
+  "confidence": "high",
+  "notes": "karg.am: «ԼԻԲՐԵՅԹ» ՍՊԸ TIN 00040337, reg 17.07.1997, legal address N. Zaryan 140 Arabkir — identical to the project address and to construction.am 'Since 1997'. Office Azatutyan Ave 24/1."
+ },
+ {
+  "developer": "Akva-Len Shin",
+  "role": "developer",
+  "legal_entities": [
+   {
+    "name_hy": "«Ակվա-Լեն Շին» ՍՊԸ",
+    "name_en": "Akva-Len Shin LLC",
+    "tax_id": "01250096",
+    "form": "ՍՊԸ",
+    "registered_year": 2011,
+    "source_url": "https://karg.am/company/01250096"
+   },
+   {
+    "name_hy": "«Ակվա-Լեն Շին 1» ՍՊԸ",
+    "name_en": "Akva-Len Shin 1 LLC",
+    "tax_id": "01388271",
+    "form": "ՍՊԸ",
+    "registered_year": 2026,
+    "source_url": "https://karg.am/company/01388271"
+   }
+  ],
+  "founded_year": 2011,
+  "datalex_names": [
+   "Ակվա-Լեն Շին",
+   "Ակվա-Լեն Շին 1",
+   "Ակվա Լեն Շին"
+  ],
+  "tax_id_for_search": "01250096",
+  "news_issues": [
+   {
+    "date": "2016-01-26",
+    "title": "Bankruptcy case ԵՄԴ/0102/04/15 against «Ակվա-Լեն Շին» ՍՊԸ (applicant: Yerevan community)",
+    "url": "https://www.snank.am/registry/single/id/10867",
+    "summary": "Bankruptcy registry (snank.am) entry: debtor Akva-Len Shin LLC, applicant Yerevan municipality, interim manager Vahagn Avagyan appointed. Outcome not shown; company continued operating afterwards."
+   },
+   {
+    "date": "2024",
+    "title": "Civil suit ԵԴ2/8243/02/24: Hakob Khachatryan v. «ԱԿՎԱ-ԼԵՆ ՇԻՆ» ՍՊԸ for recovery of money",
+    "url": "https://personal-legal-old.azdarar.am/announcments/org/102/01613156/",
+    "summary": "Court notice on azdarar.am: Yerevan first-instance civil court case seeking recovery of a sum from the company (registered at Leningradyan 23/11, Ajapnyak)."
+   }
+  ],
+  "positives": [
+   {
+    "title": "Completed 16-storey Charents 76/5 monolithic residential complex",
+    "url": "https://www.construction.am/apartments-in-new-developments/akva-len-shin-charents/",
+    "summary": "Company claims 15+ years in multi-apartment construction; completed central Yerevan tower with commercial floors."
+   }
+  ],
+  "confidence": "high",
+  "notes": "Registry mirror karg.am: «ԱԿՎԱ-ԼԵՆ ՇԻՆ» ՍՊԸ TIN 01250096, reg. 30.09.2011, Leningradyan 23/11 Ajapnyak (same address as in court notice); new sister LLC «ԱԿՎԱ-ԼԵՆ ՇԻՆ 1» (01388271) registered 04.09.2026 at same address — likely new project vehicle. construction.am slug 'hydroenergoshin-cjsc'/'Since 1937' suggests repurposed listing, relation unverified. Listing shares Archicon's phone/email."
+ },
+ {
+  "developer": "Vh Konstrakshn",
+  "role": "developer",
+  "legal_entities": [
+   {
+    "name_hy": "«Վհ Քոնսթրաքշն» ՍՊԸ",
+    "name_en": "VH Construction LLC",
+    "tax_id": "00933626",
+    "form": "ՍՊԸ",
+    "registered_year": 2020,
+    "source_url": "https://karg.am/company/00933626"
+   }
+  ],
+  "founded_year": 2020,
+  "datalex_names": [
+   "Վհ Քոնսթրաքշն",
+   "ՎՀ Քոնսթրաքշն"
+  ],
+  "tax_id_for_search": "00933626",
+  "news_issues": [],
+  "positives": [
+   {
+    "title": "Garun Hills listed among ACBA Bank partner developers",
+    "url": "https://www.acba.am/hy/individuals/loans/mortgage/constructors#10751",
+    "summary": "Project eligible for ACBA mortgage program."
+   }
+  ],
+  "confidence": "medium",
+  "notes": "Input already gives Armenian 'Վհ Քոնսթրաքշն' (from ACBA list). karg.am exact-name match «ՎՀ ՔՈՆՍԹՐԱՔՇՆ» ՍՊԸ TIN 00933626, reg 11.03.2020, Z. Kanakertsi 106/1B Kanaker-Zeytun — only same-name entity; contact person Hrant Abajyan (email) not verified against founders."
+ },
+ {
+  "developer": "Platinum Homes",
+  "role": "developer",
+  "legal_entities": [
+   {
+    "name_hy": "",
+    "name_en": "Platinum Homes",
+    "tax_id": null,
+    "form": "",
+    "registered_year": null,
+    "source_url": "https://www.construction.am/companies/platinum-homes/"
+   }
+  ],
+  "founded_year": 2007,
+  "datalex_names": [
+   "Պլատինում Հոմս",
+   "Փլատինում Հոումս",
+   "Պլատինում Հոմզ"
+  ],
+  "tax_id_for_search": null,
+  "news_issues": [],
+  "positives": [
+   {
+    "title": "Completed premium Aygedzor 18 building (2015)",
+    "url": "https://www.construction.am/apartments-in-new-developments/platinum-homes/",
+    "summary": "Single completed luxury project (marble/travertine, 24/7 reception)."
+   }
+  ],
+  "confidence": "low",
+  "notes": "construction.am: Platinum Homes, since 2007, contact Ara Yacoubian (Armenian-diaspora spelling), 18 Aygedzor St, Arabkir. No legal form/TIN published; registry-mirror (karg.am) name searches found no 'Platinum Homes' entity (only unrelated «ՊԼԱՏԻՆՈՒՄ» retail LLC 02651407). Armenian names are transliteration guesses. Old completed project, little public footprint."
+ },
+ {
+  "developer": "Lorida Group (Shushi Palace)",
+  "role": "developer",
+  "legal_entities": [
+   {
+    "name_hy": "«Լորիդա Գրուպ» ՍՊԸ",
+    "name_en": "Lorida Group LLC",
+    "tax_id": "02833894",
+    "form": "ՍՊԸ",
+    "registered_year": 2020,
+    "source_url": "https://karg.am/company/02833894"
+   }
+  ],
+  "founded_year": null,
+  "datalex_names": [
+   "Լորիդա Գրուպ",
+   "Շուշի Փելըս",
+   "Լորիդա"
+  ],
+  "tax_id_for_search": "02833894",
+  "news_issues": [],
+  "positives": [
+   {
+    "title": "Shushi Palace: 8 high-rise buildings, ~1,100 apartments, completed",
+    "url": "https://www.shushi-palace.am/",
+    "summary": "Large finished complex in north-west Yerevan by US-Armenian founder Hrag Samuel Salibian (per local project data)."
+   }
+  ],
+  "confidence": "medium",
+  "notes": "karg.am registry mirror: «ԼՈՐԻԴԱ ԳՐՈՒՊ» ՍՊԸ TIN 02833894, reg 24.11.2020, Verin Antarayin 17, Nork-Marash — the only 'Lorida' company; name match, not linked to Shushi Palace by a document (site is a JS app, no legal footer retrievable). Shushi Palace construction predates 2020, so an earlier/other project LLC may exist. Input phone +37498908908 is RED Group's sales line."
+ },
+ {
+  "developer": "AM Construction (sales: RED Invest Group)",
+  "role": "developer",
+  "legal_entities": [
+   {
+    "name_hy": "«ԱՄ Քոնստրաքշն» ՍՊԸ",
+    "name_en": "AM Construction LLC",
+    "tax_id": "03560993",
+    "form": "ՍՊԸ",
+    "registered_year": 2022,
+    "source_url": "https://karg.am/company/03560993"
+   }
+  ],
+  "founded_year": 2022,
+  "datalex_names": [
+   "ԱՄ Քոնստրաքշն",
+   "Էյ Էմ Քոնսթրաքշն",
+   "ԱՄ Քոնսթրաքշն"
+  ],
+  "tax_id_for_search": "03560993",
+  "news_issues": [],
+  "positives": [],
+  "confidence": "medium",
+  "notes": "redgroup.am Argishti 11/15 project: 'Կառուցապատող՝ «ԱՄ ՔՈՆՍՏՐԱՔՇՆ» ՍՊԸ', designer Narek Sargsyan studio, builder «ՕՍՏ-ՇԻՆ» ՍՊԸ, Dec 2024 - Q1 2029. karg.am exact spelling match «ԱՄ ՔՈՆՍՏՐԱՔՇՆ» TIN 03560993, reg 24.02.2022, Arinj (Kotayk). A different «ԷՅ ԷՄ ՔՈՆՍԹՐԱՔՇՆ» (00888962, 2014) also exists — exclude unless verified. RED Invest Group is sales agent."
+ },
+ {
+  "developer": "L Zara (sales: RED Invest Group)",
+  "role": "developer",
+  "legal_entities": [
+   {
+    "name_hy": "«Լ Զառա» ՍՊԸ",
+    "name_en": "L Zara LLC",
+    "tax_id": "02691408",
+    "form": "ՍՊԸ",
+    "registered_year": 2019,
+    "source_url": "https://karg.am/company/02691408"
+   }
+  ],
+  "founded_year": 2019,
+  "datalex_names": [
+   "Լ Զառա",
+   "Էլ Զառա"
+  ],
+  "tax_id_for_search": "02691408",
+  "news_issues": [],
+  "positives": [
+   {
+    "title": "Vernisaj building (36 apartments, Aram/Hanrapetutyan) completed 04/2022",
+    "url": "https://redgroup.am/projects/bnakarankarucapatoxic-hanrapetutyan",
+    "summary": "Delivered on schedule per RED Group listing (construction 06/2021-04/2022), designer MOSS Group LLC."
+   }
+  ],
+  "confidence": "high",
+  "notes": "redgroup.am: 'Կառուցապատող՝ «Լ Զառա» ՍՊԸ'. karg.am: «Լ ԶԱՌԱ» TIN 02691408, reg 05.02.2019, Demirchyan 36, construction NACE; status INACTIVE (Չգործող) and 1 DAHK enforcement proceeding listed — typical of a wound-down single-project SPV, but warranty claims would have no active counterparty."
+ },
+ {
+  "developer": "Mashtots Residence",
+  "role": "developer",
+  "legal_entities": [
+   {
+    "name_hy": "",
+    "name_en": "Mashtots Residence (project brand)",
+    "tax_id": null,
+    "form": "",
+    "registered_year": null,
+    "source_url": "https://myhome.am/en/building/259"
+   }
+  ],
+  "founded_year": null,
+  "datalex_names": [
+   "Մաշտոց Ռեզիդենս",
+   "Ավա Գրանիտ"
+  ],
+  "tax_id_for_search": null,
+  "news_issues": [],
+  "positives": [],
+  "confidence": "low",
+  "notes": "Project at Mashtots 26, Etchmiadzin (not Yerevan), 92 apartments, cinder-block walls, completion 01/2028; myhome.am lists developer only as 'Մաշտոց Ռեզիդենս' (mashtocresidence@mail.ru, +374 94 882788). No registered 'Mashtots Residence' LLC found in karg.am. Phone prefix 094 8822xx and same street/town closely resemble Ava Granit CJSC (Etchmiadzin, +374 94 882244) — possible same group, unverified."
+ },
+ {
+  "developer": "Avan Home",
+  "role": "developer",
+  "legal_entities": [
+   {
+    "name_hy": "«Ավան Հոմ» ՍՊԸ",
+    "name_en": "Avan Home LLC",
+    "tax_id": "01068248",
+    "form": "ՍՊԸ",
+    "registered_year": 2024,
+    "source_url": "https://karg.am/company/01068248"
+   }
+  ],
+  "founded_year": 2024,
+  "datalex_names": [
+   "Ավան Հոմ"
+  ],
+  "tax_id_for_search": "01068248",
+  "news_issues": [],
+  "positives": [],
+  "confidence": "high",
+  "notes": "myhome.am: developer 'Ավան Հոմ ՍՊԸ', Acharyan 37/41 Avan (project 'GALLERIA 37', 39 apts). karg.am: «ԱՎԱՆ ՀՈՄ» TIN 01068248, reg 10.04.2024 — only match; young single-project SPV. Note input stage 'finished' while myhome shows completion 01/2031 / exploitation 06/2026."
+ },
+ {
+  "developer": "ARMARSHIN GROUP",
+  "role": "developer",
+  "legal_entities": [
+   {
+    "name_hy": "«Արմարշին Գրուպ» ՍՊԸ",
+    "name_en": "Armarshin Group LLC",
+    "tax_id": "02277787",
+    "form": "ՍՊԸ",
+    "registered_year": 2019,
+    "source_url": "https://karg.am/company/02277787"
+   }
+  ],
+  "founded_year": 2019,
+  "datalex_names": [
+   "Արմարշին Գրուպ",
+   "Արմարշին"
+  ],
+  "tax_id_for_search": "02277787",
+  "news_issues": [],
+  "positives": [
+   {
+    "title": "Acharyan 37/22 (118 apartments) completed 2025",
+    "url": "https://myhome.am/en/building/125",
+    "summary": "Monolith building in Avan, nearly sold out."
+   }
+  ],
+  "confidence": "high",
+  "notes": "myhome.am: 'ԱՐՄԱՐՇԻՆ ԳՐՈՒՊ ՍՊԸ', Manandyan 33/4. karg.am: «ԱՐՄԱՐՇԻՆ ԳՐՈՒՊ» TIN 02277787, reg 01.02.2019, H. Hovsepyan 31/3 Shengavit, construction NACE (unique exact match)."
+ },
+ {
+  "developer": "Arm-profit",
+  "role": "developer",
+  "legal_entities": [
+   {
+    "name_hy": "«Արմ-Պրոֆիտ» ՍՊԸ",
+    "name_en": "Arm-Profit LLC",
+    "tax_id": "01345101",
+    "form": "ՍՊԸ",
+    "registered_year": 2023,
+    "source_url": "https://karg.am/company/01345101"
+   }
+  ],
+  "founded_year": 2023,
+  "datalex_names": [
+   "Արմ-Պրոֆիտ",
+   "Արմ Պրոֆիտ",
+   "Ման Ինվեստ Գրուպ"
+  ],
+  "tax_id_for_search": "01345101",
+  "news_issues": [],
+  "positives": [],
+  "confidence": "medium",
+  "notes": "ar-go.am Nairi 2 (21 floors, 275 apts, Davtashen/Nairi border): 'Կառուցապատող «ԱՐՄ-ՊՐՈՖԻՏ» ՍՊԸ', sales phone +374 55 200707. karg.am: «ԱՐՄ-ՊՐՈՖԻՏ» TIN 01345101, reg 07.12.2023, Babajanyan 105 Malatia — name match (hyphenated exact). Same phone +374 55 200707 is listed for Man Invest Group (Evocabank list) — likely same owners/sales team."
+ },
+ {
+  "developer": "Ava Granit",
+  "role": "developer",
+  "legal_entities": [
+   {
+    "name_hy": "«Ավա Գրանիտ» ՓԲԸ",
+    "name_en": "Ava Granit CJSC",
+    "tax_id": "04439618",
+    "form": "ՓԲԸ",
+    "registered_year": 2021,
+    "source_url": "https://karg.am/company/04439618"
+   }
+  ],
+  "founded_year": 2021,
+  "datalex_names": [
+   "Ավա Գրանիտ"
+  ],
+  "tax_id_for_search": "04439618",
+  "news_issues": [],
+  "positives": [
+   {
+    "title": "Garun Residence listed among ACBA Bank partner developers",
+    "url": "https://www.acba.am/hy/individuals/loans/mortgage/constructors#10179",
+    "summary": "10-storey, 83-apartment building at Mashtots 1/2, Etchmiadzin; ACBA mortgage-eligible."
+   }
+  ],
+  "confidence": "high",
+  "notes": "Input gives Armenian 'Ավա Գրանիտ' (ACBA list). karg.am: «ԱՎԱ ԳՐԱՆԻՏ» ՓԲԸ TIN 04439618, reg 15.10.2021, Khorenatsi 68 Etchmiadzin (unique match, same town). Possibly also behind 'Mashtots Residence' (similar phone)."
+ },
+ {
+  "developer": "Man Invest Group",
+  "role": "developer",
+  "legal_entities": [
+   {
+    "name_hy": "«Ման Ինվեստ Գրուպ» ՍՊԸ",
+    "name_en": "Man Invest Group LLC",
+    "tax_id": "03570825",
+    "form": "ՍՊԸ",
+    "registered_year": 2023,
+    "source_url": "https://karg.am/company/03570825"
+   }
+  ],
+  "founded_year": 2023,
+  "datalex_names": [
+   "Ման Ինվեստ Գրուպ",
+   "Արմ-Պրոֆիտ"
+  ],
+  "tax_id_for_search": "03570825",
+  "news_issues": [],
+  "positives": [
+   {
+    "title": "Listed as Evocabank partner construction company",
+    "url": "https://www.evoca.am/en/construction-companies#11-man-invest-group",
+    "summary": "Project at Yerevan Highway 6 (6/1-6/5), Kanakeravan, Nor Hachn community."
+   }
+  ],
+  "confidence": "high",
+  "notes": "karg.am: «ՄԱՆ ԻՆՎԵՍՏ ԳՐՈՒՊ» ՍՊԸ TIN 03570825, reg 03.08.2023, legal address Kanakeravan, Yerevanyan highway 6 — identical to Evocabank project address. Shares phone +374 55 200707 with Arm-profit (Nairi 2)."
+ },
+ {
+  "developer": "Life House",
+  "role": "developer",
+  "legal_entities": [
+   {
+    "name_hy": "«Լայֆ Հաուս» ՍՊԸ",
+    "name_en": "Life House LLC",
+    "tax_id": "01088235",
+    "form": "ՍՊԸ",
+    "registered_year": 2025,
+    "source_url": "https://karg.am/company/01088235"
+   }
+  ],
+  "founded_year": 2025,
+  "datalex_names": [
+   "Լայֆ Հաուս"
+  ],
+  "tax_id_for_search": "01088235",
+  "news_issues": [],
+  "positives": [
+   {
+    "title": "Armeconombank partner bank for Life House (Merdzavan)",
+    "url": "https://redgroup.am/projects/bnakarankarucapatoxic-lifehouse",
+    "summary": "Designer PROFENERGY GROUP LLC; construction planned Sep 2026 - Dec 2027."
+   }
+  ],
+  "confidence": "medium",
+  "notes": "redgroup.am: 'Կառուցապատող՝ Լայֆ Հաուս ՍՊԸ'. karg.am: «ԼԱՅՖ ՀԱՈՒՍ» TIN 01088235, reg 27.10.2025, Badal Muradyan 1, Nor Nork — unique name match. Very new company, project not yet started (townhouses in Merdzavan, Armavir). RED Group is sales agent."
+ }
+]

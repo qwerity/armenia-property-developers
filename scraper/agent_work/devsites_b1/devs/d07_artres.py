@@ -1,0 +1,25 @@
+import rec
+D = rec.Dev("07_artresidence", "Art-Residence", "https://artresidence.am/", ["+37444777909", "+37495119811", "+37496119811"], "sales@artresidence.am",
+            {"facebook": "https://www.facebook.com/TsaghkadzorHills", "instagram": "https://www.instagram.com/tsaghkadzor_hills"})
+G = "https://artresidence.am/images/-%D4%B3%D5%A1%D6%80%D5%B8%D6%82%D5%B6--%D5%A2%D5%B6%D5%A1%D5%AF%D5%A5%D5%AC%D5%AB-%D5%B0%D5%A1%D5%B4%D5%A1%D5%AC%D5%AB%D6%80/"
+D.add("https://artresidence.am/en/buildings/Garun", "Residential Complex Garun", auto=False, district="Avan", address="Rubinyants St 27/78", status="under construction", completion="2027-03", floors="16",
+      images=["https://artresidence.am/_next/static/media/buildings_garun1.af96a47b.jpg", G+"new-pictures/Botanical-view-Garun.png", G+"007.jpeg", G+"parking.jpeg", G+"GARUN-commercial-spa.jpeg"],
+      description="Garun: residential complex next to the Botanical Garden with ~4,000 sq m green space. Grade A energy efficiency (UN Office in Armenia); ground and -1 floors commercial; floors 2-16 residential with 2, 2.5, 3, 4, 5-room apartments and penthouses; 314-car parking on levels -2 to -4; 24/7 security. 412 apartments (33 available). Completion scheduled March 2027.")
+P = "https://artresidence.am/images/%D5%82%D5%A1%D6%83%D5%A1%D5%B6%D6%81%D5%B5%D5%A1%D5%B6/"
+D.add("https://artresidence.am/en/buildings/Ghapantsian", "Residential Complex Ghapantsian", auto=False, district="Arabkir", address="Ghapantsyan St 3", status="completed", completion="2024", floors="16",
+      images=["https://artresidence.am/_next/static/media/buildings.594a3770.jpeg", P+"-------------------3---------------.jpeg", P+"Ghapantsian-Complex-.jpeg"],
+      description="Ghapantsian 3: two 16-storey buildings next to Hrazdan Gorge with 3000+ sq m garden and playground. Grade A energy efficiency, 9+ seismic resistance; floors 1-2 commercial, 3-16 residential (2, 2.5, 3, 4, 5-room apartments and penthouses); 236-car parking on -1/-2; 24/7 security. Building A completed H2 2023, Building B spring 2024. 324 apartments, 0 available (sold out).")
+K = "https://artresidence.am/images/%D5%8A%D5%A1%D6%80%D5%AF-%D4%B2%D5%AB%D5%AC%D5%A4%D5%AB%D5%B6%D5%A3/"
+D.add("https://artresidence.am/en/buildings/Park", "Premium Complex Park Building", auto=False, district="Davtashen", address="Tigran Petrosyan St 31/12", status="under construction",
+      images=["https://artresidence.am/_next/static/media/buildings_park.09a8bbc7.jpg", K+"davitashen-render-24-deleted.jpeg", K+"Davtashen-05-min.jpeg", K+"Davtashen-11-deleted.jpeg", K+"Davtashen-01-deleted.jpeg", K+"Renders/Parking-lot-Park-Bui.png"],
+      description="Park Building: premium boutique complex in the heart of Davtashen next to a green park, 18 apartments with terraces (4 available), 3.3 m ceilings, KONE lifts, AJAX security, Alutech windows, climate control, autonomous heating/cooling, smart underground parking for 22 cars with EV charging, concierge, black basalt/tuff cladding, 2-year Reebok gym membership. 4 commercial units of 69.8-192.6 sq m with 6 m ceilings.")
+C = "https://artresidence.am/images/6a5e2f14407167c26b202c59/"
+D.add("https://artresidence.am/en/buildings/club-house", "ClubHouse", auto=False, district="Nork-Marash", address="Garegin Hovsepyan St 50/2", status="completed",
+      images=["https://artresidence.am/images/0e0b2f0a-1932-4ebe-a1fa-73facaa4cd4f.jpeg", C+"0f7b5c6a-7567-40c7-9d24-6c7021bc4d19.webp", C+"e465eb6e-97de-4d2c-8983-38c327233b73.webp", C+"6fb6e7ef-6799-419e-971c-f49fb0354be5.webp", C+"18f40a89-72ac-436d-bade-3b3a78ebd26e.webp"],
+      apartments=[{"rooms": "various", "area_min": 34, "area_max": 125}],
+      description="ClubHouse: completed, move-in-ready residential complex in Nork-Marash at 50/2 Garegin Hovsepyan St. Apartments 34-125 sq m with panoramic windows and views of Mount Ararat and Yerevan; green rooftop terrace, underground parking. 59 apartments (22 available).")
+D.add("https://artresidence.am/en/projects/Tsaghkadzor", "Tsaghkadzor Hills", auto=False, city="Tsaghkadzor", district="Kotayk", address="Saralanji St 1, Tsaghkadzor", status="under construction", type="resort", floors="3,5,10",
+      images=["https://artresidence.am/_next/static/media/project_tsaghkadzor.b22958ff.webp", "https://artresidence.am/images/Hills/bird-view-2-WITHOUT--1.jpeg", "https://artresidence.am/images/Hills/10harkaniner122.jpeg", "https://artresidence.am/images/68edf3cd8362c0ae550e7483/6059d99b-ba27-41ea-95dd-d9cbf43cf127.webp"],
+      phones=["+37444777909", "+37441076868", "+37460878770"], email="info@tsaghkadzorhills.am",
+      description="Tsaghkadzor Hills resort residential complex: 60 villas (Standard, Classic, Premium), 2 ten-storey, 4 five-storey and 2 three-storey residential buildings amid ~10,000 sq m private forest. Restaurants, indoor/outdoor pools, spa, fitness, game zones, playground, cafes/bars, 24/7 concierge and security. Rental management by FYM Hospitality Group for stable income; income tax refund eligible until end 2026. 267 apartments (33 available).")
+D.save("Next.js client-rendered; extracted via browser")

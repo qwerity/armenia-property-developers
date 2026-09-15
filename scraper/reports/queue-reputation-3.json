@@ -1,0 +1,295 @@
+[
+ {
+  "developer": "V&B Construction",
+  "name_variants": [
+   "V&B Construction"
+  ],
+  "projects": 1,
+  "stages": {
+   "finished": 1
+  },
+  "website": "https://vbconstruction.am",
+  "sample_projects": [
+   "Gogol Plaza"
+  ],
+  "reason": "low-confidence research"
+ },
+ {
+  "developer": "Zeytoun Build",
+  "name_variants": [
+   "Zeytoun Build"
+  ],
+  "projects": 1,
+  "stages": {
+   "finished": 1
+  },
+  "website": "http://zeytunbuild.am/",
+  "sample_projects": [
+   "Zeytun  Build"
+  ],
+  "reason": "low-confidence research"
+ },
+ {
+  "developer": "Grandshin",
+  "name_variants": [
+   "Grandshin"
+  ],
+  "projects": 2,
+  "stages": {
+   "in progress": 2
+  },
+  "website": "https://www.construction.am/companies/grandshin/",
+  "sample_projects": [
+   "Grandshin · Acharyan 35/19",
+   "E1 Residence"
+  ],
+  "reason": "low-confidence research"
+ },
+ {
+  "developer": "Kechark",
+  "name_variants": [
+   "Kechark"
+  ],
+  "projects": 1,
+  "stages": {
+   "finished": 1
+  },
+  "website": "https://www.construction.am/companies/kechark/",
+  "sample_projects": [
+   "Kechark · Mikroshrjan District 203"
+  ],
+  "reason": "low-confidence research"
+ },
+ {
+  "developer": "Hay Develop",
+  "name_variants": [
+   "Hay Develop"
+  ],
+  "projects": 1,
+  "stages": {
+   "just started": 1
+  },
+  "website": null,
+  "sample_projects": [
+   "HAY VIEW"
+  ],
+  "reason": "low-confidence research"
+ },
+ {
+  "developer": "Yerkir Real Estate Agency",
+  "name_variants": [
+   "Yerkir Real Estate Agency"
+  ],
+  "projects": 3,
+  "stages": {
+   "finished": 3
+  },
+  "website": "https://www.construction.am/companies/yerkir-real-estate-agency/",
+  "sample_projects": [
+   "Yerkir Real Estate Agency · Papazyan 14",
+   "Yerkir Real Estate Agency · Victor Hambardzumyan / Vagharsyan",
+   "Yerkir Real Estate Agency · 3rd Microdistrict"
+  ],
+  "reason": "low-confidence research"
+ },
+ {
+  "developer": "Mountain Plaza",
+  "name_variants": [
+   "Mountain Plaza"
+  ],
+  "projects": 2,
+  "stages": {
+   "in progress": 2
+  },
+  "website": "https://www.construction.am/companies/mountain-plaza/",
+  "sample_projects": [
+   "Mountain Plaza · G. Hovsepyan 48/3",
+   "Mountain Plaza Residential Complex"
+  ],
+  "reason": "low-confidence research"
+ },
+ {
+  "developer": "Alma-ata Rezidens",
+  "name_variants": [
+   "Alma-ata Rezidens"
+  ],
+  "projects": 1,
+  "stages": {
+   "in progress": 1
+  },
+  "website": null,
+  "sample_projects": [
+   "Alma-ata Rezidens"
+  ],
+  "reason": "low-confidence research"
+ },
+ {
+  "developer": "Goght Urban Valley",
+  "name_variants": [
+   "Goght Urban Valley"
+  ],
+  "projects": 1,
+  "stages": {
+   "in progress": 1
+  },
+  "website": "https://goghtvalley.com/en",
+  "sample_projects": [
+   "Goght Urban Valley"
+  ],
+  "reason": "low-confidence research"
+ },
+ {
+  "developer": "Tesaranshin (Tesaran Residence)",
+  "name_variants": [
+   "Tesaranshin (Tesaran Residence)"
+  ],
+  "projects": 1,
+  "stages": {
+   "in progress": 1
+  },
+  "website": "https://tesaranresidence.am/en",
+  "sample_projects": [
+   "Tesaran Residential Complex (private houses & townhouses)"
+  ],
+  "reason": "low-confidence research"
+ },
+ {
+  "developer": "JUST Developer (sales: RED Invest Group)",
+  "name_variants": [
+   "JUST Developer (sales: RED Invest Group)"
+  ],
+  "projects": 1,
+  "stages": {
+   "in progress": 1
+  },
+  "website": "https://www.redinvest.am/en",
+  "sample_projects": [
+   "JUST Developer (sales: RED Invest Group) · Olympus Davtashen"
+  ],
+  "reason": "low-confidence research"
+ },
+ {
+  "developer": "Muar Group",
+  "name_variants": [
+   "Muar Group"
+  ],
+  "projects": 2,
+  "stages": {
+   "finished": 1,
+   "in progress": 1
+  },
+  "website": "https://muargroup.am/",
+  "sample_projects": [
+   "Two-storey Private House, Getapnya (Ararat)",
+   "Getapnya Residential Complex"
+  ],
+  "reason": "low-confidence research"
+ },
+ {
+  "developer": "ASR",
+  "name_variants": [
+   "ASR"
+  ],
+  "projects": 1,
+  "stages": {
+   "in progress": 1
+  },
+  "website": "asrbuild.am",
+  "sample_projects": [
+   "ASR · Acharyan 43/20"
+  ],
+  "reason": "low-confidence research"
+ },
+ {
+  "developer": "HATIS PARK REZIDENCE",
+  "name_variants": [
+   "HATIS PARK REZIDENCE"
+  ],
+  "projects": 1,
+  "stages": {
+   "in progress": 1
+  },
+  "website": null,
+  "sample_projects": [
+   "HATIS PARK REZIDENCE · 1st Street 7 SH"
+  ],
+  "reason": "low-confidence research"
+ },
+ {
+  "developer": "Nork Residential Complex",
+  "name_variants": [
+   "Nork Residential Complex"
+  ],
+  "projects": 3,
+  "stages": {
+   "finished": 3
+  },
+  "website": null,
+  "sample_projects": [
+   "Nork Residential Complex · Sero Khanzadyan 5/5",
+   "Nork Residential Complex · Sero Khanzadyan 131/9",
+   "Nork Residential Complex · Sero Khanzadyan 131/10"
+  ],
+  "reason": "low-confidence research"
+ },
+ {
+  "developer": "Nairi Residence",
+  "name_variants": [
+   "Nairi Residence"
+  ],
+  "projects": 1,
+  "stages": {
+   "in progress": 1
+  },
+  "website": "https://www.facebook.com/NairiResidence",
+  "sample_projects": [
+   "Nairi Residence · Yerevan highway 8/7"
+  ],
+  "reason": "low-confidence research"
+ },
+ {
+  "developer": "NAIRI HOUSE",
+  "name_variants": [
+   "NAIRI HOUSE"
+  ],
+  "projects": 1,
+  "stages": {
+   "in progress": 1
+  },
+  "website": null,
+  "sample_projects": [
+   "Nairi House"
+  ],
+  "reason": "low-confidence research"
+ },
+ {
+  "developer": "In Town",
+  "name_variants": [
+   "In Town"
+  ],
+  "projects": 1,
+  "stages": {
+   "in progress": 1
+  },
+  "website": null,
+  "sample_projects": [
+   "In Town"
+  ],
+  "reason": "low-confidence research"
+ },
+ {
+  "developer": "Eliz",
+  "name_variants": [
+   "Eliz"
+  ],
+  "projects": 1,
+  "stages": {
+   "finished": 1
+  },
+  "website": "https://1sq.info/apartment-item/verin_antarayin_136/?lang=en",
+  "sample_projects": [
+   "Eliz LLC"
+  ],
+  "reason": "low-confidence research"
+ }
+]

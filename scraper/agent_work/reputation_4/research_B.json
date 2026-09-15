@@ -1,0 +1,646 @@
+[
+ {
+  "developer": "New City Projects",
+  "role": "developer",
+  "legal_entities": [
+   {
+    "name_hy": "ՆՅՈՒ ՍԻԹԻ ՊՐՈՋԵԿՏՍ",
+    "name_en": "New City Projects",
+    "tax_id": null,
+    "form": "ՍՊԸ",
+    "registered_year": 2019,
+    "source_url": "https://www.spyur.am/en/companies/new-city-projects-real-estate-development-company/51373/"
+   }
+  ],
+  "founded_year": 2019,
+  "datalex_names": [
+   "ՆՅՈՒ ՍԻԹԻ ՊՐՈՋԵԿՏՍ",
+   "ՆՅՈՒ ՍԻԹԻ ՊՐՈՋԵՔԹՍ",
+   "ՆՅՈՒ ՍԻԹԻ ՓՐՈՋԵՔԹՍ"
+  ],
+  "news_issues": [],
+  "positives": [
+   {
+    "title": "Presented Armenian projects at International Property Show 2026, Dubai",
+    "url": "https://news.am/en/news/1060216",
+    "summary": "Director Vahe Davtyan presented residential projects/investment opportunities (per search snippet)."
+   },
+   {
+    "title": "Member of the Association of Armenian Developers",
+    "url": "https://www.developers.am/hy-AM/members/?strapiId=42",
+    "summary": "Listed as association member."
+   }
+  ],
+  "confidence": "medium",
+  "notes": "Yell.am lists «ՆՅՈՒ ՍԻԹԻ ՊՐՈՋԵԿՏՍ» ՍՊԸ; Spyur: est. 2019, director Vahe Davtyan, Tamrazyan 1/2 Yerevan; 16-50 employees; projects Novem, Pallada (Tsaghkadzor), Acharyan, Aria, Shinararner, Lotus Living. Tax ID not found. Individual projects (e.g. Pallada) may be held by separate SPV LLCs — not identified. Datalex worker already returned 0 cases for these spellings. News search was cut short: the session-wide WebSearch budget ran out during this group, so only direct fetches of company/directory pages were possible. No negative news verified; absence of issues is NOT evidence of a clean record."
+ },
+ {
+  "developer": "Art-Residence",
+  "role": "developer",
+  "legal_entities": [
+   {
+    "name_hy": "ԱՐԹ ՌԵԶԻԴԵՆՍ",
+    "name_en": "Art-Residence",
+    "tax_id": "08281495",
+    "form": "ՍՊԸ",
+    "registered_year": 2020,
+    "source_url": "https://www.construction.am/companies/art-residence-developer-company/"
+   }
+  ],
+  "founded_year": 2020,
+  "datalex_names": [
+   "ԱՐԹ ՌԵԶԻԴԵՆՍ",
+   "ԱՐԹ-ՌԵԶԻԴԵՆՍ",
+   "ԱՐՏ-ՌԵԶԻԴԵՆՍ"
+  ],
+  "news_issues": [],
+  "positives": [
+   {
+    "title": "Claims 150,000+ sqm completed",
+    "url": "https://artresidence.am/en/about",
+    "summary": "Company self-description; established 2020 under the name 'Art Group'."
+   }
+  ],
+  "confidence": "high",
+  "notes": "Website footer: '© 2020-2026 ԱՐԹ ՌԵԶԻԴԵՆՍ ՍՊԸ'. construction.am: TIN 08281495, since 2020. Founder/board chairman Davit Abovyan; co-founder/CEO Nver Safaryan. Formerly named 'Art Group' (site also has an 'Արթ-Գրուպ ՍՊԸ' page) — old court cases could be under ԱՐԹ ԳՐՈՒՊ (too generic to queue). Note: construction.am's 'Feyt Bilt' entry links to the Art-Residence company page — likely a portal data error, but could indicate a relationship. News search was cut short: the session-wide WebSearch budget ran out during this group, so only direct fetches of company/directory pages were possible. No negative news verified; absence of issues is NOT evidence of a clean record."
+ },
+ {
+  "developer": "Feyt Bilt",
+  "role": "developer",
+  "legal_entities": [
+   {
+    "name_hy": "ՖԵՅԹ ԲԻԼԹ ՔՈՆՍԹՐԱՔՇՆ",
+    "name_en": "Faith Built Construction",
+    "tax_id": null,
+    "form": "ՍՊԸ",
+    "registered_year": 2018,
+    "source_url": "https://www.construction.am/arm/companies/faith-built-construction/"
+   }
+  ],
+  "founded_year": 2018,
+  "datalex_names": [
+   "ՖԵՅԹ ԲԻԼԹ ՔՈՆՍԹՐԱՔՇՆ",
+   "ՖԵՅԹ ԲԻԼԴ ՔՈՆՍԹՐԱՔՇՆ",
+   "ՖԵՅԹ ԲԻԼԹ ՔՆՍԹՐԱՔՇՆ"
+  ],
+  "news_issues": [],
+  "positives": [
+   {
+    "title": "M.L. House premium complex, Monte Melkonyan 10",
+    "url": "https://tunmun.am/en/new/2536/",
+    "summary": "18-floor complex listed as Faith Built project."
+   }
+  ],
+  "confidence": "medium",
+  "notes": "'Feyt Bilt' and 'Faith Built' are the same company (ՖԵՅԹ ԲԻԼԹ = transliteration; same info@faithbuilt.am). Registered name per construction.am/YouTube/bizratings: «ՖԵՅԹ ԲԻԼԹ ՔՈՆՍԹՐԱՔՇՆ» (kaռուցապատող ընկերություն), since 2018 (one directory says 2016). Tax ID not found. Short names ՖԵՅԹ ԲԻԼԹ/ԲԻԼԴ were already queued in main; here the full name was queued. faithbuilt.am did not resolve (DNS) on 2026-09-14. construction.am 'Feyt Bilt' entry points at the Art-Residence page (likely error). News search was cut short: the session-wide WebSearch budget ran out during this group, so only direct fetches of company/directory pages were possible. No negative news verified; absence of issues is NOT evidence of a clean record."
+ },
+ {
+  "developer": "Faith Built",
+  "role": "developer",
+  "legal_entities": [
+   {
+    "name_hy": "ՖԵՅԹ ԲԻԼԹ ՔՈՆՍԹՐԱՔՇՆ",
+    "name_en": "Faith Built Construction",
+    "tax_id": null,
+    "form": "ՍՊԸ",
+    "registered_year": 2018,
+    "source_url": "https://www.construction.am/arm/companies/faith-built-construction/"
+   }
+  ],
+  "founded_year": 2018,
+  "datalex_names": [
+   "ՖԵՅԹ ԲԻԼԹ ՔՈՆՍԹՐԱՔՇՆ",
+   "ՖԵՅԹ ԲԻԼԴ ՔՈՆՍԹՐԱՔՇՆ",
+   "ՖԵՅԹ ԲԻԼԹ ՔՆՍԹՐԱՔՇՆ"
+  ],
+  "news_issues": [],
+  "positives": [
+   {
+    "title": "M.L. House premium complex, Monte Melkonyan 10",
+    "url": "https://tunmun.am/en/new/2536/",
+    "summary": "18-floor complex listed as Faith Built project."
+   }
+  ],
+  "confidence": "medium",
+  "notes": "'Feyt Bilt' and 'Faith Built' are the same company (ՖԵՅԹ ԲԻԼԹ = transliteration; same info@faithbuilt.am). Registered name per construction.am/YouTube/bizratings: «ՖԵՅԹ ԲԻԼԹ ՔՈՆՍԹՐԱՔՇՆ» (kaռուցապատող ընկերություն), since 2018 (one directory says 2016). Tax ID not found. Short names ՖԵՅԹ ԲԻԼԹ/ԲԻԼԴ were already queued in main; here the full name was queued. faithbuilt.am did not resolve (DNS) on 2026-09-14. construction.am 'Feyt Bilt' entry points at the Art-Residence page (likely error). News search was cut short: the session-wide WebSearch budget ran out during this group, so only direct fetches of company/directory pages were possible. No negative news verified; absence of issues is NOT evidence of a clean record."
+ },
+ {
+  "developer": "City Nest Property Management (sales agent)",
+  "role": "sales agent",
+  "legal_entities": [
+   {
+    "name_hy": "ՍԻԹԻ ՆԵՍԹ",
+    "name_en": "City Nest",
+    "tax_id": null,
+    "form": "unknown",
+    "registered_year": null,
+    "source_url": "https://citynest.am/en"
+   }
+  ],
+  "founded_year": null,
+  "datalex_names": [
+   "ՍԻԹԻ ՆԵՍԹ",
+   "ՍԻԹԻ ՆԵՍՏ"
+  ],
+  "news_issues": [],
+  "positives": [
+   {
+    "title": "Sales/advisory for Movenpick Resort Tsaghkadzor, Milano Firenze Towers, Only One, Allur",
+    "url": "https://citynest.am/en",
+    "summary": "Outsourced sales, advisory and property management firm."
+   }
+  ],
+  "confidence": "low",
+  "notes": "City Nest is a sales/advisory outsourcer, not the developer. Legal form/tax ID not found (site footer only '© 2023 City Nest'). Underlying developers: Milano Firenze Towers — Renco (Italian Renco group; Armenian entity not identified), Allur — «ՇԱՄԱԽՅԱՆ» ՍՊԸ; Only One, Mountain Village Dilijan, TM Tower, Nor Etch developers not identified. Queued names are a guess and may be too generic. News search was cut short: the session-wide WebSearch budget ran out during this group, so only direct fetches of company/directory pages were possible. No negative news verified; absence of issues is NOT evidence of a clean record."
+ },
+ {
+  "developer": "Allur Dilijan (Shamakhyan )",
+  "role": "developer",
+  "legal_entities": [
+   {
+    "name_hy": "ՇԱՄԱԽՅԱՆ",
+    "name_en": "Shamakhyan",
+    "tax_id": null,
+    "form": "ՍՊԸ",
+    "registered_year": null,
+    "source_url": "https://myhome.am/en/building/140"
+   }
+  ],
+  "founded_year": null,
+  "datalex_names": [
+   "ՇԱՄԱԽՅԱՆ"
+  ],
+  "news_issues": [],
+  "positives": [
+   {
+    "title": "Abandoned Dilijan bakery to be reconstructed into ALLUR residential complex",
+    "url": "https://www.construction.am/news/802-allur-residential-complex-dilijan-armenia-storaket-studio/",
+    "summary": "Adaptive reuse of the former Tavush bread factory (13,000 m2) designed by Storaket studio."
+   }
+  ],
+  "confidence": "medium",
+  "notes": "Same project/company: myhome.am building 140 names developer «ՇԱՄԱԽՅԱՆ» ՍՊԸ, Dilijan, Shamakhyan 1/2 (brand ALLUR, allur.am); sales outsourced to City Nest (sales@citynest.am). ՇԱՄԱԽՅԱՆ already queued in main (not repeated). Name equals the street name, so datalex hits must be checked for namesakes. Tax ID and owners not found. Planned completion June 2025 slipped to 09/2026 for block 2 (myhome.am) — schedule slip only, no dispute found. News search was cut short: the session-wide WebSearch budget ran out during this group, so only direct fetches of company/directory pages were possible. No negative news verified; absence of issues is NOT evidence of a clean record."
+ },
+ {
+  "developer": "SHAMAKHYAN",
+  "role": "developer",
+  "legal_entities": [
+   {
+    "name_hy": "ՇԱՄԱԽՅԱՆ",
+    "name_en": "Shamakhyan",
+    "tax_id": null,
+    "form": "ՍՊԸ",
+    "registered_year": null,
+    "source_url": "https://myhome.am/en/building/140"
+   }
+  ],
+  "founded_year": null,
+  "datalex_names": [
+   "ՇԱՄԱԽՅԱՆ"
+  ],
+  "news_issues": [],
+  "positives": [
+   {
+    "title": "Abandoned Dilijan bakery to be reconstructed into ALLUR residential complex",
+    "url": "https://www.construction.am/news/802-allur-residential-complex-dilijan-armenia-storaket-studio/",
+    "summary": "Adaptive reuse of the former Tavush bread factory (13,000 m2) designed by Storaket studio."
+   }
+  ],
+  "confidence": "medium",
+  "notes": "Same project/company: myhome.am building 140 names developer «ՇԱՄԱԽՅԱՆ» ՍՊԸ, Dilijan, Shamakhyan 1/2 (brand ALLUR, allur.am); sales outsourced to City Nest (sales@citynest.am). ՇԱՄԱԽՅԱՆ already queued in main (not repeated). Name equals the street name, so datalex hits must be checked for namesakes. Tax ID and owners not found. Planned completion June 2025 slipped to 09/2026 for block 2 (myhome.am) — schedule slip only, no dispute found. News search was cut short: the session-wide WebSearch budget ran out during this group, so only direct fetches of company/directory pages were possible. No negative news verified; absence of issues is NOT evidence of a clean record."
+ },
+ {
+  "developer": "APEX GM Developer",
+  "role": "developer",
+  "legal_entities": [
+   {
+    "name_hy": "ՋԻ ԷՄ ԴԵՎԵԼՈՓԵՐ",
+    "name_en": "GM Developer",
+    "tax_id": null,
+    "form": "ՍՊԸ",
+    "registered_year": 2016,
+    "source_url": "https://apex-gm.am/%d5%b4%d5%a5%d6%80-%d5%b4%d5%a1%d5%bd%d5%ab%d5%b6/"
+   },
+   {
+    "name_hy": "ՏՐԱՊԻԶՈՆ ՔՈՆՍԹՐԱՔՇՆ",
+    "name_en": "Trapizon Construction",
+    "tax_id": null,
+    "form": "ՍՊԸ",
+    "registered_year": null,
+    "source_url": "https://firdus.am/"
+   }
+  ],
+  "founded_year": 2016,
+  "datalex_names": [
+   "ՋԻ ԷՄ ԴԵՎԵԼՈՓԵՐ",
+   "ՋԻ ԷՄ ԴԻՎԵԼՈՓԵՐ",
+   "ՋԻ-ԷՄ ԴԵՎԵԼՈՓԵՐ",
+   "ՏՐԱՊԻԶՈՆ ՔՈՆՍԹՐԱՔՇՆ",
+   "ՏՐԱՊԻԶՈՆ ԿՈՆՍՏՐՈՒԿՑԻԱ"
+  ],
+  "news_issues": [],
+  "positives": [
+   {
+    "title": "Built Sos Sargsyan National Theatre (Gov. decision 2017 N1148-A)",
+    "url": "https://apex-gm.am/%d5%b4%d5%a5%d6%80-%d5%b4%d5%a1%d5%bd%d5%ab%d5%b6/",
+    "summary": "Company claims construction of the theatre and Amiryan 26/4 residential building."
+   }
+  ],
+  "confidence": "high",
+  "notes": "apex-gm.am: «Ջի Էմ Դեվելոփեր» (APEX brand) founded 2016. firdus.am: construction permit for 33rd (Firdus) district issued to «ՏՐԱՊԻԶՈՆ ՔՈՆՍԹՐԱՔՇՆ» and «ՋԻ ԷՄ ԴԵՎԵԼՈՓԵՐ» ՍՊ ընկերություններ. construction.am lists main contractor for Firdus as ML Mining (queued in another group). The Firdus/33rd district redevelopment of historic old-Yerevan housing next to Republic Square has been publicly contested by heritage activists and residents in past years — NOT verified with a URL in this session; recommend manual check (news for 'Ֆիրդուս թաղամաս'). Tax IDs not found. News search was cut short: the session-wide WebSearch budget ran out during this group, so only direct fetches of company/directory pages were possible. No negative news verified; absence of issues is NOT evidence of a clean record."
+ },
+ {
+  "developer": "New Arinj Residence",
+  "role": "developer",
+  "legal_entities": [
+   {
+    "name_hy": "ՆՅՈՒ ԱՌԻՆՋ ՌԵԶԻԴԵՆՍ",
+    "name_en": "New Arinj Residence",
+    "tax_id": null,
+    "form": "unknown",
+    "registered_year": null,
+    "source_url": "https://myhome.am/en/building/350"
+   }
+  ],
+  "founded_year": null,
+  "datalex_names": [
+   "ՆՅՈՒ ԱՌԻՆՋ ՌԵԶԻԴԵՆՍ",
+   "Ն.Ա. ՔՈՆՍԹՐԱՔՇՆ",
+   "ՆԱ ՔՈՆՍԹՐԱՔՇՆ"
+  ],
+  "news_issues": [],
+  "positives": [],
+  "confidence": "low",
+  "notes": "myhome.am shows developer as 'Նյու Առինջ Ռեզիդենս' (brand-like, no legal form) for Arinj and also for Aldina Residence, Gulakyan 85 Arabkir. Contact email na.constructionllc2024@gmail.com suggests an 'N.A. Construction' LLC registered ~2024 — spelling guessed. No tax ID/website. News search was cut short: the session-wide WebSearch budget ran out during this group, so only direct fetches of company/directory pages were possible. No negative news verified; absence of issues is NOT evidence of a clean record."
+ },
+ {
+  "developer": "Arcada",
+  "role": "developer",
+  "legal_entities": [
+   {
+    "name_hy": "ԱՐԿԱԴԱ ՔՈՆՍԹՐԱՔՇՆ",
+    "name_en": "Arcada Construction",
+    "tax_id": null,
+    "form": "ՍՊԸ",
+    "registered_year": 1997,
+    "source_url": "https://arcada.am/?app=AppPage&page=about"
+   }
+  ],
+  "founded_year": 1997,
+  "datalex_names": [
+   "ԱՐԿԱԴԱ ՔՈՆՍԹՐԱՔՇՆ",
+   "ԱՐԿԱԴԱ ԿՈՆՍՏՐՈՒԿՑԻԱ"
+  ],
+  "news_issues": [],
+  "positives": [
+   {
+    "title": "Long track record; publishes audited financial statements",
+    "url": "https://arcada.am/?app=AppPage&page=about",
+    "summary": "Founded 1997; site lists financial statements with independent audit opinion (2023) and bank partners (Ameriabank, IDBank, AEB, HSBC...)."
+   }
+  ],
+  "confidence": "high",
+  "notes": "'Arcada' and 'Arcada Construction' are the same company: arcada.am — «Արկադա Քոնսթրաքշն» ՍՊԸ, founded 1997, exec. director Tigran Bayburtyan, office Davtashen 2nd bl. 17/14. Short ԱՐԿԱԴԱ already queued in main. Project emails asiamegastroy.am@mail.ru and info@sahakyanshin.com indicate partner/SPV companies (Asia Mega Stroy, Sahakyan Shin) for some projects (Davtashen 26/13, Panorama Dalma) — not verified. Ord Development lists info@arcada.am too (possible affiliation). Tax ID not found. News search was cut short: the session-wide WebSearch budget ran out during this group, so only direct fetches of company/directory pages were possible. No negative news verified; absence of issues is NOT evidence of a clean record."
+ },
+ {
+  "developer": "Arcada Construction",
+  "role": "developer",
+  "legal_entities": [
+   {
+    "name_hy": "ԱՐԿԱԴԱ ՔՈՆՍԹՐԱՔՇՆ",
+    "name_en": "Arcada Construction",
+    "tax_id": null,
+    "form": "ՍՊԸ",
+    "registered_year": 1997,
+    "source_url": "https://arcada.am/?app=AppPage&page=about"
+   }
+  ],
+  "founded_year": 1997,
+  "datalex_names": [
+   "ԱՐԿԱԴԱ ՔՈՆՍԹՐԱՔՇՆ",
+   "ԱՐԿԱԴԱ ԿՈՆՍՏՐՈՒԿՑԻԱ"
+  ],
+  "news_issues": [],
+  "positives": [
+   {
+    "title": "Long track record; publishes audited financial statements",
+    "url": "https://arcada.am/?app=AppPage&page=about",
+    "summary": "Founded 1997; site lists financial statements with independent audit opinion (2023) and bank partners (Ameriabank, IDBank, AEB, HSBC...)."
+   }
+  ],
+  "confidence": "high",
+  "notes": "'Arcada' and 'Arcada Construction' are the same company: arcada.am — «Արկադա Քոնսթրաքշն» ՍՊԸ, founded 1997, exec. director Tigran Bayburtyan, office Davtashen 2nd bl. 17/14. Short ԱՐԿԱԴԱ already queued in main. Project emails asiamegastroy.am@mail.ru and info@sahakyanshin.com indicate partner/SPV companies (Asia Mega Stroy, Sahakyan Shin) for some projects (Davtashen 26/13, Panorama Dalma) — not verified. Ord Development lists info@arcada.am too (possible affiliation). Tax ID not found. News search was cut short: the session-wide WebSearch budget ran out during this group, so only direct fetches of company/directory pages were possible. No negative news verified; absence of issues is NOT evidence of a clean record."
+ },
+ {
+  "developer": "Ord Development",
+  "role": "developer",
+  "legal_entities": [
+   {
+    "name_hy": "ՕՐԴ ԴԵՎԵԼՈՓՄԵՆԹ",
+    "name_en": "Ord Development",
+    "tax_id": "00112424",
+    "form": "ՍՊԸ",
+    "registered_year": 2019,
+    "source_url": "https://www.construction.am/companies/ord-development/"
+   }
+  ],
+  "founded_year": 2019,
+  "datalex_names": [
+   "ՕՐԴ ԴԵՎԵԼՈՓՄԵՆԹ",
+   "ՕՐԴ ԴԻՎԵԼՈՓՄԵՆԹ",
+   "ՕՐԴ-ԴԵՎԵԼՈՓՄԵՆԹ"
+  ],
+  "news_issues": [],
+  "positives": [
+   {
+    "title": "Komitas Park district: 15 buildings, 1418 apartments, 221,000 m2",
+    "url": "https://www.construction.am/apartments-in-new-developments/komitas-park/",
+    "summary": "Large Arabkir project (Griboyedov 48), 50% sold per portal; Ord is developer and main contractor."
+   }
+  ],
+  "confidence": "medium",
+  "notes": "construction.am: 'Ord Development' LLC, TIN 00112424, since 2019, head Levon Ordukhanyan, Mamikonyants 38/3. TIN format (leading 00) unusual — verify. Also listed with info@arcada.am, suggesting a link to Arcada Construction. News search was cut short: the session-wide WebSearch budget ran out during this group, so only direct fetches of company/directory pages were possible. No negative news verified; absence of issues is NOT evidence of a clean record."
+ },
+ {
+  "developer": "Filishin",
+  "role": "contractor",
+  "legal_entities": [
+   {
+    "name_hy": "ՖԻԼԻՇԻՆ",
+    "name_en": "Filishin",
+    "tax_id": "07905342",
+    "form": "ՍՊԸ",
+    "registered_year": 2005,
+    "source_url": "https://www.construction.am/companies/filishin/"
+   }
+  ],
+  "founded_year": 2005,
+  "datalex_names": [
+   "ՖԻԼԻՇԻՆ"
+  ],
+  "news_issues": [],
+  "positives": [
+   {
+    "title": "Major contractor incl. works of national significance",
+    "url": "http://filishin.am/about/",
+    "summary": "Founded 2005 by Suren Hakobyan; site cites presidential palace and public/institutional works, audit by N-AUDIT LLC."
+   },
+   {
+    "title": "Barekamutyun complex (5 buildings, 400 parking) completed 2023",
+    "url": "https://www.construction.am/apartments-in-new-developments/arabkir-barekamutyun-complex/",
+    "summary": "Listed as developer."
+   }
+  ],
+  "confidence": "high",
+  "notes": "construction.am: 'Filishin' LLC, TIN 07905342, since 2007 (site says founded 2005), head Suren Hakobyan. Acts as developer for own residential projects and as large general contractor; shares phones/email (info@haekshin.am) with «ՀԱԷԿՇԻՆ» — affiliated group. Queued again with tax ID (name already in main). News search was cut short: the session-wide WebSearch budget ran out during this group, so only direct fetches of company/directory pages were possible. No negative news verified; absence of issues is NOT evidence of a clean record."
+ },
+ {
+  "developer": "Nova Building",
+  "role": "developer",
+  "legal_entities": [
+   {
+    "name_hy": "ՆՈՎԱ ԲԻԼԴԻՆԳ",
+    "name_en": "Nova Building",
+    "tax_id": null,
+    "form": "unknown",
+    "registered_year": null,
+    "source_url": "https://novabuilding.am/"
+   },
+   {
+    "name_hy": "ՀԱԷԿՇԻՆ",
+    "name_en": "Haekshin",
+    "tax_id": null,
+    "form": "ՓԲԸ",
+    "registered_year": 2004,
+    "source_url": "https://novabuilding.am/"
+   }
+  ],
+  "founded_year": null,
+  "datalex_names": [
+   "ՆՈՎԱ ԲԻԼԴԻՆԳ",
+   "ՆՈՎԱ ԲԻԼԴԻՆԳՍ",
+   "ՀԱԷԿՇԻՆ",
+   "ՀԱԵԿՇԻՆ"
+  ],
+  "news_issues": [],
+  "positives": [
+   {
+    "title": "Backed by Haekshin, ~250 projects since 2004",
+    "url": "https://novabuilding.am/",
+    "summary": "Nova Building (Paruyr Sevak 5/1, 17 floors, 3 blocks) names «ՀԱԷԿՇԻՆ» as partner; Haekshin claims ~250 projects since 2004."
+   }
+  ],
+  "confidence": "low",
+  "notes": "The actual developer legal entity for Nova Building is not stated on novabuilding.am (site template also shows 'Baghramyan Residence'); only «ՀԱԷԿՇԻՆ» is named as partner (form ՓԲԸ per coordinator hint). Contacts overlap with Filishin (same phones +37410423272/428272). Queued brand name as a guess plus ՀԱԷԿՇԻՆ. News search was cut short: the session-wide WebSearch budget ran out during this group, so only direct fetches of company/directory pages were possible. No negative news verified; absence of issues is NOT evidence of a clean record."
+ },
+ {
+  "developer": "Shin-Stroy House",
+  "role": "developer",
+  "legal_entities": [
+   {
+    "name_hy": "ՇԻՆ-ՍՏՐՈՅ ՀԱՈՒՍ",
+    "name_en": "Shin-Stroy House",
+    "tax_id": null,
+    "form": "ՍՊԸ",
+    "registered_year": 2020,
+    "source_url": "https://shinstroyhouse.am/"
+   }
+  ],
+  "founded_year": 2020,
+  "datalex_names": [
+   "ՇԻՆ-ՍՏՐՈՅ ՀԱՈՒՍ",
+   "ՇԻՆ ՍՏՐՈՅ ՀԱՈՒՍ"
+  ],
+  "news_issues": [],
+  "positives": [],
+  "confidence": "high",
+  "notes": "Website: «ՇԻՆ-ՍՏՐՈՅ ՀԱՈՒՍ» ՍՊԸ founded 2020; address Arinj/Duryan district; projects Duryan 2 (Avan, Duryan 5th st 56-58) and Wellstone (Nver Safaryan St 11/11). Tax ID not found. Small, young developer. News search was cut short: the session-wide WebSearch budget ran out during this group, so only direct fetches of company/directory pages were possible. No negative news verified; absence of issues is NOT evidence of a clean record."
+ },
+ {
+  "developer": "Gevmik",
+  "role": "developer",
+  "legal_entities": [
+   {
+    "name_hy": "ԳԵՎՄԻԿ",
+    "name_en": "Gevmik",
+    "tax_id": "01222961",
+    "form": "ՍՊԸ",
+    "registered_year": 1999,
+    "source_url": "https://www.construction.am/companies/gevmik-llc/"
+   }
+  ],
+  "founded_year": 1999,
+  "datalex_names": [
+   "ԳԵՎՄԻԿ"
+  ],
+  "news_issues": [],
+  "positives": [
+   {
+    "title": "Several completed 14-storey complexes (Sebastia 3/3, Fuchik 1/3, Leningradyan 29/14)",
+    "url": "https://www.construction.am/apartments-in-new-developments/3-3-sebastia/",
+    "summary": "Long-running Yerevan developer/contractor since 1999."
+   }
+  ],
+  "confidence": "high",
+  "notes": "construction.am: 'Gevmik' LLC, TIN 01222961, since 1999, head Hrayr Atanesyan, Gogol 38. Name already queued in main; re-queued with tax ID. News search was cut short: the session-wide WebSearch budget ran out during this group, so only direct fetches of company/directory pages were possible. No negative news verified; absence of issues is NOT evidence of a clean record."
+ },
+ {
+  "developer": "Itarco Construction",
+  "role": "developer",
+  "legal_entities": [
+   {
+    "name_hy": "ԻՏԱՐԿՈ ՔՈՆՍԹՐԱՔՇՆ",
+    "name_en": "Itarco Construction",
+    "tax_id": null,
+    "form": "ՓԲԸ",
+    "registered_year": 2002,
+    "source_url": "https://www.construction.am/companies/itarco-construction-cjsc/"
+   }
+  ],
+  "founded_year": 2002,
+  "datalex_names": [
+   "ԻՏԱՐԿՈ ՔՈՆՍԹՐԱՔՇՆ",
+   "ԻՏԱՐԿՈ ԿՈՆՍՏՐՈՒԿՑԻԱ",
+   "ԻԹԱՐԿՈ ՔՈՆՍԹՐԱՔՇՆ"
+  ],
+  "news_issues": [],
+  "positives": [
+   {
+    "title": "Paruyr Sevak 9 mixed-use building completed 2016",
+    "url": "https://www.construction.am/apartments-in-new-developments/zeytun-paruyr-sevak-9/",
+    "summary": "17-floor building with seismic isolation pads."
+   }
+  ],
+  "confidence": "medium",
+  "notes": "construction.am slug 'itarco-construction-cjsc' => CJSC (ՓԲԸ); since 2002, head Burak Kirkoryan, Agatangeghos 2. Profile last updated 2023; no active projects. Armenian spelling guessed; tax ID not found. News search was cut short: the session-wide WebSearch budget ran out during this group, so only direct fetches of company/directory pages were possible. No negative news verified; absence of issues is NOT evidence of a clean record."
+ },
+ {
+  "developer": "Nork Residential Complex",
+  "role": "developer",
+  "legal_entities": [
+   {
+    "name_hy": "ՆՈՐՔ ԲՆԱԿԵԼԻ ՀԱՄԱԼԻՐ",
+    "name_en": "Nork Residential Complex",
+    "tax_id": null,
+    "form": "unknown",
+    "registered_year": null,
+    "source_url": "https://myhome.am/en/building/316"
+   }
+  ],
+  "founded_year": null,
+  "datalex_names": [
+   "ՆՈՐՔ ԲՆԱԿԵԼԻ ՀԱՄԱԼԻՐ",
+   "ՆՈՐՔ ՌԵԶԻԴԵՆՇԱԼ ՔՈՄՓԼԵՔՍ"
+  ],
+  "news_issues": [],
+  "positives": [],
+  "confidence": "low",
+  "notes": "myhome.am developer label 'Նորք բնակելի համալիր' (brand, no legal form) for Sero Khanzadyan 5/5, 131/9, 131/10 (completed 2016). Legal entity not identified; queued names are guesses. News search was cut short: the session-wide WebSearch budget ran out during this group, so only direct fetches of company/directory pages were possible. No negative news verified; absence of issues is NOT evidence of a clean record."
+ },
+ {
+  "developer": "Gazavik",
+  "role": "developer",
+  "legal_entities": [
+   {
+    "name_hy": "ԳԱԶԱՎԻԿ",
+    "name_en": "Gazavik",
+    "tax_id": null,
+    "form": "ՍՊԸ",
+    "registered_year": null,
+    "source_url": "https://www.acba.am/hy/individuals/loans/mortgage/constructors#8981"
+   },
+   {
+    "name_hy": "ՊՐՈՄ ԳՐՈՒՊ",
+    "name_en": "Prom Group",
+    "tax_id": null,
+    "form": "ՍՊԸ",
+    "registered_year": 2015,
+    "source_url": "https://promgroup.am/en/about-us/"
+   }
+  ],
+  "founded_year": null,
+  "datalex_names": [
+   "ՊՐՈՄ ԳՐՈՒՊ",
+   "ԿԱՊԻՏԱԼ ՊԱՐԿ"
+  ],
+  "news_issues": [],
+  "positives": [
+   {
+    "title": "Capital Park: 16 floors, 524 apartments, ACBA mortgage partner",
+    "url": "https://www.acba.am/hy/individuals/loans/mortgage/constructors#8981",
+    "summary": "Shirazi 2, Ajapnyak; commissioning 29.12.2026."
+   }
+  ],
+  "confidence": "medium",
+  "notes": "Gazavik is the developer of Capital Park (Shirazi 2); ԳԱԶԱՎԻԿ already queued in main. Construction by Prom Group LLC (promgroup.am, founded 2015 by Hayk Hunanyan; 'we are building the complex where you bought an apartment'). Role of Prom Group = contractor/affiliate; queued ՊՐՈՄ ԳՐՈՒՊ and brand ԿԱՊԻՏԱԼ ՊԱՐԿ (latter may be generic). Tax IDs not found. News search was cut short: the session-wide WebSearch budget ran out during this group, so only direct fetches of company/directory pages were possible. No negative news verified; absence of issues is NOT evidence of a clean record."
+ },
+ {
+  "developer": "Shinart Group",
+  "role": "developer",
+  "legal_entities": [
+   {
+    "name_hy": "ՇԻՆԱՐՏ ԳՐՈՒՊ",
+    "name_en": "Shinart Group",
+    "tax_id": "00921868",
+    "form": "ՍՊԸ",
+    "registered_year": 2019,
+    "source_url": "https://www.construction.am/companies/shinart-group/"
+   },
+   {
+    "name_hy": "ՔՈՄՖՈՐԹ ԲԻԼԴ",
+    "name_en": "Comfort Build",
+    "tax_id": null,
+    "form": "ՍՊԸ",
+    "registered_year": null,
+    "source_url": "https://comfortbuild.am/"
+   }
+  ],
+  "founded_year": 2019,
+  "datalex_names": [
+   "ՇԻՆԱՐՏ ԳՐՈՒՊ",
+   "ՇԻՆԱՐՏ-ԳՐՈՒՊ",
+   "Ս.Կ. ԳՐՈՒՊ",
+   "ՔՈՄՖՈՐԹ ԲԻԼԴ"
+  ],
+  "news_issues": [],
+  "positives": [
+   {
+    "title": "Nazarbekyan Towers completed 2023 (385 apts); Evocabank partner",
+    "url": "https://www.construction.am/apartments-in-new-developments/ajapnyak-nazarbekyan-towers/",
+    "summary": "3 buildings, 7-21 floors; sales rep Comfort Build."
+   }
+  ],
+  "confidence": "high",
+  "notes": "construction.am: 'Shinart Group' LLC, TIN 00921868, since 2019. Sales via Comfort Build LLC (info@comfortbuild.am). Evocabank list shows S.K. Group LLC (Leningradyan 27/6) with the same phone +374 33 400410 — likely affiliated; queued too. News search was cut short: the session-wide WebSearch budget ran out during this group, so only direct fetches of company/directory pages were possible. No negative news verified; absence of issues is NOT evidence of a clean record."
+ },
+ {
+  "developer": "Up Development",
+  "role": "developer",
+  "legal_entities": [
+   {
+    "name_hy": "ԱՓ ԴԵՎԵԼՈՓՄԵՆԹ",
+    "name_en": "Up Development",
+    "tax_id": null,
+    "form": "unknown",
+    "registered_year": null,
+    "source_url": "https://www.construction.am/companies/up-development/"
+   }
+  ],
+  "founded_year": null,
+  "datalex_names": [
+   "ԱՓ ԴԵՎԵԼՈՓՄԵՆԹ",
+   "ԱՊ ԴԵՎԵԼՈՓՄԵՆԹ",
+   "ԱՓ ԴԻՎԵԼՈՓՄԵՆԹ"
+  ],
+  "news_issues": [],
+  "positives": [
+   {
+    "title": "Sunday Towers, Arabkir: 6 buildings, 32,620 m2, completion 2027",
+    "url": "https://www.construction.am/apartments-in-new-developments/norakaruyc-arabkirum-sunday-towers/",
+    "summary": "Main contractor AAB Construction (AAB Project LLC); contact info@upd.am."
+   }
+  ],
+  "confidence": "low",
+  "notes": "construction.am lists 'Up Development' (no legal form/TIN), G. Vardanyan 1a; our record's email info@archicon.am belongs to Archicon LLC (likely designer/marketing). Armenian spelling guessed. News search was cut short: the session-wide WebSearch budget ran out during this group, so only direct fetches of company/directory pages were possible. No negative news verified; absence of issues is NOT evidence of a clean record."
+ }
+]

@@ -1,0 +1,36 @@
+[
+ {
+  "id": "evocaam-1139",
+  "title": "OPTIMA 25 LLC",
+  "developer": "Optima 25",
+  "address": "Zovuni 41st St, 1st alley 5/2, Zovuni village, Nairi community, Kotayk",
+  "district": "Zovuni",
+  "region": "Kotayk",
+  "lat": 40.2351368,
+  "lng": 44.5070456,
+  "status_raw": "unknown",
+  "completion": null,
+  "floors": null,
+  "reason": "unknown stage",
+  "sources": [
+   "https://www.evoca.am/en/construction-companies#4-optima-25-llc"
+  ]
+ },
+ {
+  "id": "evocaam-1161",
+  "title": "SAF CAPITAL LLC (EE)",
+  "developer": "SAF CAPITAL  (Energy Efficent)",
+  "address": "29/9 Leningradyan (now Kirk Kerkorian) St, Yerevan",
+  "district": "Malatia-Sebastia",
+  "region": "Yerevan",
+  "lat": 40.19082,
+  "lng": 44.47124,
+  "status_raw": "unknown",
+  "completion": null,
+  "floors": null,
+  "reason": "unknown stage",
+  "sources": [
+   "https://www.evoca.am/en/construction-companies#26-saf-capital-llc-ee"
+  ]
+ }
+]

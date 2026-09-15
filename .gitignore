@@ -13,3 +13,8 @@ scraper/.stage_verify_*.json
 scraper/.rep_devs_*.json
 .env
 web/config.js
+scraper/agent_work/**/venv/
+scraper/.work/
+scraper/reports/projects.prev.json
+scraper/reports/*.json.done
+scraper/.cache*.bak-*/

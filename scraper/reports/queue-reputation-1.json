@@ -1,0 +1,304 @@
+[
+ {
+  "developer": "AAA SHIN",
+  "name_variants": [
+   "AAA SHIN"
+  ],
+  "projects": 1,
+  "stages": {
+   "in progress": 1
+  },
+  "website": "http://www.sreal.am/hy",
+  "sample_projects": [
+   "Vista Residence"
+  ],
+  "reason": "low-confidence research"
+ },
+ {
+  "developer": "Norq",
+  "name_variants": [
+   "Norq"
+  ],
+  "projects": 1,
+  "stages": {
+   "finished": 1
+  },
+  "website": "https://www.hsbc.am/special-offers/nork/",
+  "sample_projects": [
+   "Norq Residential Complex"
+  ],
+  "reason": "low-confidence research"
+ },
+ {
+  "developer": "Noy Luxury Apartment",
+  "name_variants": [
+   "Noy Luxury Apartment"
+  ],
+  "projects": 1,
+  "stages": {
+   "finished": 1
+  },
+  "website": "https://www.construction.am/companies/noy-luxury-apartment/",
+  "sample_projects": [
+   "NEW LUXURY"
+  ],
+  "reason": "low-confidence research"
+ },
+ {
+  "developer": "Nova Building",
+  "name_variants": [
+   "Nova Building"
+  ],
+  "projects": 1,
+  "stages": {
+   "just started": 1
+  },
+  "website": "https://haekshin.am/",
+  "sample_projects": [
+   "Nova Building"
+  ],
+  "reason": "low-confidence research"
+ },
+ {
+  "developer": "Royal Classic House",
+  "name_variants": [
+   "Royal Classic House"
+  ],
+  "projects": 1,
+  "stages": {
+   "finished": 1
+  },
+  "website": "https://www.construction.am/companies/royal-classic-house/",
+  "sample_projects": [
+   "Royal Classic House · Buzand 3"
+  ],
+  "reason": "low-confidence research"
+ },
+ {
+  "developer": "SILUET INVEST",
+  "name_variants": [
+   "SILUET INVEST"
+  ],
+  "projects": 1,
+  "stages": {
+   "not started": 1
+  },
+  "website": "https://siluet.am/",
+  "sample_projects": [
+   "Siluet Residence"
+  ],
+  "reason": "low-confidence research"
+ },
+ {
+  "developer": "EcoPanel Group",
+  "name_variants": [
+   "EcoPanel Group"
+  ],
+  "projects": 2,
+  "stages": {
+   "finished": 2
+  },
+  "website": "https://www.construction.am/companies/ecopanel-group-llc/",
+  "sample_projects": [
+   "EcoPanel Group · Bagrevand Residential Complex",
+   "EcoPanel Group · Sirogh Srter Residential District"
+  ],
+  "reason": "low-confidence research"
+ },
+ {
+  "developer": "Platinum Homes",
+  "name_variants": [
+   "Platinum Homes"
+  ],
+  "projects": 1,
+  "stages": {
+   "finished": 1
+  },
+  "website": "https://www.construction.am/companies/platinum-homes/",
+  "sample_projects": [
+   "Platinum Homes · Aygedzor 18"
+  ],
+  "reason": "low-confidence research"
+ },
+ {
+  "developer": "Aurea Group",
+  "name_variants": [
+   "Aurea Group"
+  ],
+  "projects": 1,
+  "stages": {
+   "finished": 1
+  },
+  "website": "https://www.construction.am/companies/aurea-group/",
+  "sample_projects": [
+   "Aurea Group · Lvovyan 22"
+  ],
+  "reason": "low-confidence research"
+ },
+ {
+  "developer": "Haus AM",
+  "name_variants": [
+   "Haus AM"
+  ],
+  "projects": 8,
+  "stages": {
+   "finished": 7,
+   "in progress": 1
+  },
+  "website": "https://haus.am/",
+  "sample_projects": [
+   "Haus AM House A1 (Arinj)",
+   "Haus AM House A2 (Arinj)",
+   "Haus AM House A3 (Arinj)",
+   "Haus AM House A4 (Arinj)",
+   "Haus AM House A5 (Arinj)",
+   "Haus AM House B1 (Arinj)"
+  ],
+  "reason": "low-confidence research"
+ },
+ {
+  "developer": "Elit Project Group",
+  "name_variants": [
+   "Elit Project Group"
+  ],
+  "projects": 2,
+  "stages": {
+   "in progress": 1,
+   "finished": 1
+  },
+  "website": "https://elitprojectgroup.am/",
+  "sample_projects": [
+   "Abovyan Park apartment building (Elit Project Group)",
+   "Elit Project Group · Abovyan"
+  ],
+  "reason": "low-confidence research"
+ },
+ {
+  "developer": "Gevorg Darbinyan (sales: RED Invest Group)",
+  "name_variants": [
+   "Gevorg Darbinyan (sales: RED Invest Group)"
+  ],
+  "projects": 1,
+  "stages": {
+   "in progress": 1
+  },
+  "website": "https://www.redinvest.am/en",
+  "sample_projects": [
+   "For Dream Residence"
+  ],
+  "reason": "low-confidence research"
+ },
+ {
+  "developer": "Project EVN (construction management)",
+  "name_variants": [
+   "Project EVN (construction management)"
+  ],
+  "projects": 2,
+  "stages": {
+   "in progress": 1,
+   "not started": 1
+  },
+  "website": "https://www.projectevn.com/",
+  "sample_projects": [
+   "Areni Guest House",
+   "Lavan Sevan"
+  ],
+  "reason": "low-confidence research"
+ },
+ {
+  "developer": "New Masis",
+  "name_variants": [
+   "New Masis"
+  ],
+  "projects": 1,
+  "stages": {
+   "in progress": 1
+  },
+  "website": null,
+  "sample_projects": [
+   "New Masis · Heratsi 20"
+  ],
+  "reason": "low-confidence research"
+ },
+ {
+  "developer": "New Arinj Residence",
+  "name_variants": [
+   "New Arinj Residence"
+  ],
+  "projects": 5,
+  "stages": {
+   "in progress": 3,
+   "finished": 2
+  },
+  "website": null,
+  "sample_projects": [
+   "New Arinj Residence · 10th Street of Abovyan Block 7",
+   "New Arinj Residence · Armen Gulakyan Street 85",
+   "New Arinj Residence",
+   "New Arinj Residence · Arinj village",
+   "New Arinj Residence · Arinj village"
+  ],
+  "reason": "low-confidence research"
+ },
+ {
+  "developer": "MASIS CENTRAL RESIDENTIAL COMPLEX",
+  "name_variants": [
+   "MASIS CENTRAL RESIDENTIAL COMPLEX"
+  ],
+  "projects": 1,
+  "stages": {
+   "just started": 1
+  },
+  "website": "https://metruminvest.am",
+  "sample_projects": [
+   "MASIS CENTRAL RESIDENTIAL COMPLEX · Araratyan 5"
+  ],
+  "reason": "low-confidence research"
+ },
+ {
+  "developer": "HAY DEVELOP",
+  "name_variants": [
+   "HAY DEVELOP"
+  ],
+  "projects": 2,
+  "stages": {
+   "in progress": 2
+  },
+  "website": "https://www.facebook.com/profile.php?id=61558732704095",
+  "sample_projects": [
+   "HAY DEVELOP · H. Emin 1st lane",
+   "HAY DEVELOP · H. Emin 1st lane"
+  ],
+  "reason": "low-confidence research"
+ },
+ {
+  "developer": "Residence 50",
+  "name_variants": [
+   "Residence 50"
+  ],
+  "projects": 1,
+  "stages": {
+   "in progress": 1
+  },
+  "website": null,
+  "sample_projects": [
+   "Residence 50"
+  ],
+  "reason": "low-confidence research"
+ },
+ {
+  "developer": "Konstro",
+  "name_variants": [
+   "Konstro"
+  ],
+  "projects": 1,
+  "stages": {
+   "unknown": 1
+  },
+  "website": null,
+  "sample_projects": [
+   "Konstro LLC"
+  ],
+  "reason": "low-confidence research"
+ }
+]

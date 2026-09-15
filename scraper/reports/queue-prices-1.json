@@ -1,0 +1,415 @@
+[
+ {
+  "id": "kp-204",
+  "title": "Sunrise Residential Complex",
+  "developer": "Lusabac (Sunrise Residential Complex)",
+  "district": "Nork-Marash",
+  "current_usd_m2": 2300,
+  "current_amd_m2": 836000,
+  "usd_from": 158700,
+  "reasons": [
+   "source conflict",
+   "-50.6% vs local median"
+  ],
+  "observations": [
+   {
+    "source": "karucapatoxic.am",
+    "kind": "m2",
+    "usd": 2300.0,
+    "amd": null,
+    "raw": "2300 USD/m²",
+    "usd_m2": 2300
+   },
+   {
+    "source": "karucapatoxic.am",
+    "kind": "implied",
+    "usd": 2300.0,
+    "amd": null,
+    "raw": "apartment 158700 USD / 69 m²",
+    "usd_m2": 2300
+   },
+   {
+    "source": "novostroiki-yerevan.com",
+    "kind": "m2",
+    "usd": 1823.0,
+    "amd": null,
+    "raw": "$1 823/m²; from $58 336",
+    "usd_m2": 1823
+   },
+   {
+    "source": "novostroiki-yerevan.com",
+    "kind": "m2",
+    "usd": 2300.0,
+    "amd": null,
+    "raw": "$2 300/m²; from $158 700",
+    "usd_m2": 2300
+   }
+  ],
+  "source_urls": [
+   "https://karucapatoxic.am/en/204",
+   "https://lusabac.am/am",
+   "https://novostroiki-yerevan.com/en/p/sunrise-residence/",
+   "https://novostroiki-yerevan.com/en/p/sunrise-residential-complex/"
+  ]
+ },
+ {
+  "id": "kp-92",
+  "title": "TECHNODOM Cascade Residential Complex",
+  "developer": "TechnoTun",
+  "district": "Arabkir",
+  "current_usd_m2": 2752,
+  "current_amd_m2": 1000000,
+  "usd_from": 212483,
+  "reasons": [
+   "-38.8% vs local median"
+  ],
+  "observations": [
+   {
+    "source": "karucapatoxic.am",
+    "kind": "m2",
+    "usd": null,
+    "amd": 1000000.0,
+    "raw": "1000000 AMD/m²",
+    "usd_m2": 2752
+   },
+   {
+    "source": "karucapatoxic.am",
+    "kind": "implied",
+    "usd": null,
+    "amd": 1000000.0,
+    "raw": "apartment 77200000 AMD / 77.2 m²",
+    "usd_m2": 2752
+   },
+   {
+    "source": "novostroiki-yerevan.com",
+    "kind": "m2",
+    "usd": 2721.0,
+    "amd": null,
+    "raw": "$2 721/m²; from $210 061",
+    "usd_m2": 2721
+   }
+  ],
+  "source_urls": [
+   "https://karucapatoxic.am/en/92",
+   "https://novostroiki-yerevan.com/en/p/technodom-cascade-residential-complex/",
+   "https://www.construction.am/apartments-in-new-developments/aghbyur-serob-technotun/"
+  ]
+ },
+ {
+  "id": "sundaytowersam-394",
+  "title": "Sunday Towers",
+  "developer": "Up Development (Sunday Towers)",
+  "district": "Arabkir",
+  "current_usd_m2": 2752,
+  "current_amd_m2": 1000000,
+  "usd_from": 161162,
+  "reasons": [
+   "-38.8% vs local median"
+  ],
+  "observations": [
+   {
+    "source": "sundaytowers.am",
+    "kind": "m2",
+    "usd": null,
+    "amd": 1000000.0,
+    "raw": "from 1,000,000 AMD/sq m; apartments from 58,554,000 AMD",
+    "usd_m2": 2752
+   },
+   {
+    "source": "sundaytowers.am",
+    "kind": "implied",
+    "usd": null,
+    "amd": 918494.1176470588,
+    "raw": "various-room apartment from 58,554,000 AMD / 63.75 m²",
+    "usd_m2": 2528
+   }
+  ],
+  "source_urls": [
+   "https://sundaytowers.am/en/buildings/b/"
+  ]
+ },
+ {
+  "id": "redinvestam-544",
+  "title": "Novotel",
+  "developer": "Modern Construction (sales: RED Invest Group)",
+  "district": "Tsaghkadzor",
+  "current_usd_m2": 1886,
+  "current_amd_m2": 685185,
+  "usd_from": 101838,
+  "reasons": [
+   "source conflict",
+   "low confidence"
+  ],
+  "observations": [
+   {
+    "source": "redinvest.am",
+    "kind": "m2",
+    "usd": null,
+    "amd": 685185.0,
+    "raw": "from 685,185 AMD/m2 (computed from listed units)",
+    "usd_m2": 1886
+   },
+   {
+    "source": "redinvest.am",
+    "kind": "implied",
+    "usd": null,
+    "amd": 1000000.0,
+    "raw": "1-room apartment from 37,000,000 AMD / 37 m²",
+    "usd_m2": 2752
+   },
+   {
+    "source": "redinvest.am",
+    "kind": "implied",
+    "usd": null,
+    "amd": 974358.9743589744,
+    "raw": "2-room apartment from 38,000,000 AMD / 39 m²",
+    "usd_m2": 2682
+   },
+   {
+    "source": "redgroup.am",
+    "kind": "m2",
+    "usd": null,
+    "amd": 1233243.0,
+    "raw": "from 1,233,243 AMD/m² (computed from 1 listed units of 288)",
+    "usd_m2": 3394
+   },
+   {
+    "source": "redgroup.am",
+    "kind": "implied",
+    "usd": null,
+    "amd": 1233243.2432432433,
+    "raw": "1-room apartment from 45,630,000 AMD / 37 m²",
+    "usd_m2": 3394
+   }
+  ],
+  "source_urls": [
+   "https://www.redinvest.am/en/developers/bnakarankarucapatoxic-novotel",
+   "https://redgroup.am/projects/bnakarankarucapatoxic-novotel"
+  ]
+ },
+ {
+  "id": "redinvestam-554",
+  "title": "Lumina Residence",
+  "developer": "Azurit (sales: RED Invest Group)",
+  "district": "Nork-Marash",
+  "current_usd_m2": 1360,
+  "current_amd_m2": 494000,
+  "usd_from": 75442,
+  "reasons": [
+   "source conflict"
+  ],
+  "observations": [
+   {
+    "source": "redinvest.am",
+    "kind": "m2",
+    "usd": null,
+    "amd": 480877.0,
+    "raw": "from 480,877 AMD/m2 (computed from listed units)",
+    "usd_m2": 1324
+   },
+   {
+    "source": "redinvest.am",
+    "kind": "implied",
+    "usd": null,
+    "amd": 480877.1929824561,
+    "raw": "2-room apartment from 27,410,000 AMD / 57 m²",
+    "usd_m2": 1324
+   },
+   {
+    "source": "redinvest.am",
+    "kind": "implied",
+    "usd": null,
+    "amd": 645851.0638297872,
+    "raw": "3-room apartment from 60,710,000 AMD / 94 m²",
+    "usd_m2": 1778
+   },
+   {
+    "source": "redinvest.am",
+    "kind": "implied",
+    "usd": null,
+    "amd": 606397.0588235294,
+    "raw": "4-room apartment from 82,470,000 AMD / 136 m²",
+    "usd_m2": 1669
+   },
+   {
+    "source": "myhome.am",
+    "kind": "m2",
+    "usd": null,
+    "amd": 500000.0,
+    "raw": "from 500,000 AMD/m²; apartment from 34,110,000 AMD",
+    "usd_m2": 1376
+   },
+   {
+    "source": "myhome.am",
+    "kind": "implied",
+    "usd": null,
+    "amd": 597373.0297723293,
+    "raw": "free layout-room apartment from 34,110,000.0 AMD / 57.1 m²",
+    "usd_m2": 1644
+   },
+   {
+    "source": "novostroiki-yerevan.com",
+    "kind": "m2",
+    "usd": 1360.0,
+    "amd": null,
+    "raw": "$1 360/m²; from $77 656",
+    "usd_m2": 1360
+   },
+   {
+    "source": "redgroup.am",
+    "kind": "m2",
+    "usd": null,
+    "amd": 670000.0,
+    "raw": "from 670,000 AMD/m² (computed from 3 listed units of 79)",
+    "usd_m2": 1844
+   },
+   {
+    "source": "redgroup.am",
+    "kind": "implied",
+    "usd": null,
+    "amd": 835555.5555555555,
+    "raw": "2-room apartment from 52,640,000 AMD / 63 m²",
+    "usd_m2": 2300
+   },
+   {
+    "source": "redgroup.am",
+    "kind": "implied",
+    "usd": null,
+    "amd": 670000.0,
+    "raw": "3-room apartment from 62,980,000 AMD / 94 m²",
+    "usd_m2": 1844
+   }
+  ],
+  "source_urls": [
+   "https://www.redinvest.am/en/developers/bnakaran-karucapatoxic-lumina",
+   "https://myhome.am/en/building/150",
+   "https://novostroiki-yerevan.com/en/p/garegin-hovsepyan-street-58-9/",
+   "https://redgroup.am/projects/bnakaran-karucapatoxic-lumina"
+  ]
+ },
+ {
+  "id": "redinvestam-563",
+  "title": "Avan Residence Residential Building",
+  "developer": "Avan Residence (sales: RED Invest Group)",
+  "district": "Kotayk (other)",
+  "current_usd_m2": 1082,
+  "current_amd_m2": 392950,
+  "usd_from": 48387,
+  "reasons": [
+   "source conflict",
+   "low confidence"
+  ],
+  "observations": [
+   {
+    "source": "redinvest.am",
+    "kind": "m2",
+    "usd": null,
+    "amd": 392950.0,
+    "raw": "from 392,950 AMD/m2 (computed from listed units)",
+    "usd_m2": 1082
+   },
+   {
+    "source": "redinvest.am",
+    "kind": "implied",
+    "usd": null,
+    "amd": 408837.20930232556,
+    "raw": "2-room apartment from 17,580,000 AMD / 43 m²",
+    "usd_m2": 1125
+   },
+   {
+    "source": "redinvest.am",
+    "kind": "implied",
+    "usd": null,
+    "amd": 409080.4597701149,
+    "raw": "3-room apartment from 35,590,000 AMD / 87 m²",
+    "usd_m2": 1126
+   },
+   {
+    "source": "redgroup.am",
+    "kind": "m2",
+    "usd": null,
+    "amd": 473000.0,
+    "raw": "from 473,000 AMD/m² (computed from 1 listed units of 108)",
+    "usd_m2": 1302
+   },
+   {
+    "source": "redgroup.am",
+    "kind": "implied",
+    "usd": null,
+    "amd": 473000.0,
+    "raw": "3-room apartment from 52,030,000 AMD / 110 m²",
+    "usd_m2": 1302
+   }
+  ],
+  "source_urls": [
+   "https://www.redinvest.am/en/developers/bnakaran-karucapatoxic-avanresidence",
+   "https://redgroup.am/projects/bnakaran-karucapatoxic-avanresidence"
+  ]
+ },
+ {
+  "id": "redinvestam-571",
+  "title": "Duryan House 3 Residential Complex",
+  "developer": "EDNO Group (sales: RED Invest Group)",
+  "district": "Kotayk (other)",
+  "current_usd_m2": 772,
+  "current_amd_m2": 280000,
+  "usd_from": 44000,
+  "reasons": [
+   "36.3% vs local median"
+  ],
+  "observations": [
+   {
+    "source": "redinvest.am",
+    "kind": "m2",
+    "usd": 772.0,
+    "amd": null,
+    "raw": "from $772/m2 (listed units)",
+    "usd_m2": 772
+   },
+   {
+    "source": "redinvest.am",
+    "kind": "implied",
+    "usd": 862.7450980392157,
+    "amd": null,
+    "raw": "2-room apartment from 44,000 USD / 51 m²",
+    "usd_m2": 863
+   },
+   {
+    "source": "redinvest.am",
+    "kind": "implied",
+    "usd": 822.5806451612904,
+    "amd": null,
+    "raw": "3-room apartment from 51,000 USD / 62 m²",
+    "usd_m2": 823
+   }
+  ],
+  "source_urls": [
+   "https://www.redinvest.am/en/developers/bnakarankarucapatoxic-duryan"
+  ]
+ },
+ {
+  "id": "novostroikiyerevancom-960",
+  "title": "Firdus Prime Residence",
+  "developer": "Art Company",
+  "district": "Kentron",
+  "current_usd_m2": 5006,
+  "current_amd_m2": 1819000,
+  "usd_from": null,
+  "reasons": [
+   "-97.7% vs local median"
+  ],
+  "observations": [
+   {
+    "source": "novostroiki-yerevan.com",
+    "kind": "m2",
+    "usd": 5006.0,
+    "amd": null,
+    "raw": "$5 006/m²; from $223 768",
+    "usd_m2": 5006
+   }
+  ],
+  "source_urls": [
+   "https://novostroiki-yerevan.com/en/p/firdus-prime-residence/"
+  ]
+ }
+]

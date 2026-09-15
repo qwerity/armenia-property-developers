@@ -1,0 +1,988 @@
+{
+ "1SQ": {
+  "names": [
+   "1ԷՍՔՅՈՒ-ԱՐԳՈ",
+   "ԲԵՅՍԻՔ ԻՆՎԵՍԹՄԵՆԹ ԸՆԴ ԴԻՎԵԼՈՓՄԵՆԹ"
+  ],
+  "entities_add": [
+   {
+    "name_hy": "«ԲԵՅՍԻՔ ԻՆՎԵՍԹՄԵՆԹ ԸՆԴ ԴԻՎԵԼՈՓՄԵՆԹ» ՍՊԸ",
+    "name_en": "Basic Investment and Development LLC",
+    "tax_id": null,
+    "form": "ՍՊԸ",
+    "registered_year": null,
+    "source_url": "https://www.hetq.am/hy/article/168902"
+   }
+  ],
+  "news_add": [
+   {
+    "date": "2024-08-22",
+    "title": "Buyer cannot get apartment bought in 2020 at Ulnetsi 58/20 (\"Yerevan in the Palm\"); developer demands FX-difference surcharge",
+    "url": "https://www.hetq.am/hy/article/168902",
+    "summary": "Hetq: developer «Բեյսիք Ինվեսթմենթ Ընդ Դիվելոփմենթ» ՍՊԸ (permit holder of the 1SQ-managed Karapet Ulnetsi 58/20 project) had not handed over a fully paid apartment >1 year after payment; buyer sued for handover and ~6.2m AMD penalties."
+   }
+  ],
+  "notable": [
+   {
+    "case_number": "ԵԴ2/32105/02/23",
+    "tab": "civil",
+    "filed": "2023-10-04",
+    "why": "Buyers (Vardanyan) v. Basic Investment & Development (Ulnetsi 58/20 SPV): compel signing of ownership-transfer act and recover penalties"
+   },
+   {
+    "case_number": "ԵԴ/54328/02/22",
+    "tab": "civil",
+    "filed": "2022-10-19",
+    "why": "One of 5 buyer suits (Karapetyan/Melkonyan) to compel sale contracts in the Ulnetsi 58/20 building; SPV counter-sued to terminate their contracts"
+   },
+   {
+    "case_number": "ՎԴ/0560/05/20",
+    "tab": "administrative",
+    "filed": "",
+    "why": "SPV contested Yerevan municipality over revocation of the Ulnetsi 58/20 construction permit (2020); neighbour plant sued to demolish 'unauthorised structure' (ԵԴ/43526/02/19)"
+   }
+  ],
+  "notes": "Court figures cover «1ԷՍՔՅՈՒ-ԱՐԳՈ» (0 cases) and «ԲԵՅՍԻՔ ԻՆՎԵՍԹՄԵՆԹ ԸՆԴ ԴԻՎԵԼՈՓՄԵՆԹ» (Ulnetsi 58/20 permit holder identified via Hetq; queried directly). Other 1SQ project SPVs are unidentified, so court coverage is partial."
+ },
+ "Art Company": {
+  "notable": [
+   {
+    "case_number": "ԵԴ/6788/02/21",
+    "tab": "civil",
+    "filed": "2021-02-23",
+    "why": "Artcompany sued a buyer (Yagoubi Kenaraki) to terminate contract and recover money"
+   },
+   {
+    "case_number": "ԵԴ/0500/02/20",
+    "tab": "civil",
+    "filed": "2020-01-13",
+    "why": "Affiliate «Ակն Քոնսթրաքշն» expropriation suits against homeowners (4 cases, 2020) for a redevelopment site"
+   },
+   {
+    "case_number": "ՎԴ/9004/05/23",
+    "tab": "administrative",
+    "filed": "",
+    "why": "Joint claim of developers vs Yerevan municipality over council decision 819-N (2023)"
+   }
+  ]
+ },
+ "APEX GM Developer": {
+  "news_add": [
+   {
+    "date": "2023-04-21",
+    "title": "Firdus (33rd district) residents unhappy with compensation offered for demolition",
+    "url": "https://www.azatutyun.am/a/32374118.html",
+    "summary": "Residents of the Firdus district, redeveloped by APEX GM Developer / Trapizon Construction, say compensation is far below market prices of the new apartments."
+   }
+  ],
+  "notable": [
+   {
+    "case_number": "ՍնԴ/3538/04/23",
+    "tab": "bankruptcy",
+    "filed": "",
+    "why": "Bankruptcy petition by the State Revenue Committee against co-permit-holder «ՏՐԱՊԻԶՈՆ ՔՈՆՍԹՐԱՔՇՆ» (2023)"
+   },
+   {
+    "case_number": "ԵԴ/53665/02/21",
+    "tab": "civil",
+    "filed": "2021-11-29",
+    "why": "GM Developer expropriation suit against Firdus homeowners (Hanrapetutyan 32, apt 23)"
+   },
+   {
+    "case_number": "ԵԴ2/3599/02/24",
+    "tab": "civil",
+    "filed": "2024-05-10",
+    "why": "Series of 2024 expropriation claims against remaining Firdus residents"
+   },
+   {
+    "case_number": "ՎԴ/4649/05/24",
+    "tab": "administrative",
+    "filed": "",
+    "why": "Challenge against Yerevan municipality decision (2024)"
+   },
+   {
+    "case_number": "ՎԴ/5080/05/22",
+    "tab": "administrative",
+    "filed": "",
+    "why": "Tax-inspection act contested vs SRC (2022)"
+   }
+  ]
+ },
+ "Arcada": {
+  "notable": [
+   {
+    "case_number": "ԵԴ2/9779/02/26",
+    "tab": "civil",
+    "filed": "2026-08-26",
+    "why": "Buyers Asryan/Barseghyan seek ~49.4m AMD penalty from Arcada Construction"
+   },
+   {
+    "case_number": "ԵԴ2/7448/02/26",
+    "tab": "civil",
+    "filed": "2026-06-29",
+    "why": "Buyers seek 14.6m AMD penalty under mortgage-backed purchase contract ՀՁ-08/21/0007"
+   },
+   {
+    "case_number": "ԵԴ2/8684/02/25",
+    "tab": "civil",
+    "filed": "2025-08-19",
+    "why": "Buyer seeks 27.1m AMD from Arcada Construction"
+   },
+   {
+    "case_number": "ԵԴ2/1166/02/24",
+    "tab": "civil",
+    "filed": "2024-02-15",
+    "why": "Buyers seek contractual penalties under 2021 off-plan purchase/mortgage contract"
+   },
+   {
+    "case_number": "ԵԴ/39996/02/22",
+    "tab": "civil",
+    "filed": "2022-08-04",
+    "why": "Residents claim penalties and roof repair"
+   }
+  ],
+  "notes": "Sharp rise of buyer penalty suits in 2025-2026 (delays in handover); no bankruptcy or criminal cases."
+ },
+ "Arcada Construction": {
+  "same_as": "Arcada"
+ },
+ "Filishin": {
+  "notable": [
+   {
+    "case_number": "ՍնԴ/2468/04/25",
+    "tab": "bankruptcy",
+    "filed": "",
+    "why": "Bankruptcy petition against Filishin by supplier «Մավենտ Ֆասադ Սիստեմ» (2025); Filishin counter-sued over invoices (6 suits, Aug 2025)"
+   },
+   {
+    "case_number": "ՏԴ/0398/02/26",
+    "tab": "civil",
+    "filed": "2026-06-17",
+    "why": "Buyer seeks 14.8m AMD from Filishin"
+   },
+   {
+    "case_number": "ՏԴ/0500/02/26",
+    "tab": "civil",
+    "filed": "2026-07-31",
+    "why": "Buyer Sargsyan: one of ~12 suits since 2025 for damages, penalties and apartment ownership transfer (Arabkir)"
+   },
+   {
+    "case_number": "ԵԴ2/2052/02/26",
+    "tab": "civil",
+    "filed": "2026-02-25",
+    "why": "Buyer asks court to recognise ownership of apartment (repeated suits by 2 buyers 2025-26)"
+   },
+   {
+    "case_number": "ԵԿԴ/3218/02/14",
+    "tab": "civil",
+    "filed": "2014-08-05",
+    "why": "Areximbank claim to recover debt and foreclose property"
+   }
+  ],
+  "notes": "Serious: open bankruptcy petition (2025) plus a wave of buyer suits (2025-2026)."
+ },
+ "Levon Amirkhanyan": {
+  "notable": [
+   {
+    "case_number": "ԵԱՆԴ/0106/04/14",
+    "tab": "bankruptcy",
+    "filed": "",
+    "why": "Related «ՎԵՆԵՑԻԱ ՊԼԱԶԱ» declared bankrupt on VTB-Armenia petition (2014)"
+   },
+   {
+    "case_number": "ԵԱՔԴ/4626/02/14",
+    "tab": "civil",
+    "filed": "2014-11-11",
+    "why": "HSBC Armenia claims USD 3.23m"
+   },
+   {
+    "case_number": "ԵԴ2/30925/02/23",
+    "tab": "civil",
+    "filed": "2023-09-25",
+    "why": "One of 5 suits (2023) by Mkrtchyan family to apply consequences of a sham transaction"
+   },
+   {
+    "case_number": "ԵԷԴ/2128/02/15",
+    "tab": "civil",
+    "filed": "2015-07-02",
+    "why": "Company claims 82.1m AMD damages from individuals (2015)"
+   }
+  ],
+  "notes": "Court counts include related «ՎԵՆԵՑԻԱ ՊԼԱԶԱ» Գ/Ս (bankrupt since 2014)."
+ },
+ "Gevmik": {
+  "notable": [
+   {
+    "case_number": "ԵԴ2/9844/02/24",
+    "tab": "civil",
+    "filed": "2024-11-20",
+    "why": "Landowner demands Gevmik demolish structure on his plot in Geghamavan (and return of unlawfully held land, ԳԴ/0705/02/24)"
+   },
+   {
+    "case_number": "ԵԴ2/7131/02/25",
+    "tab": "civil",
+    "filed": "2025-07-09",
+    "why": "Individual claim against Noy Luxury Apartment and Gevmik"
+   },
+   {
+    "case_number": "ԵԴ/0881/03/23",
+    "tab": "payment_order",
+    "filed": "2023-03-06",
+    "why": "Veolia Jur payment order 1.22m AMD"
+   }
+  ]
+ },
+ "Itarco Construction": {
+  "notable": [
+   {
+    "case_number": "ԵԿԴ/0593/02/11",
+    "tab": "civil",
+    "filed": "2011-03-29",
+    "why": "Shareholder Narine Nalbandyan corporate dispute (5 suits 2010-2014) over general-meeting decisions and leases"
+   },
+   {
+    "case_number": "ՎԴ/11338/05/18",
+    "tab": "administrative",
+    "filed": "",
+    "why": "Tax act contested vs SRC (2018)"
+   }
+  ],
+  "notes": "No cases filed since 2018; entity is a CJSC (ՓԲԸ)."
+ },
+ "Milon Mining": {
+  "news_add": [
+   {
+    "date": "2026-09-08",
+    "title": "Law enforcement did not open criminal case over alleged extra payments collected from buyers by MP Hayk Konjoryan's brother",
+    "url": "https://www.azatutyun.am/a/33850165.html",
+    "summary": "Milon Mining said Avet Konjoryan took ~10,000 AMD/m2 from apartment buyers without paying it into company accounts; police checked but did not start criminal proceedings."
+   },
+   {
+    "date": "2026-03-04",
+    "title": "Hetq: real estate opposite the park - ties between Civil Contract MPs, Abovyan mayor Eduard Babayan and a privileged businessman",
+    "url": "https://hetq.am/hy/article/180005",
+    "summary": "Investigation into Milon Mining (owner Babken Hovakimyan) building 3 apartment blocks in Abovyan/Arinj, and links to Hayk Konjoryan's relatives and the Abovyan mayor."
+   }
+  ],
+  "notable": [
+   {
+    "case_number": "ԿԴ/0123/02/26",
+    "tab": "civil",
+    "filed": "2026-01-29",
+    "why": "Milon Mining suing Konjoryan buyers to terminate 2024 off-plan purchase contract"
+   },
+   {
+    "case_number": "ԿԴ/1442/02/26",
+    "tab": "civil",
+    "filed": "2026-09-01",
+    "why": "Buyers (Zeynalyan) seek to compel Milon Mining to sign contract for Kotayk apartment (3 similar suits same day)"
+   }
+  ],
+  "confidence": "high",
+  "names": [
+   "ՄԻԼՈՆ ՄԱՅՆԻՆԳ"
+  ]
+ },
+ "MILON MINING": {
+  "same_as": "Milon Mining"
+ },
+ "Gazavik": {
+  "party_include": [
+   "ԳԱԶԱՎԻԿ$"
+  ],
+  "notable": [
+   {
+    "case_number": "ԵԴ/4503/02/19",
+    "tab": "civil",
+    "filed": "2019-02-18",
+    "why": "Veolia Jur utility debt 4.1m AMD (repeated 2020, 2022)"
+   },
+   {
+    "case_number": "ԵԴ2/0216/02/24",
+    "tab": "civil",
+    "filed": "2024-01-15",
+    "why": "Supplier Avtoevro-Group debt claim"
+   }
+  ],
+  "notes": "Court counts limited to «ԳԱԶԱՎԻԿ» itself. Affiliate/contractor «ՊՐՈՄ ԳՐՈՒՊ» has 5 cases, incl. 2026 claims by the Urban Development Committee and the K. Demirchyan Sports-Concert Complex over procurement (blacklisting / contract validity) — ԵԴ2/8438/02/26, ԵԴ2/8133/02/26."
+ },
+ "Ord Development": {
+  "news_add": [
+   {
+    "date": "2026-07-16",
+    "title": "Residents say Komitas Park developer keeps charging 357,000 AMD for gas despite ban",
+    "url": "https://www.azatutyun.am/a/karoutsapatogh-gazi-hamar-goumar/33805217.html",
+    "summary": "Buyers at Komitas Park (Griboyedov 48) complain Ord Development demands gas-connection fees before signing transfer acts despite a Competition Protection Commission prohibition; no gas last winter."
+   },
+   {
+    "date": "2026-07-02",
+    "title": "Urban Development Committee: developer's demand for extra payments from public servants in Komitas Park is unacceptable",
+    "url": "https://www.aravot.am/2026/07/02/1566935/",
+    "summary": "State committee publicly rejected Ord Development's demands for payments not provided by law from civil servants who bought under the state housing programme."
+   },
+   {
+    "date": "2026-07-21",
+    "title": "Urban Development Committee expects Komitas Park developer to promptly organise signing of transfer acts",
+    "url": "https://www.aravot.am/2026/07/21/1570072/",
+    "summary": "Delays in handing over apartments (transfer acts) at Komitas Park."
+   },
+   {
+    "date": "",
+    "title": "Competition protection commission: Komitas Park apartments must be gasified without extra payments to developer",
+    "url": "https://hetq.am/hy/article/182692",
+    "summary": "Commission found Ord Development's conduct (gasification fee, failure to provide gas) violated consumer interests."
+   }
+  ],
+  "notable": [
+   {
+    "case_number": "ԵԴ2/8960/02/26",
+    "tab": "civil",
+    "filed": "2026-08-04",
+    "why": "Buyer seeks 24.2m AMD from Ord Development"
+   },
+   {
+    "case_number": "ԵԴ2/12623/02/25",
+    "tab": "civil",
+    "filed": "2025-11-25",
+    "why": "Buyer seeks 24.8m AMD contractual penalty (delay)"
+   },
+   {
+    "case_number": "ԵԴ2/7166/02/26",
+    "tab": "civil",
+    "filed": "2026-06-22",
+    "why": "Buyer asks court to compel transfer act for Griboyedov 48 bldg 7 apt 29"
+   },
+   {
+    "case_number": "ԵԴ2/2286/02/26",
+    "tab": "civil",
+    "filed": "2026-03-02",
+    "why": "Buyers seek ~16.2m AMD penalties"
+   },
+   {
+    "case_number": "ՎԴ/6530/05/22",
+    "tab": "administrative",
+    "filed": "",
+    "why": "Contesting Health & Labour Inspectorate inspection act (2022)"
+   }
+  ],
+  "notes": "Serious: Komitas Park (1,418 apts) delays, buyer penalty suits (11 since 2024) and regulator findings in 2026."
+ },
+ "Shinart Group": {
+  "party_include": [
+   "ՇԻՆԱՐՏ"
+  ],
+  "news_add": [
+   {
+    "date": "2025-07-02",
+    "title": "Citizen sued developer Shinart Group; developer counter-sued him and other residents",
+    "url": "https://www.azatutyun.am/a/kaghakatsin-dati-e-tvel-karoutsapatogh-ynkeroutyany-verjins-el-nran-ev-ayl-bnakichneri/33461119.html",
+    "summary": "Buyer sued over >1-year late handover at Nazarbekyan 41/1; Shinart argued buyers bought only 'the right to obtain' apartments and sought contract termination."
+   },
+   {
+    "date": "2025-09-21",
+    "title": "Hetq: 'Harmed by the developer, now by the judge' - Shinart Group not handing apartment to buyer",
+    "url": "https://hetq.am/hy/article/176954",
+    "summary": "Buyers at Nazarbekyan 41/1 (deadline July 2023) seek penalties; developer counter-sued to void contract."
+   },
+   {
+    "date": "2026-04-16",
+    "title": "Three years on, apartment still not handed over; court rejected both buyer's and developer's claims",
+    "url": "https://www.azatutyun.am/a/33733834.html",
+    "summary": "Court denied buyer's >10m AMD penalty claim and Shinart Group's request to cancel the contract."
+   }
+  ],
+  "notable": [
+   {
+    "case_number": "ԵԴ2/8593/02/24",
+    "tab": "civil",
+    "filed": "2024-10-14",
+    "why": "Buyers Grigoryan/Mkrtchyan penalty suit over late handover (covered by Azatutyun/Hetq); related ԵԴ2/7971/02/25, ԵԴ2/8673/02/25"
+   },
+   {
+    "case_number": "ԵԴ2/10458/02/24",
+    "tab": "civil",
+    "filed": "2024-12-05",
+    "why": "Buyer seeks 10.0m AMD penalty"
+   },
+   {
+    "case_number": "ԵԴ2/4204/02/25",
+    "tab": "civil",
+    "filed": "2025-04-17",
+    "why": "Buyer asks court to compel apartment ownership-transfer act and recover money"
+   },
+   {
+    "case_number": "ՎԴ/13476/05/25",
+    "tab": "administrative",
+    "filed": "",
+    "why": "Shinart challenges Cadastre Committee's registration of buyers' ownership (3 such suits, 2025)"
+   }
+  ],
+  "notes": "Serious: repeated buyer disputes over late handover at Nazarbekyan Towers; company contests buyers' registered ownership."
+ },
+ "Kamertoon": {
+  "notable": [
+   {
+    "case_number": "ԵԴ2/4218/02/26",
+    "tab": "civil",
+    "filed": "2026-04-17",
+    "why": "Kamertoon as claimant vs «ՎԱՅՍԿՈ» (2026)"
+   }
+  ]
+ },
+ "Target Development": {
+  "notable": [
+   {
+    "case_number": "ԵԿԴ/1391/02/17",
+    "tab": "civil",
+    "filed": "2017-04-10",
+    "why": "Company claim vs ASB Management (money recovery)"
+   }
+  ]
+ },
+ "Kam Developments": {
+  "notable": [
+   {
+    "case_number": "ԼԴ/1382/02/25",
+    "tab": "civil",
+    "filed": "2025-11-11",
+    "why": "Kam Developments claims 67.0m AMD from contractor «Տ-Քնսթրաքշն»"
+   },
+   {
+    "case_number": "ՎԴ/14707/05/24",
+    "tab": "administrative",
+    "filed": "",
+    "why": "Challenges Vanadzor community decision (2024)"
+   }
+  ]
+ },
+ "Lav-Sar (FeliCity)": {
+  "notable": [
+   {
+    "case_number": "ԵԴ2/13636/02/25",
+    "tab": "civil",
+    "filed": "2025-12-22",
+    "why": "Mikoyan 27 homeowners' association claims 5.0m AMD maintenance fees for unsold units (4 suits 2025-26)"
+   },
+   {
+    "case_number": "ԵԱԴԴ/1394/02/10",
+    "tab": "civil",
+    "filed": "2010-12-15",
+    "why": "Avetisyan family: void-contract suits with bank interest (6 suits 2010-2011)"
+   }
+  ],
+  "notes": "respondent_by_individuals excludes the 4 HOA (Mikoyan 27) suits."
+ },
+ "Up Development": {
+  "notable": [
+   {
+    "case_number": "ԵԴ2/8201/02/24",
+    "tab": "civil",
+    "filed": "2024-10-03",
+    "why": "Claim by «Դեվելոփմենթ Փայոնիերզ» against Up Development (2 suits 2024)"
+   }
+  ],
+  "confidence": "medium"
+ },
+ "Lorida Group": {
+  "notable": [
+   {
+    "case_number": "ԵԴ2/7797/02/26",
+    "tab": "civil",
+    "filed": "2026-07-07",
+    "why": "Samvel Simonyan (apparently a participant/creditor) files ~10 suits 2026 citing Lorida Group's 2020-2025 financial statements (balance sheet 27bn AMD in 2025)"
+   },
+   {
+    "case_number": "ԵԴ2/2446/02/26",
+    "tab": "civil",
+    "filed": "2026-03-05",
+    "why": "Suit to compel performance of contractual obligations"
+   },
+   {
+    "case_number": "ԵԴ2/4581/02/26",
+    "tab": "civil",
+    "filed": "2026-04-27",
+    "why": "Individual claim vs Lorida Group (2026)"
+   }
+  ],
+  "notes": "13 civil suits all in 2026, 11 by one person (Samvel Simonyan) — looks like a shareholder/financial dispute rather than buyer complaints; respondent_by_individuals therefore overstates buyer litigation."
+ },
+ "Vardanyanshin  (Abovyan Hills)": {
+  "party_include": [
+   "ՎԱՐԴԱՆՅԱՆ ?ՇԻՆ"
+  ],
+  "notable": [
+   {
+    "case_number": "ՍնԴ/3888/04/22",
+    "tab": "bankruptcy",
+    "filed": "",
+    "why": "SRC bankruptcy petition against «ՎԱՐԴԱՆՅԱՆ ՇԻՆ» (2022) — namesake risk: most matched cases are in Kotayk courts 2013-2020 with suppliers"
+   },
+   {
+    "case_number": "ԿԴ/0619/03/20",
+    "tab": "payment_order",
+    "filed": "2020-04-28",
+    "why": "Payment order 12.1m AMD by Sekna Group"
+   },
+   {
+    "case_number": "ԿԴ1/3871/02/19",
+    "tab": "civil",
+    "filed": "2019-09-03",
+    "why": "Concrete supplier Tomshinbeton debt claim"
+   }
+  ],
+  "confidence": "medium",
+  "notes": "Court counts limited to «ՎԱՐԴԱՆՅԱՆ(Ը) ՇԻՆ»; the matched party may be an older namesake (no tax id to confirm). Founder «ԲԱՂՐԱՄՅԱՆՇԻՆ» ԲԲԸ has 11 cases (tender disputes with Urban Development Committee 2022, Territorial Development Fund 3.6m AMD claim 2024) and «ՎԱԼԵՔՍ ՇԻՆ» 1 claim vs Yerevan municipality; none bankruptcy/criminal."
+ },
+ "National Social Housing Association (ASBA)": {
+  "notable": [
+   {
+    "case_number": "ՏԴ1/0818/02/17",
+    "tab": "civil",
+    "filed": "2017-10-24",
+    "why": "Dilijan municipality sought to terminate land sale/agreement and return plot (3 suits 2017)"
+   },
+   {
+    "case_number": "ՎԴ/9301/05/18",
+    "tab": "administrative",
+    "filed": "",
+    "why": "Dispute with cadastre over registration of Dilijan Moldovakan St 7/3-7/4 apartments"
+   }
+  ]
+ },
+ "National Social Housing Association (ASBA Foundation)": {
+  "same_as": "National Social Housing Association (ASBA)"
+ },
+ "Snart Construction Company": {
+  "notable": [
+   {
+    "case_number": "ԵՇԴ/0015/02/12",
+    "tab": "civil",
+    "filed": "2012-01-11",
+    "why": "State Property Management Dept suit to enforce contractual obligation"
+   }
+  ]
+ },
+ "BULDOZER GROUP  (sales: RED Invest Group)": {
+  "notable": [
+   {
+    "case_number": "ԵԴ2/2609/02/26",
+    "tab": "civil",
+    "filed": "2026-03-10",
+    "why": "Steel pipe plant 'Metal Steel' claim vs contractor Shinvector"
+   },
+   {
+    "case_number": "ՎԴ/8878/05/23",
+    "tab": "administrative",
+    "filed": "",
+    "why": "Shinvector contests labour-inspectorate violation act (2023)"
+   }
+  ],
+  "notes": "All matched cases concern contractor «ՇԻՆՎԵԿՏՈՐ»; «ԲՈՒԼԴՈԶԵՐ ԳՐՈՒՊ» itself has none."
+ },
+ "Advanced Development (sales: RED Invest Group)": {
+  "notable": [
+   {
+    "case_number": "ԵԴ2/12217/02/25",
+    "tab": "civil",
+    "filed": "2025-11-13",
+    "why": "Buyers (Chobanyan/Galstyan) money-recovery suit"
+   },
+   {
+    "case_number": "ԵԴ2/8027/02/25",
+    "tab": "civil",
+    "filed": "2025-08-04",
+    "why": "Individual claim vs Advanced Development"
+   },
+   {
+    "case_number": "ՎԴ/1489/05/10",
+    "tab": "administrative",
+    "filed": "",
+    "why": "Tax authority claim 55.3m AMD (2010)"
+   }
+  ]
+ },
+ "Azurit (sales: RED Invest Group)": {
+  "notable": [
+   {
+    "case_number": "ԵԴ2/4039/02/26",
+    "tab": "civil",
+    "filed": "2026-04-13",
+    "why": "Motor Insurers Bureau recourse claim vs Azurit and an employee"
+   },
+   {
+    "case_number": "ԵԴ2/10064/02/24",
+    "tab": "civil",
+    "filed": "2024-11-26",
+    "why": "FES damages claim ~964k AMD"
+   }
+  ]
+ },
+ "Avan Residence (sales: RED Invest Group)": {
+  "notable": [
+   {
+    "case_number": "ԵԴ2/7515/02/26",
+    "tab": "civil",
+    "filed": "2026-06-30",
+    "why": "Contractor Malkhasyanshin claims 18.5m AMD from «Այլոֆթ»"
+   }
+  ],
+  "notes": "Matched cases concern contractor «ՄԱԼԽԱՍՅԱՆՇԻՆ»; «ԱՎԱՆ ՌԵԶԻԴԵՆՍ» itself has none."
+ },
+ "Allur Dilijan (Shamakhyan )": {
+  "party_exclude": [
+   "ԳՈՌ ՇԱՄԱԽՅԱՆ",
+   "ԺՈՐԱ ՇԱՄԱԽՅԱՆ",
+   "ԹԱԴԵՒՈՍ"
+  ],
+  "notable": [
+   {
+    "case_number": "ԵԴ2/4882/02/26",
+    "tab": "civil",
+    "filed": "2026-05-05",
+    "why": "«Շամախյան» ՍՊԸ asks court to terminate 2023 off-plan purchase contract with buyer Areg Gharibyan"
+   }
+  ],
+  "notes": "Name equals a common surname/street; individual namesakes (Gor/Zhora/Tadevos Shamakhyan) excluded from counts."
+ },
+ "SHAMAKHYAN": {
+  "same_as": "Allur Dilijan (Shamakhyan )"
+ },
+ "Hovnanian International  (Vahakni Residential Community)": {
+  "confidence": "medium",
+  "notable": [
+   {
+    "case_number": "ԵԱԴԴ/1631/02/09",
+    "tab": "civil",
+    "filed": "2009-11-24",
+    "why": "Buyer seeks invalidation of preliminary sale contract and refund of 203.7m AMD for Vahakni plot"
+   },
+   {
+    "case_number": "ԵԴ2/1968/02/25",
+    "tab": "civil",
+    "filed": "2025-02-28",
+    "why": "Hovnanian suing plot owner to compel start/completion of construction per contract (3 suits 2025)"
+   },
+   {
+    "case_number": "ԵԴ/27449/02/19",
+    "tab": "civil",
+    "filed": "2019-08-27",
+    "why": "Damage to building and property claims (2 suits 2019)"
+   },
+   {
+    "case_number": "ԵԴ/1375/02/19",
+    "tab": "civil",
+    "filed": "2019-01-23",
+    "why": "Nairit plant bankruptcy manager reclaims property from Hovnanian"
+   },
+   {
+    "case_number": "ՎԴ2/0284/05/10",
+    "tab": "administrative",
+    "filed": "",
+    "why": "Land dispute with Dilijan municipality / Haghartsin cooperative"
+   }
+  ],
+  "notes": "Registered spelling confirmed by datalex as «ՀՈՎՆԱՆՅԱՆ ԻՆՏԵՐՆԵՅՇՆԼ» ՍՊԸ (76 cases since 2008, mostly land/contract disputes; only 19 since 2021)."
+ },
+ "Bedeck Masis": {
+  "notable": [
+   {
+    "case_number": "ԵԴ2/0967/02/25",
+    "tab": "civil",
+    "filed": "2025-02-03",
+    "why": "Bedeck (with Baghramyanshin) challenges Health Ministry project office's unilateral action on 2021 contract"
+   },
+   {
+    "case_number": "ԵԴ2/0670/02/26",
+    "tab": "civil",
+    "filed": "2026-01-22",
+    "why": "Bedeck contests its inclusion in procurement blacklist by Urban Development Committee"
+   },
+   {
+    "case_number": "ԵԴ2/3248/02/26",
+    "tab": "civil",
+    "filed": "2026-03-24",
+    "why": "Classified claim vs Ministry of Defence (2 suits)"
+   }
+  ]
+ },
+ "Pars": {
+  "same_as": "Bedeck Masis"
+ },
+ "Brawerk": {
+  "notable": [
+   {
+    "case_number": "ՇԴ/0014/04/09",
+    "tab": "bankruptcy",
+    "filed": "",
+    "why": "Bankruptcy case vs «ՄԵԾՆ ԷՐԻԿ» on petition of liquidated Shirakinvestbank (2009)"
+   },
+   {
+    "case_number": "ԵԴ2/12052/02/25",
+    "tab": "civil",
+    "filed": "2025-11-10",
+    "why": "Contests inclusion in procurement blacklist by Urban Development Committee"
+   },
+   {
+    "case_number": "ՎԴ/5605/05/25",
+    "tab": "administrative",
+    "filed": "",
+    "why": "Land-rights dispute with Yerevan municipality and Cadastre (2025)"
+   }
+  ]
+ },
+ "ML MINING": {
+  "names": [
+   "ՄԼ ՄԱՅՆԻՆԳ"
+  ],
+  "news_add": [
+   {
+    "date": "",
+    "title": "Government decision on sale of apartments to public servants in ML Mining's Adonts 19/8 complex",
+    "url": "https://www.arlis.am/hy/acts/165209",
+    "summary": "ML Mining builds state-programme housing for public servants (Adonts 19/8, Babajanyan 42/5)."
+   }
+  ],
+  "notable": [
+   {
+    "case_number": "ՍնԴ/1315/04/26",
+    "tab": "bankruptcy",
+    "filed": "",
+    "why": "2026 bankruptcy petition against ML Mining filed by individuals (Tsaturyan/Navasardyan)"
+   },
+   {
+    "case_number": "ԵԴ2/9875/02/25",
+    "tab": "civil",
+    "filed": "2025-09-18",
+    "why": "Buyer Shahumyan: 4 penalty suits for late handover; ~35 similar buyer suits 2025-2026"
+   },
+   {
+    "case_number": "ԵԴ2/8672/02/26",
+    "tab": "civil",
+    "filed": "2026-07-28",
+    "why": "Buyer asks court to compel ownership-transfer under contract No.73"
+   },
+   {
+    "case_number": "ԵԴ2/5858/02/23",
+    "tab": "civil",
+    "filed": "2023-05-23",
+    "why": "Buyer Kalantaryan: compel purchase contracts for Babajanyan 42/5 (7 suits 2023-24)"
+   },
+   {
+    "case_number": "ԵԴ2/11293/02/24",
+    "tab": "civil",
+    "filed": "2024-12-26",
+    "why": "Bankrupt contractor Monolithic Building (manager) claims vs ML Mining"
+   }
+  ],
+  "notes": "Serious: 2026 bankruptcy petition, ~51 suits by individuals (mostly buyers claiming penalties / handover), 18 administrative cases (mining inspectorate, labour inspectorate). Company denied bankruptcy rumours in 2023."
+ },
+ "CRAFTED CONSTRUCTIONS": {
+  "notable": [
+   {
+    "case_number": "ԵԴ2/6047/02/25",
+    "tab": "civil",
+    "filed": "2025-06-11",
+    "why": "Shinsertifikat (construction QA) claims vs Mitstart (3 suits 2025)"
+   },
+   {
+    "case_number": "ԵԴ2/10560/02/25",
+    "tab": "civil",
+    "filed": "2025-10-06",
+    "why": "Employee contests dismissal by contractor D&S Construction"
+   }
+  ],
+  "notes": "No cases for «ՔՐԱՖԹԻԴ ՔՈՆՍԹՐԱՔՇՆՍ» itself; counts are for co-named developer «ՄԻԹՍԹԱՐԹ» and builder «Դ ԵՎ Ս ՔՈՆՍԹՐԱՔՇՆ»."
+ },
+ "GM Development": {
+  "notable": [
+   {
+    "case_number": "ՎԴ/16334/05/24",
+    "tab": "administrative",
+    "filed": "",
+    "why": "Foreign-investment status dispute with Yerevan municipality (2024)"
+   }
+  ]
+ },
+ "Em Es Grup": {
+  "party_exclude": [
+   "ՍԻՍՏԵՄՍ"
+  ],
+  "notable": [
+   {
+    "case_number": "ԵԴ2/7892/02/26",
+    "tab": "civil",
+    "filed": "2026-07-09",
+    "why": "Em Es Group claims 105.2m AMD from Electric Networks of Armenia"
+   },
+   {
+    "case_number": "ԵԴ2/5129/02/24",
+    "tab": "civil",
+    "filed": "2024-07-04",
+    "why": "Buyers claim contractual penalty"
+   },
+   {
+    "case_number": "ԵԴ2/1252/02/25",
+    "tab": "civil",
+    "filed": "2025-02-10",
+    "why": "Individual money-recovery suit"
+   }
+  ],
+  "notes": "Excluded «ԷՄ ԷՍ ԳՐՈՒՊ ՍԻՍՏԵՄՍ» (different company, bankrupt 2016). 2010-2012 telecom/TV claims may belong to an older namesake."
+ },
+ "Best Propertis": {
+  "notable": [
+   {
+    "case_number": "ԵԴ2/10226/02/24",
+    "tab": "civil",
+    "filed": "2024-11-29",
+    "why": "Buyer Lida Hakobyan: compel ownership transfer of Halabyan 75/1 apt 150 (3 refilings 2024-25)"
+   },
+   {
+    "case_number": "ԵԴ/8391/02/23",
+    "tab": "civil",
+    "filed": "2023-03-03",
+    "why": "Armenia Medical Centre claims damages and cable relocation"
+   }
+  ]
+ },
+ "Living Rezidens": {
+  "notable": [
+   {
+    "case_number": "ԵԴ2/9042/02/26",
+    "tab": "civil",
+    "filed": "2026-08-06",
+    "why": "Buyers seek 2.2m AMD for improper performance"
+   },
+   {
+    "case_number": "ԵԴ2/3199/02/26",
+    "tab": "civil",
+    "filed": "2026-03-23",
+    "why": "Buyer seeks 2.6m AMD for improper performance"
+   }
+  ]
+ },
+ "Armstroy Proyekt": {
+  "notable": [
+   {
+    "case_number": "ՍԴ3/0232/02/24",
+    "tab": "civil",
+    "filed": "2024-10-28",
+    "why": "Armstroy Proyekt seeks to void 2023 contracts between «Ռեկոնստրաշն» and buyers at Arghutyan 10/15 (3 suits)"
+   },
+   {
+    "case_number": "ՍնԴ/1728/04/25",
+    "tab": "bankruptcy",
+    "filed": "",
+    "why": "Armstroy Proyekt as petitioner in bankruptcy of «Յու Մետ Էքսպորտ»"
+   },
+   {
+    "case_number": "ԵԴ/46106/02/21",
+    "tab": "civil",
+    "filed": "2021-10-12",
+    "why": "Individual damages claim"
+   }
+  ]
+ },
+ "Amerikana Saga Shin": {
+  "notable": [
+   {
+    "case_number": "ԵԴ2/12327/02/25",
+    "tab": "civil",
+    "filed": "2025-11-18",
+    "why": "Contractor Elite Construction claims vs Saga Shin; 2026 arbitration award challenge (ԵԴ2/6888/02/26)"
+   }
+  ]
+ },
+ "S.K. Group": {
+  "party_include": [
+   "Ս\\.? ?Կ\\.? ԳՐՈՒՊ",
+   "ԷՍ ՔԵՅ ԳՐՈՒՊ"
+  ],
+  "notes": "Court counts limited to «Ս.Կ. ԳՐՈՒՊ» (0). Affiliated (same phone) «ՇԻՆԱՐՏ ԳՐՈՒՊ» has 16 cases incl. buyer late-handover suits — see Shinart Group."
+ },
+ "SV & GA": {
+  "notable": [
+   {
+    "case_number": "ՎԴ/8283/05/23",
+    "tab": "administrative",
+    "filed": "",
+    "why": "Joint developers' claim vs Yerevan municipality over council decision 819-N (2023)"
+   }
+  ]
+ },
+ "Imperial Construction": {
+  "notable": [
+   {
+    "case_number": "ԵԴ2/7146/02/23",
+    "tab": "civil",
+    "filed": "2023-05-31",
+    "why": "Buyer asks court to validate 2021 preliminary contract and compel main contract"
+   },
+   {
+    "case_number": "ԵԴ2/3589/02/24",
+    "tab": "civil",
+    "filed": "2024-05-08",
+    "why": "Individual money-recovery suit"
+   }
+  ]
+ },
+ "L Zara": {
+  "notable": [
+   {
+    "case_number": "ԵԴ2/1221/02/26",
+    "tab": "civil",
+    "filed": "2026-02-05",
+    "why": "Bankruptcy manager of «ՌԵԿՈՆՍՏՐԱՔՇՆ» recovers money from L.Zara (tax id 02691408 in claim)"
+   },
+   {
+    "case_number": "ՎԴ/6294/05/24",
+    "tab": "administrative",
+    "filed": "",
+    "why": "Moss Group contests SRC protocol (2024)"
+   }
+  ]
+ },
+ "Solar City / Solar Siti": {
+  "notes": "Datalex shows the entity as «ՍՈԼԱՐ ՍԻԹԻ» ՓԲԸ (CJSC).",
+  "notable": [
+   {
+    "case_number": "ԵԴ/41582/02/22",
+    "tab": "civil",
+    "filed": "2022-08-12",
+    "why": "Solar City claims money from GMG Group"
+   }
+  ]
+ },
+ "Khakhamyan Heritage (AMANOO)": {
+  "notable": [
+   {
+    "case_number": "ՎԴ/8283/05/23",
+    "tab": "administrative",
+    "filed": "",
+    "why": "Joint developers' claim vs Yerevan municipality over council decision 819-N (2023)"
+   }
+  ]
+ },
+ "Amanoo": {
+  "same_as": "Khakhamyan Heritage (AMANOO)"
+ },
+ "Dream House": {
+  "notable": [
+   {
+    "case_number": "ՎԴ2/0343/05/22",
+    "tab": "administrative",
+    "filed": "",
+    "why": "Contests SRC protocol (2022)"
+   }
+  ]
+ },
+ "New Home  (sales: RED Invest Group)": {
+  "names": [
+   "ՆՅՈՒ ՀՈՄ"
+  ],
+  "notable": []
+ },
+ "Nova Building": {
+  "notes": "«ՀԱԷԿՇԻՆ» and «ՆՈՎԱ ԲԻԼԴԻՆԳ» returned no exact-name hits (the contractor may be registered as «ՀԱԷԿ-Ի ՇԻՆԱՐԱՐՈՒԹՅՈՒՆ» ՓԲԸ, which appears in joint claim ՎԴ/8283/05/23)."
+ }
+}
