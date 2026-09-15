@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Analytics · New builds in Armenia</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wdth,wght@85..100,400..700&family=Noto+Sans+Armenian:wght@400..700&display=swap">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="analytics.css">
+</head>
+<body class="an-body">
+  <header class="an-top">
+    <div class="an-brand">
+      <h1>New builds in Armenia</h1>
+      <nav class="an-nav" aria-label="Pages">
+        <a href="index.html">Map</a>
+        <a href="analytics.html" aria-current="page">Analytics</a>
+      </nav>
+    </div>
+    <p id="an-meta" class="muted">Loading…</p>
+  </header>
+
+  <form class="an-filters" id="an-filters" aria-label="Filters" onsubmit="return false">
+    <label>Region<select id="af-region"><option value="">All regions</option></select></label>
+    <label>District<select id="af-district"><option value="">All districts</option></select></label>
+    <label>Type<select id="af-kind"><option value="">All types</option></select></label>
+    <label>Stage<select id="af-stage"><option value="">All stages</option></select></label>
+    <label>Developer rating<select id="af-grade">
+      <option value="">Any rating</option><option value="A">A only</option><option value="B">B or better</option><option value="C">C or better</option>
+    </select></label>
+    <div class="seg" id="af-currency" aria-label="Currency"><button type="button" data-cur="USD" class="on">$</button><button type="button" data-cur="AMD">֏</button></div>
+    <button type="button" class="link" id="af-reset" hidden>Clear filters</button>
+  </form>
+
+  <main class="an-grid" id="an-main">
+    <section class="an-hero card">
+      <span class="an-label">Median asking price per m², apartments with a current price</span>
+      <strong id="kpi-hero" class="an-hero-value">—</strong>
+      <span id="kpi-hero-sub" class="muted"></span>
+    </section>
+    <section class="an-kpis" id="an-kpis" aria-label="Key figures"></section>
+
+    <article class="card span-2">
+      <header><h2>Price per m² by district</h2><p class="muted">Median of current asking prices, apartments only. Bar shows the median; hover for the middle-half range. Districts with fewer than 3 priced projects are hidden.</p></header>
+      <div class="chart" id="ch-district"></div>
+      <details class="an-table"><summary>Table</summary><div id="tb-district"></div></details>
+    </article>
+
+    <article class="card">
+      <header><h2>Price distribution</h2><p class="muted">Projects per $250/m² band, current prices.</p></header>
+      <div class="chart" id="ch-hist"></div>
+      <details class="an-table"><summary>Table</summary><div id="tb-hist"></div></details>
+    </article>
+
+    <article class="card">
+      <header><h2>Delivery pipeline</h2><p class="muted">Projects by completion year. Past years in gray.</p></header>
+      <div class="chart" id="ch-pipeline"></div>
+      <details class="an-table"><summary>Table</summary><div id="tb-pipeline"></div></details>
+    </article>
+
+    <article class="card span-2">
+      <header><h2>Construction stage by area</h2><p class="muted">Number of projects in each stage.</p></header>
+      <div class="legend-row" id="lg-stage"></div>
+      <div class="chart" id="ch-stage"></div>
+      <details class="an-table"><summary>Table</summary><div id="tb-stage"></div></details>
+    </article>
+
+    <article class="card span-2">
+      <header><h2>Price against completion date</h2><p class="muted">Each dot is a project with a current price. Click a dot to open it on the map.</p></header>
+      <div class="chart" id="ch-scatter"></div>
+    </article>
+
+    <article class="card">
+      <header><h2>Developer ratings</h2><p class="muted">Projects by their developer's A–E rating.</p></header>
+      <div class="chart" id="ch-grades"></div>
+      <details class="an-table"><summary>Table</summary><div id="tb-grades"></div></details>
+    </article>
+
+    <article class="card">
+      <header><h2>Data quality</h2><p class="muted">How much of the dataset is verified.</p></header>
+      <div id="ch-quality"></div>
+    </article>
+
+    <article class="card span-2">
+      <header><h2>Largest developers</h2><p class="muted">By number of projects in the current filter.</p></header>
+      <div id="tb-developers" class="an-scroll"></div>
+    </article>
+
+    <article class="card span-2">
+      <header><h2>Priced below the local median</h2><p class="muted">Apartments with a verified current price, sorted by discount to their district median. Check the developer rating before reading a discount as a deal.</p></header>
+      <div id="tb-deals" class="an-scroll"></div>
+    </article>
+  </main>
+
+  <div class="an-tip" id="an-tip" role="tooltip" hidden></div>
+  <script src="config.js" onerror="void 0"></script>
+  <script type="module" src="js/analytics.js"></script>
+</body>
+</html>
