@@ -4,11 +4,12 @@ import { esc, money, compactMoney, quarter, stageLabel } from "./util.js";
 import { gradeBadge } from "./list.js";
 
 const CLUSTER_BELOW_ZOOM = 13;
-const SELECT_ZOOM = 15;
+const SELECT_ZOOM = 16;
 const SELECT_ZOOM_3D = 17;
-const SELECT_RANGE_PHOTO = 1800;
-/** Approximate Google Maps zoom level for a 3D camera range (metres). */
+const SELECT_ZOOM_PHOTO = 18;
+/** Approximate Google Maps zoom level for a 3D camera range (metres), and the inverse. */
 const zoomFromRange = (range) => Math.log2(591657550 / Math.max(range, 1));
+const rangeFromZoom = (zoom) => 591657550 / 2 ** zoom;
 
 function popupHtml(p) {
   const img = p.images?.[0];
@@ -167,7 +168,8 @@ export function createMap(container, { onSelect, onMove, onZoom = () => {} }) {
         const panel = document.getElementById("right");
         if (panel && !panel.hidden && panel.offsetWidth < container.offsetWidth) state.map.panBy(panel.offsetWidth / 2, 0);
         if (state.map3d && !container.querySelector(".gmap3d").hidden) {
-          state.map3d.flyCameraTo({ endCamera: { center: { lat: p.lat, lng: p.lng, altitude: 0 }, range: SELECT_RANGE_PHOTO, tilt: 65, heading: state.map3d.heading || 0 }, durationMillis: 2200 });
+          state.map3d.flyCameraTo({ endCamera: { center: { lat: p.lat, lng: p.lng, altitude: 0 }, range: rangeFromZoom(SELECT_ZOOM_PHOTO), tilt: 65, heading: state.map3d.heading || 0 }, durationMillis: 2200 });
+          onZoom(SELECT_ZOOM_PHOTO);
         }
       }
       sync3d();
@@ -211,6 +213,7 @@ export function createMap(container, { onSelect, onMove, onZoom = () => {} }) {
           host3d.append(state.map3d);
           state.map3d.addEventListener("gmp-steadychange", (e) => { if (e.isSteady) sync3d(); });
           state.map3d.addEventListener("gmp-rangechange", () => onZoom(zoomFromRange(state.map3d.range)));
+          state.map3d.addEventListener("gmp-animationend", () => onZoom(zoomFromRange(state.map3d.range)));
         } else {
           state.map3d.center = { lat: c.lat(), lng: c.lng(), altitude: 0 };
           state.map3d.range = range;
