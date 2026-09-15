@@ -32,8 +32,8 @@ def main(stamp: str) -> int:
             if loc.get("verdict") and not (loc["verdict"] == "unlocatable" and loc.get("lat") is None):
                 geos.append({**base, **loc})
             n = r.get("numbers") if isinstance(r.get("numbers"), dict) else {}
-            if n.get("floors") or n.get("completion"):
-                stages.append({**base, "stage": None, "floors": n.get("floors"), "completion": n.get("completion"),
+            if n.get("floors") or n.get("completion") or n.get("stage"):
+                stages.append({**base, "stage": n.get("stage"), "floors": n.get("floors"), "completion": n.get("completion"),
                                "evidence_url": n.get("evidence_url"), "notes": n.get("notes")})
     for name, rows in (("price", prices), ("geo", geos), ("stage", stages)):
         (HERE / f"{name}_verified_{stamp}_full.json").write_text(json.dumps(rows, ensure_ascii=False, indent=1), encoding="utf-8")

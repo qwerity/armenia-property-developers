@@ -1,0 +1,5942 @@
+[
+ {
+  "id": "acbox-145",
+  "title": "Defance housing",
+  "stage": null,
+  "floors": null,
+  "completion": "2026",
+  "evidence_url": "https://ac-box.com/novostroyki/defance-housing",
+  "notes": "ac-box says completion 2026 (no month)."
+ },
+ {
+  "id": "argoam-1083",
+  "title": "Avan Avenyu",
+  "stage": null,
+  "floors": "8,15",
+  "completion": "2027-10",
+  "evidence_url": "https://ar-go.am/project/avan-avenue",
+  "notes": "Works end 01.10.2027; 2 buildings 8 and 15 floors."
+ },
+ {
+  "id": "argoam-1110",
+  "title": "Tevosyan 1/3",
+  "stage": null,
+  "floors": "16",
+  "completion": null,
+  "evidence_url": "https://ar-go.am/project/tevosyan13",
+  "notes": "Construction start 2022-09; status finished (completion act); no end date given."
+ },
+ {
+  "id": "cbsconstructionam-463",
+  "title": "Shiraz 43 multifunctional complex",
+  "stage": null,
+  "floors": "3",
+  "completion": "2027",
+  "evidence_url": "https://cbs-construction.am/%D5%B6%D5%A1%D5%AD%D5%A1%D5%A3%D5%AE%D5%A5%D6%80/%d5%b7%d5%ab%d6%80%d5%a1%d5%a6-43/",
+  "notes": "Start 2024, end 2027; 3 floors."
+ },
+ {
+  "id": "dignisi-103",
+  "title": "Cascade Park",
+  "stage": null,
+  "floors": "9",
+  "completion": "2026-12",
+  "evidence_url": "https://ar-go.am/project/kaskad-park-bnakeli-hamalir",
+  "notes": "ar-go: works end 2026-12-01 (December 2026); 2 buildings, 9 floors."
+ },
+ {
+  "id": "dignisi-131",
+  "title": "Novatun",
+  "stage": null,
+  "floors": "6",
+  "completion": "2025",
+  "evidence_url": "https://dignisi.am/en/projects/novatun-287",
+  "notes": "Handover 2025 (past); 6 floors incl. commercial ground floor."
+ },
+ {
+  "id": "dignisi-213",
+  "title": "New Dalma Premium Residential Complex",
+  "stage": null,
+  "floors": "18",
+  "completion": "2029-12",
+  "evidence_url": "https://novostroiki-yerevan.com/en/p/nor-dalma-premium-complex/",
+  "notes": "Dignisi: 18 floors, no handover given; novostroiki completion 2029-12."
+ },
+ {
+  "id": "dignisi-98",
+  "title": "Avenue Davtashen",
+  "stage": null,
+  "floors": "16",
+  "completion": "2028",
+  "evidence_url": "https://dignisi.am/en/projects/avenue-davtashen-312",
+  "notes": "Handover 2028."
+ },
+ {
+  "id": "geoln-150",
+  "title": "Amelia Residence",
+  "stage": null,
+  "floors": "8",
+  "completion": "2023",
+  "evidence_url": "https://www.construction.am/apartments-in-new-developments/amelia-residence-arabkir/",
+  "notes": "construction.am: Completion 2023 / Completed; geoln says Q3 2022, 8 floors."
+ },
+ {
+  "id": "gtbholdingscom-470",
+  "title": "GTB Tower",
+  "stage": null,
+  "floors": "25",
+  "completion": null,
+  "evidence_url": "https://gtbholdings.com/companies/gtb-tower/",
+  "notes": "25 floors; no completion date."
+ },
+ {
+  "id": "kp-11",
+  "title": "Griboedov Premium",
+  "stage": null,
+  "floors": "15,17",
+  "completion": "2025-12",
+  "evidence_url": "https://karucapatoxic.am/en/11",
+  "notes": "kp commissioning 12.2025; dignisi handover 2026; novostroiki duplicate page 2026-07."
+ },
+ {
+  "id": "kp-128",
+  "title": "Abelyan 2/1",
+  "stage": null,
+  "floors": "10,14,15,16",
+  "completion": "2023-03",
+  "evidence_url": "https://karucapatoxic.am/en/128",
+  "notes": "kp commissioning 03.2023; construction.am 2023 / Completed."
+ },
+ {
+  "id": "kp-173",
+  "title": "Leningradyan Residence",
+  "stage": null,
+  "floors": "16",
+  "completion": "2027-12",
+  "evidence_url": "https://karucapatoxic.am/en/173",
+  "notes": "kp commissioning 12.2027; dev site 'second semester of 2027'; dignisi handover 2027."
+ },
+ {
+  "id": "kp-196",
+  "title": "Atlantis Yerevan Residential Complex",
+  "stage": null,
+  "floors": "17",
+  "completion": "2028-08",
+  "evidence_url": "https://armconstruct.am/en/projects/atlantis-yerevan",
+  "notes": "Developer: 17 floors + 3 underground, End Date August 2028 (kp says 16 floors, 08.2028)."
+ },
+ {
+  "id": "kp-212",
+  "title": "NovaVan Residence",
+  "stage": null,
+  "floors": "13",
+  "completion": "2028-11",
+  "evidence_url": "https://novavan.am/",
+  "notes": "Developer: construction starts 2026, ends November 2028 (kp 06.2028); 161 apartments."
+ },
+ {
+  "id": "kp-4",
+  "title": "Ayginer Residential Complex",
+  "stage": null,
+  "floors": "21,22",
+  "completion": "2024-12",
+  "evidence_url": "https://karucapatoxic.am/en/4",
+  "notes": "kp commissioning 12.2024; dignisi says handover 2026 (22 floors) - dates disagree."
+ },
+ {
+  "id": "kp-62",
+  "title": "Zeytun  Build",
+  "stage": null,
+  "floors": "16,18",
+  "completion": "2025-08",
+  "evidence_url": "https://myhome.am/en/building/50",
+  "notes": "myhome completionDate 08/2025, exploitation 06/2024, isBuilt; kp 12.2024. Developer: 3 sections, 18-16-18 floors."
+ },
+ {
+  "id": "kp-85",
+  "title": "New Yerevan District",
+  "stage": null,
+  "floors": "10,13,18,21",
+  "completion": "2025-01",
+  "evidence_url": "https://karucapatoxic.am/en/85",
+  "notes": "kp commissioning 01.2025 (first phases); dignisi handover 2029 with 22 floors for current phase - multi-phase district."
+ },
+ {
+  "id": "mgeam-357",
+  "title": "Mia Town",
+  "stage": null,
+  "floors": "11",
+  "completion": "2025-12",
+  "evidence_url": "https://karucapatoxic.am/en/77",
+  "notes": "Developer publishes neither; kp: 11 floors, commissioning 12.2025 (units listed up to floor 11)."
+ },
+ {
+  "id": "myhomeam-758",
+  "title": "MILON MINING · Friendship Square 5/1",
+  "stage": null,
+  "floors": "16",
+  "completion": "2027-10",
+  "evidence_url": "https://myhome.am/en/building/239",
+  "notes": "myhome floorsCount 16, completion 10/2027; developer API floors_qty 18 (available units up to floor 16), end 2027-10-04; 456-461 units."
+ },
+ {
+  "id": "myhomeam-784",
+  "title": "New Arinj Residence · Arinj village",
+  "stage": null,
+  "floors": "8",
+  "completion": "2026-12",
+  "evidence_url": "https://myhome.am/en/building/331",
+  "notes": "myhome exploitation 12/2026, completionDate 06/2028."
+ },
+ {
+  "id": "myhomeam-805",
+  "title": "Eden Park · Teryan district",
+  "stage": null,
+  "floors": "6",
+  "completion": "2029-08",
+  "evidence_url": "https://myhome.am/en/building/280",
+  "notes": "myhome exploitation 08/2029, completionDate 02/2030."
+ },
+ {
+  "id": "myhomeam-828",
+  "title": "Eden Park · Babajanyan district",
+  "stage": null,
+  "floors": "7",
+  "completion": "2028-05",
+  "evidence_url": "https://myhome.am/en/building/225",
+  "notes": "myhome completion/exploitation 05/2028; 108 apartments."
+ },
+ {
+  "id": "myhomeam-875",
+  "title": "SMART CITY DEVELOPER · 38-th st. 21 6 bldg",
+  "stage": null,
+  "floors": "5",
+  "completion": "2025-10",
+  "evidence_url": "https://myhome.am/en/building/116",
+  "notes": "myhome completionDate 07/2025, exploitation 10/2025, isBuilt; 20 apartments."
+ },
+ {
+  "id": "novostroikiyerevancom-1009",
+  "title": "NANSEN PARK",
+  "stage": null,
+  "floors": null,
+  "completion": "2025-10",
+  "evidence_url": "https://novostroiki-yerevan.com/en/p/nansen-park/",
+  "notes": "Completion 2025-10; floors not published."
+ },
+ {
+  "id": "novostroikiyerevancom-998",
+  "title": "MELKUMOV TOWNHOUSES",
+  "stage": null,
+  "floors": null,
+  "completion": "2026-11",
+  "evidence_url": "https://novostroiki-yerevan.com/en/p/melkumov-townhouses/",
+  "notes": "Completion 2026-11."
+ },
+ {
+  "id": "smartcityam-591",
+  "title": "Smart City 2",
+  "stage": null,
+  "floors": "3-4",
+  "completion": null,
+  "evidence_url": "https://smart-city.am/Community?communityId=2",
+  "notes": "Developer: 3-4 floors; no completion date."
+ },
+ {
+  "id": "tesaranresidenceam-393",
+  "title": "Tesaran Residential Complex (private houses & townhouses)",
+  "stage": null,
+  "floors": "2",
+  "completion": null,
+  "evidence_url": "https://tesaranresidence.am/en",
+  "notes": "No completion date published."
+ },
+ {
+  "id": "acbaam-1132",
+  "title": "Amerikana",
+  "stage": null,
+  "floors": "4",
+  "completion": "2023",
+  "evidence_url": "https://www.construction.am/apartments-in-new-developments/americana-armenia/",
+  "notes": "ACBA: status completed, 4 floors; construction.am: completion 2023 / Completed."
+ },
+ {
+  "id": "archiconam-435",
+  "title": "Tavrizyan residential building",
+  "stage": null,
+  "floors": "4",
+  "completion": "2016",
+  "evidence_url": "https://www.archicon.am/portfolio",
+  "notes": "Built 2015-2016."
+ },
+ {
+  "id": "constructionam-16",
+  "title": "Elitar Shin · Jrvezh 17",
+  "stage": null,
+  "floors": "16",
+  "completion": "2030",
+  "evidence_url": "https://www.construction.am/apartments-in-new-developments/bagrevand-residence-norakaruyc-jrvejum-3/",
+  "notes": "Completion 2030 (construction period 'Oct 2010 - May 2030'); 16 floors + 3 underground."
+ },
+ {
+  "id": "constructionam-189",
+  "title": "Platinum Homes · Aygedzor 18",
+  "stage": null,
+  "floors": null,
+  "completion": "2015",
+  "evidence_url": "https://www.construction.am/apartments-in-new-developments/platinum-homes/",
+  "notes": "Completion 2015 / Completed; floors not published."
+ },
+ {
+  "id": "constructionam-230",
+  "title": "HAEKSHIN Construction (ANPP Construction) · Bridgeview Residential Complex",
+  "stage": null,
+  "floors": "22",
+  "completion": "2024-05",
+  "evidence_url": "https://redgroup.am/projects/bnakarankarucapatoxic-bridgeview",
+  "notes": "RED: completion of construction 05/2024; construction.am 2024 / Completed; floors up to 22."
+ },
+ {
+  "id": "constructionam-269",
+  "title": "A. Mikoyan",
+  "stage": null,
+  "floors": "2-3,6",
+  "completion": "2018",
+  "evidence_url": "https://www.construction.am/apartments-in-new-developments/van-complex/",
+  "notes": "2-3 storey houses and one 6-storey building; completion 2018."
+ },
+ {
+  "id": "constructionam-57",
+  "title": "Elite Group · Baghramyan 59",
+  "stage": null,
+  "floors": "17",
+  "completion": "2015",
+  "evidence_url": "https://www.construction.am/apartments-in-new-developments/baghramyan-ave-59-elite-group/",
+  "notes": "construction.am Completion 2015 / Completed; developer 17 floors, 110 apartments."
+ },
+ {
+  "id": "constructionam-8",
+  "title": "Care Building Services (CBS) · Malkhasyants 8",
+  "stage": null,
+  "floors": "14",
+  "completion": "2029-09",
+  "evidence_url": "https://myhome.am/en/building/343",
+  "notes": "myhome completion 09/2029; construction.am construction Apr 2026 - 2028."
+ },
+ {
+  "id": "milonminingam-509",
+  "title": "Milon Plaza",
+  "stage": null,
+  "floors": null,
+  "completion": "2025-12",
+  "evidence_url": "https://www.milonmining.am/",
+  "notes": "Developer: start 2022-09-06, end 2025-12-30; permit extended (notice 27.02.2026). Floors not given."
+ },
+ {
+  "id": "redinvestam-553",
+  "title": "For Dream Residence",
+  "stage": null,
+  "floors": "14",
+  "completion": null,
+  "evidence_url": "https://redgroup.am/projects/bnakaran-karucapatoxic-fordream",
+  "notes": "13 residential floors + 1 commercial; no completion date published."
+ },
+ {
+  "id": "redinvestam-578",
+  "title": "Garunavan 3 Residential District",
+  "stage": null,
+  "floors": "4",
+  "completion": "2022-06",
+  "evidence_url": "https://redgroup.am/projects/bnakarankarucapatoxic-nornorqum-garunavan3",
+  "notes": "RED: construction 06/2020, completion 06/2022; floors 1-4."
+ },
+ {
+  "id": "verelq777am-738",
+  "title": "Acharyan 4/4 Residential Building",
+  "stage": null,
+  "floors": null,
+  "completion": "2019",
+  "evidence_url": "https://www.verelq777.am/en/project/acharian-4-4",
+  "notes": "Launched 2018, completed 2019."
+ },
+ {
+  "id": "allianceinvestmentam-417",
+  "title": "Alliance Park",
+  "stage": null,
+  "floors": "6",
+  "completion": null,
+  "evidence_url": "https://allianceinvestment.am/alliance-park/",
+  "notes": "'6 հարկ', 24 apartments; no completion date on page (current 2023-12-31 not confirmable)."
+ },
+ {
+  "id": "artcoam-634",
+  "title": "Sose Hotel-Guesthouse",
+  "stage": null,
+  "floors": "3 + attic",
+  "completion": "2025",
+  "evidence_url": "https://artco.am/?app=AppProject&page=building&project_id=11&project_status_id=1",
+  "notes": "2 basement + 3 above-ground floors + mansard; 'construction planned to finish in 2025'. District on page is Arabkir, not Kentron."
+ },
+ {
+  "id": "dignisi-116",
+  "title": "Genesis twin residential building",
+  "stage": null,
+  "floors": "12",
+  "completion": "2026",
+  "evidence_url": "https://dignisi.am/en/projects/genesis-twin-residential-building-249",
+  "notes": "Handover 2026, 12 floors."
+ },
+ {
+  "id": "dignisi-140",
+  "title": "VV8-Residence",
+  "stage": null,
+  "floors": "8",
+  "completion": "2027",
+  "evidence_url": "https://dignisi.am/en/projects/vv8-residence-359",
+  "notes": "Floors 8 (description says '9-story'); handover 2027."
+ },
+ {
+  "id": "dignisi-273",
+  "title": "Greenwood Residence",
+  "stage": null,
+  "floors": "13",
+  "completion": "2025-07",
+  "evidence_url": "https://myhome.am/en/building/80",
+  "notes": "myhome exploitationDate 07/2025 (completionDate 11/2025), Built, 13 floors."
+ },
+ {
+  "id": "geoln-165",
+  "title": "Solar City / Solar Siti · 26",
+  "stage": null,
+  "floors": "14",
+  "completion": "2021",
+  "evidence_url": "https://geoln.com/ru/armenia/yerevan/nansen",
+  "notes": "geoln: 14 floors, 91 apartments, completion Q4 2021; construction.am: Completion 2021 / Completed."
+ },
+ {
+  "id": "hausam-350",
+  "title": "Haus AM House B1 (Arinj)",
+  "stage": null,
+  "floors": "2",
+  "completion": null,
+  "evidence_url": "https://haus.am/list/b1",
+  "notes": "'2 հարկ'; no date."
+ },
+ {
+  "id": "kp-119",
+  "title": "Frunze Residential Complex",
+  "stage": null,
+  "floors": "14",
+  "completion": "2026-03",
+  "evidence_url": "https://myhome.am/en/building/160",
+  "notes": "myhome exploitation 03/2026 (completion 09/2026); karucapatoxic commissioning 08.2025; construction.am period Jun 2022-Dec 2025."
+ },
+ {
+  "id": "kp-14",
+  "title": "Adana",
+  "stage": null,
+  "floors": "12",
+  "completion": "2024-12",
+  "evidence_url": "https://karucapatoxic.am/en/14",
+  "notes": "Floors 12, Commissioning 12.2024 (novostroiki: 2024-12)."
+ },
+ {
+  "id": "kp-186",
+  "title": "Firdus Prime Residence",
+  "stage": null,
+  "floors": "12-17",
+  "completion": "2028-08",
+  "evidence_url": "https://ar-go.am/project/firdus-prime-residence-1",
+  "notes": "ARGO: 3 blocks 12-17 floors, 287 flats, works end 01.10.2027; karucapatoxic: 17 floors, commissioning 08.2028; dignisi handover 2029; haekshin (contractor lot 10-11): 12-storey."
+ },
+ {
+  "id": "kp-203",
+  "title": "Midis Park",
+  "stage": null,
+  "floors": "16",
+  "completion": "2028-12",
+  "evidence_url": "https://karucapatoxic.am/en/203",
+  "notes": "Floors 16, Commissioning 12.2028."
+ },
+ {
+  "id": "kp-29",
+  "title": "Gev Mick",
+  "stage": null,
+  "floors": "16",
+  "completion": "2024-12",
+  "evidence_url": "https://www.construction.am/apartments-in-new-developments/29-14-leningradyan-gevmik/",
+  "notes": "construction.am: 16 floors, period Apr 2022-Dec 2024, completed; karucapatoxic commissioning 01.2024."
+ },
+ {
+  "id": "kp-52",
+  "title": "Davtashen City",
+  "stage": null,
+  "floors": "18",
+  "completion": "2023-05",
+  "evidence_url": "https://karucapatoxic.am/en/52",
+  "notes": "Floors 18, Commissioning 05.2023."
+ },
+ {
+  "id": "kp-71",
+  "title": "Bedeck Erebuni Complex",
+  "stage": null,
+  "floors": "15",
+  "completion": "2020",
+  "evidence_url": "https://www.construction.am/apartments-in-new-developments/erebuni-st/",
+  "notes": "construction.am 'Completion 2020 / Completed'; karucapatoxic floors 15."
+ },
+ {
+  "id": "kp-96",
+  "title": "Abovyan City House",
+  "stage": null,
+  "floors": "16",
+  "completion": "2027-07",
+  "evidence_url": "https://ar-go.am/project/abovyan-city-house",
+  "notes": "ARGO: 16 floors per block, 491 flats 51-72 m², works end July 2027, under construction (stage 'finished' is wrong); dignisi handover 2027."
+ },
+ {
+  "id": "myhomeam-769",
+  "title": "HATIS PARK REZIDENCE · 1st Street 7 SH",
+  "stage": null,
+  "floors": "5",
+  "completion": "2026-12",
+  "evidence_url": "https://myhome.am/en/building/352",
+  "notes": "floorsCount 5; exploitationDate 12/2026 (completionDate 06/2028)."
+ },
+ {
+  "id": "myhomeam-794",
+  "title": "Avan Home · Acharyan Street 37/41",
+  "stage": null,
+  "floors": "6",
+  "completion": "2026-06",
+  "evidence_url": "https://myhome.am/en/building/320",
+  "notes": "floorsCount 6; exploitationDate 06/2026 (completionDate field 01/2031, likely placeholder)."
+ },
+ {
+  "id": "myhomeam-815",
+  "title": "Ember residential complex",
+  "stage": null,
+  "floors": "8",
+  "completion": "2027-07",
+  "evidence_url": "https://myhome.am/en/building/248",
+  "notes": "floorsCount 8, End of construction 07/2027."
+ },
+ {
+  "id": "myhomeam-848",
+  "title": "Goght urban valley · Cultural district",
+  "stage": null,
+  "floors": null,
+  "completion": "2026-12",
+  "evidence_url": "https://myhome.am/en/building/172",
+  "notes": "completion/exploitation 12/2026; floors not given."
+ },
+ {
+  "id": "myhomeam-889",
+  "title": "MILON MINING · B district",
+  "stage": null,
+  "floors": "12",
+  "completion": "2026-09",
+  "evidence_url": "https://myhome.am/en/building/292",
+  "notes": "floorsCount 12; completion/exploitation 09/2026."
+ },
+ {
+  "id": "novostroikiyerevancom-906",
+  "title": "Ani Premium Residential Complex",
+  "stage": null,
+  "floors": "15",
+  "completion": "2027-12",
+  "evidence_url": "https://artco.am/?app=AppProject&page=district&project_id=13&project_status_id=1",
+  "notes": "Three 15-storey blocks A,B,C; construction to finish end of 2027 (karucapatoxic commissioning 12.2027)."
+ },
+ {
+  "id": "redgroupam-1214",
+  "title": "L Zara · Hanrapetutyan st. 61",
+  "stage": null,
+  "floors": "6",
+  "completion": "2022-04",
+  "evidence_url": "https://redgroup.am/projects/bnakarankarucapatoxic-hanrapetutyan",
+  "notes": "'Start 06/21. End date: 04/2022'; floors 4-6."
+ },
+ {
+  "id": "acbaam-1122",
+  "title": "Vv8 Rezidens",
+  "stage": null,
+  "floors": "8",
+  "completion": "2028-12",
+  "evidence_url": "https://www.acba.am/hy/individuals/loans/mortgage/constructors#10491",
+  "notes": "Հարկերի քանակ 8; Շահագործման ամսաթիվ 29.12.2028 (dignisi says handover 2027)."
+ },
+ {
+  "id": "constructionam-177",
+  "title": "EcoPanel Group · Bagrevand Residential Complex",
+  "stage": null,
+  "floors": "4",
+  "completion": "2018",
+  "evidence_url": "https://www.construction.am/apartments-in-new-developments/eco-panel-bagrevand-residential-complex/",
+  "notes": "Completion 2018 / Completed; floors not re-confirmed on page (current 4 kept)."
+ },
+ {
+  "id": "constructionam-221",
+  "title": "G-1 Dist",
+  "stage": null,
+  "floors": "2",
+  "completion": "2025",
+  "evidence_url": "https://www.construction.am/apartments-in-new-developments/ajapnyak-g1-taghamas-7tun-8tun-townhousener/",
+  "notes": "Completion 2025 / Completed; Floors Above Ground 2."
+ },
+ {
+  "id": "constructionam-244",
+  "title": "Sari-Tagh",
+  "stage": null,
+  "floors": "10",
+  "completion": "2012",
+  "evidence_url": "https://www.construction.am/apartments-in-new-developments/sari-tagh-7-86/",
+  "notes": "Completion 2012 / Completed; 10 floors above ground, 2 below."
+ },
+ {
+  "id": "constructionam-43",
+  "title": "Bars Real Estate Agency · Nor Silikyan District",
+  "stage": null,
+  "floors": "2",
+  "completion": "2024",
+  "evidence_url": "https://www.construction.am/apartments-in-new-developments/ajapnyak-nor-silikyan/",
+  "notes": "Completion 2024 / Completed (individual houses); floors not re-stated, current 2 kept."
+ },
+ {
+  "id": "constructionam-67",
+  "title": "Metrum Invest · M. Mkrtchyan",
+  "stage": null,
+  "floors": "4-9",
+  "completion": "2030",
+  "evidence_url": "https://dignisi.am/en/projects/eden-park-278",
+  "notes": "dignisi handover 2030, floors 9; construction.am: 23 buildings 4-9 floors, completion 2026 (older)."
+ },
+ {
+  "id": "redinvestam-543",
+  "title": "Heaven Heights",
+  "stage": null,
+  "floors": "9",
+  "completion": "2028-12",
+  "evidence_url": "https://redgroup.am/projects/bnakarankarucapatoxic-heaven-heights",
+  "notes": "Floors 1-9; 'Completion of construction: planned for the end of 2028', start June 2025; developer BULDOZER GROUP, Evocabank."
+ },
+ {
+  "id": "sahakyanshincom-716",
+  "title": "Vernissage Business Center",
+  "stage": null,
+  "floors": "11",
+  "completion": "2018-08",
+  "evidence_url": "https://www.sahakyanshin.com/projects/vernisazh-biznes-kentron",
+  "notes": "Text: 11 floors (spec block says '12 հարկ'), 400 m² per floor, 30 parking; planned completion 8/1/2018."
+ },
+ {
+  "id": "etagi-81",
+  "title": "TOP BUILDINGS",
+  "stage": null,
+  "floors": "16",
+  "completion": "2026",
+  "evidence_url": "https://dignisi.am/en/projects/top-buildings-272",
+  "notes": "16 floors (1 public + 15 residential); handover 2026."
+ },
+ {
+  "id": "alluram-617",
+  "title": "Allur Residence Dilijan",
+  "stage": null,
+  "floors": "5",
+  "completion": null,
+  "evidence_url": "https://myhome.am/en/building/141",
+  "notes": "myhome: 5 floors, isBuilt=true, exploitation 09/2026, completion 01/2026 (inconsistent); dataset 2024-05-28 not confirmed by any live source."
+ },
+ {
+  "id": "argoam-1101",
+  "title": "Kaskad Park",
+  "stage": null,
+  "floors": "9",
+  "completion": "2026-12",
+  "evidence_url": "https://ar-go.am/project/kaskad-park-bnakeli-hamalir",
+  "notes": "Հարկերի քանակ 9; Աշխատանքների ավարտ 2026-12-01 / 2026 Դեկտեմբեր; 2 buildings, 43 apartments."
+ },
+ {
+  "id": "artcoam-638",
+  "title": "Koghbatsi Residential Complex",
+  "stage": null,
+  "floors": "18",
+  "completion": "2019-12",
+  "evidence_url": "https://artco.am/?app=AppProject&page=building&project_id=2&project_status_id=2",
+  "notes": "1st floor commercial + floors 2-18 residential; completion act 2019-07-01, exploitation permit 2019-12-25 (planned Sept 2019)."
+ },
+ {
+  "id": "citynestam-661",
+  "title": "Nor Etch Residential",
+  "stage": null,
+  "floors": null,
+  "completion": "2023-10",
+  "evidence_url": "https://citynest.am/noretch/en",
+  "notes": "Completion October 2023; 29 apartments 60-139 m2; floors not stated."
+ },
+ {
+  "id": "dignisi-117",
+  "title": "Green Hills",
+  "stage": null,
+  "floors": "6,7",
+  "completion": "2026",
+  "evidence_url": "https://dignisi.am/en/projects/green-hills-263",
+  "notes": "dignisi: Floors 6, handover 2026; greenhills.am floor selector shows 7- and 6-floor blocks; construction.am claims 'Completion 2025 / Completed', floors 12, 7-8 (likely whole Green Hills district)."
+ },
+ {
+  "id": "dignisi-197",
+  "title": "Aldina Residence",
+  "stage": null,
+  "floors": "14",
+  "completion": "2025-12",
+  "evidence_url": "https://dignisi.am/en/projects/aldina-residence-277",
+  "notes": "dignisi: Floors 14, 'Ready to move in'; novostroiki: completion 2025-12."
+ },
+ {
+  "id": "dignisi-274",
+  "title": "ML Building",
+  "stage": null,
+  "floors": "20",
+  "completion": null,
+  "evidence_url": "https://dignisi.am/en/projects/ml-building-188",
+  "notes": "Floors 20, areas 61-130 m2, ready to move in; no completion date shown."
+ },
+ {
+  "id": "geoln-167",
+  "title": "Sayat-Nova 19/1",
+  "stage": null,
+  "floors": "22",
+  "completion": "2015",
+  "evidence_url": "http://elitegroup.am/en/projects/1/",
+  "notes": "22 floors (developer, geoln height 22). Completion: construction.am '2015 / Completed'; geoln 'II quarter 2021' - dataset 2021-06 unconfirmed."
+ },
+ {
+  "id": "hausam-351",
+  "title": "Haus AM Townhouse T12 (Arinj)",
+  "stage": null,
+  "floors": "2",
+  "completion": null,
+  "evidence_url": "https://haus.am/list/t12",
+  "notes": "2-storey house, 177 m2 living area on 225 m2 plot; no completion date."
+ },
+ {
+  "id": "kp-12",
+  "title": "North Shine",
+  "stage": null,
+  "floors": "16",
+  "completion": "2024-12",
+  "evidence_url": "https://karucapatoxic.am/en/12",
+  "notes": "karucapatoxic: Floors 16, Commissioning 12.2024; construction.am says floors 18, construction 2022 Jun-2025 Dec (completed 2025)."
+ },
+ {
+  "id": "kp-16",
+  "title": "Komitas 60",
+  "stage": null,
+  "floors": "8-19",
+  "completion": "2025-09",
+  "evidence_url": "https://armconstruct.am/en/projects/komitas-60-arabkir-district",
+  "notes": "armconstruct: Number of floors 8-19, End Date September 2025; karucapatoxic floors 19, end 2024-12; myhome exploitation 12/2024, built."
+ },
+ {
+  "id": "kp-187",
+  "title": "Baza Residence",
+  "stage": null,
+  "floors": "8",
+  "completion": "2027-04",
+  "evidence_url": "https://karucapatoxic.am/en/187",
+  "notes": "Floors 8, endDate 2027-04-29."
+ },
+ {
+  "id": "kp-204",
+  "title": "Sunrise Residential Complex",
+  "stage": null,
+  "floors": "10",
+  "completion": "2026-09",
+  "evidence_url": "https://karucapatoxic.am/en/204",
+  "notes": "Floors 10, endDate 2026-09-28; novostroiki sunrise-residential-complex same."
+ },
+ {
+  "id": "kp-3",
+  "title": "Vahan Teryan 5",
+  "stage": null,
+  "floors": "22",
+  "completion": null,
+  "evidence_url": "https://karucapatoxic.am/en/3",
+  "notes": "Floors 22 (karucapatoxic, novostroiki); no completion date in live sources."
+ },
+ {
+  "id": "kp-53",
+  "title": "Davtashen Residence",
+  "stage": null,
+  "floors": "16",
+  "completion": "2024-05",
+  "evidence_url": "https://karucapatoxic.am/en/53",
+  "notes": "Floors 16, endDate 2024-05-31."
+ },
+ {
+  "id": "kp-72",
+  "title": "Yerevan in your palm",
+  "stage": null,
+  "floors": "15",
+  "completion": "2023-12",
+  "evidence_url": "https://karucapatoxic.am/en/72",
+  "notes": ""
+ },
+ {
+  "id": "kp-97",
+  "title": "Adonts Premium",
+  "stage": null,
+  "floors": "18",
+  "completion": "2025-01",
+  "evidence_url": "https://karucapatoxic.am/en/97",
+  "notes": "karucapatoxic floors 18, end 2025-01; charagayt.am says 19 floors (incl. commercial), planned completion 2024."
+ },
+ {
+  "id": "muargroupam-698",
+  "title": "Two-storey Private House, Getapnya (Ararat)",
+  "stage": null,
+  "floors": "2",
+  "completion": "2026-02",
+  "evidence_url": "https://muargroup.am/api/projects/9",
+  "notes": "total_floors 2, status completed, end_date 2026-02-16."
+ },
+ {
+  "id": "myhomeam-770",
+  "title": "New Arinj Residence · 10th Street of Abovyan Block 7",
+  "stage": null,
+  "floors": "9",
+  "completion": "2027-12",
+  "evidence_url": "https://myhome.am/en/building/350",
+  "notes": "myhome: floorsCount 9, exploitationDate 12/2027 (completionDate field 12/2029)."
+ },
+ {
+  "id": "myhomeam-795",
+  "title": "Eden Park · Mher Mkrtchyan district 1st street 32/2 5B;4B bldg",
+  "stage": null,
+  "floors": "9",
+  "completion": "2030-07",
+  "evidence_url": "https://myhome.am/en/building/318",
+  "notes": "floorsCount 9, exploitationDate 07/2030."
+ },
+ {
+  "id": "myhomeam-816",
+  "title": "Ember · Monte Melkonyan 24 Ember complex A",
+  "stage": null,
+  "floors": "13",
+  "completion": "2027-07",
+  "evidence_url": "https://myhome.am/en/building/247",
+  "notes": "floorsCount 13, exploitationDate 07/2027."
+ },
+ {
+  "id": "myhomeam-849",
+  "title": "PALLADA TSAGHKADZOR · Tsaghkunyats square 5 bldg 2",
+  "stage": null,
+  "floors": "15",
+  "completion": "2027-12",
+  "evidence_url": "https://myhome.am/en/building/171",
+  "notes": "floorsCount 15, exploitationDate 12/2027."
+ },
+ {
+  "id": "myhomeam-892",
+  "title": "MIDIS PARK",
+  "stage": null,
+  "floors": "16",
+  "completion": "2028-06",
+  "evidence_url": "https://myhome.am/en/project/1",
+  "notes": "Buildings A & B: groundFloorCount 16, 325 apartments, exploitation 2028-06-20."
+ },
+ {
+  "id": "novostroikiyerevancom-923",
+  "title": "Aurex Residenes",
+  "stage": null,
+  "floors": "25",
+  "completion": "2029-12",
+  "evidence_url": "https://novostroiki-yerevan.com/en/p/aurex-residenes/",
+  "notes": "Floors 25, under construction."
+ },
+ {
+  "id": "redinvestam-555",
+  "title": "Dalan Technopark",
+  "stage": null,
+  "floors": "14",
+  "completion": "2026-08",
+  "evidence_url": "https://redgroup.am/projects/bnakarankarucapatoxic-dalantechnologypark-apartments",
+  "notes": "RED: 'End of construction: 2026. August'; apartment units are on floor 14 (dataset 11 is the business-centre listing's max floor)."
+ },
+ {
+  "id": "sundaytowersam-394",
+  "title": "Sunday Towers",
+  "stage": null,
+  "floors": "12",
+  "completion": "2027-12",
+  "evidence_url": "https://api.sundaytowers.am/api/apartments/b12125",
+  "notes": "building B floors_count 12; no completion date on site."
+ },
+ {
+  "id": "acbaam-1123",
+  "title": "Kapital Park",
+  "stage": null,
+  "floors": "16",
+  "completion": "2026-12",
+  "evidence_url": "https://www.acba.am/hy/individuals/loans/mortgage/constructors#8981",
+  "notes": "ACBA: 16 floors, exploitation 29.12.2026; capitalpark.am: 5 blocks, 15 residential + 1 commercial floor."
+ },
+ {
+  "id": "capitalbuildam-450",
+  "title": "Blue Sky Residence",
+  "stage": null,
+  "floors": "18",
+  "completion": null,
+  "evidence_url": "https://www.capitalbuild.am/en/projects/project/blue-sky-residence",
+  "notes": "18 aboveground + 4 underground floors; no completion date."
+ },
+ {
+  "id": "constructionam-178",
+  "title": "ADA Tech · Sarkavag 42/15",
+  "stage": null,
+  "floors": null,
+  "completion": "2020",
+  "evidence_url": "https://www.construction.am/apartments-in-new-developments/kanaker-zeytun/",
+  "notes": "6 individual houses (316.5 m2 built area each); construction.am 'Completion 2020 / Completed'; floors not published."
+ },
+ {
+  "id": "constructionam-222",
+  "title": "Orient Stone · Griboyedov 58",
+  "stage": null,
+  "floors": null,
+  "completion": "2020",
+  "evidence_url": "https://www.construction.am/apartments-in-new-developments/arabkir-griboyedov-58/",
+  "notes": "Completion 2020 / Completed."
+ },
+ {
+  "id": "constructionam-245",
+  "title": "EcoPanel Group · Sirogh Srter Residential District",
+  "stage": null,
+  "floors": null,
+  "completion": "2017",
+  "evidence_url": "https://www.construction.am/apartments-in-new-developments/sirogh-srter-residential-district/",
+  "notes": "Completion 2017 / Completed."
+ },
+ {
+  "id": "constructionam-44",
+  "title": "Building Capital · G-1 District",
+  "stage": null,
+  "floors": null,
+  "completion": "2022",
+  "evidence_url": "https://www.construction.am/apartments-in-new-developments/ajapnyak-nyan-tun/",
+  "notes": "Completion 2022 / Completed."
+ },
+ {
+  "id": "constructionam-69",
+  "title": "Kechark · Mikroshrjan District 203",
+  "stage": null,
+  "floors": "3",
+  "completion": "2025-12",
+  "evidence_url": "https://www.construction.am/apartments-in-new-developments/norakaruyc-bnakaran-hrazdanum-mikroshrjan-203/",
+  "notes": "Floors Above Ground 3; construction period 2023 Mar - 2025 Dec; 28 apartments 78-138 m2."
+ },
+ {
+  "id": "redinvestam-544",
+  "title": "Novotel",
+  "stage": null,
+  "floors": "10",
+  "completion": "2026-12",
+  "evidence_url": "https://redgroup.am/projects/bnakarankarucapatoxic-novotel",
+  "notes": "'The end of the construction: 12/2026'; available units on floors 2-10."
+ },
+ {
+  "id": "sahakyanshincom-717",
+  "title": "Basic Center Shopping Center",
+  "stage": null,
+  "floors": null,
+  "completion": "1998-09",
+  "evidence_url": "https://www.sahakyanshin.com/projects/avan-arhewtri-kentron",
+  "notes": "Planned completion 9/1/1998."
+ },
+ {
+  "id": "apexgmam-412",
+  "title": "Firdus (33rd District of Yerevan)",
+  "stage": null,
+  "floors": "8",
+  "completion": "2025",
+  "evidence_url": "https://firdus.am/about/",
+  "notes": "'four 8-storey buildings' + 2 two-storey heritage buildings; 'construction completion planned during 2025' (stale plan; building A under construction, B/C in design review)."
+ },
+ {
+  "id": "artcoam-640",
+  "title": "Mamikonyants 30/1 Residential Complex",
+  "stage": null,
+  "floors": "13",
+  "completion": "2025-05",
+  "evidence_url": "https://artco.am/?app=AppProject&page=building&project_id=8&project_status_id=2",
+  "notes": "'Շենքը 13 հարկանի'; documents list 'ԱՎԱՐՏԱԿԱՆ ԱԿՏ 2025-05-26' (completion act), earlier plan 2024."
+ },
+ {
+  "id": "citynestam-662",
+  "title": "Etchmiadzin 11/4 Business Center",
+  "stage": null,
+  "floors": "18",
+  "completion": null,
+  "evidence_url": "https://web.archive.org/web/20260416114916/https://citynest.am/en",
+  "notes": "18 levels, 200 parking, 8000 sqm total (archived card). No date."
+ },
+ {
+  "id": "dignisi-118",
+  "title": "Gulikevkhyan residential complex",
+  "stage": null,
+  "floors": "14",
+  "completion": "2025-09",
+  "evidence_url": "https://myhome.am/en/building/135",
+  "notes": "myhome page 'End of construction 09/2025' (API completionDate 03/2026), still 'Under construction' with 11 units for sale; dignisi handover 2025. Dataset stage 'finished' questionable."
+ },
+ {
+  "id": "dignisi-198",
+  "title": "\"Anahit\" District",
+  "stage": null,
+  "floors": null,
+  "completion": "2029",
+  "evidence_url": "https://dignisi.am/en/projects/anahit-district-331",
+  "notes": "Handover 2029; floors not shown."
+ },
+ {
+  "id": "dignisi-87",
+  "title": "Abovyan Hills",
+  "stage": null,
+  "floors": "15",
+  "completion": "2028-05",
+  "evidence_url": "https://abovyanhills.am/en/faq",
+  "notes": "FAQ: 2 underground + 15 above-ground floors; operation in two phases: first building May 2028, second December 2030. Dignisi handover 2029."
+ },
+ {
+  "id": "geoln-168",
+  "title": "Северный Луч 2",
+  "stage": null,
+  "floors": "3",
+  "completion": "2022",
+  "evidence_url": "https://geoln.com/ru/armenia/yerevan/severnyy-luch-two",
+  "notes": "geoln: 3 floors, 27 units, completion Q4 2022."
+ },
+ {
+  "id": "hausam-352",
+  "title": "Haus AM House V1 (Arinj)",
+  "stage": null,
+  "floors": "3",
+  "completion": null,
+  "evidence_url": "https://haus.am/list/v1",
+  "notes": "'3 հարկ' (basement + 2). Status 'Կառուցվող' (under construction) - dataset stage 'finished' looks wrong; no date."
+ },
+ {
+  "id": "kp-120",
+  "title": "DOMUM",
+  "stage": null,
+  "floors": "14",
+  "completion": "2024-11",
+  "evidence_url": "https://karucapatoxic.am/en/120",
+  "notes": ""
+ },
+ {
+  "id": "kp-166",
+  "title": "Alvina 2",
+  "stage": null,
+  "floors": "8",
+  "completion": "2024-12",
+  "evidence_url": "https://karucapatoxic.am/en/166",
+  "notes": ""
+ },
+ {
+  "id": "kp-188",
+  "title": "Rich Garden",
+  "stage": null,
+  "floors": "2",
+  "completion": "2024-06",
+  "evidence_url": "https://karucapatoxic.am/en/188",
+  "notes": ""
+ },
+ {
+  "id": "kp-205",
+  "title": "Arshakunyats Residence",
+  "stage": null,
+  "floors": "24",
+  "completion": "2030",
+  "evidence_url": "https://ar-go.am/project/arshakunyac-residence",
+  "notes": "3 buildings x 24 floors, 987 apartments; start 2025, completion 2030 (karucapatoxic 2030-06)."
+ },
+ {
+  "id": "kp-30",
+  "title": "Kirk Kerkorian 29/9",
+  "stage": null,
+  "floors": "16",
+  "completion": "2024-12",
+  "evidence_url": "https://karucapatoxic.am/en/30",
+  "notes": ""
+ },
+ {
+  "id": "kp-54",
+  "title": "FeliCity residential complex",
+  "stage": null,
+  "floors": "14",
+  "completion": "2025-03",
+  "evidence_url": "https://karucapatoxic.am/en/54",
+  "notes": ""
+ },
+ {
+  "id": "kp-73",
+  "title": "CITY VIEW Residential Complex",
+  "stage": null,
+  "floors": "12",
+  "completion": "2024-09",
+  "evidence_url": "https://4acapital.am/projects/city-view/",
+  "notes": "4A Capital & City Nest: completion Sep 2024 (karucapatoxic 2023-05 outdated)."
+ },
+ {
+  "id": "kp-98",
+  "title": "Charagayts Residential Complex",
+  "stage": null,
+  "floors": "14,16,18",
+  "completion": "2025-12",
+  "evidence_url": "https://karucapatoxic.am/en/98",
+  "notes": "Dignisi 'Ready to move in'; charagayt.am: buildings A, B, C, D commissioned."
+ },
+ {
+  "id": "muargroupam-699",
+  "title": "Getapnya Residential Complex",
+  "stage": null,
+  "floors": "4",
+  "completion": "2027-08",
+  "evidence_url": "https://muargroup.am/api/projects/14",
+  "notes": "total_floors 4, total_apartments 40, start 2026-08-01, end_date 2027-08-31T20:00Z (= 1 Sep 2027 local)."
+ },
+ {
+  "id": "myhomeam-774",
+  "title": "Brawerk · Hrachya Tamrazyan Street 17",
+  "stage": null,
+  "floors": "9",
+  "completion": "2029-06",
+  "evidence_url": "https://myhome.am/en/building/348",
+  "notes": "End of construction 06/2029 (completionDate 10/2029)."
+ },
+ {
+  "id": "myhomeam-796",
+  "title": "Eden Park · Mher Mkrtchyan district 1st street 32/2 3G bldg",
+  "stage": null,
+  "floors": "9",
+  "completion": "2030-07",
+  "evidence_url": "https://myhome.am/en/building/317",
+  "notes": "End of construction 07/2030 (completionDate 02/2031)."
+ },
+ {
+  "id": "myhomeam-818",
+  "title": "HAY DEVELOP · H. Emin 1st lane",
+  "stage": null,
+  "floors": "17",
+  "completion": "2027-12",
+  "evidence_url": "https://myhome.am/en/building/245",
+  "notes": "End of construction 12/2027 (completionDate 11/2029)."
+ },
+ {
+  "id": "myhomeam-850",
+  "title": "PALLADA TSAGHKADZOR · Tsaghkunyats square 5 bldg 4",
+  "stage": null,
+  "floors": "15",
+  "completion": "2027-12",
+  "evidence_url": "https://myhome.am/en/building/170",
+  "notes": "End of construction 12/2027 (completionDate 12/2026)."
+ },
+ {
+  "id": "mytownam-728",
+  "title": "Tsaghkunk Townhouses (Locations 1-2)",
+  "stage": null,
+  "floors": "2",
+  "completion": "2025",
+  "evidence_url": "https://mytown.am/",
+  "notes": "Built; residents doing renovations at start of winter 2025."
+ },
+ {
+  "id": "novostroikiyerevancom-942",
+  "title": "ЗАО ИДЖЕВАНАТУН · David Anhaght 8/13",
+  "stage": null,
+  "floors": null,
+  "completion": "2022-12",
+  "evidence_url": "https://novostroiki-yerevan.com/en/p/david-anhaght-8-13/",
+  "notes": ""
+ },
+ {
+  "id": "sundaytowersam-395",
+  "title": "Sunday Towers",
+  "stage": null,
+  "floors": "6",
+  "completion": null,
+  "evidence_url": "https://sundaytowers.am/en/buildings/g/",
+  "notes": "'This 6-story building ... 30 apartments, 53-135 m2'; no completion date on page."
+ },
+ {
+  "id": "acbaam-1124",
+  "title": "Eritsuk",
+  "stage": null,
+  "floors": "6",
+  "completion": "2027-12",
+  "evidence_url": "https://www.acba.am/hy/individuals/loans/mortgage/constructors#10177",
+  "notes": "Operation date 09.12.2027."
+ },
+ {
+  "id": "archiconam-423",
+  "title": "Zarubyan 38/1",
+  "stage": null,
+  "floors": "4",
+  "completion": "2027",
+  "evidence_url": "https://www.archicon.am/new-apartments-for-sale-yerevan",
+  "notes": "4-story, delivery Q4 2027."
+ },
+ {
+  "id": "constructionam-18",
+  "title": "Aygedzor Construction Company · Alma-Ata 1/4",
+  "stage": null,
+  "floors": "16",
+  "completion": "2026-05",
+  "evidence_url": "https://www.construction.am/apartments-in-new-developments/bnakaran-norakaruycum-avanum-aygedzor-solar-rezidential-complex/",
+  "notes": "Completion 2025; construction period 2023 Feb - 2026 May; 16 above + 3 below ground."
+ },
+ {
+  "id": "constructionam-223",
+  "title": "Ecoshin Group · Orbeli Brothers 67/2",
+  "stage": null,
+  "floors": "15",
+  "completion": "2019-12",
+  "evidence_url": "https://ecoshingroup.am/",
+  "notes": "Developer: 'to be commissioned December 2019'; construction.am 'Completion 2019 / Completed'. Floor count 15 not shown on live pages (retained, unverified); 3 underground parking levels."
+ },
+ {
+  "id": "constructionam-247",
+  "title": "Levon Amirkhanyan · Vardanants 69",
+  "stage": null,
+  "floors": null,
+  "completion": "2018",
+  "evidence_url": "https://www.construction.am/apartments-in-new-developments/vardanants-st-69/",
+  "notes": "Completion 2018 / Completed."
+ },
+ {
+  "id": "constructionam-45",
+  "title": "Malkhasyanshin · Melkumov 46",
+  "stage": null,
+  "floors": "5",
+  "completion": "2026-06",
+  "evidence_url": "https://www.construction.am/apartments-in-new-developments/ajapnyak-smart-plaza/",
+  "notes": "5 above + 2 below ground; construction period 2022 Dec - 2026 Jun."
+ },
+ {
+  "id": "constructionam-70",
+  "title": "Metta Group · Arghutyan 15/10",
+  "stage": null,
+  "floors": "18",
+  "completion": "2028-12",
+  "evidence_url": "https://www.construction.am/apartments-in-new-developments/norakaruyc-bnakaran-komitasum-new-komitas/",
+  "notes": "20-21 buildings x 18 floors, 3,224 flats; construction 2024 Sep - 2028 Dec; dignisi handover 2028."
+ },
+ {
+  "id": "greenprojectarmcom-475",
+  "title": "Green Nork (Kanach Nork) residential buildings",
+  "stage": null,
+  "floors": "4",
+  "completion": null,
+  "evidence_url": "https://www.greenprojectarm.com/",
+  "notes": "4 new 4-storey residential buildings; no date."
+ },
+ {
+  "id": "redinvestam-545",
+  "title": "Argishti Suites & Residence",
+  "stage": null,
+  "floors": "17",
+  "completion": "2029-03",
+  "evidence_url": "https://redgroup.am/projects/bnakaran-karucapatoxic-argishti",
+  "notes": "'17 above-ground floors', 106 flats 37.9-250.6 m2; start Dec 2024, completion Q1 2029."
+ },
+ {
+  "id": "redinvestam-568",
+  "title": "21 Street Residential Building",
+  "stage": null,
+  "floors": "8",
+  "completion": "2025-12",
+  "evidence_url": "https://redgroup.am/projects/bnakarankarucapatoxic-21street",
+  "notes": "Units on floors 2-8; 'Completion of construction 12/2025'; 49 units total."
+ },
+ {
+  "id": "shushipalaceam-356",
+  "title": "Shushi Palace",
+  "stage": null,
+  "floors": "17",
+  "completion": "2025-12",
+  "evidence_url": "https://redgroup.am/projects/bnakarankarucapatoxic-shushipalace",
+  "notes": "7 residential buildings of 17 floors + 2 underground; 'Construction completion date 12/2025'."
+ },
+ {
+  "id": "1sqam-299",
+  "title": "Sevkaretsi Sako 77",
+  "stage": null,
+  "floors": "6",
+  "completion": "2026-06",
+  "evidence_url": "https://myhome.am/en/building/242",
+  "notes": "myhome exploitation 06/2026, completion 12/2026; 1-sq.am: 1 underground + 6 above-ground floors"
+ },
+ {
+  "id": "apexgmam-413",
+  "title": "Hin Yerevan (Old Yerevan)",
+  "stage": null,
+  "floors": "4 above ground + 4 underground",
+  "completion": null,
+  "evidence_url": "https://apex-gm.am/old-yerevan/",
+  "notes": "no completion date on page"
+ },
+ {
+  "id": "argoam-1103",
+  "title": "Nairi 2",
+  "stage": null,
+  "floors": "21",
+  "completion": "2027-12",
+  "evidence_url": "https://ar-go.am/project/nairi-2-bnakeli-hamalir",
+  "notes": "works end 2027-12-15"
+ },
+ {
+  "id": "artcoam-641",
+  "title": "Ulnetsi Residential Building",
+  "stage": null,
+  "floors": "3",
+  "completion": "2024",
+  "evidence_url": "https://artco.am/?app=AppProject&page=building&project_id=9&project_status_id=2",
+  "notes": "3-storey + commercial -1 floor; progress photos end 2024.06"
+ },
+ {
+  "id": "comfortbuildam-720",
+  "title": "Prime Park Residential Complex",
+  "stage": null,
+  "floors": "14,16,18",
+  "completion": null,
+  "evidence_url": "https://comfortbuild.am/en/component/sppagebuilder/?view=page&id=51",
+  "notes": "blocks A 14, B 16, C 18 floors; no date"
+ },
+ {
+  "id": "dignisi-119",
+  "title": "HAY VIEW",
+  "stage": null,
+  "floors": "17",
+  "completion": "2028",
+  "evidence_url": "https://dignisi.am/en/projects/hay-view-317",
+  "notes": "dignisi handover 2028; novostroiki 2028-04; myhome exploitation 12/2027"
+ },
+ {
+  "id": "dignisi-201",
+  "title": "BABAYAN",
+  "stage": null,
+  "floors": "4",
+  "completion": null,
+  "evidence_url": "https://dignisi.am/en/projects/babayan-186",
+  "notes": "ready to move in"
+ },
+ {
+  "id": "dignisi-89",
+  "title": "«AR SHIN CONSTRUCT",
+  "stage": null,
+  "floors": "13",
+  "completion": "2025",
+  "evidence_url": "https://dignisi.am/en/projects/ar-shin-construct-160",
+  "notes": "handover 2025"
+ },
+ {
+  "id": "elitprojectgroupam-467",
+  "title": "Abovyan Park apartment building (Elit Project Group)",
+  "stage": null,
+  "floors": "12",
+  "completion": "2027-05",
+  "evidence_url": "https://myhome.am/en/building/124",
+  "notes": "myhome exploitation 05/2027"
+ },
+ {
+  "id": "goghtvalleycom-343",
+  "title": "Goght Urban Valley",
+  "stage": null,
+  "floors": "1-2",
+  "completion": "2026-12",
+  "evidence_url": "https://myhome.am/en/building/172",
+  "notes": "villas 1-2 storeys; myhome exploitation 12/2026"
+ },
+ {
+  "id": "kamertoonam-692",
+  "title": "Kamertoon Multifunctional Complex",
+  "stage": null,
+  "floors": "7",
+  "completion": "2027-09",
+  "evidence_url": "https://kamertoon.am/",
+  "notes": "floors 1-7 + rooftop; handover with finishing September 2027"
+ },
+ {
+  "id": "kp-121",
+  "title": "Bagrevand Residence",
+  "stage": null,
+  "floors": "7, 14",
+  "completion": "2025-12",
+  "evidence_url": "https://karucapatoxic.am/en/121",
+  "notes": ""
+ },
+ {
+  "id": "kp-168",
+  "title": "Residential Complex Garun",
+  "stage": null,
+  "floors": "16",
+  "completion": "2027-03",
+  "evidence_url": "https://artresidence.am/en/buildings/Garun",
+  "notes": "developer: completion March 2027; two 16-storey buildings"
+ },
+ {
+  "id": "kp-190",
+  "title": "Bagrevand Residence 2",
+  "stage": null,
+  "floors": "16",
+  "completion": "2028-12",
+  "evidence_url": "https://karucapatoxic.am/en/190",
+  "notes": "myhome exploitation 05/2029"
+ },
+ {
+  "id": "kp-206",
+  "title": "BestLand",
+  "stage": null,
+  "floors": "2,3",
+  "completion": "2024-05",
+  "evidence_url": "https://karucapatoxic.am/en/206",
+  "notes": ""
+ },
+ {
+  "id": "kp-31",
+  "title": "Noy Invest Group",
+  "stage": null,
+  "floors": "15",
+  "completion": "2025-07",
+  "evidence_url": "https://arare.am/project/noy/",
+  "notes": "arare: 5 buildings 13-15 floors, End date 07.2025; kp commissioning 04.2023; myhome exploitation 08/2026"
+ },
+ {
+  "id": "kp-55",
+  "title": "Crane Residential Area",
+  "stage": null,
+  "floors": "14",
+  "completion": "2024-09",
+  "evidence_url": "https://karucapatoxic.am/en/55",
+  "notes": "3 x 14-storey buildings"
+ },
+ {
+  "id": "kp-77",
+  "title": "Mia Town",
+  "stage": null,
+  "floors": "11",
+  "completion": "2025-12",
+  "evidence_url": "https://karucapatoxic.am/en/77",
+  "notes": ""
+ },
+ {
+  "id": "kp-99",
+  "title": "New Kanaker Complex",
+  "stage": null,
+  "floors": "16, 18",
+  "completion": "2026-07",
+  "evidence_url": "https://karucapatoxic.am/en/99",
+  "notes": ""
+ },
+ {
+  "id": "myhomeam-745",
+  "title": "Noy Residence · Kirk Kerkorian Street 23/23",
+  "stage": null,
+  "floors": "16",
+  "completion": "2028-06",
+  "evidence_url": "https://myhome.am/en/building/212",
+  "notes": ""
+ },
+ {
+  "id": "myhomeam-776",
+  "title": "New Arinj Residence · Armen Gulakyan Street 85",
+  "stage": null,
+  "floors": "14",
+  "completion": "2026-03",
+  "evidence_url": "https://myhome.am/en/building/342",
+  "notes": ""
+ },
+ {
+  "id": "myhomeam-797",
+  "title": "Nork Residential Complex · Sero Khanzadyan 131/9",
+  "stage": null,
+  "floors": "9",
+  "completion": "2016-06",
+  "evidence_url": "https://myhome.am/en/building/315",
+  "notes": ""
+ },
+ {
+  "id": "myhomeam-819",
+  "title": "HAY DEVELOP · H. Emin 1st lane",
+  "stage": null,
+  "floors": "17",
+  "completion": "2027-12",
+  "evidence_url": "https://myhome.am/en/building/244",
+  "notes": "myhome exploitation 12/2027, completion field 11/2029"
+ },
+ {
+  "id": "myhomeam-851",
+  "title": "PALLADA TSAGHKADZOR · Tsaghkunyats square 5 bldg 3",
+  "stage": null,
+  "floors": "15",
+  "completion": "2027-12",
+  "evidence_url": "https://myhome.am/en/building/169",
+  "notes": ""
+ },
+ {
+  "id": "mytownam-730",
+  "title": "Arinj Townhouses (Location 4)",
+  "stage": null,
+  "floors": "2",
+  "completion": "2026-09",
+  "evidence_url": "https://mytown.am/",
+  "notes": "Сдача: третий квартал 2026"
+ },
+ {
+  "id": "novostroikiyerevancom-947",
+  "title": "Davtashen Apartment Building",
+  "stage": null,
+  "floors": "14",
+  "completion": "2026-12",
+  "evidence_url": "https://myhome.am/en/building/137",
+  "notes": "myhome exploitation 12/2026; arare page shows both 07.2025 and 03.2026"
+ },
+ {
+  "id": "renshinam-584",
+  "title": "Buzand 91",
+  "stage": null,
+  "floors": "16",
+  "completion": "2013",
+  "evidence_url": "https://renshin.am/en/projects/Buzand_91/",
+  "notes": "16 upper + 3 underground floors, completed 2013"
+ },
+ {
+  "id": "sundaytowersam-396",
+  "title": "Sunday Towers",
+  "stage": null,
+  "floors": "6",
+  "completion": null,
+  "evidence_url": "https://sundaytowers.am/en/buildings/d/",
+  "notes": "6 above + 3 underground floors; no date on Tower D page"
+ },
+ {
+  "id": "acbaam-1125",
+  "title": "Garun Rezidens",
+  "stage": null,
+  "floors": "10",
+  "completion": "2027-07",
+  "evidence_url": "https://www.acba.am/hy/individuals/loans/mortgage/constructors#10179",
+  "notes": "acba exploitation 31.07.2027; developer page says 12 floors (likely incl. underground)"
+ },
+ {
+  "id": "archiconam-425",
+  "title": "Arabkir 19th St 24",
+  "stage": null,
+  "floors": "8",
+  "completion": "2023",
+  "evidence_url": "https://www.archicon.am/portfolio#arabkir-19th-st-24",
+  "notes": "'8 Story Residential Building', 2023"
+ },
+ {
+  "id": "capitalbuildam-456",
+  "title": "Davtashen 61",
+  "stage": null,
+  "floors": "13",
+  "completion": null,
+  "evidence_url": "https://www.capitalbuild.am/projects/project/davtashen-arajin-taghamas-61",
+  "notes": "13 above + 2 underground floors, 86 apartments"
+ },
+ {
+  "id": "constructionam-181",
+  "title": "Nest House · Nest House",
+  "stage": null,
+  "floors": null,
+  "completion": "2022-09",
+  "evidence_url": "https://www.construction.am/apartments-in-new-developments/nest-house/",
+  "notes": "construction period Mar-Sep 2022; storeys not given"
+ },
+ {
+  "id": "constructionam-224",
+  "title": "Itarco Construction · Papazyan",
+  "stage": null,
+  "floors": null,
+  "completion": "2017",
+  "evidence_url": "https://www.construction.am/apartments-in-new-developments/arabkir-papazyan-st/",
+  "notes": "2 buildings"
+ },
+ {
+  "id": "constructionam-248",
+  "title": "Quadra Construction · Verin Antarayin 122/1",
+  "stage": null,
+  "floors": null,
+  "completion": "2020",
+  "evidence_url": "https://www.construction.am/apartments-in-new-developments/verin-antarayin-122/",
+  "notes": ""
+ },
+ {
+  "id": "constructionam-46",
+  "title": "Akva-Len Shin · Charents 76/5",
+  "stage": null,
+  "floors": "16",
+  "completion": "2022",
+  "evidence_url": "https://www.construction.am/apartments-in-new-developments/akva-len-shin-charents/",
+  "notes": ""
+ },
+ {
+  "id": "constructionam-71",
+  "title": "Optima 25 · 41th St.",
+  "stage": null,
+  "floors": "20",
+  "completion": "2027-07",
+  "evidence_url": "https://www.construction.am/apartments-in-new-developments/norakaruyc-zovunium-optima-residence/",
+  "notes": "construction Jul 2025 - Jul 2027"
+ },
+ {
+  "id": "evocaam-1149",
+  "title": "S.K. Group LLC",
+  "stage": null,
+  "floors": "14,16,18",
+  "completion": null,
+  "evidence_url": "https://comfortbuild.am/en/component/sppagebuilder/?view=page&id=51",
+  "notes": "via Prime Park (same address and phone)"
+ },
+ {
+  "id": "greenprojectarmcom-476",
+  "title": "Green Townhouse Kasakh",
+  "stage": null,
+  "floors": "2",
+  "completion": null,
+  "evidence_url": "https://www.greenprojectarm.com/",
+  "notes": "4 two-storey townhouses"
+ },
+ {
+  "id": "redinvestam-547",
+  "title": "The View Residential Building",
+  "stage": null,
+  "floors": "20",
+  "completion": "2026-07",
+  "evidence_url": "https://redgroup.am/projects/bnakarankarucapatoxic-theview",
+  "notes": "Completion of construction 09.07.2026"
+ },
+ {
+  "id": "redinvestam-571",
+  "title": "Duryan House 3 Residential Complex",
+  "stage": null,
+  "floors": "7",
+  "completion": "2025-07",
+  "evidence_url": "https://redgroup.am/projects/bnakarankarucapatoxic-duryan",
+  "notes": "End of construction 07.2025; units on floors -2..7"
+ },
+ {
+  "id": "solarcityam-721",
+  "title": "T. Petrosyan 80 Residential Complex",
+  "stage": null,
+  "floors": "14",
+  "completion": "2029-09",
+  "evidence_url": "https://www.solarcity.am/hy/projects/davtashen",
+  "notes": "floors 1-14; blocks A and B: 3rd quarter 2029"
+ },
+ {
+  "id": "1sqam-300",
+  "title": "Ashtarak, Yerevanyan street 2/10",
+  "stage": null,
+  "floors": "14,15",
+  "completion": "2027-12",
+  "evidence_url": "https://1-sq.am/services/ashtarak_yerevanyan_2/",
+  "notes": "1-sq.am: block A 14 residential floors, block B 15; ar-go says 'Հարկերի քանակ 17' (total incl. basement/commercial). ar-go: works end 2027-12-31."
+ },
+ {
+  "id": "argoam-1104",
+  "title": "Nyu Era Rezidens",
+  "stage": null,
+  "floors": "18",
+  "completion": "2027-08",
+  "evidence_url": "https://ar-go.am/project/new-era-residence",
+  "notes": "3 blocks, 18 floors; works end 30.08.2027."
+ },
+ {
+  "id": "artcoam-642",
+  "title": "Ani Residential District",
+  "stage": null,
+  "floors": "12",
+  "completion": "2020-10",
+  "evidence_url": "https://artco.am/?app=AppProject&page=district&project_id=1&project_status_id=2",
+  "notes": "5 buildings of 12 floors; final act 2020-10-01, exploitation permit 2021-04-14."
+ },
+ {
+  "id": "dignisi-121",
+  "title": "Kirkorian Residence",
+  "stage": null,
+  "floors": "16",
+  "completion": "2030",
+  "evidence_url": "https://dignisi.am/en/projects/kirkorian-residence-373",
+  "notes": "Handover 2030."
+ },
+ {
+  "id": "dignisi-207",
+  "title": "HEVN",
+  "stage": null,
+  "floors": null,
+  "completion": "2027",
+  "evidence_url": "https://dignisi.am/en/projects/hevn-125",
+  "notes": "Handover 2027; floors not published."
+ },
+ {
+  "id": "dignisi-90",
+  "title": "AR23 RESIDENCE",
+  "stage": null,
+  "floors": "9",
+  "completion": "2028-12",
+  "evidence_url": "https://brawerk.am/en/residential-developments/residential/ar23-residence",
+  "notes": "Construction 16.04.2026-01.12.2028; novostroiki says 2028-06."
+ },
+ {
+  "id": "elitprojectgroupam-468",
+  "title": "Elit Project Group · Abovyan",
+  "stage": null,
+  "floors": "2",
+  "completion": null,
+  "evidence_url": "https://elitprojectgroup.am/adm/api/townhouses.php",
+  "notes": "Ready-made (finished); no date."
+ },
+ {
+  "id": "greenrockam-477",
+  "title": "Takhta Residential Complex",
+  "stage": null,
+  "floors": "8",
+  "completion": null,
+  "evidence_url": "https://greenrock.am/project/takhta-residential-complex/",
+  "notes": "Counters: 8 maximum floors, 3 building blocks; category 'Under design'."
+ },
+ {
+  "id": "kp-1",
+  "title": "Defanse Housing",
+  "stage": null,
+  "floors": "15, 16, 23",
+  "completion": "2026-12",
+  "evidence_url": "https://karucapatoxic.am/en/1",
+  "notes": "karucapatoxic commissioning 2026; novostroiki 2026-12. 1st district: 66 buildings of 15/16/23 floors."
+ },
+ {
+  "id": "kp-122",
+  "title": "Parajanov Club House",
+  "stage": null,
+  "floors": "21",
+  "completion": "2026-12",
+  "evidence_url": "https://karucapatoxic.am/en/122",
+  "notes": "Commissioning 12.2026; construction.am period 2022 Dec-2026 Dec, 21 above + 6 below ground."
+ },
+ {
+  "id": "kp-169",
+  "title": "Araks 1",
+  "stage": null,
+  "floors": "18, 19, 20",
+  "completion": "2025-12",
+  "evidence_url": "https://karucapatoxic.am/en/169",
+  "notes": "karucapatoxic commissioning 12.2025 (Araks 1); construction.am Building B completion 2028 (2026 Jan-2028 Dec), floors 18,19,20, 3 buildings, 114 apts. Stage 'finished' only applies to the first building."
+ },
+ {
+  "id": "kp-191",
+  "title": "Sophene Club House",
+  "stage": null,
+  "floors": "8",
+  "completion": "2026-06",
+  "evidence_url": "https://karucapatoxic.am/en/191",
+  "notes": "karucapatoxic/novostroiki commissioning 06.2026; dignisi handover 2027 and 'Under construction'."
+ },
+ {
+  "id": "kp-207",
+  "title": "Tsakhkadzor V. Harutyunyan 6",
+  "stage": null,
+  "floors": "9",
+  "completion": null,
+  "evidence_url": "https://geoln.com/ru/armenia/tsaghkadzor/arutyunyan-six",
+  "notes": "Only geoln gives 9 floors / 'end Q3 2022' (unreliable). Developer: coming soon, 314 apts, 3-4 blocks; stage 'finished' and completion 2022-09 look wrong."
+ },
+ {
+  "id": "kp-32",
+  "title": "TIGRAN METS residential complex",
+  "stage": null,
+  "floors": "18",
+  "completion": "2025-09",
+  "evidence_url": "https://myhome.am/en/building/49",
+  "notes": "myhome bldg 49 18 floors, bldg 84 14 floors; end of construction 09/2025, stage Built."
+ },
+ {
+  "id": "kp-57",
+  "title": "Verfel 40/2",
+  "stage": null,
+  "floors": "18",
+  "completion": "2025-08",
+  "evidence_url": "https://karucapatoxic.am/en/57",
+  "notes": "Commissioning 08.2025."
+ },
+ {
+  "id": "kp-80",
+  "title": "Amanoo residential district",
+  "stage": null,
+  "floors": "6",
+  "completion": "2023-12",
+  "evidence_url": "https://karucapatoxic.am/en/80",
+  "notes": "karucapatoxic 6 floors, commissioning 12.2023 (IVY phase, 'already completed' per amanoo.am); next phase Sarin due end 2028; construction.am floors 4-7, completion 2027."
+ },
+ {
+  "id": "layeghvardam-487",
+  "title": "Los Angeles Yeghvard Townhouses",
+  "stage": null,
+  "floors": "2",
+  "completion": null,
+  "evidence_url": "https://layeghvard.am/",
+  "notes": "Site gives no floors/date explicitly (townhouses); 2026-12 not confirmed."
+ },
+ {
+  "id": "myhomeam-748",
+  "title": "Mashtots  26",
+  "stage": null,
+  "floors": "9",
+  "completion": "2027-08",
+  "evidence_url": "https://myhome.am/en/building/259",
+  "notes": "exploitationDate 08/2027, completionDate 01/2028."
+ },
+ {
+  "id": "myhomeam-777",
+  "title": "Eden Park · Mher Mkrtchyan district 1st street 30-32 7A bldg",
+  "stage": null,
+  "floors": "9",
+  "completion": "2031-06",
+  "evidence_url": "https://myhome.am/en/building/344",
+  "notes": "exploitation 06/2031, completion 12/2031; district buildings 5-9 floors."
+ },
+ {
+  "id": "myhomeam-798",
+  "title": "Arm Construct · Gevorg Chaush 95 E Masnashenk",
+  "stage": null,
+  "floors": "23",
+  "completion": "2031-08",
+  "evidence_url": "https://armconstruct.am/en/projects/five-towers",
+  "notes": "23 floors + 2 underground; End Date August 2031."
+ },
+ {
+  "id": "myhomeam-821",
+  "title": "New Age · Kirk Kerkorian Street 5/4",
+  "stage": null,
+  "floors": "18",
+  "completion": "2028-10",
+  "evidence_url": "https://myhome.am/en/building/238",
+  "notes": "exploitation 10/2028, completion 04/2029; novostroiki 2028-09."
+ },
+ {
+  "id": "myhomeam-852",
+  "title": "Tachat 62 · Edvard Mirzoyan 5",
+  "stage": null,
+  "floors": "5",
+  "completion": "2025-09",
+  "evidence_url": "https://myhome.am/en/building/167",
+  "notes": "exploitation 09/2025, completion 05/2026; myhome stage still 'Under construction'."
+ },
+ {
+  "id": "mytownam-731",
+  "title": "Ashtarak Highway Townhouses (Location 5)",
+  "stage": null,
+  "floors": null,
+  "completion": "2026",
+  "evidence_url": "https://mytown.am/",
+  "notes": "Q4 2026 handover claimed while project still under approval; floors not stated for location 5."
+ },
+ {
+  "id": "novostroikiyerevancom-950",
+  "title": "Davtashen Residence",
+  "stage": null,
+  "floors": null,
+  "completion": "2028-10",
+  "evidence_url": "https://novostroiki-yerevan.com/en/p/davtashen-residence-2/",
+  "notes": ""
+ },
+ {
+  "id": "seraydevelopmentscom-380",
+  "title": "Otevan Residence (Otevan 1)",
+  "stage": null,
+  "floors": "4",
+  "completion": null,
+  "evidence_url": "https://seraydevelopments.com/portfolio/otevan-residence-apartments-for-sale-in-yerevan-armenia/",
+  "notes": "'twenty apartments spread over four floors'; page still shows work-in-progress photos, no date."
+ },
+ {
+  "id": "sundaytowersam-397",
+  "title": "Sunday Towers",
+  "stage": null,
+  "floors": "6, 12",
+  "completion": "2027",
+  "evidence_url": "https://sundaytowers.am/en/buildings/e/",
+  "notes": "Tower E 6 floors, Tower B 12 floors; both 'Will be ready 2027'."
+ },
+ {
+  "id": "acbaam-1127",
+  "title": "Nyu Taun",
+  "stage": null,
+  "floors": "12",
+  "completion": "2026-12",
+  "evidence_url": "https://www.acba.am/hy/individuals/loans/mortgage/constructors#10185",
+  "notes": "ACBA: blocks A,B finished; G,D 05/12/2026; 5th block 25/04/2028; 12 floors."
+ },
+ {
+  "id": "archiconam-428",
+  "title": "Arabkir 17th St 22",
+  "stage": null,
+  "floors": "8",
+  "completion": null,
+  "evidence_url": "https://www.archicon.am/portfolio",
+  "notes": "'Arabkir 17, 22 · 8 Story Residential Building · Permit · 2025'."
+ },
+ {
+  "id": "constructionam-183",
+  "title": "Eliteshin Group · Lvovyan 19/7",
+  "stage": null,
+  "floors": "6",
+  "completion": "2027-06",
+  "evidence_url": "https://www.construction.am/apartments-in-new-developments/nor-nork-norakaruyc-lvovyan-tower/",
+  "notes": "Construction period 2025 Jan-2027 Jun; 6 above + 3 below ground, 63 apts."
+ },
+ {
+  "id": "constructionam-226",
+  "title": "G. Hovsepyan 62/11",
+  "stage": null,
+  "floors": "5",
+  "completion": "2025-12",
+  "evidence_url": "https://www.construction.am/apartments-in-new-developments/arcana-residence/",
+  "notes": "Completion 2025 / Completed; period 2022 Jun-2025 Dec."
+ },
+ {
+  "id": "constructionam-264",
+  "title": "Mamikonyants 42/1",
+  "stage": null,
+  "floors": "18",
+  "completion": null,
+  "evidence_url": "https://www.construction.am/apartments-in-new-developments/arabkir-mamik-residence/",
+  "notes": "'Completion 0'; 18 above + 2 below, 98 apts."
+ },
+ {
+  "id": "constructionam-47",
+  "title": "Alliance 64 · Fuchik 1/1",
+  "stage": null,
+  "floors": "10-16",
+  "completion": "2021",
+  "evidence_url": "https://www.construction.am/apartments-in-new-developments/alliance-plaza/",
+  "notes": "3 buildings of 16, 13 and 10 floors; Completion 2021 / Completed."
+ },
+ {
+  "id": "constructionam-72",
+  "title": "Aranna Shin · Norashen 2",
+  "stage": null,
+  "floors": "12",
+  "completion": "2024",
+  "evidence_url": "https://www.construction.am/apartments-in-new-developments/novel-residential-complex/",
+  "notes": "Completion 2024 / Completed; 132 apts."
+ },
+ {
+  "id": "evocaam-1151",
+  "title": "Mitstart LLC",
+  "stage": null,
+  "floors": "16",
+  "completion": "2027-03",
+  "evidence_url": "https://ar-go.am/project/zovbuilding",
+  "notes": "Start 01.01.2024, works end 15.03.2027; 1 block, 16 floors, 120 apts 41.7-153 m²."
+ },
+ {
+  "id": "redinvestam-548",
+  "title": "Duryan House 4 Residential Complex",
+  "stage": null,
+  "floors": "16",
+  "completion": "2026-07",
+  "evidence_url": "https://redgroup.am/projects/bnakarankarucapatoxic-duryan4",
+  "notes": "'End of construction: July 2026'; floors 2-16 in API."
+ },
+ {
+  "id": "redinvestam-572",
+  "title": "Just Developer (sales: RED Invest Group) · Moldovakan New Residential Building in Nor Nork 2nd District  ​​​​​​​Moldovakan 39/37",
+  "stage": null,
+  "floors": "4",
+  "completion": "2023-12",
+  "evidence_url": "https://redgroup.am/projects/bnakarankarucapatoxic-moldovakan",
+  "notes": "Start 03/2022, completion 12/2023; floors 1-4."
+ },
+ {
+  "id": "solarcityam-724",
+  "title": "Nansen Residential Complex",
+  "stage": null,
+  "floors": "13",
+  "completion": null,
+  "evidence_url": "https://www.solarcity.am/hy/projects/nansen",
+  "notes": "13 residential floors + commercial ground floor; commissioned, date not given."
+ },
+ {
+  "id": "4acapitalam-408",
+  "title": "Aivazovsky Residential Complex",
+  "stage": null,
+  "floors": null,
+  "completion": "2027-12",
+  "evidence_url": "https://4acapital.am/projects/aivazovsky-residential-complex/",
+  "notes": "Completion date Dec 2027 (both sources); 90 apartments 38-228 m², 66 parking; floors not published."
+ },
+ {
+  "id": "argoam-1105",
+  "title": "Nor Hachn Hills",
+  "stage": null,
+  "floors": "11",
+  "completion": "2029-08",
+  "evidence_url": "https://ar-go.am/project/nor-hatchn-hills",
+  "notes": "1 underground + 11 above-ground floors, 2 buildings, 420 apartments; start 01.08.2026, end 01.08.2029."
+ },
+ {
+  "id": "artresidenceam-321",
+  "title": "Premium Complex Park Building",
+  "stage": null,
+  "floors": "5",
+  "completion": "2025",
+  "evidence_url": "https://artresidence.am/en/buildings/Park",
+  "notes": "Developer: 5-storey building, 18 apartments, completion planned 2nd half of 2025 (floorsCount 6 incl. -1 parking)."
+ },
+ {
+  "id": "dignisi-122",
+  "title": "Komitas Park Residential District",
+  "stage": null,
+  "floors": "12,16",
+  "completion": "2028",
+  "evidence_url": "https://komitaspark.am/en/p/about-district",
+  "notes": "Developer: 12- and 16-storey buildings, 24 buildings in phases 1-2 + 15 in phase 3; Dignisi handover 2028."
+ },
+ {
+  "id": "dignisi-208",
+  "title": "Kanach Purak",
+  "stage": null,
+  "floors": "14",
+  "completion": "2024-12",
+  "evidence_url": "https://dignisi.am/en/projects/kanach-purak-266",
+  "notes": "'Ready to move in'; text: commissioned December 2024."
+ },
+ {
+  "id": "dignisi-92",
+  "title": "Ardy",
+  "stage": null,
+  "floors": "12",
+  "completion": "2030",
+  "evidence_url": "https://dignisi.am/en/projects/ardy-381",
+  "notes": ""
+ },
+ {
+  "id": "kp-10",
+  "title": "Luyser Residential Complex",
+  "stage": null,
+  "floors": "16,18",
+  "completion": "2024",
+  "evidence_url": "https://luyser.am/en/apartments",
+  "notes": "Buildings A,B 18 floors; C,D 16. Developer: commissioned 2024 (karucapatoxic end 2023-12)."
+ },
+ {
+  "id": "kp-123",
+  "title": "Pullman Residences Yerevan",
+  "stage": null,
+  "floors": "15",
+  "completion": "2027",
+  "evidence_url": "https://www.construction.am/apartments-in-new-developments/norakaruyc-bnakaran-norqi-ayginer-pullman-residences-yerevan/",
+  "notes": "15 above ground + 4 below, 391 apartments, construction 2024-2027; karucapatoxic end 2027-12-31."
+ },
+ {
+  "id": "kp-17",
+  "title": "Davit Bek",
+  "stage": null,
+  "floors": "16",
+  "completion": "2025-12",
+  "evidence_url": "https://armconstruct.am/en/projects/davit-bek-290-nor-norq",
+  "notes": "16 floors + 3 underground; end date December 2025 (karucapatoxic 2025-07)."
+ },
+ {
+  "id": "kp-192",
+  "title": "Green Avan",
+  "stage": null,
+  "floors": "10",
+  "completion": "2025-12",
+  "evidence_url": "https://karucapatoxic.am/en/192",
+  "notes": "Start 2023-04, end 2025-12-30."
+ },
+ {
+  "id": "kp-209",
+  "title": "Rich Garden 2",
+  "stage": null,
+  "floors": "2",
+  "completion": "2027",
+  "evidence_url": "https://karucapatoxic.am/en/209",
+  "notes": "karucapatoxic floors 2, end 2027-01-30; ACBA: commissioning 2027."
+ },
+ {
+  "id": "kp-33",
+  "title": "19/9 Kirk Kerkorian",
+  "stage": null,
+  "floors": "6",
+  "completion": "2025-05",
+  "evidence_url": "https://karucapatoxic.am/en/33",
+  "notes": ""
+ },
+ {
+  "id": "kp-58",
+  "title": "Arshakunyats 192",
+  "stage": null,
+  "floors": "14",
+  "completion": "2023-10",
+  "evidence_url": "https://www.construction.am/apartments-in-new-developments/arshakunyats-186/",
+  "notes": "construction.am: completed, construction Apr 2021 - Oct 2023, 14 above + 4 below; karucapatoxic end 2024-01."
+ },
+ {
+  "id": "kp-81",
+  "title": "Antara Inn",
+  "stage": null,
+  "floors": "6",
+  "completion": "2024-11",
+  "evidence_url": "https://karucapatoxic.am/en/81",
+  "notes": "6 residential floors (developer); construction.am completed 2024; Dignisi ready to move in."
+ },
+ {
+  "id": "myhomeam-750",
+  "title": "ASR · Acharyan 43/20",
+  "stage": null,
+  "floors": "6",
+  "completion": "2026-11",
+  "evidence_url": "https://myhome.am/en/building/272",
+  "notes": "6 floors + -1 parking."
+ },
+ {
+  "id": "myhomeam-778",
+  "title": "Eden Park · Mher Mkrtchyan district 1st street 30-32 6A",
+  "stage": null,
+  "floors": "9",
+  "completion": "2031-06",
+  "evidence_url": "https://myhome.am/en/building/345",
+  "notes": "myhome: 9 floors for buildings 6A/5D; district text: 5-9 storey buildings."
+ },
+ {
+  "id": "myhomeam-799",
+  "title": "Arm Construct · Gevorg Chaush 95 Z Masnashenk",
+  "stage": null,
+  "floors": "23",
+  "completion": "2031-08",
+  "evidence_url": "https://armconstruct.am/en/projects/five-towers",
+  "notes": "Five Towers: 23 floors + 2 underground, end date August 2031 (myhome exploitation 2031-08-20)."
+ },
+ {
+  "id": "myhomeam-822",
+  "title": "New Age · Kirk Kerkorian Street 19/11",
+  "stage": null,
+  "floors": "16",
+  "completion": "2028-10",
+  "evidence_url": "https://myhome.am/en/building/237",
+  "notes": ""
+ },
+ {
+  "id": "myhomeam-857",
+  "title": "PALLADA TSAGHKADZOR · 5 Tsaghkunyats Square bldg 5",
+  "stage": null,
+  "floors": "14",
+  "completion": "2027-12",
+  "evidence_url": "https://myhome.am/en/building/158",
+  "notes": ""
+ },
+ {
+  "id": "novostroikiyerevancom-954",
+  "title": "Eco House",
+  "stage": null,
+  "floors": null,
+  "completion": "2024-01",
+  "evidence_url": "https://novostroiki-yerevan.com/en/p/eco-house/",
+  "notes": ""
+ },
+ {
+  "id": "sundaytowersam-398",
+  "title": "Sunday Towers",
+  "stage": null,
+  "floors": "10",
+  "completion": "2028",
+  "evidence_url": "https://api.sundaytowers.am/api/buildings",
+  "notes": "Building Z floors_count 10, year 2028 (other buildings B 12, G/D/E 6)."
+ },
+ {
+  "id": "acbaam-1128",
+  "title": "Armstroy Proyekt",
+  "stage": null,
+  "floors": "14",
+  "completion": "2025-12",
+  "evidence_url": "https://www.acba.am/hy/individuals/loans/mortgage/constructors#10187",
+  "notes": "Commissioning date 06.12.2025."
+ },
+ {
+  "id": "archiconam-429",
+  "title": "Arabkir 37th St 22/1",
+  "stage": null,
+  "floors": "7",
+  "completion": null,
+  "evidence_url": "https://www.archicon.am/portfolio",
+  "notes": "Permit 2026, no completion date."
+ },
+ {
+  "id": "constructionam-184",
+  "title": "Mountain Plaza · G. Hovsepyan 48/3",
+  "stage": null,
+  "floors": "5",
+  "completion": "2026-06",
+  "evidence_url": "https://www.construction.am/apartments-in-new-developments/nork-marash-norakaruyc-mountain-plaza/",
+  "notes": "5 above + 2 below; construction Jan 2024 - Jun 2026."
+ },
+ {
+  "id": "constructionam-227",
+  "title": "Aurea Group · Lvovyan 22",
+  "stage": null,
+  "floors": null,
+  "completion": "2021",
+  "evidence_url": "https://www.construction.am/apartments-in-new-developments/aurea-group-lvovyan-22/",
+  "notes": "construction.am: completed 2021; no floors."
+ },
+ {
+  "id": "constructionam-265",
+  "title": "Arshakunyats 33",
+  "stage": null,
+  "floors": "14",
+  "completion": null,
+  "evidence_url": "https://redgroup.am/projects/bnakaran-karucapatoxic-arshakunyats",
+  "notes": "3 buildings, 12 residential + 2 commercial floors + 2 underground; start 12.12.2023; no completion date published (2025-12 came from the business-center page)."
+ },
+ {
+  "id": "constructionam-49",
+  "title": "Armat Realty · Chaush 140",
+  "stage": null,
+  "floors": "5",
+  "completion": "2023",
+  "evidence_url": "https://geoln.com/ru/armenia/kasakh/americana-armenia",
+  "notes": "geoln: 5 floors, 22 apartments per building; construction.am: 16 houses + 6 apartment buildings, completed 2023."
+ },
+ {
+  "id": "constructionam-73",
+  "title": "Metrum Invest · Antarayin 136/2",
+  "stage": null,
+  "floors": "6",
+  "completion": "2025-05",
+  "evidence_url": "https://myhome.am/en/building/130",
+  "notes": "myhome end of construction 05/2025; construction.am completed 2025 (2022-2025), 6 above + 3 below; Dignisi handover 2026."
+ },
+ {
+  "id": "evocaam-1153",
+  "title": "High Park",
+  "stage": null,
+  "floors": "9",
+  "completion": "2028-12",
+  "evidence_url": "https://redgroup.am/projects/bnakarankarucapatoxic-heaven-heights",
+  "notes": "Construction start June 2025, completion planned end of 2028; unit floors listed up to 9."
+ },
+ {
+  "id": "redinvestam-549",
+  "title": "Garunavan 4 Residential District",
+  "stage": null,
+  "floors": "2",
+  "completion": null,
+  "evidence_url": "https://redgroup.am/projects/bnakarankarucapatoxic-garunavan4",
+  "notes": "60 two-storey private houses; no completion date published (2022-06 likely from older Garunavan phases)."
+ },
+ {
+  "id": "redinvestam-574",
+  "title": "The Hill Residence",
+  "stage": null,
+  "floors": "6",
+  "completion": "2026-11",
+  "evidence_url": "https://redgroup.am/projects/bnakaran-karucapatoxic-thehill",
+  "notes": "redgroup: 6 upper + 2 underground floors, completion scheduled Nov 2026; myhome says 5 floors, end 11/2026."
+ },
+ {
+  "id": "solarcityam-725",
+  "title": "Solar City Eco-District (Townhouses)",
+  "stage": null,
+  "floors": "2-3",
+  "completion": null,
+  "evidence_url": "https://www.solarcity.am/hy/projects/solar-city",
+  "notes": "Houses + 3-storey apartment building; commissioned, no date."
+ },
+ {
+  "id": "4acapitalam-410",
+  "title": "Nest Residence",
+  "stage": null,
+  "floors": null,
+  "completion": "2028-08",
+  "evidence_url": "https://citynest.am/nest/en",
+  "notes": "Completion 2028 August on both citynest.am and 4acapital.am; 2 buildings, 170 apartments; floors not published."
+ },
+ {
+  "id": "argoam-1106",
+  "title": "Panorama Hills",
+  "stage": null,
+  "floors": "11",
+  "completion": "2025-06",
+  "evidence_url": "https://ar-go.am/project/panorama-hills",
+  "notes": "Հարկերի քանակ՝ 11; Աշխատանքների ավարտ 2025-06-30; 3 blocks, 224 apartments."
+ },
+ {
+  "id": "artresidenceam-322",
+  "title": "ClubHouse",
+  "stage": null,
+  "floors": "6",
+  "completion": "2025-08",
+  "evidence_url": "https://myhome.am/en/building/156",
+  "notes": "Developer: 'completed residential complex'; unit floors 1-6 and myhome floorsCount 6; myhome exploitation 08/2025."
+ },
+ {
+  "id": "dgaconstructionam-465",
+  "title": "DGA Construction residential building (Hatis St, Abovyan)",
+  "stage": null,
+  "floors": "16",
+  "completion": null,
+  "evidence_url": "https://dgaconstruction.am/",
+  "notes": "Floor filter 2-16; no completion date on site."
+ },
+ {
+  "id": "dignisi-124",
+  "title": "Luyser Business Center",
+  "stage": null,
+  "floors": "13",
+  "completion": "2027",
+  "evidence_url": "https://dignisi.am/en/projects/luyser-business-center-358",
+  "notes": "Handover 2027; Floors 13."
+ },
+ {
+  "id": "dignisi-209",
+  "title": "Ler Kamsar district",
+  "stage": null,
+  "floors": null,
+  "completion": "2027",
+  "evidence_url": "https://dignisi.am/en/projects/ler-kamsar-district-333",
+  "notes": "Handover 2027 in card; description text says 'Completion date - Spring 2026'."
+ },
+ {
+  "id": "dignisi-93",
+  "title": "Armenakyan Residence",
+  "stage": null,
+  "floors": "5",
+  "completion": "2026-12",
+  "evidence_url": "https://dignisi.am/en/projects/armenakyan-residence-326",
+  "notes": "Floors 5 (4 above + 1 underground); 'Construction completion: End of 2026'."
+ },
+ {
+  "id": "filishinam-685",
+  "title": "Dzorap 70/3 & 70/2 Residential Buildings",
+  "stage": null,
+  "floors": null,
+  "completion": "2015",
+  "evidence_url": "http://filishin.am/projects/",
+  "notes": "Years 2013–2015; no storey count."
+ },
+ {
+  "id": "kp-104",
+  "title": "Davtashen 2nd Block, 26/13",
+  "stage": null,
+  "floors": null,
+  "completion": "2020-04",
+  "evidence_url": "https://karucapatoxic.am/en/104",
+  "notes": "Commissioning 04.2020; floors field empty on both sources."
+ },
+ {
+  "id": "kp-124",
+  "title": "Vista Residence",
+  "stage": null,
+  "floors": "12,18",
+  "completion": "2027-12",
+  "evidence_url": "https://karucapatoxic.am/en/124",
+  "notes": "karucapatoxic/novostroiki: floors 12,18, commissioning 12.2027; myhome says end of construction 12/2026 (building A, 12 floors)."
+ },
+ {
+  "id": "kp-170",
+  "title": "Ararat Park residential complex",
+  "stage": null,
+  "floors": "9,12",
+  "completion": "2025-12",
+  "evidence_url": "https://karucapatoxic.am/en/170",
+  "notes": "Commissioning 12.2025; etagi: delivery Finished, deadline Q4 2025, 12 floors."
+ },
+ {
+  "id": "kp-193",
+  "title": "Wellstone Residential complex",
+  "stage": null,
+  "floors": "10,12",
+  "completion": "2027-05",
+  "evidence_url": "https://karucapatoxic.am/en/193",
+  "notes": "Floors 10,12; Commissioning 05.2027."
+ },
+ {
+  "id": "kp-21",
+  "title": "Rem Group",
+  "stage": null,
+  "floors": "14",
+  "completion": "2023-05",
+  "evidence_url": "https://karucapatoxic.am/en/21",
+  "notes": "Floors 14; Commissioning 05.2023 (construction.am says Completion 2022 / Completed)."
+ },
+ {
+  "id": "kp-35",
+  "title": "Green View",
+  "stage": null,
+  "floors": "14",
+  "completion": "2023-12",
+  "evidence_url": "https://karucapatoxic.am/en/35",
+  "notes": "Floors 14; Commissioning 12.2023."
+ },
+ {
+  "id": "kp-59",
+  "title": "Grand View",
+  "stage": null,
+  "floors": "14",
+  "completion": "2024-06",
+  "evidence_url": "https://karucapatoxic.am/en/59",
+  "notes": ""
+ },
+ {
+  "id": "kp-82",
+  "title": "Tsaghkadzor Park",
+  "stage": null,
+  "floors": "11,9,7,5",
+  "completion": "2026",
+  "evidence_url": "https://metruminvest.am/en/project/tsaghkadzor-park",
+  "notes": "Developer: 4 buildings 11/9/7/5-storey, delivery_date '12/10/2026' (day/month order ambiguous); karucapatoxic says commissioning 07.2025."
+ },
+ {
+  "id": "myhomeam-754",
+  "title": "Bedeck Masis",
+  "stage": null,
+  "floors": "9",
+  "completion": "2028-09",
+  "evidence_url": "https://myhome.am/en/building/313",
+  "notes": "Number of floors 9; End of construction 09/2028."
+ },
+ {
+  "id": "myhomeam-779",
+  "title": "Eden Park · Mher Mkrtchyan district 1st street 30-32 5G bldg",
+  "stage": null,
+  "floors": "9",
+  "completion": "2031-06",
+  "evidence_url": "https://myhome.am/en/building/346",
+  "notes": "floorsCount 9; exploitationDate 06/2031."
+ },
+ {
+  "id": "myhomeam-800",
+  "title": "STRONG BUILDINGS · Sevan st. 4/10 A & B bldg",
+  "stage": null,
+  "floors": "16",
+  "completion": "2028-11",
+  "evidence_url": "https://myhome.am/en/building/312",
+  "notes": ""
+ },
+ {
+  "id": "myhomeam-823",
+  "title": "ASASHIN · Yerevan",
+  "stage": null,
+  "floors": "5",
+  "completion": "2027-03",
+  "evidence_url": "https://myhome.am/en/building/236",
+  "notes": ""
+ },
+ {
+  "id": "myhomeam-865",
+  "title": "SHAMAKHYAN · Shamakhyan 1/2 2",
+  "stage": null,
+  "floors": "4",
+  "completion": "2026-09",
+  "evidence_url": "https://myhome.am/en/building/140",
+  "notes": ""
+ },
+ {
+  "id": "novostroikiyerevancom-960",
+  "title": "Firdus Prime Residence",
+  "stage": null,
+  "floors": "12-19",
+  "completion": "2027-10",
+  "evidence_url": "https://ar-go.am/project/firdus-prime-residence-1",
+  "notes": "ar-go: floors 12-17, works end 01.10.2027, 287 apartments; developer site lots: 10-11 (12 fl), 14-A (17), 14-B (17), 12 (19). myhome lot 14-A exploitation 12/2027."
+ },
+ {
+  "id": "seraydevelopmentscom-382",
+  "title": "Otevan 3",
+  "stage": null,
+  "floors": "4",
+  "completion": null,
+  "evidence_url": "https://seraydevelopments.com/portfolio/otevan-3/",
+  "notes": "Four floors, 20 apartments; no date."
+ },
+ {
+  "id": "sundaytowersam-399",
+  "title": "Sunday Towers",
+  "stage": null,
+  "floors": "14",
+  "completion": "2027-07",
+  "evidence_url": "https://myhome.am/en/building/202",
+  "notes": "Building B: floorsCount 14; exploitation 07/2027 (completionDate field 04/2029). Complex has buildings B,G,D,E,Z."
+ },
+ {
+  "id": "acbaam-1129",
+  "title": "Sanlend Bagrevand",
+  "stage": null,
+  "floors": "4",
+  "completion": "2025-07",
+  "evidence_url": "https://redgroup.am/projects/bnakarankarucapatoxic-sunland2",
+  "notes": "5 four-storey buildings; Շին․ավարտ՝ 07/2025."
+ },
+ {
+  "id": "archiconam-430",
+  "title": "Yakov Zarubyan 38",
+  "stage": null,
+  "floors": "4",
+  "completion": "2020",
+  "evidence_url": "https://www.archicon.am/portfolio",
+  "notes": "Completed 2018–2020."
+ },
+ {
+  "id": "constructionam-10",
+  "title": "Azbuka Development RA · G. Hovsepyan 52/5",
+  "stage": null,
+  "floors": "5",
+  "completion": "2028-12",
+  "evidence_url": "https://www.construction.am/apartments-in-new-developments/nork-marash-norakaruyc-monterosso/",
+  "notes": "Construction Period 2026 Mar - 2028 Dec; Floors above ground 5 (monterosso.am 'building height 5 floors'; dignisi says 6)."
+ },
+ {
+  "id": "constructionam-185",
+  "title": "Elite Group · Northern Ray 2",
+  "stage": null,
+  "floors": null,
+  "completion": "2022",
+  "evidence_url": "https://www.construction.am/apartments-in-new-developments/northen-ray-2/",
+  "notes": "Completion 2022 / Completed. Floors '14' came from the wrongly merged 74 Nairi Zaryan page; the villas are 2 floors + basement (types A,B,C) - no storey count published."
+ },
+ {
+  "id": "constructionam-228",
+  "title": "Renshin Urban Investments · Sasna Tsrer 3",
+  "stage": null,
+  "floors": null,
+  "completion": "2019",
+  "evidence_url": "https://www.construction.am/apartments-in-new-developments/avtashen-sasna-tsrer-street-3/",
+  "notes": "Completion 2019 / Completed."
+ },
+ {
+  "id": "constructionam-266",
+  "title": "SIL Capital Construction · Davtyan 1/4",
+  "stage": null,
+  "floors": null,
+  "completion": "2018",
+  "evidence_url": "https://www.construction.am/apartments-in-new-developments/davtyan-street-sil-capital-construction/",
+  "notes": "Completion 2018 / Completed."
+ },
+ {
+  "id": "constructionam-5",
+  "title": "Elitar Shin · Jrvezh 17",
+  "stage": null,
+  "floors": "16",
+  "completion": "2028-12",
+  "evidence_url": "https://www.construction.am/apartments-in-new-developments/bagrevand-residence-norakaruyc-jrvejum/",
+  "notes": "Construction Period 2025 Mar - 2028 Dec; Floors Above Ground 16."
+ },
+ {
+  "id": "constructionam-74",
+  "title": "Royal Classic House · Buzand 3",
+  "stage": null,
+  "floors": "9",
+  "completion": "2013",
+  "evidence_url": "https://www.construction.am/apartments-in-new-developments/royal-classic-house/",
+  "notes": "Completion 2013 / Completed; 9 above-ground + 2 underground floors."
+ },
+ {
+  "id": "ivygardenam-353",
+  "title": "IVY Garden",
+  "stage": null,
+  "floors": "6",
+  "completion": "2026-12",
+  "evidence_url": "https://myhome.am/en/building/241",
+  "notes": "myhome exploitation 12/2026; novostroiki says 03/2026."
+ },
+ {
+  "id": "redinvestam-550",
+  "title": "North Yard",
+  "stage": null,
+  "floors": "2",
+  "completion": "2026-12",
+  "evidence_url": "https://redgroup.am/projects/bnakarankarucapatoxic-north-yard",
+  "notes": "'23 երկհարկանի թաունհաուս'; construction end planned December 2026."
+ },
+ {
+  "id": "vahaknicom-733",
+  "title": "Vahakni Residential Community",
+  "stage": null,
+  "floors": "1-2",
+  "completion": null,
+  "evidence_url": "https://www.vahakni.com/en",
+  "notes": "Private houses/townhouses; no storey data beyond models."
+ },
+ {
+  "id": "4acapitalam-411",
+  "title": "Movenpick Resort Tsaghkadzor",
+  "stage": null,
+  "floors": null,
+  "completion": "2026-12",
+  "evidence_url": "https://4acapital.am/projects/movenpick-resort-tsaghkadzor/",
+  "notes": "Completion December 2026 on both 4acapital.am and citynest.am; 197 units 27-95 sqm; floors not published."
+ },
+ {
+  "id": "argoam-1078",
+  "title": "Acharyan 2/1",
+  "stage": null,
+  "floors": "9,11",
+  "completion": "2026-12",
+  "evidence_url": "https://ar-go.am/project/ajaryan",
+  "notes": "Հարկերի քանակ 9,11; 2 blocks, 192 apartments 51.5-71.5 m2; works 15.07.2022 - 31.12.2026."
+ },
+ {
+  "id": "argoam-1107",
+  "title": "Ptghni Garden",
+  "stage": null,
+  "floors": "2",
+  "completion": null,
+  "evidence_url": "https://ar-go.am/project/ptghni-garden",
+  "notes": "2 floors, 10 townhouses; status 'under construction', no completion date."
+ },
+ {
+  "id": "dignisi-100",
+  "title": "Baghramyan Residence",
+  "stage": null,
+  "floors": "18",
+  "completion": "2028",
+  "evidence_url": "https://www.construction.am/apartments-in-new-developments/norakaruyc-bnakaran-kentronum-baghramyan-residence/",
+  "notes": "construction.am: 18 floors above ground, completion 2028 (period 2025-2028 Mar); dignisi Handover 2028, 18 floors."
+ },
+ {
+  "id": "dignisi-125",
+  "title": "Masis Central Residential Complex",
+  "stage": null,
+  "floors": "9",
+  "completion": "2028-10",
+  "evidence_url": "https://metruminvest.am/en/project/masis-central",
+  "notes": "9 floors (1 public + 8 residential); developer delivery_date 10/31/2028 (dignisi says 2027)."
+ },
+ {
+  "id": "dignisi-210",
+  "title": "Level 16",
+  "stage": null,
+  "floors": "14,16",
+  "completion": null,
+  "evidence_url": "https://1-sq.am/services/level-16/",
+  "notes": "2 blocks of 14 and 16 floors above ground (+3 underground); completed, ready to move in; no handover date published."
+ },
+ {
+  "id": "dignisi-94",
+  "title": "Armenia Garden residential district",
+  "stage": null,
+  "floors": "16",
+  "completion": "2029",
+  "evidence_url": "https://dignisi.am/en/projects/armenia-garden-residential-district-238",
+  "notes": "Dignisi 16 floors, handover 2029; developer phases complete 2026 (B1), 2027-07 (B2), 2029 (B3)."
+ },
+ {
+  "id": "filishinam-687",
+  "title": "Residential and Public Building with Zigzag Showroom (Charents 24)",
+  "stage": null,
+  "floors": null,
+  "completion": "2005",
+  "evidence_url": "http://filishin.am/projects/",
+  "notes": "Portfolio: Years 2005; floors not given."
+ },
+ {
+  "id": "kp-108",
+  "title": "Mergelyan Residence",
+  "stage": null,
+  "floors": "9",
+  "completion": "2026-01",
+  "evidence_url": "https://karucapatoxic.am/en/108",
+  "notes": "karucapatoxic Floors 9, Commissioning 01.2026; novostroiki 9 floors, 2026-01; dignisi says 8 floors, handover 2026."
+ },
+ {
+  "id": "kp-126",
+  "title": "VM Building",
+  "stage": null,
+  "floors": "7",
+  "completion": "2025-12",
+  "evidence_url": "https://karucapatoxic.am/en/126",
+  "notes": "Floors 7, Commissioning 12.2025 (kp and novostroiki)."
+ },
+ {
+  "id": "kp-171",
+  "title": "Capital Park Residential Complex",
+  "stage": null,
+  "floors": "16",
+  "completion": "2026-12",
+  "evidence_url": "https://yerevan.etagi.com/en-us/zastr/jk/capitalpark-54423/",
+  "notes": "16 floors above ground (capitalpark.am, kp, promgroup); etagi Delivery 4 quarter 2026, promgroup Completion 2026, dignisi handover 2026. 5 buildings, 524 apartments."
+ },
+ {
+  "id": "kp-194",
+  "title": "Avenue 22",
+  "stage": null,
+  "floors": "18,22",
+  "completion": "2027-07",
+  "evidence_url": "https://ar-go.am/project/avenue-22-bnakeli-hamalir",
+  "notes": "capitalbuild: 3 blocks, two 22-storey and one 18-storey, 614 apartments. ar-go works end 2027-07-26; kp/novostroiki 08.2027."
+ },
+ {
+  "id": "kp-210",
+  "title": "Artashat Premium",
+  "stage": null,
+  "floors": "7,9",
+  "completion": null,
+  "evidence_url": "https://karucapatoxic.am/en/210",
+  "notes": "kp Floors 7,9; no commissioning date published."
+ },
+ {
+  "id": "kp-38",
+  "title": "Avan Towers",
+  "stage": null,
+  "floors": "14,16,21,22",
+  "completion": "2027-08",
+  "evidence_url": "https://karucapatoxic.am/en/38",
+  "notes": "kp Floors 14,16,21,22, Commissioning 08.2027; charagayt: 14-22 floors, works to finish 2026-2027; dignisi handover 2030."
+ },
+ {
+  "id": "kp-6",
+  "title": "Pallada Tsaghkadzor",
+  "stage": null,
+  "floors": "9,14",
+  "completion": "2027-06",
+  "evidence_url": "https://karucapatoxic.am/en/6",
+  "notes": "kp Floors 9, 14; Commissioning 06.2027; min area 31.1 m2; 8 buildings (pallada.am)."
+ },
+ {
+  "id": "kp-83",
+  "title": "NAIRI Residential public complex",
+  "stage": null,
+  "floors": "12,14,16",
+  "completion": "2025-08",
+  "evidence_url": "https://spitaktnak.am/en/current/nairi",
+  "notes": "5 buildings: A,B 12 floors; C,D 14; E 16. kp Commissioning 08.2025."
+ },
+ {
+  "id": "leningradyanam-486",
+  "title": "Manuk Abeghyan 19/1",
+  "stage": null,
+  "floors": "6",
+  "completion": null,
+  "evidence_url": "https://leningradyan.am/en/",
+  "notes": "6-story; ongoing; no date."
+ },
+ {
+  "id": "myhomeam-755",
+  "title": "New Masis · Heratsi 20",
+  "stage": null,
+  "floors": "5",
+  "completion": "2026-12",
+  "evidence_url": "https://myhome.am/en/building/296",
+  "notes": "5 floors (re-planned to 5-storey); exploitation 12/2026 (completion field 08/2027)."
+ },
+ {
+  "id": "myhomeam-781",
+  "title": "BEST MASIS · Azatamartikner Street 41",
+  "stage": null,
+  "floors": "5",
+  "completion": "2027-12",
+  "evidence_url": "https://myhome.am/en/building/333",
+  "notes": "5 floors; exploitation 12/2027 (completion field 03/2029)."
+ },
+ {
+  "id": "myhomeam-801",
+  "title": "Nork Residential Complex · Sero Khanzadyan 131/10",
+  "stage": null,
+  "floors": "17",
+  "completion": "2016-06",
+  "evidence_url": "https://myhome.am/en/building/305",
+  "notes": "Built building; 17 floors; exploitation 06/2016."
+ },
+ {
+  "id": "myhomeam-824",
+  "title": "Davit Anhaght",
+  "stage": null,
+  "floors": "8",
+  "completion": "2025-07",
+  "evidence_url": "https://myhome.am/en/building/233",
+  "notes": "8 floors; built; exploitation 07/2025 (completion field 01/2026); 43 apartments."
+ },
+ {
+  "id": "myhomeam-866",
+  "title": "Aygestan 11  213/9",
+  "stage": null,
+  "floors": "5",
+  "completion": "2024-09",
+  "evidence_url": "https://myhome.am/en/building/138",
+  "notes": "5 floors; exploitation 09/2024 (completion field 09/2026)."
+ },
+ {
+  "id": "newkomitasam-361",
+  "title": "New Komitas",
+  "stage": null,
+  "floors": "18",
+  "completion": "2027-12",
+  "evidence_url": "https://myhome.am/en/building/250",
+  "notes": "18 floors; exploitation 12/2027 (completion field 03/2031); novostroiki 12/2027."
+ },
+ {
+  "id": "novostroikiyerevancom-980",
+  "title": "HARMONY RESIDENCE",
+  "stage": null,
+  "floors": null,
+  "completion": "2025-10",
+  "evidence_url": "https://novostroiki-yerevan.com/en/p/harmony-residence/",
+  "notes": "Completion 2025-10; floors not given."
+ },
+ {
+  "id": "acbaam-1130",
+  "title": "Rut Konstrakt",
+  "stage": null,
+  "floors": "14",
+  "completion": null,
+  "evidence_url": "https://acba.am/hy/individual/loans/mortgage-loans/8979",
+  "notes": "14 floors; status ԱՎԱՐՏՎԱԾ Է (completed); no date."
+ },
+ {
+  "id": "archiconam-431",
+  "title": "Arabkir 39th St 25-27",
+  "stage": null,
+  "floors": "5",
+  "completion": "2020",
+  "evidence_url": "https://www.archicon.am/portfolio",
+  "notes": "5-story, 2018-2020."
+ },
+ {
+  "id": "constructionam-14",
+  "title": "ASR Construction Company · Acharyan 43/20",
+  "stage": null,
+  "floors": "5",
+  "completion": "2026-05",
+  "evidence_url": "https://www.construction.am/apartments-in-new-developments/avan-acharyan-norakaruyc-royal-avan-residence/",
+  "notes": "5 floors above ground + 1 below (dignisi says 6 floors); construction Dec 2024 - May 2026; novostroiki 2026-05."
+ },
+ {
+  "id": "constructionam-187",
+  "title": "High Park Residential Community",
+  "stage": null,
+  "floors": "2-3",
+  "completion": "2017",
+  "evidence_url": "https://www.construction.am/apartments-in-new-developments/palladio-shin/",
+  "notes": "construction.am Completion 2017 / Completed; 27 houses planned. Floors not restated on live pages (kept)."
+ },
+ {
+  "id": "constructionam-229",
+  "title": "Building Capital · Hrachya Kochar",
+  "stage": null,
+  "floors": "3",
+  "completion": "2016",
+  "evidence_url": "https://www.construction.am/apartments-in-new-developments/barekamutyun-business-center-hrachya-kochar-street-4/",
+  "notes": "Floors 0, 1 and 2 described (3 levels); completed 2016."
+ },
+ {
+  "id": "constructionam-267",
+  "title": "Dream House · David Bek",
+  "stage": null,
+  "floors": null,
+  "completion": "2020",
+  "evidence_url": "https://www.construction.am/apartments-in-new-developments/dream-house-david-bek/",
+  "notes": "Completion 2020; no floors."
+ },
+ {
+  "id": "constructionam-52",
+  "title": "Bars Real Estate Agency · Antarayin",
+  "stage": null,
+  "floors": "5,7",
+  "completion": "2021",
+  "evidence_url": "https://www.construction.am/apartments-in-new-developments/antarayin-dream-house/",
+  "notes": "2 buildings, 5 and 7 floors; apartments 138-208 m2; completed 2021."
+ },
+ {
+  "id": "constructionam-75",
+  "title": "Metrum Invest · Mher Mkrtchyan 17",
+  "stage": null,
+  "floors": "5,7,9,11",
+  "completion": "2026-12",
+  "evidence_url": "https://metruminvest.am/en/project/tsaghkadzor-park",
+  "notes": "4 blocks of 11, 9, 7 and 5 floors; developer delivery_date 12/10/2026 (MM/DD); myhome exploitation 09/2026; construction.am 2026."
+ },
+ {
+  "id": "milonminingam-507",
+  "title": "Milon Tower",
+  "stage": null,
+  "floors": "18",
+  "completion": "2027-10",
+  "evidence_url": "https://api.milonmining.am/buildings?lang=hy",
+  "notes": "floors_qty 18; start 2024-11-13, end 2027-10-04."
+ },
+ {
+  "id": "redinvestam-551",
+  "title": "JUST Developer (sales: RED Invest Group) · Olympus Davtashen",
+  "stage": null,
+  "floors": "18",
+  "completion": "2027-12",
+  "evidence_url": "https://redgroup.am/projects/bnakarankarucapatoxic-olimpus_davtashen",
+  "notes": "18 floors above ground + 2 underground; construction started 2025-04-20, end planned late 2027."
+ },
+ {
+  "id": "redinvestam-576",
+  "title": "Vernisaj",
+  "stage": null,
+  "floors": "6",
+  "completion": "2022-04",
+  "evidence_url": "https://redgroup.am/projects/bnakarankarucapatoxic-hanrapetutyan",
+  "notes": "6-storey building (floors 1-3 existing public space, 4-6 added); works 01/06/2021 - 01/04/2022."
+ },
+ {
+  "id": "argoam-1108",
+  "title": "Riga Rezidens",
+  "stage": null,
+  "floors": "8",
+  "completion": "2027-12",
+  "evidence_url": "https://ar-go.am/project/riga-residence",
+  "notes": "Header 'Աշխատանքների ավարտ 2027-12-30'; description text says 2028; 2 buildings, 65 apartments."
+ },
+ {
+  "id": "brawerkam-649",
+  "title": "Riga House (Antarayin Residential Complex)",
+  "stage": null,
+  "floors": "12",
+  "completion": "2024-01",
+  "evidence_url": "https://brawerk.am/en/residential-developments/residential/riga-house",
+  "notes": "Construction time 01.01.2021 - 01.01.2024; 59 apartments."
+ },
+ {
+  "id": "dignisi-102",
+  "title": "Bedeck David Beck",
+  "stage": null,
+  "floors": "14",
+  "completion": "2028",
+  "evidence_url": "https://dignisi.am/en/projects/bedeck-david-beck-135",
+  "notes": "Construction start Sept 2022 per description."
+ },
+ {
+  "id": "dignisi-129",
+  "title": "Noor Club House",
+  "stage": null,
+  "floors": "8",
+  "completion": "2027",
+  "evidence_url": "https://dignisi.am/en/projects/noor-club-house-322",
+  "notes": "Handover field 2027; description text says completion by December 2026 (construction began Jan 2025)."
+ },
+ {
+  "id": "dignisi-212",
+  "title": "MONUMENT 21",
+  "stage": null,
+  "floors": "7",
+  "completion": "2025-06",
+  "evidence_url": "https://dignisi.am/en/projects/monument-21-298",
+  "notes": "Description: 7-story building = 5 residential + 2 commercial floors (dignisi 'Floors 5' counts residential only); novostroiki completion 2025-06, dignisi 'Ready to move in'."
+ },
+ {
+  "id": "dignisi-97",
+  "title": "Avani Premium Home",
+  "stage": null,
+  "floors": "3-5,21",
+  "completion": "2029",
+  "evidence_url": "https://dignisi.am/en/projects/avani-premium-home-360",
+  "notes": "8 buildings: 4 high-rise with 21 residential floors, 4 with 3–5 floors."
+ },
+ {
+  "id": "geoln-147",
+  "title": "Arutyunyan 2/10",
+  "stage": null,
+  "floors": "4,5,7,9",
+  "completion": "2022",
+  "evidence_url": "https://www.capitalbuild.am/projects/project/caghkadzor-v-haroutyounyan-2-10",
+  "notes": "4 buildings: A 5 floors, B 9 (terraced), C 4, D 7; no completion date on developer page, geoln lists 'IV квартал' — kept 2022 from dataset."
+ },
+ {
+  "id": "greenrockam-481",
+  "title": "Green Rock Management Group · Dilijan",
+  "stage": null,
+  "floors": null,
+  "completion": "2028",
+  "evidence_url": "https://www.projectevn.com/dilijan-project/",
+  "notes": "'The projected end of construction is by 2028'."
+ },
+ {
+  "id": "kp-109",
+  "title": "Hahah Doni, 2/2",
+  "stage": null,
+  "floors": "7",
+  "completion": "2023-08",
+  "evidence_url": "https://karucapatoxic.am/en/109",
+  "notes": ""
+ },
+ {
+  "id": "kp-127",
+  "title": "NEW LUXURY",
+  "stage": null,
+  "floors": "6,16",
+  "completion": "2025-12",
+  "evidence_url": "https://myhome.am/en/building/128",
+  "notes": "myhome end of construction 12/2025, stage Built; karucapatoxic commissioning 04.2025; construction.am 2024 Completed."
+ },
+ {
+  "id": "kp-172",
+  "title": "Duryan 2 Residential Complex",
+  "stage": null,
+  "floors": "5,7,12",
+  "completion": "2025-11",
+  "evidence_url": "https://karucapatoxic.am/en/172",
+  "notes": "Commissioning 11.2025; min square listed 37 m²."
+ },
+ {
+  "id": "kp-195",
+  "title": "Smart Systems",
+  "stage": null,
+  "floors": "8",
+  "completion": "2026-03",
+  "evidence_url": "https://karucapatoxic.am/en/195",
+  "notes": ""
+ },
+ {
+  "id": "kp-211",
+  "title": "Aurex Residenes",
+  "stage": null,
+  "floors": "25",
+  "completion": "2029-12",
+  "evidence_url": "https://karucapatoxic.am/en/211",
+  "notes": ""
+ },
+ {
+  "id": "kp-39",
+  "title": "Nor Avan Residential Complex",
+  "stage": null,
+  "floors": "16,18",
+  "completion": "2026-12",
+  "evidence_url": "https://www.construction.am/apartments-in-new-developments/nor-avan-residential-complex/",
+  "notes": "construction.am 2022 Aug - 2026 Dec; dignisi handover 2026; developer and karucapatoxic 12.2025. 444 apartments, 6 buildings of 16/18 floors."
+ },
+ {
+  "id": "kp-61",
+  "title": "Nairi Zaryan 140",
+  "stage": null,
+  "floors": "18",
+  "completion": "2025-12",
+  "evidence_url": "https://www.construction.am/apartments-in-new-developments/arabkir-nairi-zaryan-140/",
+  "notes": "construction.am: 18 above-ground + 3 underground floors, 2021 Jun - 2025 Dec, Completed; karucapatoxic/novostroiki say 16 floors, commissioning 12.2023."
+ },
+ {
+  "id": "kp-84",
+  "title": "Nor Tun residential complex",
+  "stage": null,
+  "floors": "13,16",
+  "completion": "2025-12",
+  "evidence_url": "https://karucapatoxic.am/en/84",
+  "notes": "construction.am 2023 Feb - 2025 Dec, Completed; 6 residential buildings."
+ },
+ {
+  "id": "metruminvestam-613",
+  "title": "Eden Park",
+  "stage": null,
+  "floors": "5-9",
+  "completion": "2030",
+  "evidence_url": "https://dignisi.am/en/projects/eden-park-278",
+  "notes": "Dignisi handover 2030; developer JSON delivery_date 11/30/2026 (likely first phase); construction.am 2026. Developer: 5-9-story buildings, ~2,500 apartments 30-125 m²."
+ },
+ {
+  "id": "myhomeam-756",
+  "title": "Smart City · Jrvej 49 4",
+  "stage": null,
+  "floors": "3",
+  "completion": "2027-09",
+  "evidence_url": "https://myhome.am/en/building/255",
+  "notes": "myhome exploitationDate 09/2027, completionDate 01/2028."
+ },
+ {
+  "id": "myhomeam-783",
+  "title": "New Arinj Residence",
+  "stage": null,
+  "floors": "2",
+  "completion": "2026-04",
+  "evidence_url": "https://myhome.am/en/building/339",
+  "notes": "Townhouses with 2 residential floors; myhome end of construction 04/2026, isBuilt true. The '8' floors came from the dignisi apartment project."
+ },
+ {
+  "id": "myhomeam-802",
+  "title": "CRAFTED CONSTRUCTIONS · Gyurjyan 14/6",
+  "stage": null,
+  "floors": "6",
+  "completion": "2027-03",
+  "evidence_url": "https://ar-go.am/project/gyurjyan-gallery-bnakeli-hamalir",
+  "notes": "ar-go: construction 06.03.2025 - 06.03.2027; myhome end of construction 12/2026. 50 apartments."
+ },
+ {
+  "id": "myhomeam-826",
+  "title": "Micro-district 318 · Telman Manukyan Street 318",
+  "stage": null,
+  "floors": "8",
+  "completion": "2026-12",
+  "evidence_url": "https://myhome.am/en/building/230",
+  "notes": ""
+ },
+ {
+  "id": "myhomeam-874",
+  "title": "ARMARSHIN GROUP · Acharyan 37/22",
+  "stage": null,
+  "floors": "14",
+  "completion": "2025-02",
+  "evidence_url": "https://myhome.am/en/building/125",
+  "notes": "myhome exploitationDate 02/2025, completionDate 06/2025, isBuilt false."
+ },
+ {
+  "id": "novelabovyanam-421",
+  "title": "Novel Pionerakan",
+  "stage": null,
+  "floors": "16",
+  "completion": null,
+  "evidence_url": "https://novelabovyan.am/en/",
+  "notes": "'Novel Pioneerakan': 16-story building, 225 apartments 42.7-126.5 m², 171 parking; no completion date."
+ },
+ {
+  "id": "novostroikiyerevancom-994",
+  "title": "Lotus Living",
+  "stage": null,
+  "floors": "5,6,7",
+  "completion": "2027-12",
+  "evidence_url": "https://newcity.am/hy/projects/lotus",
+  "notes": "Developer: all blocks A-E 'Շինավարտ Դեկտեմբեր, 2027', 5-7 floors, 162 apartments; myhome exploitation 09/2027; novostroiki 2027-07."
+ },
+ {
+  "id": "smartcityam-590",
+  "title": "Smart City (Smart City 1)",
+  "stage": null,
+  "floors": "2-3",
+  "completion": "2022-05",
+  "evidence_url": "https://redgroup.am/projects/bnakarankarucapatoxic-smartcity",
+  "notes": "redgroup: start 05/2020, end 05/2022; developer: 24 houses + 4 apartment buildings, 2-3 floors (plus attic/basement)."
+ },
+ {
+  "id": "tdam-600",
+  "title": "Kanaker-Zeytun Multifunctional Complex (investment project)",
+  "stage": null,
+  "floors": "12-14",
+  "completion": null,
+  "evidence_url": "https://td.am/portfolio_invest_info.html",
+  "notes": "Planned design, page copyright 2011."
+ },
+ {
+  "id": "acbaam-1131",
+  "title": "Basis Grup",
+  "stage": null,
+  "floors": "18",
+  "completion": "2026-06",
+  "evidence_url": "https://www.acba.am/hy/individuals/loans/mortgage/constructors#10193",
+  "notes": "'Վերգետնյա 18 հարկ, որից 16 բնակելի'; status 'Կառուցապատման փուլում'; commissioning date '04/06/2026' (June 2026 if dd/mm)."
+ },
+ {
+  "id": "archiconam-433",
+  "title": "Verin Antarayin 174/2",
+  "stage": null,
+  "floors": "4",
+  "completion": "2022",
+  "evidence_url": "https://www.archicon.am/portfolio",
+  "notes": "Completed 2019-2022."
+ },
+ {
+  "id": "constructionam-15",
+  "title": "Aygedzor Construction Company · Davit Anhaght 11/12",
+  "stage": null,
+  "floors": "15",
+  "completion": "2025-12",
+  "evidence_url": "https://www.construction.am/apartments-in-new-developments/aygedzor-davit/",
+  "notes": "2018 - 2025 Dec, Completed; 278 apartments 48-122 m²; 3 underground floors."
+ },
+ {
+  "id": "constructionam-188",
+  "title": "Piazza Grande · Piazza Grande",
+  "stage": null,
+  "floors": null,
+  "completion": "2010",
+  "evidence_url": "https://www.construction.am/apartments-in-new-developments/piazza-grande/",
+  "notes": ""
+ },
+ {
+  "id": "constructionam-23",
+  "title": "Zover Estates (Magnolia Comfort ) · 6th St.",
+  "stage": null,
+  "floors": "10-15",
+  "completion": "2024-12",
+  "evidence_url": "https://www.construction.am/apartments-in-new-developments/zover-eco-residence/",
+  "notes": "2021 Nov - 2024 Dec, Completed; 980 apartments."
+ },
+ {
+  "id": "constructionam-268",
+  "title": "Yerkir Real Estate Agency · 3rd Microdistrict",
+  "stage": null,
+  "floors": null,
+  "completion": "2016",
+  "evidence_url": "https://www.construction.am/apartments-in-new-developments/nor-nork-gyurjyan-street/",
+  "notes": ""
+ },
+ {
+  "id": "constructionam-53",
+  "title": "Filishin · Baghramyan 3rd Lane 4/3",
+  "stage": null,
+  "floors": "6,9,12",
+  "completion": "2023",
+  "evidence_url": "https://www.construction.am/apartments-in-new-developments/arabkir-barekamutyun-complex/",
+  "notes": "5 buildings of 6, 9 and 12 floors; 2023 / Completed."
+ },
+ {
+  "id": "constructionam-76",
+  "title": "As Concern · Ulnetsi 45/5",
+  "stage": null,
+  "floors": "16",
+  "completion": "2026",
+  "evidence_url": "https://www.construction.am/apartments-in-new-developments/zeytun-plaza/",
+  "notes": "Completion field 2026; FAQ text still says 'first half of 2025'."
+ },
+ {
+  "id": "milonminingam-508",
+  "title": "Milon Hills District",
+  "stage": null,
+  "floors": "14",
+  "completion": "2026-09",
+  "evidence_url": "https://www.milonmining.am/apartments?building=1",
+  "notes": "Developer API: start 2023-09-19, end 2026-09-08, floors_qty 14 (myhome says 12 floors, 09/2026)."
+ },
+ {
+  "id": "redinvestam-552",
+  "title": "Duryan House 5 Residential Complex",
+  "stage": null,
+  "floors": "16",
+  "completion": "2027-08",
+  "evidence_url": "https://redgroup.am/projects/bnakarankarucapatoxic-duryan5",
+  "notes": "Armenian page: start May 2025, 'Շինավարտ՝ 2027թ․ օգոստոս'; English API list says May 2027. Floor list 2-16; 134 products total."
+ },
+ {
+  "id": "redinvestam-577",
+  "title": "Erebuni Residential Building, 1/25 David Bek Street",
+  "stage": null,
+  "floors": "4",
+  "completion": "2021-11",
+  "evidence_url": "https://redgroup.am/projects/bnakarankarucapatoxic-erebuni",
+  "notes": "Start 11/2020, completion 11/2021."
+ },
+ {
+  "id": "verelq777am-737",
+  "title": "Acharyan 35/74 Townhouse Complex",
+  "stage": null,
+  "floors": null,
+  "completion": "2020",
+  "evidence_url": "https://www.verelq777.am/en/project/acharian-35-74",
+  "notes": ""
+ },
+ {
+  "id": "1sqam-283",
+  "title": "Hrazdan, Sahmanadrutyan Square 28/5",
+  "stage": null,
+  "floors": "15",
+  "completion": null,
+  "evidence_url": "https://1-sq.am/services/28-5-sahmanadrutyan-square-hrazdan-city/",
+  "notes": "'Շենքն ունի 15 վերգետնյա հարկ'; no completion date on page."
+ },
+ {
+  "id": "acbox-146",
+  "title": "Siluet Residence",
+  "stage": null,
+  "floors": "14",
+  "completion": "2030",
+  "evidence_url": "https://ac-box.com/novostroyki/siluet-residence",
+  "notes": "ac-box: 'сдача 2030'; developer site gives no floor count/date explicitly (floors per input 14 not contradicted)."
+ },
+ {
+  "id": "argoam-1085",
+  "title": "Babajanyan",
+  "stage": null,
+  "floors": "17",
+  "completion": null,
+  "evidence_url": "https://ar-go.am/project/babajanyan",
+  "notes": "Հարկերի քանակ՝ 17, 170 apartments, 1 building; no completion date shown."
+ },
+ {
+  "id": "argoam-1112",
+  "title": "Zov Bilding",
+  "stage": null,
+  "floors": "16",
+  "completion": "2027-03",
+  "evidence_url": "https://ar-go.am/project/zovbuilding",
+  "notes": "Աշխատանքների ավարտ 15.03.2027; Հարկերի քանակ՝ 16; start 01.01.2024."
+ },
+ {
+  "id": "dignisi-106",
+  "title": "Club House Yerevan",
+  "stage": null,
+  "floors": "8",
+  "completion": "2027-02",
+  "evidence_url": "https://myhome.am/en/building/285",
+  "notes": "myhome exploitation 02/2027, completion 08/2027; dignisi Handover 2027; 8 floors (7 residential)."
+ },
+ {
+  "id": "dignisi-132",
+  "title": "RAYZ residence",
+  "stage": null,
+  "floors": "8",
+  "completion": "2026-12",
+  "evidence_url": "https://dignisi.am/en/projects/rayz-residence-301",
+  "notes": "Floors 8 (2 underground parking, 1 public, 7 residential per rayz.am); 'Construction is scheduled to be completed in 2026'."
+ },
+ {
+  "id": "dignisi-214",
+  "title": "Power City",
+  "stage": null,
+  "floors": "4",
+  "completion": "2024",
+  "evidence_url": "https://dignisi.am/en/projects/power-city-268",
+  "notes": "Handover 2024."
+ },
+ {
+  "id": "elitegroupam-663",
+  "title": "Firdus Square",
+  "stage": null,
+  "floors": "12",
+  "completion": null,
+  "evidence_url": "http://elitegroup.am/en/projects/28/",
+  "notes": "'Residential buildings have 12 floors'; 2 residential buildings, 2 business centres, 1 hotel; 3-level underground parking. No date."
+ },
+ {
+  "id": "geoln-151",
+  "title": "Истейт Инвестмент энд Дивелопмент · УЛ. АРГИШТИ 48/8",
+  "stage": null,
+  "floors": "4",
+  "completion": null,
+  "evidence_url": "https://1-sq.am/services/arghishti-48-8/",
+  "notes": "'4 վերգետնյա և 1 ստորգետնյա հարկ', already built; no date (current 2022-12 unconfirmed)."
+ },
+ {
+  "id": "gtbholdingscom-471",
+  "title": "GTB Anhaght",
+  "stage": null,
+  "floors": "8",
+  "completion": "2025-07",
+  "evidence_url": "https://myhome.am/en/building/233",
+  "notes": "myhome exploitation 07/2025, completion 01/2026, isBuilt true; GTB: 8 floors (2 commercial + 6 residential)."
+ },
+ {
+  "id": "kp-110",
+  "title": "Armani - Erebuni Multifunctional Complex",
+  "stage": null,
+  "floors": "19",
+  "completion": "2024-12",
+  "evidence_url": "https://karucapatoxic.am/en/110",
+  "notes": "karucapatoxic (Erebuni 2/1): Floors 19, Commissioning 12.2024. myhome building 2/2 A: 18 floors, exploitation 09/2026 - a second building of the complex."
+ },
+ {
+  "id": "kp-129",
+  "title": "Acharyan Residential Complex",
+  "stage": null,
+  "floors": "18",
+  "completion": "2025-05",
+  "evidence_url": "https://karucapatoxic.am/en/129",
+  "notes": "karucapatoxic Floors 18, Commissioning 05.2025 (first building); newcity: four 18-floor buildings; myhome building 39/23 exploitation 06/2027; ac-box 'сдача 2025-2028'."
+ },
+ {
+  "id": "kp-174",
+  "title": "Residential Complex PARK Building",
+  "stage": null,
+  "floors": "5",
+  "completion": "2026-04",
+  "evidence_url": "https://karucapatoxic.am/en/174",
+  "notes": "karucapatoxic Commissioning 04.2026 (floors blank); developer units on floors 2-5; 18 apartments."
+ },
+ {
+  "id": "kp-197",
+  "title": "Zoravar Andranik",
+  "stage": null,
+  "floors": "16",
+  "completion": "2026-12",
+  "evidence_url": "https://armconstruct.am/en/projects/zoravar-andranik-1216",
+  "notes": "16 floors + 4 underground; End Date December 2026; karucapatoxic Floors 16, Commissioning 12.2026."
+ },
+ {
+  "id": "kp-213",
+  "title": "Tsaghkunk Smart Hills 3",
+  "stage": null,
+  "floors": "2",
+  "completion": "2026-07",
+  "evidence_url": "https://mytown.am/#location-3",
+  "notes": "Developer: handover July 2026; karucapatoxic Commissioning 06.2026. Floors not stated on either page (2-storey townhouses per input)."
+ },
+ {
+  "id": "kp-40",
+  "title": "Qanaqer Residential Complex",
+  "stage": null,
+  "floors": "10,12,14,16",
+  "completion": "2024-12",
+  "evidence_url": "https://karucapatoxic.am/en/40",
+  "notes": "karucapatoxic Floors 10,12,14,16, Commissioning 12.2024; developer 'Հարկեր՝ 10-16'."
+ },
+ {
+  "id": "kp-63",
+  "title": "Renaissance Premium Home",
+  "stage": null,
+  "floors": "35,39",
+  "completion": "2024-06",
+  "evidence_url": "https://karucapatoxic.am/en/63",
+  "notes": ""
+ },
+ {
+  "id": "kp-86",
+  "title": "Tsaghkadzor Hills",
+  "stage": null,
+  "floors": "10",
+  "completion": "2026-12",
+  "evidence_url": "https://karucapatoxic.am/en/86",
+  "notes": "karucapatoxic Floors 10, Commissioning 12.2026."
+ },
+ {
+  "id": "mgeam-358",
+  "title": "Mia Residence",
+  "stage": null,
+  "floors": "15",
+  "completion": null,
+  "evidence_url": "https://mge.am/projects.php?id=2&lang=en",
+  "notes": "15-storey, two buildings, 210 apartments, floors 1-5 mall; no date."
+ },
+ {
+  "id": "myhomeam-760",
+  "title": "Hayk Gyulikevkhyan  8",
+  "stage": null,
+  "floors": "14",
+  "completion": "2026-01",
+  "evidence_url": "https://myhome.am/en/building/180",
+  "notes": "myhome exploitation 01/2026, completion 07/2026, isBuilt false."
+ },
+ {
+  "id": "myhomeam-785",
+  "title": "New Arinj Residence · Arinj village",
+  "stage": null,
+  "floors": "8",
+  "completion": "2027-01",
+  "evidence_url": "https://myhome.am/en/building/338",
+  "notes": "myhome exploitation 01/2027, completion 06/2028."
+ },
+ {
+  "id": "myhomeam-806",
+  "title": "MASIS CENTRAL RESIDENTIAL COMPLEX · Araratyan 5",
+  "stage": null,
+  "floors": "9",
+  "completion": "2029-05",
+  "evidence_url": "https://myhome.am/en/building/271",
+  "notes": "myhome exploitation 05/2029 = completion 05/2029."
+ },
+ {
+  "id": "myhomeam-830",
+  "title": "AR-SHIN CONSTRUCT · Nor Aresh 42nd Street 30/2",
+  "stage": null,
+  "floors": "5",
+  "completion": "2025-10",
+  "evidence_url": "https://myhome.am/en/building/211",
+  "notes": "myhome exploitation 10/2025, completion 10/2026, isBuilt true."
+ },
+ {
+  "id": "myhomeam-876",
+  "title": "SMART CITY DEVELOPER · 38-th st. 21 5 bldg",
+  "stage": null,
+  "floors": "5",
+  "completion": "2025-10",
+  "evidence_url": "https://myhome.am/en/building/115",
+  "notes": "myhome exploitation 10/2025, completion 07/2025, isBuilt true."
+ },
+ {
+  "id": "novostroikiyerevancom-1014",
+  "title": "NEW LUXURY",
+  "stage": null,
+  "floors": "6,16",
+  "completion": "2025-04",
+  "evidence_url": "https://novostroiki-yerevan.com/en/p/new-luxury/",
+  "notes": ""
+ },
+ {
+  "id": "parklifeam-378",
+  "title": "Parklife Eco Residency",
+  "stage": null,
+  "floors": "2-3",
+  "completion": null,
+  "evidence_url": "https://parklife.am/en/buildings/hills",
+  "notes": "House plans show -1, 1st, 2nd floors (Hills); 107 houses total. No date."
+ },
+ {
+  "id": "smartcityam-592",
+  "title": "Smart City 3",
+  "stage": null,
+  "floors": "3-5",
+  "completion": "2027-09",
+  "evidence_url": "https://myhome.am/en/building/252",
+  "notes": "smart-city.am: 'Հարկայնություն - 3-5', 87 apartments; myhome exploitation 09/2027, completion 01/2028."
+ },
+ {
+  "id": "townhouseam-526",
+  "title": "Nut House Townhouses",
+  "stage": null,
+  "floors": "3",
+  "completion": null,
+  "evidence_url": "https://townhouse.am/nut-house.html",
+  "notes": "Floors not stated on page (input 3 unconfirmed); status finished ('ԱՎԱՐՏՎԱԾ')."
+ },
+ {
+  "id": "acbaam-1133",
+  "title": "Lakshri Apartament",
+  "stage": null,
+  "floors": "8",
+  "completion": "2027-03",
+  "evidence_url": "https://www.acba.am/hy/individuals/loans/mortgage/constructors#10201",
+  "notes": "Հարկերի քանակ 8; Շահագործման ամսաթիվ 17/03/2027."
+ },
+ {
+  "id": "constructionam-169",
+  "title": "Solid Projects · G-1 Dist. Dream Family Townhouses",
+  "stage": null,
+  "floors": "2",
+  "completion": "2024-08",
+  "evidence_url": "https://www.construction.am/apartments-in-new-developments/ajapnyak-happy-family-townhouses/",
+  "notes": "Floors Above Ground 2; Construction Period 2024 Jan - 2024 Aug; 2024 / Completed."
+ },
+ {
+  "id": "constructionam-190",
+  "title": "Rich Garden · Zovuni 36",
+  "stage": null,
+  "floors": "2",
+  "completion": "2022",
+  "evidence_url": "https://www.construction.am/apartments-in-new-developments/rich-garden/",
+  "notes": "18 connected two-story houses; 2022 / Completed (input floors 3 not supported - 'Two-story buildings')."
+ },
+ {
+  "id": "constructionam-231",
+  "title": "Levon Amirkhanyan · Charents 70/8",
+  "stage": null,
+  "floors": null,
+  "completion": "2018",
+  "evidence_url": "https://www.construction.am/apartments-in-new-developments/charents-street-70-8/",
+  "notes": "2018 / Completed; floors not stated."
+ },
+ {
+  "id": "constructionam-270",
+  "title": "Yekmalyan 1",
+  "stage": null,
+  "floors": "18",
+  "completion": "2019",
+  "evidence_url": "https://www.construction.am/apartments-in-new-developments/yekmalyan-street-1-main-avenue/",
+  "notes": "Floors Above Ground 18, Below Ground 3; 2019 / Completed."
+ },
+ {
+  "id": "constructionam-58",
+  "title": "Elitar Shin · Jrvezh 17",
+  "stage": null,
+  "floors": "9-15",
+  "completion": "2025-12",
+  "evidence_url": "https://www.construction.am/apartments-in-new-developments/bagrevand-residence/",
+  "notes": "Floors Above Ground 9-15, Below 2; Construction Period 2023 Apr - 2025 Dec; 392 apartments."
+ },
+ {
+  "id": "constructionam-9",
+  "title": "Up Development · G. Vardanyan 1/3",
+  "stage": null,
+  "floors": "6, 10, 12, 14",
+  "completion": "2027-03",
+  "evidence_url": "https://www.construction.am/apartments-in-new-developments/norakaruyc-arabkirum-sunday-towers/",
+  "notes": "Construction Period 2023 Oct - 2027 Mar; 6 buildings, 214 apartments. dignisi Handover 2028; myhome building B exploitation 07/2027."
+ },
+ {
+  "id": "moskovyanpassageam-510",
+  "title": "Moskovyan Passage",
+  "stage": null,
+  "floors": "14",
+  "completion": "2012",
+  "evidence_url": "http://www.moskovyan-passage.am/",
+  "notes": "Residential floors 4-13, floor 14 gym/SPA, 3 underground levels; 'final appearance was given to the building in 2012'."
+ },
+ {
+  "id": "redinvestam-554",
+  "title": "Lumina Residence",
+  "stage": null,
+  "floors": "7",
+  "completion": "2026-12",
+  "evidence_url": "https://myhome.am/en/building/150",
+  "notes": "myhome floors 7, exploitation 12/2026, completion 07/2026, isBuilt true; redgroup floors list -1..5."
+ },
+ {
+  "id": "redinvestam-579",
+  "title": "Residental building in Davtashen",
+  "stage": null,
+  "floors": "12",
+  "completion": "2021-12",
+  "evidence_url": "https://redgroup.am/projects/bnakarankarucapatoxic-davitashenum",
+  "notes": "Start 07/2020, End date 12/2021; floors list up to 12."
+ },
+ {
+  "id": "zoveram-740",
+  "title": "Zover Eco Residence",
+  "stage": null,
+  "floors": "10-15",
+  "completion": null,
+  "evidence_url": "https://www.zover.am/#eco",
+  "notes": "10-15 storeys, 13 buildings, 980 apartments; completed (no date)."
+ },
+ {
+  "id": "1sqam-284",
+  "title": "Dalan Technopark",
+  "stage": null,
+  "floors": "22",
+  "completion": null,
+  "evidence_url": "https://1-sq.am/services/dalan-technologies/",
+  "notes": "Page: 154,000 m2 total, 22 floors, under construction at Tsitsernakaberd 9/1; no completion date published."
+ },
+ {
+  "id": "acbox-216",
+  "title": "Kamertoon",
+  "stage": null,
+  "floors": "7",
+  "completion": "2027-09",
+  "evidence_url": "https://kamertoon.am/",
+  "notes": "Developer FAQ: structural works by Apr-May 2026, fully completed and handed over with finishing by September 2027. Floorplan selector: parking, floors 1-7 (7 = penthouses) + rooftop."
+ },
+ {
+  "id": "argoam-1087",
+  "title": "Kristal Bilding",
+  "stage": null,
+  "floors": "16",
+  "completion": "2028-01",
+  "evidence_url": "https://ar-go.am/project/crystal-building-bnakeli-hamalir",
+  "notes": "Հարկերի քանակ՝ 16; Աշխատանքների ավարտ 31.01.2028; start 01.07.2024; 4 blocks, 518 apartments."
+ },
+ {
+  "id": "argoam-1113",
+  "title": "Zover Eko",
+  "stage": null,
+  "floors": "9-15",
+  "completion": "2024-12",
+  "evidence_url": "https://ar-go.am/project/zvover-ekvo",
+  "notes": "Աշխատանքների ավարտ 2024-12-31; construction photos dated 20.04.25."
+ },
+ {
+  "id": "dignisi-107",
+  "title": "DARA RESIDENCE",
+  "stage": null,
+  "floors": "8",
+  "completion": "2025",
+  "evidence_url": "https://dignisi.am/en/projects/dara-residence-255",
+  "notes": "Floors 8 (7 residential floors, 24 apartments); handover 2025 but page still labels 'Under construction'. Areas 60.9-153.1 m2."
+ },
+ {
+  "id": "dignisi-133",
+  "title": "Rubinyants Complex",
+  "stage": null,
+  "floors": "16",
+  "completion": "2027-07",
+  "evidence_url": "https://myhome.am/en/building/163",
+  "notes": "Developer: residential floors 16. myhome API exploitationDate 07/2027 (completionDate 01/2028); dignisi/novostroiki say 2026 (stale)."
+ },
+ {
+  "id": "dignisi-215",
+  "title": "Shiraz residential complex",
+  "stage": null,
+  "floors": "13",
+  "completion": null,
+  "evidence_url": "https://dignisi.am/en/projects/shiraz-residential-complex-243",
+  "notes": "Ready to move in (finished); 12 residential + 1 commercial floor."
+ },
+ {
+  "id": "elitegroupam-665",
+  "title": "Northern Ray 2 Villas",
+  "stage": null,
+  "floors": "2-3",
+  "completion": null,
+  "evidence_url": "http://elitegroup.am/en/projects/27/",
+  "notes": "Types A-C: 1st+2nd floor + basement; D type floors unspecified; no completion date."
+ },
+ {
+  "id": "geoln-154",
+  "title": "Arthouse",
+  "stage": null,
+  "floors": "9",
+  "completion": "2022",
+  "evidence_url": "https://arcada.am/?lang=en",
+  "notes": "Arcada: 2 buildings, 9 floors each (floor_count 9), 1 underground parking level; geoln says 8 floors, completion Q4 2022."
+ },
+ {
+  "id": "kp-111",
+  "title": "Venni Group",
+  "stage": null,
+  "floors": "14",
+  "completion": null,
+  "evidence_url": "https://karucapatoxic.am/en/111",
+  "notes": "No commissioning date shown on either source (current 2025-12-31 not confirmable)."
+ },
+ {
+  "id": "kp-130",
+  "title": "Novem Residence",
+  "stage": null,
+  "floors": "2",
+  "completion": "2026-04",
+  "evidence_url": "https://www.newcity.am/en/projects/novem-residence",
+  "notes": "Developer: 'End of construction April, 2026', Floors 2 (+ basement and usable roof); karucapatoxic/novostroiki still show 3 floors, 09.2025."
+ },
+ {
+  "id": "kp-175",
+  "title": "Residential Complex Ghapantsian",
+  "stage": null,
+  "floors": "16",
+  "completion": "2024-05",
+  "evidence_url": "https://karucapatoxic.am/en/175",
+  "notes": "novostroiki-yerevan: Completion 2024-05, Floors 16, Sold out."
+ },
+ {
+  "id": "kp-198",
+  "title": "Lotus Living",
+  "stage": null,
+  "floors": "5-7",
+  "completion": "2027-12",
+  "evidence_url": "https://newcity.am/en/projects/lotus",
+  "notes": "Developer: buildings A/D/G 7 floors, B 5, E 6; End of construction December 2027. myhome says 09/2027, karucapatoxic 07.2027, floors 6/7."
+ },
+ {
+  "id": "kp-214",
+  "title": "Nazarbekyan",
+  "stage": null,
+  "floors": "3",
+  "completion": "2028-07",
+  "evidence_url": "https://karucapatoxic.am/en/214",
+  "notes": "Commissioning 07.2028; startDate 2026-06-30."
+ },
+ {
+  "id": "kp-41",
+  "title": "Tsarav Aghbyur 134/4",
+  "stage": null,
+  "floors": "14",
+  "completion": null,
+  "evidence_url": "https://karucapatoxic.am/en/41",
+  "notes": "14 floors on both sources; neither shows a completion/commissioning date now (stored 2024-12-31 unsourced). Built and sold out."
+ },
+ {
+  "id": "kp-64",
+  "title": "Elizabeth Residence",
+  "stage": null,
+  "floors": "9",
+  "completion": "2024-12",
+  "evidence_url": "https://karucapatoxic.am/en/64",
+  "notes": "Floors 9, Commissioning 12.2024; novostroiki still says 'Under construction'."
+ },
+ {
+  "id": "kp-87",
+  "title": "Arabkir 27 Complex",
+  "stage": null,
+  "floors": "8",
+  "completion": "2022-12",
+  "evidence_url": "https://karucapatoxic.am/en/87",
+  "notes": "Floors 8, Commissioning 12.2022; dignisi 'Ready to move in'. 35 apartments (charagayt)."
+ },
+ {
+  "id": "mgeam-360",
+  "title": "MGE Town Houses (Sayat-Nova village)",
+  "stage": null,
+  "floors": "2",
+  "completion": null,
+  "evidence_url": "https://mge.am/listing-item.php?id=603&lang=en",
+  "notes": "Two-story houses; description says newly built; no completion date."
+ },
+ {
+  "id": "myhomeam-761",
+  "title": "PALLADA TSAGHKADZOR · Tsaghkunyats square 5 bldg I",
+  "stage": null,
+  "floors": "14",
+  "completion": "2027-12",
+  "evidence_url": "https://myhome.am/en/building/157",
+  "notes": "Number of floors 14; End of construction 12/2027; Under construction; 28/111 apartments available."
+ },
+ {
+  "id": "myhomeam-786",
+  "title": "ARSHAKUNYATS RESIDENCE · Sevan Street 12",
+  "stage": null,
+  "floors": "24",
+  "completion": "2030-06",
+  "evidence_url": "https://myhome.am/en/building/324",
+  "notes": "3 buildings of 24 floors, 3-level underground parking; end of construction 06/2030."
+ },
+ {
+  "id": "myhomeam-807",
+  "title": "DAV CONSTRUCTION · Arinj A district 4th street 1",
+  "stage": null,
+  "floors": null,
+  "completion": "2025-12",
+  "evidence_url": "https://myhome.am/en/building/270",
+  "notes": "Townhouses; floors not published. exploitation/completion 12/2025 (isBuilt false)."
+ },
+ {
+  "id": "myhomeam-832",
+  "title": "Eden Park · Mher Mkrtchyan district 1st street 32 4A & 5A bldg",
+  "stage": null,
+  "floors": "9",
+  "completion": "2029-01",
+  "evidence_url": "https://myhome.am/en/building/208",
+  "notes": "End of construction 01/2029; complex floors 5-9."
+ },
+ {
+  "id": "myhomeam-877",
+  "title": "SMART CITY DEVELOPER · 49-th st. 60 4 bldg",
+  "stage": null,
+  "floors": "5",
+  "completion": "2025-10",
+  "evidence_url": "https://myhome.am/en/building/114",
+  "notes": "Number of floors 5; End of construction 10/2025; Stage Built. Description calls Smart City 2 buildings 4-storey (+ underground floor)."
+ },
+ {
+  "id": "novostroikiyerevancom-1015",
+  "title": "NEW POINT TOWNHOUSE",
+  "stage": null,
+  "floors": null,
+  "completion": "2026-05",
+  "evidence_url": "https://novostroiki-yerevan.com/en/p/new-point-townhouse/",
+  "notes": "Townhouses; floors not published; min area 224.36 m2."
+ },
+ {
+  "id": "parkroyalam-704",
+  "title": "Park Royal Tsaghkadzor",
+  "stage": null,
+  "floors": "8",
+  "completion": null,
+  "evidence_url": "https://app.parkroyal.am/front/api/v1/buildings",
+  "notes": "Developer building A1: floors 1-8 plus basement (floorsCount 9). Completion not published by developer; stored 2027-11 and floors 8 came from the wrong acba merge (Baza Residence)."
+ },
+ {
+  "id": "spitaktnakam-385",
+  "title": "Multi-apartment complex 62 Komitas Ave",
+  "stage": null,
+  "floors": "14",
+  "completion": "2009",
+  "evidence_url": "https://spitaktnak.am/en/works/multi-apartment-62-komitas-ave",
+  "notes": "Put into operation in 2009."
+ },
+ {
+  "id": "urbanunitcom-603",
+  "title": "Urban House",
+  "stage": null,
+  "floors": "4",
+  "completion": "2017",
+  "evidence_url": "https://urban-unit.com/project/urban-house/",
+  "notes": "'The four-storey building has also a basement floor' (+ attic apartment); implementation 2016-2017; surface 1340 m2."
+ },
+ {
+  "id": "acbaam-1135",
+  "title": "Address",
+  "stage": null,
+  "floors": "15",
+  "completion": null,
+  "evidence_url": "https://addressconstruction.com/en/project-2/",
+  "notes": "acba: status completed (ԱՎԱՐՏՎԱԾ Է), 15 floors; developer: 15-storey residential & commercial building. Completion date not published."
+ },
+ {
+  "id": "bedeckam-440",
+  "title": "Bedeck Davtashen Complex",
+  "stage": null,
+  "floors": "18",
+  "completion": "2028-07",
+  "evidence_url": "https://myhome.am/en/building/166",
+  "notes": "myhome floorsCount 18, exploitation 07/2028 (completion 12/2028); karucapatoxic/66 18 floors, 12.2026 (stale); developer selector shows 5 sections Ա-Ե with 17 floors each."
+ },
+ {
+  "id": "constructionam-17",
+  "title": "Bedeck Construction",
+  "stage": null,
+  "floors": "18",
+  "completion": "2028-07",
+  "evidence_url": "https://myhome.am/en/building/166",
+  "notes": "myhome: 18 floors, end of construction 07/2028; dignisi: 19 floors, handover 2028; construction.am: 18 above ground, 2027-12 (outdated)."
+ },
+ {
+  "id": "constructionam-192",
+  "title": "Solar City · Avan-Arinj",
+  "stage": null,
+  "floors": null,
+  "completion": "2020",
+  "evidence_url": "https://www.construction.am/apartments-in-new-developments/solar-city/",
+  "notes": "Completion 2020 / Completed; floors not stated (townhouses)."
+ },
+ {
+  "id": "constructionam-232",
+  "title": "Itarco Construction · 2nd Block 46/1",
+  "stage": null,
+  "floors": null,
+  "completion": "2018",
+  "evidence_url": "https://www.construction.am/apartments-in-new-developments/davitashen-2nd-block-46-1-building/",
+  "notes": "Floors not published (OSM neighbour 46/4 is 14 levels)."
+ },
+ {
+  "id": "constructionam-275",
+  "title": "MonArch Residential Complex",
+  "stage": null,
+  "floors": "8,17",
+  "completion": "2018",
+  "evidence_url": "https://www.construction.am/apartments-in-new-developments/monarch-residential-complex/",
+  "notes": "Web search snippet (gloopla/yellow.place listing): building A 8 floors above Saryan St level, building B 17 floors; not confirmed on a live page (gloopla 403)."
+ },
+ {
+  "id": "constructionam-59",
+  "title": "Bars Real Estate Agency · Eco House",
+  "stage": null,
+  "floors": "4",
+  "completion": "2024",
+  "evidence_url": "https://www.construction.am/apartments-in-new-developments/bars-eco-house/",
+  "notes": "4 above ground + 2 underground; completed."
+ },
+ {
+  "id": "redinvestam-557",
+  "title": "Life House",
+  "stage": null,
+  "floors": null,
+  "completion": "2027-12",
+  "evidence_url": "https://www.redinvest.am/en/developers/bnakarankarucapatoxic-lifehouse",
+  "notes": "Construction start planned September 2026, completion planned December 2027 — stage 'in progress' likely should be 'just started/planned'."
+ },
+ {
+  "id": "redinvestam-580",
+  "title": "Sunland Residential District",
+  "stage": null,
+  "floors": "4",
+  "completion": "2021-03",
+  "evidence_url": "https://redgroup.am/projects/bnakarankarucapatoxic-avanum-sunland",
+  "notes": "6 four-storey buildings on 6000 m2; construction start 2019-10-01, completion planned March 2021 (stored 2021-05-28)."
+ },
+ {
+  "id": "zoveram-741",
+  "title": "Leveloft by Zover",
+  "stage": null,
+  "floors": "9-11",
+  "completion": null,
+  "evidence_url": "https://www.zover.am/",
+  "notes": "5 buildings, 9-11 storeys, 192 apartments, 10,000 m2 built-up; completion date not published."
+ },
+ {
+  "id": "1sqam-285",
+  "title": "Tsovakal Isakov 12/11",
+  "stage": null,
+  "floors": "22",
+  "completion": null,
+  "evidence_url": "https://ar-go.am/project/tsovakal-isakov",
+  "notes": "'Հարկերի քանակ՝ 22'; completion act (Ավարտական ակտ) published, date not shown -> finished"
+ },
+ {
+  "id": "acbox-261",
+  "title": "Sar in (AMANOO projects)",
+  "stage": null,
+  "floors": "4-7",
+  "completion": "2028",
+  "evidence_url": "https://www.amanoo.am/en/sarin/",
+  "notes": "Developer: 'Official construction period: 2024 – 2028', 'with 4 to 7 floors', apartments 51-550 m²; ac-box says handover 2027"
+ },
+ {
+  "id": "argoam-1091",
+  "title": "Davtashen 3",
+  "stage": null,
+  "floors": "5",
+  "completion": null,
+  "evidence_url": "https://ar-go.am/project/davthashen-3-bnakeli-hamalir",
+  "notes": "'Հարկերի քանակ՝ 5'; completion date not stated (last progress photo 30.04.25)"
+ },
+ {
+  "id": "arannashincom-419",
+  "title": "Novel Masiv",
+  "stage": null,
+  "floors": "16,18,20,22",
+  "completion": null,
+  "evidence_url": "https://novelmasiv.am/en/",
+  "notes": "'five residential buildings of 16, 18, 20, and 22 floors, offering 660 modern apartments'; no handover date"
+ },
+ {
+  "id": "dignisi-109",
+  "title": "Dilijan Hotel-Guesthouse",
+  "stage": null,
+  "floors": "5",
+  "completion": "2026",
+  "evidence_url": "https://dignisi.am/en/projects/dilijan-hotel-guesthouse-211",
+  "notes": "'Handover 2026', 'Floors 5' (5 above-ground + 1 underground per developer)"
+ },
+ {
+  "id": "dignisi-134",
+  "title": "Shen Tanik",
+  "stage": null,
+  "floors": "19",
+  "completion": "2029-01",
+  "evidence_url": "https://ar-go.am/project/shen-taniq-bnakeli-hamalir",
+  "notes": "'Աշխատանքների ավարտ` 31․01․2029', start 31.01.2025, 3 buildings, 19 floors; dignisi says handover 2027"
+ },
+ {
+  "id": "dignisi-250",
+  "title": "\"A.M. Abram construction",
+  "stage": null,
+  "floors": "13",
+  "completion": "2022",
+  "evidence_url": "https://dignisi.am/en/projects/a-m-abram-construction-48",
+  "notes": "'Handover 2022', 'Floors 13'"
+ },
+ {
+  "id": "elitegroupam-674",
+  "title": "Rostom 29 (Our Yard)",
+  "stage": null,
+  "floors": "17",
+  "completion": null,
+  "evidence_url": "http://elitegroup.am/en/projects/7/",
+  "notes": "'17 floors'; no date"
+ },
+ {
+  "id": "geoln-156",
+  "title": "Dro 22",
+  "stage": null,
+  "floors": "18,22",
+  "completion": null,
+  "evidence_url": "https://www.capitalbuild.am/projects/project/avenyou-22",
+  "notes": "3 buildings: two 22-floor, one 18-floor; developer gives no handover date (geoln 'September 2023' is outdated)"
+ },
+ {
+  "id": "haekshinam-406",
+  "title": "Garegin Nzhdeh 15/1 residential building",
+  "stage": null,
+  "floors": "9",
+  "completion": null,
+  "evidence_url": "https://system.haekshin.am/api/projects/details?slug=gareginnjhdeh&lang=hy",
+  "notes": "'two-story underground parking lot and 9 above-ground floors'; start/end_of_work null"
+ },
+ {
+  "id": "kp-112",
+  "title": "Novel Residential Complex",
+  "stage": null,
+  "floors": "12",
+  "completion": "2024-09",
+  "evidence_url": "https://karucapatoxic.am/en/112",
+  "notes": "Floors 12, Commissioning 09.2024"
+ },
+ {
+  "id": "kp-131",
+  "title": "Noyan Tun residential district",
+  "stage": null,
+  "floors": "2",
+  "completion": "2024-12",
+  "evidence_url": "https://karucapatoxic.am/en/131",
+  "notes": "Floors 2, Commissioning 12.2024"
+ },
+ {
+  "id": "kp-179",
+  "title": "Red Nut",
+  "stage": null,
+  "floors": "3",
+  "completion": "2024-03",
+  "evidence_url": "https://karucapatoxic.am/en/179",
+  "notes": "Floors 3, Commissioning 03.2024; developer: '4 եռահարկ թաունհաուսներ'"
+ },
+ {
+  "id": "kp-199",
+  "title": "Verelk Residential District",
+  "stage": null,
+  "floors": "6",
+  "completion": null,
+  "evidence_url": "https://www.verelq777.am/en/project/verelq-777",
+  "notes": "6 buildings, 6 floors; no completion date published"
+ },
+ {
+  "id": "kp-22",
+  "title": "Garegin Nzhdehi 23/3",
+  "stage": null,
+  "floors": "14",
+  "completion": "2024-11",
+  "evidence_url": "https://nationalgroup.am/index.php/garegin-nzhdeh-23-3/",
+  "notes": "Developer: start 2021-02, end 2024 November; 14 floors + 2 underground"
+ },
+ {
+  "id": "kp-42",
+  "title": "Avan View",
+  "stage": null,
+  "floors": "14",
+  "completion": "2023-12",
+  "evidence_url": "https://karucapatoxic.am/en/42",
+  "notes": "Floors 14, Commissioning 12.2023"
+ },
+ {
+  "id": "kp-65",
+  "title": "Artlife Residential Complex",
+  "stage": null,
+  "floors": "18",
+  "completion": "2023-12",
+  "evidence_url": "https://karucapatoxic.am/en/65",
+  "notes": "Floors 18, Commissioning 12.2023"
+ },
+ {
+  "id": "kp-88",
+  "title": "Forest residential complex",
+  "stage": null,
+  "floors": "16",
+  "completion": "2024-12",
+  "evidence_url": "https://karucapatoxic.am/en/88",
+  "notes": "Floors 16, Commissioning 12.2024"
+ },
+ {
+  "id": "mountainplazaam-696",
+  "title": "Mountain Plaza Residential Complex",
+  "stage": null,
+  "floors": "5",
+  "completion": "2026-12",
+  "evidence_url": "https://mountainplaza.am/",
+  "notes": "'two entrances and five floors, offering 55 apartments'; 'Construction completion by the end of 2026, completion certificate by spring 2027'"
+ },
+ {
+  "id": "myhomeam-762",
+  "title": "Solar City · Shiraz 2/9",
+  "stage": null,
+  "floors": "13",
+  "completion": "2025-06",
+  "evidence_url": "https://myhome.am/en/building/118",
+  "notes": "'Համալիրը 13 հարկանի է'; completionDate 04/2025, exploitationDate 06/2025"
+ },
+ {
+  "id": "myhomeam-787",
+  "title": "Armenia Garden · Akunk community",
+  "stage": null,
+  "floors": "16",
+  "completion": "2028-02",
+  "evidence_url": "https://myhome.am/en/building/330",
+  "notes": "floorsCount 16, completionDate 02/2028"
+ },
+ {
+  "id": "myhomeam-808",
+  "title": "CAVEMAN RESIDENCE · Orjonikidze 83/1 1",
+  "stage": null,
+  "floors": "5",
+  "completion": "2026-12",
+  "evidence_url": "https://myhome.am/en/building/269",
+  "notes": "floorsCount 5, completionDate 12/2026; 37 apartments (DilijanINN second project)"
+ },
+ {
+  "id": "myhomeam-834",
+  "title": "Nairi House",
+  "stage": null,
+  "floors": "5",
+  "completion": "2026-09",
+  "evidence_url": "https://myhome.am/en/building/204",
+  "notes": "floorsCount 5 (description: 6 floors incl. 1 underground parking), completionDate 09/2026"
+ },
+ {
+  "id": "myhomeam-878",
+  "title": "SMART CITY DEVELOPER · 49-th st. 60 3 bldg",
+  "stage": null,
+  "floors": "5",
+  "completion": "2025-07",
+  "evidence_url": "https://myhome.am/en/building/113",
+  "notes": "floorsCount 5, completionDate 07/2025, exploitation 10/2025"
+ },
+ {
+  "id": "novostroikiyerevancom-1021",
+  "title": "Nor Tun residential complex",
+  "stage": null,
+  "floors": "13,16",
+  "completion": "2025-12",
+  "evidence_url": "https://karucapatoxic.am/en/84",
+  "notes": "Floors 13,16; Commissioning 12.2025 (developer: construction to finish 2025)"
+ },
+ {
+  "id": "spitaktnakam-387",
+  "title": "Residential complex 12 Charents St",
+  "stage": null,
+  "floors": "12",
+  "completion": "2009",
+  "evidence_url": "https://spitaktnak.am/en/works/residential-complex-12-charents-str",
+  "notes": "'12 floors', 41 apartments, 'put into operation in 2009'"
+ },
+ {
+  "id": "acbaam-1115",
+  "title": "Goris Garden",
+  "stage": null,
+  "floors": "4",
+  "completion": "2027-09",
+  "evidence_url": "https://www.acba.am/hy/individuals/loans/mortgage/constructors#11923",
+  "notes": "Հարկերի քանակ 4; Շահագործման ամսաթիվ Սեպտեմբեր 2027"
+ },
+ {
+  "id": "amanooam-310",
+  "title": "IVY at AMANOO",
+  "stage": null,
+  "floors": null,
+  "completion": "2025",
+  "evidence_url": "https://ac-box.com/novostroyki/ivy-amanoo-projects",
+  "notes": "ac-box 'Срок сдачи: 2025'; developer page gives no floor count (apartments 60-430 m² on top floors)"
+ },
+ {
+  "id": "constructionam-171",
+  "title": "Yerkir Real Estate Agency · Papazyan 14",
+  "stage": null,
+  "floors": "7",
+  "completion": "2020",
+  "evidence_url": "https://www.construction.am/apartments-in-new-developments/arabkir-papazyan-st-14/",
+  "notes": "Floors Above Ground 7; Completion 2020 / Completed"
+ },
+ {
+  "id": "constructionam-193",
+  "title": "Kanach Tagh · Acharyan 37/27",
+  "stage": null,
+  "floors": "4",
+  "completion": "2024",
+  "evidence_url": "https://www.construction.am/apartments-in-new-developments/townhouse-avanum-kanach-tagh/",
+  "notes": "Floors Above Ground 4, below 1; Completion 2024 / Completed (dignisi: 4 floors, handover 2022)"
+ },
+ {
+  "id": "constructionam-235",
+  "title": "Lav-Sar · 3rd Block",
+  "stage": null,
+  "floors": null,
+  "completion": "2025",
+  "evidence_url": "https://www.construction.am/apartments-in-new-developments/felicity-davtashen-3rd-block/",
+  "notes": "Completion 2025 / Completed; floors not shown"
+ },
+ {
+  "id": "constructionam-276",
+  "title": "Complex",
+  "stage": null,
+  "floors": "2",
+  "completion": "2025-04",
+  "evidence_url": "https://www.construction.am/apartments-in-new-developments/norakaruyc-townhouse-davtashenum-davtashen-village-bnakeli-hamalir/",
+  "notes": "Floors Above Ground 2; '2024 Jan - 2025 Apr', Completed"
+ },
+ {
+  "id": "constructionam-6",
+  "title": "Ord Development · Griboyedov 48",
+  "stage": null,
+  "floors": "14-16",
+  "completion": "2028-12",
+  "evidence_url": "https://www.construction.am/apartments-in-new-developments/komitas-park/",
+  "notes": "Floors Above Ground 14-16; 'third phase is planned for December 2028'"
+ },
+ {
+  "id": "evocaam-1138",
+  "title": "PARK VIEW",
+  "stage": null,
+  "floors": null,
+  "completion": "2028-04",
+  "evidence_url": "https://novostroiki-yerevan.com/en/p/park-view-residence-club-house/",
+  "notes": "Completion 2028-04; floors not published"
+ },
+ {
+  "id": "evocaam-1162",
+  "title": "HORIZON INVEST CJSC",
+  "stage": null,
+  "floors": "18",
+  "completion": "2025-08",
+  "evidence_url": "https://karucapatoxic.am/en/57",
+  "notes": "Floors 18, Commissioning 08.2025"
+ },
+ {
+  "id": "projectevncom-707",
+  "title": "Areni Guest House",
+  "stage": null,
+  "floors": null,
+  "completion": "2026",
+  "evidence_url": "https://www.projectevn.com/areni-guest-house-project/",
+  "notes": "'Projected Delivery: Beginning of 2026'"
+ },
+ {
+  "id": "redinvestam-558",
+  "title": "Babajanyan 72 Residential Building",
+  "stage": null,
+  "floors": "7",
+  "completion": "2027-08",
+  "evidence_url": "https://redgroup.am/projects/bnakaran-karucapatoxic-babajanyan72",
+  "notes": "'7 վերգետնյա և 1 ստորգետնյա'; start 08.2025, Շինավարտ 08.2027; 30 apartments 35-74 m²"
+ },
+ {
+  "id": "redinvestam-581",
+  "title": "Garunavan 2 Residential District",
+  "stage": null,
+  "floors": null,
+  "completion": "2019",
+  "evidence_url": "https://redgroup.am/api/projects/27",
+  "notes": "No floors/completion published; listing created 2019 (current 2019-12 kept)"
+ },
+ {
+  "id": "1sqam-287",
+  "title": "Anastas Mikoyan 2/3",
+  "stage": null,
+  "floors": "16",
+  "completion": null,
+  "evidence_url": "https://1-sq.am/services/%d5%a1%d5%b6%d5%a1%d5%bd%d5%bf%d5%a1%d5%bd-%d5%b4%d5%ab%d5%af%d5%b8%d5%b5%d5%a1%d5%b6-2-3/",
+  "notes": "Page: flats on floors II-XV, penthouses on XVI (16 floors). No completion date published."
+ },
+ {
+  "id": "acbox-262",
+  "title": "IVY (AMANOO projects)",
+  "stage": null,
+  "floors": null,
+  "completion": "2025",
+  "evidence_url": "https://ac-box.com/novostroyki/ivy-amanoo-projects",
+  "notes": "ac-box 'сдача 2025'; amanoo.am says completed/ready for occupancy; floors not published"
+ },
+ {
+  "id": "argoam-1092",
+  "title": "Dabl Tauers",
+  "stage": null,
+  "floors": "12",
+  "completion": "2026-12",
+  "evidence_url": "https://ar-go.am/project/double-towers",
+  "notes": "Հարկերի քանակ 12; Աշխատանքների ավարտ 31.12.2026"
+ },
+ {
+  "id": "arannashincom-420",
+  "title": "Novel Hatis (Novel Abovyan)",
+  "stage": null,
+  "floors": "16",
+  "completion": null,
+  "evidence_url": "https://novelabovyan.am/en/",
+  "notes": "16-story building, 98 apartments, 48.8-141.7 m²; no completion date published."
+ },
+ {
+  "id": "charagaytam-505",
+  "title": "Nor Ararat Complex",
+  "stage": null,
+  "floors": "7",
+  "completion": null,
+  "evidence_url": "https://charagayt.am/?app=AppProject&page=district&project_id=18",
+  "notes": "Block A floor_count 7 (apartments on floors 1-5); no completion date published"
+ },
+ {
+  "id": "dignisi-110",
+  "title": "EMIN 6",
+  "stage": null,
+  "floors": "6",
+  "completion": "2026-03",
+  "evidence_url": "https://myhome.am/en/building/178",
+  "notes": "myhome End of construction 03/2026; dignisi Handover 2026; 6 residential floors"
+ },
+ {
+  "id": "dignisi-135",
+  "title": "Soho",
+  "stage": null,
+  "floors": "14",
+  "completion": "2028",
+  "evidence_url": "https://dignisi.am/en/projects/soho-307",
+  "notes": "Dignisi: Handover 2028; description says 'Completion of construction: 2027. September'."
+ },
+ {
+  "id": "dignisi-255",
+  "title": "Monument Hills",
+  "stage": null,
+  "floors": "15",
+  "completion": null,
+  "evidence_url": "https://monumenthills.am/",
+  "notes": "3 blocks x 15 floors (developer + dignisi); no completion date published"
+ },
+ {
+  "id": "elitegroupam-675",
+  "title": "Aram 64",
+  "stage": null,
+  "floors": "16",
+  "completion": null,
+  "evidence_url": "http://elitegroup.am/en/projects/8/",
+  "notes": "16 floors; no completion year published"
+ },
+ {
+  "id": "geoln-157",
+  "title": "Dzoraghbyur",
+  "stage": null,
+  "floors": "2-3",
+  "completion": "2023",
+  "evidence_url": "https://www.capitalbuild.am/en/projects/project/bestland",
+  "notes": "Bestland page: 70 townhouses, 2-3 floors; completion from geoln (IV quarter 2023)."
+ },
+ {
+  "id": "hausam-345",
+  "title": "Haus AM House A1 (Arinj)",
+  "stage": null,
+  "floors": "2",
+  "completion": null,
+  "evidence_url": "https://haus.am/list/a1",
+  "notes": "finished house; no date"
+ },
+ {
+  "id": "kp-113",
+  "title": "Davit-Bek residential complex",
+  "stage": null,
+  "floors": "15",
+  "completion": "2025-08",
+  "evidence_url": "https://karucapatoxic.am/en/113",
+  "notes": "Floors 15, Commissioning 08.2025"
+ },
+ {
+  "id": "kp-132",
+  "title": "Riverview Dilijan",
+  "stage": null,
+  "floors": "4",
+  "completion": "2026-12",
+  "evidence_url": "https://karucapatoxic.am/en/132",
+  "notes": "KP: Floors 4, Commissioning 12.2026; developer: blocks A and B, 4 floors each."
+ },
+ {
+  "id": "kp-180",
+  "title": "White Nut",
+  "stage": null,
+  "floors": "3",
+  "completion": "2024-03",
+  "evidence_url": "https://karucapatoxic.am/en/180",
+  "notes": "Floors 3, Commissioning 03.2024; townhouse.am: 6 three-storey townhouses"
+ },
+ {
+  "id": "kp-2",
+  "title": "Byuregh Residential District",
+  "stage": null,
+  "floors": "17,18,20,25",
+  "completion": null,
+  "evidence_url": "https://karucapatoxic.am/en/2",
+  "notes": "Floors 17,18,20,25; no commissioning date shown"
+ },
+ {
+  "id": "kp-23",
+  "title": "New Shengavit",
+  "stage": null,
+  "floors": "18",
+  "completion": "2024-12",
+  "evidence_url": "https://karucapatoxic.am/en/23",
+  "notes": "KP: Floors 18, Commissioning 12.2024; developer page: planned completion 1/7/2025, 271 apartments."
+ },
+ {
+  "id": "kp-44",
+  "title": "Retro Realty",
+  "stage": null,
+  "floors": "12",
+  "completion": "2023-09",
+  "evidence_url": "https://karucapatoxic.am/en/44",
+  "notes": "Floors 12, Commissioning 09.2023 (novostroiki still says under construction)"
+ },
+ {
+  "id": "kp-66",
+  "title": "Davtashen Complex",
+  "stage": null,
+  "floors": "18",
+  "completion": "2026-12",
+  "evidence_url": "https://karucapatoxic.am/en/66",
+  "notes": "Floors 18, Commissioning 12.2026"
+ },
+ {
+  "id": "kp-9",
+  "title": "Tsaghkadzor Plaza",
+  "stage": null,
+  "floors": "6",
+  "completion": "2025-07",
+  "evidence_url": "https://karucapatoxic.am/en/9",
+  "notes": "KP: Floors 6, Commissioning 07.2025."
+ },
+ {
+  "id": "mountainvillageam-363",
+  "title": "Mountain Village",
+  "stage": null,
+  "floors": "4",
+  "completion": null,
+  "evidence_url": "https://mountainvillage.am/en/village/terraces/choose-apartment",
+  "notes": "Terraces building units on Levels 01-04; no completion date"
+ },
+ {
+  "id": "myhomeam-763",
+  "title": "Erebuni  2/2 Shenk A Masnashenk",
+  "stage": null,
+  "floors": "18",
+  "completion": "2026-09",
+  "evidence_url": "https://myhome.am/en/building/110",
+  "notes": "Number of floors 18; End of construction 09/2026"
+ },
+ {
+  "id": "myhomeam-788",
+  "title": "Armenia Garden · Akunk community",
+  "stage": null,
+  "floors": "16",
+  "completion": "2028-02",
+  "evidence_url": "https://myhome.am/en/building/329",
+  "notes": "myhome: floorsCount 16, exploitation/completion 02/2028."
+ },
+ {
+  "id": "myhomeam-809",
+  "title": "Kasakh",
+  "stage": null,
+  "floors": "5",
+  "completion": "2026-12",
+  "evidence_url": "https://myhome.am/en/building/266",
+  "notes": "myhome: Number of floors 5, End of construction 12/2026 (dignisi says 4 floors, handover 2025)"
+ },
+ {
+  "id": "myhomeam-840",
+  "title": "Best Land · Greenland district",
+  "stage": null,
+  "floors": null,
+  "completion": "2025-01",
+  "evidence_url": "https://myhome.am/en/building/186",
+  "notes": "End of construction 01/2025; floors not given (townhouses)"
+ },
+ {
+  "id": "myhomeam-879",
+  "title": "SMART CITY DEVELOPER · 49-th st. 60 2 bldg",
+  "stage": null,
+  "floors": "5",
+  "completion": "2025-10",
+  "evidence_url": "https://myhome.am/en/building/112",
+  "notes": "myhome: floorsCount 5, completion 07/2025, exploitation 10/2025, isBuilt true."
+ },
+ {
+  "id": "novostroikiyerevancom-1034",
+  "title": "PARK VIEW RESIDENCE CLUB HOUSE",
+  "stage": null,
+  "floors": null,
+  "completion": "2028-04",
+  "evidence_url": "https://novostroiki-yerevan.com/en/p/park-view-residence-club-house/",
+  "notes": "floors not published"
+ },
+ {
+  "id": "promgroupam-533",
+  "title": "Double Towers",
+  "stage": null,
+  "floors": "12",
+  "completion": "2026-12",
+  "evidence_url": "https://ar-go.am/project/double-towers",
+  "notes": "from ar-go page of the same complex"
+ },
+ {
+  "id": "spitaktnakam-388",
+  "title": "Residential complex 14 Gulakyan St",
+  "stage": null,
+  "floors": "14",
+  "completion": "2009",
+  "evidence_url": "https://spitaktnak.am/en/works/residential-complex-14-gulakyan-str",
+  "notes": "Put into operation in 2009; 14 floors; 52 apartments 75-100 m²."
+ },
+ {
+  "id": "acbaam-1116",
+  "title": "Hamedil",
+  "stage": null,
+  "floors": "3",
+  "completion": "2028-03",
+  "evidence_url": "https://www.acba.am/hy/individuals/loans/mortgage/constructors#11877",
+  "notes": "Հարկերի քանակ 3; Շահագործման ամսաթիվ 24.03.2028"
+ },
+ {
+  "id": "amanooam-311",
+  "title": "Sarin at AMANOO",
+  "stage": null,
+  "floors": "4-7",
+  "completion": "2028",
+  "evidence_url": "https://www.amanoo.am/en/sarin/",
+  "notes": "'4 to 7 floors'; official construction period 2024-2028 (ac-box says 2027)"
+ },
+ {
+  "id": "bedeckam-443",
+  "title": "Bedeck Abovyan",
+  "stage": null,
+  "floors": "16",
+  "completion": "2028-11",
+  "evidence_url": "https://myhome.am/en/building/312",
+  "notes": "Bedeck (hy): 16 above-ground floors, underground parking, handover 2028; myhome: 11/2028."
+ },
+ {
+  "id": "constructionam-172",
+  "title": "Nut Construction · Avan-Arinj",
+  "stage": null,
+  "floors": "2",
+  "completion": "2021",
+  "evidence_url": "https://www.construction.am/apartments-in-new-developments/avan-arinj-nut-house/",
+  "notes": "construction.am: two-storey houses (150 m²), completed 2021; townhouse.am calls them 'եռահարկ' (3-storey incl. roof terrace)"
+ },
+ {
+  "id": "constructionam-194",
+  "title": "Yerkir Real Estate Agency · Victor Hambardzumyan / Vagharsyan",
+  "stage": null,
+  "floors": "4",
+  "completion": "2016",
+  "evidence_url": "https://www.construction.am/apartments-in-new-developments/victor-hambardzumyan-street/",
+  "notes": "Floors Above Ground 4; Completion 2016"
+ },
+ {
+  "id": "constructionam-237",
+  "title": "Gevmik · Fuchik 1/3",
+  "stage": null,
+  "floors": null,
+  "completion": "2018",
+  "evidence_url": "https://www.construction.am/apartments-in-new-developments/gevmik-llc/",
+  "notes": "Completion 2018 / Completed; floors not published."
+ },
+ {
+  "id": "constructionam-3",
+  "title": "APEX GM Developer · Firdus 33rd District",
+  "stage": null,
+  "floors": "8",
+  "completion": "2025-12",
+  "evidence_url": "https://www.construction.am/apartments-in-new-developments/33rd-firdus-district-yerevan/",
+  "notes": "Floors Above Ground 8; Construction Period 2021 - 2025 Dec (firdus.am: 4 eight-storey blocks)"
+ },
+ {
+  "id": "constructionam-61",
+  "title": "Renshin Urban Investments · Sasna Tsrer 2",
+  "stage": null,
+  "floors": "14,16,20",
+  "completion": "2013",
+  "evidence_url": "https://renshin.am/en/projects/Sasna_Tsrer_1/",
+  "notes": "Sasna Tsrer I: three sections of 14, 16 and 20 floors; construction.am completion 2013"
+ },
+ {
+  "id": "evocaam-1139",
+  "title": "OPTIMA 25 LLC",
+  "stage": null,
+  "floors": "20",
+  "completion": "2027-07",
+  "evidence_url": "https://www.construction.am/apartments-in-new-developments/norakaruyc-zovunium-optima-residence/",
+  "notes": "construction.am: Completion 2027, Construction Period 2025 Jul - 2027 Jul; floors value 20 (label on page garbled as 'Floors Below Ground 20'); 1 building, 254 apartments."
+ },
+ {
+  "id": "evocaam-1163",
+  "title": "Imperial Construction LLC",
+  "stage": null,
+  "floors": null,
+  "completion": "2023-12",
+  "evidence_url": "https://novostroiki-yerevan.com/en/p/gogol-plaza/",
+  "notes": "completion 2023-12 per novostroiki Gogol Plaza (same address); floors 16 there - identity unconfirmed"
+ },
+ {
+  "id": "redinvestam-559",
+  "title": "Davtashen Town 2 Family District",
+  "stage": null,
+  "floors": "3",
+  "completion": "2025-02",
+  "evidence_url": "https://redgroup.am/projects/bnakaran-karucapatoxic-davtashentown2",
+  "notes": "RED: 11 three-story townhouses; start 15.03.23, end of construction 15.02.25; developer Villa Town House LLC."
+ },
+ {
+  "id": "rencoit-379",
+  "title": "Milano and Firenze Towers (Nuovo Velodromo)",
+  "stage": null,
+  "floors": "24",
+  "completion": "2028",
+  "evidence_url": "https://www.renco.it/projects/milano-and-firenze-towers",
+  "notes": "24 floors, 151 apartments, delivery end of 2028"
+ },
+ {
+  "id": "etagi-24",
+  "title": "Nova Building",
+  "stage": null,
+  "floors": "17",
+  "completion": "2029",
+  "evidence_url": "https://dignisi.am/en/projects/nova-building-355",
+  "notes": "17 floors (developer/construction.am); dignisi Handover 2029, etagi Q4 2029 (construction.am says 2028)"
+ },
+ {
+  "id": "acbox-29",
+  "title": "Liberty One",
+  "stage": null,
+  "floors": "4-5",
+  "completion": "2024-06",
+  "evidence_url": "https://www.construction.am/apartments-in-new-developments/norakaruyc-bnakaran-arabkirum-libety-1/",
+  "notes": "construction.am: Completion 2024 / Completed, construction period 2022 Sep - 2024 Jun, floors above ground 4-5 (5 buildings); dignisi: 'Ready to move in', Floors 5. ac-box still says сдача 2026 (stale). Current 2026-12-31 is wrong."
+ },
+ {
+  "id": "argoam-1093",
+  "title": "Drsum 2",
+  "stage": null,
+  "floors": "7-8",
+  "completion": "2029-05",
+  "evidence_url": "https://ar-go.am/project/drsoom-bnakeli-hamalir-1",
+  "notes": "Construction start 2026-05-05, end 2029-05-05; phase 1 2026, phase 2 2029; 5 buildings, 7-8 floors, 337 apartments."
+ },
+ {
+  "id": "araream-620",
+  "title": "Abovyan Multifunctional Residential Complex",
+  "stage": null,
+  "floors": "16",
+  "completion": null,
+  "evidence_url": "https://arare.am/project/abovyan/",
+  "notes": "'four buildings, each consisting of 16 above-ground floors'; no completion date."
+ },
+ {
+  "id": "citynestam-602",
+  "title": "TM Tower",
+  "stage": null,
+  "floors": "16,18",
+  "completion": "2027-12",
+  "evidence_url": "https://myhome.am/en/building/181",
+  "notes": "myhome: bldg Ա floorsCount 16, bldg Բ 18; completion 06/2027, exploitation 12/2027 (novostroiki Completion 12/2027). Current '27' floors and 2026-12 not supported by any live source."
+ },
+ {
+  "id": "dignisi-111",
+  "title": "Femida",
+  "stage": null,
+  "floors": "14,16,18",
+  "completion": "2026",
+  "evidence_url": "https://dignisi.am/en/projects/femida-323",
+  "notes": "Dignisi: Floors 18; description: entrance 1 16 floors, entrances 2-3 14 floors, entrance 4 18 floors. Handover 2026."
+ },
+ {
+  "id": "dignisi-136",
+  "title": "str. Sose",
+  "stage": null,
+  "floors": "8",
+  "completion": "2029-03",
+  "evidence_url": "https://www.archicon.am/new-apartments-for-sale-yerevan#sose-25",
+  "notes": "Developer: 8-story, 18 apartments, Delivery Q1 2029; dignisi: Handover 2028, 28 apartments, 8 above-ground + 2 underground floors."
+ },
+ {
+  "id": "dignisi-256",
+  "title": "New Masis",
+  "stage": null,
+  "floors": "6",
+  "completion": "2027",
+  "evidence_url": "https://dignisi.am/en/projects/new-masis-368",
+  "notes": "Handover 2027, Floors 6, 4 buildings, 180 apartments 43-88 m²."
+ },
+ {
+  "id": "elitegroupam-677",
+  "title": "Demirtchian 12-14",
+  "stage": null,
+  "floors": "14",
+  "completion": null,
+  "evidence_url": "http://elitegroup.am/en/projects/10/",
+  "notes": "'14 floors • 39 apartments • 80-320 m2'; completion year not published."
+ },
+ {
+  "id": "geoln-158",
+  "title": "Dzorap 2",
+  "stage": null,
+  "floors": "16",
+  "completion": "2019",
+  "evidence_url": "https://www.construction.am/apartments-in-new-developments/dzorap-2-dzorap-st-40-13-elite-group/",
+  "notes": "construction.am: Completion 2019 / Completed (current 2022-09 unsupported). Developer floor plans 1-16 + parking; geoln says 15 floors."
+ },
+ {
+  "id": "hausam-346",
+  "title": "Haus AM House A2 (Arinj)",
+  "stage": null,
+  "floors": "2",
+  "completion": null,
+  "evidence_url": "https://haus.am/list/a2",
+  "notes": "'2 հարկ'; finished (listed sold); no date."
+ },
+ {
+  "id": "kp-114",
+  "title": "ZOAR Residence",
+  "stage": null,
+  "floors": "16",
+  "completion": "2026-01",
+  "evidence_url": "https://karucapatoxic.am/en/114",
+  "notes": "karucapatoxic Floors 16, Commissioning 01.2026; construction.am: Completion 2025 / Completed, 16 above + 2 below ground; dignisi: Ready to move in."
+ },
+ {
+  "id": "kp-133",
+  "title": "Davtashen Apartment Building",
+  "stage": null,
+  "floors": "14",
+  "completion": "2026-12",
+  "evidence_url": "https://myhome.am/en/building/137",
+  "notes": "myhome floors 14, completion 09/2026, exploitation 12/2026; karucapatoxic Commissioning 12.2026."
+ },
+ {
+  "id": "kp-181",
+  "title": "R.G. Construction",
+  "stage": null,
+  "floors": "2",
+  "completion": "2024-10",
+  "evidence_url": "https://karucapatoxic.am/en/181",
+  "notes": "Floors 2, Commissioning 10.2024."
+ },
+ {
+  "id": "kp-20",
+  "title": "Artashat residential complex",
+  "stage": null,
+  "floors": "7",
+  "completion": "2024-12",
+  "evidence_url": "https://karucapatoxic.am/en/20",
+  "notes": "karucapatoxic Floors 7, Commissioning 12.2024; charagayt: works planned to finish in 2024; dignisi 'Handover 2029' looks wrong."
+ },
+ {
+  "id": "kp-24",
+  "title": "Leningradyan Residential Complex",
+  "stage": null,
+  "floors": "16",
+  "completion": "2024-06",
+  "evidence_url": "https://karucapatoxic.am/en/24",
+  "notes": "Floors 16, Commissioning 06.2024."
+ },
+ {
+  "id": "kp-46",
+  "title": "Altera Home",
+  "stage": null,
+  "floors": "3",
+  "completion": null,
+  "evidence_url": "https://karucapatoxic.am/en/46",
+  "notes": "Floors 3; no commissioning date."
+ },
+ {
+  "id": "kp-67",
+  "title": "Blue Sky Residence",
+  "stage": null,
+  "floors": "18-21",
+  "completion": "2027-08",
+  "evidence_url": "https://ar-go.am/project/blue-sky-residence",
+  "notes": "ar-go: 3 buildings, 18 floors, works 22.08.2024-22.03.2027; karucapatoxic Floors 21, Commissioning 08.2027; construction.am Completion 2026."
+ },
+ {
+  "id": "kp-90",
+  "title": "Antarayin Residential Complex",
+  "stage": null,
+  "floors": "12",
+  "completion": "2023-09",
+  "evidence_url": "https://karucapatoxic.am/en/90",
+  "notes": "karucapatoxic Floors 12, Commissioning 09.2023; construction.am Completion 2023 / Completed."
+ },
+ {
+  "id": "myhomeam-764",
+  "title": "Pars · Pirumyanner 13 G",
+  "stage": null,
+  "floors": "18",
+  "completion": "2028-07",
+  "evidence_url": "https://myhome.am/en/building/95",
+  "notes": "myhome floors 18, exploitation 07/2028 (completion 12/2028); bedeck.am: 18 floors, commissioning in 2028."
+ },
+ {
+  "id": "myhomeam-789",
+  "title": "Los Angeles Yeghvard · YEGHVARD CITY",
+  "stage": null,
+  "floors": null,
+  "completion": "2026-12",
+  "evidence_url": "https://myhome.am/en/building/304",
+  "notes": "myhome completion/exploitation 12/2026; layeghvard.am: 23 townhouses, floors not given."
+ },
+ {
+  "id": "myhomeam-810",
+  "title": "Nairi Residence · Yerevan highway 8/7",
+  "stage": null,
+  "floors": "8",
+  "completion": "2026-12",
+  "evidence_url": "https://myhome.am/en/building/260",
+  "notes": "myhome floors 8, exploitation 12/2026, completion field 03/2028 (inconsistent)."
+ },
+ {
+  "id": "myhomeam-841",
+  "title": "Best Land · Greenland district",
+  "stage": null,
+  "floors": null,
+  "completion": "2025-01",
+  "evidence_url": "https://myhome.am/en/building/185",
+  "notes": "myhome completion/exploitation 01/2025; floors not given (private houses). karucapatoxic lists BestLand Dzoraghbyur commissioning 05.2024."
+ },
+ {
+  "id": "myhomeam-880",
+  "title": "SMART CITY DEVELOPER · 49-th st. 60 1 bldg",
+  "stage": null,
+  "floors": "5",
+  "completion": "2025-10",
+  "evidence_url": "https://myhome.am/en/building/111",
+  "notes": "myhome floors 5, completion 07/2025, exploitation 10/2025, isBuilt true."
+ },
+ {
+  "id": "novostroikiyerevancom-1035",
+  "title": "Pullman Residences Yerevan",
+  "stage": null,
+  "floors": "15",
+  "completion": "2027-12",
+  "evidence_url": "https://novostroiki-yerevan.com/en/p/pullman-residences-yerevan/",
+  "notes": "novostroiki: Floors 15, Completion 2027-12. Developer site gives no numbers."
+ },
+ {
+  "id": "promgroupam-536",
+  "title": "Prom Group · Gyumri",
+  "stage": null,
+  "floors": "6",
+  "completion": "2024-12",
+  "evidence_url": "https://promgroup.am/en/project/park-gyumri/",
+  "notes": "'Buildings - 8, Ground floor - 6, Apartment - 342, Completion - 2024 4th quarter'; status still 'In process'."
+ },
+ {
+  "id": "spitaktnakam-389",
+  "title": "Residential complex 14/1 Hrachya Nersisyan St",
+  "stage": null,
+  "floors": "7",
+  "completion": "2007",
+  "evidence_url": "https://spitaktnak.am/en/works/residential-complex-141-hrachya-nersisyan-str",
+  "notes": "'was put into operation in 2007 7 floors Number of apartments – 88'."
+ },
+ {
+  "id": "acbaam-1117",
+  "title": "Drim Ston Rezidens",
+  "stage": null,
+  "floors": "11",
+  "completion": "2026-06",
+  "evidence_url": "https://www.acba.am/hy/individuals/loans/mortgage/constructors#11023",
+  "notes": "Հարկերի քանակ 11; Շահագործման ամսաթիվ 30.06.2026; status still 'under construction' on the card."
+ },
+ {
+  "id": "americanaarmeniacom-318",
+  "title": "Americana Armenia gated community",
+  "stage": null,
+  "floors": null,
+  "completion": "2022",
+  "evidence_url": "https://www.americanaarmenia.com/",
+  "notes": "No floors/dates on the HOA site; completion kept from existing record (not re-confirmable)."
+ },
+ {
+  "id": "byblosbankarmeniaam-1170",
+  "title": "Kam Developments LLC",
+  "stage": null,
+  "floors": "2",
+  "completion": "2024-12",
+  "evidence_url": "https://www.byblosbankarmenia.am/en/developers#kam-developments-llc",
+  "notes": "'Townhouses are two stories high'; 'Completion of construction: end of 2024'."
+ },
+ {
+  "id": "constructionam-173",
+  "title": "Deconsart · Bagrevand 3/1",
+  "stage": null,
+  "floors": "2-3",
+  "completion": "2020",
+  "evidence_url": "https://www.construction.am/apartments-in-new-developments/bagrevand-3-1-deconsart/",
+  "notes": "Completion 2020 / Completed; 4 three-storey + 4 two-storey townhouses."
+ },
+ {
+  "id": "constructionam-195",
+  "title": "Itarco Construction · Paruyr Sevak 9",
+  "stage": null,
+  "floors": "17",
+  "completion": "2016",
+  "evidence_url": "https://www.construction.am/apartments-in-new-developments/zeytun-paruyr-sevak-9/",
+  "notes": "'13 residential floors, two commercial and two parking floors. Total number of floors is 17'; Completion 2016 / Completed."
+ },
+ {
+  "id": "constructionam-37",
+  "title": "Gevmik · Sebastia 3/3",
+  "stage": null,
+  "floors": "14",
+  "completion": "2021-05",
+  "evidence_url": "https://www.construction.am/apartments-in-new-developments/3-3-sebastia/",
+  "notes": "Construction Period 2019 Sep - 2021 May; 2 buildings, 14 floors above ground."
+ },
+ {
+  "id": "constructionam-62",
+  "title": "Defanse Housing Invest · Tichina 320",
+  "stage": null,
+  "floors": "15, 16, 23",
+  "completion": "2026-12",
+  "evidence_url": "https://www.construction.am/apartments-in-new-developments/defanse-housing-residential-complex/",
+  "notes": "Construction Period 2022 Jul - 2026 Dec; Floors Above Ground 15, 16, 23."
+ },
+ {
+  "id": "redinvestam-538",
+  "title": "Davinchi Club House",
+  "stage": null,
+  "floors": "16",
+  "completion": "2029-12",
+  "evidence_url": "https://redgroup.am/projects/bnakarankarucapatoxic-davinci-club-house",
+  "notes": "Construction start scheduled July 2026, completion scheduled December 2029; unit floors 3-16."
+ },
+ {
+  "id": "redinvestam-560",
+  "title": "CULT Residential Complex",
+  "stage": null,
+  "floors": "4",
+  "completion": "2025-12",
+  "evidence_url": "https://redgroup.am/projects/bnakarankarucapatoxic-cult",
+  "notes": "'Construction completion: 12/2025'; unit floors 1-4."
+ },
+ {
+  "id": "retroshinam-407",
+  "title": "Atlantic Plaza",
+  "stage": null,
+  "floors": "16",
+  "completion": "2023",
+  "evidence_url": "https://www.retroshin.am/hy/buildings",
+  "notes": "Building A1 floors 1-16 above ground (+2 underground, floorsCount 18); unit willFinished '2023'/'COMPLETED'."
+ },
+ {
+  "id": "etagi-25",
+  "title": "Northern Gates",
+  "stage": null,
+  "floors": "18",
+  "completion": "2027-12",
+  "evidence_url": "https://primedevelopers.am/en/project/NORTHERN-GATES",
+  "notes": "Developer floor plans: AB and C sections up to floor 18; instalments 'until 2027 December'. dignisi: Floors 15, Handover 2027."
+ },
+ {
+  "id": "acbox-30",
+  "title": "Azatutyan Residential Complex",
+  "stage": null,
+  "floors": "18",
+  "completion": "2027-10",
+  "evidence_url": "https://myhome.am/en/building/257",
+  "notes": "myhome: End of construction 10/2027 (API completionDate 12/2026, exploitationDate 10/2027); dignisi Handover 2027; novostroiki 2027-08."
+ },
+ {
+  "id": "argoam-1094",
+  "title": "Elize",
+  "stage": null,
+  "floors": "13",
+  "completion": "2026-12",
+  "evidence_url": "https://ar-go.am/project/elize",
+  "notes": "Աշխատանքների ավարտ 2026-12-31; Հարկերի քանակ 13; 96 apartments."
+ },
+ {
+  "id": "araream-621",
+  "title": "Nairi Residential Community",
+  "stage": null,
+  "floors": null,
+  "completion": "2025-07",
+  "evidence_url": "https://arare.am/project/nairi-residential-complex/",
+  "notes": "End Date 07.2025; private houses with yards, 3.5 ha, 2 blocks."
+ },
+ {
+  "id": "citynestam-652",
+  "title": "Milano Firenze Towers",
+  "stage": null,
+  "floors": "24",
+  "completion": "2028-12",
+  "evidence_url": "https://citynest.am/milanofirenze/en",
+  "notes": "citynest: December 2028 Completion; milanofirenze.am search: residential floors 4-24 (press: 24-storey complex)."
+ },
+ {
+  "id": "dignisi-113",
+  "title": "Five Towers",
+  "stage": null,
+  "floors": "23",
+  "completion": "2031-08",
+  "evidence_url": "https://armconstruct.am/en/projects/five-towers",
+  "notes": "Number of floors 23, 2 underground; End Date August 2031 (myhome 08/2031)."
+ },
+ {
+  "id": "dignisi-137",
+  "title": "Target Building",
+  "stage": null,
+  "floors": "7",
+  "completion": "2024",
+  "evidence_url": "https://dignisi.am/en/projects/target-building-286",
+  "notes": "Floors 7; Handover 2024; areas 31-180 m²."
+ },
+ {
+  "id": "dignisi-258",
+  "title": "V&B construction",
+  "stage": null,
+  "floors": "5",
+  "completion": "2022",
+  "evidence_url": "https://dignisi.am/en/projects/v-b-construction-53",
+  "notes": "Floors 5; Handover 2022 (text says completion predicted May 2021)."
+ },
+ {
+  "id": "elitegroupam-678",
+  "title": "Komitas 12",
+  "stage": null,
+  "floors": "10",
+  "completion": null,
+  "evidence_url": "http://elitegroup.am/en/projects/11/",
+  "notes": "10 floors, 19 apartments, 69-192 m²; no date given."
+ },
+ {
+  "id": "geoln-159",
+  "title": "Greenville",
+  "stage": null,
+  "floors": "5",
+  "completion": "2022-08",
+  "evidence_url": "https://arcada.am/?app=AppProject&page=district&project_id=1",
+  "notes": "9 buildings of 5 floors; Ավարտական ակտ 2022-08-02."
+ },
+ {
+  "id": "hausam-347",
+  "title": "Haus AM House A3 (Arinj)",
+  "stage": null,
+  "floors": "2",
+  "completion": null,
+  "evidence_url": "https://haus.am/list/a3",
+  "notes": "2-storey 155 m² house on 375 m² plot."
+ },
+ {
+  "id": "kp-116",
+  "title": "Arabkir 51",
+  "stage": null,
+  "floors": "18",
+  "completion": "2023-05",
+  "evidence_url": "https://karucapatoxic.am/en/116",
+  "notes": "karucapatoxic Floors 18, Commissioning 05.2023; construction.am: 17 above ground (+technical), 3 underground, 76 apartments, completion 2024."
+ },
+ {
+  "id": "kp-135",
+  "title": "Monte Residential Complex",
+  "stage": null,
+  "floors": "16",
+  "completion": "2027-11",
+  "evidence_url": "https://myhome.am/en/building/191",
+  "notes": "Developer: 16 floors, 6 buildings, 566 apartments; myhome exploitation 11/2027 (completion 05/2028); karucapatoxic 09.2026 and dignisi 2026 are outdated."
+ },
+ {
+  "id": "kp-182",
+  "title": "Olymp Construction",
+  "stage": null,
+  "floors": "16",
+  "completion": "2026-05",
+  "evidence_url": "https://karucapatoxic.am/en/182",
+  "notes": "Floors 16; Commissioning 05.2026."
+ },
+ {
+  "id": "kp-200",
+  "title": "Americana Armenia",
+  "stage": null,
+  "floors": "8",
+  "completion": "2028-09",
+  "evidence_url": "https://karucapatoxic.am/en/200",
+  "notes": "Floors 8; Commissioning 09.2028."
+ },
+ {
+  "id": "kp-25",
+  "title": "Monte Melkonian 10",
+  "stage": null,
+  "floors": "18",
+  "completion": "2024-01",
+  "evidence_url": "https://karucapatoxic.am/en/25",
+  "notes": "Commissioning 01.2024; construction.am: 18 above ground, construction 2021 Jun-2024 Jun, 208 apartments."
+ },
+ {
+  "id": "kp-49",
+  "title": "Mush Towers",
+  "stage": null,
+  "floors": "14",
+  "completion": "2025-03",
+  "evidence_url": "https://karucapatoxic.am/en/49",
+  "notes": "Floors 14; Commissioning 03.2025."
+ },
+ {
+  "id": "kp-68",
+  "title": "Almast Residence",
+  "stage": null,
+  "floors": "12,14,16",
+  "completion": "2026-12",
+  "evidence_url": "https://www.construction.am/apartments-in-new-developments/almast-residence/",
+  "notes": "construction.am: construction period 2020 May - 2026 Dec; karucapatoxic Commissioning 12.2025; 426 apartments."
+ },
+ {
+  "id": "kp-92",
+  "title": "TECHNODOM Cascade Residential Complex",
+  "stage": null,
+  "floors": "7",
+  "completion": "2023-03",
+  "evidence_url": "https://karucapatoxic.am/en/92",
+  "notes": "construction.am: 7 above ground, 2 below, 2021 Mar - 2023 May, completed."
+ },
+ {
+  "id": "mountainvillageam-365",
+  "title": "Mountain Village",
+  "stage": null,
+  "floors": "4",
+  "completion": null,
+  "evidence_url": "https://mountainvillage.am/en/village/terraces/choose-apartment",
+  "notes": "Phase 1 'Terraces': 22 apartments on cascading levels 01-04 (floor count inferred from listed levels); no completion date published."
+ },
+ {
+  "id": "myhomeam-765",
+  "title": "Orient Stone · Arshakunyats 192",
+  "stage": null,
+  "floors": "14",
+  "completion": "2025-09",
+  "evidence_url": "https://myhome.am/en/building/61",
+  "notes": "myhome floorsCount 14 (description: 12 above-ground + 4 underground), exploitation 09/2025, isBuilt true."
+ },
+ {
+  "id": "myhomeam-790",
+  "title": "ML MINING · H. Baghramyan 39",
+  "stage": null,
+  "floors": "15",
+  "completion": "2027-10",
+  "evidence_url": "https://myhome.am/en/building/323",
+  "notes": "myhome floorsCount 15, exploitation 10/2027 (completion 04/2028); 172 apartments."
+ },
+ {
+  "id": "myhomeam-811",
+  "title": "Eden Park · Babajanyan district",
+  "stage": null,
+  "floors": "5",
+  "completion": "2028-05",
+  "evidence_url": "https://myhome.am/en/building/258",
+  "notes": "floorsCount 5; exploitation/completion 05/2028."
+ },
+ {
+  "id": "myhomeam-842",
+  "title": "Best Land · Greenland district",
+  "stage": null,
+  "floors": "2-3",
+  "completion": "2026",
+  "evidence_url": "https://www.capitalbuild.am/projects/project/bestland",
+  "notes": "70 townhouses of 2-3 floors (105.8-256.8 m²); myhome text 'to be completed in early 2026' (API exploitationDate 01/2025 is stale)."
+ },
+ {
+  "id": "myhomeam-881",
+  "title": "New Age · G. Nzhdeh 11/11",
+  "stage": null,
+  "floors": "7",
+  "completion": "2024-09",
+  "evidence_url": "https://myhome.am/en/building/100",
+  "notes": "floorsCount 7; exploitation 09/2024 (completion 03/2025); isBuilt true."
+ },
+ {
+  "id": "novostroikiyerevancom-1042",
+  "title": "Residence 50",
+  "stage": null,
+  "floors": "5",
+  "completion": "2027-08",
+  "evidence_url": "https://myhome.am/en/building/278",
+  "notes": "myhome floorsCount 5, exploitation 08/2027 (completion 02/2028); novostroiki 12/2026 outdated."
+ },
+ {
+  "id": "promgroupam-537",
+  "title": "Basis Residential Complex",
+  "stage": null,
+  "floors": "18",
+  "completion": "2026-06",
+  "evidence_url": "https://www.acba.am/hy/individuals/loans/mortgage/constructors#10193",
+  "notes": "ACBA: 18 above-ground floors (16 residential), exploitation 04/06/2026; promgroup.am says 2025 Q2 (outdated); basisgroup: up to 18 above + 3 underground."
+ },
+ {
+  "id": "spitaktnakam-390",
+  "title": "Residential complex 24/1 Yervand Kochar St",
+  "stage": null,
+  "floors": "5",
+  "completion": "2009",
+  "evidence_url": "https://spitaktnak.am/en/works/residential-complex-241-yer-kochar-str",
+  "notes": "20 apartments, 65-95 m²."
+ },
+ {
+  "id": "acbaam-1119",
+  "title": "Old Sentral Plaza",
+  "stage": null,
+  "floors": "12",
+  "completion": "2027-05",
+  "evidence_url": "https://www.acba.am/hy/individuals/loans/mortgage/constructors#10509",
+  "notes": "Շահագործման ամսաթիվ 09.05.2027."
+ },
+ {
+  "id": "amgroupam-301",
+  "title": "Residential building, Paronyan str.",
+  "stage": null,
+  "floors": null,
+  "completion": "2005",
+  "evidence_url": "https://td.am/paronyan.html",
+  "notes": "Mixed-use, commercial on first three floors; total floors not stated."
+ },
+ {
+  "id": "byblosbankarmeniaam-1172",
+  "title": "Kievyan Residence",
+  "stage": null,
+  "floors": "7",
+  "completion": null,
+  "evidence_url": "https://www.byblosbankarmenia.am/en/developers#kievyan-residence",
+  "notes": "7 above-ground + 3 underground floors, 40 apartments 43.2-155 m²; no date."
+ },
+ {
+  "id": "constructionam-174",
+  "title": "Cascade Hills · Antarayin 160/5",
+  "stage": null,
+  "floors": null,
+  "completion": "2017",
+  "evidence_url": "https://www.construction.am/apartments-in-new-developments/cascade-hills-antarayin-street-160-5/",
+  "notes": "construction.am gives no floor count; the '9' came from myhome/142 (other building)."
+ },
+ {
+  "id": "constructionam-20",
+  "title": "Grandshin · Acharyan 35/19",
+  "stage": null,
+  "floors": "4-14",
+  "completion": "2026-12",
+  "evidence_url": "https://www.construction.am/apartments-in-new-developments/norakaruyc-avanum-acharyan-e1-residence/",
+  "notes": "3 buildings, 4-14 floors above ground; construction period 2022 Oct - 2026 Dec."
+ },
+ {
+  "id": "constructionam-240",
+  "title": "Levon Amirkhanyan · Lvovyan 14/1",
+  "stage": null,
+  "floors": null,
+  "completion": "2017",
+  "evidence_url": "https://www.construction.am/apartments-in-new-developments/nor-nork-lvovyan-st-14-1/",
+  "notes": "No floor count published."
+ },
+ {
+  "id": "constructionam-4",
+  "title": "Care Building Services (CBS) · Malkhasyants 6/1",
+  "stage": null,
+  "floors": "14",
+  "completion": "2024-12",
+  "evidence_url": "https://myhome.am/en/building/57",
+  "notes": "myhome 14 floors, exploitation 12/2024, isBuilt true; novostroiki 12/2024. construction.am shows 'Construction Period 2025 May - 2026 Dec' (likely mixed with the Malkhasyants 8 third building)."
+ },
+ {
+  "id": "constructionam-64",
+  "title": "Anur · Leo 1",
+  "stage": null,
+  "floors": "16",
+  "completion": "2013",
+  "evidence_url": "https://www.construction.am/apartments-in-new-developments/leo-street-anur/",
+  "notes": "16-storey multifunctional building at Leo/Saryan intersection."
+ },
+ {
+  "id": "redinvestam-539",
+  "title": "Sapphire",
+  "stage": null,
+  "floors": "12",
+  "completion": "2026-10",
+  "evidence_url": "https://redgroup.am/projects/bnakarankarucapatoxic-sapfir",
+  "notes": "Building 2: construction June 2023 - end of October 2026; Building 1: Nov 2026 - May 2029. API floors 1-12."
+ },
+ {
+  "id": "redinvestam-562",
+  "title": "Dalan Technopark Apartments",
+  "stage": null,
+  "floors": null,
+  "completion": "2026-08",
+  "evidence_url": "https://redgroup.am/projects/bnakarankarucapatoxic-dalantechnologypark-apartments",
+  "notes": "End of construction 2026 August; total floors not published (apartments on floor 14)."
+ },
+ {
+  "id": "sahakyanshincom-713",
+  "title": "Panorama Dalma (Phase I)",
+  "stage": null,
+  "floors": "21",
+  "completion": "2025-09",
+  "evidence_url": "https://www.sahakyanshin.com/projects/panorama-dalma",
+  "notes": "Նախատեսվող ավարտը 9/30/2025; 528 apartments; top listed floor 21."
+ },
+ {
+  "id": "etagi-26",
+  "title": "Felicity",
+  "stage": null,
+  "floors": "16",
+  "completion": "2028-12",
+  "evidence_url": "https://dignisi.am/en/projects/felicity-nor-nork-346",
+  "notes": "dignisi Floors 16, Handover 2028; etagi Delivery 4 quarter 2028."
+ },
+ {
+  "id": "acbox-35",
+  "title": "Discovery Plaza",
+  "stage": null,
+  "floors": "12,14,16",
+  "completion": "2026",
+  "evidence_url": "https://dignisi.am/en/projects/discovery-plaza-150",
+  "notes": "Dignisi: A 16 fl, B 14, C 14, D 12; handover 2026."
+ },
+ {
+  "id": "arcadaam-317",
+  "title": "Ember Business Center",
+  "stage": null,
+  "floors": "4",
+  "completion": null,
+  "evidence_url": "https://arcada.am/?app=AppProject&page=building&project_id=6",
+  "notes": "4 above-ground + 3 underground floors; building permit 2026-01-29; completion 07/2027 in dataset belongs to Ember residential (novostroiki)."
+ },
+ {
+  "id": "citynestam-653",
+  "title": "Only One Residential Complex",
+  "stage": null,
+  "floors": null,
+  "completion": "2025-12",
+  "evidence_url": "https://citynest.am/onlyone/en",
+  "notes": "Floors not published; 176 apartments, 242 parking lots."
+ },
+ {
+  "id": "dignisi-114",
+  "title": "Gardenia Residence",
+  "stage": null,
+  "floors": "16",
+  "completion": "2028",
+  "evidence_url": "https://dignisi.am/en/projects/gardenia-residence-371",
+  "notes": ""
+ },
+ {
+  "id": "dignisi-138",
+  "title": "Toon 27",
+  "stage": null,
+  "floors": "18",
+  "completion": "2026",
+  "evidence_url": "https://dignisi.am/en/projects/toon-27-229",
+  "notes": "ac-box: сдача 2026."
+ },
+ {
+  "id": "dignisi-259",
+  "title": "World of Gold residential district",
+  "stage": null,
+  "floors": "11",
+  "completion": "2026",
+  "evidence_url": "https://dignisi.am/en/projects/world-of-gold-residential-district-49",
+  "notes": "Areas 50.4–82 m²; 3rd-5th buildings under construction."
+ },
+ {
+  "id": "elitegroupam-679",
+  "title": "Pushkin 21",
+  "stage": null,
+  "floors": "9",
+  "completion": "2003",
+  "evidence_url": "http://elitegroup.am/en/projects/13/",
+  "notes": "3 buildings, 57 apartments 116-260 m²."
+ },
+ {
+  "id": "geoln-160",
+  "title": "Kievyan Residance",
+  "stage": null,
+  "floors": "7",
+  "completion": "2023-09",
+  "evidence_url": "https://redgroup.am/projects/bnakarankarucapatoxic-kievyanresidence",
+  "notes": "RED: expected completion 09/2023; geoln: 7 above-ground + 3 underground floors, 40 apartments."
+ },
+ {
+  "id": "hausam-348",
+  "title": "Haus AM House A4 (Arinj)",
+  "stage": null,
+  "floors": "2",
+  "completion": null,
+  "evidence_url": "https://haus.am/list/a4",
+  "notes": "155 m² living area on 375 m² plot; no completion date."
+ },
+ {
+  "id": "kp-117",
+  "title": "Karegin Hovsepyan",
+  "stage": null,
+  "floors": "7",
+  "completion": "2025-08",
+  "evidence_url": "https://www.construction.am/apartments-in-new-developments/new-nork-club-house/",
+  "notes": "construction.am: 7 floors above ground, construction Nov 2022–Aug 2025, completed; kp: commissioning 08.2025. myhome lists 6 floors."
+ },
+ {
+  "id": "kp-137",
+  "title": "Shinararner Residence",
+  "stage": null,
+  "floors": "18",
+  "completion": "2025-02",
+  "evidence_url": "https://www.newcity.am/en/projects/shinararner-residence",
+  "notes": "New City: End of construction February 2025 (building 1), two 18-storey buildings, 237 apartments 32–397 m². karucapatoxic says commissioning 10.2025."
+ },
+ {
+  "id": "kp-184",
+  "title": "Ani Premium Residential Complex",
+  "stage": null,
+  "floors": "15",
+  "completion": "2027-12",
+  "evidence_url": "https://karucapatoxic.am/en/184",
+  "notes": "Artco: three 15-storey buildings A,B,C, apartments 59–99.79 m²."
+ },
+ {
+  "id": "kp-201",
+  "title": "Zard residential area",
+  "stage": null,
+  "floors": "9,15",
+  "completion": "2028-12",
+  "evidence_url": "https://karucapatoxic.am/en/201",
+  "notes": "kp: floors 9,15, commissioning 12.2028; dignisi handover 2029; myhome blocks 4/5/9/10: 11/13/13/15 floors, exploitation 06/2029."
+ },
+ {
+  "id": "kp-27",
+  "title": "Panorama Dalma",
+  "stage": null,
+  "floors": "21",
+  "completion": "2025-09",
+  "evidence_url": "https://www.sahakyanshin.com/projects/panorama-dalma",
+  "notes": "Developer: planned end 9/30/2025, 528 apartments 28–160 m²; kp: 21 floors, commissioning 07.2024."
+ },
+ {
+  "id": "kp-5",
+  "title": "Dalma Hills",
+  "stage": null,
+  "floors": "19",
+  "completion": "2025-04",
+  "evidence_url": "https://karucapatoxic.am/en/5",
+  "notes": "Charagayt: 19 floors, 176 apartments 55–139 m²; dignisi: ready to move in."
+ },
+ {
+  "id": "kp-69",
+  "title": "Gogol Plaza",
+  "stage": null,
+  "floors": "16",
+  "completion": "2023-12",
+  "evidence_url": "https://karucapatoxic.am/en/69",
+  "notes": "construction.am: completed 2023."
+ },
+ {
+  "id": "kp-94",
+  "title": "ROYAL RESIDENCE residential complex",
+  "stage": null,
+  "floors": "16",
+  "completion": "2024-12",
+  "evidence_url": "https://karucapatoxic.am/en/94",
+  "notes": "ACBA: 16 floors (15 residential), status completed; kp commissioning 12.2024."
+ },
+ {
+  "id": "myhomeam-766",
+  "title": "Avan Project · Acharyan 39/23",
+  "stage": null,
+  "floors": "18",
+  "completion": "2027-06",
+  "evidence_url": "https://myhome.am/en/building/228",
+  "notes": "myhome: exploitation 06/2027, completion 12/2027; newcity.am: building 3 end of construction February 2028 (building 2 Sept 2026, 3 available)."
+ },
+ {
+  "id": "myhomeam-792",
+  "title": "Nork Residential Complex · Sero Khanzadyan 5/5",
+  "stage": null,
+  "floors": "10",
+  "completion": "2016-06",
+  "evidence_url": "https://myhome.am/en/building/316",
+  "notes": "myhome: exploitation 06/2016, isBuilt=true, 164 apartments."
+ },
+ {
+  "id": "myhomeam-812",
+  "title": "Smart City · Jrvej 49 3",
+  "stage": null,
+  "floors": "3",
+  "completion": "2027-09",
+  "evidence_url": "https://myhome.am/en/building/254",
+  "notes": "myhome: exploitation 09/2027, completion 01/2028; 6 apartments, 2 for sale."
+ },
+ {
+  "id": "myhomeam-843",
+  "title": "Best Land · Greenland district",
+  "stage": null,
+  "floors": null,
+  "completion": "2025-01",
+  "evidence_url": "https://myhome.am/en/building/183",
+  "notes": "myhome exploitation/completion 01/2025 but isBuilt=false; floors not given."
+ },
+ {
+  "id": "myhomeam-883",
+  "title": "Shahumyan  7, 2-rd Masnashenk",
+  "stage": null,
+  "floors": "12",
+  "completion": "2025-04",
+  "evidence_url": "https://myhome.am/en/building/88",
+  "notes": "myhome: exploitation 04/2025, completion 12/2025, isBuilt=true."
+ },
+ {
+  "id": "novostroikiyerevancom-1072",
+  "title": "Wellstone Residential complex",
+  "stage": null,
+  "floors": "10,12",
+  "completion": "2027-05",
+  "evidence_url": "https://karucapatoxic.am/en/193",
+  "notes": "Developer Shin-Stroy House."
+ },
+ {
+  "id": "redgroupam-1194",
+  "title": "Life House · Merdzavan",
+  "stage": null,
+  "floors": null,
+  "completion": "2027-12",
+  "evidence_url": "https://redgroup.am/projects/bnakarankarucapatoxic-lifehouse",
+  "notes": "Construction start planned September 2026, completion planned December 2027. Floors not stated."
+ },
+ {
+  "id": "spitaktnakam-391",
+  "title": "Residential complex 27th Arabkir St 1/6",
+  "stage": null,
+  "floors": "14",
+  "completion": "2013",
+  "evidence_url": "https://spitaktnak.am/en/works/residential-complex-27-arabkir-str-16",
+  "notes": "46 apartments 93–146 m², 2-level underground parking."
+ },
+ {
+  "id": "acbaam-1120",
+  "title": "Argishti Syuts & Rezidens",
+  "stage": null,
+  "floors": "15",
+  "completion": "2028-12",
+  "evidence_url": "https://www.acba.am/hy/individuals/loans/mortgage/constructors#10505",
+  "notes": "Exploitation date 19.12.2028; status under construction."
+ },
+ {
+  "id": "byblosbankarmeniaam-1173",
+  "title": "Eliz LLC",
+  "stage": null,
+  "floors": "4",
+  "completion": null,
+  "evidence_url": "https://www.byblosbankarmenia.am/en/developers",
+  "notes": "4 storeys, 10 apartments, underground parking; still described as under construction."
+ },
+ {
+  "id": "constructionam-175",
+  "title": "Elite Group · Demirchyan 1",
+  "stage": null,
+  "floors": "10",
+  "completion": "2014",
+  "evidence_url": "https://www.construction.am/apartments-in-new-developments/demirchyan-st-1-elite-group/",
+  "notes": "construction.am completion 2014 / Completed; Elite Group: 10 floors, 51 apartments 69–192 m²."
+ },
+ {
+  "id": "constructionam-218",
+  "title": "Moldovakan 49/74",
+  "stage": null,
+  "floors": "7",
+  "completion": "2024-08",
+  "evidence_url": "https://www.construction.am/apartments-in-new-developments/2-nor-nork-moldovakan/",
+  "notes": "Construction period Oct 2022 – Aug 2024; 7 floors above ground + 2 below; 63 apartments."
+ },
+ {
+  "id": "constructionam-242",
+  "title": "Spitak Tnak · Paruyr Sevak 51/2",
+  "stage": null,
+  "floors": null,
+  "completion": "2021",
+  "evidence_url": "https://www.construction.am/apartments-in-new-developments/paruyr-sevak-52-spitak-tnak/",
+  "notes": "Floors not published."
+ },
+ {
+  "id": "constructionam-41",
+  "title": "Lorida Group · Nazarbekyan 44/13",
+  "stage": null,
+  "floors": "16",
+  "completion": "2025-12",
+  "evidence_url": "https://redgroup.am/projects/bnakarankarucapatoxic-shushipalace",
+  "notes": "RED: construction completion date 12/2025; construction.am: completion 2023 (8 buildings); geoln: 16 floors, 1100 apartments."
+ },
+ {
+  "id": "constructionam-65",
+  "title": "Elite Group · Mamikonyants 41",
+  "stage": null,
+  "floors": "19",
+  "completion": "2010",
+  "evidence_url": "https://www.construction.am/apartments-in-new-developments/mamikonyants-st-41-elite-group/",
+  "notes": "construction.am: 19 floors + 3 underground, completion 2010."
+ },
+ {
+  "id": "redinvestam-541",
+  "title": "Bosco Welltown",
+  "stage": null,
+  "floors": "7",
+  "completion": "2028-09",
+  "evidence_url": "https://redgroup.am/projects/bnakarankarucapatoxic-bosco-welltown",
+  "notes": "Construction start September 2026, completion planned September 2028; units on floors 1–7 (blocks 1, 9, 10)."
+ },
+ {
+  "id": "redinvestam-563",
+  "title": "Avan Residence Residential Building",
+  "stage": null,
+  "floors": "6",
+  "completion": null,
+  "evidence_url": "https://redgroup.am/projects/bnakaran-karucapatoxic-avanresidence",
+  "notes": "Units on floors 2–6; no completion date published (builder Malkhasyan Shin)."
+ },
+ {
+  "id": "etagi-78",
+  "title": "Skyline",
+  "stage": null,
+  "floors": "35",
+  "completion": "2028-12",
+  "evidence_url": "https://yerevan.etagi.com/en-us/zastr/jk/skyline-54417/",
+  "notes": "etagi: delivery 4 quarter 2028. Floors not re-confirmed on developer site (available flats listed only up to floor 25)."
+ },
+ {
+  "id": "1sqam-292",
+  "title": "Zeytun, 10th street 15",
+  "stage": null,
+  "floors": "4",
+  "completion": null,
+  "evidence_url": "https://1-sq.am/services/zeytun/",
+  "notes": "'1 4 հարկանի բնակելի համալիր', 12 apartments, commissioned; no date"
+ },
+ {
+  "id": "allianceinvestmentam-416",
+  "title": "Alliance Plaza",
+  "stage": null,
+  "floors": "10,13,16",
+  "completion": null,
+  "evidence_url": "https://allianceinvestment.am/alliance-plaza/",
+  "notes": "3 buildings 10/13/16 floors; completion date not stated on page"
+ },
+ {
+  "id": "argoam-1099",
+  "title": "Gyurjyan 27",
+  "stage": null,
+  "floors": "16",
+  "completion": null,
+  "evidence_url": "https://ar-go.am/project/gyurjyan27",
+  "notes": "Status 'Ավարտված' (completed), completion act published; no date"
+ },
+ {
+  "id": "citynestam-658",
+  "title": "Mountain Village Dilijan",
+  "stage": null,
+  "floors": null,
+  "completion": "2025-03",
+  "evidence_url": "https://citynest.am/mountainvillage/en",
+  "notes": "Completion 'March 2025'; floors not published"
+ },
+ {
+  "id": "dignisi-115",
+  "title": "GARUN HILLS",
+  "stage": null,
+  "floors": "9",
+  "completion": "2027-05",
+  "evidence_url": "https://www.acba.am/hy/individuals/loans/mortgage/constructors#10751",
+  "notes": "ACBA: 3 buildings, 9 floors (2 public + 7 residential) + 3 underground parking levels (dignisi '12' counts underground); exploitation bldg 1-2 17.05.2026, bldg 3 17.05.2027"
+ },
+ {
+  "id": "dignisi-139",
+  "title": "Urmia",
+  "stage": null,
+  "floors": "17",
+  "completion": "2026-12",
+  "evidence_url": "https://myhome.am/en/building/231",
+  "notes": "myhome exploitation 12/2026; arcada.am says 'Ավարտ 12/2025' (construction end); dignisi handover 2026"
+ },
+ {
+  "id": "dignisi-260",
+  "title": "Yerevan View",
+  "stage": null,
+  "floors": null,
+  "completion": "2025",
+  "evidence_url": "https://dignisi.am/en/projects/yerevan-view-279",
+  "notes": "'Construction completion: 2025', ready to move in; floors not published"
+ },
+ {
+  "id": "elitegroupam-680",
+  "title": "Elite Plaza Business Center",
+  "stage": null,
+  "floors": "19",
+  "completion": null,
+  "evidence_url": "http://elitegroup.am/en/projects/14/",
+  "notes": "19 floors, 2-level underground parking; completion date not published"
+ },
+ {
+  "id": "geoln-164",
+  "title": "Nairi Zaryana 74",
+  "stage": null,
+  "floors": "14",
+  "completion": "2013",
+  "evidence_url": "https://www.construction.am/apartments-in-new-developments/northern-ray-74-nairi-zaryan-street/",
+  "notes": "construction.am: Completion 2013 / Completed; developer: 14 floors; geoln's 'II кв. 2021' looks wrong"
+ },
+ {
+  "id": "hausam-349",
+  "title": "Haus AM House A5 (Arinj)",
+  "stage": null,
+  "floors": "2",
+  "completion": null,
+  "evidence_url": "https://haus.am/list/a5",
+  "notes": "2-storey house, under construction; no completion date published"
+ },
+ {
+  "id": "kp-118",
+  "title": "Garegin Hovsepyan  20/6",
+  "stage": null,
+  "floors": "8",
+  "completion": "2023-12",
+  "evidence_url": "https://www.construction.am/apartments-in-new-developments/g-t-building/",
+  "notes": "construction.am: 8 above ground + 1 below, construction Dec 2020 - Dec 2023, completed; karucapatoxic commissioning 12.2023"
+ },
+ {
+  "id": "kp-138",
+  "title": "Aria Residence",
+  "stage": null,
+  "floors": "18",
+  "completion": "2026-12",
+  "evidence_url": "https://www.newcity.am/en/projects/aria-residence",
+  "notes": "Developer: End of construction December 2026, 18 floors, 2 buildings; myhome exploitation 04/2026 / completion 07/2027; karucapatoxic 06.2026"
+ },
+ {
+  "id": "kp-185",
+  "title": "Gyurjyan Cascade",
+  "stage": null,
+  "floors": "14,16",
+  "completion": "2029-12",
+  "evidence_url": "https://artco.am/?app=AppProject&page=district&project_id=12&project_status_id=1",
+  "notes": "Developer: construction to finish end of 2029; ar-go says 30.11.2030; 30 buildings, 1220 apartments, 14/16 floors"
+ },
+ {
+  "id": "kp-202",
+  "title": "Arare Abovyan",
+  "stage": null,
+  "floors": "16",
+  "completion": "2028-06",
+  "evidence_url": "https://myhome.am/en/building/281",
+  "notes": "16 above-ground floors, 4 buildings (arare.am); myhome exploitation 06/2028, completion 12/2028; karucapatoxic 06.2028"
+ },
+ {
+  "id": "kp-51",
+  "title": "Norq Residential Complex",
+  "stage": null,
+  "floors": "10",
+  "completion": "2016-06",
+  "evidence_url": "https://novostroiki-yerevan.com/en/p/norq-residential-complex/",
+  "notes": "novostroiki completion 06/2016, floors 10 (karucapatoxic floors 10)"
+ },
+ {
+  "id": "kp-70",
+  "title": "Karapet Ulnetsi 56/14",
+  "stage": null,
+  "floors": "9",
+  "completion": "2023-12",
+  "evidence_url": "https://novostroiki-yerevan.com/en/p/karapet-ulnetsi-56-14/",
+  "notes": "novostroiki floors 9, completion 2023-12; karucapatoxic commissioning 12.2023"
+ },
+ {
+  "id": "kp-95",
+  "title": "Adonts Residential Complex",
+  "stage": null,
+  "floors": "16",
+  "completion": "2024",
+  "evidence_url": "https://charagayt.am/?app=AppProject&page=district&project_id=3",
+  "notes": "2 buildings x 16 floors, 210 apartments; construction finish 2024"
+ },
+ {
+  "id": "movsesyanandpartnersam-513",
+  "title": "Garni project",
+  "stage": null,
+  "floors": "2",
+  "completion": "2022-06",
+  "evidence_url": "https://muargroup.am/projects/4",
+  "notes": "API: start 2021-03-17, end 2022-06-13, total_floors 2, status completed"
+ },
+ {
+  "id": "myhomeam-768",
+  "title": "Elite Build · Mkhitar Heratsi Street 9/10",
+  "stage": null,
+  "floors": "3",
+  "completion": "2027-12",
+  "evidence_url": "https://myhome.am/en/building/354",
+  "notes": "myhome exploitation 12/2027 (completion field 08/2029)"
+ },
+ {
+  "id": "myhomeam-793",
+  "title": "GNELYAN BUILDING · 7th District",
+  "stage": null,
+  "floors": "2",
+  "completion": "2026-08",
+  "evidence_url": "https://myhome.am/en/building/322",
+  "notes": "myhome exploitation/completion 08/2026"
+ },
+ {
+  "id": "myhomeam-813",
+  "title": "Smart City · Jrvej 49 1",
+  "stage": null,
+  "floors": "5",
+  "completion": "2027-09",
+  "evidence_url": "https://myhome.am/en/building/252",
+  "notes": "myhome exploitation 09/2027, completion 01/2028"
+ },
+ {
+  "id": "myhomeam-847",
+  "title": "Best Land · Greenland district",
+  "stage": null,
+  "floors": "2-3",
+  "completion": "2025-01",
+  "evidence_url": "https://www.capitalbuild.am/en/projects/project/bestland",
+  "notes": "Developer: townhouses 2-3 floors; myhome exploitation 01/2025"
+ },
+ {
+  "id": "myhomeam-884",
+  "title": "Shahumyan  7, 1-in Masnashenk",
+  "stage": null,
+  "floors": "12",
+  "completion": "2026-02",
+  "evidence_url": "https://myhome.am/en/building/87",
+  "notes": "myhome exploitation/completion 02/2026 (building 1)"
+ },
+ {
+  "id": "novostroikiyerevancom-895",
+  "title": "NARMARK · 30th Street 2nd Lane 13/2",
+  "stage": null,
+  "floors": null,
+  "completion": "2026-11",
+  "evidence_url": "https://novostroiki-yerevan.com/en/p/30th-street-2nd-lane-13-2/",
+  "notes": "Completion 11/2026; floors not published"
+ },
+ {
+  "id": "redgroupam-1202",
+  "title": "Villa Town House · «Davtashen Town» Residential District Samvel Gevorgyan 106/21",
+  "stage": null,
+  "floors": null,
+  "completion": "2025-02",
+  "evidence_url": "https://redgroup.am/projects/bnakaran-karucapatoxic-davtashentown",
+  "notes": "End of construction 15.02.25 (start 15.03.23); townhouses, floors not stated"
+ },
+ {
+  "id": "acbaam-1121",
+  "title": "Modern 5 Rezidens",
+  "stage": null,
+  "floors": "12",
+  "completion": "2028-10",
+  "evidence_url": "https://www.acba.am/hy/individuals/loans/mortgage/constructors#10503",
+  "notes": "ACBA: 12 floors, exploitation date 09.10.2028"
+ },
+ {
+  "id": "capitalbuildam-447",
+  "title": "White Sky Residence",
+  "stage": null,
+  "floors": "21,25,31",
+  "completion": null,
+  "evidence_url": "https://www.capitalbuild.am/en/projects/project/white-sky-residence",
+  "notes": "3 towers of 21, 25, 31 floors; no completion date published"
+ },
+ {
+  "id": "constructionam-176",
+  "title": "National Social Housing Association (ASBA) · Dilijan Housing Complex",
+  "stage": null,
+  "floors": "4",
+  "completion": "2014",
+  "evidence_url": "https://www.construction.am/apartments-in-new-developments/dilijan-housing-complex/",
+  "notes": "Completed 2014; 4-storey apartment building plus 2-storey duplex terraced houses"
+ },
+ {
+  "id": "constructionam-220",
+  "title": "Quadra Construction · Acharyan 37/34",
+  "stage": null,
+  "floors": null,
+  "completion": "2021",
+  "evidence_url": "https://www.construction.am/apartments-in-new-developments/37-acharyan/",
+  "notes": "Completion 2021 / Completed; floors not published"
+ },
+ {
+  "id": "constructionam-243",
+  "title": "Snart Construction Company · A. Mikoyan 2/2",
+  "stage": null,
+  "floors": null,
+  "completion": "2013",
+  "evidence_url": "https://www.construction.am/apartments-in-new-developments/rivera-mikoyan-st-2-2-davtashen/",
+  "notes": "Completion 2013 / Completed; floors not published"
+ },
+ {
+  "id": "constructionam-42",
+  "title": "Shinart Group · Nazarbekyan 41/1",
+  "stage": null,
+  "floors": "7-21",
+  "completion": "2023",
+  "evidence_url": "https://www.construction.am/apartments-in-new-developments/ajapnyak-nazarbekyan-towers/",
+  "notes": "Floors above ground 7-21, 3 buildings, completed 2023"
+ },
+ {
+  "id": "constructionam-66",
+  "title": "MGE Construction · Saralanj 23",
+  "stage": null,
+  "floors": null,
+  "completion": "2026-12",
+  "evidence_url": "https://www.construction.am/apartments-in-new-developments/mia-town/",
+  "notes": "Construction period Sep 2022 - Dec 2026; floors field empty on source (current '11' not confirmed); 196 apartments 50-125 m²"
+ },
+ {
+  "id": "redinvestam-542",
+  "title": "Argavand Towers",
+  "stage": null,
+  "floors": "14",
+  "completion": "2030-12",
+  "evidence_url": "https://redgroup.am/projects/bnakarankarucapatoxic-argavand-towers",
+  "notes": "Construction start planned Sep 2026, completion Dec 2030 (Armenian text); unit floors 2-14 (a '114' floor value is a data typo)"
+ },
+ {
+  "id": "redinvestam-564",
+  "title": "Slavonic Residence",
+  "stage": null,
+  "floors": "10",
+  "completion": "2026-06",
+  "evidence_url": "https://redgroup.am/projects/bnakaran-karucapatoxic-slavonakan",
+  "notes": "Construction start Jan 2024, completion first half of 2026; unit floors 2-10"
+ },
+ {
+  "id": "etagi-80",
+  "title": "E1 Residence",
+  "stage": null,
+  "floors": "4-14",
+  "completion": "2026-12",
+  "evidence_url": "https://www.construction.am/apartments-in-new-developments/norakaruyc-avanum-acharyan-e1-residence/",
+  "notes": "construction.am: floors above ground 4-14, construction Oct 2022 - Dec 2026, 132 apartments 48-233 m²"
+ }
+]

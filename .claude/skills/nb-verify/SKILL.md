@@ -14,6 +14,8 @@ python3 scraper/pipeline.py audit <kind> --batches 3
 ```
 Queues land in `scraper/reports/queue-<kind>-<i>.json`. Report the counts. If a queue is empty, say so and skip that kind. If a queue is huge (> 150), confirm with the user or verify the highest-impact items first (largest discount, most-viewed, flagged developers).
 
+For a FULL recheck of every project (user asks to "recheck all"): build one queue per ~42 projects from `web/data/projects.json`, use `templates/full.md` (price + numbers + stage + location in one pass), output `scraper/recheck_<YYYYMMDD>_<i>.json`, then `python3 scraper/apply_recheck.py <YYYYMMDD>` before building. Keep ≤ 18 agents (20-agent concurrency limit).
+
 ## 2. Launch agents (background, one per batch, in a single message)
 - Prompt = the matching template in `templates/` (`prices.md`, `locations.md`, `stages.md`) with placeholders replaced:
   - `INPUT_FILE` → the queue file,

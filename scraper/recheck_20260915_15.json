@@ -1,0 +1,1413 @@
+[
+ {
+  "id": "4acapitalam-408",
+  "title": "Aivazovsky Residential Complex",
+  "price": {
+   "verdict": "confirmed",
+   "usd_m2": 2118,
+   "amd_m2": 770000,
+   "usd_m2_max": 2971,
+   "currency_shown": "AMD",
+   "apartment_from_total": null,
+   "apartment_from_area_m2": null,
+   "evidence_url": "https://citynest.am/aivazovsky/en",
+   "evidence_text": "AMD 770․000-1.080․000 Price 90 Apartments sqm 38-228 Apartments area",
+   "sold_out": false,
+   "wrong_merge_urls": [],
+   "notes": "Range per m² from City Nest (sales agent); 4acapital.am project page gives no price. Max 1,080,000 AMD/m² (record max equalled min). No unit list / cheapest total published."
+  },
+  "numbers": {
+   "floors": null,
+   "completion": "2027-12",
+   "evidence_url": "https://4acapital.am/projects/aivazovsky-residential-complex/",
+   "notes": "Completion date Dec 2027 (both sources); 90 apartments 38-228 m², 66 parking; floors not published."
+  },
+  "location": {
+   "verdict": "correct",
+   "lat": 40.204574,
+   "lng": 44.511176,
+   "precision": "street",
+   "address": "11/13 Nairi Zaryan St, Arabkir, Yerevan",
+   "evidence_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&countrycodes=am&q=11%20Nairi%20Zaryan%20Street%2C%20Yerevan",
+   "evidence": "No map on sources; Nominatim has only Nairi Zaryan St segments (40.20476,44.51003 ~100 m; street spans 44.507-44.524)",
+   "notes": "House 11/13 not in OSM; pin is on the street but house position unconfirmed."
+  }
+ },
+ {
+  "id": "apexgmam-415",
+  "title": "Amiryan 26/4",
+  "price": {
+   "verdict": "unverifiable",
+   "usd_m2": null,
+   "amd_m2": null,
+   "usd_m2_max": null,
+   "currency_shown": "AMD",
+   "apartment_from_total": null,
+   "apartment_from_area_m2": null,
+   "evidence_url": "https://apex-gm.am/finished/",
+   "evidence_text": "",
+   "sold_out": null,
+   "wrong_merge_urls": [
+    "http://elitegroup.am/en/projects/9/"
+   ],
+   "notes": "Developer lists Amiryan 26/4 under finished projects with no prices. elitegroup.am/projects/9 is Amiryan 27 (Elite Group, Amiryan/Saryan corner, 18 floors, sold out) - a different building; the '18 floors' came from it."
+  },
+  "numbers": {
+   "floors": null,
+   "completion": null,
+   "evidence_url": "https://apex-gm.am/finished/",
+   "notes": "Developer: finished, two-level parking, no floor count published. Remove 18 floors (from Elite Group Amiryan 27)."
+  },
+  "location": {
+   "verdict": "correct",
+   "lat": 40.18314,
+   "lng": 44.50578,
+   "precision": "address",
+   "address": "26/4 Amiryan St (between Amiryan and Buzand streets), Kentron, Yerevan",
+   "evidence_url": "https://apex-gm.am/finished/",
+   "evidence": "Developer: between Amiryan and Buzand streets next to renovated park; Amiryan 26 = Theatre & Cinema Institute, OSM 40.18254,44.50576 (~65 m)",
+   "notes": "No map on source. OSM tags house 26 on Pap Tagavor lane (the institute), which lies between Amiryan and Buzand."
+  }
+ },
+ {
+  "id": "argoam-1105",
+  "title": "Nor Hachn Hills",
+  "price": {
+   "verdict": "confirmed",
+   "usd_m2": 1073,
+   "amd_m2": 390000,
+   "usd_m2_max": 1073,
+   "currency_shown": "AMD",
+   "apartment_from_total": 14118000,
+   "apartment_from_area_m2": 36.2,
+   "evidence_url": "https://ar-go.am/project/nor-hatchn-hills",
+   "evidence_text": "Սկսած 390,000 դրամ 1ք/մ համար; Apartment 8 Building 1, 36.2 m², 390,000, 14,118,000",
+   "sold_out": false,
+   "wrong_merge_urls": [],
+   "notes": "Unit table shows 393 available units, all listed at 390,000 AMD/m² on page 1; project areas from 35.4 m² so the cheapest unit may be ~13.8M AMD on later pages."
+  },
+  "numbers": {
+   "floors": "11",
+   "completion": "2029-08",
+   "evidence_url": "https://ar-go.am/project/nor-hatchn-hills",
+   "notes": "1 underground + 11 above-ground floors, 2 buildings, 420 apartments; start 01.08.2026, end 01.08.2029."
+  },
+  "location": {
+   "verdict": "moved",
+   "lat": 40.306639,
+   "lng": 44.584031,
+   "precision": "exact",
+   "address": "8/3 Zoravar Andranik St, Nor Hachn, Kotayk",
+   "evidence_url": "https://ar-go.am/project/nor-hatchn-hills",
+   "evidence": "Yandex org widget 'ЖК Ачн Хиллс' (org 7017804950) ll=44.584031,40.306639 z=18.6; ~450 m from pin",
+   "notes": "Nominatim 'Zoravar Andranik St, Nor Hachn' resolves to a same-named street in Nor Geghi village (40.321,44.574) - not used."
+  }
+ },
+ {
+  "id": "artresidenceam-321",
+  "title": "Premium Complex Park Building",
+  "price": {
+   "verdict": "unverifiable",
+   "usd_m2": null,
+   "amd_m2": null,
+   "usd_m2_max": null,
+   "currency_shown": "USD",
+   "apartment_from_total": null,
+   "apartment_from_area_m2": null,
+   "evidence_url": "https://artresidence.am/en/filter/Park",
+   "evidence_text": "N 5-1 ... 218.5 m2 contractual For Sale (4 of 4 available units 'contractual')",
+   "sold_out": false,
+   "wrong_merge_urls": [],
+   "notes": "18 apartments, 4 available (119.6-234.2 m²), all priced 'contractual' (on request)."
+  },
+  "numbers": {
+   "floors": "5",
+   "completion": "2025",
+   "evidence_url": "https://artresidence.am/en/buildings/Park",
+   "notes": "Developer: 5-storey building, 18 apartments, completion planned 2nd half of 2025 (floorsCount 6 incl. -1 parking)."
+  },
+  "location": {
+   "verdict": "moved",
+   "lat": 40.221907,
+   "lng": 44.493322,
+   "precision": "exact",
+   "address": "31/12 Tigran Petrosyan St, Davtashen, Yerevan",
+   "evidence_url": "https://artresidence.am/en/buildings/Park",
+   "evidence": "Developer project JSON latitude 40.221907, longitude 44.493322 (~720 m from pin)",
+   "notes": "Next to Reebok sports complex and Davtashen park."
+  }
+ },
+ {
+  "id": "dekaam-466",
+  "title": "Byurakan Resort",
+  "price": {
+   "verdict": "unverifiable",
+   "usd_m2": null,
+   "amd_m2": null,
+   "usd_m2_max": null,
+   "currency_shown": "AMD",
+   "apartment_from_total": null,
+   "apartment_from_area_m2": null,
+   "evidence_url": "https://deka.am/resort/",
+   "evidence_text": "ԲՅՈՒՐԱԿԱՆ ՌԵԶՈՐԹ ՇՈՒՏՈՎ... (coming soon)",
+   "sold_out": null,
+   "wrong_merge_urls": [
+    "https://movsesyanandpartners.am/project.html#byurakan-project",
+    "https://step-construction.am/project/byurakan-villas/"
+   ],
+   "notes": "Deka page only says 'Byurakan Resort - coming soon'. Step Construction page is a delivered 4-villa complex on Byurakan 47th st by another company; Movsesyan & Partners lists a bare 'BYURAKAN' project - neither can be tied to Deka's resort."
+  },
+  "numbers": {
+   "floors": null,
+   "completion": null,
+   "evidence_url": "https://deka.am/resort/",
+   "notes": "Nothing published."
+  },
+  "location": {
+   "verdict": "unlocatable",
+   "lat": 40.331065,
+   "lng": 44.268482,
+   "precision": "district",
+   "address": "Byurakan, Aragatsotn",
+   "evidence_url": "https://deka.am/resort/",
+   "evidence": "Village name only; no map",
+   "notes": ""
+  }
+ },
+ {
+  "id": "dignisi-122",
+  "title": "Komitas Park Residential District",
+  "price": {
+   "verdict": "confirmed",
+   "usd_m2": 1733,
+   "amd_m2": 630000,
+   "usd_m2_max": null,
+   "currency_shown": "AMD",
+   "apartment_from_total": null,
+   "apartment_from_area_m2": null,
+   "evidence_url": "https://dignisi.am/en/projects/komitas-park-residential-district-363",
+   "evidence_text": "from 630,000 ֏ /m² ... Handover 2028 Areas 61.5–118 m² Floors 16",
+   "sold_out": false,
+   "wrong_merge_urls": [],
+   "notes": "Dignisi updated 15 Sep 2026; developer site komitaspark.am has no prices."
+  },
+  "numbers": {
+   "floors": "12,16",
+   "completion": "2028",
+   "evidence_url": "https://komitaspark.am/en/p/about-district",
+   "notes": "Developer: 12- and 16-storey buildings, 24 buildings in phases 1-2 + 15 in phase 3; Dignisi handover 2028."
+  },
+  "location": {
+   "verdict": "moved",
+   "lat": 40.211,
+   "lng": 44.5175,
+   "precision": "street",
+   "address": "Komitas Park district between Griboyedov, Mamikonyants and N. Tigranyan streets (N. Tigranyan dead end 1), Arabkir, Yerevan",
+   "evidence_url": "https://komitaspark.am/en/p/about-district",
+   "evidence": "Developer: district between Griboyedov, Mamikonyants and Tigranyan streets; Nominatim Griboyedov 40.2111,44.5142, Mamikonyants 40.2095,44.5153-40.2082,44.5267, N. Tigranyan 40.2052-40.2126,44.5201; sales office Mamikonyants 38 = 40.2093,44.5212",
+   "notes": "Current pin (re-geocoded) is ~1.1 km SE of that block; Dignisi JSON-LD geo 40.496,44.363 is wrong. Point is the centre of the bounding streets, not a building."
+  }
+ },
+ {
+  "id": "dignisi-208",
+  "title": "Kanach Purak",
+  "price": {
+   "verdict": "confirmed",
+   "usd_m2": 1376,
+   "amd_m2": 500000,
+   "usd_m2_max": null,
+   "currency_shown": "AMD",
+   "apartment_from_total": null,
+   "apartment_from_area_m2": null,
+   "evidence_url": "https://dignisi.am/en/projects/kanach-purak-266",
+   "evidence_text": "from 500,000 ֏ /m² ... Areas 34.3–78.1 m² Floors 14",
+   "sold_out": false,
+   "wrong_merge_urls": [],
+   "notes": "Dignisi updated 14 Sep 2026; unit prices only in app. No developer site found."
+  },
+  "numbers": {
+   "floors": "14",
+   "completion": "2024-12",
+   "evidence_url": "https://dignisi.am/en/projects/kanach-purak-266",
+   "notes": "'Ready to move in'; text: commissioned December 2024."
+  },
+  "location": {
+   "verdict": "correct",
+   "lat": 40.209666,
+   "lng": 44.551705,
+   "precision": "exact",
+   "address": "27/95 Rubinyants St, Kanaker-Zeytun, Yerevan",
+   "evidence_url": "https://dignisi.am/en/projects/kanach-purak-266",
+   "evidence": "Dignisi JSON-LD geo 40.209666,44.551705 = pin",
+   "notes": ""
+  }
+ },
+ {
+  "id": "dignisi-92",
+  "title": "Ardy",
+  "price": {
+   "verdict": "confirmed",
+   "usd_m2": 2132,
+   "amd_m2": 775000,
+   "usd_m2_max": null,
+   "currency_shown": "AMD",
+   "apartment_from_total": null,
+   "apartment_from_area_m2": null,
+   "evidence_url": "https://dignisi.am/en/projects/ardy-381",
+   "evidence_text": "from 775,000 ֏ /m² ... Handover 2030 Areas 26–205 m² Floors 12",
+   "sold_out": false,
+   "wrong_merge_urls": [],
+   "notes": "Dignisi updated 14 Sep 2026; unit-level prices only in app."
+  },
+  "numbers": {
+   "floors": "12",
+   "completion": "2030",
+   "evidence_url": "https://dignisi.am/en/projects/ardy-381",
+   "notes": ""
+  },
+  "location": {
+   "verdict": "correct",
+   "lat": 40.203947,
+   "lng": 44.530023,
+   "precision": "exact",
+   "address": "13/3 Davit Anhaght St, Kanaker-Zeytun, Yerevan",
+   "evidence_url": "https://dignisi.am/en/projects/ardy-381",
+   "evidence": "Dignisi JSON-LD geo = pin",
+   "notes": ""
+  }
+ },
+ {
+  "id": "filishinam-684",
+  "title": "Barekamutyun Residential Complex",
+  "price": {
+   "verdict": "unverifiable",
+   "usd_m2": null,
+   "amd_m2": null,
+   "usd_m2_max": null,
+   "currency_shown": "AMD",
+   "apartment_from_total": null,
+   "apartment_from_area_m2": null,
+   "evidence_url": "http://filishin.am/projects/",
+   "evidence_text": "",
+   "sold_out": null,
+   "wrong_merge_urls": [],
+   "notes": "Contractor portfolio entry FL-14 'Barekamutyun Residential Complex', years: Delivered; no sales or prices."
+  },
+  "numbers": {
+   "floors": null,
+   "completion": null,
+   "evidence_url": "http://filishin.am/projects/",
+   "notes": "No floors/date published ('Delivered')."
+  },
+  "location": {
+   "verdict": "unlocatable",
+   "lat": 40.19694,
+   "lng": 44.495032,
+   "precision": "district",
+   "address": "Barekamutyun district, Arabkir, Yerevan",
+   "evidence_url": "http://filishin.am/projects/",
+   "evidence": "Address given only as 'Barekamutyun district'; no map",
+   "notes": "Pin stays at Barekamutyun metro area."
+  }
+ },
+ {
+  "id": "greenrockam-478",
+  "title": "Green Rock Multifunctional Complex Dilijan",
+  "price": {
+   "verdict": "unverifiable",
+   "usd_m2": null,
+   "amd_m2": null,
+   "usd_m2_max": null,
+   "currency_shown": "AMD",
+   "apartment_from_total": null,
+   "apartment_from_area_m2": null,
+   "evidence_url": "https://greenrock.am/project/multifunctional-complex/",
+   "evidence_text": "",
+   "sold_out": null,
+   "wrong_merge_urls": [],
+   "notes": "Under design; hotel, music hall, co-working, co-living (for employees/students) - not a residential sale project, no prices."
+  },
+  "numbers": {
+   "floors": null,
+   "completion": null,
+   "evidence_url": "https://greenrock.am/project/multifunctional-complex/",
+   "notes": "Category 'Under design'; ~60,000 m² plot; no floors/dates."
+  },
+  "location": {
+   "verdict": "unlocatable",
+   "lat": 40.741724,
+   "lng": 44.86883,
+   "precision": "district",
+   "address": "Dilijan, Tavush",
+   "evidence_url": "https://greenrock.am/project/multifunctional-complex/",
+   "evidence": "Only 'Dilijan, Tavush Region'; no map or street",
+   "notes": ""
+  }
+ },
+ {
+  "id": "kp-10",
+  "title": "Luyser Residential Complex",
+  "price": {
+   "verdict": "confirmed",
+   "usd_m2": 2249,
+   "amd_m2": 817439,
+   "usd_m2_max": 3373,
+   "currency_shown": "AMD",
+   "apartment_from_total": 90000000,
+   "apartment_from_area_m2": 88.3,
+   "evidence_url": "https://luyser.am/en/apartment/142",
+   "evidence_text": "A 27 apartment 90 000 000 ֏ ... floor 5 area 88.3 m2 (min/m²: A 101 90 000 000 ֏ / 110.1 m2)",
+   "sold_out": false,
+   "wrong_merge_urls": [],
+   "notes": "Developer unit plans: 18 Free, 7 Reserved, ~405 Sold across buildings A-D. Free units 90-135M AMD, 88.3-114.9 m²; min 817,439 AMD/m² (A101 110.1 m²), max 1,226,158 (C101). karucapatoxic 54M/62.1 m² is stale (Jan 2026) - no such unit free now; etagi 'from 835,909 ֏/m²'."
+  },
+  "numbers": {
+   "floors": "16,18",
+   "completion": "2024",
+   "evidence_url": "https://luyser.am/en/apartments",
+   "notes": "Buildings A,B 18 floors; C,D 16. Developer: commissioned 2024 (karucapatoxic end 2023-12)."
+  },
+  "location": {
+   "verdict": "correct",
+   "lat": 40.189126,
+   "lng": 44.467345,
+   "precision": "exact",
+   "address": "23/7 Kirk Kerkorian St, Malatia-Sebastia, Yerevan",
+   "evidence_url": "https://karucapatoxic.am/en/10",
+   "evidence": "karucapatoxic JSON-LD geo 40.18904,44.46716 (~18 m)",
+   "notes": ""
+  }
+ },
+ {
+  "id": "kp-123",
+  "title": "Pullman Residences Yerevan",
+  "price": {
+   "verdict": "confirmed",
+   "usd_m2": 4740,
+   "amd_m2": 1723000,
+   "usd_m2_max": 5790,
+   "currency_shown": "USD",
+   "apartment_from_total": null,
+   "apartment_from_area_m2": null,
+   "evidence_url": "https://ac-box.com/novostroyki/pullman-residences",
+   "evidence_text": "от $4 740 до $5 790 / м² · сдача 2027 · застройщик Technotun",
+   "sold_out": false,
+   "wrong_merge_urls": [],
+   "notes": "Developer site (pullmanyerevan.com) and karucapatoxic/construction.am publish no prices; only the ac-box aggregator shows a USD range."
+  },
+  "numbers": {
+   "floors": "15",
+   "completion": "2027",
+   "evidence_url": "https://www.construction.am/apartments-in-new-developments/norakaruyc-bnakaran-norqi-ayginer-pullman-residences-yerevan/",
+   "notes": "15 above ground + 4 below, 391 apartments, construction 2024-2027; karucapatoxic end 2027-12-31."
+  },
+  "location": {
+   "verdict": "correct",
+   "lat": 40.182839,
+   "lng": 44.536555,
+   "precision": "exact",
+   "address": "180 Norki Ayginer St, Nork-Marash, Yerevan",
+   "evidence_url": "https://karucapatoxic.am/en/123",
+   "evidence": "karucapatoxic !2z marker 40.18217,44.53603 (~85 m); developer JSON-LD 40.18315,44.53711 (~55 m)",
+   "notes": ""
+  }
+ },
+ {
+  "id": "kp-17",
+  "title": "Davit Bek",
+  "price": {
+   "verdict": "unverifiable",
+   "usd_m2": null,
+   "amd_m2": null,
+   "usd_m2_max": null,
+   "currency_shown": "AMD",
+   "apartment_from_total": null,
+   "apartment_from_area_m2": null,
+   "evidence_url": "https://armconstruct.am/en/projects/davit-bek-290-nor-norq",
+   "evidence_text": "291 sold apartment 9 booked apartment ... Available apartments: There are no apartments with the selected layout",
+   "sold_out": true,
+   "wrong_merge_urls": [],
+   "notes": "Developer (rendered page): no available apartments, 291 sold + 9 booked. karucapatoxic still lists min unit 45,400,000 AMD / 74.3 m² (611k/m²) and novostroiki $1,662 - leftovers."
+  },
+  "numbers": {
+   "floors": "16",
+   "completion": "2025-12",
+   "evidence_url": "https://armconstruct.am/en/projects/davit-bek-290-nor-norq",
+   "notes": "16 floors + 3 underground; end date December 2025 (karucapatoxic 2025-07)."
+  },
+  "location": {
+   "verdict": "correct",
+   "lat": 40.18441,
+   "lng": 44.563569,
+   "precision": "exact",
+   "address": "290 Davit Bek St (corner Ar. Mikoyan 2/1), Nor Nork 5th massif, Yerevan",
+   "evidence_url": "https://karucapatoxic.am/en/17",
+   "evidence": "karucapatoxic !2z marker 40.18436,44.56342 (~14 m)",
+   "notes": ""
+  }
+ },
+ {
+  "id": "kp-192",
+  "title": "Green Avan",
+  "price": {
+   "verdict": "corrected",
+   "usd_m2": 1210,
+   "amd_m2": 440000,
+   "usd_m2_max": 1210,
+   "currency_shown": "AMD",
+   "apartment_from_total": 28908000,
+   "apartment_from_area_m2": 65.7,
+   "evidence_url": "https://karucapatoxic.am/en/192",
+   "evidence_text": "price min 440000 max 440000 AMD; minApartmentPrice 28908000 / 65.7 m²",
+   "sold_out": false,
+   "wrong_merge_urls": [],
+   "notes": "370,000 AMD on greenprojectarm.com is explicitly the 'initial construction stage' price; the building is now finished and karucapatoxic lists 440,000 AMD/m² (unit update Jan 2026)."
+  },
+  "numbers": {
+   "floors": "10",
+   "completion": "2025-12",
+   "evidence_url": "https://karucapatoxic.am/en/192",
+   "notes": "Start 2023-04, end 2025-12-30."
+  },
+  "location": {
+   "verdict": "correct",
+   "lat": 40.224311,
+   "lng": 44.587767,
+   "precision": "exact",
+   "address": "8th street, Kh. Abovyan district, Avan, Yerevan",
+   "evidence_url": "https://www.greenprojectarm.com/",
+   "evidence": "Developer coords 40°13'27\"N 44°35'16\"E (40.22417,44.58778, ~25 m); karucapatoxic !2z 40.22453,44.58775",
+   "notes": ""
+  }
+ },
+ {
+  "id": "kp-209",
+  "title": "Rich Garden 2",
+  "price": {
+   "verdict": "confirmed",
+   "usd_m2": 1120,
+   "amd_m2": 407000,
+   "usd_m2_max": null,
+   "currency_shown": "AMD",
+   "apartment_from_total": 55000000,
+   "apartment_from_area_m2": 150,
+   "evidence_url": "https://www.acba.am/hy/individuals/loans/mortgage/constructors#12603",
+   "evidence_text": "Բնակարանի 1 ք.մ.-ի արժեք 407.000 ՀՀ դրամից սկսած; 119.8–159.8 քմ; available 7 of 10",
+   "sold_out": false,
+   "wrong_merge_urls": [],
+   "notes": "ACBA (updated 2026-08-07): 10 units, 7 available, 119.8-159.8 m². karucapatoxic min unit 55,000,000 AMD / 150 m² (=366,667/m², Jan 2026) conflicts with ACBA floor price; kept ACBA."
+  },
+  "numbers": {
+   "floors": "2",
+   "completion": "2027",
+   "evidence_url": "https://karucapatoxic.am/en/209",
+   "notes": "karucapatoxic floors 2, end 2027-01-30; ACBA: commissioning 2027."
+  },
+  "location": {
+   "verdict": "correct",
+   "lat": 40.236674,
+   "lng": 44.48036,
+   "precision": "exact",
+   "address": "Zovuni village, 36th St, 2nd lane, bldg 26, Nairi community, Kotayk",
+   "evidence_url": "https://karucapatoxic.am/en/209",
+   "evidence": "karucapatoxic JSON-LD/embed 40.236674,44.4803601 = pin",
+   "notes": ""
+  }
+ },
+ {
+  "id": "kp-33",
+  "title": "19/9 Kirk Kerkorian",
+  "price": {
+   "verdict": "confirmed",
+   "usd_m2": 1541,
+   "amd_m2": 560000,
+   "usd_m2_max": 1541,
+   "currency_shown": "AMD",
+   "apartment_from_total": 47600000,
+   "apartment_from_area_m2": 85,
+   "evidence_url": "https://karucapatoxic.am/en/33",
+   "evidence_text": "price min 560000 max 560000 AMD; minApartmentPrice 47600000 / 85 m²",
+   "sold_out": false,
+   "wrong_merge_urls": [],
+   "notes": "Only aggregator data: karucapatoxic per-m² price last updated 2023-01, min unit Jan 2026; novostroiki $1,524/m². No developer site; may be stale."
+  },
+  "numbers": {
+   "floors": "6",
+   "completion": "2025-05",
+   "evidence_url": "https://karucapatoxic.am/en/33",
+   "notes": ""
+  },
+  "location": {
+   "verdict": "correct",
+   "lat": 40.190389,
+   "lng": 44.468222,
+   "precision": "exact",
+   "address": "19/9 Kirk Kerkorian St, Malatia-Sebastia, Yerevan",
+   "evidence_url": "https://karucapatoxic.am/en/33",
+   "evidence": "karucapatoxic !2z marker 40.19039,44.46822 = pin",
+   "notes": ""
+  }
+ },
+ {
+  "id": "kp-58",
+  "title": "Arshakunyats 192",
+  "price": {
+   "verdict": "confirmed",
+   "usd_m2": 1926,
+   "amd_m2": 700000,
+   "usd_m2_max": 2063,
+   "currency_shown": "AMD",
+   "apartment_from_total": 51750000,
+   "apartment_from_area_m2": 69,
+   "evidence_url": "https://karucapatoxic.am/en/58",
+   "evidence_text": "price min 700000 max 750000 AMD; minApartmentPrice 51750000 / 69 m²",
+   "sold_out": false,
+   "wrong_merge_urls": [],
+   "notes": "karucapatoxic m² range updated 2023-04, min unit Jan 2026; novostroiki $2,040/m². construction.am: no price. geoln '1300$' is old - ignore."
+  },
+  "numbers": {
+   "floors": "14",
+   "completion": "2023-10",
+   "evidence_url": "https://www.construction.am/apartments-in-new-developments/arshakunyats-186/",
+   "notes": "construction.am: completed, construction Apr 2021 - Oct 2023, 14 above + 4 below; karucapatoxic end 2024-01."
+  },
+  "location": {
+   "verdict": "correct",
+   "lat": 40.144812,
+   "lng": 44.496797,
+   "precision": "exact",
+   "address": "192 Arshakunyats Ave, Shengavit, Yerevan",
+   "evidence_url": "https://karucapatoxic.am/en/58",
+   "evidence": "karucapatoxic !2z marker 40.14475,44.49675 (~8 m); construction.am 40.14573,44.49632 (~110 m)",
+   "notes": "construction.am URL slug says arshakunyats-186 but page is 'Arshakunyats 192, Orient Stone' - same building."
+  }
+ },
+ {
+  "id": "kp-81",
+  "title": "Antara Inn",
+  "price": {
+   "verdict": "unverifiable",
+   "usd_m2": null,
+   "amd_m2": null,
+   "usd_m2_max": null,
+   "currency_shown": "AMD",
+   "apartment_from_total": null,
+   "apartment_from_area_m2": null,
+   "evidence_url": "https://metruminvest.am/en/project/antarainn",
+   "evidence_text": "\"slug\":\"antarainn\",\"title_en\":\"Antara Inn\",...\"sold_out\":1",
+   "sold_out": true,
+   "wrong_merge_urls": [],
+   "notes": "Developer flags Antara Inn sold out; Dignisi 'Not published'; construction.am 'No information available'. karucapatoxic 1,110,000 AMD/m² (94.49M/85.13 m²) and novostroiki $3,020 are leftovers of the last listed unit (m² price dated 2024-10)."
+  },
+  "numbers": {
+   "floors": "6",
+   "completion": "2024-11",
+   "evidence_url": "https://karucapatoxic.am/en/81",
+   "notes": "6 residential floors (developer); construction.am completed 2024; Dignisi ready to move in."
+  },
+  "location": {
+   "verdict": "correct",
+   "lat": 40.197349,
+   "lng": 44.510591,
+   "precision": "exact",
+   "address": "4/1 Leonid Azgaldyan St (Verin Antarayin), Kentron, Yerevan",
+   "evidence_url": "https://karucapatoxic.am/en/81",
+   "evidence": "karucapatoxic !2z marker 40.19731,44.51069 (~10 m); Dignisi geo 40.19743,44.51079",
+   "notes": ""
+  }
+ },
+ {
+  "id": "leningradyanam-484",
+  "title": "Manuk Abeghyan 14",
+  "price": {
+   "verdict": "unverifiable",
+   "usd_m2": null,
+   "amd_m2": null,
+   "usd_m2_max": null,
+   "currency_shown": "AMD",
+   "apartment_from_total": null,
+   "apartment_from_area_m2": null,
+   "evidence_url": "https://leningradyan.am/en/#projects-abeghyan-14",
+   "evidence_text": "Completed Nash Group LLC 14 Manuk Abeghyan Premium class building",
+   "sold_out": null,
+   "wrong_merge_urls": [],
+   "notes": "Completed portfolio item without prices. The record's 99,898,000 AMD / 64.45 m² and coords come from myhome/novostroiki 'Manuk Abeghyan 5' (a different building, Novatun) - drop them. The 500-650k AMD FAQ price is for Leningradyan 19/12."
+  },
+  "numbers": {
+   "floors": null,
+   "completion": null,
+   "evidence_url": "https://leningradyan.am/en/#projects-abeghyan-14",
+   "notes": "No floors/date published for Abeghyan 14 (6 floors belongs to Abeghyan 19/1)."
+  },
+  "location": {
+   "verdict": "correct",
+   "lat": 40.178883,
+   "lng": 44.526461,
+   "precision": "street",
+   "address": "14 Manuk Abeghyan St, Kentron, Yerevan",
+   "evidence_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&countrycodes=am&q=14%20Manuk%20Abeghyan%20Street%2C%20Yerevan",
+   "evidence": "Nominatim street only: Manuk Abeghyan St 40.178893,44.525829 (~55 m); short street",
+   "notes": "House 14 not in OSM."
+  }
+ },
+ {
+  "id": "myhomeam-750",
+  "title": "ASR · Acharyan 43/20",
+  "price": {
+   "verdict": "confirmed",
+   "usd_m2": 1761,
+   "amd_m2": 640000,
+   "usd_m2_max": 1926,
+   "currency_shown": "AMD",
+   "apartment_from_total": 37700000,
+   "apartment_from_area_m2": 58,
+   "evidence_url": "https://myhome.am/en/building/272",
+   "evidence_text": "Price ( ֏ ) From 37.7 M Price sq.m. ( ֏ ) From 640 K ... Number of apartments 39/50",
+   "sold_out": false,
+   "wrong_merge_urls": [],
+   "notes": "myhome API: 39 available, none booked; 640,000 (75.9 m²) - 700,000 AMD/m²; cheapest 37,700,000 / 58 m². novostroiki $1,660."
+  },
+  "numbers": {
+   "floors": "6",
+   "completion": "2026-11",
+   "evidence_url": "https://myhome.am/en/building/272",
+   "notes": "6 floors + -1 parking."
+  },
+  "location": {
+   "verdict": "moved",
+   "lat": 40.22269,
+   "lng": 44.5606,
+   "precision": "street",
+   "address": "43/20 Hrachya Acharyan St, Avan, Yerevan",
+   "evidence_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&countrycodes=am&q=43%2F20%20%D5%80%D6%80%D5%A1%D5%B9%D5%B5%D5%A1%20%D4%B1%D5%B3%D5%A1%D5%BC%D5%B5%D5%A1%D5%B6%20%D6%83%D5%B8%D5%B2%D5%B8%D6%81",
+   "evidence": "myhome/novostroiki coords 40.2276262,44.5634772 are a placeholder shared by Acharyan 37/22, 39/23, 43/20; Nominatim for 43/20 returns only Acharyan St (40.22269,44.56060)",
+   "notes": "Current pin 40.216673,44.570085 coincides with novostroiki's HARMONY RESIDENCE point and is ~550 m east of Acharyan St. House 43/20 not in OSM; street-level point only."
+  }
+ },
+ {
+  "id": "myhomeam-778",
+  "title": "Eden Park · Mher Mkrtchyan district 1st street 30-32 6A",
+  "price": {
+   "verdict": "confirmed",
+   "usd_m2": 963,
+   "amd_m2": 350000,
+   "usd_m2_max": 1238,
+   "currency_shown": "AMD",
+   "apartment_from_total": 19898000,
+   "apartment_from_area_m2": 51.02,
+   "evidence_url": "https://myhome.am/en/building/345",
+   "evidence_text": "Price ( ֏ ) From 19.9 M Price sq.m. ( ֏ ) From 350 K ... Number of apartments 108/176",
+   "sold_out": false,
+   "wrong_merge_urls": [],
+   "notes": "myhome API: 108 available, 350,000-450,009 AMD/m²; cheapest 19,898,000 / 51.02 m²."
+  },
+  "numbers": {
+   "floors": "9",
+   "completion": "2031-06",
+   "evidence_url": "https://myhome.am/en/building/345",
+   "notes": "myhome: 9 floors for buildings 6A/5D; district text: 5-9 storey buildings."
+  },
+  "location": {
+   "verdict": "correct",
+   "lat": 40.225389,
+   "lng": 44.596984,
+   "precision": "exact",
+   "address": "Mher Mkrtchyan district 1st St 30-32, buildings 6A/5D, Arinj, Kotayk",
+   "evidence_url": "https://myhome.am/en/building/345",
+   "evidence": "myhome lat/lng 40.225389,44.596984 = pin",
+   "notes": "website field metruminvest.am: Metrum's own project list does not show Eden Park (construction.am lists it among Metrum projects)."
+  }
+ },
+ {
+  "id": "myhomeam-799",
+  "title": "Arm Construct · Gevorg Chaush 95 Z Masnashenk",
+  "price": {
+   "verdict": "unverifiable",
+   "usd_m2": null,
+   "amd_m2": null,
+   "usd_m2_max": null,
+   "currency_shown": "AMD",
+   "apartment_from_total": null,
+   "apartment_from_area_m2": null,
+   "evidence_url": "https://myhome.am/en/building/311",
+   "evidence_text": "HTTP 404; buildings/published/311 -> []",
+   "sold_out": null,
+   "wrong_merge_urls": [],
+   "notes": "Building Z (id 311) removed from myhome. Sibling Five Towers buildings still listed: B (307) from 580,357 AMD/m², D (309) 581,186, E (310) 580,153; complex cheapest 32,100,000 / 55.3 m². Developer Five Towers page: 929 sold, 129 booked, e.g. 79.4 m² fl.17 46,100,000 AMD."
+  },
+  "numbers": {
+   "floors": "23",
+   "completion": "2031-08",
+   "evidence_url": "https://armconstruct.am/en/projects/five-towers",
+   "notes": "Five Towers: 23 floors + 2 underground, end date August 2031 (myhome exploitation 2031-08-20)."
+  },
+  "location": {
+   "verdict": "correct",
+   "lat": 40.234176,
+   "lng": 44.436953,
+   "precision": "address",
+   "address": "95 Gevorg Chaush St (Five Towers), Proshyan, Kotayk",
+   "evidence_url": "https://myhome.am/en/building/310",
+   "evidence": "myhome lat/lng 40.234176,44.436953 for all Five Towers buildings = pin",
+   "notes": "Same point used for every building in the complex; developer Yandex map coords not exposed."
+  }
+ },
+ {
+  "id": "myhomeam-822",
+  "title": "New Age · Kirk Kerkorian Street 19/11",
+  "price": {
+   "verdict": "confirmed",
+   "usd_m2": 1554,
+   "amd_m2": 565000,
+   "usd_m2_max": 1761,
+   "currency_shown": "AMD",
+   "apartment_from_total": 54875000,
+   "apartment_from_area_m2": 87.8,
+   "evidence_url": "https://myhome.am/en/building/237",
+   "evidence_text": "Price ( ֏ ) From 54.9 M Price sq.m. ( ֏ ) From 565 K ... Number of apartments 9/216",
+   "sold_out": false,
+   "wrong_merge_urls": [],
+   "notes": "myhome API: 9 available, 565,000 (113.6 m²) - 640,000 AMD/m²; cheapest total 54,875,000 / 87.8 m². novostroiki $1,469/m² 'from $77,710' is stale."
+  },
+  "numbers": {
+   "floors": "16",
+   "completion": "2028-10",
+   "evidence_url": "https://myhome.am/en/building/237",
+   "notes": ""
+  },
+  "location": {
+   "verdict": "correct",
+   "lat": 40.189493,
+   "lng": 44.473874,
+   "precision": "exact",
+   "address": "19/11 Kirk Kerkorian St, Malatia-Sebastia, Yerevan",
+   "evidence_url": "https://myhome.am/en/building/237",
+   "evidence": "myhome lat/lng 40.189493,44.473874 = pin",
+   "notes": ""
+  }
+ },
+ {
+  "id": "myhomeam-857",
+  "title": "PALLADA TSAGHKADZOR · 5 Tsaghkunyats Square bldg 5",
+  "price": {
+   "verdict": "confirmed",
+   "usd_m2": 1568,
+   "amd_m2": 570000,
+   "usd_m2_max": 1898,
+   "currency_shown": "AMD",
+   "apartment_from_total": 32775000,
+   "apartment_from_area_m2": 57.5,
+   "evidence_url": "https://myhome.am/en/building/158",
+   "evidence_text": "Price ( ֏ ) From 32.8 M Price sq.m. ( ֏ ) From 570 K ... Number of apartments 55/111",
+   "sold_out": false,
+   "wrong_merge_urls": [],
+   "notes": "myhome unit API: 58 listed, 3 booked; available 570,000-690,000 AMD/m²; cheapest 32,775,000 AMD / 57.5 m² (previous record had 56.6 m²)."
+  },
+  "numbers": {
+   "floors": "14",
+   "completion": "2027-12",
+   "evidence_url": "https://myhome.am/en/building/158",
+   "notes": ""
+  },
+  "location": {
+   "verdict": "correct",
+   "lat": 40.531646,
+   "lng": 44.720252,
+   "precision": "exact",
+   "address": "5 Tsaghkunyats Square, building 5, Tsaghkadzor, Kotayk",
+   "evidence_url": "https://myhome.am/en/building/158",
+   "evidence": "myhome lat/lng 40.531646,44.720252 = pin",
+   "notes": ""
+  }
+ },
+ {
+  "id": "narmarkshinam-366",
+  "title": "NARMARK residential building near Davtashen",
+  "price": {
+   "verdict": "unverifiable",
+   "usd_m2": null,
+   "amd_m2": null,
+   "usd_m2_max": null,
+   "currency_shown": "AMD",
+   "apartment_from_total": null,
+   "apartment_from_area_m2": null,
+   "evidence_url": "https://narmarkshin.am/",
+   "evidence_text": "",
+   "sold_out": null,
+   "wrong_merge_urls": [
+    "https://myhome.am/en/building/96",
+    "https://novostroiki-yerevan.com/en/p/arno-babajanyan-street-111-1/",
+    "https://novavan.am/en/the-apartments-have-already-been-put-into-operation/",
+    "https://arare.am/project/davtashen/"
+   ],
+   "notes": "NARMARK (Vardenis-based contractor) site gives no project name, address or prices, only 'adjacent to Davtashen'. The 530,100 AMD/m² price is myhome 96 = Arno Babajanyan 111/1 (Tun Shin LLC, Malatia-Sebastia, 12 fl, built 06/2025); novostroiki is the same Babajanyan building; novavan is New Home LLC portfolio; arare.am is Davtashen 6, 40/1 by ARARE LLC (14 fl) - all different projects."
+  },
+  "numbers": {
+   "floors": null,
+   "completion": null,
+   "evidence_url": "https://narmarkshin.am/",
+   "notes": "Floors 14 / completion 2026-03 came from arare.am (different building); nothing published by NARMARK."
+  },
+  "location": {
+   "verdict": "unlocatable",
+   "lat": 40.219335,
+   "lng": 44.489885,
+   "precision": "district",
+   "address": "Adjacent to Davtashen, Yerevan (no address published)",
+   "evidence_url": "https://narmarkshin.am/",
+   "evidence": "Developer map embed is q=Armenia, Yerevan; text 'immediately adjacent to Davtashen district'",
+   "notes": "If the record is re-anchored to myhome 96 instead: Arno Babajanyan 111/1 at 40.164122,44.441597."
+  }
+ },
+ {
+  "id": "novostroikiyerevancom-954",
+  "title": "Eco House",
+  "price": {
+   "verdict": "unverifiable",
+   "usd_m2": null,
+   "amd_m2": null,
+   "usd_m2_max": null,
+   "currency_shown": "USD",
+   "apartment_from_total": null,
+   "apartment_from_area_m2": null,
+   "evidence_url": "https://novostroiki-yerevan.com/en/p/eco-house/",
+   "evidence_text": "Area from 55 m² Completion 2024-01 Status Sold out",
+   "sold_out": true,
+   "wrong_merge_urls": [],
+   "notes": "Sold out."
+  },
+  "numbers": {
+   "floors": null,
+   "completion": "2024-01",
+   "evidence_url": "https://novostroiki-yerevan.com/en/p/eco-house/",
+   "notes": ""
+  },
+  "location": {
+   "verdict": "correct",
+   "lat": 40.195333,
+   "lng": 44.572476,
+   "precision": "exact",
+   "address": "53/12 Moldovakan St, Nor Nork 2nd massif, Yerevan",
+   "evidence_url": "https://novostroiki-yerevan.com/en/p/eco-house/",
+   "evidence": "novostroiki JSON-LD geo = pin; OSM Moldovakan 53/4 40.19583,44.57264 and 53/13 40.19431,44.57489 within ~150 m",
+   "notes": ""
+  }
+ },
+ {
+  "id": "seraydevelopmentscom-381",
+  "title": "Otevan 2",
+  "price": {
+   "verdict": "unverifiable",
+   "usd_m2": null,
+   "amd_m2": null,
+   "usd_m2_max": null,
+   "currency_shown": "USD",
+   "apartment_from_total": null,
+   "apartment_from_area_m2": null,
+   "evidence_url": "https://seraydevelopments.com/portfolio/otevan-residence-2/",
+   "evidence_text": "",
+   "sold_out": null,
+   "wrong_merge_urls": [],
+   "notes": "Spec sheet only (listed as CURRENT Armenia project); no prices, floors or dates."
+  },
+  "numbers": {
+   "floors": null,
+   "completion": null,
+   "evidence_url": "https://seraydevelopments.com/construction-projects-in-yerevan-armenia/",
+   "notes": ""
+  },
+  "location": {
+   "verdict": "unlocatable",
+   "lat": 40.194694,
+   "lng": 44.513854,
+   "precision": "district",
+   "address": "Verin Antarayin (above Cascade), Kentron, Yerevan",
+   "evidence_url": "https://seraydevelopments.com/portfolio/otevan-residence-2/",
+   "evidence": "No address or map on live source pages",
+   "notes": ""
+  }
+ },
+ {
+  "id": "sundaytowersam-398",
+  "title": "Sunday Towers",
+  "price": {
+   "verdict": "confirmed",
+   "usd_m2": 3301,
+   "amd_m2": 1200000,
+   "usd_m2_max": 4814,
+   "currency_shown": "AMD",
+   "apartment_from_total": 93595500,
+   "apartment_from_area_m2": 69.33,
+   "evidence_url": "https://sundaytowers.am/en/buildings/z/",
+   "evidence_text": "Building #Z Area 39.01 - 344.24 m2 Price from 1.200.000 AMD Will be ready 2028",
+   "sold_out": false,
+   "wrong_merge_urls": [],
+   "notes": "api.sundaytowers.am floors/apartments: 16 available units in Z, 1,200,000 (floors 2-4) to 1,750,000 AMD/m²; cheapest available z05004 69.33 m² = 93,595,500 AMD. The 39.01 m² / 39,994,200 unit is not available."
+  },
+  "numbers": {
+   "floors": "10",
+   "completion": "2028",
+   "evidence_url": "https://api.sundaytowers.am/api/buildings",
+   "notes": "Building Z floors_count 10, year 2028 (other buildings B 12, G/D/E 6)."
+  },
+  "location": {
+   "verdict": "correct",
+   "lat": 40.203179,
+   "lng": 44.511982,
+   "precision": "exact",
+   "address": "1/3 Gevorg Vardanyan St, Arabkir, Yerevan",
+   "evidence_url": "https://ac-box.com/novostroyki/pullman-residences",
+   "evidence": "ac-box Yandex widget ll=44.511982,40.203179 = pin; Nominatim Gevorg Vardanyan St 40.20207,44.51308 (~150 m)",
+   "notes": "Developer site shows address only."
+  }
+ },
+ {
+  "id": "acbaam-1128",
+  "title": "Armstroy Proyekt",
+  "price": {
+   "verdict": "confirmed",
+   "usd_m2": 1307,
+   "amd_m2": 475000,
+   "usd_m2_max": 1651,
+   "currency_shown": "AMD",
+   "apartment_from_total": null,
+   "apartment_from_area_m2": null,
+   "evidence_url": "https://www.acba.am/hy/individuals/loans/mortgage/constructors#10187",
+   "evidence_text": "Բնակարանի 1 ք.մ.-ի արժեք 475.000 - 600.000 ՀՀ դրամ; 62.9–133.5 քմ; available 14 of 81",
+   "sold_out": false,
+   "wrong_merge_urls": [],
+   "notes": "ACBA entry updated 2026-05-14; 14 of 81 apartments available; parking 3.8-4.56M AMD."
+  },
+  "numbers": {
+   "floors": "14",
+   "completion": "2025-12",
+   "evidence_url": "https://www.acba.am/hy/individuals/loans/mortgage/constructors#10187",
+   "notes": "Commissioning date 06.12.2025."
+  },
+  "location": {
+   "verdict": "correct",
+   "lat": 40.2127,
+   "lng": 44.5098,
+   "precision": "address",
+   "address": "10/15 Hovsep Arghutyan St, Arabkir, Yerevan",
+   "evidence_url": "https://www.acba.am/hy/individuals/loans/mortgage/constructors#10187",
+   "evidence": "ACBA address Arghutyan 10/15; pin inside OSM Arghutyan 10/x building cluster (prior check)",
+   "notes": "No map on source."
+  }
+ },
+ {
+  "id": "archiconam-429",
+  "title": "Arabkir 37th St 22/1",
+  "price": {
+   "verdict": "unverifiable",
+   "usd_m2": null,
+   "amd_m2": null,
+   "usd_m2_max": null,
+   "currency_shown": "AMD",
+   "apartment_from_total": null,
+   "apartment_from_area_m2": null,
+   "evidence_url": "https://www.archicon.am/portfolio",
+   "evidence_text": "Arabkir 37, 22/1 7 Story Residential Building Permit 2026 Full-Service Project Delivery",
+   "sold_out": null,
+   "wrong_merge_urls": [],
+   "notes": "Portfolio item (permit 2026); not among Archicon's developments for sale (Sose 25, Zarubyan 38/1)."
+  },
+  "numbers": {
+   "floors": "7",
+   "completion": null,
+   "evidence_url": "https://www.archicon.am/portfolio",
+   "notes": "Permit 2026, no completion date."
+  },
+  "location": {
+   "verdict": "correct",
+   "lat": 40.201474,
+   "lng": 44.516107,
+   "precision": "street",
+   "address": "22/1 Arabkir 37th St (Karp Khachvankyan St), Arabkir, Yerevan",
+   "evidence_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&countrycodes=am&q=Arabkir%2037th%20Street%2C%20Yerevan",
+   "evidence": "Nominatim 'Arabkir 37th Street' -> Karp Khachvankyan St 40.201474,44.516107 = pin",
+   "notes": "Street-level only; house 22/1 not in OSM."
+  }
+ },
+ {
+  "id": "capitalbuildam-458",
+  "title": "A. Khachatryan 3",
+  "price": {
+   "verdict": "unverifiable",
+   "usd_m2": null,
+   "amd_m2": null,
+   "usd_m2_max": null,
+   "currency_shown": "AMD",
+   "apartment_from_total": null,
+   "apartment_from_area_m2": null,
+   "evidence_url": "https://www.capitalbuild.am/projects/project/a-xachatryan-3",
+   "evidence_text": "Բոլոր բնակարանները վաճառված են (All apartments are sold)",
+   "sold_out": true,
+   "wrong_merge_urls": [],
+   "notes": "212 apartments, 170 parking; all sold."
+  },
+  "numbers": {
+   "floors": null,
+   "completion": null,
+   "evidence_url": "https://www.capitalbuild.am/projects/project/a-xachatryan-3",
+   "notes": "No floors/date published."
+  },
+  "location": {
+   "verdict": "correct",
+   "lat": 40.203291,
+   "lng": 44.491081,
+   "precision": "exact",
+   "address": "3 Aram Khachatryan St, Arabkir, Yerevan",
+   "evidence_url": "https://www.capitalbuild.am/projects/project/a-xachatryan-3",
+   "evidence": "Developer Google Maps q=40.20329127,44.49108106 = pin",
+   "notes": ""
+  }
+ },
+ {
+  "id": "constructionam-184",
+  "title": "Mountain Plaza · G. Hovsepyan 48/3",
+  "price": {
+   "verdict": "unverifiable",
+   "usd_m2": null,
+   "amd_m2": null,
+   "usd_m2_max": null,
+   "currency_shown": "AMD",
+   "apartment_from_total": null,
+   "apartment_from_area_m2": null,
+   "evidence_url": "https://www.construction.am/apartments-in-new-developments/nork-marash-norakaruyc-mountain-plaza/",
+   "evidence_text": "Price: No information available!",
+   "sold_out": false,
+   "wrong_merge_urls": [],
+   "notes": "55 apartments, 0 sold / 55 available, 65.87-147.58 m²; no price published."
+  },
+  "numbers": {
+   "floors": "5",
+   "completion": "2026-06",
+   "evidence_url": "https://www.construction.am/apartments-in-new-developments/nork-marash-norakaruyc-mountain-plaza/",
+   "notes": "5 above + 2 below; construction Jan 2024 - Jun 2026."
+  },
+  "location": {
+   "verdict": "correct",
+   "lat": 40.178177,
+   "lng": 44.537335,
+   "precision": "exact",
+   "address": "48/3 G. Hovsepyan St, Nork-Marash, Yerevan",
+   "evidence_url": "https://www.construction.am/apartments-in-new-developments/nork-marash-norakaruyc-mountain-plaza/",
+   "evidence": "construction.am map q=40.178177,44.537335 = pin",
+   "notes": ""
+  }
+ },
+ {
+  "id": "constructionam-227",
+  "title": "Aurea Group · Lvovyan 22",
+  "price": {
+   "verdict": "unverifiable",
+   "usd_m2": null,
+   "amd_m2": null,
+   "usd_m2_max": null,
+   "currency_shown": "AMD",
+   "apartment_from_total": null,
+   "apartment_from_area_m2": null,
+   "evidence_url": "https://www.construction.am/apartments-in-new-developments/aurea-group-lvovyan-22/",
+   "evidence_text": "Price: No information available! Developer Aurea Group Completion 2021 / Completed",
+   "sold_out": null,
+   "wrong_merge_urls": [
+    "https://citynest.am/theparklvovyan/en"
+   ],
+   "notes": "The 510,000-700,000 AMD/m² price is City Nest 'The Park Lvovyan' at 2/1 Lvovyan (completion Dec 2025, 103 apts) - a different building ~330 m from Lvovyan 22 (OSM 2/1: 40.20352,44.56417; 22: 40.20260,44.56047). Aurea's entry has no price and was completed 2021."
+  },
+  "numbers": {
+   "floors": null,
+   "completion": "2021",
+   "evidence_url": "https://www.construction.am/apartments-in-new-developments/aurea-group-lvovyan-22/",
+   "notes": "construction.am: completed 2021; no floors."
+  },
+  "location": {
+   "verdict": "correct",
+   "lat": 40.203252,
+   "lng": 44.562414,
+   "precision": "exact",
+   "address": "22 Lvovyan St, Nor Nork 1st massif, Yerevan",
+   "evidence_url": "https://www.construction.am/apartments-in-new-developments/aurea-group-lvovyan-22/",
+   "evidence": "construction.am map q=40.203252,44.562414 = pin",
+   "notes": "OSM building Lvovyan 22 is at 40.20260,44.56047 (~180 m W); construction.am map kept as source map. 22 Lvovyan is also Aurea's office address."
+  }
+ },
+ {
+  "id": "constructionam-265",
+  "title": "Arshakunyats 33",
+  "price": {
+   "verdict": "corrected",
+   "usd_m2": 1898,
+   "amd_m2": 690000,
+   "usd_m2_max": 2182,
+   "currency_shown": "AMD",
+   "apartment_from_total": 64860000,
+   "apartment_from_area_m2": 94,
+   "evidence_url": "https://redgroup.am/projects/bnakaran-karucapatoxic-arshakunyats",
+   "evidence_text": "available units: 94 m², 3 rooms, 64,860,000 AMD (690,000/m²) ... 108 m², 85,680,000",
+   "sold_out": false,
+   "wrong_merge_urls": [
+    "https://www.construction.am/apartments-in-new-developments/bisness-kentron-kentronum-arshakunyac/"
+   ],
+   "notes": "redgroup products endpoint: 360 units, 343 sold, 17 available (94-108 m², 690,000-793,333 AMD/m²). Old 540,833 / 32.95M 56 m² figures were SOLD units. construction.am page is 'Arshakunyats 33, Win-Win Business Center' (office units 650-700 m²) - different building."
+  },
+  "numbers": {
+   "floors": "14",
+   "completion": null,
+   "evidence_url": "https://redgroup.am/projects/bnakaran-karucapatoxic-arshakunyats",
+   "notes": "3 buildings, 12 residential + 2 commercial floors + 2 underground; start 12.12.2023; no completion date published (2025-12 came from the business-center page)."
+  },
+  "location": {
+   "verdict": "correct",
+   "lat": 40.157632,
+   "lng": 44.503805,
+   "precision": "exact",
+   "address": "27/3 Arshakunyats Ave, Shengavit, Yerevan",
+   "evidence_url": "https://redgroup.am/projects/bnakaran-karucapatoxic-arshakunyats",
+   "evidence": "redgroup coordinates 40.157581,44.504309 (~45 m)",
+   "notes": "Record address 'Arshakunyats 33, Win-Win Business Center' is the wrong building; RED Invest address is Arshakunyats 27/3."
+  }
+ },
+ {
+  "id": "constructionam-49",
+  "title": "Armat Realty · Chaush 140",
+  "price": {
+   "verdict": "unverifiable",
+   "usd_m2": null,
+   "amd_m2": null,
+   "usd_m2_max": null,
+   "currency_shown": "AMD",
+   "apartment_from_total": null,
+   "apartment_from_area_m2": null,
+   "evidence_url": "https://www.construction.am/apartments-in-new-developments/americana-armenia/",
+   "evidence_text": "Price: No information available! ... Completion 2023 / Completed",
+   "sold_out": null,
+   "wrong_merge_urls": [],
+   "notes": "No current price anywhere; geoln 'от 920$' dates from 2022 (III q 2022) - not usable. Current 650,000 AMD has no live source."
+  },
+  "numbers": {
+   "floors": "5",
+   "completion": "2023",
+   "evidence_url": "https://geoln.com/ru/armenia/kasakh/americana-armenia",
+   "notes": "geoln: 5 floors, 22 apartments per building; construction.am: 16 houses + 6 apartment buildings, completed 2023."
+  },
+  "location": {
+   "verdict": "correct",
+   "lat": 40.239293,
+   "lng": 44.43443,
+   "precision": "exact",
+   "address": "140 Gevorg Chaush St (Americana district), Proshyan, Kotayk",
+   "evidence_url": "https://www.construction.am/apartments-in-new-developments/americana-armenia/",
+   "evidence": "construction.am q=40.239293,44.434429 = pin; geoln 40.23906,44.43465 (~30 m)",
+   "notes": ""
+  }
+ },
+ {
+  "id": "constructionam-73",
+  "title": "Metrum Invest · Antarayin 136/2",
+  "price": {
+   "verdict": "confirmed",
+   "usd_m2": 2201,
+   "amd_m2": 800000,
+   "usd_m2_max": 3026,
+   "currency_shown": "AMD",
+   "apartment_from_total": 54153000,
+   "apartment_from_area_m2": 49.23,
+   "evidence_url": "https://myhome.am/en/building/130",
+   "evidence_text": "Price ( ֏ ) From 54.2 M Price sq.m. ( ֏ ) From 800 K ... Number of apartments 21/98",
+   "sold_out": false,
+   "wrong_merge_urls": [],
+   "notes": "myhome unit API: 21 available (none booked), 800,000-1,100,000 AMD/m²; cheapest 54,153,000 / 49.23 m². Developer site marks Renet sold_out=1 and Dignisi shows from 940,000; ac-box $2,470 - myhome unit list used."
+  },
+  "numbers": {
+   "floors": "6",
+   "completion": "2025-05",
+   "evidence_url": "https://myhome.am/en/building/130",
+   "notes": "myhome end of construction 05/2025; construction.am completed 2025 (2022-2025), 6 above + 3 below; Dignisi handover 2026."
+  },
+  "location": {
+   "verdict": "correct",
+   "lat": 40.197734,
+   "lng": 44.50979,
+   "precision": "exact",
+   "address": "136/2 Verin Antarayin St, Kentron, Yerevan",
+   "evidence_url": "https://myhome.am/en/building/130",
+   "evidence": "myhome lat/lng 40.19772,44.51008 (~25 m); construction.am 40.19781,44.50906 (~60 m)",
+   "notes": ""
+  }
+ },
+ {
+  "id": "evocaam-1153",
+  "title": "High Park",
+  "price": {
+   "verdict": "corrected",
+   "usd_m2": 1493,
+   "amd_m2": 542871,
+   "usd_m2_max": 2130,
+   "currency_shown": "AMD",
+   "apartment_from_total": 31260000,
+   "apartment_from_area_m2": 52,
+   "evidence_url": "https://redgroup.am/projects/bnakarankarucapatoxic-heaven-heights",
+   "evidence_text": "available: 101 m², 3 rooms, 54,830,000 AMD (542,871/m²); cheapest 52 m² 31,260,000",
+   "sold_out": false,
+   "wrong_merge_urls": [],
+   "notes": "Evoca lists BULDOZER GROUP 'High Park' at G. Hovsepyan 58/15 with no price. RED Invest 'Heaven Heights' has the same developer (BULDOZER GROUP LLC), same partner bank (Evoca) and same address - same project (possible duplicate record). redgroup products: 210 units, 142 sold, 67 available at 542,871-774,318 AMD/m²."
+  },
+  "numbers": {
+   "floors": "9",
+   "completion": "2028-12",
+   "evidence_url": "https://redgroup.am/projects/bnakarankarucapatoxic-heaven-heights",
+   "notes": "Construction start June 2025, completion planned end of 2028; unit floors listed up to 9."
+  },
+  "location": {
+   "verdict": "moved",
+   "lat": 40.176426,
+   "lng": 44.53432,
+   "precision": "exact",
+   "address": "58/15 G. Hovsepyan St, Nork-Marash, Yerevan",
+   "evidence_url": "https://redgroup.am/projects/bnakarankarucapatoxic-heaven-heights",
+   "evidence": "redgroup coordinates 40.176426,44.534320 for Heaven Heights at the same address; current pin ~5.1 km away in Shengavit",
+   "notes": "Neighbours on the same street: Lumina 58/9 40.17538,44.53677; Mountain Plaza 48/3 40.17818,44.53734."
+  }
+ },
+ {
+  "id": "hamedilam-690",
+  "title": "Talin Multihouse",
+  "price": {
+   "verdict": "unverifiable",
+   "usd_m2": null,
+   "amd_m2": null,
+   "usd_m2_max": null,
+   "currency_shown": "AMD",
+   "apartment_from_total": null,
+   "apartment_from_area_m2": null,
+   "evidence_url": "https://www.hamedil.am/en/projects",
+   "evidence_text": "Projects will be published here soon. (project page /en/projects/talin-multihouse returns 404)",
+   "sold_out": null,
+   "wrong_merge_urls": [],
+   "notes": "Talin Multihouse page removed from developer site; earlier figures (18.5M AMD / 38 m²) can no longer be confirmed."
+  },
+  "numbers": {
+   "floors": null,
+   "completion": null,
+   "evidence_url": "https://www.hamedil.am/en/projects",
+   "notes": "Source gone; previous 5 floors / 2026-10 unconfirmed."
+  },
+  "location": {
+   "verdict": "unlocatable",
+   "lat": 40.3921,
+   "lng": 43.8698,
+   "precision": "district",
+   "address": "Talin, Aragatsotn",
+   "evidence_url": "https://www.hamedil.am/en/projects",
+   "evidence": "Source page 404; previously verified on source page",
+   "notes": "Keep current pin (earlier verification)."
+  }
+ },
+ {
+  "id": "redinvestam-549",
+  "title": "Garunavan 4 Residential District",
+  "price": {
+   "verdict": "corrected",
+   "usd_m2": 1551,
+   "amd_m2": 563758,
+   "usd_m2_max": 1551,
+   "currency_shown": "AMD",
+   "apartment_from_total": 84000000,
+   "apartment_from_area_m2": 149,
+   "evidence_url": "https://redgroup.am/projects/bnakarankarucapatoxic-garunavan4",
+   "evidence_text": "available: private house 149 m², 4 rooms, 84,000,000 AMD (8 units, updated 2026-07-01)",
+   "sold_out": false,
+   "wrong_merge_urls": [
+    "https://redgroup.am/projects/bnakarankarucapatoxic-nornorqum-garunavan2",
+    "https://redgroup.am/projects/bnakarankarucapatoxic-nornorqum-garunavan3"
+   ],
+   "notes": "redgroup products: 61 units, 53 sold, 8 available (all 149 m² houses at 84M AMD). Old 505,846 / 65.76M 130 m² were sold units. Garunavan 2 and 3 are earlier, fully sold apartment phases (Bagrevand 45 / 51)."
+  },
+  "numbers": {
+   "floors": "2",
+   "completion": null,
+   "evidence_url": "https://redgroup.am/projects/bnakarankarucapatoxic-garunavan4",
+   "notes": "60 two-storey private houses; no completion date published (2022-06 likely from older Garunavan phases)."
+  },
+  "location": {
+   "verdict": "correct",
+   "lat": 40.197463,
+   "lng": 44.577737,
+   "precision": "exact",
+   "address": "Bagrevand district 19, 2nd block of Nor Nork, Yerevan",
+   "evidence_url": "https://redgroup.am/projects/bnakarankarucapatoxic-garunavan4",
+   "evidence": "redgroup coordinates 40.197101,44.578095 (~50 m)",
+   "notes": ""
+  }
+ },
+ {
+  "id": "redinvestam-574",
+  "title": "The Hill Residence",
+  "price": {
+   "verdict": "confirmed",
+   "usd_m2": 1504,
+   "amd_m2": 546568,
+   "usd_m2_max": 1664,
+   "currency_shown": "AMD",
+   "apartment_from_total": 35000000,
+   "apartment_from_area_m2": 58.8,
+   "evidence_url": "https://myhome.am/en/building/176",
+   "evidence_text": "Price ( ֏ ) From 34.5 M Price sq.m. ( ֏ ) From 546.6 K ... Number of apartments 6/59",
+   "sold_out": false,
+   "wrong_merge_urls": [],
+   "notes": "RED Invest/redgroup product list: all 68 units sold (none available). myhome API: 9 units, 3 booked, 6 available at 546,568-604,920 AMD/m²; cheapest available 35,000,000 / 58.8 m² (34.53M unit is booked)."
+  },
+  "numbers": {
+   "floors": "6",
+   "completion": "2026-11",
+   "evidence_url": "https://redgroup.am/projects/bnakaran-karucapatoxic-thehill",
+   "notes": "redgroup: 6 upper + 2 underground floors, completion scheduled Nov 2026; myhome says 5 floors, end 11/2026."
+  },
+  "location": {
+   "verdict": "correct",
+   "lat": 40.174184,
+   "lng": 44.535225,
+   "precision": "exact",
+   "address": "64/7 G. Hovsepyan St, Nork-Marash, Yerevan",
+   "evidence_url": "https://redgroup.am/projects/bnakaran-karucapatoxic-thehill",
+   "evidence": "redgroup coordinates 40.174194,44.535167; myhome 40.174176,44.535274 (<10 m)",
+   "notes": ""
+  }
+ },
+ {
+  "id": "solarcityam-725",
+  "title": "Solar City Eco-District (Townhouses)",
+  "price": {
+   "verdict": "unverifiable",
+   "usd_m2": null,
+   "amd_m2": null,
+   "usd_m2_max": null,
+   "currency_shown": "AMD",
+   "apartment_from_total": null,
+   "apartment_from_area_m2": null,
+   "evidence_url": "https://www.solarcity.am/hy/projects/solar-city",
+   "evidence_text": "Հանձնված է շահագործման (commissioned); listed under completed projects",
+   "sold_out": null,
+   "wrong_merge_urls": [],
+   "notes": "Completed project: 19 houses + one 3-storey 7-apartment building; no prices shown (developer prices only for Gyulikevkhyan / Shiraz)."
+  },
+  "numbers": {
+   "floors": "2-3",
+   "completion": null,
+   "evidence_url": "https://www.solarcity.am/hy/projects/solar-city",
+   "notes": "Houses + 3-storey apartment building; commissioned, no date."
+  },
+  "location": {
+   "verdict": "unlocatable",
+   "lat": 40.229016,
+   "lng": 44.583939,
+   "precision": "district",
+   "address": "Solar City, Arinj community (~600 m from Babajanyan St, Avan), Kotayk",
+   "evidence_url": "https://www.solarcity.am/hy/projects/solar-city",
+   "evidence": "Text only; the page map marker 40.178914,44.489427 is the sales office (Tsitsernakaberd hwy 1/2)",
+   "notes": ""
+  }
+ }
+]

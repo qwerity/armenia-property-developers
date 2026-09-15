@@ -187,6 +187,7 @@ export function renderDetails(el, p, openLightbox, onDeveloper) {
       <div id="sec-prices" class="dsec">
         ${roomTable(p.prices_by_rooms)}
         ${floorTable(p.prices_by_floor)}
+        ${p.last_known_usd_m2 && !p.usd_m2_min ? `<section><h3>Price</h3><p class="small">No current public price${p.sold_out ? " — sold out" : ""}. Last known: ${money(p.last_known_usd_m2, p.last_known_amd_m2, "/m²")} (not current).</p></section>` : ""}
         ${priceCheck(p)}
         ${row("Price updated", esc(p.price_updated))}
         ${row("Original currency", esc(p.currency_raw))}

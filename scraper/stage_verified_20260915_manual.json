@@ -1,0 +1,67 @@
+[
+ {
+  "id": "hausam-352",
+  "title": "Haus AM House V1 (Arinj)",
+  "stage": "in progress",
+  "completion": null,
+  "confidence": "medium",
+  "evidence": "developer page: under construction"
+ },
+ {
+  "id": "dignisi-118",
+  "title": "Gulikevkhyan residential complex",
+  "stage": "in progress",
+  "completion": null,
+  "confidence": "medium",
+  "evidence": "myhome lists 11 units for sale"
+ },
+ {
+  "id": "constructionam-18",
+  "title": "Aygedzor Construction Company · Alma-Ata 1/4",
+  "stage": "in progress",
+  "completion": null,
+  "confidence": "medium",
+  "evidence": "construction until 2026-05"
+ },
+ {
+  "id": "kp-96",
+  "title": "Abovyan City House",
+  "stage": "in progress",
+  "completion": "2027-07",
+  "confidence": "medium",
+  "evidence": "ARGO: under construction, due July 2027"
+ },
+ {
+  "id": "constructionam-238",
+  "title": "Levon Amirkhanyan · Khanjyan 29",
+  "stage": "stalled",
+  "completion": null,
+  "confidence": "medium",
+  "evidence": "construction.am: suspended"
+ },
+ {
+  "id": "acbox-29",
+  "title": "Liberty One",
+  "stage": "finished",
+  "completion": "2024-06",
+  "confidence": "medium",
+  "evidence": "finished 2024-06"
+ },
+ {
+  "id": "geoln-158",
+  "title": "Dzorap 2",
+  "stage": "finished",
+  "completion": "2019",
+  "confidence": "medium",
+  "evidence": "completed 2019"
+ },
+ {
+  "id": "myhomeam-815",
+  "title": "Ember residential complex",
+  "stage": null,
+  "completion": null,
+  "confidence": "medium",
+  "evidence": "68 of 125 units for sale",
+  "sold_out": false
+ }
+]

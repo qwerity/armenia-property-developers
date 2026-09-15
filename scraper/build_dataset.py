@@ -199,7 +199,9 @@ def load_stage_verifications() -> dict:
     for f in sorted((ROOT / "scraper").glob("stage_verified_*.json"), key=lambda x: x.stat().st_mtime):
         for v in json.loads(f.read_text(encoding="utf-8")):
             if isinstance(v, dict) and v.get("id"):
-                out[v["id"]] = v
+                # newer checks override field by field, so a numbers-only check keeps an earlier stage verdict
+                prev = out.get(v["id"], {})
+                out[v["id"]] = {**prev, **{k: val for k, val in v.items() if val not in (None, "", [])}}
     return out
 
 
@@ -341,31 +343,45 @@ def apply_manual_merges(projects: list[dict]) -> tuple[list[dict], int]:
     return projects, merged
 
 
+def _valid_coords(v: dict) -> bool:
+    lat, lng = v.get("lat"), v.get("lng")
+    return isinstance(lat, (int, float)) and isinstance(lng, (int, float)) and 38.8 <= lat <= 41.4 and 43.3 <= lng <= 46.7
+
+
 def apply_location_verifications(projects: list[dict]) -> tuple[list[dict], list[str]]:
-    """Apply manual location checks (scraper/geo_verified_*.json); drop projects with no reliable location."""
-    checks = {}
+    """
+    Apply manual location checks (scraper/geo_verified_*.json, oldest to newest).
+
+    The newest check decides. A "correct" verdict confirms the pin the checker saw, which may itself come from an
+    earlier "moved" check — so its coordinates (or the latest earlier corrected coordinates) are applied, never the raw
+    source pin. Projects whose newest check is unlocatable without any coordinates are dropped.
+    """
+    history: dict[str, list[dict]] = defaultdict(list)
     for f in sorted((ROOT / "scraper").glob("geo_verified_*.json"), key=lambda x: x.stat().st_mtime):
         for v in json.loads(f.read_text(encoding="utf-8")):
             if isinstance(v, dict) and v.get("id"):
-                checks[v["id"]] = v
+                history[v["id"]].append(v)
     kept, unlocated = [], []
     for p in projects:
-        v = next((checks[i] for i in [p["id"], *p.get("merged_ids", [])] if i in checks), None)
-        if not v:
+        hist = next((history[i] for i in [p["id"], *p.get("merged_ids", [])] if i in history), None)
+        if not hist:
             kept.append(p)
             continue
+        v = hist[-1]
         verdict = v.get("verdict")
-        lat, lng = v.get("lat"), v.get("lng")
-        valid = isinstance(lat, (int, float)) and isinstance(lng, (int, float)) and 38.8 <= lat <= 41.4 and 43.3 <= lng <= 46.7
         if v.get("address") and verdict in ("moved", "unlocatable", "correct"):
             p["address"] = v["address"]
         if verdict == "correct":
-            p["location_note"] = "location verified on source page"
-            if p.get("geo_precision") in ("district", "city"):
+            src = v if _valid_coords(v) else next((h for h in reversed(hist[:-1]) if _valid_coords(h)), None)
+            if src:
+                p["lat"], p["lng"] = src["lat"], src["lng"]
+                p["geo_precision"] = v.get("precision") or src.get("precision") or p.get("geo_precision")
+            if p.get("geo_precision") in ("district", "city") and not v.get("precision"):
                 p["geo_precision"] = "address"
-        elif valid:
-            moved = round(haversine_m(p, {"lat": lat, "lng": lng}))
-            p["lat"], p["lng"] = lat, lng
+            p["location_note"] = "location verified on source page"
+        elif _valid_coords(v):
+            moved = round(haversine_m(p, {"lat": v["lat"], "lng": v["lng"]}))
+            p["lat"], p["lng"] = v["lat"], v["lng"]
             p["geo_precision"] = v.get("precision") or "address"
             p["location_note"] = f"location corrected ({moved} m){': ' + v['evidence'] if v.get('evidence') else ''}"
         else:
@@ -636,28 +652,42 @@ def drop_wrong_merges(p: dict, v: dict) -> None:
 
 
 def apply_price_verification(p: dict, v: dict, rate: float) -> None:
+    """
+    Apply a manual price check. corrected/confirmed with figures replace the current price; "unverifiable"
+    (sold out, on request, stale-only) clears the displayed price and keeps it as last known.
+    """
     verdict = v.get("verdict")
     p["price_verification"] = {k: v.get(k) for k in ("verdict", "evidence_url", "evidence_text", "notes") if v.get(k)}
-    if v.get("sold_out") is True:
-        p["sold_out"] = True
-    if verdict in ("corrected", "confirmed") and (num(v.get("usd_m2")) or num(v.get("amd_m2"))):
-        usd, amd = num(v.get("usd_m2")), num(v.get("amd_m2"))
-        if usd or amd:
-            usd = usd or amd / rate
-            amd = amd or usd * rate
-            p["usd_m2_min"], p["amd_m2_min"] = round(usd), round(amd)
-            if not p.get("usd_m2_max") or p["usd_m2_max"] < p["usd_m2_min"]:
-                p["usd_m2_max"], p["amd_m2_max"] = p["usd_m2_min"], p["amd_m2_min"]
-            p["price_confidence"] = "verified"
+    if isinstance(v.get("sold_out"), bool):
+        p["sold_out"] = v["sold_out"]
+    usd, amd = num(v.get("usd_m2")), num(v.get("amd_m2"))
+    if verdict in ("corrected", "confirmed") and (usd or amd):
+        usd = usd or amd / rate
+        amd = amd or usd * rate
+        p["usd_m2_min"], p["amd_m2_min"] = round(usd), round(amd)
+        usd_max = num(v.get("usd_m2_max"))
+        if usd_max and usd_max >= usd:
+            p["usd_m2_max"], p["amd_m2_max"] = round(usd_max), round(usd_max * rate)
+        elif not p.get("usd_m2_max") or p["usd_m2_max"] < p["usd_m2_min"] or p["usd_m2_max"] > p["usd_m2_min"] * 3:
+            p["usd_m2_max"], p["amd_m2_max"] = p["usd_m2_min"], p["amd_m2_min"]
+        p["price_confidence"] = "verified"
         total, area = num(v.get("apartment_from_total")), num(v.get("apartment_from_area_m2"))
         if total:
-            shown_usd = (v.get("currency_shown") or "").upper() == "USD"
-            p["usd_from"], p["amd_from"] = (round(total), round(total * rate)) if shown_usd else (round(total / rate), round(total))
+            in_usd = (v.get("currency_shown") or "").upper() == "USD" and total < 20_000_000
+            p["usd_from"], p["amd_from"] = (round(total), round(total * rate)) if in_usd else (round(total / rate), round(total))
             p["min_area_m2"] = area or p.get("min_area_m2")
+        elif verdict == "corrected":
+            p["usd_from"] = p["amd_from"] = None
     elif verdict == "confirmed":
         p["price_confidence"] = "verified"  # confirmed without restating a figure
-    elif verdict == "unverifiable" and p.get("price_confidence") in ("low", "rejected"):
+    elif verdict == "unverifiable":
+        if p.get("usd_m2_min"):
+            p["last_known_usd_m2"], p["last_known_amd_m2"] = p["usd_m2_min"], p["amd_m2_min"]
         p["usd_m2_min"] = p["amd_m2_min"] = p["usd_m2_max"] = p["amd_m2_max"] = None
+        p["usd_from"] = p["amd_from"] = None
+        # per-room / per-floor tables came from the same stale listings
+        p["last_known_prices_by_rooms"], p["prices_by_rooms"] = p.get("prices_by_rooms") or [], []
+        p["last_known_prices_by_floor"], p["prices_by_floor"] = p.get("prices_by_floor") or [], []
         p["price_confidence"] = "none"
 
 

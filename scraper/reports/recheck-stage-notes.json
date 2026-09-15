@@ -1,0 +1,10 @@
+[
+ {"title_like": "Haus AM House V1", "stage": "in progress", "note": "developer page: under construction"},
+ {"title_like": "Gulikevkhyan", "stage": "in progress", "note": "myhome lists 11 units for sale"},
+ {"title_like": "Alma-Ata 1/4", "stage": "in progress", "note": "construction until 2026-05"},
+ {"title_like": "Abovyan City House", "stage": "in progress", "completion": "2027-07", "note": "ARGO: under construction, due July 2027"},
+ {"title_like": "Khanjyan 29", "stage": "stalled", "note": "construction.am: suspended"},
+ {"title_like": "Liberty One", "stage": "finished", "completion": "2024-06", "note": "finished 2024-06"},
+ {"title_like": "Dzorap 2", "stage": "finished", "completion": "2019", "note": "completed 2019"},
+ {"title_like": "Ember residential complex", "sold_out": false, "note": "68 of 125 units for sale"}
+]

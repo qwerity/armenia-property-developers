@@ -1,0 +1,1335 @@
+{
+ "old_count": 748,
+ "new_count": 735,
+ "added": [],
+ "removed": [],
+ "price": [
+  {
+   "title": "Abovyan City House",
+   "from": 1197,
+   "to": 1321,
+   "pct": 10.4
+  },
+  {
+   "title": "Green Avan",
+   "from": 1018,
+   "to": 1210,
+   "pct": 18.9
+  },
+  {
+   "title": "Davtashen Complex",
+   "from": 1553,
+   "to": 2185,
+   "pct": 40.7
+  },
+  {
+   "title": "Acharyan Residential Complex",
+   "from": 1186,
+   "to": 1514,
+   "pct": 27.7
+  },
+  {
+   "title": "Davit-Bek residential complex",
+   "from": 1168,
+   "to": null,
+   "pct": null
+  },
+  {
+   "title": "Atlantis Yerevan Residential Complex",
+   "from": 2065,
+   "to": null,
+   "pct": null
+  },
+  {
+   "title": "North Shine",
+   "from": 1500,
+   "to": 1871,
+   "pct": 24.7
+  },
+  {
+   "title": "Norq Residential Complex",
+   "from": 1428,
+   "to": null,
+   "pct": null
+  },
+  {
+   "title": "Shinararner Residence",
+   "from": 852,
+   "to": null,
+   "pct": null
+  },
+  {
+   "title": "Monte Melkonian 10",
+   "from": 1789,
+   "to": null,
+   "pct": null
+  },
+  {
+   "title": "Davit Bek",
+   "from": 1662,
+   "to": null,
+   "pct": null
+  },
+  {
+   "title": "Antarayin Residential Complex",
+   "from": 2037,
+   "to": null,
+   "pct": null
+  },
+  {
+   "title": "Tsakhkadzor V. Harutyunyan 6",
+   "from": 1600,
+   "to": null,
+   "pct": null
+  },
+  {
+   "title": "Almast Residence",
+   "from": 1486,
+   "to": null,
+   "pct": null
+  },
+  {
+   "title": "Garegin Nzhdehi 23/3",
+   "from": 1459,
+   "to": 1673,
+   "pct": 14.7
+  },
+  {
+   "title": "Arabkir 51",
+   "from": 1800,
+   "to": null,
+   "pct": null
+  },
+  {
+   "title": "Davtashen 2nd Block, 26/13",
+   "from": 1578,
+   "to": null,
+   "pct": null
+  },
+  {
+   "title": "New Shengavit",
+   "from": 1404,
+   "to": null,
+   "pct": null
+  },
+  {
+   "title": "Tsarav Aghbyur 134/4",
+   "from": 1013,
+   "to": null,
+   "pct": null
+  },
+  {
+   "title": "Antara Inn",
+   "from": 3055,
+   "to": null,
+   "pct": null
+  },
+  {
+   "title": "Panorama Dalma",
+   "from": 1632,
+   "to": null,
+   "pct": null
+  },
+  {
+   "title": "DOMUM",
+   "from": 1211,
+   "to": null,
+   "pct": null
+  },
+  {
+   "title": "Adonts Residential Complex",
+   "from": 1899,
+   "to": null,
+   "pct": null
+  },
+  {
+   "title": "Leningradyan Residential Complex",
+   "from": 1400,
+   "to": null,
+   "pct": null
+  },
+  {
+   "title": "Mush Towers",
+   "from": 1514,
+   "to": null,
+   "pct": null
+  },
+  {
+   "title": "Residential Complex Ghapantsian",
+   "from": 1596,
+   "to": null,
+   "pct": null
+  },
+  {
+   "title": "Kirk Kerkorian 29/9",
+   "from": 1720,
+   "to": null,
+   "pct": null
+  },
+  {
+   "title": "Karapet Ulnetsi 56/14",
+   "from": 2200,
+   "to": null,
+   "pct": null
+  },
+  {
+   "title": "Rem Group",
+   "from": 1101,
+   "to": null,
+   "pct": null
+  },
+  {
+   "title": "Vahan Teryan",
+   "from": 1788,
+   "to": null,
+   "pct": null
+  },
+  {
+   "title": "Red Nut",
+   "from": 933,
+   "to": null,
+   "pct": null
+  },
+  {
+   "title": "Hahah Doni, 2/2",
+   "from": 1127,
+   "to": null,
+   "pct": null
+  },
+  {
+   "title": "Gev Mick",
+   "from": 1651,
+   "to": null,
+   "pct": null
+  },
+  {
+   "title": "White Nut",
+   "from": 1200,
+   "to": null,
+   "pct": null
+  },
+  {
+   "title": "TECHNODOM Cascade Residential Complex",
+   "from": 2752,
+   "to": null,
+   "pct": null
+  },
+  {
+   "title": "Discovery Plaza",
+   "from": 1710,
+   "to": 2201,
+   "pct": 28.7
+  },
+  {
+   "title": "Lorida Group · Nazarbekyan 44/13",
+   "from": 1475,
+   "to": 1735,
+   "pct": 17.6
+  },
+  {
+   "title": "Shinart Group · Nazarbekyan 41/1",
+   "from": 1335,
+   "to": null,
+   "pct": null
+  },
+  {
+   "title": "Armat Realty · Chaush 140",
+   "from": 1789,
+   "to": null,
+   "pct": null
+  },
+  {
+   "title": "Filishin · Baghramyan 3rd Lane 4/3",
+   "from": 1300,
+   "to": null,
+   "pct": null
+  },
+  {
+   "title": "Elite Group · Baghramyan 59",
+   "from": 1300,
+   "to": null,
+   "pct": null
+  },
+  {
+   "title": "E1 Residence",
+   "from": 1145,
+   "to": 1431,
+   "pct": 25.0
+  },
+  {
+   "title": "GARUN HILLS",
+   "from": 1927,
+   "to": 1652,
+   "pct": -14.3
+  },
+  {
+   "title": "HAY VIEW",
+   "from": 1387,
+   "to": 1651,
+   "pct": 19.0
+  },
+  {
+   "title": "Masis Central Residential Complex",
+   "from": 985,
+   "to": 1150,
+   "pct": 16.8
+  },
+  {
+   "title": "Rubinyants Complex",
+   "from": 1294,
+   "to": 1569,
+   "pct": 21.3
+  },
+  {
+   "title": "Arutyunyan 2/10",
+   "from": 1200,
+   "to": null,
+   "pct": null
+  },
+  {
+   "title": "Amelia Residence",
+   "from": 1620,
+   "to": null,
+   "pct": null
+  },
+  {
+   "title": "Истейт Инвестмент энд Дивелопмент · УЛ. АРГИШТИ 48/8",
+   "from": 1600,
+   "to": null,
+   "pct": null
+  },
+  {
+   "title": "Arthouse",
+   "from": 1101,
+   "to": null,
+   "pct": null
+  },
+  {
+   "title": "Dzoraghbyur",
+   "from": 900,
+   "to": 1513,
+   "pct": 68.1
+  },
+  {
+   "title": "Dzorap 2",
+   "from": 1450,
+   "to": null,
+   "pct": null
+  },
+  {
+   "title": "Greenville",
+   "from": 1101,
+   "to": null,
+   "pct": null
+  },
+  {
+   "title": "Kievyan Residance",
+   "from": 1874,
+   "to": null,
+   "pct": null
+  },
+  {
+   "title": "Nairi Zaryana 74",
+   "from": 1400,
+   "to": null,
+   "pct": null
+  },
+  {
+   "title": "Solar City / Solar Siti · 26",
+   "from": 1200,
+   "to": null,
+   "pct": null
+  },
+  {
+   "title": "Северный Луч 2",
+   "from": 1400,
+   "to": null,
+   "pct": null
+  },
+  {
+   "title": "Cascade Hills · Antarayin 160/5",
+   "from": 2532,
+   "to": null,
+   "pct": null
+  },
+  {
+   "title": "EcoPanel Group · Bagrevand Residential Complex",
+   "from": 1124,
+   "to": null,
+   "pct": null
+  },
+  {
+   "title": "ADA Tech · Sarkavag 42/15",
+   "from": 783,
+   "to": null,
+   "pct": null
+  },
+  {
+   "title": "Aurea Group · Lvovyan 22",
+   "from": 1404,
+   "to": null,
+   "pct": null
+  },
+  {
+   "title": "HAEKSHIN Construction (ANPP Construction) · Bridgeview Residential Complex",
+   "from": 1172,
+   "to": 1668,
+   "pct": 42.3
+  },
+  {
+   "title": "Arshakunyats 33",
+   "from": 1489,
+   "to": 1898,
+   "pct": 27.5
+  },
+  {
+   "title": "Sevkaretsi Sako 77",
+   "from": 1789,
+   "to": 2064,
+   "pct": 15.4
+  },
+  {
+   "title": "Ember Business Center",
+   "from": 1632,
+   "to": null,
+   "pct": null
+  },
+  {
+   "title": "ClubHouse",
+   "from": null,
+   "to": 1812,
+   "pct": null
+  },
+  {
+   "title": "Goght Urban Valley",
+   "from": null,
+   "to": 1952,
+   "pct": null
+  },
+  {
+   "title": "Shushi Palace",
+   "from": null,
+   "to": 1735,
+   "pct": null
+  },
+  {
+   "title": "MGE Town Houses (Sayat-Nova village)",
+   "from": null,
+   "to": 826,
+   "pct": null
+  },
+  {
+   "title": "NARMARK residential building near Davtashen",
+   "from": 1459,
+   "to": null,
+   "pct": null
+  },
+  {
+   "title": "Sunday Towers",
+   "from": null,
+   "to": 2422,
+   "pct": null
+  },
+  {
+   "title": "Bedeck Abovyan",
+   "from": null,
+   "to": 1132,
+   "pct": null
+  },
+  {
+   "title": "Shiraz 43 multifunctional complex",
+   "from": 1496,
+   "to": null,
+   "pct": null
+  },
+  {
+   "title": "Aygedzor 42 mansion",
+   "from": null,
+   "to": 2400,
+   "pct": null
+  },
+  {
+   "title": "GTB Anhaght",
+   "from": null,
+   "to": 1927,
+   "pct": null
+  },
+  {
+   "title": "Davtashen project",
+   "from": 1047,
+   "to": null,
+   "pct": null
+  },
+  {
+   "title": "Basis Residential Complex",
+   "from": null,
+   "to": 1431,
+   "pct": null
+  },
+  {
+   "title": "Sapphire",
+   "from": 900,
+   "to": 1359,
+   "pct": 51.0
+  },
+  {
+   "title": "Bosco Welltown",
+   "from": 1433,
+   "to": 1075,
+   "pct": -25.0
+  },
+  {
+   "title": "Heaven Heights",
+   "from": 1193,
+   "to": 1494,
+   "pct": 25.2
+  },
+  {
+   "title": "Novotel",
+   "from": 1886,
+   "to": 2994,
+   "pct": 58.7
+  },
+  {
+   "title": "Argishti Suites & Residence",
+   "from": 1887,
+   "to": 3206,
+   "pct": 69.9
+  },
+  {
+   "title": "The View Residential Building",
+   "from": 1176,
+   "to": 1459,
+   "pct": 24.1
+  },
+  {
+   "title": "Duryan House 4 Residential Complex",
+   "from": 1441,
+   "to": null,
+   "pct": null
+  },
+  {
+   "title": "Garunavan 4 Residential District",
+   "from": 1392,
+   "to": 1551,
+   "pct": 11.4
+  },
+  {
+   "title": "JUST Developer (sales: RED Invest Group) · Olympus Davtashen",
+   "from": 1127,
+   "to": 1331,
+   "pct": 18.1
+  },
+  {
+   "title": "Duryan House 5 Residential Complex",
+   "from": 1255,
+   "to": 1631,
+   "pct": 30.0
+  },
+  {
+   "title": "For Dream Residence",
+   "from": 1027,
+   "to": 1248,
+   "pct": 21.5
+  },
+  {
+   "title": "Babajanyan 72 Residential Building",
+   "from": 1413,
+   "to": 1738,
+   "pct": 23.0
+  },
+  {
+   "title": "Davtashen Town 2 Family District",
+   "from": 1055,
+   "to": null,
+   "pct": null
+  },
+  {
+   "title": "CULT Residential Complex",
+   "from": 1067,
+   "to": null,
+   "pct": null
+  },
+  {
+   "title": "Avan Residence Residential Building",
+   "from": 1082,
+   "to": 1243,
+   "pct": 14.9
+  },
+  {
+   "title": "Slavonic Residence",
+   "from": 1951,
+   "to": 2337,
+   "pct": 19.8
+  },
+  {
+   "title": "UNIT 23 Residential District",
+   "from": 952,
+   "to": 1111,
+   "pct": 16.7
+  },
+  {
+   "title": "21 Street Residential Building",
+   "from": 1792,
+   "to": 2759,
+   "pct": 54.0
+  },
+  {
+   "title": "Duryan House 3 Residential Complex",
+   "from": 772,
+   "to": 1560,
+   "pct": 102.1
+  },
+  {
+   "title": "Just Developer (sales: RED Invest Group) · Moldovakan New Residential Building in Nor Nork 2nd District  ​​​​​​​Moldovakan 39/37",
+   "from": 2555,
+   "to": null,
+   "pct": null
+  },
+  {
+   "title": "West Town Residential district",
+   "from": 1068,
+   "to": null,
+   "pct": null
+  },
+  {
+   "title": "Vernisaj",
+   "from": 2166,
+   "to": null,
+   "pct": null
+  },
+  {
+   "title": "Erebuni Residential Building, 1/25 David Bek Street",
+   "from": 824,
+   "to": null,
+   "pct": null
+  },
+  {
+   "title": "Garunavan 3 Residential District",
+   "from": 1132,
+   "to": null,
+   "pct": null
+  },
+  {
+   "title": "Residental building in Davtashen",
+   "from": 785,
+   "to": null,
+   "pct": null
+  },
+  {
+   "title": "Sunland Residential District",
+   "from": 813,
+   "to": null,
+   "pct": null
+  },
+  {
+   "title": "Smart City (Smart City 1)",
+   "from": 1285,
+   "to": null,
+   "pct": null
+  },
+  {
+   "title": "Smart City 2",
+   "from": 1243,
+   "to": 1665,
+   "pct": 34.0
+  },
+  {
+   "title": "Smart City 3",
+   "from": 1651,
+   "to": 1479,
+   "pct": -10.4
+  },
+  {
+   "title": "Eden Park",
+   "from": 1200,
+   "to": 1073,
+   "pct": -10.6
+  },
+  {
+   "title": "Nairi Residential Community",
+   "from": 1503,
+   "to": null,
+   "pct": null
+  },
+  {
+   "title": "Riga House (Antarayin Residential Complex)",
+   "from": 2395,
+   "to": null,
+   "pct": null
+  },
+  {
+   "title": "TM Tower",
+   "from": 1514,
+   "to": null,
+   "pct": null
+  },
+  {
+   "title": "Etchmiadzin 11/4 Business Center",
+   "from": 2500,
+   "to": null,
+   "pct": null
+  },
+  {
+   "title": "Talin Queen",
+   "from": 971,
+   "to": null,
+   "pct": null
+  },
+  {
+   "title": "Talin Multihouse",
+   "from": 942,
+   "to": null,
+   "pct": null
+  },
+  {
+   "title": "Park Royal Tsaghkadzor",
+   "from": 1376,
+   "to": 1572,
+   "pct": 14.2
+  },
+  {
+   "title": "Panorama Dalma (Phase I)",
+   "from": 1789,
+   "to": null,
+   "pct": null
+  },
+  {
+   "title": "Ashtarak Highway Townhouses (Location 5)",
+   "from": null,
+   "to": 1038,
+   "pct": null
+  },
+  {
+   "title": "Mashtots  26",
+   "from": 1307,
+   "to": null,
+   "pct": null
+  },
+  {
+   "title": "Avan Project · Acharyan 39/23",
+   "from": 1200,
+   "to": 1513,
+   "pct": 26.1
+  },
+  {
+   "title": "New Arinj Residence",
+   "from": 1387,
+   "to": 1112,
+   "pct": -19.8
+  },
+  {
+   "title": "Arm Construct · Gevorg Chaush 95 Z Masnashenk",
+   "from": 1488,
+   "to": null,
+   "pct": null
+  },
+  {
+   "title": "Davit Anhaght",
+   "from": 1651,
+   "to": 1926,
+   "pct": 16.7
+  },
+  {
+   "title": "PALLADA TSAGHKADZOR · Tsaghkunyats square 5 bldg 4",
+   "from": 1321,
+   "to": 1596,
+   "pct": 20.8
+  },
+  {
+   "title": "PALLADA TSAGHKADZOR · Tsaghkunyats square 5 bldg 3",
+   "from": 1321,
+   "to": 1651,
+   "pct": 25.0
+  },
+  {
+   "title": "Aygestan 11  213/9",
+   "from": 1799,
+   "to": null,
+   "pct": null
+  },
+  {
+   "title": "MILON MINING · B district",
+   "from": 1376,
+   "to": null,
+   "pct": null
+  },
+  {
+   "title": "NARMARK · 30th Street 2nd Lane 13/2",
+   "from": 1578,
+   "to": null,
+   "pct": null
+  },
+  {
+   "title": "Ani Premium Residential Complex",
+   "from": 1700,
+   "to": null,
+   "pct": null
+  },
+  {
+   "title": "Firdus Prime Residence",
+   "from": 5006,
+   "to": 2501,
+   "pct": -50.0
+  },
+  {
+   "title": "Lotus Living",
+   "from": 1778,
+   "to": 1541,
+   "pct": -13.3
+  },
+  {
+   "title": "NEW POINT TOWNHOUSE",
+   "from": 925,
+   "to": null,
+   "pct": null
+  },
+  {
+   "title": "Residence 50",
+   "from": 1551,
+   "to": 1871,
+   "pct": 20.6
+  },
+  {
+   "title": "Acharyan 2/1",
+   "from": 1376,
+   "to": null,
+   "pct": null
+  },
+  {
+   "title": "Sanlend Bagrevand",
+   "from": 1294,
+   "to": 1550,
+   "pct": 19.8
+  },
+  {
+   "title": "OPTIMA 25 LLC",
+   "from": null,
+   "to": 1128,
+   "pct": null
+  },
+  {
+   "title": "Mitstart LLC",
+   "from": null,
+   "to": 1403,
+   "pct": null
+  },
+  {
+   "title": "Kam Developments LLC",
+   "from": null,
+   "to": 1199,
+   "pct": null
+  },
+  {
+   "title": "Life House · Merdzavan",
+   "from": 1041,
+   "to": 888,
+   "pct": -14.7
+  }
+ ],
+ "stage": [
+  {
+   "title": "Abovyan City House",
+   "from": "finished",
+   "to": "in progress"
+  },
+  {
+   "title": "Aygedzor Construction Company · Alma-Ata 1/4",
+   "from": "finished",
+   "to": "in progress"
+  },
+  {
+   "title": "Liberty One",
+   "from": "in progress",
+   "to": "finished"
+  },
+  {
+   "title": "Gulikevkhyan residential complex",
+   "from": "finished",
+   "to": "in progress"
+  },
+  {
+   "title": "Levon Amirkhanyan · Khanjyan 29",
+   "from": "finished",
+   "to": "stalled"
+  },
+  {
+   "title": "Haus AM House V1 (Arinj)",
+   "from": "finished",
+   "to": "in progress"
+  }
+ ],
+ "moved": [
+  {
+   "title": "Nazarbekyan",
+   "metres": 327
+  },
+  {
+   "title": "Davtashen City",
+   "metres": 178
+  },
+  {
+   "title": "Gev Mick",
+   "metres": 181
+  },
+  {
+   "title": "Aygedzor Construction Company · Alma-Ata 1/4",
+   "metres": 280
+  },
+  {
+   "title": "Bars Real Estate Agency · Eco House",
+   "metres": 5067
+  },
+  {
+   "title": "TOP BUILDINGS",
+   "metres": 219
+  },
+  {
+   "title": "Abovyan Hills",
+   "metres": 1692
+  },
+  {
+   "title": "Komitas Park Residential District",
+   "metres": 1088
+  },
+  {
+   "title": "Arthouse",
+   "metres": 2089
+  },
+  {
+   "title": "Cascade Hills · Antarayin 160/5",
+   "metres": 186
+  },
+  {
+   "title": "Solar City · Avan-Arinj",
+   "metres": 1377
+  },
+  {
+   "title": "Yerkir Real Estate Agency · Victor Hambardzumyan / Vagharsyan",
+   "metres": 227
+  },
+  {
+   "title": "Renshin Urban Investments · Sasna Tsrer 3",
+   "metres": 240
+  },
+  {
+   "title": "Itarco Construction · 2nd Block 46/1",
+   "metres": 4911
+  },
+  {
+   "title": "SIL Capital Construction · Davtyan 1/4",
+   "metres": 155
+  },
+  {
+   "title": "Zeytun, 10th street 15",
+   "metres": 230
+  },
+  {
+   "title": "Arev premium residential complex",
+   "metres": 300
+  },
+  {
+   "title": "IVY at AMANOO",
+   "metres": 6017
+  },
+  {
+   "title": "Sarin at AMANOO",
+   "metres": 5812
+  },
+  {
+   "title": "Americana Armenia gated community",
+   "metres": 413
+  },
+  {
+   "title": "Premium Complex Park Building",
+   "metres": 724
+  },
+  {
+   "title": "Haus AM House A2 (Arinj)",
+   "metres": 1354
+  },
+  {
+   "title": "Haus AM House A3 (Arinj)",
+   "metres": 1354
+  },
+  {
+   "title": "Haus AM House A4 (Arinj)",
+   "metres": 1802
+  },
+  {
+   "title": "Haus AM House A5 (Arinj)",
+   "metres": 1354
+  },
+  {
+   "title": "Haus AM House B1 (Arinj)",
+   "metres": 1802
+  },
+  {
+   "title": "Mountain Village",
+   "metres": 3192
+  },
+  {
+   "title": "Mountain Village",
+   "metres": 3192
+  },
+  {
+   "title": "Ashtarak residential complex (Ashtaraketsu 31)",
+   "metres": 207
+  },
+  {
+   "title": "Otevan 3",
+   "metres": 439
+  },
+  {
+   "title": "Nest Residence",
+   "metres": 2250
+  },
+  {
+   "title": "Novel Masiv",
+   "metres": 633
+  },
+  {
+   "title": "Arabkir 39th St 25-27",
+   "metres": 162
+  },
+  {
+   "title": "Parkline Residence",
+   "metres": 16402
+  },
+  {
+   "title": "Bedeck Abovyan",
+   "metres": 2358
+  },
+  {
+   "title": "PPLS Rooms Co-living",
+   "metres": 1842
+  },
+  {
+   "title": "Milon Hills District",
+   "metres": 6055
+  },
+  {
+   "title": "Nut House Townhouses",
+   "metres": 2410
+  },
+  {
+   "title": "Basis Residential Complex",
+   "metres": 6301
+  },
+  {
+   "title": "Avan Hills",
+   "metres": 1621
+  },
+  {
+   "title": "Eden Park",
+   "metres": 1751
+  },
+  {
+   "title": "Etchmiadzin 11/4 Business Center",
+   "metres": 18009
+  },
+  {
+   "title": "Firdus Square",
+   "metres": 6836
+  },
+  {
+   "title": "Northern Ray 2 Villas",
+   "metres": 669
+  },
+  {
+   "title": "Demirtchian 12-14",
+   "metres": 542
+  },
+  {
+   "title": "Elite Plaza Business Center",
+   "metres": 195
+  },
+  {
+   "title": "Best Resort Aghveran",
+   "metres": 1505
+  },
+  {
+   "title": "Luyser Center",
+   "metres": 671
+  },
+  {
+   "title": "Ashtarak Highway Townhouses (Location 5)",
+   "metres": 5102
+  },
+  {
+   "title": "ASR · Acharyan 43/20",
+   "metres": 1047
+  },
+  {
+   "title": "Solar City · Shiraz 2/9",
+   "metres": 596
+  },
+  {
+   "title": "Avan Project · Acharyan 39/23",
+   "metres": 881
+  },
+  {
+   "title": "ML MINING · H. Baghramyan 39",
+   "metres": 581
+  },
+  {
+   "title": "ARMARSHIN GROUP · Acharyan 37/22",
+   "metres": 1341
+  },
+  {
+   "title": "Ani Premium Residential Complex",
+   "metres": 486
+  },
+  {
+   "title": "Davtashen Apartment Building",
+   "metres": 411
+  },
+  {
+   "title": "Firdus Prime Residence",
+   "metres": 533
+  },
+  {
+   "title": "Lotus Living",
+   "metres": 427
+  },
+  {
+   "title": "Pullman Residences Yerevan",
+   "metres": 403
+  },
+  {
+   "title": "Wellstone Residential complex",
+   "metres": 412
+  },
+  {
+   "title": "Nor Hachn Hills",
+   "metres": 453
+  },
+  {
+   "title": "Zov Bilding",
+   "metres": 883
+  },
+  {
+   "title": "Argishti Syuts & Rezidens",
+   "metres": 215
+  },
+  {
+   "title": "Modern 5 Rezidens",
+   "metres": 819
+  },
+  {
+   "title": "Eritsuk",
+   "metres": 323
+  },
+  {
+   "title": "Sanlend Bagrevand",
+   "metres": 645
+  },
+  {
+   "title": "Rut Konstrakt",
+   "metres": 1810
+  },
+  {
+   "title": "Amerikana",
+   "metres": 3379
+  },
+  {
+   "title": "Address",
+   "metres": 364
+  },
+  {
+   "title": "ASSTROY",
+   "metres": 1065
+  },
+  {
+   "title": "OPTIMA 25 LLC",
+   "metres": 649
+  },
+  {
+   "title": "RIVER SIDE LLC",
+   "metres": 1125
+  },
+  {
+   "title": "Mitstart LLC",
+   "metres": 883
+  },
+  {
+   "title": "Konstro LLC",
+   "metres": 1348
+  },
+  {
+   "title": "SAF CAPITAL LLC (EE)",
+   "metres": 244
+  },
+  {
+   "title": "SHIN SERVICE GROUP LLC",
+   "metres": 17265
+  }
+ ],
+ "grade": [
+  {
+   "developer": "Armani - Erebuni",
+   "from": "E",
+   "to": "D"
+  },
+  {
+   "developer": "AGShin",
+   "from": "C",
+   "to": "B"
+  },
+  {
+   "developer": "Arcada",
+   "from": "B",
+   "to": "C"
+  },
+  {
+   "developer": "Horizon-95",
+   "from": null,
+   "to": "C"
+  },
+  {
+   "developer": "APEX GM Developer",
+   "from": "D",
+   "to": "E"
+  },
+  {
+   "developer": "Armat Realty",
+   "from": "B",
+   "to": "C"
+  },
+  {
+   "developer": "MGE Construction",
+   "from": "B",
+   "to": "C"
+  },
+  {
+   "developer": "Green Hills",
+   "from": "C",
+   "to": "B"
+  },
+  {
+   "developer": "Solar City",
+   "from": "A",
+   "to": "B"
+  },
+  {
+   "developer": "Hay Develop",
+   "from": "C",
+   "to": "B"
+  },
+  {
+   "developer": "Archicon",
+   "from": "A",
+   "to": "B"
+  },
+  {
+   "developer": "V.v.b",
+   "from": null,
+   "to": "B"
+  },
+  {
+   "developer": "Haus AM",
+   "from": "A",
+   "to": "B"
+  },
+  {
+   "developer": "Lorida Group (Shushi Palace)",
+   "from": "D",
+   "to": "C"
+  },
+  {
+   "developer": "NARMARK",
+   "from": "B",
+   "to": "C"
+  },
+  {
+   "developer": "Seray Homes (Seray Developments)",
+   "from": "B",
+   "to": "C"
+  },
+  {
+   "developer": "Nash Group",
+   "from": "C",
+   "to": "B"
+  },
+  {
+   "developer": "Muar Group",
+   "from": "C",
+   "to": "B"
+  },
+  {
+   "developer": "Brawerk",
+   "from": "D",
+   "to": "C"
+  },
+  {
+   "developer": "ARSHAKUNYATS RESIDENCE",
+   "from": "C",
+   "to": "B"
+  },
+  {
+   "developer": "Ember",
+   "from": "C",
+   "to": "B"
+  },
+  {
+   "developer": "Best Land",
+   "from": "C",
+   "to": "B"
+  },
+  {
+   "developer": "Tachat 62",
+   "from": "C",
+   "to": "B"
+  },
+  {
+   "developer": "GM Development",
+   "from": "C",
+   "to": "B"
+  },
+  {
+   "developer": "Am Kynstrakt",
+   "from": "C",
+   "to": "B"
+  },
+  {
+   "developer": "Pavilion Grup",
+   "from": "C",
+   "to": "B"
+  },
+  {
+   "developer": "Man Invest Grup",
+   "from": "C",
+   "to": "B"
+  },
+  {
+   "developer": "S․t․sh․ Piramida",
+   "from": "C",
+   "to": "B"
+  },
+  {
+   "developer": "Royal Bilding",
+   "from": "C",
+   "to": "B"
+  },
+  {
+   "developer": "Arm-profit",
+   "from": "C",
+   "to": "B"
+  },
+  {
+   "developer": "Nyu Era",
+   "from": "C",
+   "to": "B"
+  },
+  {
+   "developer": "Nor Hachn Hills",
+   "from": "C",
+   "to": "B"
+  },
+  {
+   "developer": "Eritsuk",
+   "from": "B",
+   "to": "A"
+  }
+ ]
+}
