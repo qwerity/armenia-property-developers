@@ -18,3 +18,4 @@ scraper/.work/
 scraper/reports/projects.prev.json
 scraper/reports/*.json.done
 scraper/.cache*.bak-*/
+dist/

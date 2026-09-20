@@ -1,0 +1,60 @@
+name: build
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  id-token: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Build site
+        env:
+          # Browser Maps keys are public by nature; protect them with referrer restrictions.
+          GOOGLE_MAP_API_KEY: ${{ secrets.GOOGLE_MAP_API_KEY || 'MISSING_KEY' }}
+          GOOGLE_MAP_ID: ${{ vars.GOOGLE_MAP_ID }}
+        run: python3 build.py
+
+      - name: Check the database matches the dataset
+        run: |
+          python3 scraper/export_db.py --out /tmp/check.sqlite
+          python3 -c "import sqlite3; n = sqlite3.connect('/tmp/check.sqlite').execute('SELECT COUNT(*) FROM projects').fetchone()[0]; print(n, 'projects'); assert n > 0"
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: dist
+          path: dist/
+          retention-days: 14
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main' && vars.S3_BUCKET != ''
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          name: dist
+          path: dist
+
+      - uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: ${{ secrets.AWS_ROLE_ARN }}
+          aws-region: ${{ vars.AWS_REGION || 'us-east-1' }}
+
+      - name: Deploy to S3 and invalidate CloudFront
+        env:
+          S3_BUCKET: ${{ vars.S3_BUCKET }}
+          CLOUDFRONT_DISTRIBUTION_ID: ${{ vars.CLOUDFRONT_DISTRIBUTION_ID }}
+        run: bash deploy.sh
