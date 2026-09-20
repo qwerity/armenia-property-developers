@@ -32,7 +32,7 @@ _Data generated 2026-09-15._
 | `project_sources` | 1,319 |
 | `project_working_hours` | 177 |
 | `projects` | 735 |
-| `sources` | 23 |
+| `sources` | 140 |
 <!-- /counts -->
 
 ## Conventions
@@ -110,21 +110,33 @@ One row per normalized developer (`developer_group` in `projects`), with the A�
   are usually buyers suing the developer; `court_bankruptcy` counts cases where it is the debtor.
 - Entries with no company found keep `NULL` counts — absence of cases is not the same as "clean".
 
-Child tables: **`developer_flags`** (short warnings shown in the UI), **`developer_entities`**
-(legal entities with tax id and registry link), **`developer_cases`** (notable cases with a
-datalex deep link), **`developer_links`** (`kind`: `verify` = registry/court pages to check the
-rating yourself, `news` = negative coverage, `positive` = awards and completions,
-`searched_name` = the name variants that were searched).
+Child tables, which together are the evidence behind every grade:
+
+- **`developer_flags`** — the short warnings shown in the UI (182 rows).
+- **`developer_entities`** — legal entities with tax id, `source_url` and `registry_url`
+  (440 rows, 206 with a registry link), so a company can be looked up at e-register.am / karg.am.
+- **`developer_cases`** — 495 notable court cases, each with `case_number`, `tab`
+  (`civil`, `bankruptcy`, `criminal`, `administrative`, `payment_order`), `filed`, `why` it matters
+  and a datalex.am deep link (`https://datalex.am/?app=AppCaseSearch&case_id=…`) that opens the case.
+- **`developer_links`** — `verify` (1,017 rows; 339 are the datalex.am searches used, the rest are
+  registry, tax and company pages), `news` (104 negative items with date and summary),
+  `positive` (279 awards and completed projects), `searched_name` (779 name variants searched,
+  which is what the case counts in `developers.court_*` were collected under).
 
 ### `sources`
-The crawl registry: `kind`, `crawler`/`script` that reads it, `method` (how the data is extracted),
-`status` (`ok`, `degraded`, `blocked`, `dead`, `candidate`) and `last_crawled`.
+Every site the data came from: the 23 crawlers described in `scraper/sources.json`
+(`in_registry = 1`, with `kind`, `crawler`/`script`, `method` = how the data is extracted, `status`
+of `ok`/`degraded`/`blocked`/`dead`/`candidate`, and `last_crawled`) plus the 117 developer
+websites that projects cite but that have no registry entry (`in_registry = 0`). `projects` counts
+how many projects each one contributed. Per-project links are in `project_sources`, and the exact
+figures each source published are in `project_price_obs` / `project_geo_obs`.
 
 ### Views and search
 - **`v_projects`** — the columns most queries need.
 - **`v_priced_apartments`** — apartment projects with a current price; use this for any price average.
 - **`v_district_prices`** — count and min/avg/max $/m² per district.
 - **`v_developer_stats`** — per developer: projects, building vs finished, average $/m², court counts.
+- **`v_sources`** — per source: projects contributed, price and coordinate observations, status.
 - **`project_search`** — FTS5 index over title, developer, address and description.
 
 ## Example queries
@@ -149,6 +161,26 @@ Where a project's price came from:
 
 ```sql
 SELECT source, raw, usd_m2, used FROM project_price_obs WHERE project_id = '4acapitalam-408';
+```
+
+Which sources the data came from, and how much each contributed:
+
+```sql
+SELECT name, kind, projects, price_observations, status FROM v_sources WHERE projects > 0;
+```
+
+Every source that published a price for one project, with the raw figures:
+
+```sql
+SELECT ps.name, ps.url, o.raw, o.usd_m2, o.used
+FROM project_sources ps LEFT JOIN project_price_obs o ON o.project_id = ps.project_id AND o.source = ps.name
+WHERE ps.project_id = '4acapitalam-408';
+```
+
+Court cases behind a developer's rating, with datalex.am links to open each one:
+
+```sql
+SELECT case_number, tab, filed, why, url FROM developer_cases WHERE developer = 'ML Mining' ORDER BY filed DESC;
 ```
 
 Developers sued most often by individuals:

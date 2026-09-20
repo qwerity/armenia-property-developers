@@ -257,6 +257,8 @@ CREATE INDEX ix_dev_links ON developer_links(developer, kind);
 CREATE TABLE sources (
   name         TEXT PRIMARY KEY,
   kind         TEXT,   -- aggregator | developer | bank | agency ...
+  projects     INTEGER,-- projects whose data came from this source
+  in_registry  INTEGER,-- 1 = described in scraper/sources.json, 0 = seen in the data only
   crawler      TEXT,
   script       TEXT,
   method       TEXT,
@@ -294,6 +296,12 @@ SELECT d.name, d.grade, d.score, d.projects,
 FROM developers d LEFT JOIN projects p ON p.developer_group = d.name
 GROUP BY d.name
 ORDER BY d.projects DESC;
+
+CREATE VIEW v_sources AS
+SELECT s.name, s.kind, s.projects, s.status, s.in_registry, s.last_crawled,
+       (SELECT COUNT(*) FROM project_price_obs o WHERE o.source = s.name) AS price_observations,
+       (SELECT COUNT(*) FROM project_geo_obs g WHERE g.source = s.name) AS geo_observations
+FROM sources s ORDER BY s.projects DESC;
 
 CREATE VIRTUAL TABLE project_search USING fts5(
   id UNINDEXED, title, title_am, title_ru, developer, address, district, region, description
@@ -453,13 +461,26 @@ def developer_rows(projects: list[dict]) -> tuple[list[dict], dict[str, list[dic
                   "developer_cases": cases, "developer_links": links}
 
 
-def source_rows() -> list[dict]:
-    if not SOURCES_JSON.exists():
-        return []
-    data = json.loads(SOURCES_JSON.read_text())
-    return [{"name": s.get("name"), "kind": s.get("kind"), "crawler": s.get("crawler"), "script": s.get("script"),
-             "method": s.get("method"), "status": s.get("status"), "last_crawled": s.get("last_crawled"),
-             "notes": s.get("notes")} for s in data.get("sources") or []]
+def source_rows(projects: list[dict]) -> list[dict]:
+    """The crawl registry, plus every source name that actually appears on a project.
+
+    Most developer websites are crawled generically and are not described in sources.json, so they
+    would otherwise be missing from the table even though projects cite them.
+    """
+    used: dict[str, int] = {}
+    for p in projects:
+        for name in {s.get("name") for s in p.get("sources") or [] if s.get("name")}:
+            used[name] = used.get(name, 0) + 1
+    registry = json.loads(SOURCES_JSON.read_text()).get("sources", []) if SOURCES_JSON.exists() else []
+    rows = [{"name": s.get("name"), "kind": s.get("kind"), "projects": used.get(s.get("name"), 0), "in_registry": 1,
+             "crawler": s.get("crawler"), "script": s.get("script"), "method": s.get("method"),
+             "status": s.get("status"), "last_crawled": s.get("last_crawled"), "notes": s.get("notes")}
+            for s in registry]
+    known = {r["name"] for r in rows}
+    rows += [{"name": name, "kind": "developer site", "projects": n, "in_registry": 0, "crawler": None,
+              "script": None, "method": None, "status": None, "last_crawled": None, "notes": None}
+             for name, n in sorted(used.items()) if name not in known]
+    return sorted(rows, key=lambda r: (-r["projects"], r["name"]))
 
 
 def meta_rows(meta: dict, projects: list[dict]) -> list[dict]:
@@ -493,7 +514,7 @@ def build(out: Path) -> sqlite3.Connection:
     insert(cur, "developers", dev_rows)
     for table, rows in dev_children.items():
         insert(cur, table, rows)
-    insert(cur, "sources", source_rows())
+    insert(cur, "sources", source_rows(projects))
 
     cur.executemany(
         "INSERT INTO project_search (id, title, title_am, title_ru, developer, address, district, region, description)"
