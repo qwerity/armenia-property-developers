@@ -16,6 +16,8 @@ _Data generated 2026-09-15._
 
 | Table | Rows |
 | --- | ---: |
+| `connection_edges` | 1,279 |
+| `connection_nodes` | 1,287 |
 | `developer_cases` | 495 |
 | `developer_entities` | 440 |
 | `developer_flags` | 182 |
@@ -123,6 +125,27 @@ Child tables, which together are the evidence behind every grade:
   `positive` (279 awards and completed projects), `searched_name` (779 name variants searched,
   which is what the case counts in `developers.court_*` were collected under).
 
+### `connection_nodes` / `connection_edges`
+The ownership graph behind the connections card on the analytics page, built by
+`scraper/connections.py` from the state register of legal entities and its beneficial-owner data
+(e-register.moj.am, read through karg.am) plus bankruptcy cases from datalex.am.
+
+- **`connection_nodes`** — one row per developer (`dev:<slug>`), registered company (`co:<tax id>`)
+  and owner/director (`pe:<owner key>`). Companies carry the register's `status`
+  (`active` / `inactive`), `form`, `registered` date, legal `address`, `nace` activity and
+  `director`; `url` is the registry card and `sources` the full link list (registry, e-register
+  search, azdarar.am bulletin search).
+- `bankruptcy` is `declared` (a bankruptcy case against the company **and** the register no longer
+  shows it as active), `self_declared` (the company is the claimant against itself — it filed for its
+  own bankruptcy) or `case` (a case is pending); `bankruptcy_cases` holds the datalex deep links.
+  Corrections with a source live in `scraper/connections_manual.json`.
+- `component` groups nodes into a connected cluster and `component_developers` counts the developers
+  in it — `component_developers > 1` means those developers are linked to each other.
+- **`connection_edges`** — `entity` (developer → its registered company, `evidence` links the source
+  that ties them), `founder` / `director` (person → company, `label` carries the share) and
+  `address` (two companies registered at the same legal address).
+- **`v_bankruptcies`** — one row per flagged company with its developers and case links.
+
 ### `sources`
 Every site the data came from: the 23 crawlers described in `scraper/sources.json`
 (`in_registry = 1`, with `kind`, `crawler`/`script`, `method` = how the data is extracted, `status`
@@ -205,3 +228,11 @@ JOIN projects p ON p.id = s.id WHERE project_search MATCH 'residence AND arabkir
 - 353 projects have no current public price, usually because they are finished or sold out.
 - Court data covers published datalex.am records; a case can name a company whose link to the brand
   is indirect, so read `developer_cases.why` before drawing conclusions.
+- The ownership graph is only as complete as the register: the beneficial-owner section is missing for
+  part of the companies, and a developer whose legal entity could not be matched has no company node at
+  all. Shared legal addresses are a hint, not proof of a common owner — business centres host many
+  unrelated firms (addresses shared by more than eight companies are dropped as noise).
+- `connection_nodes.bankruptcy = 'declared'` is inferred from a court case plus the register's status,
+  not from a verdict document; datalex.am publishes no verdict in its case list. The official notice is
+  published on azdarar.am, which is linked from every flagged company, and confirmations are recorded by
+  hand in `scraper/connections_manual.json`.

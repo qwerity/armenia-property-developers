@@ -1,0 +1,11 @@
+{
+  "_readme": "Hand-checked corrections for the ownership graph. companies: {\"<tax id>\": {\"status\": \"declared|self_declared|case\", \"source_url\": \"…\", \"note\": \"…\"}}. drop_companies: tax ids matched to the wrong developer.",
+  "companies": {
+    "01275113": {
+      "status": "declared",
+      "source_url": "https://personal-legal-old.azdarar.am/announcments/cat/352/01260903/",
+      "note": "azdarar.am bulletin names «Կվադրա Քոնսթրաքշն» ՍՊԸ as the debtor in bankruptcy case ՍնԴ/3572/04/22 (creditors' preliminary claim list); the register no longer shows the company as active."
+    }
+  },
+  "drop_companies": []
+}

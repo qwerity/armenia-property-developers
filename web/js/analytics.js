@@ -1,6 +1,7 @@
 import { loadData } from "./data.js";
 import { state, stageLabel } from "./util.js";
 import { hbar, columns, stacked, scatter, table } from "./charts.js";
+import { drawGraph, typeInfo, edgeInfo, BANKRUPTCY } from "./graph.js";
 
 const $ = (id) => document.getElementById(id);
 const STAGES = [
@@ -13,7 +14,7 @@ const STAGES = [
 ];
 const GRADES = ["A", "B", "C", "D", "E"];
 const GRADE_COLORS = { A: "var(--viz-ord-5)", B: "var(--viz-ord-4)", C: "var(--viz-ord-3)", D: "var(--viz-ord-2)", E: "var(--viz-ord-1)" };
-const app = { projects: [], meta: {} };
+const app = { projects: [], meta: {}, connections: null, cnSelected: null };
 
 // ---------------------------------------------------------------- numbers
 const median = (xs) => {
@@ -337,6 +338,316 @@ function renderDeals(items) {
   ], rows);
 }
 
+
+// ---------------------------------------------------------------- connections graph
+const cnNode = (id) => app.connections?.byId.get(id);
+
+/** Nodes to draw: clusters kept whole, filtered by scope, by the page filters and by the focus pick. */
+function connectionView(items) {
+  const c = app.connections;
+  if (!c) return { nodes: [], edges: [] };
+  const scope = $("cn-scope").value;
+  const focus = $("cn-focus").value;
+  const inFilter = new Set(items.map((p) => p.developer_group));
+  const flagged = new Set(c.nodes.filter((n) => n.bankruptcy).map((n) => n.component));
+  const keep = new Set();
+  for (const n of c.nodes) {
+    if (n.type !== "developer") continue;
+    if (scope === "linked" && n.component_developers < 2) continue;
+    if (scope === "flagged" && !flagged.has(n.component)) continue;
+    if (!inFilter.has(n.label)) continue;
+    keep.add(n.component);
+  }
+  if (focus) {
+    const f = cnNode(focus);
+    keep.clear();
+    if (f) keep.add(f.component);
+  }
+  // A node-link graph stops being readable past a few hundred marks, so the largest clusters are drawn
+  // first and the rest are left to the tables below.
+  const LIMIT = 460;
+  const sizes = new Map();
+  for (const n of c.nodes) sizes.set(n.component, (sizes.get(n.component) || 0) + 1);
+  const order = [...keep].sort((a, b) => (c.devCount.get(b) || 0) - (c.devCount.get(a) || 0) || sizes.get(b) - sizes.get(a));
+  const shown = new Set();
+  let total = 0;
+  for (const comp of order) {
+    if (total && total + sizes.get(comp) > LIMIT) continue;
+    shown.add(comp);
+    total += sizes.get(comp);
+  }
+  const nodes = c.nodes.filter((n) => shown.has(n.component));
+  const ids = new Set(nodes.map((n) => n.id));
+  return { nodes, edges: c.edges.filter((e) => ids.has(e.source) && ids.has(e.target)), hidden: keep.size - shown.size };
+}
+
+function link(text, href) {
+  const a = document.createElement("a");
+  a.href = href;
+  a.textContent = text;
+  a.target = "_blank";
+  a.rel = "noopener";
+  return a;
+}
+
+function bankruptcyBadge(b) {
+  const s = document.createElement("span");
+  s.className = `cn-status ${b.status}`;
+  s.textContent = `${BANKRUPTCY[b.status].label_hy} · ${BANKRUPTCY[b.status].label}`;
+  return s;
+}
+
+/** Side panel for the selected node: what it is, how it connects, and every source behind it. */
+function renderCnPanel(node) {
+  const host = $("cn-panel");
+  const c = app.connections;
+  host.replaceChildren();
+  if (!node) {
+    const p = document.createElement("p");
+    p.className = "cn-empty";
+    p.textContent = "Select a node to see its registry record, the people behind it and the sources.";
+    host.append(p);
+    return;
+  }
+  const h = document.createElement("h3");
+  h.textContent = node.label;
+  const kind = document.createElement("div");
+  kind.className = "cn-kind";
+  kind.textContent = typeInfo[node.type]?.label || node.type;
+  host.append(kind, h);
+  if (node.bankruptcy) {
+    host.append(bankruptcyBadge(node.bankruptcy));
+    const why = document.createElement("p");
+    why.className = "cn-basis";
+    why.textContent = node.bankruptcy.basis || "";
+    host.append(why);
+  }
+
+  const dl = document.createElement("dl");
+  const row = (label, value) => {
+    if (value == null || value === "") return;
+    const dt = document.createElement("dt"); dt.textContent = label;
+    const dd = document.createElement("dd");
+    if (value instanceof Node) dd.append(value); else dd.textContent = value;
+    dl.append(dt, dd);
+  };
+  if (node.type === "developer") {
+    row("Projects", String(node.projects));
+    row("Rating", node.grade ? `${node.grade} (${node.score})` : "not rated");
+    row("Role", node.role);
+    row("Lawsuits by individuals", node.lawsuits != null ? String(node.lawsuits) : null);
+  } else if (node.type === "company") {
+    row("Tax ID", node.tax_id);
+    row("Registry status", node.status === "inactive" ? "not active" : node.status === "active" ? "active" : null);
+    row("Legal form", node.form);
+    row("Registered", node.registered);
+    row("Address", node.address);
+    row("Activity", node.nace);
+    row("Director", node.director);
+    row("Court cases", node.court_cases != null ? String(node.court_cases) : null);
+  } else {
+    row("Companies in the register", String(node.companies));
+  }
+  host.append(dl);
+
+  const connected = c.edges
+    .filter((e) => e.source === node.id || e.target === node.id)
+    .map((e) => ({ other: cnNode(e.source === node.id ? e.target : e.source), e }))
+    .filter((x) => x.other);
+  if (connected.length) {
+    const t = document.createElement("div");
+    t.className = "cn-kind";
+    t.textContent = "Connected to";
+    const ul = document.createElement("ul");
+    for (const { other, e } of connected.slice(0, 24)) {
+      const li = document.createElement("li");
+      const b = document.createElement("button");
+      b.type = "button";
+      b.className = "link";
+      b.textContent = other.label;
+      b.addEventListener("click", () => selectCn(other.id));
+      li.append(b, document.createTextNode(` — ${e.label || edgeInfo[e.kind]?.label || e.kind}`));
+      ul.append(li);
+    }
+    host.append(t, ul);
+  }
+
+  const sources = [...(node.sources || []), ...(node.bankruptcy?.sources || [])].filter((s) => s.url);
+  const cases = node.bankruptcy?.cases || [];
+  const t = document.createElement("div");
+  t.className = "cn-kind";
+  t.textContent = "Sources";
+  const ul = document.createElement("ul");
+  for (const s of sources) {
+    const li = document.createElement("li");
+    li.append(s.url.startsWith("http") ? link(s.title, s.url) : link(s.title, s.url));
+    ul.append(li);
+  }
+  for (const k of cases) {
+    const li = document.createElement("li");
+    li.append(k.url ? link(`Case ${k.case_number}`, k.url) : document.createTextNode(`Case ${k.case_number}`));
+    if (k.claimant) li.append(document.createTextNode(` — claimant: ${k.claimant}`));
+    ul.append(li);
+  }
+  if (node.bankruptcy?.confirmed_by) {
+    const li = document.createElement("li");
+    li.append(link("Confirmation (hand-checked)", node.bankruptcy.confirmed_by));
+    ul.append(li);
+  }
+  host.append(t, ul);
+}
+
+function selectCn(id) {
+  app.cnSelected = id;
+  app.cnGraph?.select(id);
+  renderCnPanel(id ? cnNode(id) : null);
+}
+
+/** Developer pairs in one cluster and the shortest chain that links them. */
+function developerPairs(view) {
+  const byId = new Map(view.nodes.map((n) => [n.id, n]));
+  const adj = new Map(view.nodes.map((n) => [n.id, []]));
+  for (const e of view.edges) {
+    adj.get(e.source).push([e.target, e]);
+    adj.get(e.target).push([e.source, e]);
+  }
+  const devs = view.nodes.filter((n) => n.type === "developer");
+  const out = [];
+  for (let i = 0; i < devs.length; i++) {
+    const from = devs[i];
+    const prev = new Map([[from.id, null]]);
+    const queue = [from.id];
+    while (queue.length) {
+      const cur = queue.shift();
+      for (const [next, e] of adj.get(cur) || []) {
+        if (prev.has(next)) continue;
+        prev.set(next, [cur, e]);
+        queue.push(next);
+      }
+    }
+    for (const to of devs.slice(i + 1)) {
+      if (!prev.has(to.id)) continue;
+      const chain = [];
+      let cur = to.id;
+      while (prev.get(cur)) { const [p, e] = prev.get(cur); chain.unshift({ node: byId.get(cur), edge: e }); cur = p; }
+      const via = chain.slice(0, -1).map((x) => x.node);
+      out.push({
+        a: from, b: to, via,
+        how: via.some((n) => n.type === "person") ? "shared owner"
+          : chain.some((x) => x.edge.kind === "address") ? "same legal address"
+            : "same company",
+        flagged: via.some((n) => n.bankruptcy),
+      });
+    }
+  }
+  return out.sort((a, b) => (b.flagged - a.flagged) || a.via.length - b.via.length || a.a.label.localeCompare(b.a.label));
+}
+
+function renderConnections(items) {
+  const c = app.connections;
+  if (!c) return;
+  const view = connectionView(items);
+  const host = $("ch-connections");
+  $("cn-note").textContent = view.hidden
+    ? `${view.hidden} more cluster${view.hidden === 1 ? "" : "s"} match but are not drawn — narrow the filters or pick a developer to focus.`
+    : "";
+  app.cnGraph = drawGraph(host, view, { onSelect: (n) => selectCn(n?.id || null), selected: app.cnSelected });
+  if (app.cnSelected && !view.nodes.some((n) => n.id === app.cnSelected)) app.cnSelected = null;
+  renderCnPanel(app.cnSelected ? cnNode(app.cnSelected) : null);
+
+  $("cn-legend").replaceChildren(...[
+    ...Object.entries(typeInfo).map(([, t]) => {
+      const s = document.createElement("span");
+      const i = document.createElement("i");
+      i.style.background = t.color;
+      i.style.borderRadius = t.shape === "circle" ? "50%" : t.shape === "diamond" ? "2px" : "3px";
+      if (t.shape === "diamond") i.style.transform = "rotate(45deg)";
+      s.append(i, document.createTextNode(t.label));
+      return s;
+    }),
+    ...Object.entries(BANKRUPTCY).map(([key, b]) => {
+      const s = document.createElement("span");
+      s.className = "cn-status-key";
+      const i = document.createElement("i");
+      i.className = `${key === "case" ? "case" : ""} ${b.dash ? "dashed" : ""}`.trim();
+      s.append(i, document.createTextNode(`${b.label} · ${b.label_hy}`));
+      return s;
+    }),
+  ]);
+
+  const pairs = developerPairs(view);
+  table($("tb-connections"), [
+    { label: "Developer", render: (r) => r.a.label },
+    { label: "Connected to", render: (r) => r.b.label },
+    { label: "How", key: "how" },
+    { label: "Through", render: (r) => r.via.map((n) => n.label).join(" → ") || "—" },
+    { label: "Bankruptcy in the chain", render: (r) => (r.flagged ? "yes" : "no") },
+  ], pairs.slice(0, 60));
+
+  const flags = view.nodes.filter((n) => n.bankruptcy)
+    .sort((a, b) => Object.keys(BANKRUPTCY).indexOf(a.bankruptcy.status) - Object.keys(BANKRUPTCY).indexOf(b.bankruptcy.status));
+  table($("tb-bankrupt"), [
+    { label: "Company", render: (n) => (n.sources?.[0]?.url ? link(n.label, n.sources[0].url) : n.label) },
+    { label: "Status", render: (n) => `${BANKRUPTCY[n.bankruptcy.status].label_hy} · ${BANKRUPTCY[n.bankruptcy.status].label}` },
+    {
+      label: "Developer",
+      render: (n) => {
+        const own = (n.developers || []).map((d) => cnNode(d)?.label).filter(Boolean);
+        if (own.length) return own.join(", ");
+        // an owner's other company: name the developers it shares a cluster with
+        const near = app.connections.nodes
+          .filter((x) => x.type === "developer" && x.component === n.component).map((x) => x.label);
+        return near.length ? `same owners as ${near.slice(0, 3).join(", ")}` : "—";
+      },
+    },
+    { label: "Registry", render: (n) => (n.status === "inactive" ? "not active" : "active") },
+    { label: "Basis", render: (n) => n.bankruptcy.basis },
+    {
+      label: "Cases", render: (n) => {
+        const f = document.createDocumentFragment();
+        (n.bankruptcy.cases || []).slice(0, 3).forEach((k, i) => {
+          if (i) f.append(document.createTextNode(", "));
+          f.append(k.url ? link(k.case_number, k.url) : document.createTextNode(k.case_number));
+        });
+        return f.childNodes.length ? f : "—";
+      },
+    },
+    { label: "Bulletin", render: (n) => link("azdarar.am", (n.sources || []).find((s) => /azdarar/.test(s.url))?.url || "https://www.azdarar.am/") },
+  ], flags);
+}
+
+function fillFocus() {
+  const sel = $("cn-focus");
+  const devs = app.connections.nodes.filter((n) => n.type === "developer")
+    .sort((a, b) => a.label.localeCompare(b.label));
+  sel.replaceChildren(new Option("All clusters", ""));
+  for (const d of devs) {
+    sel.append(new Option(d.component_developers > 1 ? `${d.label} (${d.component_developers} linked)` : d.label, d.id));
+  }
+}
+
+async function loadConnections() {
+  try {
+    const res = await fetch("data/connections.json", { cache: "no-cache" });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const data = await res.json();
+    data.byId = new Map(data.nodes.map((n) => [n.id, n]));
+    data.devCount = new Map(data.nodes.filter((n) => n.type === "developer").map((n) => [n.component, n.component_developers]));
+    app.connections = data;
+    fillFocus();
+    const src = $("cn-sources");
+    src.replaceChildren(document.createTextNode(`Registry data crawled ${data.meta.crawled}; ${data.meta.companies} companies and ${data.meta.people} owners for ${data.meta.developers} developers. Sources: `));
+    data.meta.sources.forEach((s, i) => {
+      if (i) src.append(document.createTextNode(" · "));
+      src.append(link(s.title, s.url));
+    });
+    renderConnections(filtered());
+  } catch (err) {
+    console.error(err);
+    document.getElementById("an-connections").hidden = true;
+  }
+}
+
 function render() {
   refreshFilterOptions();
   const items = filtered();
@@ -351,6 +662,7 @@ function render() {
   renderQuality(items);
   renderDevelopers(items);
   renderDeals(items);
+  renderConnections(items);
 }
 
 function bind() {
@@ -359,6 +671,12 @@ function bind() {
     for (const id of ["af-region", "af-district", "af-kind", "af-stage", "af-grade"]) $(id).value = "";
     render();
   });
+  for (const id of ["cn-scope", "cn-focus"]) {
+    $(id).addEventListener("change", () => {
+      if (id === "cn-focus") app.cnSelected = $("cn-focus").value || null;
+      renderConnections(filtered());
+    });
+  }
   $("af-currency").addEventListener("click", (e) => {
     const b = e.target.closest("button[data-cur]");
     if (!b) return;
@@ -377,6 +695,7 @@ async function main() {
     $("an-meta").textContent = `${projects.length} projects · data ${meta.generated} · 1 USD = ${meta.amd_per_usd} AMD · prices are asking prices of available units`;
     bind();
     render();
+    loadConnections();
   } catch (err) {
     console.error(err);
     $("an-meta").textContent = `Could not load data: ${err.message}`;

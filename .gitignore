@@ -8,6 +8,7 @@ __pycache__/
 .DS_Store
 scraper/.price_verify_*.json
 scraper/.cache_datalex/
+scraper/.cache_karg/
 scraper/.loc_verify_*.json
 scraper/.stage_verify_*.json
 scraper/.rep_devs_*.json

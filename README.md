@@ -6,7 +6,8 @@ and a developer reputation rating — plus an analytics dashboard and a one-file
 - **Map** (`index.html`) — Google Maps 2D / 3D / photorealistic 3D, pins coloured per developer,
   faceted filters, project details with images, videos, contacts, price check and developer rating.
 - **Analytics** (`analytics.html`) — prices by district, price distribution, delivery pipeline,
-  stages, price against completion date, developer ratings, data quality, below-median deals.
+  stages, price against completion date, developer ratings, data quality, below-median deals, and a
+  connections graph of developers, their companies and the people who own them, with bankruptcies marked.
 - **Database** (`db/armenia-new-builds.sqlite`) — the whole dataset in SQL form, documented in
   [`db/db.md`](db/db.md).
 
@@ -16,7 +17,7 @@ Current snapshot: 735 projects, 366 developers, 140 sources, data generated 2026
 
 | Path | What it is |
 | --- | --- |
-| `web/` | The static site: two HTML pages, CSS, plain ES modules, `web/data/projects.json` |
+| `web/` | The static site: two HTML pages, CSS, plain ES modules, `web/data/projects.json` and `web/data/connections.json` |
 | `scraper/` | Crawlers, the merge/normalize/score pipeline, verification data, source registry |
 | `db/` | Generated SQLite database and its documentation |
 | `build.py` | Builds `dist/` for static hosting |
@@ -106,6 +107,7 @@ python3 scraper/pipeline.py status          # dataset health
 python3 scraper/pipeline.py crawl           # re-crawl sources
 python3 scraper/pipeline.py build           # rebuild projects.json + a change report
 python3 scraper/export_db.py                # rebuild the SQLite database
+python3 scraper/connections.py crawl        # rebuild the ownership graph (registry + court records)
 ```
 
 Prices are asking prices published by developers and aggregators, reconciled across sources and
@@ -113,3 +115,12 @@ re-checked by hand; 353 projects have no current public price and keep their las
 instead. Developer ratings combine track record, delivery, datalex.am court records, cross-source
 validation and transparency. Full definitions, caveats and example queries are in
 [`db/db.md`](db/db.md); the data commands are described in [COMMANDS.md](COMMANDS.md).
+
+The connections graph (`web/data/connections.json`) links each developer to its registered companies and
+to the people who own or run them, using the state register of legal entities and its beneficial-owner data
+(e-register.moj.am, read through karg.am) plus bankruptcy cases from datalex.am. Every node carries the
+links it was built from, so each claim can be checked at the source; bankruptcy notices are published on
+azdarar.am, which blocks requests from outside Armenia and is therefore linked rather than crawled. A
+company is marked as declared bankrupt only when a bankruptcy case is matched by the register showing the
+company as no longer active; a case with the company as its own claimant is shown as a self-filed
+bankruptcy, and anything else as a pending case.

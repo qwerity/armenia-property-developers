@@ -83,6 +83,37 @@
       <div id="ch-quality"></div>
     </article>
 
+    <article class="card span-2" id="an-connections">
+      <header>
+        <h2>Developer and constructor connections</h2>
+        <p class="muted">
+          Who is behind each developer, and which developers share owners, companies or a registered address.
+          Built from the state register of legal entities and its beneficial-owner data (e-register.moj.am via
+          karg.am) and from court records (datalex.am); bankruptcy notices can be checked on azdarar.am. Every
+          node opens with its sources. Companies with a bankruptcy are ringed in red or amber and marked
+          <b class="cn-flag">!</b>. Clusters follow the filters above: a cluster is shown when at least one of
+          its developers is in the current filter.
+        </p>
+      </header>
+      <div class="cn-controls">
+        <label>Show<select id="cn-scope">
+          <option value="linked">Developers linked to another developer</option>
+          <option value="flagged">Clusters with a bankruptcy</option>
+          <option value="all">Every developer with registry data</option>
+        </select></label>
+        <label>Focus<select id="cn-focus"><option value="">All clusters</option></select></label>
+      </div>
+      <p class="cn-note muted" id="cn-note"></p>
+      <div class="legend-row" id="cn-legend"></div>
+      <div class="cn-split">
+        <div class="chart" id="ch-connections"></div>
+        <aside class="cn-panel" id="cn-panel" aria-live="polite"></aside>
+      </div>
+      <details class="an-table"><summary>How the linked developers are connected</summary><div id="tb-connections" class="an-scroll"></div></details>
+      <details class="an-table"><summary>Bankruptcies (սնանկություն)</summary><div id="tb-bankrupt" class="an-scroll"></div></details>
+      <p class="cn-sources muted" id="cn-sources"></p>
+    </article>
+
     <article class="card span-2">
       <header><h2>Largest developers</h2><p class="muted">By number of projects in the current filter.</p></header>
       <div id="tb-developers" class="an-scroll"></div>
