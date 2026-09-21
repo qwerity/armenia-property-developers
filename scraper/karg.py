@@ -44,6 +44,21 @@ def company_url(tax_id: str) -> str:
     return f"{BASE}/company/{tax_id}?lang=hy"
 
 
+KARG_COMPANY = re.compile(r"karg\.am/company/(\d+)")
+
+
+def public_url(url: str | None) -> str | None:
+    """A link a reader can actually open.
+
+    karg.am started answering 403 to every request (browsers included) on 2026-09-21, so a company
+    page is swapped for the same company in the state register, and anything else is dropped.
+    """
+    if not url or "karg.am" not in url:
+        return url
+    m = KARG_COMPANY.search(url)
+    return f"https://e-register.moj.am/hy/search/companies?query={m.group(1)}" if m else None
+
+
 def founder_url(key: str) -> str:
     return f"{BASE}/founder/{key}?lang=hy"
 

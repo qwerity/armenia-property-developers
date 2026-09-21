@@ -318,3 +318,4 @@ gmp-place-details-compact { margin-top: 8px; width: 100%; color-scheme: light; }
 .cbx-option.active { background: var(--tuff); }
 .cbx-option.on { font-weight: 600; }
 .cbx-empty { padding: 6px 8px; font-size: 12.5px; color: var(--muted); }
+a.gone { color: var(--muted); text-decoration: line-through; text-decoration-thickness: 1px; }

@@ -125,10 +125,11 @@ Child tables, which together are the evidence behind every grade:
 - **`developer_cases`** — 495 notable court cases, each with `case_number`, `tab`
   (`civil`, `bankruptcy`, `criminal`, `administrative`, `payment_order`), `filed`, `why` it matters
   and a datalex.am deep link (`https://datalex.am/?app=AppCaseSearch&case_id=…`) that opens the case.
-- **`developer_links`** — `verify` (1,017 rows; 339 are the datalex.am searches used, the rest are
-  registry, tax and company pages), `news` (104 negative items with date and summary),
-  `positive` (279 awards and completed projects), `searched_name` (779 name variants searched,
-  which is what the case counts in `developers.court_*` were collected under).
+- **`developer_links`** — `verify` (the datalex search and the registry pages to check the rating
+  yourself), `news` (negative coverage with date and summary), `positive` (awards and completed
+  projects), `searched_name` (the name variants searched, which is what the case counts in
+  `developers.court_*` were collected under). Every link here was tested with
+  `scraper/check_urls.py --links`; the few that no longer answer are marked in the UI.
 
 ### `connection_nodes` / `connection_edges`
 The ownership graph behind the connections card on the analytics page, built by

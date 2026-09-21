@@ -30,6 +30,7 @@ from pathlib import Path
 
 import azdarar
 import karg
+from karg import public_url
 from datalex import case_url, find_cases, normalize_org
 
 HERE = Path(__file__).resolve().parent
@@ -100,6 +101,11 @@ def azdarar_links(name: str) -> list[dict]:
     ]
 
 
+def register_url(query: str | None) -> str | None:
+    """Official register link; karg.am, the mirror the crawl reads, now answers 403 to everyone."""
+    return f"https://e-register.moj.am/hy/search/companies?query={urllib.parse.quote(query)}" if query else None
+
+
 def datalex_search_url(case_number: str | None = None) -> str:
     """A case number opens that case; without one the reader has to type the party into the form.
 
@@ -112,7 +118,8 @@ def datalex_search_url(case_number: str | None = None) -> str:
 
 
 def eregister_url(tax_id: str) -> str:
-    return f"https://e-register.moj.am/hy/search/companies?q={urllib.parse.quote(tax_id)}"
+    return register_url(tax_id)
+
 
 
 # ---------------------------------------------------------------- dataset side
@@ -387,6 +394,8 @@ def build() -> dict:
         if src == dst or key in seen_edges or src not in nodes or dst not in nodes:
             return
         seen_edges.add(key)
+        if "evidence" in rest:
+            rest["evidence"] = public_url(rest["evidence"])
         edges.append({"source": src, "target": dst, "kind": kind, **rest})
 
     # developers -------------------------------------------------------
@@ -424,8 +433,7 @@ def build() -> dict:
             "court_cases": c.get("court_cases"), "bankruptcy": bank, "partial": bool(c.get("partial")) or None,
             "developers": sorted(dev_of_company.get(tax, ())),
             "sources": [
-                {"title": "Registry card (karg.am / e-register)", "url": c.get("url")},
-                {"title": "e-register.moj.am company search", "url": eregister_url(tax)},
+                {"title": "Company in the state register", "url": eregister_url(tax)},
                 *azdarar_links(c.get("name") or tax),
             ],
         }
@@ -445,7 +453,8 @@ def build() -> dict:
         mine = [c for c in p["companies"] if f"co:{c['tax_id']}" in nodes]
         pid = f"pe:{key}"
         nodes[pid] = {"id": pid, "type": "person", "label": display_name(p["name"]), "companies": len(p["companies"]),
-                      "sources": [{"title": "Owner card (karg.am / BOR)", "url": p["url"]}]}
+                      "sources": [{"title": "Search this name in the state register",
+                                   "url": register_url(display_name(p["name"])) or p["url"]}]}
         for c in p["companies"]:
             if f"co:{c['tax_id']}" in nodes:
                 edge(pid, f"co:{c['tax_id']}", c.get("role") or "founder",
@@ -557,7 +566,7 @@ def build() -> dict:
         "azdarar_checked": len(notices),
         "sources": [
             {"title": "e-register.moj.am — state register of legal entities", "url": "https://e-register.moj.am/hy/search/companies"},
-            {"title": "karg.am — registry and beneficial-owner mirror", "url": "https://karg.am/"},
+            {"title": "e-register.moj.am — company search by tax id", "url": "https://e-register.moj.am/hy/search/companies"},
             {"title": "datalex.am — judicial information system", "url": datalex_search_url()},
             {"title": "azdarar.am — official bulletin (bankruptcy notices)", "url": "https://www.azdarar.am/"},
         ],

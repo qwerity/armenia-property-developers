@@ -1,28 +1,203 @@
 {
  "about": "Registry of data sources for the Armenia new-builds map. Skills read and update it: status ok|degraded|blocked|dead|candidate, method, and notes on quirks. Keep entries short and factual.",
  "sources": [
-  {"name": "karucapatoxic.am", "kind": "aggregator", "crawler": "karucapatoxic", "script": "scraper/karucapatoxic.py", "method": "Next.js RSC payload (listBuildings on /en, detail /en/<id>, JSON-LD). Coordinates from Google embed !2z marker, not !2d/!3d centre.", "status": "ok", "last_crawled": "2026-09-14"},
-  {"name": "construction.am", "kind": "aggregator", "crawler": "extra", "script": "scraper/extra_sources.py construction", "method": "HTML pages with Google Maps embeds; many completed/stale listings (2019-2022 prices).", "status": "ok", "last_crawled": "2026-09-14"},
-  {"name": "dignisi.am", "kind": "aggregator", "crawler": "extra", "script": "scraper/extra_sources.py dignisi", "method": "Next.js SSR; sitemap.xml lists all /en/projects/*; project pages carry schema.org ApartmentComplex JSON-LD (geo, address). /api/ disallowed by robots.txt - do not use. Includes Dubai/Cyprus/Batumi projects to skip.", "status": "ok", "last_crawled": "2026-09-14"},
-  {"name": "geoln.com", "kind": "aggregator", "crawler": "extra", "script": "scraper/extra_sources.py geoln", "method": "HTML; stale prices, completion dates often past.", "status": "degraded", "last_crawled": "2026-09-14"},
-  {"name": "ac-box.com", "kind": "aggregator", "crawler": "extra", "script": "scraper/extra_sources.py acbox", "method": "Every page embeds the full catalogue JSON.", "status": "ok", "last_crawled": "2026-09-14"},
-  {"name": "yerevan.etagi.com", "kind": "aggregator", "crawler": "extra", "script": "scraper/extra_sources.py etagi", "method": "HTML; USD figure sometimes equals AMD thousands (e.g. $489 = 510,000 AMD).", "status": "degraded", "last_crawled": "2026-09-14"},
-  {"name": "myhome.am", "kind": "bank catalog (Ameriabank)", "crawler": "catalogs", "script": "scraper/catalog_projects.py myhome.am", "method": "JSON API POST /API/v1/buildings/filter_v2, /API/v1/builders/{id}; unit-level prices (use unsold units only).", "status": "ok", "last_crawled": "2026-09-14"},
-  {"name": "redgroup.am", "kind": "sales agency catalog", "crawler": "catalogs", "script": "scraper/catalog_projects.py redgroup.am", "method": "JSON API /api/projects?page=N; product.status 'sold' must be excluded from prices; API returns only a ~12-unit sample.", "status": "ok", "last_crawled": "2026-09-14"},
-  {"name": "novostroiki-yerevan.com", "kind": "aggregator", "crawler": "catalogs", "script": "scraper/catalog_projects.py novostroiki-yerevan.com", "method": "sitemap + markdown project pages; copies karucapatoxic coordinates (viewport centre, ~100 m east bias).", "status": "ok", "last_crawled": "2026-09-14"},
-  {"name": "ar-go.am", "kind": "sales agency catalog", "crawler": "catalogs", "script": "scraper/catalog_projects.py ar-go.am", "method": "Armenian-only pages, Yandex map coordinates, start/end dates. robots.txt blocks ClaudeBot / ai-train=no: fetch politely for this dataset only.", "status": "ok", "last_crawled": "2026-09-14"},
-  {"name": "acba.am", "kind": "bank partner list", "crawler": "catalogs", "script": "scraper/catalog_projects.py acba.am", "method": "Armenian partner cards: address, status, floors, completion, price, contacts.", "status": "ok", "last_crawled": "2026-09-14"},
-  {"name": "evoca.am", "kind": "bank partner list", "crawler": "catalogs", "script": "scraper/catalog_projects.py evoca.am", "method": "Developer/project cards with address and phone only; many placeholder coordinates.", "status": "degraded", "last_crawled": "2026-09-14"},
-  {"name": "byblosbankarmenia.am", "kind": "bank partner list", "crawler": "catalogs", "script": "scraper/catalog_projects.py byblosbankarmenia.am", "method": "4 cards, address only.", "status": "ok", "last_crawled": "2026-09-14"},
-  {"name": "developer websites (136)", "kind": "developer sites", "crawler": "devsites", "script": "scraper/agent_work/devsites_b1..b3 (per-developer reference scripts) + scraper/.agent_schema.md", "method": "Agent-driven per developer; list in scraper/developers_master.json (projects_url). Output developer_projects_b*.json.", "status": "ok", "last_crawled": "2026-09-14"},
-  {"name": "datalex.am", "kind": "court records", "crawler": "reputation", "script": "scraper/datalex.py", "method": "POST json.php getGridDataList (civil, bankruptcy, administrative, criminal, payment_order); fuzzy search, filter to exact party names; case link ?app=AppCaseSearch&case_id=ID. <=1 req/4 s.", "status": "ok", "last_crawled": "2026-09-15"},
-  {"name": "karg.am", "kind": "company registry mirror", "crawler": "reputation", "script": "agent-driven", "method": "karg.am/company/<tax id>: status, founders, enforcement cases.", "status": "ok", "last_crawled": "2026-09-15"},
-  {"name": "Open-Meteo elevation", "kind": "reference", "crawler": "build", "script": "scraper/elevation.py", "method": "api.open-meteo.com/v1/elevation batches of 100; rate-limits (429) - back off.", "status": "ok", "last_crawled": "2026-09-15"},
-  {"name": "OSM Nominatim / Overpass", "kind": "reference", "crawler": "build", "script": "scraper/geocode.py, geo_audit.py, geo/admin_raw.json", "method": "1 req/s max; province/district polygons in scraper/geo/.", "status": "ok", "last_crawled": "2026-09-14"},
-  {"name": "2gis.am", "kind": "aggregator", "crawler": null, "method": "~191 new builds but client-rendered with keyed API - not usable without a key.", "status": "blocked"},
-  {"name": "list.am", "kind": "classifieds", "crawler": null, "method": "403 to automated requests.", "status": "blocked"},
-  {"name": "spyur.am", "kind": "directory", "crawler": null, "method": "Returns no results to scripts; usable manually for company pages.", "status": "degraded"},
-  {"name": "inecobank.am developer offers", "kind": "bank partner list", "crawler": null, "method": "403 to scripts.", "status": "blocked"},
-  {"name": "bnakaran.am", "kind": "aggregator", "crawler": null, "method": "Domain does not resolve.", "status": "dead"}
+  {
+   "name": "karucapatoxic.am",
+   "kind": "aggregator",
+   "crawler": "karucapatoxic",
+   "script": "scraper/karucapatoxic.py",
+   "method": "Next.js RSC payload (listBuildings on /en, detail /en/<id>, JSON-LD). Coordinates from Google embed !2z marker, not !2d/!3d centre.",
+   "status": "ok",
+   "last_crawled": "2026-09-14"
+  },
+  {
+   "name": "construction.am",
+   "kind": "aggregator",
+   "crawler": "extra",
+   "script": "scraper/extra_sources.py construction",
+   "method": "HTML pages with Google Maps embeds; many completed/stale listings (2019-2022 prices).",
+   "status": "ok",
+   "last_crawled": "2026-09-14"
+  },
+  {
+   "name": "dignisi.am",
+   "kind": "aggregator",
+   "crawler": "extra",
+   "script": "scraper/extra_sources.py dignisi",
+   "method": "Next.js SSR; sitemap.xml lists all /en/projects/*; project pages carry schema.org ApartmentComplex JSON-LD (geo, address). /api/ disallowed by robots.txt - do not use. Includes Dubai/Cyprus/Batumi projects to skip.",
+   "status": "ok",
+   "last_crawled": "2026-09-14"
+  },
+  {
+   "name": "geoln.com",
+   "kind": "aggregator",
+   "crawler": "extra",
+   "script": "scraper/extra_sources.py geoln",
+   "method": "HTML; stale prices, completion dates often past.",
+   "status": "degraded",
+   "last_crawled": "2026-09-14"
+  },
+  {
+   "name": "ac-box.com",
+   "kind": "aggregator",
+   "crawler": "extra",
+   "script": "scraper/extra_sources.py acbox",
+   "method": "Every page embeds the full catalogue JSON.",
+   "status": "ok",
+   "last_crawled": "2026-09-14"
+  },
+  {
+   "name": "yerevan.etagi.com",
+   "kind": "aggregator",
+   "crawler": "extra",
+   "script": "scraper/extra_sources.py etagi",
+   "method": "HTML; USD figure sometimes equals AMD thousands (e.g. $489 = 510,000 AMD).",
+   "status": "degraded",
+   "last_crawled": "2026-09-14"
+  },
+  {
+   "name": "myhome.am",
+   "kind": "bank catalog (Ameriabank)",
+   "crawler": "catalogs",
+   "script": "scraper/catalog_projects.py myhome.am",
+   "method": "JSON API POST /API/v1/buildings/filter_v2, /API/v1/builders/{id}; unit-level prices (use unsold units only).",
+   "status": "ok",
+   "last_crawled": "2026-09-14"
+  },
+  {
+   "name": "redgroup.am",
+   "kind": "sales agency catalog",
+   "crawler": "catalogs",
+   "script": "scraper/catalog_projects.py redgroup.am",
+   "method": "JSON API /api/projects?page=N; product.status 'sold' must be excluded from prices; API returns only a ~12-unit sample.",
+   "status": "ok",
+   "last_crawled": "2026-09-14"
+  },
+  {
+   "name": "novostroiki-yerevan.com",
+   "kind": "aggregator",
+   "crawler": "catalogs",
+   "script": "scraper/catalog_projects.py novostroiki-yerevan.com",
+   "method": "sitemap + markdown project pages; copies karucapatoxic coordinates (viewport centre, ~100 m east bias).",
+   "status": "ok",
+   "last_crawled": "2026-09-14"
+  },
+  {
+   "name": "ar-go.am",
+   "kind": "sales agency catalog",
+   "crawler": "catalogs",
+   "script": "scraper/catalog_projects.py ar-go.am",
+   "method": "Armenian-only pages, Yandex map coordinates, start/end dates. robots.txt blocks ClaudeBot / ai-train=no: fetch politely for this dataset only.",
+   "status": "ok",
+   "last_crawled": "2026-09-14"
+  },
+  {
+   "name": "acba.am",
+   "kind": "bank partner list",
+   "crawler": "catalogs",
+   "script": "scraper/catalog_projects.py acba.am",
+   "method": "Armenian partner cards: address, status, floors, completion, price, contacts.",
+   "status": "ok",
+   "last_crawled": "2026-09-14"
+  },
+  {
+   "name": "evoca.am",
+   "kind": "bank partner list",
+   "crawler": "catalogs",
+   "script": "scraper/catalog_projects.py evoca.am",
+   "method": "Developer/project cards with address and phone only; many placeholder coordinates.",
+   "status": "degraded",
+   "last_crawled": "2026-09-14"
+  },
+  {
+   "name": "byblosbankarmenia.am",
+   "kind": "bank partner list",
+   "crawler": "catalogs",
+   "script": "scraper/catalog_projects.py byblosbankarmenia.am",
+   "method": "4 cards, address only.",
+   "status": "ok",
+   "last_crawled": "2026-09-14"
+  },
+  {
+   "name": "developer websites (136)",
+   "kind": "developer sites",
+   "crawler": "devsites",
+   "script": "scraper/agent_work/devsites_b1..b3 (per-developer reference scripts) + scraper/.agent_schema.md",
+   "method": "Agent-driven per developer; list in scraper/developers_master.json (projects_url). Output developer_projects_b*.json.",
+   "status": "ok",
+   "last_crawled": "2026-09-14"
+  },
+  {
+   "name": "datalex.am",
+   "kind": "court records",
+   "crawler": "reputation",
+   "script": "scraper/datalex.py",
+   "method": "POST json.php getGridDataList (civil, bankruptcy, administrative, criminal, payment_order); fuzzy search, filter to exact party names; case link ?app=AppCaseSearch&case_id=ID. <=1 req/4 s.",
+   "status": "ok",
+   "last_crawled": "2026-09-15"
+  },
+  {
+   "name": "karg.am",
+   "kind": "company registry mirror",
+   "crawler": "reputation",
+   "script": "agent-driven",
+   "method": "karg.am/company/<tax id>: status, founders, enforcement cases.",
+   "status": "blocked",
+   "last_crawled": "2026-09-15",
+   "notes": "Answers 403 to every request since 2026-09-21, browser included; the crawl's cached pages remain. Registry links now point at e-register.moj.am/hy/search/companies?query=<tax id>, which opens the company."
+  },
+  {
+   "name": "Open-Meteo elevation",
+   "kind": "reference",
+   "crawler": "build",
+   "script": "scraper/elevation.py",
+   "method": "api.open-meteo.com/v1/elevation batches of 100; rate-limits (429) - back off.",
+   "status": "ok",
+   "last_crawled": "2026-09-15"
+  },
+  {
+   "name": "OSM Nominatim / Overpass",
+   "kind": "reference",
+   "crawler": "build",
+   "script": "scraper/geocode.py, geo_audit.py, geo/admin_raw.json",
+   "method": "1 req/s max; province/district polygons in scraper/geo/.",
+   "status": "ok",
+   "last_crawled": "2026-09-14"
+  },
+  {
+   "name": "2gis.am",
+   "kind": "aggregator",
+   "crawler": null,
+   "method": "~191 new builds but client-rendered with keyed API - not usable without a key.",
+   "status": "blocked"
+  },
+  {
+   "name": "list.am",
+   "kind": "classifieds",
+   "crawler": null,
+   "method": "403 to automated requests.",
+   "status": "blocked"
+  },
+  {
+   "name": "spyur.am",
+   "kind": "directory",
+   "crawler": null,
+   "method": "Returns no results to scripts; usable manually for company pages.",
+   "status": "degraded"
+  },
+  {
+   "name": "inecobank.am developer offers",
+   "kind": "bank partner list",
+   "crawler": null,
+   "method": "403 to scripts.",
+   "status": "blocked"
+  },
+  {
+   "name": "bnakaran.am",
+   "kind": "aggregator",
+   "crawler": null,
+   "method": "Domain does not resolve.",
+   "status": "dead"
+  }
  ]
 }

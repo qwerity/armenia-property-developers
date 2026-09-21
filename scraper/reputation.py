@@ -7,6 +7,8 @@ import json
 import math
 from urllib.parse import quote_plus
 
+from karg import public_url
+
 from datalex import case_index, case_url
 from datetime import date
 from pathlib import Path
@@ -143,6 +145,27 @@ def _case_link(case_number: str | None, found_url: str | None = None) -> str | N
     return case_url(hit["case_id"]) if hit else None
 
 
+_LINK_CHECKS: dict | None = None
+
+
+def link_dead(url: str | None) -> str | None:
+    """The verdict scraper/check_urls.py recorded for a link, when it is not "ok"."""
+    global _LINK_CHECKS
+    if _LINK_CHECKS is None:
+        path = Path(__file__).resolve().parent / "url_check.json"
+        _LINK_CHECKS = json.loads(path.read_text(encoding="utf-8")) if path.exists() else {}
+    verdict = (_LINK_CHECKS.get(url or "") or {}).get("verdict")
+    return verdict if verdict and verdict != "ok" else None
+
+
+def register_url(query: str | None) -> str | None:
+    """Official state register, which opens a company from a tax id in the URL.
+
+    karg.am (the mirror the crawl read) now answers 403 to everyone, so it is no longer linked.
+    """
+    return f"https://e-register.moj.am/hy/search/companies?query={quote_plus(query)}" if query else None
+
+
 def _verify_links(developer: str, entities: list[dict]) -> list[dict]:
     """Links a user can open to check the record themselves."""
     names = [e.get("name_hy") for e in entities if e.get("name_hy")] or [developer]
@@ -165,8 +188,10 @@ def public_research(r: dict | None) -> dict | None:
     return {
         "role": r.get("role"), "confidence": r.get("confidence"), "founded_year": r.get("founded_year"),
         "legal_entities": [
-            {**{k: e.get(k) for k in ("name_hy", "name_en", "tax_id", "form", "registered_year", "source_url")},
-             "registry_url": f"https://karg.am/company/{e['tax_id']}?lang=hy" if e.get("tax_id") else None}
+            {**{k: e.get(k) for k in ("name_hy", "name_en", "tax_id", "form", "registered_year")},
+             # where the record was read, unless that was karg.am, which now refuses every request
+             "source_url": None if "karg.am" in (e.get("source_url") or "") else e.get("source_url"),
+             "registry_url": register_url(e.get("tax_id"))}
             for e in entities
         ][:4],
         "searched_names": (r.get("searched_names") or [])[:6],
@@ -174,7 +199,9 @@ def public_research(r: dict | None) -> dict | None:
                                             "criminal", "administrative", "payment_order", "since_2021")},
         "notable_cases": [{**c, "url": _case_link(c.get("case_number"), c.get("url"))} for c in (court.get("notable") or [])[:5]],
         "verify_links": _verify_links(r.get("developer") or "", entities),
-        "news_issues": (r.get("news_issues") or [])[:5],
-        "positives": (r.get("positives") or [])[:3],
+        "news_issues": [{**n, "url": public_url(n.get("url")), "dead": link_dead(public_url(n.get("url")))}
+                        for n in (r.get("news_issues") or [])[:5] if public_url(n.get("url"))],
+        "positives": [{**n, "url": public_url(n.get("url")), "dead": link_dead(public_url(n.get("url")))}
+                      for n in (r.get("positives") or [])[:3] if public_url(n.get("url"))],
         "notes": r.get("notes"),
     }
