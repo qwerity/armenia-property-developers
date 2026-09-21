@@ -28,6 +28,7 @@ from concurrent.futures import ThreadPoolExecutor
 from datetime import date
 from pathlib import Path
 
+import azdarar
 import karg
 from datalex import case_url, find_cases, normalize_org
 
@@ -36,6 +37,8 @@ ROOT = HERE.parent
 PROJECTS = ROOT / "web" / "data" / "projects.json"
 RAW = HERE / "connections_raw.json"
 MANUAL = HERE / "connections_manual.json"
+NOTICES = HERE / "azdarar_notices.json"
+FAMILY = HERE / "family_ties.json"
 OUT = ROOT / "web" / "data" / "connections.json"
 
 BUILD_NACE = re.compile(r"F4[123]|շինարար|Շինարար|ՇԻՆԱՐԱՐ|անշարժ գույք|ԱՆՇԱՐԺ ԳՈՒՅՔ|նախագծ", re.I)
@@ -67,15 +70,34 @@ def display_name(name: str | None) -> str:
     return " ".join(w.capitalize() if w.isupper() else w for w in n.split()) if n.isupper() else n
 
 
+# Է/Ե and Օ/Ո are written both ways in the register, so «Էդուարդ» and «Եդուարդ» are one name
+SPELLING = str.maketrans({"Է": "Ե", "Օ": "Ո", "է": "ե", "օ": "ո"})
+
+
+def person_key(name: str | None) -> str:
+    """Comparison key for a person's name, tolerant of the usual Armenian spelling variants."""
+    return norm((name or "").translate(SPELLING))
+
+
+def surname(name: str | None) -> str:
+    """Last token of a person's name, upper-cased — Armenian registers print «Անուն Ազգանուն»."""
+    parts = [p for p in re.split(r"\s+", (name or "").strip()) if p]
+    return parts[-1].upper() if parts else ""
+
+
 def is_person(name: str | None) -> bool:
     """A founder row is a person when it is not an obvious company name."""
     n = (name or "").strip()
     return bool(n) and not re.search(r"ՍՊԸ|ՓԲԸ|ԲԲԸ|LLC|CJSC|OJSC|ООО|ЗАО", n, re.I)
 
 
-def azdarar_url(name: str) -> str:
-    """Official bulletin search (azdarar.am publishes bankruptcy and liquidation notices)."""
-    return f"https://www.azdarar.am/announcments/search?keyword={urllib.parse.quote(name)}"
+def azdarar_links(name: str) -> list[dict]:
+    """Official bulletin (bankruptcy and liquidation notices). The site blocks requests from outside
+    Armenia, so the reader gets both its own search and the Google index of the same notices."""
+    return [
+        {"title": "azdarar.am bulletin search", "url": azdarar.search_url(name)},
+        {"title": "azdarar.am notices (via Google)", "url": azdarar.google_site_search(name)},
+    ]
 
 
 def datalex_search_url() -> str:
@@ -259,7 +281,7 @@ def bankruptcy_pass(workers: int, limit: int | None = None) -> None:
 
 
 # ---------------------------------------------------------------- bankruptcy
-def bankruptcy_status(company: dict, cases: list[dict], manual: dict) -> dict | None:
+def bankruptcy_status(company: dict, cases: list[dict], manual: dict, notice: dict | None = None) -> dict | None:
     """
     Classify a company's bankruptcy exposure from its datalex cases and registry status.
 
@@ -287,6 +309,9 @@ def bankruptcy_status(company: dict, cases: list[dict], manual: dict) -> dict | 
         status = "self_declared"
     elif against:
         status = "declared" if company.get("status") == "inactive" else "case"
+    verdict = (notice or {}).get("verdict")
+    if verdict:  # an official notice outranks anything inferred
+        status = verdict["status"]
     if fix.get("status"):
         status = fix["status"]
     if not status:
@@ -296,18 +321,21 @@ def bankruptcy_status(company: dict, cases: list[dict], manual: dict) -> dict | 
         "declared": "a bankruptcy case against the company, and the register no longer shows it as active",
         "case": "a bankruptcy case against the company is pending; the register still shows it as active",
     }[status]
+    if verdict:
+        basis = f"azdarar.am notice: {verdict['notice']['title']}"
     if fix.get("source_url"):
         basis = fix.get("note") or "confirmed by hand against the source linked below"
     return {
         "status": status,
         "basis": basis,
+        "notice": verdict["notice"] if verdict else None,
         "cases": (own + against)[:8],
         "creditor_cases": creditor[:5],
-        "confirmed_by": fix.get("source_url"),
+        "confirmed_by": fix.get("source_url") or (verdict["notice"]["url"] if verdict else None),
         "note": fix.get("note"),
         "sources": [
             {"title": "datalex.am — bankruptcy cases", "url": datalex_search_url()},
-            {"title": "azdarar.am — official bulletin", "url": azdarar_url(company.get("name") or "")},
+            *azdarar_links(company.get("name") or ""),
         ],
     }
 
@@ -316,6 +344,8 @@ def bankruptcy_status(company: dict, cases: list[dict], manual: dict) -> dict | 
 def build() -> dict:
     raw = json.loads(RAW.read_text(encoding="utf-8"))
     manual = json.loads(MANUAL.read_text(encoding="utf-8")) if MANUAL.exists() else {}
+    # collected by scraper/azdarar.py, which has to run from a host that can reach the bulletin
+    notices = json.loads(NOTICES.read_text(encoding="utf-8")) if NOTICES.exists() else {}
     companies, people = raw["companies"], raw["people"]
     fixes = manual.get("companies") or {}
     dropped = set(manual.get("drop_companies") or [])
@@ -364,7 +394,7 @@ def build() -> dict:
         c = {**c, **fix, "aliases": sorted(aliases.get(tax, ()))}
         cid = f"co:{tax}"
         cases = raw["bankruptcy"].get(tax) or []
-        bank = bankruptcy_status(c, cases, fixes)
+        bank = bankruptcy_status(c, cases, fixes, notices.get(tax))
         nodes[cid] = {
             "id": cid, "type": "company", "label": c.get("name") or tax, "tax_id": tax,
             "status": c.get("status"), "form": c.get("form"), "registered": c.get("registered"),
@@ -374,7 +404,7 @@ def build() -> dict:
             "sources": [
                 {"title": "Registry card (karg.am / e-register)", "url": c.get("url")},
                 {"title": "e-register.moj.am company search", "url": eregister_url(tax)},
-                {"title": "azdarar.am bulletin search", "url": azdarar_url(c.get("name") or tax)},
+                *azdarar_links(c.get("name") or tax),
             ],
         }
 
@@ -432,7 +462,8 @@ def build() -> dict:
             nodes.pop(nid)
     edges = [e for e in edges if e["source"] in nodes and e["target"] in nodes]
 
-    # components, so the page can show only clusters that link two developers
+    # components, so the page can show only clusters that link two developers. They are computed from the
+    # registry facts alone — the family layer below is added afterwards and never merges two clusters.
     parent = {nid: nid for nid in nodes}
 
     def find(x):
@@ -452,6 +483,38 @@ def build() -> dict:
         n["component"] = comp_id[comp_of[nid]]
         n["component_developers"] = comp_devs[comp_of[nid]]
 
+    # people who may be one person, or one family ------------------------
+    # No Armenian public register records kinship, so nothing here is asserted as fact: a confirmed tie
+    # comes from family_ties.json with the document that confirms it, and a shared surname inside one
+    # cluster is published as a lead to check, marked as unverified.
+    ties = [t for t in ((json.loads(FAMILY.read_text(encoding="utf-8")).get("ties") if FAMILY.exists() else []) or [])
+            if t.get("a") and t.get("b") and not t.get("_example")]
+    by_key: dict[str, str] = {}
+    for nid, n in nodes.items():
+        if n["type"] != "person":
+            continue
+        by_key[nid] = nid
+        by_key[nid.split(":", 1)[1]] = nid
+        by_key.setdefault(norm(n["label"]), nid)
+    for t in ties:
+        a = by_key.get(t["a"]) or by_key.get(norm(t["a"]))
+        b = by_key.get(t["b"]) or by_key.get(norm(t["b"]))
+        if a and b:
+            edge(a, b, "family", label=t.get("relation") or "family tie",
+                 evidence=t.get("source_url"), detail=t.get("note"))
+
+    by_cluster: dict[int, list[dict]] = defaultdict(list)
+    for n in nodes.values():
+        if n["type"] == "person":
+            by_cluster[n["component"]].append(n)
+    for group in by_cluster.values():
+        for i, a in enumerate(group):
+            for b in group[i + 1:]:
+                if person_key(a["label"]) == person_key(b["label"]):
+                    edge(a["id"], b["id"], "same_person", label="same name — probably one person, two owner records")
+                elif surname(a["label"]) and surname(a["label"]).translate(SPELLING) == surname(b["label"]).translate(SPELLING):
+                    edge(a["id"], b["id"], "family_lead", label="same surname in one cluster — possible relative, unverified")
+
     resolved = [r for d in raw["developers"] for r in d["resolved"]]
     flagged = [n for n in nodes.values() if n["type"] == "company" and n.get("bankruptcy")]
     meta = {
@@ -465,7 +528,11 @@ def build() -> dict:
         "matched_by_name": sum(1 for e in edges if e["kind"] == "entity" and e.get("match") == "name"),
         "unresolved_entities": sum(1 for r in resolved if not r.get("tax_id")),
         "linked_clusters": sum(1 for c, n in comp_devs.items() if n > 1),
+        "family_ties": sum(1 for e in edges if e["kind"] == "family"),
+        "family_leads": sum(1 for e in edges if e["kind"] in ("family_lead", "same_person")),
         "bankruptcies": Counter(n["bankruptcy"]["status"] for n in flagged),
+        "confirmed_bankruptcies": sum(1 for n in flagged if n["bankruptcy"].get("confirmed_by")),
+        "azdarar_checked": len(notices),
         "sources": [
             {"title": "e-register.moj.am — state register of legal entities", "url": "https://e-register.moj.am/hy/search/companies"},
             {"title": "karg.am — registry and beneficial-owner mirror", "url": "https://karg.am/"},

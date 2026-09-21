@@ -284,6 +284,7 @@ CREATE TABLE connection_nodes (
   companies             INTEGER,-- people: companies they hold in the register
   bankruptcy            TEXT,   -- declared | self_declared | case
   bankruptcy_basis      TEXT,   -- what that status was derived from, or the hand-checked confirmation
+  bankruptcy_confirmed  TEXT,   -- azdarar.am notice or other document confirming it, when one was found
   bankruptcy_cases      TEXT,   -- JSON [{case_number, claimant, respondent, filed, url}]
   component             INTEGER,-- connected cluster the node belongs to
   component_developers  INTEGER,
@@ -296,7 +297,7 @@ CREATE INDEX ix_conn_nodes_component ON connection_nodes(component);
 CREATE TABLE connection_edges (
   source   TEXT NOT NULL REFERENCES connection_nodes(id),
   target   TEXT NOT NULL REFERENCES connection_nodes(id),
-  kind     TEXT,   -- entity | founder | director | address
+  kind     TEXT,   -- entity | founder | director | address | family | family_lead | same_person
   label    TEXT,   -- share held, or how the two are tied
   detail   TEXT,
   evidence TEXT    -- link the developer → company match came from
@@ -305,7 +306,8 @@ CREATE INDEX ix_conn_edges_source ON connection_edges(source);
 CREATE INDEX ix_conn_edges_target ON connection_edges(target);
 
 CREATE VIEW v_bankruptcies AS
-SELECT n.label AS company, n.tax_id, n.bankruptcy AS status, n.status AS registry_status,
+SELECT n.label AS company, n.tax_id, n.bankruptcy AS status, n.bankruptcy_basis AS basis,
+       n.bankruptcy_confirmed AS confirmed, n.status AS registry_status,
        (SELECT GROUP_CONCAT(d.label, ', ') FROM connection_edges e JOIN connection_nodes d ON d.id = e.source
         WHERE e.target = n.id AND e.kind = 'entity') AS developers,
        n.bankruptcy_cases, n.url
@@ -539,6 +541,7 @@ def connection_rows() -> tuple[list[dict], list[dict]]:
         "projects": n.get("projects"), "grade": n.get("grade"), "companies": n.get("companies"),
         "bankruptcy": (n.get("bankruptcy") or {}).get("status"),
         "bankruptcy_basis": (n.get("bankruptcy") or {}).get("basis"),
+        "bankruptcy_confirmed": (n.get("bankruptcy") or {}).get("confirmed_by"),
         "bankruptcy_cases": js((n.get("bankruptcy") or {}).get("cases")),
         "component": n.get("component"), "component_developers": n.get("component_developers"),
         "url": (n.get("sources") or [{}])[0].get("url"), "sources": js(n.get("sources")),

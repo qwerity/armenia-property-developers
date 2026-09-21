@@ -16,7 +16,7 @@ _Data generated 2026-09-15._
 
 | Table | Rows |
 | --- | ---: |
-| `connection_edges` | 1,279 |
+| `connection_edges` | 1,318 |
 | `connection_nodes` | 1,287 |
 | `developer_cases` | 495 |
 | `developer_entities` | 440 |
@@ -142,8 +142,12 @@ The ownership graph behind the connections card on the analytics page, built by
 - `component` groups nodes into a connected cluster and `component_developers` counts the developers
   in it — `component_developers > 1` means those developers are linked to each other.
 - **`connection_edges`** — `entity` (developer → its registered company, `evidence` links the source
-  that ties them), `founder` / `director` (person → company, `label` carries the share) and
-  `address` (two companies registered at the same legal address).
+  that ties them), `founder` / `director` (person → company, `label` carries the share),
+  `address` (two companies registered at the same legal address), and the family layer:
+  `family` (a documented tie from `scraper/family_ties.json`, `evidence` links the document),
+  `family_lead` (two owners in one cluster sharing a surname) and `same_person` (one name appearing
+  twice in the owner register). The last two are **leads to check, not facts** — no Armenian public
+  register records kinship — and the site hides them unless the reader asks for them.
 - **`v_bankruptcies`** — one row per flagged company with its developers and case links.
 
 ### `sources`
@@ -232,6 +236,8 @@ JOIN projects p ON p.id = s.id WHERE project_search MATCH 'residence AND arabkir
   part of the companies, and a developer whose legal entity could not be matched has no company node at
   all. Shared legal addresses are a hint, not proof of a common owner — business centres host many
   unrelated firms (addresses shared by more than eight companies are dropped as noise).
+- `connection_nodes.bankruptcy_confirmed` holds the azdarar.am notice (or other document) when the
+  status was confirmed rather than inferred; `bankruptcy_basis` always says in words which it is.
 - `connection_nodes.bankruptcy = 'declared'` is inferred from a court case plus the register's status,
   not from a verdict document; datalex.am publishes no verdict in its case list. The official notice is
   published on azdarar.am, which is linked from every flagged company, and confirmations are recorded by

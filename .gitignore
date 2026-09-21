@@ -20,3 +20,6 @@ scraper/reports/projects.prev.json
 scraper/reports/*.json.done
 scraper/.cache*.bak-*/
 dist/
+
+# azdarar page cache (regenerated when run from a host that can reach the site)
+scraper/.cache_azdarar/

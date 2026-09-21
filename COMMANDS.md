@@ -21,5 +21,7 @@ python3 scraper/pipeline.py crawl --only karucapatoxic,extra,catalogs,enrich [--
 python3 scraper/pipeline.py build          # rebuild + scraper/reports/diff-*.md
 python3 scraper/pipeline.py audit all      # verification queues in scraper/reports/
 python3 scraper/connections.py crawl      # registry owners + bankruptcies → web/data/connections.json
+python3 scraper/azdarar.py verify         # official bankruptcy notices (needs an Armenian IP)
 ```
-Key data files: `scraper/sources.json` (source registry), `scraper/developers_master.json`, `scraper/*_verified_*.json` (manual checks), `scraper/developer_reputation_*.json`, `scraper/merge_overrides.json`, `scraper/geo_overrides.json`, `scraper/connections_raw.json` + `scraper/connections_manual.json` (ownership graph). Agent helper scripts from the initial research are kept in `scraper/agent_work/` for reference.
+Key data files: `scraper/sources.json` (source registry), `scraper/developers_master.json`, `scraper/*_verified_*.json` (manual checks), `scraper/developer_reputation_*.json`, `scraper/merge_overrides.json`, `scraper/geo_overrides.json`, `scraper/connections_raw.json` + `scraper/connections_manual.json` + `scraper/family_ties.json` +
+`scraper/azdarar_notices.json` (ownership graph). Agent helper scripts from the initial research are kept in `scraper/agent_work/` for reference.

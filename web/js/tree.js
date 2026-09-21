@@ -29,6 +29,8 @@ function relation(edge, child) {
   if (edge.kind === "entity") return edge.match === "tax_id" ? "legal entity · matched by tax ID" : "legal entity · matched by name";
   if (edge.kind === "address") return `same legal address${child.address ? ` · ${child.address}` : ""}`;
   if (edge.kind === "founder") return edge.label && edge.label.endsWith("%") ? `owner · ${edge.label}` : "owner";
+  if (edge.kind === "family") return `family tie · ${edge.label}${edge.detail ? ` · ${edge.detail}` : ""}`;
+  if (edge.kind === "family_lead" || edge.kind === "same_person") return edge.label;
   return edgeInfo[edge.kind]?.label || edge.kind;
 }
 
@@ -88,7 +90,7 @@ export function drawTree(host, data, opts = {}) {
     /** One level of children, each as a row plus its own subtree. */
     const level = (parentId, depth, container, cameFrom) => {
       if (depth > MAX_DEPTH) return;
-      const order = { entity: 0, founder: 1, director: 1, address: 2 };
+      const order = { entity: 0, founder: 1, director: 1, address: 2, family: 3, same_person: 4, family_lead: 5 };
       const children = adj.get(parentId)
         .filter(([childId]) => childId !== cameFrom)
         .sort((a, b) => (order[a[1].kind] ?? 3) - (order[b[1].kind] ?? 3) || byId.get(a[0]).label.localeCompare(byId.get(b[0]).label))
@@ -114,8 +116,15 @@ export function drawTree(host, data, opts = {}) {
         button.type = "button";
         button.textContent = child.label;
         button.addEventListener("click", () => opts.onSelect?.(child));
-        const rel = el("span", "cn-rel", row);
+        const rel = el("span", `cn-rel${edge.kind === "family_lead" || edge.kind === "same_person" ? " cn-lead" : ""}`, row);
         rel.textContent = relation(edge, child);
+        if (edge.evidence) {
+          const ev = el("a", "cn-src", row);
+          ev.href = edge.evidence;
+          ev.target = "_blank";
+          ev.rel = "noopener";
+          ev.textContent = "evidence";
+        }
         const f = facts(child);
         if (f) {
           const m = el("span", "cn-meta", row);

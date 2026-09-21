@@ -1,0 +1,13 @@
+{
+  "_readme": "Confirmed family ties between owners, each with the source that confirms it. No Armenian public register publishes kinship, so nothing here is derived — every entry is a document a reader can open: an asset declaration of a public official (cpcarmenia.am), a court ruling naming the relationship, or a named investigation. a/b may be an owner id (pe:…), a karg.am owner key, or the exact name as it appears in the register.",
+  "ties": [
+    {
+      "a": "",
+      "b": "",
+      "relation": "spouse | parent | child | sibling | in-law",
+      "source_url": "",
+      "note": "",
+      "_example": true
+    }
+  ]
+}

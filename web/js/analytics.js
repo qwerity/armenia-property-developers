@@ -1,7 +1,7 @@
 import { loadData } from "./data.js";
 import { state, stageLabel } from "./util.js";
 import { hbar, columns, stacked, scatter, table } from "./charts.js";
-import { drawGraph, typeInfo, edgeInfo, BANKRUPTCY } from "./graph.js";
+import { drawGraph, typeInfo, edgeInfo, BANKRUPTCY, SUGGESTED } from "./graph.js";
 import { drawTree } from "./tree.js";
 
 const $ = (id) => document.getElementById(id);
@@ -379,7 +379,9 @@ function connectionView(items) {
   }
   const nodes = c.nodes.filter((n) => shown.has(n.component));
   const ids = new Set(nodes.map((n) => n.id));
-  return { nodes, edges: c.edges.filter((e) => ids.has(e.source) && ids.has(e.target)), hidden: keep.size - shown.size };
+  const leads = $("cn-family").checked;
+  const edges = c.edges.filter((e) => ids.has(e.source) && ids.has(e.target) && (leads || !SUGGESTED.has(e.kind)));
+  return { nodes, edges, hidden: keep.size - shown.size };
 }
 
 function link(text, href) {
@@ -573,6 +575,16 @@ function renderConnections(items) {
       s.append(i, document.createTextNode(t.label));
       return s;
     }),
+    ...($("cn-family").checked ? [["family", edgeInfo.family], ["family_lead", edgeInfo.family_lead]] : []).map(([, e]) => {
+      const s = document.createElement("span");
+      const i = document.createElement("i");
+      i.style.background = "none";
+      i.style.borderTop = `2px ${e.dash ? "dotted" : "solid"} var(--viz-s5)`;
+      i.style.height = "0";
+      i.style.width = "14px";
+      s.append(i, document.createTextNode(e.label));
+      return s;
+    }),
     ...Object.entries(BANKRUPTCY).map(([key, b]) => {
       const s = document.createElement("span");
       s.className = "cn-status-key";
@@ -690,7 +702,7 @@ function bind() {
     $("cn-view").querySelectorAll("button").forEach((x) => x.classList.toggle("on", x === b));
     renderConnections(filtered());
   });
-  for (const id of ["cn-scope", "cn-focus"]) {
+  for (const id of ["cn-scope", "cn-focus", "cn-family"]) {
     $(id).addEventListener("change", () => {
       if (id === "cn-focus") app.cnSelected = $("cn-focus").value || null;
       renderConnections(filtered());

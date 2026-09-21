@@ -24,7 +24,12 @@ const EDGE = {
   founder: { color: "var(--viz-s2)", width: 1.5, dash: null, label: "owner" },
   director: { color: "var(--viz-s2)", width: 1.5, dash: "4 3", label: "director" },
   address: { color: "var(--viz-muted)", width: 1, dash: "2 3", label: "same legal address" },
+  family: { color: "var(--viz-s5)", width: 1.5, dash: null, label: "family tie (documented)" },
+  family_lead: { color: "var(--viz-s5)", width: 1, dash: "1 4", label: "possible relative — unverified" },
+  same_person: { color: "var(--viz-s5)", width: 1, dash: "1 4", label: "probably the same person" },
 };
+/** Edges that are a lead to check rather than a registry fact; hidden unless the reader asks for them. */
+export const SUGGESTED = new Set(["family_lead", "same_person"]);
 
 function el(name, attrs = {}, parent) {
   const node = document.createElementNS(NS, name);

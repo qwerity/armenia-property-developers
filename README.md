@@ -127,3 +127,15 @@ company as no longer active; a case with the company as its own claimant is show
 bankruptcy, and anything else as a pending case. Of the developer-to-company links, 195 rest on a tax id
 recorded in the reputation research and 147 on an exact name match in the register — the view labels which
 is which — and 80 legal entities that could not be matched are left out rather than guessed.
+
+azdarar.am blocks requests from outside Armenia, so `scraper/azdarar.py` is meant to be run from a
+machine that can reach it (`python3 scraper/azdarar.py check` says whether this one can). `verify`
+looks up every flagged company, writes `scraper/azdarar_notices.json`, and the next
+`connections.py build` uses those notices as the authority for a bankruptcy status and links them
+from the company. Without that file the site still works — it links the bulletin instead of quoting it.
+
+Family ties between owners are not published by any Armenian register. Confirmed ones are recorded by
+hand in `scraper/family_ties.json` with the document that confirms them (an official's asset
+declaration, a court ruling, a named investigation). Everything else the page can offer is a lead:
+two owners in one cluster sharing a surname, or one name appearing twice in the owner register. Those
+are hidden behind a checkbox and labelled unverified.

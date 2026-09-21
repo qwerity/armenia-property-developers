@@ -34,10 +34,24 @@ with a source — `{"<tax id>": {"status": "declared", "source_url": "…", "not
 `scraper/connections_manual.json`. azdarar.am (the official bulletin) is the authority for
 "սնանկ է ճանաչվել"; it blocks non-Armenian IPs, so it is linked for the reader, not crawled.
 
-## 4. Rebuild and commit
+## 4. Official bulletin (only from an Armenian network)
+`python3 scraper/azdarar.py check` — if it says reachable, run `python3 scraper/azdarar.py verify`:
+it searches azdarar.am for every flagged company and writes `scraper/azdarar_notices.json`, which the
+next build uses as the authority for the bankruptcy status (a notice outranks anything inferred) and
+links from the node. From a blocked host, skip it — nothing else depends on it. If the site's markup
+changed, save one search page and run `python3 scraper/azdarar.py parse page.html` to fix the parser.
+
+## 5. Family ties
+Kinship is not in any public register. Only record a tie in `scraper/family_ties.json` when a document
+proves it — an official's asset declaration (cpcarmenia.am), a court ruling naming the relationship, or
+a named investigation — and put that link in `source_url`. Shared surnames inside a cluster are produced
+automatically as `family_lead` edges, which the page hides by default and labels unverified; never
+promote one to `family` without the document.
+
+## 6. Rebuild and commit
 `python3 scraper/connections.py build` writes `web/data/connections.json`; `python3 scraper/export_db.py`
 refreshes the `connection_nodes` / `connection_edges` tables. Commit the raw crawl, the graph and the db.
 
-## 5. Self-improve
+## 7. Self-improve
 Follow `../SELF_IMPROVEMENT.md`. Record namesake matches that fooled the resolver, registry quirks, and any
 new field karg.am starts exposing.

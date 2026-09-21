@@ -102,6 +102,8 @@ table.dt a:hover { text-decoration: underline; }
 .cn-controls select { font-size: 13px; color: var(--ink); padding: 6px 8px; border: 1px solid var(--line); border-radius: var(--radius-sm); background: #fff; min-width: 190px; max-width: 320px; }
 .cn-controls select:focus { border-color: var(--teal); box-shadow: var(--focus); outline: none; }
 .cn-flag { color: var(--high); }
+.cn-controls .cn-check { flex-direction: row; align-items: center; gap: 6px; font-size: 12.5px; color: var(--basalt-2); padding-bottom: 7px; }
+.cn-controls .cn-check input { accent-color: var(--teal); margin: 0; }
 .cn-note { font-size: 12px; margin: 0 0 6px; }
 .cn-note:empty { display: none; }
 .cn-split { display: grid; grid-template-columns: minmax(0, 1fr) 300px; gap: 12px; align-items: start; }
@@ -160,6 +162,7 @@ svg.graph .hit { cursor: default; }
 .cn-name { border: 0; background: none; padding: 0; font: inherit; color: var(--ink); cursor: pointer; text-align: left; }
 .cn-name:hover { color: var(--teal); text-decoration: underline; text-underline-offset: 2px; }
 .cn-rel { color: var(--basalt-2); }
+.cn-rel.cn-lead { color: var(--muted); font-style: italic; }
 .cn-meta { color: var(--muted); }
 .cn-tag { background: var(--teal-wash); color: var(--teal-ink); border-radius: 999px; padding: 1px 8px; font-size: 11.5px; }
 .cn-src { color: var(--teal); font-size: 11.5px; }
