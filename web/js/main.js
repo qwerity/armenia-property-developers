@@ -8,6 +8,7 @@ import {
 } from "./filters.js";
 import { esc, debounce, state } from "./util.js";
 import { createSearch } from "./search.js";
+import { enhanceLongSelects } from "./combobox.js";
 import { validateLocation } from "./placecheck.js";
 
 const $ = (id) => document.getElementById(id);
@@ -216,7 +217,7 @@ async function main() {
     Object.assign(app, { projects, developers });
     state.rate = meta.amd_per_usd || state.rate;
     $("meta-line").textContent = `${projects.length} projects · ${developers.length} developers · data ${meta.generated} · 1 USD = ${meta.amd_per_usd} AMD`;
-    initFilterOptions(projects, developers);
+    initFilterOptions(projects);
     bindControls();
     app.mapApi.ready.then(() => createSearch($("q"), {
       projects: () => app.projects,
@@ -230,6 +231,7 @@ async function main() {
     window.addEventListener("gmaps-auth-failed", (e) => showMapKeyError(e.detail?.url));
     watchForAuthError();
     update();
+    enhanceLongSelects();
     const m = location.hash.match(/p=([^&]+)/);
     if (m) select(decodeURIComponent(m[1]));
     const dev = location.hash.match(/dev=([^&]+)/);

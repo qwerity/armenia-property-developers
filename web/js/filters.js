@@ -26,11 +26,11 @@ const CHECK_FACETS = ["deal", "priced", "tax", "inView", "hideSold", "precise", 
 const EMPTY = { region: "", district: "", dev: "", kind: "", status: "", source: "", grade: "", year: null, info: null, pmin: null, pmax: null, budget: null };
 
 /** Remember every possible option value (dataset order) so facets can be rebuilt with live counts. */
-export function initFilterOptions(projects, developers) {
+export function initFilterOptions(projects) {
   for (const [key, facet] of Object.entries(SELECT_FACETS)) {
     const set = new Set();
     for (const p of projects) for (const v of facet.values(p)) if (v) set.add(v);
-    universe.values[key] = key === "dev" ? developers.map((d) => d.name).filter((n) => set.has(n)) : [...set].sort((a, b) => a.localeCompare(b));
+    universe.values[key] = [...set].sort((a, b) => a.localeCompare(b));
   }
   const years = [...new Set(projects.map((p) => p.completion_year).filter(Boolean))].sort();
   const yearSel = $(FIELDS.year);

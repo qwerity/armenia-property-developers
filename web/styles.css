@@ -297,3 +297,24 @@ gmp-place-details-compact { margin-top: 8px; width: 100%; color-scheme: light; }
 .chip.gone:hover { color: var(--basalt-2); }
 /* A source link that still answers but no longer names this project. */
 .chip.stale { color: var(--basalt-2); border-style: dashed; }
+
+/* Searchable replacement for a long <select> (js/combobox.js). */
+.cbx-native { display: none; }
+.cbx { position: relative; }
+.cbx-input {
+  width: 100%; font: inherit; font-size: 13px; color: var(--ink); padding: 6px 24px 6px 8px;
+  border: 1px solid var(--line); border-radius: var(--radius-sm); background: #fff;
+  background-image: linear-gradient(45deg, transparent 50%, var(--basalt-2) 50%), linear-gradient(135deg, var(--basalt-2) 50%, transparent 50%);
+  background-position: calc(100% - 13px) 14px, calc(100% - 8px) 14px; background-size: 5px 5px; background-repeat: no-repeat;
+}
+.cbx-input:focus { border-color: var(--teal); box-shadow: var(--focus); outline: none; }
+.cbx.open .cbx-input { border-color: var(--teal); }
+.cbx-list {
+  position: absolute; z-index: 40; top: calc(100% + 4px); left: 0; right: 0; max-height: 280px; overflow: auto;
+  margin: 0; padding: 4px; list-style: none; background: #fff; border: 1px solid var(--line);
+  border-radius: var(--radius-sm); box-shadow: var(--shadow-float);
+}
+.cbx-option { padding: 5px 8px; border-radius: 5px; font-size: 13px; cursor: pointer; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.cbx-option.active { background: var(--tuff); }
+.cbx-option.on { font-weight: 600; }
+.cbx-empty { padding: 6px 8px; font-size: 12.5px; color: var(--muted); }

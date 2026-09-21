@@ -3,6 +3,7 @@ import { state, stageLabel } from "./util.js";
 import { hbar, columns, stacked, scatter, table } from "./charts.js";
 import { drawGraph, typeInfo, edgeInfo, BANKRUPTCY, SUGGESTED } from "./graph.js";
 import { drawTree } from "./tree.js";
+import { enhanceLongSelects } from "./combobox.js";
 
 const $ = (id) => document.getElementById(id);
 const STAGES = [
@@ -57,7 +58,8 @@ function fillSelect(sel, values, allLabel) {
   for (const [v, n] of values) sel.append(new Option(`${v} (${n})`, v));
   sel.value = values.some(([v]) => v === cur) ? cur : "";
 }
-const counts = (items, key) => [...items.reduce((m, p) => (p[key] ? m.set(p[key], (m.get(p[key]) || 0) + 1) : m), new Map())].sort((a, b) => b[1] - a[1]);
+// Alphabetical: the lists are long and searchable, so a reader looks a name up rather than scanning by size.
+const counts = (items, key) => [...items.reduce((m, p) => (p[key] ? m.set(p[key], (m.get(p[key]) || 0) + 1) : m), new Map())].sort((a, b) => a[0].localeCompare(b[0]));
 
 function readFilters() {
   return { region: $("af-region").value, district: $("af-district").value, kind: $("af-kind").value, stage: $("af-stage").value, grade: $("af-grade").value };
@@ -672,6 +674,7 @@ async function loadConnections() {
     data.devCount = new Map(data.nodes.filter((n) => n.type === "developer").map((n) => [n.component, n.component_developers]));
     app.connections = data;
     fillFocus();
+    enhanceLongSelects();
     const src = $("cn-sources");
     const m = data.meta;
     src.replaceChildren(document.createTextNode(
@@ -763,6 +766,7 @@ async function main() {
     $("an-meta").textContent = `${projects.length} projects · data ${meta.generated} · 1 USD = ${meta.amd_per_usd} AMD · prices are asking prices of available units`;
     bind();
     render();
+    enhanceLongSelects();
     loadConnections();
   } catch (err) {
     console.error(err);
