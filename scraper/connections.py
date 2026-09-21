@@ -96,7 +96,8 @@ def developers() -> list[dict]:
         if not g or g.strip().lower() in {"unknown developer", "unknown"}:
             continue
         d = groups.setdefault(g, {"group": g, "slug": p.get("developer_slug"), "projects": 0, "names": set(),
-                                  "entities": [], "grade": None, "score": None, "role": None, "project_ids": []})
+                                  "entities": [], "grade": None, "score": None, "role": None, "project_ids": [],
+                                  "verify_links": []})
         d["projects"] += 1
         d["project_ids"].append(p["id"])
         for key in ("developer", "developer_am"):
@@ -108,6 +109,7 @@ def developers() -> list[dict]:
         r = rep.get("research") or {}
         if r and not d["entities"]:
             d["role"] = r.get("role")
+            d["verify_links"] = [l for l in r.get("verify_links") or [] if l.get("url")][:4]
             d["names"].update(n for n in r.get("searched_names") or [] if n)
             d["entities"] = [e for e in r.get("legal_entities") or [] if e.get("name_hy") or e.get("name_en")]
             d["court"] = r.get("court") or {}
@@ -193,7 +195,9 @@ def crawl(limit: int | None, workers: int, skip_datalex: bool, deep: bool = Fals
                         "founders": [], "url": c["url"], "partial": True, "source": karg.SOURCE_NOTE,
                     }
 
-    bankruptcy = {}
+    # keep what earlier runs already searched (including the wider `bankruptcy` pass) — those answers
+    # are cached anyway, and re-crawling should never lose coverage
+    bankruptcy = json.loads(RAW.read_text(encoding="utf-8")).get("bankruptcy", {}) if RAW.exists() else {}
     if not skip_datalex:
         targets = {}
         for d in devs:
@@ -342,7 +346,8 @@ def build() -> dict:
                       "grade": d.get("grade"), "score": d.get("score"), "role": d.get("role"),
                       "slug": d.get("slug"), "project_ids": d.get("project_ids") or [],
                       "lawsuits": (d.get("court") or {}).get("respondent_by_individuals"),
-                      "sources": [{"title": "Projects on the map", "url": f"index.html#dev={urllib.parse.quote(d['group'])}"}]}
+                      "sources": [{"title": "Projects on the map", "url": f"index.html#dev={urllib.parse.quote(d['group'])}"},
+                                  *(d.get("verify_links") or [])]}
         for r in d["resolved"]:
             tax = r.get("tax_id")
             if not tax or tax in dropped or tax not in companies:
@@ -377,8 +382,9 @@ def build() -> dict:
         for did in devs:
             e = next((r for d in raw["developers"] for r in d["resolved"]
                       if r.get("tax_id") == tax and f"dev:{d['slug'] or norm(d['group'])}" == did), {})
-            edge(did, f"co:{tax}", "entity", label="legal entity",
-                 evidence=e.get("evidence_url"), match=e.get("match"))
+            edge(did, f"co:{tax}", "entity",
+                 label="legal entity" if e.get("match") == "tax_id" else "legal entity (matched by name)",
+                 evidence=e.get("evidence_url"), match=e.get("match"), matched_name=e.get("matched_name"))
 
     # people -----------------------------------------------------------
     for key, p in people.items():
@@ -446,6 +452,7 @@ def build() -> dict:
         n["component"] = comp_id[comp_of[nid]]
         n["component_developers"] = comp_devs[comp_of[nid]]
 
+    resolved = [r for d in raw["developers"] for r in d["resolved"]]
     flagged = [n for n in nodes.values() if n["type"] == "company" and n.get("bankruptcy")]
     meta = {
         "generated": date.today().isoformat(),
@@ -454,6 +461,9 @@ def build() -> dict:
         "companies": sum(n["type"] == "company" for n in nodes.values()),
         "people": sum(n["type"] == "person" for n in nodes.values()),
         "edges": len(edges),
+        "matched_by_tax_id": sum(1 for e in edges if e["kind"] == "entity" and e.get("match") == "tax_id"),
+        "matched_by_name": sum(1 for e in edges if e["kind"] == "entity" and e.get("match") == "name"),
+        "unresolved_entities": sum(1 for r in resolved if not r.get("tax_id")),
         "linked_clusters": sum(1 for c, n in comp_devs.items() if n > 1),
         "bankruptcies": Counter(n["bankruptcy"]["status"] for n in flagged),
         "sources": [

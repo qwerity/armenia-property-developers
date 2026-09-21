@@ -90,12 +90,16 @@
           Who is behind each developer, and which developers share owners, companies or a registered address.
           Built from the state register of legal entities and its beneficial-owner data (e-register.moj.am via
           karg.am) and from court records (datalex.am); bankruptcy notices can be checked on azdarar.am. Every
-          node opens with its sources. Companies with a bankruptcy are ringed in red or amber and marked
-          <b class="cn-flag">!</b>. Clusters follow the filters above: a cluster is shown when at least one of
-          its developers is in the current filter.
+          node opens with its sources, and every link says what it was built from. Companies with a bankruptcy
+          are ringed in red or amber and marked <b class="cn-flag">!</b>. Switch to the tree view to read one
+          developer at a time: its companies, their owners, and what else those owners hold. Clusters follow the
+          filters above: a cluster is shown when at least one of its developers is in the current filter.
         </p>
       </header>
       <div class="cn-controls">
+        <label>View<span class="seg" id="cn-view" aria-label="View">
+          <button type="button" data-view="graph" class="on">Graph</button><button type="button" data-view="tree">Tree</button>
+        </span></label>
         <label>Show<select id="cn-scope">
           <option value="linked">Developers linked to another developer</option>
           <option value="flagged">Clusters with a bankruptcy</option>
@@ -107,6 +111,7 @@
       <div class="legend-row" id="cn-legend"></div>
       <div class="cn-split">
         <div class="chart" id="ch-connections"></div>
+        <div id="ch-connections-tree" hidden></div>
         <aside class="cn-panel" id="cn-panel" aria-live="polite"></aside>
       </div>
       <details class="an-table"><summary>How the linked developers are connected</summary><div id="tb-connections" class="an-scroll"></div></details>

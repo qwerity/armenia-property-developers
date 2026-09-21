@@ -20,7 +20,8 @@ Unresolved entities carry a `search_url`; resolving a few by hand into `scraper/
 (`companies: {"<tax id>": {...}}`) is usually worth more than loosening the matcher.
 
 ## 2. Check before publishing
-- Open the analytics page, pick 2–3 clusters, and follow the karg.am / e-register / datalex links on the nodes.
+- Open the analytics page (tree view is the quickest to read), pick 2–3 clusters, and follow the
+  karg.am / e-register / datalex links on the nodes and on the developer→company links themselves.
 - A wrong company on a developer is worse than a missing one: drop it via `drop_companies` in
   `scraper/connections_manual.json` and note why.
 - Shared-address edges between more than 8 companies are dropped as mass-registration noise; if a real

@@ -7,7 +7,8 @@ and a developer reputation rating — plus an analytics dashboard and a one-file
   faceted filters, project details with images, videos, contacts, price check and developer rating.
 - **Analytics** (`analytics.html`) — prices by district, price distribution, delivery pipeline,
   stages, price against completion date, developer ratings, data quality, below-median deals, and a
-  connections graph of developers, their companies and the people who own them, with bankruptcies marked.
+  connections graph of developers, their companies and the people who own them (graph or tree view),
+  with bankruptcies marked.
 - **Database** (`db/armenia-new-builds.sqlite`) — the whole dataset in SQL form, documented in
   [`db/db.md`](db/db.md).
 
@@ -123,4 +124,6 @@ links it was built from, so each claim can be checked at the source; bankruptcy 
 azdarar.am, which blocks requests from outside Armenia and is therefore linked rather than crawled. A
 company is marked as declared bankrupt only when a bankruptcy case is matched by the register showing the
 company as no longer active; a case with the company as its own claimant is shown as a self-filed
-bankruptcy, and anything else as a pending case.
+bankruptcy, and anything else as a pending case. Of the developer-to-company links, 195 rest on a tax id
+recorded in the reputation research and 147 on an exact name match in the register — the view labels which
+is which — and 80 legal entities that could not be matched are left out rather than guessed.

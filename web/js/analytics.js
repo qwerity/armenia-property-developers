@@ -2,6 +2,7 @@ import { loadData } from "./data.js";
 import { state, stageLabel } from "./util.js";
 import { hbar, columns, stacked, scatter, table } from "./charts.js";
 import { drawGraph, typeInfo, edgeInfo, BANKRUPTCY } from "./graph.js";
+import { drawTree } from "./tree.js";
 
 const $ = (id) => document.getElementById(id);
 const STAGES = [
@@ -14,7 +15,7 @@ const STAGES = [
 ];
 const GRADES = ["A", "B", "C", "D", "E"];
 const GRADE_COLORS = { A: "var(--viz-ord-5)", B: "var(--viz-ord-4)", C: "var(--viz-ord-3)", D: "var(--viz-ord-2)", E: "var(--viz-ord-1)" };
-const app = { projects: [], meta: {}, connections: null, cnSelected: null };
+const app = { projects: [], meta: {}, connections: null, cnSelected: null, cnView: "graph" };
 
 // ---------------------------------------------------------------- numbers
 const median = (xs) => {
@@ -467,6 +468,7 @@ function renderCnPanel(node) {
       b.textContent = other.label;
       b.addEventListener("click", () => selectCn(other.id));
       li.append(b, document.createTextNode(` — ${e.label || edgeInfo[e.kind]?.label || e.kind}`));
+      if (e.evidence) li.append(document.createTextNode(" "), link("source", e.evidence));
       ul.append(li);
     }
     host.append(t, ul);
@@ -480,7 +482,8 @@ function renderCnPanel(node) {
   const ul = document.createElement("ul");
   for (const s of sources) {
     const li = document.createElement("li");
-    li.append(s.url.startsWith("http") ? link(s.title, s.url) : link(s.title, s.url));
+    li.append(link(s.title, s.url));
+    if (s.note) li.append(document.createTextNode(` — ${s.note}`));
     ul.append(li);
   }
   for (const k of cases) {
@@ -548,10 +551,15 @@ function renderConnections(items) {
   if (!c) return;
   const view = connectionView(items);
   const host = $("ch-connections");
+  const treeHost = $("ch-connections-tree");
+  const asTree = app.cnView === "tree";
+  host.hidden = asTree;
+  treeHost.hidden = !asTree;
   $("cn-note").textContent = view.hidden
     ? `${view.hidden} more cluster${view.hidden === 1 ? "" : "s"} match but are not drawn — narrow the filters or pick a developer to focus.`
     : "";
-  app.cnGraph = drawGraph(host, view, { onSelect: (n) => selectCn(n?.id || null), selected: app.cnSelected });
+  const draw = asTree ? drawTree : drawGraph;
+  app.cnGraph = draw(asTree ? treeHost : host, view, { onSelect: (n) => selectCn(n?.id || null), selected: app.cnSelected });
   if (app.cnSelected && !view.nodes.some((n) => n.id === app.cnSelected)) app.cnSelected = null;
   renderCnPanel(app.cnSelected ? cnNode(app.cnSelected) : null);
 
@@ -636,7 +644,11 @@ async function loadConnections() {
     app.connections = data;
     fillFocus();
     const src = $("cn-sources");
-    src.replaceChildren(document.createTextNode(`Registry data crawled ${data.meta.crawled}; ${data.meta.companies} companies and ${data.meta.people} owners for ${data.meta.developers} developers. Sources: `));
+    const m = data.meta;
+    src.replaceChildren(document.createTextNode(
+      `Registry data crawled ${m.crawled}: ${m.companies} companies and ${m.people} owners for ${m.developers} developers. `
+      + `${m.matched_by_tax_id} developer-to-company links rest on a tax ID and ${m.matched_by_name} on an exact name match in the register — each link carries the evidence it was made from. `
+      + `${m.unresolved_entities} legal entities could not be matched to a registry company at all and are left out rather than guessed. Sources: `));
     data.meta.sources.forEach((s, i) => {
       if (i) src.append(document.createTextNode(" · "));
       src.append(link(s.title, s.url));
@@ -670,6 +682,13 @@ function bind() {
   $("af-reset").addEventListener("click", () => {
     for (const id of ["af-region", "af-district", "af-kind", "af-stage", "af-grade"]) $(id).value = "";
     render();
+  });
+  $("cn-view").addEventListener("click", (e) => {
+    const b = e.target.closest("button[data-view]");
+    if (!b) return;
+    app.cnView = b.dataset.view;
+    $("cn-view").querySelectorAll("button").forEach((x) => x.classList.toggle("on", x === b));
+    renderConnections(filtered());
   });
   for (const id of ["cn-scope", "cn-focus"]) {
     $(id).addEventListener("change", () => {
