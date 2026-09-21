@@ -16,6 +16,7 @@ from typing import Any, Iterable
 
 ROOT = Path(__file__).resolve().parent.parent
 PROJECTS_JSON = ROOT / "web" / "data" / "projects.json"
+CONNECTIONS_JSON = ROOT / "web" / "data" / "connections.json"
 SOURCES_JSON = ROOT / "scraper" / "sources.json"
 DEFAULT_OUT = ROOT / "db" / "armenia-new-builds.sqlite"
 
@@ -267,6 +268,51 @@ CREATE TABLE sources (
   notes        TEXT
 );
 
+CREATE TABLE connection_nodes (
+  id                    TEXT PRIMARY KEY,  -- dev:<slug> | co:<tax id> | pe:<owner key>
+  type                  TEXT,   -- developer | company | person
+  label                 TEXT,
+  tax_id                TEXT,
+  status                TEXT,   -- companies: active | inactive in the state register
+  form                  TEXT,
+  registered            TEXT,
+  address               TEXT,   -- legal address
+  nace                  TEXT,
+  director              TEXT,
+  projects              INTEGER,-- developers: projects in the dataset
+  grade                 TEXT,
+  companies             INTEGER,-- people: companies they hold in the register
+  bankruptcy            TEXT,   -- declared | self_declared | case
+  bankruptcy_basis      TEXT,   -- what that status was derived from, or the hand-checked confirmation
+  bankruptcy_confirmed  TEXT,   -- azdarar.am notice or other document confirming it, when one was found
+  bankruptcy_cases      TEXT,   -- JSON [{case_number, claimant, respondent, filed, url}]
+  component             INTEGER,-- connected cluster the node belongs to
+  component_developers  INTEGER,
+  url                   TEXT,   -- registry card / owner page
+  sources               TEXT    -- JSON [{title, url}]
+);
+CREATE INDEX ix_conn_nodes_type ON connection_nodes(type);
+CREATE INDEX ix_conn_nodes_component ON connection_nodes(component);
+
+CREATE TABLE connection_edges (
+  source   TEXT NOT NULL REFERENCES connection_nodes(id),
+  target   TEXT NOT NULL REFERENCES connection_nodes(id),
+  kind     TEXT,   -- entity | founder | director | address | family | family_lead | same_person
+  label    TEXT,   -- share held, or how the two are tied
+  detail   TEXT,
+  evidence TEXT    -- link the developer → company match came from
+);
+CREATE INDEX ix_conn_edges_source ON connection_edges(source);
+CREATE INDEX ix_conn_edges_target ON connection_edges(target);
+
+CREATE VIEW v_bankruptcies AS
+SELECT n.label AS company, n.tax_id, n.bankruptcy AS status, n.bankruptcy_basis AS basis,
+       n.bankruptcy_confirmed AS confirmed, n.status AS registry_status,
+       (SELECT GROUP_CONCAT(d.label, ', ') FROM connection_edges e JOIN connection_nodes d ON d.id = e.source
+        WHERE e.target = n.id AND e.kind = 'entity') AS developers,
+       n.bankruptcy_cases, n.url
+FROM connection_nodes n WHERE n.bankruptcy IS NOT NULL;
+
 CREATE VIEW v_projects AS
 SELECT p.id, p.title, p.kind, p.stage, p.region, p.district, p.address, p.lat, p.lng,
        p.developer_group, p.developer_grade, p.completion_year,
@@ -483,6 +529,29 @@ def source_rows(projects: list[dict]) -> list[dict]:
     return sorted(rows, key=lambda r: (-r["projects"], r["name"]))
 
 
+def connection_rows() -> tuple[list[dict], list[dict]]:
+    """Ownership graph from web/data/connections.json (empty when it has not been built yet)."""
+    if not CONNECTIONS_JSON.exists():
+        return [], []
+    graph = json.loads(CONNECTIONS_JSON.read_text())
+    nodes = [{
+        "id": n["id"], "type": n["type"], "label": n.get("label"), "tax_id": n.get("tax_id"),
+        "status": n.get("status"), "form": n.get("form"), "registered": n.get("registered"),
+        "address": n.get("address"), "nace": n.get("nace"), "director": n.get("director"),
+        "projects": n.get("projects"), "grade": n.get("grade"), "companies": n.get("companies"),
+        "bankruptcy": (n.get("bankruptcy") or {}).get("status"),
+        "bankruptcy_basis": (n.get("bankruptcy") or {}).get("basis"),
+        "bankruptcy_confirmed": (n.get("bankruptcy") or {}).get("confirmed_by"),
+        "bankruptcy_cases": js((n.get("bankruptcy") or {}).get("cases")),
+        "component": n.get("component"), "component_developers": n.get("component_developers"),
+        "url": (n.get("sources") or [{}])[0].get("url"), "sources": js(n.get("sources")),
+    } for n in graph["nodes"]]
+    edges = [{"source": e["source"], "target": e["target"], "kind": e.get("kind"),
+              "label": e.get("label"), "detail": e.get("detail"), "evidence": e.get("evidence")}
+             for e in graph["edges"]]
+    return nodes, edges
+
+
 def meta_rows(meta: dict, projects: list[dict]) -> list[dict]:
     rows = [{"key": k, "value": js(v) if isinstance(v, (list, dict)) else str(v)} for k, v in meta.items()]
     rows.append({"key": "project_count", "value": str(len(projects))})
@@ -515,6 +584,9 @@ def build(out: Path) -> sqlite3.Connection:
     for table, rows in dev_children.items():
         insert(cur, table, rows)
     insert(cur, "sources", source_rows(projects))
+    conn_nodes, conn_edges = connection_rows()
+    insert(cur, "connection_nodes", conn_nodes)
+    insert(cur, "connection_edges", conn_edges)
 
     cur.executemany(
         "INSERT INTO project_search (id, title, title_am, title_ru, developer, address, district, region, description)"

@@ -191,6 +191,11 @@ async function main() {
     update();
     const m = location.hash.match(/p=([^&]+)/);
     if (m) select(decodeURIComponent(m[1]));
+    const dev = location.hash.match(/dev=([^&]+)/);
+    if (dev) {
+      setDeveloperFilter(decodeURIComponent(dev[1]));
+      update({ fit: true });
+    }
   } catch (err) {
     console.error(err);
     $("meta-line").textContent = `Could not load data: ${err.message}`;
