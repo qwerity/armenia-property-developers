@@ -310,52 +310,149 @@ export function drawGraph(host, data, opts = {}) {
     labels.set(n.id, label);
   }
 
-  function select(id) {
+  /** Highlight a node and its neighbours; `soft` is a hover preview that a real selection outranks. */
+  function highlight(id, soft = false) {
     const near = id ? new Set([id, ...(neighbours.get(id) || [])]) : null;
-    for (const [nid, g] of marks) g.classList.toggle("dim", Boolean(near) && !near.has(nid));
-    for (const [nid, label] of labels) label.classList.toggle("dim", Boolean(near) && !near.has(nid));
+    for (const [nid, g] of marks) {
+      g.classList.toggle("dim", Boolean(near) && !near.has(nid));
+      g.classList.toggle("on", Boolean(near) && nid === id);
+    }
+    for (const [nid, label] of labels) {
+      label.classList.toggle("dim", Boolean(near) && !near.has(nid));
+      label.classList.toggle("on", Boolean(near) && near.has(nid));
+    }
     for (const [e, line] of lineOf) {
-      const on = !near || near.has(e.source) && near.has(e.target);
-      line.setAttribute("opacity", on ? (near ? 0.9 : 0.55) : 0.12);
+      const on = !near || (near.has(e.source) && near.has(e.target));
+      line.setAttribute("opacity", on ? (near ? 0.95 : 0.5) : soft ? 0.18 : 0.1);
     }
   }
-  if (opts.selected) select(opts.selected);
+  let selected = opts.selected || null;
+  const select = (id) => { selected = id; highlight(id); };
+  if (selected) highlight(selected);
+  for (const [id, g] of marks) {
+    g.addEventListener("pointerenter", () => { if (!selected) highlight(id, true); });
+    g.addEventListener("pointerleave", () => { if (!selected) highlight(null); });
+  }
   svg.addEventListener("click", (ev) => { if (ev.target === svg) opts.onSelect?.(null); });
 
-  // pan with a drag on the background, zoom with the wheel (ctrl/⌘ or over the plot)
+  const camera = attachCamera(svg, view, labelLayer, { w, h });
+  host.append(toolbar(camera, opts));
+  const byNode = new Map(nodes.map((n) => [n.id, n]));
+  for (const [id, g] of marks) {
+    g.addEventListener("dblclick", (ev) => { ev.stopPropagation(); camera.focus(byNode.get(id)); });
+  }
+  svg.addEventListener("dblclick", (ev) => { if (ev.target === svg) camera.fit(); });
+
+  return { select, nodes, camera };
+}
+
+/** On-canvas controls: zoom, fit, and the card's expand toggle when the page offers one. */
+function toolbar(camera, opts) {
+  const bar = document.createElement("div");
+  bar.className = "g-tools";
+  const add = (label, title, run) => {
+    const b = document.createElement("button");
+    b.type = "button";
+    b.textContent = label;
+    b.title = title;
+    b.setAttribute("aria-label", title);
+    b.addEventListener("click", run);
+    bar.append(b);
+    return b;
+  };
+  add("+", "Zoom in", () => camera.by(1.35));
+  add("−", "Zoom out", () => camera.by(1 / 1.35));
+  add("Fit", "Fit the whole graph", () => camera.fit());
+  if (opts.onExpand) add(opts.expanded ? "Close" : "Expand", opts.expanded ? "Leave full screen" : "Full screen", opts.onExpand);
+  const hint = document.createElement("p");
+  hint.className = "g-hint";
+  hint.textContent = "Drag to pan · ⌘/Ctrl + scroll or pinch to zoom · double-click a node to centre it";
+  const frag = document.createDocumentFragment();
+  frag.append(bar, hint);
+  return frag;
+}
+
+/**
+ * Pan and zoom for a drawn graph: drag to pan, ⌘/Ctrl+wheel or pinch to zoom, buttons for the rest.
+ *
+ * A plain wheel is left to the page — a graph that swallows the scroll makes the page feel broken.
+ * Labels are counter-scaled so text keeps its size while the drawing grows.
+ */
+function attachCamera(svg, view, labelLayer, { w, h, min = 0.4, max = 6 } = {}) {
   let zoom = 1;
   let [tx, ty] = [0, 0];
-  const apply = () => view.setAttribute("transform", `translate(${tx} ${ty}) scale(${zoom})`);
-  svg.addEventListener("wheel", (ev) => {
-    ev.preventDefault();
+  const clamp = (z) => Math.min(max, Math.max(min, z));
+  const apply = (smooth = false) => {
+    view.classList.toggle("smooth", smooth);
+    view.setAttribute("transform", `translate(${tx} ${ty}) scale(${zoom})`);
+    labelLayer.style.fontSize = `${11 / Math.max(1, zoom)}px`;
+    svg.dataset.zoom = zoom.toFixed(2);
+  };
+  const at = (ev) => {
     const rect = svg.getBoundingClientRect();
-    const px = ((ev.clientX - rect.left) / rect.width) * w;
-    const py = ((ev.clientY - rect.top) / rect.height) * h;
-    const next = Math.min(4, Math.max(0.5, zoom * (ev.deltaY < 0 ? 1.12 : 1 / 1.12)));
+    return [((ev.clientX - rect.left) / rect.width) * w, ((ev.clientY - rect.top) / rect.height) * h];
+  };
+  const zoomAt = (next, px, py, smooth = false) => {
+    next = clamp(next);
     tx = px - ((px - tx) / zoom) * next;
     ty = py - ((py - ty) / zoom) * next;
     zoom = next;
-    apply();
+    apply(smooth);
+  };
+  const api = {
+    get zoom() { return zoom; },
+    by: (factor) => zoomAt(zoom * factor, w / 2, h / 2, true),
+    fit: () => { zoom = 1; tx = ty = 0; apply(true); },
+    focus: (node, to = 2.2) => {
+      if (!node) return;
+      zoom = clamp(to);
+      tx = w / 2 - node.x * zoom;
+      ty = h / 2 - node.y * zoom;
+      apply(true);
+    },
+  };
+
+  svg.addEventListener("wheel", (ev) => {
+    if (!ev.ctrlKey && !ev.metaKey) return;  // plain wheel scrolls the page
+    ev.preventDefault();
+    const [px, py] = at(ev);
+    zoomAt(zoom * (ev.deltaY < 0 ? 1.12 : 1 / 1.12), px, py);
   }, { passive: false });
+
   let drag = null;
+  const pinch = new Map();
   svg.addEventListener("pointerdown", (ev) => {
-    if (ev.target.closest(".node")) return;
+    pinch.set(ev.pointerId, ev);
+    if (ev.target.closest(".node") || pinch.size > 1) return;
     drag = { x: ev.clientX, y: ev.clientY, tx, ty };
     svg.setPointerCapture(ev.pointerId);
-    svg.style.cursor = "grabbing";
+    svg.classList.add("grabbing");
   });
   svg.addEventListener("pointermove", (ev) => {
+    if (pinch.size > 1) {
+      const prev = [...pinch.values()];
+      pinch.set(ev.pointerId, ev);
+      const now = [...pinch.values()].slice(0, 2);
+      const gap = (pts) => Math.hypot(pts[0].clientX - pts[1].clientX, pts[0].clientY - pts[1].clientY);
+      const before = gap(prev.slice(0, 2));
+      if (before > 0) {
+        const mid = { clientX: (now[0].clientX + now[1].clientX) / 2, clientY: (now[0].clientY + now[1].clientY) / 2 };
+        const [px, py] = at(mid);
+        zoomAt(zoom * (gap(now) / before), px, py);
+      }
+      return;
+    }
     if (!drag) return;
     const rect = svg.getBoundingClientRect();
     tx = drag.tx + ((ev.clientX - drag.x) / rect.width) * w;
     ty = drag.ty + ((ev.clientY - drag.y) / rect.height) * h;
     apply();
   });
-  const endDrag = () => { drag = null; svg.style.cursor = ""; };
+  const endDrag = (ev) => { pinch.delete(ev.pointerId); drag = null; svg.classList.remove("grabbing"); };
   svg.addEventListener("pointerup", endDrag);
   svg.addEventListener("pointercancel", endDrag);
-
-  return { select, nodes };
+  apply();
+  return api;
 }
 
 export const typeInfo = TYPE;

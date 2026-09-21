@@ -548,6 +548,15 @@ function developerPairs(view) {
   return out.sort((a, b) => (b.flagged - a.flagged) || a.via.length - b.via.length || a.a.label.localeCompare(b.a.label));
 }
 
+/** Let the graph take the viewport — 1,300 nodes need the room — and redraw it at the new size. */
+function expandConnections(on) {
+  app.cnExpanded = on;
+  document.body.classList.toggle("cn-full", on);
+  $("an-connections").classList.toggle("cn-expanded", on);
+  renderConnections(filtered());
+  if (on) $("an-connections").scrollIntoView({ block: "start" });
+}
+
 function renderConnections(items) {
   const c = app.connections;
   if (!c) return;
@@ -561,7 +570,13 @@ function renderConnections(items) {
     ? `${view.hidden} more cluster${view.hidden === 1 ? "" : "s"} match but are not drawn — narrow the filters or pick a developer to focus.`
     : "";
   const draw = asTree ? drawTree : drawGraph;
-  app.cnGraph = draw(asTree ? treeHost : host, view, { onSelect: (n) => selectCn(n?.id || null), selected: app.cnSelected });
+  app.cnGraph = draw(asTree ? treeHost : host, view, {
+    onSelect: (n) => selectCn(n?.id || null),
+    selected: app.cnSelected,
+    expanded: app.cnExpanded,
+    onExpand: () => expandConnections(!app.cnExpanded),
+    height: app.cnExpanded ? Math.max(420, window.innerHeight - 250) : undefined,
+  });
   if (app.cnSelected && !view.nodes.some((n) => n.id === app.cnSelected)) app.cnSelected = null;
   renderCnPanel(app.cnSelected ? cnNode(app.cnSelected) : null);
 
@@ -594,6 +609,8 @@ function renderConnections(items) {
       return s;
     }),
   ]);
+
+  $("cn-nodes").replaceChildren(...view.nodes.slice(0, 600).map((n) => new Option(n.label)));
 
   const pairs = developerPairs(view);
   table($("tb-connections"), [
@@ -702,6 +719,15 @@ function bind() {
     $("cn-view").querySelectorAll("button").forEach((x) => x.classList.toggle("on", x === b));
     renderConnections(filtered());
   });
+  $("cn-search").addEventListener("change", (e) => {
+    const q = e.target.value.trim().toLowerCase();
+    if (!q) return;
+    const hit = app.connections?.nodes.find((n) => n.label.toLowerCase() === q)
+      || app.connections?.nodes.find((n) => n.label.toLowerCase().includes(q));
+    if (!hit) return;
+    selectCn(hit.id);
+    app.cnGraph?.camera?.focus(app.cnGraph.nodes?.find((n) => n.id === hit.id));
+  });
   for (const id of ["cn-scope", "cn-focus", "cn-family"]) {
     $(id).addEventListener("change", () => {
       if (id === "cn-focus") app.cnSelected = $("cn-focus").value || null;
@@ -714,6 +740,17 @@ function bind() {
     state.currency = b.dataset.cur;
     $("af-currency").querySelectorAll("button").forEach((x) => x.classList.toggle("on", x === b));
     render();
+  });
+  document.addEventListener("keydown", (e) => {
+    if (e.key !== "Escape") return;
+    if (app.cnExpanded) expandConnections(false);
+    else if (app.cnSelected) selectCn(null);
+  });
+  // The layout is computed for the width it is drawn at, so a resized window needs a redraw.
+  let resizing;
+  window.addEventListener("resize", () => {
+    clearTimeout(resizing);
+    resizing = setTimeout(() => render(), 250);
   });
 }
 
