@@ -9,7 +9,7 @@ import re
 import statistics
 import sys
 import urllib.request
-from collections import defaultdict
+from collections import Counter, defaultdict
 from datetime import date
 from difflib import SequenceMatcher
 from pathlib import Path
@@ -713,6 +713,36 @@ def sanity_check_numbers(p: dict) -> None:
         p["floors"] = None
 
 
+def apply_url_checks(projects: list[dict]) -> dict:
+    """Mark source links that no longer resolve (scraper/check_urls.py writes the verdicts).
+
+    Dead links are kept, not deleted: they are still where a figure came from. They are flagged so the
+    page can say so, and a project whose main link is gone points at a live source instead.
+    """
+    path = ROOT / "scraper" / "url_check.json"
+    if not path.exists():
+        return {}
+    checks = json.loads(path.read_text(encoding="utf-8"))
+    alive = lambda url: checks.get(url, {}).get("verdict", "ok") == "ok"  # noqa: E731 — unchecked counts as alive
+    stats = Counter()
+    for p in projects:
+        for s in p.get("sources") or []:
+            res = checks.get(s.get("url"))
+            if res and res["verdict"] != "ok":
+                s["dead"] = res["verdict"]
+                s["checked"] = res["checked"]
+                stats[res["verdict"]] += 1
+            else:
+                s.pop("dead", None)
+                s.pop("checked", None)
+        if p.get("source_url") and not alive(p["source_url"]):
+            live = next((s["url"] for s in p.get("sources") or [] if s.get("url") and alive(s["url"])), None)
+            if live:
+                p["source_url"] = live
+                stats["repointed"] += 1
+    return dict(stats)
+
+
 def add_reputation(projects: list[dict]) -> None:
     """Attach developer reputation (score, grade, court/news summary) to every project of a named developer."""
     research = load_research()
@@ -934,10 +964,12 @@ def main() -> int:
     add_benchmarks(projects)
     add_reputation(projects)
     add_elevations(projects)
+    link_checks = apply_url_checks(projects)
     meta = {
         "generated": date.today().isoformat(), "amd_per_usd": round(rate, 2), "rate_time": rate_time,
         "count": len(projects), "extra_added": added, "extra_merged": merged, "extra_skipped": skipped, "geocoded": geocoded, "manual_merged": manual_merged, "unlocated": unlocated,
         "sources": sorted({s["name"] for p in projects for s in p["sources"] if s.get("name")}),
+        "link_checks": link_checks,
     }
     OUT.write_text(json.dumps({"meta": meta, "projects": projects}, ensure_ascii=False), encoding="utf-8")
     print(json.dumps(meta, indent=1), file=sys.stderr)

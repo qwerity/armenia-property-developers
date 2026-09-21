@@ -113,7 +113,9 @@ CREATE INDEX ix_projects_price ON projects(usd_m2_min);
 CREATE TABLE project_sources (
   project_id TEXT NOT NULL REFERENCES projects(id),
   name       TEXT NOT NULL,
-  url        TEXT
+  url        TEXT,
+  dead       TEXT,   -- missing | unreachable | blocked when the page no longer answered
+  checked    TEXT    -- date of that link check
 );
 CREATE INDEX ix_project_sources ON project_sources(project_id);
 
@@ -445,7 +447,8 @@ def child_rows(p: dict) -> dict[str, list[dict]]:
                                  ("merged_id", "merged_ids"))
              for v in p.get(field) or []]
     return {
-        "project_sources": [{"project_id": pid, "name": s.get("name"), "url": s.get("url")} for s in p.get("sources") or []],
+        "project_sources": [{"project_id": pid, "name": s.get("name"), "url": s.get("url"),
+                             "dead": s.get("dead"), "checked": s.get("checked")} for s in p.get("sources") or []],
         "project_price_obs": [{"project_id": pid, "source": o.get("source"), "kind": o.get("kind"), "usd": o.get("usd"),
                                "amd": o.get("amd"), "usd_m2": o.get("usd_m2"), "raw": o.get("raw"),
                                "used": b(o.get("used")), "flags": js(o.get("flags"))} for o in p.get("price_obs") or []],

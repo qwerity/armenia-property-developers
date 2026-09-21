@@ -49,7 +49,12 @@ function links(p) {
   for (const [k, v] of Object.entries(p.social || {})) add(k[0].toUpperCase() + k.slice(1), v);
   add("Google Maps", `https://www.google.com/maps/search/?api=1&query=${p.lat},${p.lng}`);
   add("Street-level (Yandex)", `https://yandex.com/maps/?ll=${p.lng},${p.lat}&z=17&l=stv,sta&panorama[point]=${p.lng},${p.lat}`);
-  for (const s of p.sources || []) add(`Source: ${s.name}`, s.url);
+  for (const s of p.sources || []) {
+    if (!s.dead) { add(`Source: ${s.name}`, s.url); continue; }
+    // The link is still where the data came from, so it is shown — but marked, not presented as live.
+    items.push(`<a class="chip gone" href="${esc(safeUrl(s.url))}" target="_blank" rel="noopener"
+      title="This page was gone when checked on ${esc(s.checked)} (${esc(s.dead)})">Source: ${esc(s.name)} · page gone</a>`);
+  }
   return items.join("");
 }
 

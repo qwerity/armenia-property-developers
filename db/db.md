@@ -12,7 +12,7 @@ python3 scraper/export_db.py
 ```
 
 <!-- counts -->
-_Data generated 2026-09-15._
+_Data generated 2026-09-21._
 
 | Table | Rows |
 | --- | ---: |
@@ -23,7 +23,7 @@ _Data generated 2026-09-15._
 | `developer_flags` | 182 |
 | `developer_links` | 2,179 |
 | `developers` | 366 |
-| `meta` | 12 |
+| `meta` | 13 |
 | `project_contacts` | 2,663 |
 | `project_geo_obs` | 998 |
 | `project_media` | 6,869 |
@@ -85,7 +85,9 @@ One row per project, 735 of them. Beyond the obvious name/place/price columns:
 All keyed by `project_id`.
 
 - **`project_sources`** — every site this project was found on (`name`, `url`). Projects are merged
-  across sources, so one project often has several.
+  across sources, so one project often has several. `dead` and `checked` record a link that no longer
+  answered when `scraper/check_urls.py` last ran (`missing` = 404, `unreachable` = DNS/TLS/timeout,
+  `blocked` = the host refuses scripts); such links are kept as provenance, not deleted.
 - **`project_price_obs`** — every price seen, per source: `kind` (`m2` or `unit`), `usd`, `amd`,
   `usd_m2`, the raw string, `used` (1 = it fed the reconciled price), and `flags` (JSON) for
   parsing or disagreement warnings. This is the audit trail behind `projects.usd_m2_min`.

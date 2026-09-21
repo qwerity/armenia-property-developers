@@ -20,6 +20,8 @@ python3 scraper/pipeline.py status
 python3 scraper/pipeline.py crawl --only karucapatoxic,extra,catalogs,enrich [--fresh]
 python3 scraper/pipeline.py build          # rebuild + scraper/reports/diff-*.md
 python3 scraper/pipeline.py audit all      # verification queues in scraper/reports/
+python3 scraper/check_urls.py              # re-test every source URL (adds scraper/url_check.json)
+python3 scraper/export_db.py               # rebuild db/armenia-new-builds.sqlite
 python3 scraper/connections.py crawl      # registry owners + bankruptcies → web/data/connections.json
 python3 scraper/azdarar.py verify         # official bankruptcy notices (needs an Armenian IP)
 ```
