@@ -163,6 +163,45 @@ function bindControls() {
   });
 }
 
+/**
+ * Google's own failure screen only says "Oops! Something went wrong", so state what is wrong and
+ * which URL has to be allowed on the key.
+ */
+function showMapKeyError(url) {
+  if ($("map-error")) return;
+  const box = document.createElement("div");
+  box.id = "map-error";
+  box.className = "map-error";
+  box.innerHTML = `
+    <h2>Google Maps rejected this API key</h2>
+    <p>The key's <b>Website restrictions</b> do not allow this address, so Maps stops after the first
+      tiles (<code>RefererNotAllowedMapError</code> in the console).</p>
+    <p>Add this URL to the key in Google Cloud Console → APIs &amp; Services → Credentials → your key:</p>
+    <p><code>${esc(new URL(url || location.href).origin)}/*</code></p>
+    <p class="muted small">Changes can take a few minutes to take effect. The project list and the analytics page work without Maps.</p>`;
+  $("map").append(box);
+  $("meta-line").textContent = "Google Maps rejected the API key — see the message on the map.";
+}
+
+/**
+ * A rejected key does not always reach gm_authFailure — with the vector renderer Maps sometimes only
+ * paints its own error screen — so watch for that screen appearing inside the map.
+ */
+function watchForAuthError() {
+  const host = $("map");
+  const seen = () => host.querySelector(".gm-err-container");
+  const watch = new MutationObserver(() => { if (seen()) { watch.disconnect(); showMapKeyError(); } });
+  watch.observe(host, { childList: true, subtree: true });
+  if (seen()) { watch.disconnect(); showMapKeyError(); return; }
+  // A rejected key does not always paint that screen: sometimes the map just stays empty, so also
+  // treat "no tiles at all" as a failure. Hidden tabs never draw tiles, hence the visibility check.
+  app.mapApi.ready.then(() => {
+    let loaded = false;
+    google.maps.event.addListenerOnce(app.mapApi.map, "tilesloaded", () => { loaded = true; });
+    setTimeout(() => { if (!loaded && document.visibilityState === "visible" && !seen()) showMapKeyError(); }, 12000);
+  }).catch(() => {});
+}
+
 let openLightbox = () => {};
 
 async function main() {
@@ -188,6 +227,8 @@ async function main() {
     app.mapApi.ready.catch((err) => {
       $("meta-line").textContent = `Google Maps did not load: ${err.message}. Open the app at http://localhost:5190 and check the API key's allowed websites.`;
     });
+    window.addEventListener("gmaps-auth-failed", (e) => showMapKeyError(e.detail?.url));
+    watchForAuthError();
     update();
     const m = location.hash.match(/p=([^&]+)/);
     if (m) select(decodeURIComponent(m[1]));

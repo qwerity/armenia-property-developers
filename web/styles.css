@@ -282,3 +282,12 @@ gmp-place-details-compact { margin-top: 8px; width: 100%; color-scheme: light; }
 .brand-row { display: flex; align-items: baseline; justify-content: space-between; gap: 10px; }
 .brand-link { font-size: 12.5px; color: var(--teal); text-decoration: none; padding: 2px 9px; border: 1px solid var(--line); border-radius: 999px; white-space: nowrap; }
 .brand-link:hover { border-color: var(--teal); }
+
+/* Shown when Google rejects the API key: their own screen does not say what to fix. */
+.map-error {
+  position: absolute; inset: 0; z-index: 5; display: flex; flex-direction: column; justify-content: center;
+  gap: 8px; padding: 28px 32px; background: rgba(255, 255, 255, .96); overflow: auto;
+}
+.map-error h2 { margin: 0; font-size: 18px; font-weight: 650; }
+.map-error p { margin: 0; max-width: 62ch; font-size: 13.5px; color: var(--basalt-2); }
+.map-error code { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 13px; background: var(--paper); border: 1px solid var(--line); border-radius: 6px; padding: 2px 6px; }
