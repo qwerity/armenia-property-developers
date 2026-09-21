@@ -148,7 +148,9 @@ def _verify_links(developer: str, entities: list[dict]) -> list[dict]:
     names = [e.get("name_hy") for e in entities if e.get("name_hy")] or [developer]
     plain = names[0].replace("«", "").replace("»", "")
     return [
-        {"title": "Datalex court case search", "url": "https://datalex.am/?app=AppCaseSearch", "note": f"search party: {plain}"},
+        {"title": "Datalex court case search", "url": "https://datalex.am/?app=AppCaseSearch",
+         "note": f"datalex has no URL for a party search: type «{plain}» into the claimant or respondent field. "
+                 "The case links above open a case directly (the site asks for a captcha first)."},
         {"title": "News search (Google)", "url": f"https://www.google.com/search?q={quote_plus(f'\"{developer}\" կառուցապատող OR застройщик OR developer')}&tbm=nws"},
         {"title": "Buyer complaints search (Google)", "url": f"https://www.google.com/search?q={quote_plus(f'\"{plain}\" դատարան OR բողոք OR жалоба OR суд')}"},
     ]

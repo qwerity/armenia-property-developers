@@ -100,7 +100,14 @@ def azdarar_links(name: str) -> list[dict]:
     ]
 
 
-def datalex_search_url() -> str:
+def datalex_search_url(case_number: str | None = None) -> str:
+    """A case number opens that case; without one the reader has to type the party into the form.
+
+    datalex has no URL for a party search — its search posts to json.php (that is how scraper/
+    datalex.py collects the cases) — but ?case_id= and ?case_number= both open a case directly.
+    """
+    if case_number:
+        return f"https://datalex.am/?app=AppCaseSearch&case_number={urllib.parse.quote(case_number)}"
     return "https://datalex.am/?app=AppCaseSearch"
 
 
@@ -119,7 +126,7 @@ def developers() -> list[dict]:
             continue
         d = groups.setdefault(g, {"group": g, "slug": p.get("developer_slug"), "projects": 0, "names": set(),
                                   "entities": [], "grade": None, "score": None, "role": None, "project_ids": [],
-                                  "verify_links": []})
+                                  "verify_links": [], "cases": []})
         d["projects"] += 1
         d["project_ids"].append(p["id"])
         for key in ("developer", "developer_am"):
@@ -132,6 +139,7 @@ def developers() -> list[dict]:
         if r and not d["entities"]:
             d["role"] = r.get("role")
             d["verify_links"] = [l for l in r.get("verify_links") or [] if l.get("url")][:4]
+            d["cases"] = [c for c in r.get("notable_cases") or [] if c.get("case_number")][:6]
             d["names"].update(n for n in r.get("searched_names") or [] if n)
             d["entities"] = [e for e in r.get("legal_entities") or [] if e.get("name_hy") or e.get("name_en")]
             d["court"] = r.get("court") or {}
@@ -334,7 +342,10 @@ def bankruptcy_status(company: dict, cases: list[dict], manual: dict, notice: di
         "confirmed_by": fix.get("source_url") or (verdict["notice"]["url"] if verdict else None),
         "note": fix.get("note"),
         "sources": [
-            {"title": "datalex.am — bankruptcy cases", "url": datalex_search_url()},
+            *({"title": f"datalex.am — case {c['case_number']}", "url": c.get("url") or datalex_search_url(c["case_number"])}
+              for c in (own + against)[:3] if c.get("case_number")),
+            {"title": "datalex.am — search the party", "url": datalex_search_url(),
+             "note": f"type «{company.get('name') or ''}» into the respondent field"},
             *azdarar_links(company.get("name") or ""),
         ],
     }
@@ -343,6 +354,16 @@ def bankruptcy_status(company: dict, cases: list[dict], manual: dict, notice: di
 # ---------------------------------------------------------------- graph
 def build() -> dict:
     raw = json.loads(RAW.read_text(encoding="utf-8"))
+    # Grades, court counts, verification links and cases come from the dataset, not from the crawl,
+    # so refresh them here — a rebuild after /nb-reputation then shows the current record.
+    fresh = {d["group"]: d for d in developers()}
+    for d in raw["developers"]:
+        f = fresh.get(d["group"])
+        if not f:
+            continue
+        for key in ("cases", "verify_links", "grade", "score", "role", "court", "projects", "project_ids"):
+            if f.get(key):
+                d[key] = f[key]
     manual = json.loads(MANUAL.read_text(encoding="utf-8")) if MANUAL.exists() else {}
     # collected by scraper/azdarar.py, which has to run from a host that can reach the bulletin
     notices = json.loads(NOTICES.read_text(encoding="utf-8")) if NOTICES.exists() else {}
@@ -376,6 +397,7 @@ def build() -> dict:
                       "grade": d.get("grade"), "score": d.get("score"), "role": d.get("role"),
                       "slug": d.get("slug"), "project_ids": d.get("project_ids") or [],
                       "lawsuits": (d.get("court") or {}).get("respondent_by_individuals"),
+                      "cases": d.get("cases") or [],
                       "sources": [{"title": "Projects on the map", "url": f"index.html#dev={urllib.parse.quote(d['group'])}"},
                                   *(d.get("verify_links") or [])]}
         for r in d["resolved"]:

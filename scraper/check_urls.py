@@ -33,6 +33,7 @@ from urllib.parse import quote, urlsplit, urlunsplit
 
 ROOT = Path(__file__).resolve().parent.parent
 PROJECTS = ROOT / "web" / "data" / "projects.json"
+CONNECTIONS = ROOT / "web" / "data" / "connections.json"
 OUT = ROOT / "scraper" / "url_check.json"
 UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) "
       "Chrome/128.0.0.0 Safari/537.36")
@@ -55,6 +56,49 @@ def urls_from(data: dict, websites: bool) -> dict[str, list[str]]:
             for url in (p.get("website"), p.get("developer_website")):
                 if url:
                     cited[url].append(p["id"])
+    return cited
+
+
+def evidence_urls() -> dict[str, list[str]]:
+    """Every other link the pages show: reputation evidence, court cases, registry cards, notices.
+
+    Search helpers (a Google query we build for the reader) are left out — there is nothing to
+    verify in them, and Google answers a script with a challenge anyway.
+    """
+    cited: dict[str, list[str]] = defaultdict(list)
+    def add(url, who):
+        if isinstance(url, str) and url.startswith("http") and "google.com/search" not in url:
+            cited[url].append(who)
+
+    for p in json.loads(PROJECTS.read_text())["projects"]:
+        for field in ("price_verification", "location_check", "stage_check"):
+            add((p.get(field) or {}).get("evidence_url"), p["id"])
+        r = (p.get("developer_rep") or {}).get("research") or {}
+        for e in r.get("legal_entities") or []:
+            add(e.get("source_url"), p["developer_group"])
+            add(e.get("registry_url"), p["developer_group"])
+        for group in ("notable_cases", "news_issues", "positives", "verify_links"):
+            for item in r.get(group) or []:
+                add(item.get("url"), p["developer_group"])
+
+    if CONNECTIONS.exists():
+        graph = json.loads(CONNECTIONS.read_text())
+        for n in graph["nodes"]:
+            for src in n.get("sources") or []:
+                add(src.get("url"), n["label"])
+            for c in n.get("cases") or []:
+                add(c.get("url"), n["label"])
+            bank = n.get("bankruptcy") or {}
+            for src in bank.get("sources") or []:
+                add(src.get("url"), n["label"])
+            add((bank.get("notice") or {}).get("url"), n["label"])
+            add(bank.get("confirmed_by"), n["label"])
+            for c in bank.get("cases") or []:
+                add(c.get("url"), n["label"])
+        for e in graph["edges"]:
+            add(e.get("evidence"), e.get("kind"))
+        for src in (graph.get("meta") or {}).get("sources") or []:
+            add(src.get("url"), "meta")
     return cited
 
 
@@ -184,6 +228,7 @@ def check(url: str, ctx: ssl.SSLContext, projects: list[dict] | None = None) -> 
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--content", action="store_true", help="also verify the page names the project it is cited for")
+    ap.add_argument("--links", action="store_true", help="check the evidence links instead: court cases, registry cards, notices")
     ap.add_argument("--websites", action="store_true", help="also check project and developer websites")
     ap.add_argument("--only", help="limit to URLs on this host")
     ap.add_argument("--recheck", action="store_true", help="ignore the cache and test everything again")
@@ -191,7 +236,7 @@ def main() -> int:
     args = ap.parse_args()
 
     data = json.loads(PROJECTS.read_text())
-    cited = urls_from(data, args.websites)
+    cited = evidence_urls() if args.links else urls_from(data, args.websites)
     cache = json.loads(OUT.read_text()) if OUT.exists() and not args.recheck else {}
     by_id = {p["id"]: p for p in data["projects"]}
     done_key = "content" if args.content else "verdict"

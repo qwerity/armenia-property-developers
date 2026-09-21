@@ -479,7 +479,7 @@ function renderCnPanel(node) {
   }
 
   const sources = [...(node.sources || []), ...(node.bankruptcy?.sources || [])].filter((s) => s.url);
-  const cases = node.bankruptcy?.cases || [];
+  const cases = [...(node.bankruptcy?.cases || []), ...(node.cases || [])];
   const t = document.createElement("div");
   t.className = "cn-kind";
   t.textContent = "Sources";
@@ -490,10 +490,14 @@ function renderCnPanel(node) {
     if (s.note) li.append(document.createTextNode(` — ${s.note}`));
     ul.append(li);
   }
+  const caseUrl = (k) => k.url || `https://datalex.am/?app=AppCaseSearch&case_number=${encodeURIComponent(k.case_number)}`;
   for (const k of cases) {
     const li = document.createElement("li");
-    li.append(k.url ? link(`Case ${k.case_number}`, k.url) : document.createTextNode(`Case ${k.case_number}`));
-    if (k.claimant) li.append(document.createTextNode(` — claimant: ${k.claimant}`));
+    const a = link(`Case ${k.case_number}`, caseUrl(k));
+    a.title = "Opens this case on datalex.am — the site asks for a captcha first";
+    li.append(a);
+    const note = [k.tab, k.filed, k.claimant && `claimant: ${k.claimant}`, k.why].filter(Boolean).join(" · ");
+    if (note) li.append(document.createTextNode(` — ${note}`));
     ul.append(li);
   }
   if (node.bankruptcy?.confirmed_by) {
