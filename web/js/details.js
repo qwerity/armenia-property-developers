@@ -50,10 +50,16 @@ function links(p) {
   add("Google Maps", `https://www.google.com/maps/search/?api=1&query=${p.lat},${p.lng}`);
   add("Street-level (Yandex)", `https://yandex.com/maps/?ll=${p.lng},${p.lat}&z=17&l=stv,sta&panorama[point]=${p.lng},${p.lat}`);
   for (const s of p.sources || []) {
-    if (!s.dead) { add(`Source: ${s.name}`, s.url); continue; }
-    // The link is still where the data came from, so it is shown — but marked, not presented as live.
-    items.push(`<a class="chip gone" href="${esc(safeUrl(s.url))}" target="_blank" rel="noopener"
-      title="This page was gone when checked on ${esc(s.checked)} (${esc(s.dead)})">Source: ${esc(s.name)} · page gone</a>`);
+    if (s.dead) {
+      // The link is still where the data came from, so it is shown — but marked, not presented as live.
+      items.push(`<a class="chip gone" href="${esc(safeUrl(s.url))}" target="_blank" rel="noopener"
+        title="This page was gone when checked on ${esc(s.checked)} (${esc(s.dead)})">Source: ${esc(s.name)} · page gone</a>`);
+    } else if (s.content === "mismatch" || s.content === "weak") {
+      items.push(`<a class="chip stale" href="${esc(safeUrl(s.url))}" target="_blank" rel="noopener"
+        title="Checked ${esc(s.checked)}: the page answers but does not name this project — it may have been renamed or replaced">Source: ${esc(s.name)} · check</a>`);
+    } else {
+      add(`Source: ${s.name}`, s.url);
+    }
   }
   return items.join("");
 }

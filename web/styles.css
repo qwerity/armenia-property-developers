@@ -295,3 +295,5 @@ gmp-place-details-compact { margin-top: 8px; width: 100%; color-scheme: light; }
 /* A source link whose page has since disappeared: kept as provenance, shown as no longer live. */
 .chip.gone { color: var(--muted); border-style: dashed; text-decoration: line-through; text-decoration-thickness: 1px; }
 .chip.gone:hover { color: var(--basalt-2); }
+/* A source link that still answers but no longer names this project. */
+.chip.stale { color: var(--basalt-2); border-style: dashed; }

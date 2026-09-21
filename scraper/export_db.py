@@ -115,7 +115,8 @@ CREATE TABLE project_sources (
   name       TEXT NOT NULL,
   url        TEXT,
   dead       TEXT,   -- missing | unreachable | blocked when the page no longer answered
-  checked    TEXT    -- date of that link check
+  content    TEXT,   -- mismatch | weak | script-rendered: what a content check of the page found
+  checked    TEXT    -- date of those link checks
 );
 CREATE INDEX ix_project_sources ON project_sources(project_id);
 
@@ -448,7 +449,8 @@ def child_rows(p: dict) -> dict[str, list[dict]]:
              for v in p.get(field) or []]
     return {
         "project_sources": [{"project_id": pid, "name": s.get("name"), "url": s.get("url"),
-                             "dead": s.get("dead"), "checked": s.get("checked")} for s in p.get("sources") or []],
+                             "dead": s.get("dead"), "content": s.get("content"),
+                             "checked": s.get("checked")} for s in p.get("sources") or []],
         "project_price_obs": [{"project_id": pid, "source": o.get("source"), "kind": o.get("kind"), "usd": o.get("usd"),
                                "amd": o.get("amd"), "usd_m2": o.get("usd_m2"), "raw": o.get("raw"),
                                "used": b(o.get("used")), "flags": js(o.get("flags"))} for o in p.get("price_obs") or []],

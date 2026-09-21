@@ -108,7 +108,7 @@ python3 scraper/pipeline.py status          # dataset health
 python3 scraper/pipeline.py crawl           # re-crawl sources
 python3 scraper/pipeline.py build           # rebuild projects.json + a change report
 python3 scraper/export_db.py                # rebuild the SQLite database
-python3 scraper/check_urls.py               # re-test every source URL and flag the dead ones
+python3 scraper/check_urls.py --content     # re-test every source URL and what the page shows
 python3 scraper/connections.py crawl        # rebuild the ownership graph (registry + court records)
 ```
 

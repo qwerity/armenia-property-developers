@@ -87,7 +87,10 @@ All keyed by `project_id`.
 - **`project_sources`** — every site this project was found on (`name`, `url`). Projects are merged
   across sources, so one project often has several. `dead` and `checked` record a link that no longer
   answered when `scraper/check_urls.py` last ran (`missing` = 404, `unreachable` = DNS/TLS/timeout,
-  `blocked` = the host refuses scripts); such links are kept as provenance, not deleted.
+  `blocked` = the host refuses scripts); such links are kept as provenance, not deleted. `content`
+  records what the page itself said: `mismatch` / `weak` when it answers but does not name this
+  project (usually a renamed or dropped page served as 200), `script-rendered` when the page builds
+  its content in the browser and a fetch cannot confirm it.
 - **`project_price_obs`** — every price seen, per source: `kind` (`m2` or `unit`), `usd`, `amd`,
   `usd_m2`, the raw string, `used` (1 = it fed the reconciled price), and `flags` (JSON) for
   parsing or disagreement warnings. This is the audit trail behind `projects.usd_m2_min`.

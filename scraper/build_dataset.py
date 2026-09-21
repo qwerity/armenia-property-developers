@@ -728,13 +728,23 @@ def apply_url_checks(projects: list[dict]) -> dict:
     for p in projects:
         for s in p.get("sources") or []:
             res = checks.get(s.get("url"))
-            if res and res["verdict"] != "ok":
+            s.pop("dead", None)
+            s.pop("checked", None)
+            s.pop("content", None)
+            if not res:
+                continue
+            s["checked"] = res["checked"]
+            if res["verdict"] != "ok":
                 s["dead"] = res["verdict"]
-                s["checked"] = res["checked"]
                 stats[res["verdict"]] += 1
-            else:
-                s.pop("dead", None)
-                s.pop("checked", None)
+            elif res.get("content") in ("mismatch", "weak"):
+                # The page answers, but never names this project: the site probably renamed or
+                # dropped it and serves something else. Worth showing, not worth trusting silently.
+                s["content"] = res["content"]
+                stats[f"content:{res['content']}"] += 1
+            elif res.get("content") == "empty":
+                s["content"] = "script-rendered"
+                stats["content:script-rendered"] += 1
         if p.get("source_url") and not alive(p["source_url"]):
             live = next((s["url"] for s in p.get("sources") or [] if s.get("url") and alive(s["url"])), None)
             if live:
